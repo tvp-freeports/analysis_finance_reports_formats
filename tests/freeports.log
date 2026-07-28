@@ -1,0 +1,22 @@
+======================================================================
+DEBUG from "_main_job", line 251 of /home/oreste/Public/tvp-freeports/analysis_finance_reports/src/freeports_analysis/main.py
+Starting job with configuration {'VERBOSITY': 5, 'N_WORKERS': 20, 'BATCH_FILE': None, 'SAVE_PDF': True, 'URL': None, 'PDF': PosixPath('ANIMA_SGR-IT24/4/report.pdf'), 'FORMAT': 'ANIMA_SGR-IT24', 'CONFIG_FILE': None, 'TARGET_LISTS': ['TEST'], 'PREFIX_OUT': None, 'OUT_PROFILE': <OutStructureNormalMode.REGULAR: 1>, 'OUT_FLAGS': <OutFlagsNormalMode: 0>, 'OUT_PATH': PosixPath('ANIMA_SGR-IT24/4/out')}
+======================================================================
+DEBUG from "_get_document", line 136 of /home/oreste/Public/tvp-freeports/analysis_finance_reports/src/freeports_analysis/main.py
+Local PDF file used ANIMA_SGR-IT24/4/report.pdf [ANIMA_SGR-IT24 format]
+======================================================================
+INFO from "_main_job", line 254 of /home/oreste/Public/tvp-freeports/analysis_finance_reports/src/freeports_analysis/main.py
+Starting decoding pdf to python dict...
+======================================================================
+DEBUG from "_main_job", line 256 of /home/oreste/Public/tvp-freeports/analysis_finance_reports/src/freeports_analysis/main.py
+End decoding pdf to python dict!
+======================================================================
+DEBUG from "_main_job", line 258 of /home/oreste/Public/tvp-freeports/analysis_finance_reports/src/freeports_analysis/main.py
+First 5 targets:
+                                      Name       Symbols                Buds                  Regexs
+Name                                                                                                
+AP Møller Mærsk           ap moller maersk      [MAERAC]    [maersk, moller]    [\bmaersk, \bmoller]
+Airbnb                              airbnb  [ABNB, AIRB]              [abnb]                [\babnb]
+Alphabet                          alphabet       [GOOGL]  [alphabet, google]  [\balphabet\b, google]
+Altice International  altice international            []            [altice]              [\baltice]
+Amazon                              amazon        [AMZN]            [amazon]            [\bamazon\b]
