@@ -3,7 +3,7 @@ from freeports_analysis.formats.utils.text_filter import TextFilterManagmentComp
 from freeports_analysis.formats.utils.deserialize import DeserializerManagmentCompanyStandard
 from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelection
 from freeports_analysis.formats.algorithms.commons import Pipeline
-from freeports_analysis.formats.templates import mediolanum_24
+import mediolanum_24
 
 compute_page_class = mediolanum_24.compute_page_class
 

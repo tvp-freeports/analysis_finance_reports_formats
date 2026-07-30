@@ -3,7 +3,7 @@ from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelect
 from freeports_analysis.formats.utils.pdf_extract import PdfExtractSfdrArticleStandard
 from freeports_analysis.formats.utils.text_filter import TextFilterSfdrArticleStandard
 from freeports_analysis.formats.utils.deserialize import DeserializeSfdrArticleStandard
-from freeports_analysis.formats.templates import mediolanum_24
+import mediolanum_24
 import re
 
 from . import fund_assets
