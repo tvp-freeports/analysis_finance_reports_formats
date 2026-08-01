@@ -1,16 +1,15 @@
 """Custom pdf filter for FINECO-EN23[IR] format"""
 
-from freeports_analysis.formats.utils.pdf_extract import (
+from freeports.utils.pdf_extract import (
     PdfExtractInvestmentsStandard, PdfExtractFundStandard
 )
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelection, pdflines_from_pagedict
-from freeports_analysis.formats.utils.pdf_extract.select_position import get_table_coordinates
-from freeports_analysis.formats.utils.text_filter.match import normalize_string, MatchFund
-from freeports_analysis.formats.utils.text_filter import ResultStandardFiltering
-from freeports_analysis.formats.utils.deserialize import DeserializerFundStandard
-from freeports_analysis.formats.algorithms.commons import Pipeline
-from freeports_analysis.formats.algorithms import PdfBlock,TextBlock
-from freeports_analysis import output
+from freeports.utils.pdf_extract.pdf_parts import PdfLineSelection, pdflines_from_pagedict
+from freeports.utils.pdf_extract.select_position import get_table_coordinates
+from freeports.utils.text_filter.match import normalize_string, MatchFund
+from freeports.utils.text_filter import ResultStandardFiltering
+from freeports.utils.deserialize import DeserializerFundStandard
+from freeports.core import PdfBlock,TextBlock, Pipeline
+from freeports._internals.output.classes_schema import Investment, InvestmentsManager 
 from enum import Enum,auto
 
 
@@ -34,7 +33,7 @@ def pdf_filter(page):
 
 
 def text_extract(blks,filter_data):
-    filter_funds = set(MatchFund(name=n.fund) for n in filter(lambda x: isinstance(x,output.Investment),filter_data))
+    filter_funds = set(MatchFund(name=n.fund) for n in filter(lambda x: isinstance(x,Investment),filter_data))
     funds = [b.content for b in blks if b.metadata["table-col"]==0]
     inv_man = [b.content for b in blks if b.metadata["table-col"]==2]
     inv_managers={}
@@ -58,7 +57,7 @@ def text_extract(blks,filter_data):
 
 def deserialize(blk):
     if blk.type_block == BlockType.INV_MAN:
-        return output.InvestmentsManager(
+        return InvestmentsManager(
             name=blk.content,
             managed_funds=blk.metadata["funds"]
         )

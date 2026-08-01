@@ -1,11 +1,11 @@
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelection,pdflines_from_pagedict
-from freeports_analysis.formats.utils.pdf_extract import OnePdfBlockType
-from freeports_analysis.formats.utils.text_filter import OneTextBlockType
-from freeports_analysis.formats.utils.text_filter.match import MatchFund
-from freeports_analysis.formats.utils.pdf_extract.select_position import get_table_coordinates,get_groups
-from freeports_analysis.formats import PdfBlock,TextBlock
-from freeports_analysis.formats.utils.deserialize import deserialize_block_type, to_date_with_en_month
-from freeports_analysis.output import FundRename,Fund,Promise,FundMerge
+from freeports.utils.pdf_extract import PdfLineSelection,pdflines_from_pagedict
+from freeports.interfaces.pdf_blks import OnePdfBlockType
+from freeports.interfaces.text_blks import OneTextBlockType
+from freeports.utils.text_filter import MatchFund
+from freeports.utils.pdf_extract import get_table_coordinates,get_groups
+from freeports.core import PdfBlock,TextBlock,Promise
+from freeports.utils.deserialize import deserialize_block_type,to_date_with_en_month
+from freeports.output import FundRename,Fund,FundMerge
 import datetime
 import re
 from enum import Enum,auto

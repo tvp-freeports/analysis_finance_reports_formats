@@ -3,44 +3,44 @@
 import logging as log
 from typing import List, TypeAlias
 import re
-from freeports_analysis.formats.algorithms.commons import Pipeline
-from freeports_analysis.output import Fund, FundMerge
-from freeports_analysis.formats.utils.pdf_extract import (
-    OnePdfBlockType,
+from freeports.core import Pipeline, PdfBlock, TextBlock
+from freeports.output import Fund, FundMerge
+from freeports.standard_funcs.pdf_extract import (
+    PdfExtractAssetsStandard,
     PdfExtractInvestmentsStandard,
     PdfExtractCurrencyStandard,
     PdfExtractFundStandard,
     PdfExtractManagmentCompanyStandard,
     PdfExtractSfdrArticleStandard
 )
-from freeports_analysis.formats.utils.text_filter import (
-    OneTextBlockType,
-    ResultStandardFiltering,
-    TextFilterManagmentCompanyStandard,
+from freeports.interfaces.pdf_blks import (
+    OnePdfBlockType,
 )
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import (
+from freeports.interfaces.text_blks import (
+    OneTextBlockType,
+    ResultStandardFiltering
+)
+from freeports.standard_funcs.text_filter import (
+    TextFilterManagmentCompanyStandard,
+    TextFilterAssetsStandard,
+    TextFilterSfdrArticleStandard
+)
+from freeports.utils.pdf_extract import (
     PdfLineSelection,
     pdflines_from_pagedict,
+    get_groups
 )
-from freeports_analysis.formats.utils.pdf_extract.select_position import get_groups
-from freeports_analysis.formats.utils.deserialize import (
+from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerFromManco,
-)
-from freeports_analysis.formats.algorithms import PdfBlock, TextBlock
-
-
-from freeports_analysis.formats.utils.deserialize import to_int
-from freeports_analysis.formats.utils.pdf_extract import PdfExtractAssetsStandard
-from freeports_analysis.formats.utils.text_filter import TextFilterAssetsStandard
-from freeports_analysis.formats.utils.deserialize import (
     DeserializeAssetsStandard,
+    DeserializeSfdrArticleStandard
+)
+from freeports.utils.deserialize import (
+    to_int
     to_date_with_en_month,
 )
-from freeports_analysis.formats.utils.text_filter import TextFilterSfdrArticleStandard
-from freeports_analysis.formats.utils.deserialize import DeserializeSfdrArticleStandard
-from freeports_analysis.formats.utils.text_filter.match import MatchFund
-from freeports_analysis.output import Fund, FundMerge
+from freeports.utils.text_filter import MatchFund
 
 logger = log.getLogger(__name__)
 

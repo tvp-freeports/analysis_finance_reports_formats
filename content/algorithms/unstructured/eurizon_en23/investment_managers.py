@@ -1,28 +1,27 @@
-from freeports_analysis.formats.utils.pdf_extract import (
+from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractPageClassifyStandard,
     PdfExtractManagmentCompanyStandard
 )
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import (
+from freeports.utils.pdf_extract import (
     pdflines_from_pagedict,
     PdfLineSelection
 )
-from freeports_analysis.formats.utils.text_filter.match import normalize_string
-from freeports_analysis.formats.algorithms.commons import Pipeline
-from freeports_analysis.formats.algorithms import PdfBlock, TextBlock
-from freeports_analysis.formats.utils.text_filter import (
+from freeports.utils.text_filter import normalize_string,MatchFund
+from freeports.core import Pipeline, PdfBlock, TextBlock
+from freeports.standard_funcs.text_filter import TextFilterManagmentCompanyStandard
+from freeports.interfaces.text_blks import (
     ResultStandardFiltering,
-    TextFilterManagmentCompanyStandard,
     StandardInvestmentsMangerTextBlock,
     StandardFundTextBlock
 )
-from freeports_analysis.formats.utils.text_filter.match import MatchFund
-from freeports_analysis.formats.utils.deserialize import (
+from freeports.standard_funcs.deserialize import (
     DeserializerFundStandard,
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerStandard
 )
-from freeports_analysis import output
+from freeports._internals.output.classes_schema import Investment,InvestmentsManager
+
 import logging
 from enum import Enum, auto
 
@@ -149,7 +148,7 @@ pdf_extract_manco = PdfExtractManagmentCompanyStandard(
 def text_filter_inv_managers(blocks, results):
 
     inv_funds = set(
-        MatchFund(name=n.fund) for n in filter(lambda x: isinstance(x, output.Investment), results)
+        MatchFund(name=n.fund) for n in filter(lambda x: isinstance(x, Investment), results)
     )
 
     final = []
@@ -179,9 +178,9 @@ def text_filter_inv_managers(blocks, results):
 
 def text_filter_inv_managers_begin(blocks, results):
     filter_funds = set(
-        MatchFund(name=n.fund) for n in filter(lambda x: isinstance(x, output.Investment), results)
+        MatchFund(name=n.fund) for n in filter(lambda x: isinstance(x, Investment), results)
     )
-    inv_managers = set(filter(lambda x: isinstance(x, output.InvestmentsManager), results))
+    inv_managers = set(filter(lambda x: isinstance(x, InvestmentsManager), results))
     a_subfunds = set([f for inv in inv_managers for f in inv.managed_funds])
     residual_funds = filter_funds - a_subfunds
 

@@ -1,13 +1,12 @@
 """Custom pdf filter for FINECO-EN23[IR] format"""
 
-from freeports_analysis.formats.utils.pdf_extract import (
+from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard, PdfExtractFundStandard, PdfExtractCurrencyStandard
 )
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelection, pdflines_from_pagedict
-from freeports_analysis.formats.utils.pdf_extract.select_position import get_table_coordinates
-from freeports_analysis.formats.utils.text_filter.match import normalize_string
-from freeports_analysis.formats.utils.text_filter import ResultStandardFiltering
-from freeports_analysis.formats.utils.deserialize import DeserializerFundStandard
+from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict, get_table_coordinates
+from freeports.utils.text_filter import normalize_string
+from freeports.interfaces.text_blks import ResultStandardFiltering
+from freeports.standard_funcs.deserialize import DeserializerFundStandard
 
 from enum import Enum,auto
 

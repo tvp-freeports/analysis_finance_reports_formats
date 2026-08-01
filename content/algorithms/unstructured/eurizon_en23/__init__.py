@@ -1,9 +1,14 @@
-from freeports_analysis.formats.algorithms.commons import Pipeline
-from freeports_analysis.formats import PdfBlock
-from freeports_analysis.formats.utils.pdf_extract import PdfExtractSfdrArticleStandard,PdfExtractPageClassifyStandard,ResultStandardExtraction
-from freeports_analysis.formats.utils.text_filter import TextFilterSfdrArticleStandard
-from freeports_analysis.formats.utils.deserialize import DeserializeSfdrArticleStandard
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelection,pdflines_from_pagedict
+from freeports.core import (
+    Pipeline,PdfBlock
+)
+from freeports.standard_funcs.pdf_extract import (
+    PdfExtractSfdrArticleStandard,
+    PdfExtractPageClassifyStandard
+)
+from freeports.interfaces.pdf_blks import ResultStandardExtraction
+from freeports.standard_funcs.text_filter import TextFilterSfdrArticleStandard
+from freeports.standard_funcs.deserialize import DeserializeSfdrArticleStandard
+from freeports.utils.pdf_extract import PdfLineSelection,pdflines_from_pagedict
 from . import fund_assets
 from . import investment_managers
 from . import merging

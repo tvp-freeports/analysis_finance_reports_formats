@@ -1,8 +1,8 @@
-from freeports_analysis.formats.utils.pdf_extract import PdfExtractAssetsStandard
-from freeports_analysis.formats.utils.text_filter import TextFilterAssetsStandard
-from freeports_analysis.formats.utils.deserialize import DeserializeAssetsStandard
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelection
-from freeports_analysis.formats.utils.deserialize import to_float
+from freeports.standard_funcs.pdf_extract import PdfExtractAssetsStandard
+from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
+from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
+from freeports.utils.pdf_extract import PdfLineSelection
+from freeports.utils.deserialize import to_float
 
 
 condition_text = PdfLineSelection(
@@ -25,4 +25,4 @@ pdf_extract = PdfExtractAssetsStandard(
     net_assets_mult=(100.0, 1.02),
 )
 text_filter = TextFilterAssetsStandard()
-deserialize = DeserializeAssetsStandard(num_converter=to_float)
+deserialize = DeserializerAssetsStandard(num_converter=to_float)

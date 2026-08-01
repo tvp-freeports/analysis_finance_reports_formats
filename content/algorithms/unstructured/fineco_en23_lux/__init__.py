@@ -2,11 +2,11 @@
 
 import re
 
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelection
-from freeports_analysis.formats.utils.pdf_extract import PdfExtractSfdrArticleStandard
-from freeports_analysis.formats.utils.text_filter import TextFilterSfdrArticleStandard
-from freeports_analysis.formats.utils.deserialize import DeserializeSfdrArticleStandard
-from freeports_analysis.formats.algorithms.commons import Pipeline
+from freeports.utils.pdf_extract import PdfLineSelection
+from freeports.standard_funcs.pdf_extract import PdfExtractSfdrArticleStandard
+from freeports.standard_funcs.text_filter import TextFilterSfdrArticleStandard
+from freeports.standard_funcs.deserialize import DeserializeSfdrArticleStandard
+from freeports.core import Pipeline
 
 from . import inv_managers
 from . import fund_assets

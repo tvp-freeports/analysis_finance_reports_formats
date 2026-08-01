@@ -1,28 +1,27 @@
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import (
-    PdfLineSelection,
-    pdflines_from_pagedict,
-)
-from freeports_analysis.formats.utils.pdf_extract import OnePdfBlockType, PdfBlock
-from freeports_analysis.formats.utils.text_filter import (
-    OneTextBlockType,
-    investment_fund_filter_data,
-)
-from freeports_analysis.formats.utils.text_filter.match import MatchFund
-from freeports_analysis.formats.utils.pdf_extract.select_position import (
-    get_table_coordinates,
-    TablePosAlgorithm,
-)
-from freeports_analysis.consts import Promise
-from freeports_analysis.formats import PdfBlock, TextBlock
-from freeports_analysis.output import (
-    FundSfdrClassification,
-    FundEsgIndicator,
-    Investment,
-)
-from freeports_analysis.match import MatchFund
 import datetime
 import re
 from enum import Enum, auto
+
+from freeports.utils.pdf_extract import (
+    PdfLineSelection,
+    pdflines_from_pagedict,
+)
+from freeports.core import PdfBlock,TextBlock,Promise
+from freeports.interfaces.pdf_blks import OnePdfBlockType
+from freeports.interfaces.text_blks import OneTextBlockType
+from freeports.utils.text_filter import (
+    investment_fund_filter_data,
+)
+from freeports.utils.text_filter import MatchFund
+from freeports.utils.pdf_extract import (
+    get_table_coordinates,
+    TablePosAlgorithm,
+)
+from freeports.output import (
+    FundSfdrClassification,
+    FundEsgIndicator,
+)
+
 
 
 def get_page(lines):

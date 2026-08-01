@@ -1,8 +1,8 @@
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelection
-from freeports_analysis.formats.utils.deserialize import to_int
-from freeports_analysis.formats.utils.pdf_extract import PdfExtractAssetsStandard
-from freeports_analysis.formats.utils.text_filter import TextFilterAssetsStandard
-from freeports_analysis.formats.utils.deserialize import DeserializeAssetsStandard
+from freeports.utils.pdf_extract import PdfLineSelection
+from freeports.utils.deserialize import to_int
+from freeports.standard_funcs.pdf_extract import PdfExtractAssetsStandard
+from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
+from freeports.standard_funcs.deserialize import DeserializeAssetsStandard
 
 
 x0 = PdfLineSelection(font="arialnarrow-bold", font_size=(8.9, 9.1), text="Notes")
