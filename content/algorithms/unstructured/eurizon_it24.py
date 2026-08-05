@@ -1,43 +1,40 @@
 """Unstructured module for EURIZON-IT24"""
 
-from freeports_analysis.formats.utils.pdf_extract import (
+from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractCurrencyConstant,
     PdfExtractFundStandard,
+    PdfExtractSfdrArticleStandard,
     ExtractTextPdfBlockOrFailPage,
-    OnePdfBlockType,
 )
-from freeports_analysis.formats.algorithms.commons import Pipeline
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import (
+from freeports.interfaces.pdf_blks import OnePdfBlockType
+from freeports.core import Pipeline
+from freeports.utils.pdf_extract import (
     PdfLineSelection,
     pdflines_from_pagedict,
-)
-from freeports_analysis.formats.utils.pdf_extract import PdfExtractSfdrArticleStandard
-from freeports_analysis.formats.utils.text_filter import (
-    TextFilterSfdrArticleStandard,
-    OneTextBlockType,
-    investment_fund_filter_data,
-)
-from freeports_analysis.formats.utils.deserialize import DeserializeSfdrArticleStandard
-from freeports_analysis.formats.utils.pdf_extract.select_position import (
     get_groups,
     get_table_coordinates,
     TablePosAlgorithm,
 )
-from freeports_analysis.formats.utils.text_filter.match import MatchFund
-from freeports_analysis.formats.utils.text_filter import (
+from freeports.standard_funcs.text_filter import (
+    TextFilterSfdrArticleStandard,
+    investment_fund_filter_data,
     StandardManagmentCompanyTextBlock,
 )
-from freeports_analysis.formats.utils.deserialize import (
+from freeports.interfaces.text_blks import OneTextBlockType
+from freeports.standard_funcs.deserialize import (
+    DeserializeSfdrArticleStandard,
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerFromManco,
-    to_date_with_it_month,
     deserialize_block_type,
 )
-from freeports_analysis.consts import Currency, Promise, SfdrArticle
-from freeports_analysis.match import MatchFund
-from freeports_analysis.formats import PageParseFail, PdfBlock, TextBlock
-from freeports_analysis.output import (
+from freeports.utils.deserialize import to_date_with_it_month
+from freeports.utils.text_filter import MatchFund
+from freeports.consts import Currency, SfdrArticle
+from freeports.core import Promise
+from freeports._internals.core.classes import PageParseFail
+from freeports.core import PdfBlock, TextBlock
+from freeports.output import (
     Fund,
     FundMerge,
     FundRename,

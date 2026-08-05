@@ -20,7 +20,7 @@ from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerStandard
 )
-from freeports._internals.output.classes_schema import Investment,InvestmentsManager
+from freeports.output import Investment, InvestmentsManager
 
 import logging
 from enum import Enum, auto

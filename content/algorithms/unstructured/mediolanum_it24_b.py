@@ -1,14 +1,13 @@
 """MEDIOLANUM_IT24_B format submodule"""
 
-from freeports_analysis.formats.utils.pdf_extract import (
+from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractFundStandard,
     PdfExtractCurrencyConstant,
-    PdfLineSelection,
-    pdflines_from_pagedict,
 )
-from freeports_analysis.formats.algorithms.commons import Pipeline
-from freeports_analysis.consts import Currency
+from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict
+from freeports.core import Pipeline
+from freeports.consts import Currency
 
 
 def pdf_extract(dict_root):

@@ -1,44 +1,39 @@
 """KAIROS-EN23 format submodule"""
 
 import re
-from freeports_analysis.formats.utils.text_filter import (
+from freeports.standard_funcs.text_filter import (
     TextFilterInvestmentsStandard,
     TextFilterManagmentCompanyStandard,
-    ResultStandardFiltering,
-    OneTextBlockType,
-    TextFilterAssetsStandard,
-)
-from freeports_analysis.formats.utils.pdf_extract import (
-    PdfExtractManagmentCompanyStandard,
-    OnePdfBlockType,
-    PdfExtractAssetsStandard,
-)
-from freeports_analysis.formats.utils.deserialize import (
-    DeserializerManagmentCompanyStandard,
-    DeserializeAssetsStandard,
-    to_int_en_month,
-    to_float,
-    DeserializerInvestmentsManagerFromManco,
-)
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import (
-    PdfLineSelection,
-    pdflines_from_pagedict,
-)
-from freeports_analysis.formats.utils.pdf_extract import PdfExtractSfdrArticleStandard
-from freeports_analysis.formats.utils.text_filter import (
     TextFilterSfdrArticleStandard,
+    TextFilterAssetsStandard,
+    ResultStandardFiltering,
     investment_fund_filter_data,
 )
-from freeports_analysis.formats.utils.deserialize import DeserializeSfdrArticleStandard
-from freeports_analysis.formats.utils.pdf_extract.select_position import (
+from freeports.interfaces.text_blks import OneTextBlockType
+from freeports.standard_funcs.pdf_extract import (
+    PdfExtractManagmentCompanyStandard,
+    PdfExtractAssetsStandard,
+    PdfExtractSfdrArticleStandard,
+)
+from freeports.interfaces.pdf_blks import OnePdfBlockType
+from freeports.standard_funcs.deserialize import (
+    DeserializerManagmentCompanyStandard,
+    DeserializeAssetsStandard,
+    DeserializerInvestmentsManagerFromManco,
+    DeserializeSfdrArticleStandard,
+)
+from freeports.utils.deserialize import to_int_en_month, to_float
+from freeports.utils.pdf_extract import (
+    PdfLineSelection,
+    pdflines_from_pagedict,
     get_groups,
     get_table_coordinates,
     TablePosAlgorithm,
 )
-from freeports_analysis.formats.utils.text_filter.match import MatchFund
-from freeports_analysis.formats.algorithms.commons import Pipeline
-from freeports_analysis.formats import TextBlock, PdfBlock
-from freeports_analysis.output import (
+from freeports.utils.text_filter import MatchFund
+from freeports.core import Pipeline
+from freeports.core import TextBlock, PdfBlock
+from freeports.output import (
     FundRename,
     FundMerge,
     Fund,
@@ -46,7 +41,7 @@ from freeports_analysis.output import (
     FundEsgIndicator,
     Investment,
 )
-from freeports_analysis.consts import SfdrArticle
+from freeports.consts import SfdrArticle
 import datetime
 
 market_value_regex = re.compile(r"(([0-9]+,)?[0-9]+,?[0-9]+\.[0-9]{2}) ")

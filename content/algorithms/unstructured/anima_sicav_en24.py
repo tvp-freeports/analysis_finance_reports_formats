@@ -1,10 +1,9 @@
 """ANIMA_SICAV-EN24 format submodule"""
 
 import re
-from freeports_analysis.formats.utils.pdf_extract import ResultStandardExtraction
-from freeports_analysis.formats.utils.text_filter import TextFilterInvestmentsStandard, ResultStandardFiltering
-from freeports_analysis.formats.utils.text_filter import PdfBlocksTable
-from freeports_analysis.formats.algorithms.commons import Pipeline
+from freeports.interfaces.pdf_blks import ResultStandardExtraction
+from freeports.standard_funcs.text_filter import TextFilterInvestmentsStandard, ResultStandardFiltering, PdfBlocksTable
+from freeports.core import Pipeline
 
 market_value_regex = re.compile(r"(([0-9]+,)?[0-9]+,?[0-9]+\.[0-9]{2}) ")
 # non sono sicuro di come ho riscritto questa regex e a cosa servivano le parentesi

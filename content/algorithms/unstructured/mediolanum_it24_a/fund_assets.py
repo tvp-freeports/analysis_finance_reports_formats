@@ -1,32 +1,31 @@
-from freeports_analysis.formats.algorithms import PdfBlock, TextBlock
-from freeports_analysis.formats.utils.pdf_extract import (
-    OnePdfBlockType,
+from freeports.core import PdfBlock, TextBlock
+from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
+from freeports.standard_funcs.pdf_extract import (
     PdfExtractAssetsStandard,
     PdfExtractCurrencyStandard,
-    ResultStandardExtraction,
 )
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import (
+from freeports.utils.pdf_extract import (
     PdfLineSelection,
     pdflines_from_pagedict,
-)
-from freeports_analysis.formats.utils.pdf_extract.select_position import (
     get_table_coordinates,
 )
-from freeports_analysis.formats.utils.text_filter import (
+from freeports.standard_funcs.text_filter import (
     TextFilterAssetsStandard,
-    OneTextBlockType,
     extract_currency_from_text,
 )
-from freeports_analysis.formats.utils.deserialize import (
+from freeports.interfaces.text_blks import OneTextBlockType
+from freeports.standard_funcs.deserialize import (
     DeserializeAssetsStandard,
+)
+from freeports.utils.deserialize import (
     to_int,
     to_currency,
     to_int_en_month,
     to_date_with_it_month,
 )
-from freeports_analysis.consts import Currency
-from freeports_analysis.output import Fund, FundAssets
-from freeports_analysis.formats.utils.text_filter.match import MatchFund
+from freeports.consts import Currency
+from freeports.output import Fund, FundAssets
+from freeports.utils.text_filter import MatchFund
 import datetime
 
 

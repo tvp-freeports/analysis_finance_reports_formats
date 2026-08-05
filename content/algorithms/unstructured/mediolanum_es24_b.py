@@ -7,26 +7,23 @@ which handles Spanish financial documents with specific layout characteristics.
 from typing import List, Optional, Any
 from enum import auto, Enum
 from lxml import etree
-from freeports_analysis.formats.algorithms.commons import Pipeline
-from freeports_analysis.formats.utils.pdf_extract import (
+from freeports.core import Pipeline
+from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractPageClassifyStandard,
     PdfExtractFundStandard,
     PdfExtractCurrencyConstant,
-    ResultStandardExtraction
 )
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import (
+from freeports.interfaces.pdf_blks import ResultStandardExtraction
+from freeports.utils.pdf_extract import (
     PdfLineSelection,
     pdflines_from_pagedict,
 )
-from freeports_analysis.formats.utils.text_filter import TextFilterInvestmentsStandard,ResultStandardFiltering
-from freeports_analysis.formats.utils.deserialize import DeserializerInvestmentStandard, deserialize_block_types
-from freeports_analysis.consts import (
-    Promise,
-    Currency,
-    PromisesResolutionContext,
-)
-from freeports_analysis.output import Fund
+from freeports.standard_funcs.text_filter import TextFilterInvestmentsStandard, ResultStandardFiltering
+from freeports.standard_funcs.deserialize import DeserializerInvestmentStandard, deserialize_block_types
+from freeports.consts import Currency
+from freeports.core import Promise
+from freeports.output import Fund
 from .. import PdfBlock, TextBlock
 
 

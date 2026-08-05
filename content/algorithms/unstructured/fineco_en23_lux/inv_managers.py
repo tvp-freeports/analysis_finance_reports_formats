@@ -1,25 +1,25 @@
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import (
+from freeports.utils.pdf_extract import (
     pdflines_from_pagedict,
     PdfLineSelection,
+    get_groups,
 )
-from freeports_analysis.formats.utils.pdf_extract import (
+from freeports.standard_funcs.pdf_extract import (
     PdfExtractManagmentCompanyStandard,
 )
-from freeports_analysis.formats.algorithms import PdfBlock, TextBlock
-from freeports_analysis.formats.utils.text_filter import (
+from freeports.core import PdfBlock, TextBlock
+from freeports.interfaces.text_blks import (
     ResultStandardFiltering,
     StandardManagmentCompanyTextBlock,
     StandardInvestmentsMangerTextBlock,
     StandardFundTextBlock
 )
-from freeports_analysis.formats.utils.text_filter import match
-from freeports_analysis.formats.utils.pdf_extract.select_position import get_groups
-from freeports_analysis.formats.utils.deserialize import (
+from freeports.utils.text_filter import MatchFund
+from freeports.standard_funcs.deserialize import (
     DeserializerFundStandard,
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerStandard
 )
-from freeports_analysis import output
+from freeports.output import Fund, InvestmentsManager
 from enum import Enum, auto
 
 
@@ -62,8 +62,8 @@ pdf_extract_manco = PdfExtractManagmentCompanyStandard(
 def text_filter(pdf_blocks, filter_data):
     subfunds = set(
         map(
-            lambda x: match.MatchFund(x.name),
-            filter(lambda x: isinstance(x, output.Fund), filter_data),
+            lambda x: MatchFund(x.name),
+            filter(lambda x: isinstance(x, Fund), filter_data),
         )
     )
     blocks = []
@@ -114,10 +114,10 @@ def text_filter(pdf_blocks, filter_data):
                         "and", ","
                     )
                     current_funds = set(
-                        (
-                            match.MatchFund(name=s.strip())
-                            for s in current_funds_text.split(",")
-                        )
+                (
+                    MatchFund(name=s.strip())
+                    for s in current_funds_text.split(",")
+                )
                     )
                     current_funds_text = ""
                 else:

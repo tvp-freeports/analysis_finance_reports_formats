@@ -1,34 +1,32 @@
-from freeports_analysis.formats.utils.pdf_extract import (
+from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractPageClassifyStandard,
-    ResultStandardExtraction
 )
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import (
+from freeports.interfaces.pdf_blks import ResultStandardExtraction
+from freeports.utils.pdf_extract import (
     pdflines_from_pagedict,
     PdfLineSelection,
-)
-from freeports_analysis.formats.algorithms.commons import Pipeline
-from freeports_analysis.formats.algorithms import PdfBlock,TextBlock
-from freeports_analysis.formats.utils.text_filter import (
-    ResultStandardFiltering,
-    StandardManagmentCompanyTextBlock,
-    StandardInvestmentsMangerTextBlock,
-    StandardFundTextBlock
-)
-from freeports_analysis.formats.utils.text_filter.match import MatchFund
-from freeports_analysis.formats.utils.deserialize import (
-    DeserializerFundStandard,
-    DeserializerManagmentCompanyStandard,
-    DeserializerInvestmentsManagerStandard
-)
-from freeports_analysis.formats.utils.pdf_extract.select_position import (
     TableConfig,
     ColumnConfig,
     get_table_coordinates,
     TablePosAlgorithm,
     get_groups
 )
-from freeports_analysis import output
+from freeports.core import Pipeline
+from freeports.core import PdfBlock, TextBlock
+from freeports.interfaces.text_blks import (
+    ResultStandardFiltering,
+    StandardManagmentCompanyTextBlock,
+    StandardInvestmentsMangerTextBlock,
+    StandardFundTextBlock
+)
+from freeports.utils.text_filter import MatchFund
+from freeports.standard_funcs.deserialize import (
+    DeserializerFundStandard,
+    DeserializerManagmentCompanyStandard,
+    DeserializerInvestmentsManagerStandard
+)
+from freeports.output import Fund, InvestmentsManager
 
 l=190.0
 r=1e6
@@ -140,14 +138,14 @@ def text_filter_with_subfunds(blocks,subfunds):
     return res
 
 def text_filter(blocks, results):
-    funds = set(map(lambda x: MatchFund(x.name),filter(lambda x: isinstance(x,output.Fund),results)))
+    funds = set(map(lambda x: MatchFund(x.name),filter(lambda x: isinstance(x,Fund),results)))
     return text_filter_with_subfunds(blocks,funds)
 
 
 
 def text_filter_begin_page(blocks, results):
-    filter_funds = set(map(lambda x: MatchFund(x.name),filter(lambda x: isinstance(x,output.Fund),results)))
-    inv_managers = list(filter(lambda x: isinstance(x,output.InvestmentsManager),results))
+    filter_funds = set(map(lambda x: MatchFund(x.name),filter(lambda x: isinstance(x,Fund),results)))
+    inv_managers = list(filter(lambda x: isinstance(x,InvestmentsManager),results))
     a_subfunds = set([f for inv in inv_managers for f in inv.managed_funds])
     residual_funds = filter_funds - a_subfunds
 
@@ -157,8 +155,8 @@ def text_filter_begin_page(blocks, results):
 
     res_inv = text_filter_with_subfunds(inv_blocks,filter_funds)
     res_manco = text_filter_with_subfunds(manco_blocks,filter_funds)
-    additional_a_subfunds=set([MatchFund(name=s) for inv in res_inv if isinstance(inv,output.InvestmentsManager) for s in inv.metadata["funds"]])
-    additional_manco_subfunds=set([MatchFund(name=s) for inv in res_manco if isinstance(inv,output.InvestmentsManager) for s in inv.metadata["funds"]])
+    additional_a_subfunds=set([MatchFund(name=s) for inv in res_inv if isinstance(inv,InvestmentsManager) for s in inv.metadata["funds"]])
+    additional_manco_subfunds=set([MatchFund(name=s) for inv in res_manco if isinstance(inv,InvestmentsManager) for s in inv.metadata["funds"]])
 
     funds_manco=residual_funds - additional_a_subfunds - additional_manco_subfunds
 

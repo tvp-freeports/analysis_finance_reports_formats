@@ -7,11 +7,12 @@ import yaml
 from pytest import Collector, Function, Item, Directory
 from pymupdf import Document
 from abc import ABC,abstractclassmethod
-from freeports_analysis.formats.data import VALID_FORMATS
-from freeports_analysis.formats.algorithms import Algorithm
-from freeports_analysis.data import get_target_companies
-from freeports_analysis.main import main as run_analysis
-from freeports_analysis.conf_parse import (
+from freeports._internals.formats.repo.metadata import get_formats
+VALID_FORMATS = set(get_formats(Path(__file__).parent.parent / "metadata").index)
+from freeports._internals.formats.repo.algorithms.definitions import Algorithm
+from freeports._internals.input.companies_db import get_target_companies
+from freeports._internals.cli.main import main as run_analysis
+from freeports._internals.cli.conf_parse import (
     OutStructureNormalMode,
     OutFlagsNormalMode,
     FreeportsFileConfig,

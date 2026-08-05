@@ -7,7 +7,7 @@ from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict
 from freeports.interfaces.text_blks import ResultStandardFiltering, StandardManagmentCompanyTextBlock
 from freeports.standard_funcs.deserialize import DeserializerManagmentCompanyStandard
 from freeports.core import PdfBlock,TextBlock,Pipeline
-from freeports._internals.output.classes_schema import Interest,InvestmentsManager
+from freeports.output import Investment, InvestmentsManager
 from freeports.utils.text_filter import MatchFund
 from enum import Enum,auto
 

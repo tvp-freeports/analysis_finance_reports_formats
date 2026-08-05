@@ -1,26 +1,26 @@
 """CANE-EN23 custom functions"""
 
-from freeports_analysis.formats.utils.pdf_extract import (
+from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractCurrencyStandard,
     PdfExtractFundStandard,
     PdfExtractManagmentCompanyStandard,
     PdfExtractAssetsStandard,
 )
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import (
+from freeports.utils.pdf_extract import (
     pdfline_selection_from_str,
     PdfLineSelection,
 )
-from freeports_analysis.formats.utils.text_filter import (
+from freeports.standard_funcs.text_filter import (
     TextFilterManagmentCompanyStandard,
     TextFilterAssetsStandard,
 )
-from freeports_analysis.formats.utils.deserialize import (
+from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
     DeserializeAssetsStandard,
-    to_float,
 )
-from freeports_analysis.formats.algorithms.commons import Pipeline
+from freeports.utils.deserialize import to_float
+from freeports.core import Pipeline
 
 subfund_set = PdfLineSelection(
     font="ArialMT", font_size=(6.95, 6.97)

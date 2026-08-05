@@ -1,18 +1,10 @@
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import pdflines_from_pagedict
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelection
-from freeports_analysis.formats.algorithms import PdfBlock,TextBlock
-from freeports_analysis.formats.utils.pdf_extract import OnePdfBlockType
-from freeports_analysis.formats.utils.text_filter import OneTextBlockType,investment_fund_filter_data
-from freeports_analysis.match import MatchFund
-from freeports_analysis.formats.utils.pdf_extract.select_position import (
-    get_table_coordinates,
-    ColumnConfig,
-    SplittingState,
-    RowConfig,
-    TableConfig,
-    TablePosAlgorithm,
-)
-from freeports_analysis.output import FundEsgIndicator
+from freeports.utils.pdf_extract import pdflines_from_pagedict, PdfLineSelection, get_table_coordinates, TableConfig, ColumnConfig, RowConfig, SplittingState, TablePosAlgorithm
+from freeports.core import PdfBlock, TextBlock
+from freeports.interfaces.pdf_blks import OnePdfBlockType
+from freeports.standard_funcs.text_filter import investment_fund_filter_data
+from freeports.interfaces.text_blks import OneTextBlockType
+from freeports.utils.text_filter import MatchFund
+from freeports.output import FundEsgIndicator
 import re
 
 

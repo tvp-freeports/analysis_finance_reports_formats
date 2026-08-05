@@ -1,30 +1,29 @@
 """MEDIOLLANUM_ES24_A format submodule"""
 
 from lxml import etree
-from freeports_analysis.formats import TextBlock,PdfBlock
-from freeports_analysis.formats.utils.pdf_extract import (
+from freeports.core import TextBlock, PdfBlock
+from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractPageClassifyStandard,
     PdfExtractCurrencyStandard,
     PdfExtractFundStandard,
     PdfExtractManagmentCompanyStandard,
-    ResultStandardExtraction
 )
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import pdflines_from_pagedict
-from freeports_analysis.formats.utils.text_filter import (
+from freeports.interfaces.pdf_blks import ResultStandardExtraction
+from freeports.utils.pdf_extract import pdflines_from_pagedict, PdfLineSelection
+from freeports.standard_funcs.text_filter import (
     TextFilterPageClassifyStandard,
     TextFilterManagmentCompanyStandard,
-    StandardInvestmentsMangerTextBlock
 )
-from freeports_analysis.formats.utils.text_filter.match import MatchFund
-from freeports_analysis.formats.utils.deserialize import (
+from freeports.interfaces.text_blks import StandardInvestmentsMangerTextBlock
+from freeports.utils.text_filter import MatchFund
+from freeports.standard_funcs.deserialize import (
     DeserializerPageClassifyStandard,
     DeserializerManagmentCompanyStandard,
-    DeserializerInvestmentsManagerStandard
+    DeserializerInvestmentsManagerStandard,
 )
-from freeports_analysis.formats.utils.pdf_extract.pdf_parts import PdfLineSelection
-from freeports_analysis.output import Fund
-from freeports_analysis.formats.algorithms.commons import Pipeline
+from freeports.output import Fund
+from freeports.core import Pipeline
 import re
 
 h_font = PdfLineSelection.font_of(PdfLineSelection.text("n de la cartera"))

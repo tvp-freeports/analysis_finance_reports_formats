@@ -9,7 +9,7 @@ from freeports.utils.text_filter.match import normalize_string, MatchFund
 from freeports.utils.text_filter import ResultStandardFiltering
 from freeports.utils.deserialize import DeserializerFundStandard
 from freeports.core import PdfBlock,TextBlock, Pipeline
-from freeports._internals.output.classes_schema import Investment, InvestmentsManager 
+from freeports.output import Investment, InvestmentsManager
 from enum import Enum,auto
 
 
