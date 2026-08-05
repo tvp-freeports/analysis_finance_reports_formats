@@ -32,8 +32,7 @@ from freeports.utils.deserialize import to_date_with_it_month
 from freeports.utils.text_filter import MatchFund
 from freeports.consts import Currency, SfdrArticle
 from freeports.core import Promise
-from freeports._internals.core.classes import PageParseFail
-from freeports.core import PdfBlock, TextBlock
+from freeports.core import PageParseFail, PdfBlock, TextBlock
 from freeports.output import (
     Fund,
     FundMerge,

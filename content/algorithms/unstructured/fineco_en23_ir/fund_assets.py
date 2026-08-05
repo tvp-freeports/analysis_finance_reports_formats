@@ -1,12 +1,11 @@
-from freeports.utils.deserialize import to_int
 from freeports.utils.pdf_extract import (
-    PdfLineSelection,
-    PdfExtractAssetsStandard,
-    ExtractTextPdfBlockOrFailPage,
+    PdfLineSelection
 )
-from freeports.utils.text_filter import TextFilterAssetsStandard
+from freeports.standard_funcs.pdf_extract import PdfExtractAssetsStandard
+from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
+from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.utils.deserialize import (
-    DeserializeAssetsStandard,
+    to_int,
     to_date_with_en_month,
 )
 
@@ -36,6 +35,6 @@ pdf_extract = PdfExtractAssetsStandard(
 )
 
 text_filter = TextFilterAssetsStandard("as at ([0-9]+ .+ [0-9]+)")
-deserialize = DeserializeAssetsStandard(
+deserialize = DeserializerAssetsStandard(
     num_converter=to_int, date_converter=to_date_with_en_month
 )
