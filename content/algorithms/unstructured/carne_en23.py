@@ -17,7 +17,7 @@ from freeports.standard_funcs.text_filter import (
 )
 from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
-    DeserializeAssetsStandard,
+    DeserializerAssetsStandard,
 )
 from freeports.utils.deserialize import to_float
 from freeports.core import Pipeline
@@ -65,7 +65,7 @@ pdf_extract_assets = PdfExtractAssetsStandard(
 )
 
 text_filter_assets = TextFilterAssetsStandard()
-deserialize_assets = DeserializeAssetsStandard(num_converter=to_float)
+deserialize_assets = DeserializerAssetsStandard(num_converter=to_float)
 
 pipelines = {
     "investments": Pipeline(

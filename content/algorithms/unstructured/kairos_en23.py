@@ -5,11 +5,9 @@ from freeports.standard_funcs.text_filter import (
     TextFilterInvestmentsStandard,
     TextFilterManagmentCompanyStandard,
     TextFilterSfdrArticleStandard,
-    TextFilterAssetsStandard,
-    ResultStandardFiltering,
-    investment_fund_filter_data,
+    TextFilterAssetsStandard
 )
-from freeports.interfaces.text_blks import OneTextBlockType
+from freeports.interfaces.text_blks import OneTextBlockType,ResultStandardFiltering
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractManagmentCompanyStandard,
     PdfExtractAssetsStandard,
@@ -18,7 +16,7 @@ from freeports.standard_funcs.pdf_extract import (
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
-    DeserializeAssetsStandard,
+    DeserializerAssetsStandard,
     DeserializerInvestmentsManagerFromManco,
     DeserializeSfdrArticleStandard,
 )
@@ -30,7 +28,7 @@ from freeports.utils.pdf_extract import (
     get_table_coordinates,
     TablePosAlgorithm,
 )
-from freeports.utils.text_filter import MatchFund
+from freeports.utils.text_filter import MatchFund,investment_fund_filter_data
 from freeports.core import Pipeline
 from freeports.core import TextBlock, PdfBlock
 from freeports.output import (
@@ -42,7 +40,7 @@ from freeports.output import (
     Investment,
 )
 from freeports.consts import SfdrArticle
-import datetime
+from datetime import date
 
 market_value_regex = re.compile(r"(([0-9]+,)?[0-9]+,?[0-9]+\.[0-9]{2}) ")
 # non sono sicuro di come ho riscritto questa regex e a cosa servivano le parentesi
@@ -174,7 +172,7 @@ def text_filter_merges(pdf_blks, filter_data):
 
 def to_date(txt):
     parts = txt.replace(",", "").split()
-    return datetime.date(int(parts[2]), to_int_en_month(parts[0]), int(parts[1]))
+    return date(int(parts[2]), to_int_en_month(parts[0]), int(parts[1]))
 
 
 def deserialize_rename(txt_blk):
@@ -237,7 +235,7 @@ pdf_extract_assets = PdfExtractAssetsStandard(
 text_filter_assets = TextFilterAssetsStandard(
     remove_from_fund_regexes=("\\(.*\\)", "\\*")
 )
-deserialize_assets = DeserializeAssetsStandard(num_converter=to_float)
+deserialize_assets = DeserializerAssetsStandard(num_converter=to_float)
 
 
 def esg_indicators_pdf_extact_art8(page):
@@ -276,7 +274,7 @@ def esg_indicators_pdf_extact_art8(page):
         ).strip()
 
         res.append((key, value))
-    return [PdfBlock(OnePdfBlockTyp.RELEVANT_BLOCK, {k: v for k, v in res}, f[0].text)]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK, {k: v for k, v in res}, f[0].text)]
 
 
 @investment_fund_filter_data

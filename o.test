@@ -1,0 +1,1212 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.6, pytest-9.1.1, pluggy-1.6.0
+benchmark: 5.2.3 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: /home/oreste/Public/tvp-freeports/analysis_finance_reports_formats
+configfile: pyproject.toml
+plugins: typeguard-4.5.2, cov-7.1.0, benchmark-5.2.3, freeports-dev-0.0.1
+collected 259 items / 228 deselected / 31 selected
+
+tests/formats/AMUNDI-EN24 .                                              [  3%]
+tests/formats/AMUNDI-IT24 .                                              [  6%]
+tests/formats/ANIMA-EN23 .                                               [  9%]
+tests/formats/ANIMA_SGR-IT24 FFFF                                        [ 22%]
+tests/formats/ANIMA_SICAV-EN24 F                                         [ 25%]
+tests/formats/ARCA-IT24 FF                                               [ 32%]
+tests/formats/ASTERIA-EN23 F                                             [ 35%]
+tests/formats/ASTERIA-EN24 F                                             [ 38%]
+tests/formats/CARNE-EN23 
+
+=================================== FAILURES ===================================
+_ .analysis_finance_reports_formats.tests.formats.FreeportsFormat[ANIMA_SGR-IT24].report[1].test_pipeline _
+
+self = <PipelineTest test_pipeline>
+
+    def runtest(self):
+        create_dir = self._request.getfixturevalue("tmp_path_factory")
+        tmp_dir = f"{self.format_name}" + (
+            "" if self.document_variant is None else f"__report_{self.document_variant}"
+        )
+        from freeports_dev.input_db import resolve_input_db
+    
+        input_db = resolve_input_db(_formats_cache["repo_dir"])
+        config = {
+            "PDF": self.parent.path / "report.pdf",
+            "FORMAT": self.format_name,
+            "OUT_PATH": create_dir.mktemp(tmp_dir, numbered=False),
+            "FORMATS_REPO_PATH": _formats_cache["repo_dir"],
+            "INPUT_DB_PATH": input_db,
+            "VERBOSITY": 2,
+            "N_WORKERS": 1,
+            "BATCH_FILE": None,
+            "SAVE_PDF": False,
+            "URL": None,
+            "CONFIG_FILE": FreeportsFileConfig.find_config(),
+            "PREFIX_OUT": None,
+            "TARGET_LISTS": ["TEST"],
+            "OUT_PROFILE": OutStructureNormalMode.REGULAR,
+            "OUT_FLAGS": OutFlagsNormalMode(0),
+        }
+    
+        out_path = config["OUT_PATH"]
+        run_analysis(config)
+    
+        org_actual_investments = self.parent.cache.csv.get_file(out_path / "investments.csv")
+        org_actual_add_infos = self.parent.cache.yaml.get_file(out_path / "investments_add_infos.yaml")
+        org_actual_funds = self.parent.cache.csv.get_file(out_path / "funds.csv")
+        org_actual_funds_assets = self.parent.cache.csv.get_file(out_path / "funds_assets.csv")
+        org_actual_assets_managers = self.parent.cache.csv.get_file(out_path / "assets_managers.csv")
+        org_actual_inv_to_funds = self.parent.cache.csv.get_file(out_path / "investments_managers_to_funds.csv")
+        org_actual_funds_change_name = self.parent.cache.csv.get_file(out_path / "funds_change_name.csv")
+        org_actual_log = self.parent.cache.csv.get_file(out_path / ".log.csv")
+    
+        actual_investments = org_actual_investments.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+        actual_funds = org_actual_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        actual_funds_assets = org_actual_funds_assets.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_inv_to_funds = org_actual_inv_to_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        actual_funds_change_name = org_actual_funds_change_name.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_assets_managers = org_actual_assets_managers.drop(columns="ID")
+    
+        expected_dir = self.parent.path / "out"
+    
+        org_expected_investments = self.parent.cache.csv.get_file(expected_dir / "investments.csv")
+        org_expected_add_infos = self.parent.cache.yaml.get_file(expected_dir / "investments_add_infos.yaml")
+        org_expected_funds = self.parent.cache.csv.get_file(expected_dir / "funds.csv")
+        org_expected_funds_assets = self.parent.cache.csv.get_file(expected_dir / "funds_assets.csv")
+        org_expected_assets_managers = self.parent.cache.csv.get_file(expected_dir / "assets_managers.csv")
+        org_expected_inv_to_funds = self.parent.cache.csv.get_file(expected_dir / "investments_managers_to_funds.csv")
+        org_expected_funds_change_name = self.parent.cache.csv.get_file(expected_dir / "funds_change_name.csv")
+        org_expected_log = self.parent.cache.csv.get_file(expected_dir / ".log.csv")
+    
+        expected_investments = org_expected_investments.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+    
+        expected_funds = org_expected_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        expected_funds_assets = org_expected_funds_assets.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_inv_to_funds = org_expected_inv_to_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        expected_funds_change_name = org_expected_funds_change_name.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_assets_managers = org_expected_assets_managers.drop(columns="ID")
+    
+        pd.testing.assert_frame_equal(
+            actual_investments.sort_values(by=actual_investments.columns.tolist()).reset_index(drop=True),
+            expected_investments.sort_values(by=expected_investments.columns.tolist()).reset_index(drop=True),
+            obj="investments.csv",
+        )
+>       pd.testing.assert_frame_equal(
+            actual_funds.sort_values(by=actual_funds.columns.tolist()).reset_index(drop=True),
+            expected_funds.sort_values(by=expected_funds.columns.tolist()).reset_index(drop=True),
+            obj="funds.csv",
+        )
+E       AssertionError: Attributes of funds.csv.iloc[:, 2] (column name="Asset manager name") are different
+E       
+E       Attribute "dtype" are different
+E       [left]:  <StringDtype(storage='python', na_value=nan)>
+E       [right]: object
+
+../analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:341: AssertionError
+_ .analysis_finance_reports_formats.tests.formats.FreeportsFormat[ANIMA_SGR-IT24].report[2].test_pipeline _
+
+self = <PipelineTest test_pipeline>
+
+    def runtest(self):
+        create_dir = self._request.getfixturevalue("tmp_path_factory")
+        tmp_dir = f"{self.format_name}" + (
+            "" if self.document_variant is None else f"__report_{self.document_variant}"
+        )
+        from freeports_dev.input_db import resolve_input_db
+    
+        input_db = resolve_input_db(_formats_cache["repo_dir"])
+        config = {
+            "PDF": self.parent.path / "report.pdf",
+            "FORMAT": self.format_name,
+            "OUT_PATH": create_dir.mktemp(tmp_dir, numbered=False),
+            "FORMATS_REPO_PATH": _formats_cache["repo_dir"],
+            "INPUT_DB_PATH": input_db,
+            "VERBOSITY": 2,
+            "N_WORKERS": 1,
+            "BATCH_FILE": None,
+            "SAVE_PDF": False,
+            "URL": None,
+            "CONFIG_FILE": FreeportsFileConfig.find_config(),
+            "PREFIX_OUT": None,
+            "TARGET_LISTS": ["TEST"],
+            "OUT_PROFILE": OutStructureNormalMode.REGULAR,
+            "OUT_FLAGS": OutFlagsNormalMode(0),
+        }
+    
+        out_path = config["OUT_PATH"]
+        run_analysis(config)
+    
+        org_actual_investments = self.parent.cache.csv.get_file(out_path / "investments.csv")
+        org_actual_add_infos = self.parent.cache.yaml.get_file(out_path / "investments_add_infos.yaml")
+        org_actual_funds = self.parent.cache.csv.get_file(out_path / "funds.csv")
+        org_actual_funds_assets = self.parent.cache.csv.get_file(out_path / "funds_assets.csv")
+        org_actual_assets_managers = self.parent.cache.csv.get_file(out_path / "assets_managers.csv")
+        org_actual_inv_to_funds = self.parent.cache.csv.get_file(out_path / "investments_managers_to_funds.csv")
+        org_actual_funds_change_name = self.parent.cache.csv.get_file(out_path / "funds_change_name.csv")
+        org_actual_log = self.parent.cache.csv.get_file(out_path / ".log.csv")
+    
+        actual_investments = org_actual_investments.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+        actual_funds = org_actual_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        actual_funds_assets = org_actual_funds_assets.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_inv_to_funds = org_actual_inv_to_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        actual_funds_change_name = org_actual_funds_change_name.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_assets_managers = org_actual_assets_managers.drop(columns="ID")
+    
+        expected_dir = self.parent.path / "out"
+    
+        org_expected_investments = self.parent.cache.csv.get_file(expected_dir / "investments.csv")
+        org_expected_add_infos = self.parent.cache.yaml.get_file(expected_dir / "investments_add_infos.yaml")
+        org_expected_funds = self.parent.cache.csv.get_file(expected_dir / "funds.csv")
+        org_expected_funds_assets = self.parent.cache.csv.get_file(expected_dir / "funds_assets.csv")
+        org_expected_assets_managers = self.parent.cache.csv.get_file(expected_dir / "assets_managers.csv")
+        org_expected_inv_to_funds = self.parent.cache.csv.get_file(expected_dir / "investments_managers_to_funds.csv")
+        org_expected_funds_change_name = self.parent.cache.csv.get_file(expected_dir / "funds_change_name.csv")
+        org_expected_log = self.parent.cache.csv.get_file(expected_dir / ".log.csv")
+    
+        expected_investments = org_expected_investments.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+    
+        expected_funds = org_expected_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        expected_funds_assets = org_expected_funds_assets.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_inv_to_funds = org_expected_inv_to_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        expected_funds_change_name = org_expected_funds_change_name.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_assets_managers = org_expected_assets_managers.drop(columns="ID")
+    
+        pd.testing.assert_frame_equal(
+            actual_investments.sort_values(by=actual_investments.columns.tolist()).reset_index(drop=True),
+            expected_investments.sort_values(by=expected_investments.columns.tolist()).reset_index(drop=True),
+            obj="investments.csv",
+        )
+>       pd.testing.assert_frame_equal(
+            actual_funds.sort_values(by=actual_funds.columns.tolist()).reset_index(drop=True),
+            expected_funds.sort_values(by=expected_funds.columns.tolist()).reset_index(drop=True),
+            obj="funds.csv",
+        )
+E       AssertionError: Attributes of funds.csv.iloc[:, 2] (column name="Asset manager name") are different
+E       
+E       Attribute "dtype" are different
+E       [left]:  <StringDtype(storage='python', na_value=nan)>
+E       [right]: object
+
+../analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:341: AssertionError
+_ .analysis_finance_reports_formats.tests.formats.FreeportsFormat[ANIMA_SGR-IT24].report[3].test_pipeline _
+
+self = <PipelineTest test_pipeline>
+
+    def runtest(self):
+        create_dir = self._request.getfixturevalue("tmp_path_factory")
+        tmp_dir = f"{self.format_name}" + (
+            "" if self.document_variant is None else f"__report_{self.document_variant}"
+        )
+        from freeports_dev.input_db import resolve_input_db
+    
+        input_db = resolve_input_db(_formats_cache["repo_dir"])
+        config = {
+            "PDF": self.parent.path / "report.pdf",
+            "FORMAT": self.format_name,
+            "OUT_PATH": create_dir.mktemp(tmp_dir, numbered=False),
+            "FORMATS_REPO_PATH": _formats_cache["repo_dir"],
+            "INPUT_DB_PATH": input_db,
+            "VERBOSITY": 2,
+            "N_WORKERS": 1,
+            "BATCH_FILE": None,
+            "SAVE_PDF": False,
+            "URL": None,
+            "CONFIG_FILE": FreeportsFileConfig.find_config(),
+            "PREFIX_OUT": None,
+            "TARGET_LISTS": ["TEST"],
+            "OUT_PROFILE": OutStructureNormalMode.REGULAR,
+            "OUT_FLAGS": OutFlagsNormalMode(0),
+        }
+    
+        out_path = config["OUT_PATH"]
+        run_analysis(config)
+    
+        org_actual_investments = self.parent.cache.csv.get_file(out_path / "investments.csv")
+        org_actual_add_infos = self.parent.cache.yaml.get_file(out_path / "investments_add_infos.yaml")
+        org_actual_funds = self.parent.cache.csv.get_file(out_path / "funds.csv")
+        org_actual_funds_assets = self.parent.cache.csv.get_file(out_path / "funds_assets.csv")
+        org_actual_assets_managers = self.parent.cache.csv.get_file(out_path / "assets_managers.csv")
+        org_actual_inv_to_funds = self.parent.cache.csv.get_file(out_path / "investments_managers_to_funds.csv")
+        org_actual_funds_change_name = self.parent.cache.csv.get_file(out_path / "funds_change_name.csv")
+        org_actual_log = self.parent.cache.csv.get_file(out_path / ".log.csv")
+    
+        actual_investments = org_actual_investments.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+        actual_funds = org_actual_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        actual_funds_assets = org_actual_funds_assets.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_inv_to_funds = org_actual_inv_to_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        actual_funds_change_name = org_actual_funds_change_name.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_assets_managers = org_actual_assets_managers.drop(columns="ID")
+    
+        expected_dir = self.parent.path / "out"
+    
+        org_expected_investments = self.parent.cache.csv.get_file(expected_dir / "investments.csv")
+        org_expected_add_infos = self.parent.cache.yaml.get_file(expected_dir / "investments_add_infos.yaml")
+        org_expected_funds = self.parent.cache.csv.get_file(expected_dir / "funds.csv")
+        org_expected_funds_assets = self.parent.cache.csv.get_file(expected_dir / "funds_assets.csv")
+        org_expected_assets_managers = self.parent.cache.csv.get_file(expected_dir / "assets_managers.csv")
+        org_expected_inv_to_funds = self.parent.cache.csv.get_file(expected_dir / "investments_managers_to_funds.csv")
+        org_expected_funds_change_name = self.parent.cache.csv.get_file(expected_dir / "funds_change_name.csv")
+        org_expected_log = self.parent.cache.csv.get_file(expected_dir / ".log.csv")
+    
+        expected_investments = org_expected_investments.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+    
+        expected_funds = org_expected_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        expected_funds_assets = org_expected_funds_assets.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_inv_to_funds = org_expected_inv_to_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        expected_funds_change_name = org_expected_funds_change_name.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_assets_managers = org_expected_assets_managers.drop(columns="ID")
+    
+        pd.testing.assert_frame_equal(
+            actual_investments.sort_values(by=actual_investments.columns.tolist()).reset_index(drop=True),
+            expected_investments.sort_values(by=expected_investments.columns.tolist()).reset_index(drop=True),
+            obj="investments.csv",
+        )
+>       pd.testing.assert_frame_equal(
+            actual_funds.sort_values(by=actual_funds.columns.tolist()).reset_index(drop=True),
+            expected_funds.sort_values(by=expected_funds.columns.tolist()).reset_index(drop=True),
+            obj="funds.csv",
+        )
+E       AssertionError: Attributes of funds.csv.iloc[:, 2] (column name="Asset manager name") are different
+E       
+E       Attribute "dtype" are different
+E       [left]:  <StringDtype(storage='python', na_value=nan)>
+E       [right]: object
+
+../analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:341: AssertionError
+_ .analysis_finance_reports_formats.tests.formats.FreeportsFormat[ANIMA_SGR-IT24].report[4].test_pipeline _
+
+self = <PipelineTest test_pipeline>
+
+    def runtest(self):
+        create_dir = self._request.getfixturevalue("tmp_path_factory")
+        tmp_dir = f"{self.format_name}" + (
+            "" if self.document_variant is None else f"__report_{self.document_variant}"
+        )
+        from freeports_dev.input_db import resolve_input_db
+    
+        input_db = resolve_input_db(_formats_cache["repo_dir"])
+        config = {
+            "PDF": self.parent.path / "report.pdf",
+            "FORMAT": self.format_name,
+            "OUT_PATH": create_dir.mktemp(tmp_dir, numbered=False),
+            "FORMATS_REPO_PATH": _formats_cache["repo_dir"],
+            "INPUT_DB_PATH": input_db,
+            "VERBOSITY": 2,
+            "N_WORKERS": 1,
+            "BATCH_FILE": None,
+            "SAVE_PDF": False,
+            "URL": None,
+            "CONFIG_FILE": FreeportsFileConfig.find_config(),
+            "PREFIX_OUT": None,
+            "TARGET_LISTS": ["TEST"],
+            "OUT_PROFILE": OutStructureNormalMode.REGULAR,
+            "OUT_FLAGS": OutFlagsNormalMode(0),
+        }
+    
+        out_path = config["OUT_PATH"]
+        run_analysis(config)
+    
+        org_actual_investments = self.parent.cache.csv.get_file(out_path / "investments.csv")
+        org_actual_add_infos = self.parent.cache.yaml.get_file(out_path / "investments_add_infos.yaml")
+        org_actual_funds = self.parent.cache.csv.get_file(out_path / "funds.csv")
+        org_actual_funds_assets = self.parent.cache.csv.get_file(out_path / "funds_assets.csv")
+        org_actual_assets_managers = self.parent.cache.csv.get_file(out_path / "assets_managers.csv")
+        org_actual_inv_to_funds = self.parent.cache.csv.get_file(out_path / "investments_managers_to_funds.csv")
+        org_actual_funds_change_name = self.parent.cache.csv.get_file(out_path / "funds_change_name.csv")
+        org_actual_log = self.parent.cache.csv.get_file(out_path / ".log.csv")
+    
+        actual_investments = org_actual_investments.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+        actual_funds = org_actual_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        actual_funds_assets = org_actual_funds_assets.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_inv_to_funds = org_actual_inv_to_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        actual_funds_change_name = org_actual_funds_change_name.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_assets_managers = org_actual_assets_managers.drop(columns="ID")
+    
+        expected_dir = self.parent.path / "out"
+    
+        org_expected_investments = self.parent.cache.csv.get_file(expected_dir / "investments.csv")
+        org_expected_add_infos = self.parent.cache.yaml.get_file(expected_dir / "investments_add_infos.yaml")
+        org_expected_funds = self.parent.cache.csv.get_file(expected_dir / "funds.csv")
+        org_expected_funds_assets = self.parent.cache.csv.get_file(expected_dir / "funds_assets.csv")
+        org_expected_assets_managers = self.parent.cache.csv.get_file(expected_dir / "assets_managers.csv")
+        org_expected_inv_to_funds = self.parent.cache.csv.get_file(expected_dir / "investments_managers_to_funds.csv")
+        org_expected_funds_change_name = self.parent.cache.csv.get_file(expected_dir / "funds_change_name.csv")
+        org_expected_log = self.parent.cache.csv.get_file(expected_dir / ".log.csv")
+    
+        expected_investments = org_expected_investments.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+    
+        expected_funds = org_expected_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        expected_funds_assets = org_expected_funds_assets.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_inv_to_funds = org_expected_inv_to_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        expected_funds_change_name = org_expected_funds_change_name.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_assets_managers = org_expected_assets_managers.drop(columns="ID")
+    
+        pd.testing.assert_frame_equal(
+            actual_investments.sort_values(by=actual_investments.columns.tolist()).reset_index(drop=True),
+            expected_investments.sort_values(by=expected_investments.columns.tolist()).reset_index(drop=True),
+            obj="investments.csv",
+        )
+>       pd.testing.assert_frame_equal(
+            actual_funds.sort_values(by=actual_funds.columns.tolist()).reset_index(drop=True),
+            expected_funds.sort_values(by=expected_funds.columns.tolist()).reset_index(drop=True),
+            obj="funds.csv",
+        )
+E       AssertionError: Attributes of funds.csv.iloc[:, 2] (column name="Asset manager name") are different
+E       
+E       Attribute "dtype" are different
+E       [left]:  <StringDtype(storage='python', na_value=nan)>
+E       [right]: object
+
+../analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:341: AssertionError
+_ .analysis_finance_reports_formats.tests.formats.FreeportsFormat[ANIMA_SICAV-EN24].report.test_pipeline _
+
+self = <PipelineTest test_pipeline>
+
+    def runtest(self):
+        create_dir = self._request.getfixturevalue("tmp_path_factory")
+        tmp_dir = f"{self.format_name}" + (
+            "" if self.document_variant is None else f"__report_{self.document_variant}"
+        )
+        from freeports_dev.input_db import resolve_input_db
+    
+        input_db = resolve_input_db(_formats_cache["repo_dir"])
+        config = {
+            "PDF": self.parent.path / "report.pdf",
+            "FORMAT": self.format_name,
+            "OUT_PATH": create_dir.mktemp(tmp_dir, numbered=False),
+            "FORMATS_REPO_PATH": _formats_cache["repo_dir"],
+            "INPUT_DB_PATH": input_db,
+            "VERBOSITY": 2,
+            "N_WORKERS": 1,
+            "BATCH_FILE": None,
+            "SAVE_PDF": False,
+            "URL": None,
+            "CONFIG_FILE": FreeportsFileConfig.find_config(),
+            "PREFIX_OUT": None,
+            "TARGET_LISTS": ["TEST"],
+            "OUT_PROFILE": OutStructureNormalMode.REGULAR,
+            "OUT_FLAGS": OutFlagsNormalMode(0),
+        }
+    
+        out_path = config["OUT_PATH"]
+        run_analysis(config)
+    
+        org_actual_investments = self.parent.cache.csv.get_file(out_path / "investments.csv")
+        org_actual_add_infos = self.parent.cache.yaml.get_file(out_path / "investments_add_infos.yaml")
+        org_actual_funds = self.parent.cache.csv.get_file(out_path / "funds.csv")
+        org_actual_funds_assets = self.parent.cache.csv.get_file(out_path / "funds_assets.csv")
+        org_actual_assets_managers = self.parent.cache.csv.get_file(out_path / "assets_managers.csv")
+        org_actual_inv_to_funds = self.parent.cache.csv.get_file(out_path / "investments_managers_to_funds.csv")
+        org_actual_funds_change_name = self.parent.cache.csv.get_file(out_path / "funds_change_name.csv")
+        org_actual_log = self.parent.cache.csv.get_file(out_path / ".log.csv")
+    
+        actual_investments = org_actual_investments.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+        actual_funds = org_actual_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        actual_funds_assets = org_actual_funds_assets.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_inv_to_funds = org_actual_inv_to_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        actual_funds_change_name = org_actual_funds_change_name.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_assets_managers = org_actual_assets_managers.drop(columns="ID")
+    
+        expected_dir = self.parent.path / "out"
+    
+        org_expected_investments = self.parent.cache.csv.get_file(expected_dir / "investments.csv")
+        org_expected_add_infos = self.parent.cache.yaml.get_file(expected_dir / "investments_add_infos.yaml")
+        org_expected_funds = self.parent.cache.csv.get_file(expected_dir / "funds.csv")
+        org_expected_funds_assets = self.parent.cache.csv.get_file(expected_dir / "funds_assets.csv")
+        org_expected_assets_managers = self.parent.cache.csv.get_file(expected_dir / "assets_managers.csv")
+        org_expected_inv_to_funds = self.parent.cache.csv.get_file(expected_dir / "investments_managers_to_funds.csv")
+        org_expected_funds_change_name = self.parent.cache.csv.get_file(expected_dir / "funds_change_name.csv")
+        org_expected_log = self.parent.cache.csv.get_file(expected_dir / ".log.csv")
+    
+        expected_investments = org_expected_investments.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+    
+        expected_funds = org_expected_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        expected_funds_assets = org_expected_funds_assets.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_inv_to_funds = org_expected_inv_to_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        expected_funds_change_name = org_expected_funds_change_name.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_assets_managers = org_expected_assets_managers.drop(columns="ID")
+    
+        pd.testing.assert_frame_equal(
+            actual_investments.sort_values(by=actual_investments.columns.tolist()).reset_index(drop=True),
+            expected_investments.sort_values(by=expected_investments.columns.tolist()).reset_index(drop=True),
+            obj="investments.csv",
+        )
+>       pd.testing.assert_frame_equal(
+            actual_funds.sort_values(by=actual_funds.columns.tolist()).reset_index(drop=True),
+            expected_funds.sort_values(by=expected_funds.columns.tolist()).reset_index(drop=True),
+            obj="funds.csv",
+        )
+E       AssertionError: Attributes of funds.csv.iloc[:, 2] (column name="Asset manager name") are different
+E       
+E       Attribute "dtype" are different
+E       [left]:  <StringDtype(storage='python', na_value=nan)>
+E       [right]: object
+
+../analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:341: AssertionError
+_ .analysis_finance_reports_formats.tests.formats.FreeportsFormat[ARCA-IT24].report[1].test_pipeline _
+
+self = <PipelineTest test_pipeline>
+
+    def runtest(self):
+        create_dir = self._request.getfixturevalue("tmp_path_factory")
+        tmp_dir = f"{self.format_name}" + (
+            "" if self.document_variant is None else f"__report_{self.document_variant}"
+        )
+        from freeports_dev.input_db import resolve_input_db
+    
+        input_db = resolve_input_db(_formats_cache["repo_dir"])
+        config = {
+            "PDF": self.parent.path / "report.pdf",
+            "FORMAT": self.format_name,
+            "OUT_PATH": create_dir.mktemp(tmp_dir, numbered=False),
+            "FORMATS_REPO_PATH": _formats_cache["repo_dir"],
+            "INPUT_DB_PATH": input_db,
+            "VERBOSITY": 2,
+            "N_WORKERS": 1,
+            "BATCH_FILE": None,
+            "SAVE_PDF": False,
+            "URL": None,
+            "CONFIG_FILE": FreeportsFileConfig.find_config(),
+            "PREFIX_OUT": None,
+            "TARGET_LISTS": ["TEST"],
+            "OUT_PROFILE": OutStructureNormalMode.REGULAR,
+            "OUT_FLAGS": OutFlagsNormalMode(0),
+        }
+    
+        out_path = config["OUT_PATH"]
+        run_analysis(config)
+    
+        org_actual_investments = self.parent.cache.csv.get_file(out_path / "investments.csv")
+        org_actual_add_infos = self.parent.cache.yaml.get_file(out_path / "investments_add_infos.yaml")
+        org_actual_funds = self.parent.cache.csv.get_file(out_path / "funds.csv")
+        org_actual_funds_assets = self.parent.cache.csv.get_file(out_path / "funds_assets.csv")
+        org_actual_assets_managers = self.parent.cache.csv.get_file(out_path / "assets_managers.csv")
+        org_actual_inv_to_funds = self.parent.cache.csv.get_file(out_path / "investments_managers_to_funds.csv")
+        org_actual_funds_change_name = self.parent.cache.csv.get_file(out_path / "funds_change_name.csv")
+        org_actual_log = self.parent.cache.csv.get_file(out_path / ".log.csv")
+    
+        actual_investments = org_actual_investments.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+        actual_funds = org_actual_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        actual_funds_assets = org_actual_funds_assets.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_inv_to_funds = org_actual_inv_to_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        actual_funds_change_name = org_actual_funds_change_name.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_assets_managers = org_actual_assets_managers.drop(columns="ID")
+    
+        expected_dir = self.parent.path / "out"
+    
+        org_expected_investments = self.parent.cache.csv.get_file(expected_dir / "investments.csv")
+        org_expected_add_infos = self.parent.cache.yaml.get_file(expected_dir / "investments_add_infos.yaml")
+        org_expected_funds = self.parent.cache.csv.get_file(expected_dir / "funds.csv")
+        org_expected_funds_assets = self.parent.cache.csv.get_file(expected_dir / "funds_assets.csv")
+        org_expected_assets_managers = self.parent.cache.csv.get_file(expected_dir / "assets_managers.csv")
+        org_expected_inv_to_funds = self.parent.cache.csv.get_file(expected_dir / "investments_managers_to_funds.csv")
+        org_expected_funds_change_name = self.parent.cache.csv.get_file(expected_dir / "funds_change_name.csv")
+        org_expected_log = self.parent.cache.csv.get_file(expected_dir / ".log.csv")
+    
+        expected_investments = org_expected_investments.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+    
+        expected_funds = org_expected_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        expected_funds_assets = org_expected_funds_assets.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_inv_to_funds = org_expected_inv_to_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        expected_funds_change_name = org_expected_funds_change_name.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_assets_managers = org_expected_assets_managers.drop(columns="ID")
+    
+        pd.testing.assert_frame_equal(
+            actual_investments.sort_values(by=actual_investments.columns.tolist()).reset_index(drop=True),
+            expected_investments.sort_values(by=expected_investments.columns.tolist()).reset_index(drop=True),
+            obj="investments.csv",
+        )
+>       pd.testing.assert_frame_equal(
+            actual_funds.sort_values(by=actual_funds.columns.tolist()).reset_index(drop=True),
+            expected_funds.sort_values(by=expected_funds.columns.tolist()).reset_index(drop=True),
+            obj="funds.csv",
+        )
+E       AssertionError: Attributes of funds.csv.iloc[:, 2] (column name="Asset manager name") are different
+E       
+E       Attribute "dtype" are different
+E       [left]:  <StringDtype(storage='python', na_value=nan)>
+E       [right]: object
+
+../analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:341: AssertionError
+_ .analysis_finance_reports_formats.tests.formats.FreeportsFormat[ARCA-IT24].report[2].test_pipeline _
+
+self = <PipelineTest test_pipeline>
+
+    def runtest(self):
+        create_dir = self._request.getfixturevalue("tmp_path_factory")
+        tmp_dir = f"{self.format_name}" + (
+            "" if self.document_variant is None else f"__report_{self.document_variant}"
+        )
+        from freeports_dev.input_db import resolve_input_db
+    
+        input_db = resolve_input_db(_formats_cache["repo_dir"])
+        config = {
+            "PDF": self.parent.path / "report.pdf",
+            "FORMAT": self.format_name,
+            "OUT_PATH": create_dir.mktemp(tmp_dir, numbered=False),
+            "FORMATS_REPO_PATH": _formats_cache["repo_dir"],
+            "INPUT_DB_PATH": input_db,
+            "VERBOSITY": 2,
+            "N_WORKERS": 1,
+            "BATCH_FILE": None,
+            "SAVE_PDF": False,
+            "URL": None,
+            "CONFIG_FILE": FreeportsFileConfig.find_config(),
+            "PREFIX_OUT": None,
+            "TARGET_LISTS": ["TEST"],
+            "OUT_PROFILE": OutStructureNormalMode.REGULAR,
+            "OUT_FLAGS": OutFlagsNormalMode(0),
+        }
+    
+        out_path = config["OUT_PATH"]
+        run_analysis(config)
+    
+        org_actual_investments = self.parent.cache.csv.get_file(out_path / "investments.csv")
+        org_actual_add_infos = self.parent.cache.yaml.get_file(out_path / "investments_add_infos.yaml")
+        org_actual_funds = self.parent.cache.csv.get_file(out_path / "funds.csv")
+        org_actual_funds_assets = self.parent.cache.csv.get_file(out_path / "funds_assets.csv")
+        org_actual_assets_managers = self.parent.cache.csv.get_file(out_path / "assets_managers.csv")
+        org_actual_inv_to_funds = self.parent.cache.csv.get_file(out_path / "investments_managers_to_funds.csv")
+        org_actual_funds_change_name = self.parent.cache.csv.get_file(out_path / "funds_change_name.csv")
+        org_actual_log = self.parent.cache.csv.get_file(out_path / ".log.csv")
+    
+        actual_investments = org_actual_investments.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+        actual_funds = org_actual_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        actual_funds_assets = org_actual_funds_assets.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_inv_to_funds = org_actual_inv_to_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        actual_funds_change_name = org_actual_funds_change_name.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_assets_managers = org_actual_assets_managers.drop(columns="ID")
+    
+        expected_dir = self.parent.path / "out"
+    
+        org_expected_investments = self.parent.cache.csv.get_file(expected_dir / "investments.csv")
+        org_expected_add_infos = self.parent.cache.yaml.get_file(expected_dir / "investments_add_infos.yaml")
+        org_expected_funds = self.parent.cache.csv.get_file(expected_dir / "funds.csv")
+        org_expected_funds_assets = self.parent.cache.csv.get_file(expected_dir / "funds_assets.csv")
+        org_expected_assets_managers = self.parent.cache.csv.get_file(expected_dir / "assets_managers.csv")
+        org_expected_inv_to_funds = self.parent.cache.csv.get_file(expected_dir / "investments_managers_to_funds.csv")
+        org_expected_funds_change_name = self.parent.cache.csv.get_file(expected_dir / "funds_change_name.csv")
+        org_expected_log = self.parent.cache.csv.get_file(expected_dir / ".log.csv")
+    
+        expected_investments = org_expected_investments.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+    
+        expected_funds = org_expected_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        expected_funds_assets = org_expected_funds_assets.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_inv_to_funds = org_expected_inv_to_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        expected_funds_change_name = org_expected_funds_change_name.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_assets_managers = org_expected_assets_managers.drop(columns="ID")
+    
+        pd.testing.assert_frame_equal(
+            actual_investments.sort_values(by=actual_investments.columns.tolist()).reset_index(drop=True),
+            expected_investments.sort_values(by=expected_investments.columns.tolist()).reset_index(drop=True),
+            obj="investments.csv",
+        )
+>       pd.testing.assert_frame_equal(
+            actual_funds.sort_values(by=actual_funds.columns.tolist()).reset_index(drop=True),
+            expected_funds.sort_values(by=expected_funds.columns.tolist()).reset_index(drop=True),
+            obj="funds.csv",
+        )
+E       AssertionError: Attributes of funds.csv.iloc[:, 2] (column name="Asset manager name") are different
+E       
+E       Attribute "dtype" are different
+E       [left]:  <StringDtype(storage='python', na_value=nan)>
+E       [right]: object
+
+../analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:341: AssertionError
+_ .analysis_finance_reports_formats.tests.formats.FreeportsFormat[ASTERIA-EN23].report.test_pipeline _
+
+self = <PipelineTest test_pipeline>
+
+    def runtest(self):
+        create_dir = self._request.getfixturevalue("tmp_path_factory")
+        tmp_dir = f"{self.format_name}" + (
+            "" if self.document_variant is None else f"__report_{self.document_variant}"
+        )
+        from freeports_dev.input_db import resolve_input_db
+    
+        input_db = resolve_input_db(_formats_cache["repo_dir"])
+        config = {
+            "PDF": self.parent.path / "report.pdf",
+            "FORMAT": self.format_name,
+            "OUT_PATH": create_dir.mktemp(tmp_dir, numbered=False),
+            "FORMATS_REPO_PATH": _formats_cache["repo_dir"],
+            "INPUT_DB_PATH": input_db,
+            "VERBOSITY": 2,
+            "N_WORKERS": 1,
+            "BATCH_FILE": None,
+            "SAVE_PDF": False,
+            "URL": None,
+            "CONFIG_FILE": FreeportsFileConfig.find_config(),
+            "PREFIX_OUT": None,
+            "TARGET_LISTS": ["TEST"],
+            "OUT_PROFILE": OutStructureNormalMode.REGULAR,
+            "OUT_FLAGS": OutFlagsNormalMode(0),
+        }
+    
+        out_path = config["OUT_PATH"]
+        run_analysis(config)
+    
+        org_actual_investments = self.parent.cache.csv.get_file(out_path / "investments.csv")
+        org_actual_add_infos = self.parent.cache.yaml.get_file(out_path / "investments_add_infos.yaml")
+        org_actual_funds = self.parent.cache.csv.get_file(out_path / "funds.csv")
+        org_actual_funds_assets = self.parent.cache.csv.get_file(out_path / "funds_assets.csv")
+        org_actual_assets_managers = self.parent.cache.csv.get_file(out_path / "assets_managers.csv")
+        org_actual_inv_to_funds = self.parent.cache.csv.get_file(out_path / "investments_managers_to_funds.csv")
+        org_actual_funds_change_name = self.parent.cache.csv.get_file(out_path / "funds_change_name.csv")
+        org_actual_log = self.parent.cache.csv.get_file(out_path / ".log.csv")
+    
+        actual_investments = org_actual_investments.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+        actual_funds = org_actual_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        actual_funds_assets = org_actual_funds_assets.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_inv_to_funds = org_actual_inv_to_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        actual_funds_change_name = org_actual_funds_change_name.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_assets_managers = org_actual_assets_managers.drop(columns="ID")
+    
+        expected_dir = self.parent.path / "out"
+    
+        org_expected_investments = self.parent.cache.csv.get_file(expected_dir / "investments.csv")
+        org_expected_add_infos = self.parent.cache.yaml.get_file(expected_dir / "investments_add_infos.yaml")
+        org_expected_funds = self.parent.cache.csv.get_file(expected_dir / "funds.csv")
+        org_expected_funds_assets = self.parent.cache.csv.get_file(expected_dir / "funds_assets.csv")
+        org_expected_assets_managers = self.parent.cache.csv.get_file(expected_dir / "assets_managers.csv")
+        org_expected_inv_to_funds = self.parent.cache.csv.get_file(expected_dir / "investments_managers_to_funds.csv")
+        org_expected_funds_change_name = self.parent.cache.csv.get_file(expected_dir / "funds_change_name.csv")
+        org_expected_log = self.parent.cache.csv.get_file(expected_dir / ".log.csv")
+    
+        expected_investments = org_expected_investments.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+    
+        expected_funds = org_expected_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        expected_funds_assets = org_expected_funds_assets.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_inv_to_funds = org_expected_inv_to_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        expected_funds_change_name = org_expected_funds_change_name.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_assets_managers = org_expected_assets_managers.drop(columns="ID")
+    
+        pd.testing.assert_frame_equal(
+            actual_investments.sort_values(by=actual_investments.columns.tolist()).reset_index(drop=True),
+            expected_investments.sort_values(by=expected_investments.columns.tolist()).reset_index(drop=True),
+            obj="investments.csv",
+        )
+>       pd.testing.assert_frame_equal(
+            actual_funds.sort_values(by=actual_funds.columns.tolist()).reset_index(drop=True),
+            expected_funds.sort_values(by=expected_funds.columns.tolist()).reset_index(drop=True),
+            obj="funds.csv",
+        )
+E       AssertionError: Attributes of funds.csv.iloc[:, 2] (column name="Asset manager name") are different
+E       
+E       Attribute "dtype" are different
+E       [left]:  <StringDtype(storage='python', na_value=nan)>
+E       [right]: object
+
+../analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:341: AssertionError
+_ .analysis_finance_reports_formats.tests.formats.FreeportsFormat[ASTERIA-EN24].report.test_pipeline _
+
+self = <PipelineTest test_pipeline>
+
+    def runtest(self):
+        create_dir = self._request.getfixturevalue("tmp_path_factory")
+        tmp_dir = f"{self.format_name}" + (
+            "" if self.document_variant is None else f"__report_{self.document_variant}"
+        )
+        from freeports_dev.input_db import resolve_input_db
+    
+        input_db = resolve_input_db(_formats_cache["repo_dir"])
+        config = {
+            "PDF": self.parent.path / "report.pdf",
+            "FORMAT": self.format_name,
+            "OUT_PATH": create_dir.mktemp(tmp_dir, numbered=False),
+            "FORMATS_REPO_PATH": _formats_cache["repo_dir"],
+            "INPUT_DB_PATH": input_db,
+            "VERBOSITY": 2,
+            "N_WORKERS": 1,
+            "BATCH_FILE": None,
+            "SAVE_PDF": False,
+            "URL": None,
+            "CONFIG_FILE": FreeportsFileConfig.find_config(),
+            "PREFIX_OUT": None,
+            "TARGET_LISTS": ["TEST"],
+            "OUT_PROFILE": OutStructureNormalMode.REGULAR,
+            "OUT_FLAGS": OutFlagsNormalMode(0),
+        }
+    
+        out_path = config["OUT_PATH"]
+        run_analysis(config)
+    
+        org_actual_investments = self.parent.cache.csv.get_file(out_path / "investments.csv")
+        org_actual_add_infos = self.parent.cache.yaml.get_file(out_path / "investments_add_infos.yaml")
+        org_actual_funds = self.parent.cache.csv.get_file(out_path / "funds.csv")
+        org_actual_funds_assets = self.parent.cache.csv.get_file(out_path / "funds_assets.csv")
+        org_actual_assets_managers = self.parent.cache.csv.get_file(out_path / "assets_managers.csv")
+        org_actual_inv_to_funds = self.parent.cache.csv.get_file(out_path / "investments_managers_to_funds.csv")
+        org_actual_funds_change_name = self.parent.cache.csv.get_file(out_path / "funds_change_name.csv")
+        org_actual_log = self.parent.cache.csv.get_file(out_path / ".log.csv")
+    
+        actual_investments = org_actual_investments.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+        actual_funds = org_actual_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        actual_funds_assets = org_actual_funds_assets.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_inv_to_funds = org_actual_inv_to_funds.join(
+            org_actual_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        actual_funds_change_name = org_actual_funds_change_name.join(
+            org_actual_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        actual_assets_managers = org_actual_assets_managers.drop(columns="ID")
+    
+        expected_dir = self.parent.path / "out"
+    
+        org_expected_investments = self.parent.cache.csv.get_file(expected_dir / "investments.csv")
+        org_expected_add_infos = self.parent.cache.yaml.get_file(expected_dir / "investments_add_infos.yaml")
+        org_expected_funds = self.parent.cache.csv.get_file(expected_dir / "funds.csv")
+        org_expected_funds_assets = self.parent.cache.csv.get_file(expected_dir / "funds_assets.csv")
+        org_expected_assets_managers = self.parent.cache.csv.get_file(expected_dir / "assets_managers.csv")
+        org_expected_inv_to_funds = self.parent.cache.csv.get_file(expected_dir / "investments_managers_to_funds.csv")
+        org_expected_funds_change_name = self.parent.cache.csv.get_file(expected_dir / "funds_change_name.csv")
+        org_expected_log = self.parent.cache.csv.get_file(expected_dir / ".log.csv")
+    
+        expected_investments = org_expected_investments.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["ID", "Fund ID"])
+    
+        expected_funds = org_expected_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Managment company ID",
+        ).drop(columns=["ID", "Managment company ID"])
+    
+        expected_funds_assets = org_expected_funds_assets.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_inv_to_funds = org_expected_inv_to_funds.join(
+            org_expected_assets_managers.set_index("ID")[["Name"]].rename(columns={"Name": "Asset manager name"}),
+            on="Investment manager ID",
+        ).join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID", "Investment manager ID"])
+    
+        expected_funds_change_name = org_expected_funds_change_name.join(
+            org_expected_funds.set_index("ID")[["Name"]].rename(columns={"Name": "Fund name"}),
+            on="Fund ID",
+        ).drop(columns=["Fund ID"])
+    
+        expected_assets_managers = org_expected_assets_managers.drop(columns="ID")
+    
+        pd.testing.assert_frame_equal(
+            actual_investments.sort_values(by=actual_investments.columns.tolist()).reset_index(drop=True),
+            expected_investments.sort_values(by=expected_investments.columns.tolist()).reset_index(drop=True),
+            obj="investments.csv",
+        )
+>       pd.testing.assert_frame_equal(
+            actual_funds.sort_values(by=actual_funds.columns.tolist()).reset_index(drop=True),
+            expected_funds.sort_values(by=expected_funds.columns.tolist()).reset_index(drop=True),
+            obj="funds.csv",
+        )
+E       AssertionError: Attributes of funds.csv.iloc[:, 2] (column name="Asset manager name") are different
+E       
+E       Attribute "dtype" are different
+E       [left]:  <StringDtype(storage='python', na_value=nan)>
+E       [right]: object
+
+../analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:341: AssertionError
+=============================== warnings summary ===============================
+../analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:491
+  /home/oreste/Public/tvp-freeports/analysis_finance_reports/packages/freeports_dev/src/freeports_dev/pytest_plugin.py:491: PytestUnknownMarkWarning: Unknown pytest.mark.integration_tests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    test.add_marker(pytest.mark.integration_tests)
+
+tests/formats/AMUNDI-EN24: 1 warning
+tests/formats/AMUNDI-IT24: 1 warning
+tests/formats/ANIMA-EN23: 1 warning
+tests/formats/ANIMA_SGR-IT24: 4 warnings
+tests/formats/ANIMA_SICAV-EN24: 1 warning
+tests/formats/ARCA-IT24: 2 warnings
+tests/formats/ASTERIA-EN23: 1 warning
+tests/formats/ASTERIA-EN24: 1 warning
+tests/formats/CARNE-EN23: 1 warning
+  /home/oreste/Public/tvp-freeports/analysis_finance_reports/packages/freeports_core/src/freeports/_internals/formats/repo/orchestration.py:81: Pandas4Warning: 'future.no_silent_downcasting' is deprecated, please refrain from using it.
+    pd.set_option('future.no_silent_downcasting', True)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/formats/ANIMA_SGR-IT24::report[1]::test_pipeline - AssertionErro...
+FAILED tests/formats/ANIMA_SGR-IT24::report[2]::test_pipeline - AssertionErro...
+FAILED tests/formats/ANIMA_SGR-IT24::report[3]::test_pipeline - AssertionErro...
+FAILED tests/formats/ANIMA_SGR-IT24::report[4]::test_pipeline - AssertionErro...
+FAILED tests/formats/ANIMA_SICAV-EN24::report::test_pipeline - AssertionError...
+FAILED tests/formats/ARCA-IT24::report[1]::test_pipeline - AssertionError: At...
+FAILED tests/formats/ARCA-IT24::report[2]::test_pipeline - AssertionError: At...
+FAILED tests/formats/ASTERIA-EN23::report::test_pipeline - AssertionError: At...
+FAILED tests/formats/ASTERIA-EN24::report::test_pipeline - AssertionError: At...
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KeyboardInterrupt !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/home/oreste/Public/tvp-freeports/analysis_finance_reports/packages/freeports_core/src/freeports/_internals/formats/utils/text_filter/standard_funcs.py:464: KeyboardInterrupt
+(to show a full traceback on KeyboardInterrupt use --full-trace)
+===== 9 failed, 3 passed, 228 deselected, 14 warnings in 195.42s (0:03:15) =====

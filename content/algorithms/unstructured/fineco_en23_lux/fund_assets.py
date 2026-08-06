@@ -2,7 +2,7 @@ from freeports.utils.pdf_extract import PdfLineSelection
 from freeports.utils.deserialize import to_int
 from freeports.standard_funcs.pdf_extract import PdfExtractAssetsStandard
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
-from freeports.standard_funcs.deserialize import DeserializeAssetsStandard
+from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
 
 
 x0 = PdfLineSelection(font="arialnarrow-bold", font_size=(8.9, 9.1), text="Notes")
@@ -42,4 +42,4 @@ pdf_extract = PdfExtractAssetsStandard(
 )
 
 text_filter = TextFilterAssetsStandard()
-deserialize = DeserializeAssetsStandard(num_converter=to_int)
+deserialize = DeserializerAssetsStandard(num_converter=to_int)

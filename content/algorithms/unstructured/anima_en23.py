@@ -33,12 +33,12 @@ from freeports.utils.pdf_extract import (
 from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerFromManco,
-    DeserializeAssetsStandard,
+    DeserializerAssetsStandard,
     DeserializeSfdrArticleStandard
 )
 from freeports.utils.deserialize import (
-    to_int
-    to_date_with_en_month,
+    to_int,
+    to_date_with_en_month
 )
 from freeports.utils.text_filter import MatchFund
 
@@ -147,7 +147,7 @@ pdf_extract = PdfExtractAssetsStandard(
 text_filter = TextFilterAssetsStandard(
     "as at ([0-9]+ .+ [0-9]+)", "As at [0-9]+ .+ [0-9]+"
 )
-deserialize = DeserializeAssetsStandard(
+deserialize = DeserializerAssetsStandard(
     num_converter=lambda txt: 0 if txt == "-" else to_int(txt),
     date_converter=to_date_with_en_month,
 )

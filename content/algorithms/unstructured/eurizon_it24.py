@@ -4,12 +4,12 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractCurrencyConstant,
     PdfExtractFundStandard,
-    PdfExtractSfdrArticleStandard,
-    ExtractTextPdfBlockOrFailPage,
+    PdfExtractSfdrArticleStandard
 )
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.core import Pipeline
 from freeports.utils.pdf_extract import (
+    ExtractTextPdfBlockOrFailPage,
     PdfLineSelection,
     pdflines_from_pagedict,
     get_groups,
@@ -17,19 +17,16 @@ from freeports.utils.pdf_extract import (
     TablePosAlgorithm,
 )
 from freeports.standard_funcs.text_filter import (
-    TextFilterSfdrArticleStandard,
-    investment_fund_filter_data,
-    StandardManagmentCompanyTextBlock,
+    TextFilterSfdrArticleStandard
 )
-from freeports.interfaces.text_blks import OneTextBlockType
+from freeports.interfaces.text_blks import OneTextBlockType,StandardManagmentCompanyTextBlock
 from freeports.standard_funcs.deserialize import (
     DeserializeSfdrArticleStandard,
     DeserializerManagmentCompanyStandard,
-    DeserializerInvestmentsManagerFromManco,
-    deserialize_block_type,
+    DeserializerInvestmentsManagerFromManco
 )
-from freeports.utils.deserialize import to_date_with_it_month
-from freeports.utils.text_filter import MatchFund
+from freeports.utils.deserialize import to_date_with_it_month, deserialize_block_type
+from freeports.utils.text_filter import MatchFund,investment_fund_filter_data
 from freeports.consts import Currency, SfdrArticle
 from freeports.core import Promise
 from freeports.core import PageParseFail, PdfBlock, TextBlock

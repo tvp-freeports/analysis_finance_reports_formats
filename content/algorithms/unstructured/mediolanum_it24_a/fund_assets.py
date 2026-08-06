@@ -10,12 +10,11 @@ from freeports.utils.pdf_extract import (
     get_table_coordinates,
 )
 from freeports.standard_funcs.text_filter import (
-    TextFilterAssetsStandard,
-    extract_currency_from_text,
+    TextFilterAssetsStandard
 )
 from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.standard_funcs.deserialize import (
-    DeserializeAssetsStandard,
+    DeserializerAssetsStandard,
 )
 from freeports.utils.deserialize import (
     to_int,
@@ -25,7 +24,7 @@ from freeports.utils.deserialize import (
 )
 from freeports.consts import Currency
 from freeports.output import Fund, FundAssets
-from freeports.utils.text_filter import MatchFund
+from freeports.utils.text_filter import MatchFund,extract_currency_from_text
 import datetime
 
 
@@ -55,6 +54,6 @@ pdf_extract = PdfExtractAssetsStandard(
 
 
 text_filter = TextFilterAssetsStandard("AL ([0-9]+ .+ [0-9]+)")
-deserialize = DeserializeAssetsStandard(
+deserialize = DeserializerAssetsStandard(
     lambda txt: 0 if txt == "- " else to_int(txt), date_converter=to_date_with_it_month
 )

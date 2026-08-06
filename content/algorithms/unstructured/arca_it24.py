@@ -8,7 +8,6 @@ from freeports.standard_funcs.pdf_extract import (
 )
 from freeports.consts import Currency
 from freeports.utils.pdf_extract import (
-    pdfline_selection_from_str,
     PdfLineSelection,
 )
 from freeports.standard_funcs.text_filter import TextFilterSfdrArticleStandard
