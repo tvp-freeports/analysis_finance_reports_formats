@@ -1,0 +1,110 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc.",
+        "fund": "Test fund A",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc.",
+        "fund": "Test fund B",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc.",
+        "fund": "Test fund C",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Convertible Strategy Collection"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "US COLLECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "EUROPEAN COLLECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Test fund B"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Dummy",
+        "managed_funds": {
+          "__set__": [
+            " ",
+            "C",
+            "T",
+            "d",
+            "e",
+            "f",
+            "n",
+            "s",
+            "t",
+            "u"
+          ]
+        }
+      }
+    }
+  }
+]

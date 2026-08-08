@@ -1,0 +1,2194 @@
+[
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "metadata": {},
+    "content": "EURIZON STEP TO GLOBAL TRENDS",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 0,
+      "is-max-width": true
+    },
+    "content": "EC MON MRK T1 A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "228.136",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "23.929.210",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "17,3",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "OBL 0 10/25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "6.887.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "6.812.207",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "4,9",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 1.85 07/25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "4.939.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "4.934.506",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "3,5",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTP 1.5 06/25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "4.321.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "4.314.951",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "3,1",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 1.45 05/25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "4.316.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "4.311.555",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "3,2",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "OBL 2.1 04/29",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "4.333.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "4.311.292",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "3,2",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "OBL 1.3 10/27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.558.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.493.814",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,6",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 2.8 12/28",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.450.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.480.360",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,6",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 0.5 07/28",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.520.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.301.408",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,4",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 3.8 08/28",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.160.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.287.348",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,4",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 2.65 06/28",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.240.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.256.848",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,4",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 3.4 04/28",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.120.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.204.864",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,4",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 0.95 09/27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.203.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.103.707",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,3",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 3.1 08/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.055.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.091.966",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,3",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 2.05 08/27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.101.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.088.906",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,3",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTP 1.6 06/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.102.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.086.180",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,3",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 3.45 07/27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.002.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.078.551",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,3",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 3.8 04/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.001.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3.049.616",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,2",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 0 04/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3.016.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.953.448",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,2",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 2.65 12/27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.917.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.940.336",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,2",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 1.2 08/25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.887.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.875.798",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,1",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 2.1 07/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.810.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.809.719",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,1",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 3.85 09/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.623.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.684.116",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2,0",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 0.25 03/28",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.770.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.603.523",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,9",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 04/27 1.1",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.633.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.576.127",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,9",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 2.2 06/27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.574.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.569.109",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,9",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 2 02/28",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.560.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.534.912",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,9",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTP 6.5 11/27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.294.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.533.723",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,9",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 0 08/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.602.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.531.226",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,9",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BOTS ZC 06/25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.610.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.526.925",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,9",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BOTS ZC 04/25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.440.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.356.768",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,7",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 0.85 01/27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.404.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.351.112",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,7",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 2.95 02/27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.317.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.346.889",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,7",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTP 1.25 12/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.377.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.343.484",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,7",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTP 7.25 11/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "2.121.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2.289.620",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,7",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 3.2 01/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "1.686.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1.698.982",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,2",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 3.6 09/25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "1.343.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1.353.744",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,0",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTP 4.5 03/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "1.312.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1.339.053",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,0",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 3.5 01/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "1.321.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1.334.157",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,0",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "EF BST EUR T1 Z",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "13.019",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1.325.436",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,0",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 0.5 02/26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "1.319.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1.301.048",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1,0",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTP 2 12/25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "1.293.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1.292.069",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0,9",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BTPS 2.5 11/25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "1.170.000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1.172.843",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0,9",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "141.781.456",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "104,1",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "metadata": {},
+    "content": "EUR",
+    "__pdf_block__": true
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc.",
+        "fund": "CHALLENGE North American Equity Fund",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc.",
+        "fund": "CHALLENGE Emerging Markets Equity Fund",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc.",
+        "fund": "Mediolanum Global Sustainable Bond",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc.",
+        "fund": "Impax Asset Management Ireland Ltd",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc.",
+        "fund": "Mediolanum India Opportunities",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Nino",
+        "managed_funds": {
+          "__set__": [
+            "Impax Asset Management Ireland Ltd"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE European Equity Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Challenge Healthcare Opportunities"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE European Equity Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Mediolanum Global Impact"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Impax Asset Management Ireland Ltd"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE Industrials and Materials Opportunities"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE Emerging Markets Equity Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE Energy Opportunities"
+      }
+    }
+  }
+]

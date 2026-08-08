@@ -1,0 +1,65 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "TREA Asset Management SGIIC S.A.",
+        "managed_funds": {
+          "__set__": [
+            "CHALLENGE Spain Equity Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Wellington Management International Limited",
+        "managed_funds": {
+          "__set__": [
+            "CHALLENGE Energy Opportunities",
+            "CHALLENGE Financial Opportunities",
+            "CHALLENGE Industrials and Materials Opportunities",
+            "CHALLENGE International Equity Fund",
+            "CHALLENGE Provident Fund 1",
+            "CHALLENGE Technology Opportunities"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE Industrials and Materials Opportunities"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE International Equity Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE Financial Opportunities"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE Technology Opportunities"
+      }
+    }
+  }
+]

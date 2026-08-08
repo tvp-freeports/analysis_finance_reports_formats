@@ -1,0 +1,42 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CoRe Series - CoRe Coupon",
+          "CoRe Series - CoRe Income Opportunity",
+          "CoRe Series - FAM Park",
+          "Invesco Global Total Return Bond FAM Fund",
+          "US Equity Value FAM Fund"
+        ]
+      }
+    },
+    "content": "Mediolanum International Funds Limited  ",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardManagmentCompanyTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CoRe Series - CoRe Coupon",
+          "CoRe Series - CoRe Income Opportunity",
+          "CoRe Series - FAM Park",
+          "Invesco Global Total Return Bond FAM Fund",
+          "US Equity Value FAM Fund"
+        ]
+      }
+    },
+    "content": "Mediolanum International Funds Limited  ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Mediolanum International Funds Limited  "
+    },
+    "__text_block__": true
+  }
+]

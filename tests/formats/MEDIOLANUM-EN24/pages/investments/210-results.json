@@ -1,0 +1,150 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "TAIWAN SEMICONDUCTOR",
+        "company_match": "Taiwan Semiconductor Manufacturing Co Ltd",
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "nominal_quantity": 1863715.0,
+        "market_value": 57612632.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0183,
+        "acquisition_cost": 46144907.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:TWD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "TAIWAN SEMICONDUCTOR",
+        "company_match": "Taiwan Semiconductor Manufacturing Co Ltd - SADR",
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "nominal_quantity": 135555.0,
+        "market_value": 26154834.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0083,
+        "acquisition_cost": 24602570.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet Inc Shs A",
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "nominal_quantity": 443087.0,
+        "market_value": 66520614.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.021099999999999997,
+        "acquisition_cost": 64044324.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet Inc Shs C",
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "nominal_quantity": 471215.0,
+        "market_value": 71209123.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0226,
+        "acquisition_cost": 59551761.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "Amazon.com Inc",
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "nominal_quantity": 130907.0,
+        "market_value": 24466232.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0078000000000000005,
+        "acquisition_cost": 23261964.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "nominal_quantity": 698968.0,
+        "market_value": 122168305.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0387,
+        "acquisition_cost": 125519440.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Booking Holdings",
+        "company_match": "Booking Holdings Inc",
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "nominal_quantity": 2292.0,
+        "market_value": 11303777.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0036,
+        "acquisition_cost": 11074509.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE TECHNOLOGY OPPORTUNITIES "
+      }
+    }
+  }
+]

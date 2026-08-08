@@ -1,0 +1,2674 @@
+[
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "metadata": {},
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "metadata": {},
+    "content": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "Country",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "Currency",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "Notional or number",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "of units / shares",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "owned",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "Market Value",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "% of Net",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "Assets",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "267,641",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "INFORMA PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,042,192",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.86",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "112,753",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "NATIONAL GRID PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,348,953",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.57",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,611,788",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "PANTHEON INFRASTRUCTURE PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,659,671",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.70",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "221,193",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "PRUDENTIAL PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "3,205,617",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "1.35",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "92,698",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "RELX PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,646,528",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "1.12",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "803,880",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "SCHRODER BSC SOCIAL IMPACT TRUST PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "876,399",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.37",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2,521,456",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "SDCL ENERGY EFFICIENCY INCOME TRUST PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,656,811",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "1.12",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "496,821",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "SHAFTESBURY PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,373,007",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "1.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "72,754",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "UNILEVER PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "3,433,989",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "1.45",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "561,327",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "URBAN LOGISTICS REIT PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "909,938",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.38",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED KINGDOM",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,983,405",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "VH GLOBAL SUSTAINABLE ENERGY OPPORTUNITIES PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,218,937",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.94",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,160",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "BOOKING HOLDINGS, INC.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,760,810",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "1.16",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "14,511",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "CME GROUP, INC.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,536,311",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "1.07",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "23,399",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "COMERICA, INC.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,546,694",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.65",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "5,533",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "COOPER COS., INC.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,705,916",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.72",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,974",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "DANAHER CORP.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "460,749",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.19",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "11,151",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "DARLING INGREDIENTS, INC.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "665,274",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.28",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "6,731",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "ELI LILLY & CO.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,975,314",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.83",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "7,395",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "ENPHASE ENERGY, INC.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,468,051",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.62",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "19,392",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "EVERSOURCE ENERGY",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,378,011",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.58",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "31,988",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "EXELON CORP.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,218,288",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.51",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "7,466",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "HUBBELL, INC.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,770,860",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.75",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "82,685",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "KEYCORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,426,033",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.60",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "10,830",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "MICROSOFT CORP.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,547,117",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "1.07",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "16,351",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "NEXTERA ENERGY, INC.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,095,154",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.46",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "6,398",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "NVIDIA CORP.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,400,621",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.59",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "UNITED STATES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "4,884",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "SOLAREDGE TECHNOLOGIES, INC.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,464,140",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.62",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "72,923,744",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "30.74",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "AUSTRALIA",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AUD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "4,093,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "AUSTRALIA GOVERNMENT BONDS 3.00% 21/03/2047",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,121,189",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.89",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "AUSTRALIA",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AUD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3,591,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "AUSTRALIA GOVERNMENT BONDS 3.75% 21/04/2037",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,201,535",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.93",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "BRAZIL",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BRL",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3,407,100",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "BRAZIL LETRAS DO TESOURO NACIONAL 01/01/2026",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "4,360,220",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "1.84",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "CAYMAN ISLANDS",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "400,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 3,
+      "is-max-width": true
+    },
+    "content": "SABLE INTERNATIONAL FINANCE LTD. 5.75% 07/09/2027 144A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "349,246",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.15",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "FRANCE",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,483,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "BNP PARIBAS SA FRN PERP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,385,615",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.58",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "FRANCE",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,533,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "BNP PARIBAS SA FRN PERP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,423,514",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.60",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "FRANCE",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "690,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "LOXAM SAS 2.875% 15/04/2026",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "623,836",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "FRANCE",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2,201,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "SOCIETE GENERALE SA FRN PERP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "2,074,418",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.87",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GERMANY",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "9,273,073",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "BUNDESREPUBLIK DEUTSCHLAND BUNDESANLEIHE 0.50%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "15/02/2025",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "8,823,607",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "3.72",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "HUNGARY",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "625,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "HUNGARY GOVERNMENT INTERNATIONAL BONDS 1.25%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "22/10/2025",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "578,562",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.24",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "INDONESIA",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "IDR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "13,966,000,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "INDONESIA TREASURY BONDS 6.375% 15/04/2032",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "839,257",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.35",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "INDONESIA",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "IDR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "5,797,000,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "INDONESIA TREASURY BONDS 7.00% 15/02/2033",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "361,832",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.15",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "IRELAND",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "400,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "AIB GROUP PLC FRN PERP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "373,292",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.16",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "IRELAND",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,053,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "VIRGIN MEDIA VENDOR FINANCING NOTES III DAC 4.875%",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "15/07/2028",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,013,540",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "0.43",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "ITALY",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "5,795,000",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "ITALY BUONI POLIENNALI DEL TESORO 0.30% 15/08/2023",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "5,721,056",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "2.41",
+    "__pdf_block__": true
+  }
+]

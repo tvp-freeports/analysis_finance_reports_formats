@@ -1,0 +1,53 @@
+[
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "Fidelity Euro Bond FAM Fund",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      },
+      "tot_assets": "435,099,727",
+      "liabilities": "4,256,970",
+      "net_assets": "430,842,757",
+      "date": "31 December 2024"
+    },
+    "content": "",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "Fidelity Global Dividend FAM Fund",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:USD"
+      },
+      "tot_assets": "721,238,425",
+      "liabilities": "3,027,304",
+      "net_assets": "718,211,121",
+      "date": "31 December 2024"
+    },
+    "content": "",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "US Equity Value FAM Fund",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:USD"
+      },
+      "tot_assets": "523,524,846",
+      "liabilities": "1,521,765",
+      "net_assets": "522,003,081",
+      "date": "31 December 2024"
+    },
+    "content": "",
+    "pdf_block": null,
+    "__text_block__": true
+  }
+]

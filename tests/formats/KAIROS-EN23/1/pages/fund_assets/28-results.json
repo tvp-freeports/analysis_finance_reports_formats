@@ -1,0 +1,17 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "data": {
+        "fund": "Kairos International Sicav - Bond ",
+        "date": null,
+        "tot_assets": 124084668.57,
+        "liabilities": 349535.02,
+        "net_assets": 123735133.55,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  }
+]

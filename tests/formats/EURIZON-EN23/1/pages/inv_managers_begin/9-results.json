@@ -1,0 +1,425 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Eurizon Capital S.A.",
+        "managed_funds": {
+          "__set__": [
+            "Eurizon Fund - Asian Equity Opportunities",
+            "Eurizon Fund - Equity China A",
+            "Eurizon Fund - Global Bond High Yield"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Epsilon Associati SGR S.p.A. (short name: Epsilon SGR S.p.A.)",
+        "managed_funds": {
+          "__set__": [
+            " Eurizon Fund -Absolute Active",
+            "Eurizon Fund - Absolute Prudent "
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Eurizon SLJ Capital LTD",
+        "managed_funds": {
+          "__set__": [
+            " Eurizon Fund -Bond Aggregate RMB",
+            "Eurizon Fund - Asian Debt Opportunities",
+            "Eurizon Fund - China Opportunity",
+            "Eurizon Fund - ChinaCredit Opportunities",
+            "Eurizon Fund - SLJ FlexibleGlobal Macro",
+            "Eurizon Fund - SLJ Local Emerging Markets Debt "
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Securitized Bond Fund "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Equity Planet"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund -Top European Research"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - BondAggregate EUR"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Inflation Strategy"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Global Multi Credit"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Global Bond Inflation Linked"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Active Allocation"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - FlexibleMultistrategy"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - EuroEmerging Markets Bonds"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Bond Aggregate EUR Short Term"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Absolute Green Bonds"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - BondCorporate EUR Short Term"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Sustainable Japan Equity"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Italian Equity Opportunities"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "EurizonFund - Equity People"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Absolute HighYield"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund- Conservative Allocation"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund -Flexible Allocation"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Dynamic Asset Allocation"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": " EurizonFund - Sustainable Multiasset"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Global Bond"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Flexible Europe Strategy"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Equity Circular Economy"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Azioni Strategia Flessibile"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - SustainableGlobal Equity"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Bond Emerging Markets"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Bond Euro High Yield"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Absolute Return Solution"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - EquityHigh Dividend"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "EurizonFund - Bond Emerging Markets in Local Currencies ESG"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Equity Innovation"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund -Equity USA"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - GreenEuro Credit"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - European Union Bonds"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Equity Small Mid Cap Europe"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Bond Inflation Linked"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Flexible US Strategy"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Bond High Yield"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Bond Flexible"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Bond Corporate EUR"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": " Eurizon Fund -Absolute Active"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - ChinaCredit Opportunities"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Asian Debt Opportunities"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - SLJ FlexibleGlobal Macro"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - SLJ Local Emerging Markets Debt "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": " Eurizon Fund -Bond Aggregate RMB"
+      }
+    }
+  }
+]

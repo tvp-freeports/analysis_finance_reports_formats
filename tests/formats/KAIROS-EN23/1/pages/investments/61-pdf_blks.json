@@ -1,0 +1,3734 @@
+[
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "metadata": {},
+    "content": "Kairos International Sicav - Innovation Trends (in USD)",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "metadata": {},
+    "content": "Kairos International Sicav - Innovation Trends (in USD)",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "7,275.00 ATLASSIAN CORP-CL A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,770,589.50",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.53",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "21,530.00 CLOUDFLARE INC - CLASS A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2,318,350.40",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2.01",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "52,023.00 CONFLUENT INC-CLASS A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,454,563.08",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "42,380.00 DASSAULT SYSTEMES SE",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,474,957.50",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.28",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "15,556.00 DATADOG INC - CLASS A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2,222,796.84",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.93",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "4,584.00 DUOLINGO",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,486,270.32",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.29",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "12,886.00 DYNATRACE INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "700,354.10",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.61",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "21,330.00 GITLAB INC-CL A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,201,945.50",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.04",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "1,100.00 HUBSPOT INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "766,447.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.66",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "37,686.00 JFROG LTD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,108,345.26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.96",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "4,862.00 MONGODB INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,131,922.22",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.98",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "1,514.00 MSCI INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "908,415.14",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.79",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "16,160.00 NUTANIX INC - A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "988,668.80",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.86",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "20,480.00 ROBLOX CORP -CLASS A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,184,972.80",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.03",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "1,325.00 SERVICENOW INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,404,659.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.22",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "23,835.00 UNITY SOFTWARE INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "535,572.45",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.46",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "2,982.00 ABBOTT LABORATORIES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "337,294.02",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.29",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "8,178.00 ASTRAZENECA PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GBP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,072,594.95",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.93",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "13,460.00 BICYCLE THERAPEUTICS PLC-ADR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "188,440.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.16",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "9,890.00 BIONTECH SE-ADR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,126,965.50",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.98",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "21,845.00 BOSTON SCIENTIFIC CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,951,195.40",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.69",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "23,808.00 BRISTOL-MYERS SQUIBB CO",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,346,580.48",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.17",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "25,652.00 EDWARDS LIFESCIENCES CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,899,017.56",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.65",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "10,110.00 GE HEALTHCARE TECHNOLOGY",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "790,399.80",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.68",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "22,297.00 GILEAD SCIENCES INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2,059,573.89",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.79",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "9,500.00 INTELLIA THERAPEUTICS INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "110,770.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.10",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "1,736.00 INTUITIVE SURGICAL INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "906,122.56",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.78",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "1,400.00 LONZA GROUP AG-REG",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CHF",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "827,985.20",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.72",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "6,160.00 NATERA INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "975,128.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.84",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "1,800.00 NEUROCRINE BIOSCIENCES INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "245,700.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.21",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 0,
+      "is-max-width": true
+    },
+    "content": "6,593.00 ROCHE HOLDING AG-GENUSSCHEIN",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CHF",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,859,369.95",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.61",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "1,400.00 TELADOC HEALTH INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "12,726.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.01",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "12,195.00 TEVA PHARMACEUTICAL-SP ADR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "268,777.80",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.23",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "1,291.00 VERTEX PHARMACEUTICALS INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "519,885.70",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.45",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "11,490.00 VIKING THERAPEUTICS INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "462,357.60",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.40",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "8,700.00 ALPHABET INC-CL A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,646,910.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.43",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "21,597.00 COUCHBASE INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "336,697.23",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.29",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "2,050.00 NETFLIX INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,827,206.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.58",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "10,097.00 PINTEREST INC- CLASS A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "292,813.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "10,388.00 REDDIT INC-CL A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,697,814.72",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.47",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "52,000.00 ROBINHOOD MARKETS INC - A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,937,520.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.68",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "7,435.00 SHOPIFY INC - CLASS A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "790,563.55",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.68",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "4,830.00 SPOTIFY TECHNOLOGY SA",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2,160,845.40",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.88",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 51,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "5,300.00 GOLDMAN SACHS GROUP INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 51,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 51,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3,034,886.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 51,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "2.63",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 52,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "9,600.00 JPMORGAN CHASE & CO",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 52,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 52,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2,301,216.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 52,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.99",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "7,814.00 M & T BANK CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,469,110.14",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "22,870.00 US BANCORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,093,872.10",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.95",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "18,520.00 ARISTA NETWORKS INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2,047,015.60",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.78",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 56,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "27,260.00 AT&T INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 56,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 56,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "620,710.20",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 56,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.54",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 57,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "14,960.00 CIENA CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 57,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 57,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,268,757.60",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 57,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.10",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 58,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "190,280.00 ERICSSON LM-B SHS",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 58,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "SEK",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 58,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,550,540.92",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 58,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.34",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 60,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "2,735.00 T-MOBILE US INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 60,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 60,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "603,696.55",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 60,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.52",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 63,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "2,543.00 AMPHENOL CORP-CL A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 63,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 63,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "176,611.35",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 63,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.15",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 64,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "12,860.00 ASTERA LABS INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 64,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 64,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1,703,307.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 64,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1.48",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 66,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "2,608.00 EATON CORP PLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 66,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 66,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "865,516.96",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 66,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.75",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 67,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "2,101.00 SAFRAN SA",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 67,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 67,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "462,956.80",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 67,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.40",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 68,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "5,047.00 TEXAS INSTRUMENTS INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 68,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 68,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "946,362.97",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 68,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.82",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 71,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "2,474.00 AMERICAN EXPRESS CO",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 71,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 71,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "734,258.46",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 71,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "0.64",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "33,070.00 NASDAQ OMX GROUP/THE",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "2,556,641.70",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "2.21",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "15,600.00 HEWLETT PACKARD ENTERPRISE",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "333,060.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.29",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "5,820.00 INTL BUSINESS MACHINES CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "1,279,410.60",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "1.11",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "19,300.00 LUMENTUM HOLDINGS INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "1,620,235.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "1.40",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "8,345.00 NEW YORK TIMES CO-A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "434,357.25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.38",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,250.00 THOMSON REUTERS CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "200,475.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.17",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "199,007.00 WARNER BROS DISCOVERY INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "2,103,503.99",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "1.82",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "30,447.00 CARRIER GLOBAL CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "2,078,312.22",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "1.80",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "3,729.00 GE VERNOVA INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "1,226,579.97",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "1.06",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "13,850.00 MOBILEYE GLOBAL INC-A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "275,892.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.24",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "730.00 ROCKWELL AUTOMATION INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "208,626.70",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.18",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "5,040.00 CONSTELLATION ENERGY",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "1,127,498.40",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.98",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "4,905.00 EXXON MOBIL CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "527,630.85",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.45",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "9,810.00 TRADE DESK INC/THE -CLASS A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "1,152,969.30",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "1.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "14,090.00 RYAN SPECIALTY HOLDINGS INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "904,014.40",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.78",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "17,487.00 SCHLUMBERGER LTD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "670,451.58",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.58",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "3,759.00 TARGET CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "508,141.62",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.44",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "3,370.00 ADVANCED MICRO DEVICES",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "407,062.30",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.35",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "915.00 ASML HOLDING NV",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "645,167.81",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.56",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "8,100.00 BROADCOM INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "1,877,904.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "1.63",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "30,899.00 NVIDIA CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "4,149,426.71",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "3.59",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "4,630.00 ABBVIE INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "822,751.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.71",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,440.00 ELI LILLY & CO",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "1,111,680.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.96",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "3,859.00 PROCTER & GAMBLE CO/THE",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "646,961.35",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.56",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 49,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,790.00 THERMO FISHER SCIENTIFIC INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 49,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 49,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "931,211.70",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 49,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.81",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 50,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,161.00 UNITEDHEALTH GROUP INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 50,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 50,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "587,303.46",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 50,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.51",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "36,290.00 CISCO SYSTEMS INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "2,148,368.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "1.86",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "162,540.00 NOKIA OYJ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "EUR",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "721,804.06",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.63",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "59,330.00 BANK OF AMERICA CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "2,607,553.50",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "2.26",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 59,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "701.00 COSTCO WHOLESALE CORP",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 59,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 59,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "642,305.27",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 59,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.56",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 61,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1,670.00 HOME DEPOT INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 61,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 61,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "649,613.30",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 61,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.56",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 62,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "8,050.00 WALMART INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 62,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 62,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "727,317.50",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 62,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.63",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 65,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "16,680.00 WALT DISNEY CO/THE",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 65,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 65,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "1,857,318.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 65,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "1.61",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 69,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "3,258.00 SALESFORCE INC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 69,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 69,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "1,089,247.14",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 69,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.94",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 70,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "4,930.00 SNOWFLAKE INC-CLASS A",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 70,
+      "table-col": 5,
+      "is-max-width": false
+    },
+    "content": "USD",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 70,
+      "table-col": 6,
+      "is-max-width": false
+    },
+    "content": "761,241.30",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 70,
+      "table-col": 7,
+      "is-max-width": false
+    },
+    "content": "0.66",
+    "__pdf_block__": true
+  }
+]

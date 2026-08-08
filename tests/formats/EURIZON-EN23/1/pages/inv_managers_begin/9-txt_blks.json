@@ -1,0 +1,440 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Eurizon Fund - Asian Equity Opportunities",
+          "Eurizon Fund - Equity China A",
+          "Eurizon Fund - Global Bond High Yield"
+        ]
+      }
+    },
+    "content": "Eurizon Capital S.A.",
+    "pdf_block": {
+      "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+      "metadata": {},
+      "content": "Eurizon Capital S.A."
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          " Eurizon Fund -Absolute Active",
+          "Eurizon Fund - Absolute Prudent "
+        ]
+      }
+    },
+    "content": "Epsilon Associati SGR S.p.A. (short name: Epsilon SGR S.p.A.)",
+    "pdf_block": {
+      "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+      "metadata": {},
+      "content": "Epsilon Associati SGR S.p.A. (short name: Epsilon SGR S.p.A.)"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          " Eurizon Fund -Bond Aggregate RMB",
+          "Eurizon Fund - Asian Debt Opportunities",
+          "Eurizon Fund - China Opportunity",
+          "Eurizon Fund - ChinaCredit Opportunities",
+          "Eurizon Fund - SLJ FlexibleGlobal Macro",
+          "Eurizon Fund - SLJ Local Emerging Markets Debt "
+        ]
+      }
+    },
+    "content": "Eurizon SLJ Capital LTD",
+    "pdf_block": {
+      "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+      "metadata": {},
+      "content": "Eurizon SLJ Capital LTD"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Securitized Bond Fund ",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Equity Planet",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund -Top European Research",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - BondAggregate EUR",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Inflation Strategy",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Global Multi Credit",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Global Bond Inflation Linked",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Active Allocation",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - FlexibleMultistrategy",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - EuroEmerging Markets Bonds",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Bond Aggregate EUR Short Term",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Absolute Green Bonds",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - BondCorporate EUR Short Term",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Sustainable Japan Equity",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Italian Equity Opportunities",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "EurizonFund - Equity People",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Absolute HighYield",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund- Conservative Allocation",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund -Flexible Allocation",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Dynamic Asset Allocation",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": " EurizonFund - Sustainable Multiasset",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Global Bond",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Flexible Europe Strategy",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Equity Circular Economy",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Azioni Strategia Flessibile",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - SustainableGlobal Equity",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Bond Emerging Markets",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Bond Euro High Yield",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Absolute Return Solution",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - EquityHigh Dividend",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "EurizonFund - Bond Emerging Markets in Local Currencies ESG",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Equity Innovation",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund -Equity USA",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - GreenEuro Credit",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - European Union Bonds",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Equity Small Mid Cap Europe",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Bond Inflation Linked",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Flexible US Strategy",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Bond High Yield",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Bond Flexible",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Bond Corporate EUR",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": " Eurizon Fund -Absolute Active",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - ChinaCredit Opportunities",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Asian Debt Opportunities",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - SLJ FlexibleGlobal Macro",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - SLJ Local Emerging Markets Debt ",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": " Eurizon Fund -Bond Aggregate RMB",
+    "pdf_block": null,
+    "__text_block__": true
+  }
+]

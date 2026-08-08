@@ -1,0 +1,3764 @@
+[
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3I GROUP ORD GBP0.738636 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 079.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "30 146.27 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.04",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AMCOR PLC ORD USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "5 910.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "51 575.07 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.06",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "ANGLO AMERICAN USD0.54945 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 033.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "46 233.12 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.06",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "ASHTEAD GROUP ORD GBP0.10 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "162.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "10 211.37 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.01",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "ASTRAZENECA ORD USD0.25 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "916.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "112 051.76 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.14",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AVIVA ORD GBP0.33 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 091.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "10 489.65 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.01",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BAE SYSTEMS ORD GBP0.025 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "607.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "7 779.02 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.01",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BARCLAYS ORD GBP0.25 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "21 538.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "38 222.81 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.05",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BP ORD USD0.25 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "5.38 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BT GROUP ORD GBP0.05 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "16 745.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "23 884.77 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.03",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BURBERRY GROUP ORD GBP0.0005 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 724.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "44 513.09 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.06",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CRODA INTL ORD GBP0.10609756 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "560.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "32 635.99 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.04",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "DIAGEO ORD GBP0.28 101/108 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "10 342.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "340 863.18 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.42",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "GSK PLC ORD GBP0.3125 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "4 260.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "71 294.31 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.09",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "HSBC HLDGS ORD USD0.50(UK REG) ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "16 249.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "119 167.98 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.15",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "INFORMA PLC (GB) ORD GBP0.001 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 344.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "12 116.55 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.01",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "INTERTEK GROUP ORD GBP0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "274.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "13 426.04 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.02",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "JOHNSON MATTHEY ORD GBP1.109245 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "996.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "19 511.31 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.02",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "KINGFISHER ORD GBP0.157142857 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "59 432.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "166 870.60 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.21",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "LEGAL & GENERAL GP ORD GBP0.025 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3 749.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "10 863.74 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.01",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "LLOYDS BANKING GP ORD GBP0.1 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "32 084.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "17 665.07 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.02",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "LONDON STOCK EXCH ORD GBP0.06918604 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "249.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "26 649.18 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.03",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "MELROSE INDUST PLC ORD GBP0.22857142 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 519.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "16 494.34 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.02",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "MONDI ORD EUR0.20 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 102.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "37 296.25 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.05",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "NATWEST GROUP PLC ORD GBP1.0769 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3 745.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "9 482.13 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.01",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "PEARSON ORD GBP0.25 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 058.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "22 899.71 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.03",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "PRUDENTIAL ORD GBP0.05 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3 898.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "39 909.91 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.05",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "RECKITT BENCK GRP ORD GBP0.10 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "279.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "17 451.02 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.02",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "RELX PLC GBP0.1444 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 658.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "95 396.56 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.12",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "ROLLS-ROYCE HLDGS ORD GBP0.20 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 459.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "8 504.77 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.01",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "SAGE GROUP GBP0.01051948 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 287.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "17 414.42 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 30,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.02",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "SCHRODERS PLC ORD GBP0.20 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "9 025.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "44 774.64 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 31,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.06",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "SHELL PLC ORD EUR0.07 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "66.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1 958.61 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 32,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.00",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "SMITHS GROUP ORD GBP0.375 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "476.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "9 687.23 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 33,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.01",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "STANDARD CHARTERED ORD USD0.50 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 721.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "13 239.26 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 34,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.02",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 1,
+      "is-max-width": true
+    },
+    "content": "VODAFONE GROUP ORD USD0.2095238(POST CONS) ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "17 689.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "13 995.60 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 35,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.02",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "GBP ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "WPP PLC ORD GBP0.10 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 697.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "14 746.68 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 36,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.02",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "3M CO COM ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 249.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "123 605.38 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 37,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.15",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "ADOBE INC COM USD0.0001 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "471.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "254 377.95 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 38,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.32",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "ALASKA AIRGROUP COM USD1 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 692.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "95 212.45 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 39,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.12",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "ALLSTATE CORP COM ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "269.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "34 087.38 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 40,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.04",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "ALPHABET INC CAP STK USD0.001 CL A ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "7 272.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "919 590.53 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 41,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1.14",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AMAZON COM INC COM USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "4 853.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "667 509.91 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 42,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.83",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AMER EXPRESS CO COM USD0.20 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "725.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "122 954.33 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 43,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.15",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AMER TOWER CORP COM NEW USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "349.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "68 204.52 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 44,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.08",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AMERICAN WATER WOR COM STK USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "245.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "29 274.02 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 45,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.04",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AMGEN INC COM USD0.0001 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "393.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "102 468.53 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 46,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.13",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "APPLE INC COM NPV ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "7 409.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "1 291 318.31 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 47,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "1.61",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "APPLIED MATLS INC COM ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 190.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "174 592.22 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 48,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.22",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 49,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 49,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "ARCHER DANIELS MIDLAND CO COM ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 49,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 656.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 49,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "108 266.26 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 49,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.13",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 50,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 50,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "ASSURANT INC COM ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 50,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "611.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 50,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "93 194.58 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 50,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.12",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 51,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 51,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AUTO DATA PROCESS COM USD0.10 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 51,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "649.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 51,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "136 873.70 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 51,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.17",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 52,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 52,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AUTODESK INC COM USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 52,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 281.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 52,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "282 349.96 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 52,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.35",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AVALONBAY COMMUNI COM USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "425.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "72 030.51 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 53,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.09",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "AVERY DENNISON CORP COM ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "570.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "104 314.67 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 54,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.13",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BEST BUY CO INC COM USD0.10 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 423.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "171 703.65 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 55,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.21",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 56,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 56,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BK OF AMERICA CORP COM USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 56,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 216.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 56,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "67 544.22 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 56,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.08",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 57,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 57,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BK OF NY MELLON CP COM STK USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 57,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "2 174.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 57,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "102 436.70 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 57,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.13",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 58,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 58,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BOOKING HLDGS INC COM USD0.008 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 58,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "20.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 58,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "64 223.42 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 58,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.08",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 59,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 59,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BRISTOL-MYRS SQUIB COM STK USD0.10 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 59,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 799.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 59,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "83 561.93 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 59,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.10",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 60,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 60,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "BROWN FORMAN CORP CL B ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 60,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 807.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 60,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "93 404.88 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 60,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.12",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 61,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 61,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CADENCE DESIGN SYS COM USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 61,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "734.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 61,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "180 980.02 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 61,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.23",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 62,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 62,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CBRE GROUP INC CLASS ‘A’ USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 62,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "392.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 62,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "33 034.25 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 62,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.04",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 63,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 63,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CENCORA INC RG ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 63,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 072.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 63,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "199 309.61 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 63,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.25",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 64,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 64,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CENTENE CORP DEL COM ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 64,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "532.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 64,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "35 739.57 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 64,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.04",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 65,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 65,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CH ROBINSON WORLDW COM USD0.1 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 65,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "724.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 65,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "56 620.97 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 65,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.07",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 66,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 66,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CHARTER COMMUN INC COM USD0.001 CLASS ‘A’ ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 66,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "191.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 66,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "67 204.89 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 66,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.08",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 67,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 67,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CHEVRON CORP COM USD0.75 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 67,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "3 227.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 67,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "435 739.21 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 67,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.54",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 68,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 68,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CHIPOTLE MEXICAN GRILL INC CL A ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 68,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "20.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 68,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "41 406.06 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 68,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.05",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 69,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 69,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CHURCH & DWIGHT INC COM ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 69,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "4 424.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 69,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "378 702.25 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 69,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.47",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 70,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 70,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CIGNA CORP COM USD0.25 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 70,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "510.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 70,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "138 251.48 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 70,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.17",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 71,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 71,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CISCO SYSTEMS COM USD0.001 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 71,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "1 701.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 71,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "77 793.44 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 71,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.10",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 72,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 72,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CITIGROUP INC COM USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 72,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "5 387.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 72,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "250 855.28 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 72,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.31",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 73,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 73,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "COMCAST CORP COM CLS’A’ USD0.01 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 73,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "802.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 73,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "31 836.06 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 73,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.04",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 74,
+      "table-col": 0,
+      "is-max-width": false
+    },
+    "content": "USD ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 74,
+      "table-col": 1,
+      "is-max-width": false
+    },
+    "content": "CONSOLIDATED EDISON INC COM ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 74,
+      "table-col": 2,
+      "is-max-width": false
+    },
+    "content": "403.00 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 74,
+      "table-col": 3,
+      "is-max-width": false
+    },
+    "content": "33 187.81 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "metadata": {
+      "table-row": 74,
+      "table-col": 4,
+      "is-max-width": false
+    },
+    "content": "0.04",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "metadata": {},
+    "content": "Valuation in EUR ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "metadata": {},
+    "content": "BPER International SICAV – Global  Balanced Risk Control ",
+    "__pdf_block__": true
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 1.087.208",
+      "% net assets": " 3,4%",
+      "quantity": " 1.480.000",
+      "interest rate": "2.45 ",
+      "company match": "BTPS 2.45 09/50",
+      "company": "ITALY BTPS",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "BTPS 2.45 09/50",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 3,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "BTPS 2.45 09/50"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 844.613",
+      "% net assets": " 2,7%",
+      "quantity": " 1.812",
+      "company match": "MICROSOFT CORP",
+      "company": "Microsoft",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "MICROSOFT CORP",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 6,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "MICROSOFT CORP"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 422.996",
+      "% net assets": " 1,3%",
+      "quantity": " 2.068",
+      "company match": "AMAZON.COM INC",
+      "company": "Amazon",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "AMAZON.COM INC",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 14,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "AMAZON.COM INC"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 393.005",
+      "% net assets": " 1,3%",
+      "quantity": " 2.344",
+      "company match": "ALPHABET INC CL A",
+      "company": "Alphabet",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "ALPHABET INC CL A",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 17,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "ALPHABET INC CL A"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 376.856",
+      "% net assets": " 1,2%",
+      "quantity": " 2.078",
+      "company match": "APPLE INC",
+      "company": "Apple Inc",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "APPLE INC",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 18,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "APPLE INC"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 370.047",
+      "% net assets": " 1,2%",
+      "quantity": " 14.700",
+      "company match": "VOLVO AB B SHS",
+      "company": "Volvo Car Corp",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "VOLVO AB B SHS",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 19,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "VOLVO AB B SHS"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 305.331",
+      "% net assets": " 1,0%",
+      "quantity": " 57.664",
+      "company match": "INTESA SANPAOLO",
+      "company": "INTESA SANPAOLO",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "INTESA SANPAOLO",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 25,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "INTESA SANPAOLO"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 265.830",
+      "% net assets": " 0,8%",
+      "quantity": " 21.148",
+      "company match": "CARREFOUR SA",
+      "company": "Carrefour",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "CARREFOUR SA",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 33,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "CARREFOUR SA"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 207.294",
+      "% net assets": " 0,7%",
+      "quantity": " 3.485",
+      "company match": "CISCO SYSTEMS INC",
+      "company": "Cisco Systems",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "CISCO SYSTEMS INC",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 39,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "CISCO SYSTEMS INC"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 206.794",
+      "% net assets": " 0,7%",
+      "quantity": " 214",
+      "company match": "BLACKROCK FUNDING IN",
+      "company": "Blackrock",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "BLACKROCK FUNDING IN",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 40,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "BLACKROCK FUNDING IN"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": " 204.359",
+      "% net assets": " 0,7%",
+      "quantity": " 1.315",
+      "company match": "NVIDIA CORP",
+      "company": "NVIDIA",
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "NVIDIA CORP",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 41,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "NVIDIA CORP"
+    },
+    "__text_block__": true
+  }
+]

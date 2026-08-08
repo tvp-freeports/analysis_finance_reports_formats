@@ -1,0 +1,19 @@
+[
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "Eurizon Fund - Flexible US Strategy",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      },
+      "tot_assets": "125 256 364,03",
+      "liabilities": "(84 101,11)",
+      "net_assets": "125 172 262,92",
+      "date": null
+    },
+    "content": "",
+    "pdf_block": null,
+    "__text_block__": true
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Kairos International Sicav - Innovation Trends ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "Kairos International Sicav - Innovation Trends (in USD)"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "1,646,910.00",
+      "% net assets": "1.43",
+      "quantity": "8,700.00 ",
+      "acquisition currency": "USD",
+      "company match": "8,700.00 ALPHABET INC-CL A",
+      "company": "Alphabet",
+      "fund": "Kairos International Sicav - Innovation Trends ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:USD"
+      }
+    },
+    "content": "8,700.00 ALPHABET INC-CL A",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 41,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "8,700.00 ALPHABET INC-CL A"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "333,060.00",
+      "% net assets": "0.29",
+      "quantity": "15,600.00 ",
+      "acquisition currency": "USD",
+      "company match": "15,600.00 HEWLETT PACKARD ENTERPRISE",
+      "company": "Hewlett Packard Enterprise",
+      "fund": "Kairos International Sicav - Innovation Trends ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:USD"
+      }
+    },
+    "content": "15,600.00 HEWLETT PACKARD ENTERPRISE",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 1,
+        "table-col": 4,
+        "is-max-width": false
+      },
+      "content": "15,600.00 HEWLETT PACKARD ENTERPRISE"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "1,279,410.60",
+      "% net assets": "1.11",
+      "quantity": "5,820.00 ",
+      "acquisition currency": "USD",
+      "company match": "5,820.00 INTL BUSINESS MACHINES CORP",
+      "company": "International Business Machines",
+      "fund": "Kairos International Sicav - Innovation Trends ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:USD"
+      }
+    },
+    "content": "5,820.00 INTL BUSINESS MACHINES CORP",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 2,
+        "table-col": 4,
+        "is-max-width": false
+      },
+      "content": "5,820.00 INTL BUSINESS MACHINES CORP"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "4,149,426.71",
+      "% net assets": "3.59",
+      "quantity": "30,899.00 ",
+      "acquisition currency": "USD",
+      "company match": "30,899.00 NVIDIA CORP",
+      "company": "NVIDIA",
+      "fund": "Kairos International Sicav - Innovation Trends ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:USD"
+      }
+    },
+    "content": "30,899.00 NVIDIA CORP",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 43,
+        "table-col": 4,
+        "is-max-width": false
+      },
+      "content": "30,899.00 NVIDIA CORP"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "2,148,368.00",
+      "% net assets": "1.86",
+      "quantity": "36,290.00 ",
+      "acquisition currency": "USD",
+      "company match": "36,290.00 CISCO SYSTEMS INC",
+      "company": "Cisco Systems",
+      "fund": "Kairos International Sicav - Innovation Trends ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:USD"
+      }
+    },
+    "content": "36,290.00 CISCO SYSTEMS INC",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 53,
+        "table-col": 4,
+        "is-max-width": false
+      },
+      "content": "36,290.00 CISCO SYSTEMS INC"
+    },
+    "__text_block__": true
+  }
+]

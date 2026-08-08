@@ -1,0 +1,176 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "ANIMA U.S. Equity",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "ANIMA U.S. Equity"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "1,001,593",
+      "% net assets": "0.14",
+      "quantity": "8,127",
+      "company match": "Airbnb Inc",
+      "company": "Airbnb",
+      "fund": "ANIMA U.S. Equity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Airbnb Inc",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 13,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Airbnb Inc"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "13,360,490",
+      "% net assets": "1.90",
+      "quantity": "105,653",
+      "company match": "Alphabet Inc (Class A)",
+      "company": "Alphabet",
+      "fund": "ANIMA U.S. Equity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Alphabet Inc (Class A)",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 14,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Alphabet Inc (Class A)"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "11,818,905",
+      "% net assets": "1.68",
+      "quantity": "92,640",
+      "company match": "Alphabet Inc (Class C)",
+      "company": "Alphabet",
+      "fund": "ANIMA U.S. Equity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Alphabet Inc (Class C)",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 15,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Alphabet Inc (Class C)"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "22,684,606",
+      "% net assets": "3.22",
+      "quantity": "164,924",
+      "company match": "Amazon.com Inc",
+      "company": "Amazon",
+      "fund": "ANIMA U.S. Equity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Amazon.com Inc",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 16,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Amazon.com Inc"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "2,353,788",
+      "% net assets": "0.34",
+      "quantity": "733",
+      "company match": "Booking Holdings Inc",
+      "company": "Booking Holdings",
+      "fund": "ANIMA U.S. Equity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Booking Holdings Inc",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 17,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Booking Holdings Inc"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "2,544,638",
+      "% net assets": "0.36",
+      "quantity": "9,507",
+      "company match": "Caterpillar Inc",
+      "company": "Caterpillar",
+      "fund": "ANIMA U.S. Equity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Caterpillar Inc",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 33,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Caterpillar Inc"
+    },
+    "__text_block__": true
+  }
+]

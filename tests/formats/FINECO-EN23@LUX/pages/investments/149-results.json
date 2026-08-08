@@ -1,0 +1,30 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Siemens",
+        "company_match": "SIEMENS AG - REG",
+        "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
+        "nominal_quantity": 13796.0,
+        "market_value": 2601374.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0042,
+        "acquisition_cost": 2033353.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CoRe Series - Invesco Pan European High Income FAM Fund"
+      }
+    }
+  }
+]

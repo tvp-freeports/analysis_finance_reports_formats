@@ -1,0 +1,46 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "INTESA SANPAOLO",
+        "company_match": "INTESA SANPAOLO",
+        "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
+        "nominal_quantity": 962513.0,
+        "market_value": 3340880.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0934,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Leonardo",
+        "company_match": "LEONARDO SPA",
+        "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
+        "nominal_quantity": 29818.0,
+        "market_value": 646454.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0181,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024"
+      }
+    }
+  }
+]

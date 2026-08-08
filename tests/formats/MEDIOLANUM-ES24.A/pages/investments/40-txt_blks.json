@@ -1,0 +1,159 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "GAMAX FUNDS - JUNIOR ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "GAMAX FUNDS - JUNIOR "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "6.665.354 ",
+      "% net assets": "0,55 ",
+      "quantity": "52.492 ",
+      "acquisition currency": "USD ",
+      "acquisition cost": "6.568.240 ",
+      "company match": "Airbnb Rg-A ",
+      "company": "Airbnb",
+      "fund": "GAMAX FUNDS - JUNIOR ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Airbnb Rg-A ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 32,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Airbnb Rg-A "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "22.366.265 ",
+      "% net assets": "1,85 ",
+      "quantity": "121.404 ",
+      "acquisition currency": "USD ",
+      "acquisition cost": "12.633.047 ",
+      "company match": "Alphabet Inc -A- ",
+      "company": "Alphabet",
+      "fund": "GAMAX FUNDS - JUNIOR ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Alphabet Inc -A- ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 34,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Alphabet Inc -A- "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "91.825.483 ",
+      "% net assets": "7,58 ",
+      "quantity": "430.725 ",
+      "acquisition currency": "USD ",
+      "acquisition cost": "57.416.684 ",
+      "company match": "Amazon Com Inc ",
+      "company": "Amazon",
+      "fund": "GAMAX FUNDS - JUNIOR ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Amazon Com Inc ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 36,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Amazon Com Inc "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "10.966.770 ",
+      "% net assets": "0,91 ",
+      "quantity": "45.139 ",
+      "acquisition currency": "USD ",
+      "acquisition cost": "6.802.972 ",
+      "company match": "Apple Inc. ",
+      "company": "Apple Inc",
+      "fund": "GAMAX FUNDS - JUNIOR ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Apple Inc. ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 37,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Apple Inc. "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "23.530.001 ",
+      "% net assets": "1,94 ",
+      "quantity": "4.894 ",
+      "acquisition currency": "USD ",
+      "acquisition cost": "12.262.755 ",
+      "company match": "Booking Holdings Inc ",
+      "company": "Booking Holdings",
+      "fund": "GAMAX FUNDS - JUNIOR ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Booking Holdings Inc ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 43,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Booking Holdings Inc "
+    },
+    "__text_block__": true
+  }
+]

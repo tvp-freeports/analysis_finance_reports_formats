@@ -1,0 +1,130 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ROLLS",
+        "company_match": "ROLLS-ROYCE HOLDINGS PLC",
+        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "nominal_quantity": 48247.0,
+        "market_value": 166871.31,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0008,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:GBP"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Airbnb",
+        "company_match": "AIRBNB INC",
+        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "nominal_quantity": 628.0,
+        "market_value": 77397.68,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0004,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "ALPHABET INC - CLASS A",
+        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "nominal_quantity": 16903.0,
+        "market_value": 2137527.35,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.009899999999999999,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "AMAZON.COM INC",
+        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "nominal_quantity": 14322.0,
+        "market_value": 1969964.33,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0092,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "APPLE INC",
+        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "nominal_quantity": 23705.0,
+        "market_value": 4131625.42,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0192,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Booking Holdings",
+        "company_match": "BOOKING HOLDINGS INC",
+        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "nominal_quantity": 54.0,
+        "market_value": 173406.13,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0008,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": " Sidera Funds SICAV – Balanced Growth"
+      }
+    }
+  }
+]

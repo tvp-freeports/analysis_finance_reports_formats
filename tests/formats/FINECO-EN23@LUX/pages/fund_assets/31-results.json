@@ -1,0 +1,47 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "data": {
+        "fund": "CoRe Series - FAM Park",
+        "date": null,
+        "tot_assets": 98092763.0,
+        "liabilities": 213017.0,
+        "net_assets": 97879746.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "data": {
+        "fund": "CoRe Series - CoRe Coupon",
+        "date": null,
+        "tot_assets": 377626249.0,
+        "liabilities": 1040409.0,
+        "net_assets": 376585840.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "data": {
+        "fund": "CoRe Series - CoRe Income Opportunity",
+        "date": null,
+        "tot_assets": 719767105.0,
+        "liabilities": 929635.0,
+        "net_assets": 718837470.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  }
+]

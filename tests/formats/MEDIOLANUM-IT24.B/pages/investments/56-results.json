@@ -1,0 +1,46 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "AXA SA",
+        "company_match": "AXA SA",
+        "fund": "Fondo Mediolanum Flessibile Futuro Sostenibile ",
+        "nominal_quantity": 74854.0,
+        "market_value": 2554018.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0068000000000000005,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Siemens",
+        "company_match": "SIEMENS AG REG",
+        "fund": "Fondo Mediolanum Flessibile Futuro Sostenibile ",
+        "nominal_quantity": 13138.0,
+        "market_value": 2477301.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0066,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fondo Mediolanum Flessibile Futuro Sostenibile "
+      }
+    }
+  }
+]

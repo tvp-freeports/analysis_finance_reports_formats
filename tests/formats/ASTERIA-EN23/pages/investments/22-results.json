@@ -1,0 +1,50 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Airbnb",
+        "company_match": "AIRBNB RG-A",
+        "fund": "Asteria Funds – People Impact Global Equities",
+        "nominal_quantity": 1294.0,
+        "market_value": 165839.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "perc_net_assets": 0.011200000000000002,
+        "acquisition_cost": 144290.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Cisco Systems",
+        "company_match": "CISCO SYSTEMS INC.",
+        "fund": "Asteria Funds – People Impact Global Equities",
+        "nominal_quantity": 7321.0,
+        "market_value": 378789.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "perc_net_assets": 0.0256,
+        "acquisition_cost": 424237.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Asteria Funds – People Impact Global Equities"
+      }
+    }
+  }
+]

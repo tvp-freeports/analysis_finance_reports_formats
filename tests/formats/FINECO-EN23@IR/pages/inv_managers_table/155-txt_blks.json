@@ -1,0 +1,196 @@
+[
+  {
+    "subtype_tag": null,
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "funds": {
+        "__set__": [
+          "Fidelity Euro Bond FAM Fund",
+          "Fidelity Euro Short Term Bond FAM Fund",
+          "Fidelity Focus Equity FAM Fund",
+          "Fidelity Global Dividend FAM Fund"
+        ]
+      }
+    },
+    "content": "FIL Pensions Management",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fidelity Euro Short Term Bond FAM Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fidelity Focus Equity FAM Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "funds": {
+        "__set__": [
+          "US Equity Value FAM Fund"
+        ]
+      }
+    },
+    "content": "Invesco Advisers, Inc.",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "funds": {
+        "__set__": [
+          "Emerging Markets Debt FAM Fund",
+          "M&G North American Value FAM Fund",
+          "M&G Optimal Income FAM Fund"
+        ]
+      }
+    },
+    "content": "M&G Investment Management Limited",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "M&G North American Value FAM Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Emerging Markets Debt FAM Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "funds": {
+        "__set__": [
+          "Amundi Emerging Markets Bond FAM Fund",
+          "Amundi European Equity Value FAM Fund",
+          "Amundi Strategic Bond FAM Fund"
+        ]
+      }
+    },
+    "content": "Amundi Ireland Limited",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Amundi Strategic Bond FAM Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "funds": {
+        "__set__": [
+          "Fineco AM Euro Corp Bonds Fund",
+          "Fineco AM Euro Corporate Bond Fund",
+          "Fineco AM Euro Credit Bond Fund",
+          "Fineco AM European Corporate Bond Fund",
+          "Fineco AM Global Equities Income Fund",
+          "Fineco AM Global Equity Fund",
+          "Fineco AM Global Premium Equities Fund",
+          "Fineco AM Investment Grade Euro Aggregate Bond Fund"
+        ]
+      }
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fineco AM Euro Corporate Bond Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fineco AM Global Equity Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fineco AM Euro Corp Bonds Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fineco AM Global Equities Income Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fineco AM European Corporate Bond Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fineco AM Investment Grade Euro Aggregate Bond Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fineco AM Euro Credit Bond Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "funds": {
+        "__set__": [
+          "Invesco Global Total Return Bond FAM Fund"
+        ]
+      }
+    },
+    "content": "Invesco Asset Management Limited",
+    "pdf_block": null,
+    "__text_block__": true
+  }
+]

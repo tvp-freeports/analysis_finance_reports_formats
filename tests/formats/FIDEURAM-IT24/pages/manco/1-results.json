@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Fideuram ISPB Asset Management SGR S.p.A.",
+        "managed_funds": {
+          "__set__": [
+            "CoRe Series - CoRe Coupon",
+            "CoRe Series - CoRe Income Opportunity",
+            "CoRe Series - FAM Park",
+            "Invesco Global Total Return Bond FAM Fund",
+            "US Equity Value FAM Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:ManagementCompany",
+      "data": {
+        "name": "Fideuram ISPB Asset Management SGR S.p.A.",
+        "managed_funds": {
+          "__set__": [
+            "CoRe Series - CoRe Coupon",
+            "CoRe Series - CoRe Income Opportunity",
+            "CoRe Series - FAM Park",
+            "Invesco Global Total Return Bond FAM Fund",
+            "US Equity Value FAM Fund"
+          ]
+        }
+      }
+    }
+  }
+]

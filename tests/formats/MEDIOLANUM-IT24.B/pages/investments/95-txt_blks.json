@@ -1,0 +1,126 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fondo Mediolanum Flessibile Strategico ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "Fondo Mediolanum Flessibile Strategico "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "6.093.128 ",
+      "% net assets": "1,21 ",
+      "quantity": "32.314 ",
+      "company match": "SIEMENS AG REG ",
+      "company": "Siemens",
+      "fund": "Fondo Mediolanum Flessibile Strategico ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "SIEMENS AG REG ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 7,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "SIEMENS AG REG "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "3.890.499 ",
+      "% net assets": "0,77 ",
+      "quantity": "114.024 ",
+      "company match": "AXA SA ",
+      "company": "AXA SA",
+      "fund": "Fondo Mediolanum Flessibile Strategico ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "AXA SA ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 17,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "AXA SA "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "3.510.150 ",
+      "% net assets": "0,7 ",
+      "quantity": "3.500.000 ",
+      "interest rate": "2.8 ",
+      "maturity": "06/29",
+      "company match": "BTPS 2.8 06/29 ",
+      "company": "ITALY BTPS",
+      "fund": "Fondo Mediolanum Flessibile Strategico ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "BTPS 2.8 06/29 ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 19,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "BTPS 2.8 06/29 "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "2.562.900 ",
+      "% net assets": "0,51 ",
+      "quantity": "3.000.000 ",
+      "interest rate": "0.6 ",
+      "maturity": "08/31",
+      "company match": "BTPS 0.6 08/31 ",
+      "company": "ITALY BTPS",
+      "fund": "Fondo Mediolanum Flessibile Strategico ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "BTPS 0.6 08/31 ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 40,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "BTPS 0.6 08/31 "
+    },
+    "__text_block__": true
+  }
+]

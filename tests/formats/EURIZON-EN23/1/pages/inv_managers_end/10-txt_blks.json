@@ -1,0 +1,65 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          " Eurizon Fund - Asian Equity Opportunities",
+          "Eurizon Fund - Equity China A "
+        ]
+      }
+    },
+    "content": "Eurizon Capital Asia Limited",
+    "pdf_block": {
+      "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+      "metadata": {},
+      "content": "Eurizon Capital Asia Limited"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Equity China A ",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Eurizon Fund - Global Equity Infrastructure"
+        ]
+      }
+    },
+    "content": "Jennison Associates LLC",
+    "pdf_block": {
+      "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+      "metadata": {},
+      "content": "Jennison Associates LLC"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Eurizon Fund - Global Bond High Yield"
+        ]
+      }
+    },
+    "content": "PGIM Inc.",
+    "pdf_block": {
+      "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+      "metadata": {},
+      "content": "PGIM Inc."
+    },
+    "__text_block__": true
+  }
+]

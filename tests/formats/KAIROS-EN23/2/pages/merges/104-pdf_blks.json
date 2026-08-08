@@ -1,0 +1,14 @@
+[
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {},
+    "content": "- On April 5, 2024, Kairos International Sicav - European Long Only* merged into Kairos International Sicav - ActivESG, based on the NAV date April 4, 2024. ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {},
+    "content": "As at April 15, 2024, the Sub-Fund Kairos International Sicav - European Long/Short has changed its name in Kairos International Sicav - Opportunities Long/Short*. ",
+    "__pdf_block__": true
+  }
+]

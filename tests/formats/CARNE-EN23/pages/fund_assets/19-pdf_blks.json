@@ -1,0 +1,15 @@
+[
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "Sidera Funds SICAV – Balanced Growth ",
+      "currency": "EUR",
+      "tot_assets": "215,581,172.39",
+      "liabilities": "-365,138.81",
+      "net_assets": "215,216,033.58",
+      "date": null
+    },
+    "content": "",
+    "__pdf_block__": true
+  }
+]

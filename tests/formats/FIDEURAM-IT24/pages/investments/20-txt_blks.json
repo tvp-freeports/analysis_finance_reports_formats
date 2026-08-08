@@ -1,0 +1,68 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "3.340.880",
+      "% net assets": "9,34",
+      "quantity": "962.513,0000000",
+      "company match": "INTESA SANPAOLO",
+      "company": "INTESA SANPAOLO",
+      "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "INTESA SANPAOLO",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 0,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "INTESA SANPAOLO"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "646.454",
+      "% net assets": "1,81",
+      "quantity": "29.818,0000000",
+      "company match": "LEONARDO SPA",
+      "company": "Leonardo",
+      "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "LEONARDO SPA",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 13,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "LEONARDO SPA"
+    },
+    "__text_block__": true
+  }
+]

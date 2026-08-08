@@ -1,0 +1,19 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:ManagementCompany",
+      "data": {
+        "name": "UBS Fund Management (Luxembourg) S.A.",
+        "managed_funds": {
+          "__set__": [
+            "CoRe Series - CoRe Coupon",
+            "CoRe Series - CoRe Income Opportunity",
+            "CoRe Series - FAM Park",
+            "Invesco Global Total Return Bond FAM Fund",
+            "US Equity Value FAM Fund"
+          ]
+        }
+      }
+    }
+  }
+]

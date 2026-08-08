@@ -1,0 +1,37 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardManagmentCompanyTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Test fund A",
+          "Test fund B",
+          "Test fund C"
+        ]
+      }
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Fineco Asset Management Designated Activity Company"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "_plugin_fineco_en23_ir.managment_company:BlockType:INV_MAN",
+    "metadata": {
+      "funds": {
+        "__set__": [
+          "Test fund A",
+          "Test fund B"
+        ]
+      }
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "pdf_block": null,
+    "__text_block__": true
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Equity China A "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Eurizon Capital Asia Limited",
+        "managed_funds": {
+          "__set__": [
+            " Eurizon Fund - Asian Equity Opportunities",
+            "Eurizon Fund - Equity China A "
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Jennison Associates LLC",
+        "managed_funds": {
+          "__set__": [
+            "Eurizon Fund - Global Equity Infrastructure"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "PGIM Inc.",
+        "managed_funds": {
+          "__set__": [
+            "Eurizon Fund - Global Bond High Yield"
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,454 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES EURO CORP ESG UCITS",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 650000.0,
+        "market_value": 3090.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.14065,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES G BD IN F IE-DEURHA",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 89500.0,
+        "market_value": 871.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03965,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES USD HY CORP ESG USDA",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 148500.0,
+        "market_value": 859.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03911,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES USD CORP ESG-USD ACC",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 150000.0,
+        "market_value": 709.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03225,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES MSCI EUROPE SRI",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 7450.0,
+        "market_value": 505.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.02299,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.5% 15-01/06/2025",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 400000.0,
+        "market_value": 398.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01814,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-06-01"
+        },
+        "interest_rate": 0.015
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES GLOBAL GOVT BOND",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 3600.0,
+        "market_value": 307.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.013959999999999998,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.5% 22-15/01/2026",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 300000.0,
+        "market_value": 304.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01381,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-01-15"
+        },
+        "interest_rate": 0.035
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 2.95% 24-15/02/2027",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 300000.0,
+        "market_value": 303.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0138,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2027-02-15"
+        },
+        "interest_rate": 0.029500000000000002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.45% 21-15/02/2029",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 300000.0,
+        "market_value": 274.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01248,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2029-02-15"
+        },
+        "interest_rate": 0.0045000000000000005
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Blackrock",
+        "company_match": "BLACKROCK GL FUT OF TP-D2EUR",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 21350.0,
+        "market_value": 271.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01233,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 5% 09-01/03/2025",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 250000.0,
+        "market_value": 251.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01142,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-03-01"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES S&P GLOBAL WATER 50",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 4000.0,
+        "market_value": 247.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.011240000000000002,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES ESG USD EM BD EUR-HA",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 53000.0,
+        "market_value": 236.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01075,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "NVIDIA",
+        "company_match": "NVIDIA CORP",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 1771.0,
+        "market_value": 235.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01068,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Microsoft",
+        "company_match": "MICROSOFT CORP",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 504.0,
+        "market_value": 206.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.009389999999999999,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES MSCI JAPAN ESG SCRND",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 31300.0,
+        "market_value": 199.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00905,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES SMART CITY INFR USDA",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 25300.0,
+        "market_value": 187.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00852,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES GLB TIMBER&FORESTRY",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 5600.0,
+        "market_value": 141.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00644,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 2.2% 17-01/06/2027",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 100000.0,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00453,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2027-06-01"
+        },
+        "interest_rate": 0.022000000000000002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "AMAZON.COM INC",
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "nominal_quantity": 419.0,
+        "market_value": 89.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00407,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ARCA OPPORTUNITÀ GREEN 2027 VIII"
+      }
+    }
+  }
+]

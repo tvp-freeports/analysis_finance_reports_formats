@@ -1,0 +1,70 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Blackrock",
+        "company_match": "BlackRock, Inc.",
+        "fund": "Global Index",
+        "nominal_quantity": 9905.0,
+        "market_value": 112190930.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:SEK"
+        },
+        "perc_net_assets": 0.0023,
+        "acquisition_cost": 55615949.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Booking Holdings",
+        "company_match": "Booking Holdings, Inc.",
+        "fund": "Global Index",
+        "nominal_quantity": 2163.0,
+        "market_value": 118742892.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:SEK"
+        },
+        "perc_net_assets": 0.0024,
+        "acquisition_cost": 40160698.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Caterpillar",
+        "company_match": "Caterpillar, Inc.",
+        "fund": "Global Index",
+        "nominal_quantity": 31693.0,
+        "market_value": 127032704.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:SEK"
+        },
+        "perc_net_assets": 0.0026,
+        "acquisition_cost": 51265710.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Global Index"
+      }
+    }
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Airbnb",
+        "company_match": "Airbnb Inc",
+        "fund": "ANIMA U.S. Equity",
+        "nominal_quantity": 8127.0,
+        "market_value": 1001593.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0014000000000000002,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet Inc (Class A)",
+        "fund": "ANIMA U.S. Equity",
+        "nominal_quantity": 105653.0,
+        "market_value": 13360490.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.019,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet Inc (Class C)",
+        "fund": "ANIMA U.S. Equity",
+        "nominal_quantity": 92640.0,
+        "market_value": 11818905.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0168,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "Amazon.com Inc",
+        "fund": "ANIMA U.S. Equity",
+        "nominal_quantity": 164924.0,
+        "market_value": 22684606.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0322,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Booking Holdings",
+        "company_match": "Booking Holdings Inc",
+        "fund": "ANIMA U.S. Equity",
+        "nominal_quantity": 733.0,
+        "market_value": 2353788.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0034000000000000002,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Caterpillar",
+        "company_match": "Caterpillar Inc",
+        "fund": "ANIMA U.S. Equity",
+        "nominal_quantity": 9507.0,
+        "market_value": 2544638.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0036,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA U.S. Equity"
+      }
+    }
+  }
+]

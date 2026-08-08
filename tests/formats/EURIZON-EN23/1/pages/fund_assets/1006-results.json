@@ -1,0 +1,17 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "data": {
+        "fund": "Eurizon Fund - Flexible US Strategy",
+        "date": null,
+        "tot_assets": 125256364.03,
+        "liabilities": 84101.11,
+        "net_assets": 125172262.92,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  }
+]

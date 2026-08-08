@@ -1,0 +1,43 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "CoRe Series - Invesco Pan European High Income FAM Fund",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "CoRe Series - Invesco Pan European High Income FAM Fund"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "2 601 374 ",
+      "% net assets": "0.42 ",
+      "quantity": "13 796",
+      "acquisition currency": "EUR",
+      "acquisition cost": "2 033 353 ",
+      "company match": "SIEMENS AG - REG",
+      "company": "Siemens",
+      "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "SIEMENS AG - REG",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 19,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "SIEMENS AG - REG"
+    },
+    "__text_block__": true
+  }
+]

@@ -1,0 +1,812 @@
+[
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 0
+    },
+    "content": "Fidelity Euro Bond FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 1
+    },
+    "content": "3 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 0,
+      "table-col": 2
+    },
+    "content": "FIL Pensions Management",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 0
+    },
+    "content": "Fidelity Euro Short Term Bond FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 1
+    },
+    "content": "3 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 1,
+      "table-col": 2
+    },
+    "content": "FIL Pensions Management",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 0
+    },
+    "content": "Fidelity Global Dividend FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 1
+    },
+    "content": "3 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 2,
+      "table-col": 2
+    },
+    "content": "FIL Pensions Management",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 0
+    },
+    "content": "Fidelity Focus Equity FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 1
+    },
+    "content": "3 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 3,
+      "table-col": 2
+    },
+    "content": "FIL Pensions Management",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 0
+    },
+    "content": "US Equity Value FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 1
+    },
+    "content": "3 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 4,
+      "table-col": 2
+    },
+    "content": "Invesco Advisers, Inc.",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 0
+    },
+    "content": "M&G North American Value FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 1
+    },
+    "content": "9 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 5,
+      "table-col": 2
+    },
+    "content": "M&G Investment Management Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 0
+    },
+    "content": "Amundi Emerging Markets Bond FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 1
+    },
+    "content": "20 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 6,
+      "table-col": 2
+    },
+    "content": "Amundi Ireland Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 0
+    },
+    "content": "Amundi Strategic Bond FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 1
+    },
+    "content": "20 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 7,
+      "table-col": 2
+    },
+    "content": "Amundi Ireland Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 0
+    },
+    "content": "Amundi European Equity Value FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 1
+    },
+    "content": "20 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 8,
+      "table-col": 2
+    },
+    "content": "Amundi Ireland Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 0
+    },
+    "content": "Emerging Markets Bond Hard Currency FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 1
+    },
+    "content": "24 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 9,
+      "table-col": 2
+    },
+    "content": "Amundi (UK) Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 0
+    },
+    "content": "Euro Bond FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 1
+    },
+    "content": "24 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 10,
+      "table-col": 2
+    },
+    "content": "Amundi (UK) Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 0
+    },
+    "content": "Euro Corporate Fixed Income FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 1
+    },
+    "content": "24 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 11,
+      "table-col": 2
+    },
+    "content": "Amundi (UK) Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 0
+    },
+    "content": "Euro Short Duration Bond FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 1
+    },
+    "content": "24 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 12,
+      "table-col": 2
+    },
+    "content": "Schroder Investment Management Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 0
+    },
+    "content": "Fineco AM European Corporate Bond Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 1
+    },
+    "content": "28 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 13,
+      "table-col": 2
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 0
+    },
+    "content": "M&G Optimal Income FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 1
+    },
+    "content": "30 August 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 14,
+      "table-col": 2
+    },
+    "content": "M&G Investment Management Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 0
+    },
+    "content": "Schroder Euro Bond FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 1
+    },
+    "content": "13 September 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 15,
+      "table-col": 2
+    },
+    "content": "Schroder Investment Management Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 0
+    },
+    "content": "European Equity FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 1
+    },
+    "content": "14 September 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 16,
+      "table-col": 2
+    },
+    "content": "FIL Pensions Management AG",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 0
+    },
+    "content": "Fineco AM Global Premium Equities Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 1
+    },
+    "content": "29 October 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 17,
+      "table-col": 2
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 0
+    },
+    "content": "Fineco AM Global Equity Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 1
+    },
+    "content": "31 October 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 18,
+      "table-col": 2
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 0
+    },
+    "content": "Fineco AM Euro Corp Bonds Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 1
+    },
+    "content": "5 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 19,
+      "table-col": 2
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 0
+    },
+    "content": "Flexible Equity Strategy FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 1
+    },
+    "content": "5 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 20,
+      "table-col": 2
+    },
+    "content": "Vontobel Asset Management AG",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 0
+    },
+    "content": "Fineco AM Investment Grade Euro Aggregate Bond Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 1
+    },
+    "content": "8 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 21,
+      "table-col": 2
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 0
+    },
+    "content": "Fineco AM Euro Corporate Bond Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 1
+    },
+    "content": "8 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 22,
+      "table-col": 2
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 0
+    },
+    "content": "Fineco AM Global Equities Income Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 1
+    },
+    "content": "8 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 23,
+      "table-col": 2
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 0
+    },
+    "content": "Invesco Global Total Return Bond FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 1
+    },
+    "content": "13 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 24,
+      "table-col": 2
+    },
+    "content": "Invesco Asset Management Limited",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 0
+    },
+    "content": "Nordea Stable Performance FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 1
+    },
+    "content": "13 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 25,
+      "table-col": 2
+    },
+    "content": "Nordea Investment Management AB",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 0
+    },
+    "content": "Fineco AM Euro Credit Bond Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 1
+    },
+    "content": "15 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 26,
+      "table-col": 2
+    },
+    "content": "Fineco Asset Management Designated Activity Company",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 0
+    },
+    "content": "Euro High Yield Bond FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 1
+    },
+    "content": "15 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 27,
+      "table-col": 2
+    },
+    "content": "FIL Pensions Management AG",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 0
+    },
+    "content": "European High Yield Bond FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 1
+    },
+    "content": "15 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 28,
+      "table-col": 2
+    },
+    "content": "Vontobel Asset Management AG",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 0
+    },
+    "content": "Emerging Markets Debt FAM Fund",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 1
+    },
+    "content": "22 November 2018",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_ir.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "table-row": 29,
+      "table-col": 2
+    },
+    "content": "M&G Investment Management Limited",
+    "__pdf_block__": true
+  }
+]

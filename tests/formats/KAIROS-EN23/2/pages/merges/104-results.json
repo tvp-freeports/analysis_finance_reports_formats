@@ -1,0 +1,26 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "data": {
+        "old_name": "Kairos International Sicav - European Long Only",
+        "current_name": "Kairos International Sicav - ActivESG",
+        "date": {
+          "__date__": "2024-04-05"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundRename",
+      "data": {
+        "old_name": "Kairos International Sicav - European Long/Short",
+        "current_name": "Kairos International Sicav - Opportunities Long/Short",
+        "date": {
+          "__date__": "2024-04-15"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "         ANIMA PRIVATE ALTO POTENZIALE 2028 "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "3.222.990 ",
+      "% net assets": "8,749% ",
+      "quantity": "3.000.000 ",
+      "acquisition currency": "EUR ",
+      "interest rate": "4.75%",
+      "maturity": "01/09/2028",
+      "company match": "ITALY BTPS 4.75% 13-01/09/2028 ",
+      "company": "Italy btps",
+      "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "ITALY BTPS 4.75% 13-01/09/2028 ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 3,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "ITALY BTPS 4.75% 13-01/09/2028 "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "2.078.440 ",
+      "% net assets": "5,642% ",
+      "quantity": "2.000.000 ",
+      "acquisition currency": "EUR ",
+      "interest rate": "3.8%",
+      "maturity": "01/08/2028",
+      "company match": "ITALY BTPS 3.8% 23-01/08/2028 ",
+      "company": "Italy btps",
+      "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "ITALY BTPS 3.8% 23-01/08/2028 ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 4,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "ITALY BTPS 3.8% 23-01/08/2028 "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "1.023.506 ",
+      "% net assets": "2,778% ",
+      "quantity": "1.100.000 ",
+      "acquisition currency": "EUR ",
+      "interest rate": "0.5%",
+      "maturity": "15/07/2028",
+      "company match": "ITALY BTPS 0.5% 21-15/07/2028 ",
+      "company": "Italy btps",
+      "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "ITALY BTPS 0.5% 21-15/07/2028 ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 6,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "ITALY BTPS 0.5% 21-15/07/2028 "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "508.350 ",
+      "% net assets": "1,380% ",
+      "quantity": "500.000 ",
+      "acquisition currency": "EUR ",
+      "maturity": "19/05/2026",
+      "company match": "INTESA SANPAOLO 4% 23-19/05/2026 ",
+      "company": "INTESA SANPAOLO",
+      "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "INTESA SANPAOLO 4% 23-19/05/2026 ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 15,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "INTESA SANPAOLO 4% 23-19/05/2026 "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "503.755 ",
+      "% net assets": "1,367% ",
+      "quantity": "500.000 ",
+      "acquisition currency": "EUR ",
+      "maturity": "01/03/2169",
+      "company match": "INTESA SANPAOLO 20-01/03/2169 FRN ",
+      "company": "INTESA SANPAOLO",
+      "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "INTESA SANPAOLO 20-01/03/2169 FRN ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 16,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "INTESA SANPAOLO 20-01/03/2169 FRN "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "208.138 ",
+      "% net assets": "0,565% ",
+      "quantity": "200.000 ",
+      "acquisition currency": "EUR ",
+      "maturity": "08/03/2028",
+      "company match": "INTESA SANPAOLO 23-08/03/2028 FRN ",
+      "company": "INTESA SANPAOLO",
+      "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "INTESA SANPAOLO 23-08/03/2028 FRN ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 33,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "INTESA SANPAOLO 23-08/03/2028 FRN "
+    },
+    "__text_block__": true
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Asteria Funds – People Impact Global Equities",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "Asteria Funds – People Impact Global Equities"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "165,839",
+      "% net assets": "1.12",
+      "quantity": "1,294",
+      "acquisition currency": "USD",
+      "acquisition cost": "144,290",
+      "company match": "AIRBNB RG-A",
+      "company": "Airbnb",
+      "fund": "Asteria Funds – People Impact Global Equities",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:USD"
+      }
+    },
+    "content": "AIRBNB RG-A",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 12,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "AIRBNB RG-A"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "378,789",
+      "% net assets": "2.56",
+      "quantity": "7,321",
+      "acquisition currency": "USD",
+      "acquisition cost": "424,237",
+      "company match": "CISCO SYSTEMS INC.",
+      "company": "Cisco Systems",
+      "fund": "Asteria Funds – People Impact Global Equities",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:USD"
+      }
+    },
+    "content": "CISCO SYSTEMS INC.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 23,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "CISCO SYSTEMS INC."
+    },
+    "__text_block__": true
+  }
+]

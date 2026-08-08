@@ -1,0 +1,14 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "data": {
+        "old_name": "Anima Alto Potenziale Italia",
+        "current_name": "Anima Alto Potenziale Europa",
+        "date": {
+          "__date__": "2024-04-15"
+        }
+      }
+    }
+  }
+]

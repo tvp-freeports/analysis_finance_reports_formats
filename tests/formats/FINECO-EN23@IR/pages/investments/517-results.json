@@ -1,0 +1,136 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "TAIWAN SEMICONDUCTOR",
+        "company_match": "Taiwan Semiconductor Manufacture",
+        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "nominal_quantity": 234000.0,
+        "market_value": 7672832.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0068000000000000005,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet Inc-Class A",
+        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "nominal_quantity": 128684.0,
+        "market_value": 24359881.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0217,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet Inc-Class C",
+        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "nominal_quantity": 79865.0,
+        "market_value": 15209491.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.013500000000000002,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "Amazon.Com Inc",
+        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "nominal_quantity": 200746.0,
+        "market_value": 44041665.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0392,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "nominal_quantity": 130427.0,
+        "market_value": 32661529.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0291,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Cisco Systems",
+        "company_match": "Cisco Systems Inc",
+        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "nominal_quantity": 59702.0,
+        "market_value": 3534358.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0031,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Microsoft",
+        "company_match": "Microsoft Corporation",
+        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "nominal_quantity": 237505.0,
+        "market_value": 100108358.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0891,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fidelity Focus Equity FAM Fund (continued)"
+      }
+    }
+  }
+]

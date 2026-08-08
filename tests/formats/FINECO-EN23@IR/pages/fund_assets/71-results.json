@@ -1,0 +1,53 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "data": {
+        "fund": "Fidelity Euro Bond FAM Fund",
+        "date": {
+          "__date__": "2024-12-31"
+        },
+        "tot_assets": 435099727.0,
+        "liabilities": 4256970.0,
+        "net_assets": 430842757.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "data": {
+        "fund": "Fidelity Global Dividend FAM Fund",
+        "date": {
+          "__date__": "2024-12-31"
+        },
+        "tot_assets": 721238425.0,
+        "liabilities": 3027304.0,
+        "net_assets": 718211121.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "data": {
+        "fund": "US Equity Value FAM Fund",
+        "date": {
+          "__date__": "2024-12-31"
+        },
+        "tot_assets": 523524846.0,
+        "liabilities": 1521765.0,
+        "net_assets": 522003081.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  }
+]

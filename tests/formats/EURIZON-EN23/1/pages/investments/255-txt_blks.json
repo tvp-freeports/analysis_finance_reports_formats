@@ -1,0 +1,217 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Eurizon Fund - Equity USA ESG LTE",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "Eurizon Fund - Equity USA ESG LTE"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "28 209 011,06",
+      "% net assets": "3,03",
+      "quantity": "236 085,00",
+      "acquisition currency": "USD",
+      "acquisition cost": "28 971 775,38",
+      "company match": "AMAZON.COM, INC.",
+      "company": "Amazon",
+      "fund": "Eurizon Fund - Equity USA ESG LTE",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "AMAZON.COM, INC.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 2,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "AMAZON.COM, INC."
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "15 820 675,68",
+      "% net assets": "1,70",
+      "quantity": "142 683,00",
+      "acquisition currency": "USD",
+      "acquisition cost": "14 252 145,33",
+      "company match": "ALPHABET, INC.",
+      "company": "Alphabet",
+      "fund": "Eurizon Fund - Equity USA ESG LTE",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "ALPHABET, INC.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 3,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "ALPHABET, INC."
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "15 791 837,27",
+      "% net assets": "1,70",
+      "quantity": "143 934,00",
+      "acquisition currency": "USD",
+      "acquisition cost": "14 408 213,83",
+      "company match": "ALPHABET, INC.",
+      "company": "Alphabet",
+      "fund": "Eurizon Fund - Equity USA ESG LTE",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "ALPHABET, INC.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 4,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "ALPHABET, INC."
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "4 825 713,85",
+      "% net assets": "0,52",
+      "quantity": "101 756,00",
+      "acquisition currency": "USD",
+      "acquisition cost": "4 439 769,52",
+      "company match": "CISCO SYSTEMS, INC.",
+      "company": "Cisco Systems",
+      "fund": "Eurizon Fund - Equity USA ESG LTE",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "CISCO SYSTEMS, INC.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 6,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "CISCO SYSTEMS, INC."
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "2 566 674,01",
+      "% net assets": "0,28",
+      "quantity": "1 037,00",
+      "acquisition currency": "USD",
+      "acquisition cost": "1 961 778,23",
+      "company match": "BOOKING HOLDINGS, INC.",
+      "company": "Booking Holdings",
+      "fund": "Eurizon Fund - Equity USA ESG LTE",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "BOOKING HOLDINGS, INC.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 12,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "BOOKING HOLDINGS, INC."
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "1 205 361,46",
+      "% net assets": "0,13",
+      "quantity": "10 261,00",
+      "acquisition currency": "USD",
+      "acquisition cost": "1 234 992,92",
+      "company match": "AIRBNB, INC.",
+      "company": "Airbnb",
+      "fund": "Eurizon Fund - Equity USA ESG LTE",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "AIRBNB, INC.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 17,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "AIRBNB, INC."
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "908 872,02",
+      "% net assets": "0,10",
+      "quantity": "3 381,00",
+      "acquisition currency": "USD",
+      "acquisition cost": "704 300,06",
+      "company match": "MOTOROLA SOLUTIONS, INC.",
+      "company": "Motorola Solutions",
+      "fund": "Eurizon Fund - Equity USA ESG LTE",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "MOTOROLA SOLUTIONS, INC.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 19,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "MOTOROLA SOLUTIONS, INC."
+    },
+    "__text_block__": true
+  }
+]

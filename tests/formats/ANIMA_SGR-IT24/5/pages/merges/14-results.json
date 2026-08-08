@@ -1,0 +1,14 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "data": {
+        "old_name": "Anima Riserva Emergente",
+        "current_name": "Anima Obbligazionario Emergente",
+        "date": {
+          "__date__": "2024-04-15"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Asteria Funds - Global Investment Grade",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "Asteria Funds - Global Investment Grade"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "233,167",
+      "% net assets": "0.36",
+      "quantity": "255,000",
+      "acquisition currency": "USD",
+      "acquisition cost": "237,302",
+      "interest rate": "5.250%",
+      "maturity": "14.03.54",
+      "company match": "BlackRock Funding, Inc. 5.250% 24–14.03.54",
+      "company": "Blackrock",
+      "fund": "Asteria Funds - Global Investment Grade",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "BlackRock Funding, Inc. 5.250% 24–14.03.54",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 15,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "BlackRock Funding, Inc. 5.250% 24–14.03.54"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "245,100",
+      "% net assets": "0.37",
+      "quantity": "265,000",
+      "acquisition currency": "USD",
+      "acquisition cost": "245,567",
+      "interest rate": "5.350%",
+      "maturity": "08.01.55",
+      "company match": "BlackRock Funding, Inc. 5.350% 24–08.01.55",
+      "company": "Blackrock",
+      "fund": "Asteria Funds - Global Investment Grade",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "BlackRock Funding, Inc. 5.350% 24–08.01.55",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 16,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "BlackRock Funding, Inc. 5.350% 24–08.01.55"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "101,055",
+      "% net assets": "0.15",
+      "quantity": "100,000",
+      "acquisition currency": "EUR",
+      "acquisition cost": "101,038",
+      "interest rate": "3.750%",
+      "maturity": "21.11.37",
+      "company match": "Booking Holdings, Inc. 3.750% 24–21.11.37",
+      "company": "Booking Holdings",
+      "fund": "Asteria Funds - Global Investment Grade",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Booking Holdings, Inc. 3.750% 24–21.11.37",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 21,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Booking Holdings, Inc. 3.750% 24–21.11.37"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "199,216",
+      "% net assets": "0.30",
+      "quantity": "200,000",
+      "acquisition currency": "EUR",
+      "acquisition cost": "203,532",
+      "interest rate": "3.875%",
+      "maturity": "21.03.45",
+      "company match": "Booking Holdings, Inc. 3.875% 24–21.03.45",
+      "company": "Booking Holdings",
+      "fund": "Asteria Funds - Global Investment Grade",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Booking Holdings, Inc. 3.875% 24–21.03.45",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 22,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Booking Holdings, Inc. 3.875% 24–21.03.45"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "202,114",
+      "% net assets": "0.31",
+      "quantity": "200,000",
+      "acquisition currency": "EUR",
+      "acquisition cost": "207,886",
+      "interest rate": "4.000%",
+      "maturity": "01.03.44",
+      "company match": "Booking Holdings, Inc. 4.000% 24–01.03.44",
+      "company": "Booking Holdings",
+      "fund": "Asteria Funds - Global Investment Grade",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Booking Holdings, Inc. 4.000% 24–01.03.44",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 23,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Booking Holdings, Inc. 4.000% 24–01.03.44"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "478,577",
+      "% net assets": "0.73",
+      "quantity": "470,000",
+      "acquisition currency": "EUR",
+      "acquisition cost": "478,380",
+      "interest rate": "3.742%",
+      "maturity": "04.09.26",
+      "company match": "Caterpillar Financial Services Corp. 3.742%",
+      "company": "Caterpillar",
+      "fund": "Asteria Funds - Global Investment Grade",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Caterpillar Financial Services Corp. 3.742%23–04.09.26",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 31,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Caterpillar Financial Services Corp. 3.742%23–04.09.26"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "106,626",
+      "% net assets": "0.16",
+      "quantity": "110,000",
+      "acquisition currency": "USD",
+      "acquisition cost": "104,706",
+      "interest rate": "4.950%",
+      "maturity": "26.02.31",
+      "company match": "Cisco Systems, Inc. 4.950% 24–26.02.31",
+      "company": "Cisco Systems",
+      "fund": "Asteria Funds - Global Investment Grade",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Cisco Systems, Inc. 4.950% 24–26.02.31",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 32,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Cisco Systems, Inc. 4.950% 24–26.02.31"
+    },
+    "__text_block__": true
+  }
+]

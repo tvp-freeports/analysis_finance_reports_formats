@@ -1,0 +1,90 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo",
+        "fund": "Euro Equity",
+        "nominal_quantity": 3285725.0,
+        "market_value": 7654096.39,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0176,
+        "acquisition_cost": 6055750.14,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "NORDEA",
+        "company_match": "Nordea Bank Abp",
+        "fund": "Euro Equity",
+        "nominal_quantity": 209866.0,
+        "market_value": 1972320.67,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0046,
+        "acquisition_cost": 1716968.34,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Siemens",
+        "company_match": "Siemens Ag /Nam.",
+        "fund": "Euro Equity",
+        "nominal_quantity": 83563.0,
+        "market_value": 11165688.06,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.025699999999999997,
+        "acquisition_cost": 8166696.22,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Siemens",
+        "company_match": "Siemens Healthineers Ag",
+        "fund": "Euro Equity",
+        "nominal_quantity": 54603.0,
+        "market_value": 2821883.04,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.006500000000000001,
+        "acquisition_cost": 2194163.92,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Euro Equity"
+      }
+    }
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:ManagementCompany",
+      "data": {
+        "name": "Mediolanum International Funds Limited",
+        "managed_funds": {
+          "__set__": [
+            "CHALLENGE Emerging Markets Equity Fund",
+            "CHALLENGE Energy Opportunities",
+            "CHALLENGE European Equity Fund",
+            "CHALLENGE Industrials and Materials Opportunities",
+            "Challenge Healthcare Opportunities",
+            "Impax Asset Management Ireland Ltd",
+            "Mediolanum Global Impact"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Acadian Asset Management LLC",
+        "managed_funds": {
+          "__set__": [
+            "CHALLENGE European Equity Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "AQR Capital Management LLC",
+        "managed_funds": {
+          "__set__": [
+            "CHALLENGE Emerging Markets Equity Fund",
+            "CHALLENGE International Equity Fund",
+            "CHALLENGE North American Equity Fund",
+            "CHALLENGE Pacific Equity Fund",
+            "CHALLENGE Provident Fund 1"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Axiom Investors LLC",
+        "managed_funds": {
+          "__set__": [
+            "CHALLENGE Emerging Markets Equity Fund",
+            "CHALLENGE International Equity Fund",
+            "CHALLENGE Provident Fund 1"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Blackrock Investment Management (UK) Limited",
+        "managed_funds": {
+          "__set__": [
+            "CHALLENGE Energy Opportunities"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Eleva Capital SAS",
+        "managed_funds": {
+          "__set__": [
+            "CHALLENGE European Equity Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "FIL (Luxembourg) S.A.",
+        "managed_funds": {
+          "__set__": [
+            "CHALLENGE Industrials and Materials Opportunities"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Mediolanum International Funds Limited",
+        "managed_funds": {
+          "__set__": [
+            "CHALLENGE Emerging Markets Equity Fund",
+            "CHALLENGE Energy Opportunities",
+            "CHALLENGE European Equity Fund",
+            "CHALLENGE Industrials and Materials Opportunities",
+            "Challenge Healthcare Opportunities",
+            "Impax Asset Management Ireland Ltd",
+            "Mediolanum Global Impact"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE North American Equity Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE International Equity Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE Pacific Equity Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE Provident Fund 1"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE Provident Fund 1"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "CHALLENGE International Equity Fund"
+      }
+    }
+  }
+]

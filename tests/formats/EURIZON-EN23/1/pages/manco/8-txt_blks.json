@@ -1,0 +1,23 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardManagmentCompanyTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Eurizon Fund - Asian Equity Opportunities",
+          "Eurizon Fund - China Opportunity",
+          "Eurizon Fund - Equity China A",
+          "Eurizon Fund - Global Bond High Yield"
+        ]
+      }
+    },
+    "content": "Eurizon Capital S.A.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Eurizon Capital S.A."
+    },
+    "__text_block__": true
+  }
+]

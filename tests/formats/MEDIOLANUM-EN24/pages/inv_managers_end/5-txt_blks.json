@@ -1,0 +1,67 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CHALLENGE Spain Equity Fund"
+        ]
+      }
+    },
+    "content": "TREA Asset Management SGIIC S.A.",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CHALLENGE Energy Opportunities",
+          "CHALLENGE Financial Opportunities",
+          "CHALLENGE Industrials and Materials Opportunities",
+          "CHALLENGE International Equity Fund",
+          "CHALLENGE Provident Fund 1",
+          "CHALLENGE Technology Opportunities"
+        ]
+      }
+    },
+    "content": "Wellington Management International Limited",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "CHALLENGE Industrials and Materials Opportunities",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "CHALLENGE International Equity Fund",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "CHALLENGE Financial Opportunities",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "CHALLENGE Technology Opportunities",
+    "pdf_block": null,
+    "__text_block__": true
+  }
+]

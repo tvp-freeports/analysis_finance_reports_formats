@@ -1,0 +1,110 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet Inc -C-",
+        "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
+        "nominal_quantity": 22694.0,
+        "market_value": 4212617.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0403,
+        "acquisition_cost": 2580421.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "Amazon Com Inc",
+        "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
+        "nominal_quantity": 19210.0,
+        "market_value": 4095345.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0391,
+        "acquisition_cost": 3055761.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
+        "nominal_quantity": 17660.0,
+        "market_value": 4290595.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.040999999999999995,
+        "acquisition_cost": 3207090.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Blackrock",
+        "company_match": "Blackrock Rg",
+        "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
+        "nominal_quantity": 1914.0,
+        "market_value": 1894418.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0181,
+        "acquisition_cost": 1260214.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Microsoft",
+        "company_match": "Microsoft Corp.",
+        "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
+        "nominal_quantity": 14127.0,
+        "market_value": 5781584.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0553,
+        "acquisition_cost": 3573245.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund"
+      }
+    }
+  }
+]

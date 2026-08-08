@@ -1,0 +1,410 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0% 21-01/08/2026",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 10000000.0,
+        "market_value": 9802300.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.15148999999999999,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-08-01"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.25% 16-01/12/2026",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 7000000.0,
+        "market_value": 6937980.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.10723,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-12-01"
+        },
+        "interest_rate": 0.0125
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.6% 16-01/06/2026",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 3000000.0,
+        "market_value": 2991600.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.04623,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-06-01"
+        },
+        "interest_rate": 0.016
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "INTESA SANPAOLO",
+        "company_match": "INTESA SANPAOLO 3.928% 14-15/09/2026",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 1500000.0,
+        "market_value": 1519650.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.02349,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-09-15"
+        },
+        "interest_rate": 0.03928
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "NVIDIA",
+        "company_match": "NVIDIA CORP",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 10332.0,
+        "market_value": 1390597.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.02149,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Microsoft",
+        "company_match": "MICROSOFT CORP",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 3118.0,
+        "market_value": 1321229.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.020419999999999997,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.65% 20-15/05/2026",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 1219870.0,
+        "market_value": 1213112.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01875,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-05-15"
+        },
+        "interest_rate": 0.006500000000000001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 4.5% 10-01/03/2026",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 1000000.0,
+        "market_value": 1016530.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01571,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-03-01"
+        },
+        "interest_rate": 0.045
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.5% 20-01/02/2026",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 1000000.0,
+        "market_value": 991840.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01533,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-02-01"
+        },
+        "interest_rate": 0.005
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0% 21-01/04/2026",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 1000000.0,
+        "market_value": 985800.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01524,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-04-01"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "APPLE INC",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 5088.0,
+        "market_value": 889300.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01374,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "AMAZON.COM INC",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 4241.0,
+        "market_value": 792634.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01225,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ICCREA",
+        "company_match": "ICCREA BANCA SPA 22-20/09/2027 FRN",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 500000.0,
+        "market_value": 522150.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00807,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2027-09-20"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "ALPHABET INC-CL A",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 2770.0,
+        "market_value": 415860.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00643,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "ALPHABET INC-CL C",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 2230.0,
+        "market_value": 336993.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00521,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Carlsberg Group",
+        "company_match": "CARLSBERG BREW 0.375% 20-30/06/2027",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 300000.0,
+        "market_value": 288318.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00446,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2027-06-30"
+        },
+        "interest_rate": 0.00375
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "International Business Machines",
+        "company_match": "INTL BUSINESS MACHINES CORP",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 656.0,
+        "market_value": 164736.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00255,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Cisco Systems",
+        "company_match": "CISCO SYSTEMS INC",
+        "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+        "nominal_quantity": 2647.0,
+        "market_value": 156450.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00242,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA PICPAC ESALOGO BILANCIATO 2026 "
+      }
+    }
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Fidelity Focus Equity FAM Fund (continued)",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "Fidelity Focus Equity FAM Fund (continued)"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "7,672,832",
+      "% net assets": "0.68",
+      "quantity": "234,000",
+      "company match": "Taiwan Semiconductor Manufacture",
+      "company": "TAIWAN SEMICONDUCTOR",
+      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Taiwan Semiconductor Manufacture",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 5,
+        "table-col": 1,
+        "is-max-width": true
+      },
+      "content": "Taiwan Semiconductor Manufacture"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "24,359,881",
+      "% net assets": "2.17",
+      "quantity": "128,684",
+      "company match": "Alphabet Inc-Class A",
+      "company": "Alphabet",
+      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Alphabet Inc-Class A",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 12,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Alphabet Inc-Class A"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "15,209,491",
+      "% net assets": "1.35",
+      "quantity": "79,865",
+      "company match": "Alphabet Inc-Class C",
+      "company": "Alphabet",
+      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Alphabet Inc-Class C",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 13,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Alphabet Inc-Class C"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "44,041,665",
+      "% net assets": "3.92",
+      "quantity": "200,746",
+      "company match": "Amazon.Com Inc",
+      "company": "Amazon",
+      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Amazon.Com Inc",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 14,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Amazon.Com Inc"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "32,661,529",
+      "% net assets": "2.91",
+      "quantity": "130,427",
+      "company match": "Apple Inc",
+      "company": "Apple Inc",
+      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Apple Inc",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 18,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Apple Inc"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "3,534,358",
+      "% net assets": "0.31",
+      "quantity": "59,702",
+      "company match": "Cisco Systems Inc",
+      "company": "Cisco Systems",
+      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Cisco Systems Inc",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 23,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Cisco Systems Inc"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "100,108,358",
+      "% net assets": "8.91",
+      "quantity": "237,505",
+      "company match": "Microsoft Corporation",
+      "company": "Microsoft",
+      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Microsoft Corporation",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 35,
+        "table-col": 1,
+        "is-max-width": false
+      },
+      "content": "Microsoft Corporation"
+    },
+    "__text_block__": true
+  }
+]

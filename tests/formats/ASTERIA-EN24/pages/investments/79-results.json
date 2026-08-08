@@ -1,0 +1,178 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Blackrock",
+        "company_match": "BlackRock Funding, Inc. 5.250% 24–14.03.54",
+        "fund": "Asteria Funds - Global Investment Grade",
+        "nominal_quantity": 255000.0,
+        "market_value": 233167.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0036,
+        "acquisition_cost": 237302.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "maturity": {
+          "__date__": "2054-03-14"
+        },
+        "interest_rate": 0.0525
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Blackrock",
+        "company_match": "BlackRock Funding, Inc. 5.350% 24–08.01.55",
+        "fund": "Asteria Funds - Global Investment Grade",
+        "nominal_quantity": 265000.0,
+        "market_value": 245100.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0037,
+        "acquisition_cost": 245567.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "maturity": {
+          "__date__": "2055-01-08"
+        },
+        "interest_rate": 0.0535
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Booking Holdings",
+        "company_match": "Booking Holdings, Inc. 3.750% 24–21.11.37",
+        "fund": "Asteria Funds - Global Investment Grade",
+        "nominal_quantity": 100000.0,
+        "market_value": 101055.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0015,
+        "acquisition_cost": 101038.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2037-11-21"
+        },
+        "interest_rate": 0.0375
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Booking Holdings",
+        "company_match": "Booking Holdings, Inc. 3.875% 24–21.03.45",
+        "fund": "Asteria Funds - Global Investment Grade",
+        "nominal_quantity": 200000.0,
+        "market_value": 199216.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.003,
+        "acquisition_cost": 203532.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2045-03-21"
+        },
+        "interest_rate": 0.03875
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Booking Holdings",
+        "company_match": "Booking Holdings, Inc. 4.000% 24–01.03.44",
+        "fund": "Asteria Funds - Global Investment Grade",
+        "nominal_quantity": 200000.0,
+        "market_value": 202114.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0031,
+        "acquisition_cost": 207886.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2044-03-01"
+        },
+        "interest_rate": 0.04
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Caterpillar",
+        "company_match": "Caterpillar Financial Services Corp. 3.742%",
+        "fund": "Asteria Funds - Global Investment Grade",
+        "nominal_quantity": 470000.0,
+        "market_value": 478577.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0073,
+        "acquisition_cost": 478380.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-09-04"
+        },
+        "interest_rate": 0.03742
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Cisco Systems",
+        "company_match": "Cisco Systems, Inc. 4.950% 24–26.02.31",
+        "fund": "Asteria Funds - Global Investment Grade",
+        "nominal_quantity": 110000.0,
+        "market_value": 106626.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0016,
+        "acquisition_cost": 104706.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        },
+        "maturity": {
+          "__date__": "2031-02-26"
+        },
+        "interest_rate": 0.0495
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Asteria Funds - Global Investment Grade"
+      }
+    }
+  }
+]

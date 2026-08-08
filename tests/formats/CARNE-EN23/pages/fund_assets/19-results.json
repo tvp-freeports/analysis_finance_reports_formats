@@ -1,0 +1,17 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "data": {
+        "fund": "Sidera Funds SICAV – Balanced Growth ",
+        "date": null,
+        "tot_assets": 215581172.39,
+        "liabilities": 365138.81,
+        "net_assets": 215216033.58,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  }
+]

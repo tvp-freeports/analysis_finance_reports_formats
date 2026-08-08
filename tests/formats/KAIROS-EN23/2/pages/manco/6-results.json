@@ -1,0 +1,34 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Kairos Partners SGR S.p.A.",
+        "managed_funds": {
+          "__set__": [
+            "ANIMA Liquidity",
+            "ANIMA Liquidity – Class Silver",
+            "ANIMA Liquidity – Share Class Silver",
+            "Eurizon Fund - Bond Emerging Markets in Local Currencies"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:ManagementCompany",
+      "data": {
+        "name": "Kairos Partners SGR S.p.A.",
+        "managed_funds": {
+          "__set__": [
+            "ANIMA Liquidity",
+            "ANIMA Liquidity – Class Silver",
+            "ANIMA Liquidity – Share Class Silver",
+            "Eurizon Fund - Bond Emerging Markets in Local Currencies"
+          ]
+        }
+      }
+    }
+  }
+]

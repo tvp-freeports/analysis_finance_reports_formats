@@ -1,0 +1,80 @@
+[
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "Fidelity Euro Bond FAM Fund",
+      "currency": "EUR",
+      "tot_assets": "435,099,727",
+      "liabilities": "4,256,970",
+      "net_assets": "430,842,757",
+      "date": "as at 31 December 2024"
+    },
+    "content": "",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "Fidelity Euro Short Term Bond FAM Fund",
+      "currency": "EUR",
+      "tot_assets": "371,445,014",
+      "liabilities": "2,241,876",
+      "net_assets": "369,203,138",
+      "date": "as at 31 December 2024"
+    },
+    "content": "",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "Fidelity Global Dividend FAM Fund",
+      "currency": "USD",
+      "tot_assets": "721,238,425",
+      "liabilities": "3,027,304",
+      "net_assets": "718,211,121",
+      "date": "as at 31 December 2024"
+    },
+    "content": "",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "Fidelity Focus Equity FAM Fund 1",
+      "currency": "USD",
+      "tot_assets": "1,126,996,654",
+      "liabilities": "3,957,967",
+      "net_assets": "1,123,038,687",
+      "date": "as at 31 December 2024"
+    },
+    "content": "",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "US Equity Value FAM Fund",
+      "currency": "USD",
+      "tot_assets": "523,524,846",
+      "liabilities": "1,521,765",
+      "net_assets": "522,003,081",
+      "date": "as at 31 December 2024"
+    },
+    "content": "",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "M&G North American Value FAM Fund",
+      "currency": "USD",
+      "tot_assets": "410,107,709",
+      "liabilities": "859,206",
+      "net_assets": "409,248,503",
+      "date": "as at 31 December 2024"
+    },
+    "content": "",
+    "__pdf_block__": true
+  }
+]

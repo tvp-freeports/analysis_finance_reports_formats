@@ -1,0 +1,130 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "Euro Equity",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "Euro Equity"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "7,654,096.39",
+      "% net assets": "1.76",
+      "quantity": "3,285,725",
+      "acquisition currency": "EUR",
+      "acquisition cost": "6,055,750.14",
+      "company match": "Intesa Sanpaolo",
+      "company": "INTESA SANPAOLO",
+      "fund": "Euro Equity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Intesa Sanpaolo",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 1,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Intesa Sanpaolo"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "1,972,320.67",
+      "% net assets": "0.46",
+      "quantity": "209,866",
+      "acquisition currency": "EUR",
+      "acquisition cost": "1,716,968.34",
+      "company match": "Nordea Bank Abp",
+      "company": "NORDEA",
+      "fund": "Euro Equity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Nordea Bank Abp",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 16,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Nordea Bank Abp"
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "11,165,688.06",
+      "% net assets": "2.57",
+      "quantity": "83,563",
+      "acquisition currency": "EUR",
+      "acquisition cost": "8,166,696.22",
+      "company match": "Siemens Ag /Nam.",
+      "company": "Siemens",
+      "fund": "Euro Equity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Siemens Ag /Nam.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 34,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Siemens Ag /Nam."
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "2,821,883.04",
+      "% net assets": "0.65",
+      "quantity": "54,603",
+      "acquisition currency": "EUR",
+      "acquisition cost": "2,194,163.92",
+      "company match": "Siemens Healthineers Ag",
+      "company": "Siemens",
+      "fund": "Euro Equity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Siemens Healthineers Ag",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 35,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Siemens Healthineers Ag"
+    },
+    "__text_block__": true
+  }
+]

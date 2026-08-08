@@ -1,0 +1,190 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "FIL Pensions Management",
+        "managed_funds": {
+          "__set__": [
+            "Fidelity Euro Bond FAM Fund",
+            "Fidelity Euro Short Term Bond FAM Fund",
+            "Fidelity Focus Equity FAM Fund",
+            "Fidelity Global Dividend FAM Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Invesco Advisers, Inc.",
+        "managed_funds": {
+          "__set__": [
+            "US Equity Value FAM Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "M&G Investment Management Limited",
+        "managed_funds": {
+          "__set__": [
+            "Emerging Markets Debt FAM Fund",
+            "M&G North American Value FAM Fund",
+            "M&G Optimal Income FAM Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Amundi Ireland Limited",
+        "managed_funds": {
+          "__set__": [
+            "Amundi Emerging Markets Bond FAM Fund",
+            "Amundi European Equity Value FAM Fund",
+            "Amundi Strategic Bond FAM Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Fineco Asset Management Designated Activity Company",
+        "managed_funds": {
+          "__set__": [
+            "Fineco AM Euro Corp Bonds Fund",
+            "Fineco AM Euro Corporate Bond Fund",
+            "Fineco AM Euro Credit Bond Fund",
+            "Fineco AM European Corporate Bond Fund",
+            "Fineco AM Global Equities Income Fund",
+            "Fineco AM Global Equity Fund",
+            "Fineco AM Global Premium Equities Fund",
+            "Fineco AM Investment Grade Euro Aggregate Bond Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Invesco Asset Management Limited",
+        "managed_funds": {
+          "__set__": [
+            "Invesco Global Total Return Bond FAM Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fidelity Euro Short Term Bond FAM Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fidelity Focus Equity FAM Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "M&G North American Value FAM Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Emerging Markets Debt FAM Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Amundi Strategic Bond FAM Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fineco AM Euro Corporate Bond Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fineco AM Global Equity Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fineco AM Euro Corp Bonds Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fineco AM Global Equities Income Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fineco AM European Corporate Bond Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fineco AM Investment Grade Euro Aggregate Bond Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Fineco AM Euro Credit Bond Fund"
+      }
+    }
+  }
+]

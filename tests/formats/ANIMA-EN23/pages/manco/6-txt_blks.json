@@ -1,0 +1,23 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardManagmentCompanyTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Anima Alto Potenziale Europa",
+          "Anima Obbligazionario Emergente",
+          "Eurizon Fund - Bond Emerging Markets in Local Currencies",
+          "Kairos International Sicav - Opportunities Long/Short"
+        ]
+      }
+    },
+    "content": "ANIMA SGR S.p.A.",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "ANIMA SGR S.p.A."
+    },
+    "__text_block__": true
+  }
+]

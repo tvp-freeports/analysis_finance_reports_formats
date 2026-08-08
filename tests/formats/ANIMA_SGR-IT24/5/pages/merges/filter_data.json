@@ -1,0 +1,2130 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-31/03/2025",
+        "fund": "ANIMA LIQUIDITA' EURO ",
+        "nominal_quantity": 135000000.0,
+        "market_value": 133102087.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.037599999999999995,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-03-31"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-12/12/2025",
+        "fund": "ANIMA LIQUIDITA' EURO ",
+        "nominal_quantity": 127000000.0,
+        "market_value": 124095376.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03506,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-12-12"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA ALTO POTENZIALE EUROPA "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Anima Obbligazionario Emergente"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "AMAZON.COM INC",
+        "fund": "ANIMA ABSOLUTE RETURN ",
+        "nominal_quantity": 16500.0,
+        "market_value": 3495833.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.027770000000000003,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Microsoft",
+        "company_match": "MICROSOFT CORP",
+        "fund": "ANIMA ABSOLUTE RETURN ",
+        "nominal_quantity": 5573.0,
+        "market_value": 2268488.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01802,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "TAIWAN SEMICONDUCTOR",
+        "company_match": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "fund": "ANIMA ABSOLUTE RETURN ",
+        "nominal_quantity": 7211.0,
+        "market_value": 1375278.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01093,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA ABSOLUTE RETURN "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "AXA SA",
+        "company_match": "AXA SA 14-20/05/2049 FRN",
+        "fund": "ANIMA ABSOLUTE RETURN ",
+        "nominal_quantity": 900000.0,
+        "market_value": 900126.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00715,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2049-05-20"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Heidelberg Materials",
+        "company_match": "HEIDELBERG MATERIALS AG",
+        "fund": "ANIMA ABSOLUTE RETURN ",
+        "nominal_quantity": 7500.0,
+        "market_value": 894750.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00711,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Leonardo",
+        "company_match": "LEONARDO SPA",
+        "fund": "ANIMA ABSOLUTE RETURN ",
+        "nominal_quantity": 30000.0,
+        "market_value": 777900.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00618,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA ABSOLUTE RETURN "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.5% 22-15/01/2026",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 10000000.0,
+        "market_value": 10117000.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0366,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-01-15"
+        },
+        "interest_rate": 0.035
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-30/05/2025",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 10000000.0,
+        "market_value": 9895300.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0358,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-05-30"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-31/01/2025",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 10000000.0,
+        "market_value": 9830497.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03556,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-01-31"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/08/2025",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 10000000.0,
+        "market_value": 9817692.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03552,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-08-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/07/2025",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 10000000.0,
+        "market_value": 9798975.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03545,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-07-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/05/2025",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 10000000.0,
+        "market_value": 9760523.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03531,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-05-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "ALPHABET INC-CL A",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 31750.0,
+        "market_value": 5804225.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.021,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.6% 23-29/09/2025",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 5000000.0,
+        "market_value": 5040950.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01824,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-09-29"
+        },
+        "interest_rate": 0.036000000000000004
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.4% 23-28/03/2025",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 5000000.0,
+        "market_value": 5007900.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01812,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-03-28"
+        },
+        "interest_rate": 0.034
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "AMAZON.COM INC",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 19000.0,
+        "market_value": 4025505.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01456,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Microsoft",
+        "company_match": "MICROSOFT CORP",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 9400.0,
+        "market_value": 3826267.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.013839999999999998,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "APPLE INC",
+        "fund": "ANIMA FONDO TRADING ",
+        "nominal_quantity": 12350.0,
+        "market_value": 2986661.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01081,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA FONDO TRADING "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.25% 16-01/12/2026",
+        "fund": "ANIMA OBIETTIVO ITALIA ",
+        "nominal_quantity": 1850000.0,
+        "market_value": 1814369.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.11148,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-12-01"
+        },
+        "interest_rate": 0.0125
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "INTESA SANPAOLO",
+        "company_match": "INTESA SANPAOLO",
+        "fund": "ANIMA OBIETTIVO ITALIA ",
+        "nominal_quantity": 200000.0,
+        "market_value": 772600.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.04747,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/02/2025",
+        "fund": "ANIMA OBIETTIVO ITALIA ",
+        "nominal_quantity": 650000.0,
+        "market_value": 632414.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03886,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-02-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "AXA SA",
+        "company_match": "AXA SA",
+        "fund": "ANIMA OBIETTIVO ITALIA ",
+        "nominal_quantity": 15000.0,
+        "market_value": 514800.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03163,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA OBIETTIVO ITALIA "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/05/2025",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 5200000.0,
+        "market_value": 5142642.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.10282,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-05-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/02/2025",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 5200000.0,
+        "market_value": 5079303.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.10156000000000001,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-02-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/04/2025",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 5200000.0,
+        "market_value": 5079040.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.10154999999999999,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-04-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/03/2025",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 5200000.0,
+        "market_value": 5068817.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.10135,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-03-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/01/2025",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 5200000.0,
+        "market_value": 5027328.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.10052,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-01-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-13/06/2025",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 4300000.0,
+        "market_value": 4245990.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.08489000000000001,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-06-13"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-12/09/2025",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 4300000.0,
+        "market_value": 4196620.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.08391,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-09-12"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "NVIDIA",
+        "company_match": "NVIDIA CORP",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 2330.0,
+        "market_value": 302169.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00604,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "HD Hyundai",
+        "company_match": "HD HYUNDAI ELECTRIC CO LTD",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 1139.0,
+        "market_value": 285420.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00571,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:KRW"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Microsoft",
+        "company_match": "MICROSOFT CORP",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 603.0,
+        "market_value": 245451.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00491,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "HD Hyundai",
+        "company_match": "HD HYUNDAI MARINE SOLUTION C",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 2291.0,
+        "market_value": 242564.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00485,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:KRW"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "TAIWAN SEMICONDUCTOR",
+        "company_match": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 7000.0,
+        "market_value": 221660.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00443,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:TWD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "HD Hyundai",
+        "company_match": "HD HYUNDAI CONSTRUCTION EQUI",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 4900.0,
+        "market_value": 187397.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00375,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:KRW"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/08/2025",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 100000.0,
+        "market_value": 98417.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00197,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-08-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/07/2025",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 100000.0,
+        "market_value": 98294.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00197,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-07-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Petróleo Brasileiro",
+        "company_match": "PETROBRAS - PETROLEO BRAS-PR",
+        "fund": "ANIMA OBIETTIVO EMERGING MARKETS ",
+        "nominal_quantity": 16555.0,
+        "market_value": 93654.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00187,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:BRL"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA OBIETTIVO EMERGING MARKETS "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.25% 16-01/12/2026",
+        "fund": "ANIMA OBIETTIVO EUROPA ",
+        "nominal_quantity": 1300000.0,
+        "market_value": 1274962.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.041159999999999995,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-12-01"
+        },
+        "interest_rate": 0.0125
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/02/2025",
+        "fund": "ANIMA OBIETTIVO EUROPA ",
+        "nominal_quantity": 1250000.0,
+        "market_value": 1216180.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03926,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-02-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "AXA SA",
+        "company_match": "AXA SA",
+        "fund": "ANIMA OBIETTIVO EUROPA ",
+        "nominal_quantity": 30000.0,
+        "market_value": 1029600.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03324,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Heidelberg Materials",
+        "company_match": "HEIDELBERG MATERIALS AG",
+        "fund": "ANIMA OBIETTIVO EUROPA ",
+        "nominal_quantity": 5000.0,
+        "market_value": 596500.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01926,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "BP Plc",
+        "company_match": "BP PLC",
+        "fund": "ANIMA OBIETTIVO EUROPA ",
+        "nominal_quantity": 100000.0,
+        "market_value": 475327.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01534,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:GBP"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Siemens",
+        "company_match": "SIEMENS AG-REG",
+        "fund": "ANIMA OBIETTIVO EUROPA ",
+        "nominal_quantity": 2000.0,
+        "market_value": 377120.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01217,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ROLLS",
+        "company_match": "ROLLS-ROYCE HOLDINGS PLC",
+        "fund": "ANIMA OBIETTIVO EUROPA ",
+        "nominal_quantity": 50000.0,
+        "market_value": 343856.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0111,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:GBP"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Glencore",
+        "company_match": "GLENCORE PLC",
+        "fund": "ANIMA OBIETTIVO EUROPA ",
+        "nominal_quantity": 66461.0,
+        "market_value": 284075.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.009170000000000001,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:GBP"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA OBIETTIVO EUROPA "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "AMAZON.COM INC",
+        "fund": "ANIMA OBIETTIVO INTERNAZIONALE ",
+        "nominal_quantity": 17202.0,
+        "market_value": 3644565.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.02809,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Microsoft",
+        "company_match": "MICROSOFT CORP",
+        "fund": "ANIMA OBIETTIVO INTERNAZIONALE ",
+        "nominal_quantity": 5759.0,
+        "market_value": 2344199.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01807,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "TAIWAN SEMICONDUCTOR",
+        "company_match": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "fund": "ANIMA OBIETTIVO INTERNAZIONALE ",
+        "nominal_quantity": 7500.0,
+        "market_value": 1430396.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01103,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA OBIETTIVO INTERNAZIONALE "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Heidelberg Materials",
+        "company_match": "HEIDELBERG MATERIALS AG",
+        "fund": "ANIMA OBIETTIVO INTERNAZIONALE ",
+        "nominal_quantity": 7695.0,
+        "market_value": 918013.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0070799999999999995,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "AXA SA",
+        "company_match": "AXA SA 14-20/05/2049 FRN",
+        "fund": "ANIMA OBIETTIVO INTERNAZIONALE ",
+        "nominal_quantity": 900000.0,
+        "market_value": 900126.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.006939999999999999,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2049-05-20"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Leonardo",
+        "company_match": "LEONARDO SPA",
+        "fund": "ANIMA OBIETTIVO INTERNAZIONALE ",
+        "nominal_quantity": 30000.0,
+        "market_value": 777900.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.006,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA OBIETTIVO INTERNAZIONALE "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.5% 15-01/06/2025",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 3000000.0,
+        "market_value": 2988420.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.06643,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-06-01"
+        },
+        "interest_rate": 0.015
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.85% 23-15/09/2026",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 2500000.0,
+        "market_value": 2560350.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.056909999999999995,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-09-15"
+        },
+        "interest_rate": 0.0385
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.8% 23-15/04/2026",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 2000000.0,
+        "market_value": 2035320.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.04524,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-04-15"
+        },
+        "interest_rate": 0.038
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.1% 24-28/08/2026",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 2000000.0,
+        "market_value": 2022260.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.044950000000000004,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-08-28"
+        },
+        "interest_rate": 0.031
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.35% 19-01/02/2025",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 2000000.0,
+        "market_value": 1995840.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.04436,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-02-01"
+        },
+        "interest_rate": 0.0034999999999999996
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.5% 20-01/02/2026",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 2000000.0,
+        "market_value": 1961340.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0436,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-02-01"
+        },
+        "interest_rate": 0.005
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.65% 19-28/10/2027",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 1500120.0,
+        "market_value": 1463622.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.03253,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2027-10-28"
+        },
+        "interest_rate": 0.006500000000000001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.2% 24-28/01/2026",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 1000000.0,
+        "market_value": 1008310.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.02241,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-01-28"
+        },
+        "interest_rate": 0.032
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.85% 20-01/07/2025",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 1000000.0,
+        "market_value": 997280.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.022170000000000002,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-07-01"
+        },
+        "interest_rate": 0.018500000000000003
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.45% 18-15/05/2025",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 1000000.0,
+        "market_value": 996270.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.02215,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-05-15"
+        },
+        "interest_rate": 0.014499999999999999
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/03/2025",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 1000000.0,
+        "market_value": 968551.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.02153,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-03-14"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.45% 24-15/07/2027",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 500000.0,
+        "market_value": 511885.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01138,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2027-07-15"
+        },
+        "interest_rate": 0.0345
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.85% 19-15/01/2027",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "nominal_quantity": 500000.0,
+        "market_value": 485435.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01079,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2027-01-15"
+        },
+        "interest_rate": 0.0085
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 4.75% 13-01/09/2028",
+        "fund": "ANIMA SFORZESCO ",
+        "nominal_quantity": 30000000.0,
+        "market_value": 32229900.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01111,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2028-09-01"
+        },
+        "interest_rate": 0.0475
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 5% 09-01/03/2025",
+        "fund": "ANIMA SFORZESCO ",
+        "nominal_quantity": 31100000.0,
+        "market_value": 31207606.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01076,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-03-01"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 4.5% 10-01/03/2026",
+        "fund": "ANIMA SFORZESCO ",
+        "nominal_quantity": 20000000.0,
+        "market_value": 20492600.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0070599999999999994,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-03-01"
+        },
+        "interest_rate": 0.045
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3% 19-01/08/2029",
+        "fund": "ANIMA SFORZESCO ",
+        "nominal_quantity": 20000000.0,
+        "market_value": 20232000.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00697,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2029-08-01"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.35% 19-01/04/2030",
+        "fund": "ANIMA SFORZESCO ",
+        "nominal_quantity": 20000000.0,
+        "market_value": 18531000.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00639,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2030-04-01"
+        },
+        "interest_rate": 0.013500000000000002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA SFORZESCO "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3% 19-01/08/2029",
+        "fund": "ANIMA SFORZESCO PLUS ",
+        "nominal_quantity": 13000000.0,
+        "market_value": 13150800.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.029679999999999998,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2029-08-01"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.35% 19-01/04/2030",
+        "fund": "ANIMA SFORZESCO PLUS ",
+        "nominal_quantity": 14000000.0,
+        "market_value": 12971700.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.02928,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2030-04-01"
+        },
+        "interest_rate": 0.013500000000000002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 4.75% 13-01/09/2028",
+        "fund": "ANIMA SFORZESCO PLUS ",
+        "nominal_quantity": 7500000.0,
+        "market_value": 8057475.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.018189999999999998,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2028-09-01"
+        },
+        "interest_rate": 0.0475
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 4.5% 10-01/03/2026",
+        "fund": "ANIMA SFORZESCO PLUS ",
+        "nominal_quantity": 2000000.0,
+        "market_value": 2049260.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0046300000000000004,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2026-03-01"
+        },
+        "interest_rate": 0.045
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "ICCREA",
+        "company_match": "ICCREA BANCA SPA 21-17/01/2027 FRN",
+        "fund": "ANIMA SFORZESCO PLUS ",
+        "nominal_quantity": 2000000.0,
+        "market_value": 1982180.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00447,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2027-01-17"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA SFORZESCO PLUS "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "ISHARES",
+        "company_match": "ISHARES EUR GREEN BOND UCITS",
+        "fund": "ANIMA VESPUCCI ",
+        "nominal_quantity": 1075525.0,
+        "market_value": 4357920.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.015609999999999999,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA VESPUCCI "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Siemens",
+        "company_match": "SIEMENS AG-REG",
+        "fund": "ANIMA VISCONTEO ",
+        "nominal_quantity": 132397.0,
+        "market_value": 24964778.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00983,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.35% 19-01/04/2030",
+        "fund": "ANIMA VISCONTEO ",
+        "nominal_quantity": 20200000.0,
+        "market_value": 18716310.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00737,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2030-04-01"
+        },
+        "interest_rate": 0.013500000000000002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 4.75% 13-01/09/2028",
+        "fund": "ANIMA VISCONTEO ",
+        "nominal_quantity": 15300000.0,
+        "market_value": 16437249.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00647,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2028-09-01"
+        },
+        "interest_rate": 0.0475
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 5% 09-01/03/2025",
+        "fund": "ANIMA VISCONTEO ",
+        "nominal_quantity": 15300000.0,
+        "market_value": 15352938.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00605,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-03-01"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3% 19-01/08/2029",
+        "fund": "ANIMA VISCONTEO ",
+        "nominal_quantity": 15000000.0,
+        "market_value": 15174000.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00598,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2029-08-01"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "AXA SA",
+        "company_match": "AXA SA",
+        "fund": "ANIMA VISCONTEO ",
+        "nominal_quantity": 386903.0,
+        "market_value": 13278511.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00523,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA VISCONTEO "
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3% 19-01/08/2029",
+        "fund": "ANIMA VISCONTEO PLUS ",
+        "nominal_quantity": 6500000.0,
+        "market_value": 6575400.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.012190000000000001,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2029-08-01"
+        },
+        "interest_rate": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.35% 19-01/04/2030",
+        "fund": "ANIMA VISCONTEO PLUS ",
+        "nominal_quantity": 7000000.0,
+        "market_value": 6485850.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.01202,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2030-04-01"
+        },
+        "interest_rate": 0.013500000000000002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Siemens",
+        "company_match": "SIEMENS AG-REG",
+        "fund": "ANIMA VISCONTEO PLUS ",
+        "nominal_quantity": 28109.0,
+        "market_value": 5300233.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00983,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 4.75% 13-01/09/2028",
+        "fund": "ANIMA VISCONTEO PLUS ",
+        "nominal_quantity": 3000000.0,
+        "market_value": 3222990.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00597,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2028-09-01"
+        },
+        "interest_rate": 0.0475
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "AXA SA",
+        "company_match": "AXA SA",
+        "fund": "ANIMA VISCONTEO PLUS ",
+        "nominal_quantity": 81934.0,
+        "market_value": 2811975.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.00521,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "ANIMA VISCONTEO PLUS "
+      }
+    }
+  }
+]

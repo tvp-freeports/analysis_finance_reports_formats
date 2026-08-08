@@ -1,0 +1,48 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Global Bond High Yield"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Asian Equity Opportunities"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - Equity China A"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "Eurizon Fund - China Opportunity"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Dummy",
+        "managed_funds": {
+          "__set__": [
+            "Eurizon Fund - China Opportunity",
+            "Eurizon Fund - Equity China A"
+          ]
+        }
+      }
+    }
+  }
+]

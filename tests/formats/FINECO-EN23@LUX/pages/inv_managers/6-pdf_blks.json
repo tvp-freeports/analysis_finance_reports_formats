@@ -1,0 +1,320 @@
+[
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+    "metadata": {},
+    "content": "Fineco Asset Management DAC ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 0
+    },
+    "content": "(Only in respect of the Sub-Fund Invesco Pan ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 0
+    },
+    "content": "European High Income FAM Fund) ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Invesco Asset Management Limited ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Perpetual Park ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Perpetual Park Drive ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Henley-on-Thames ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Oxfordshire RG9 1HH ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 0
+    },
+    "content": "United Kingdom ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 1
+    },
+    "content": "(Only in respect of the Sub-Fund Global Macro ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 1
+    },
+    "content": "Credit FAM Fund) ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 1
+    },
+    "content": "Algebris (UK) Limited ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 1
+    },
+    "content": "4th Floor, 1 St James's Market ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 1
+    },
+    "content": "London SW1Y 4AH ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 1
+    },
+    "content": "United Kingdom ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 2
+    },
+    "content": "Algebris Investments (US) Inc. ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 2
+    },
+    "content": "699 Boylston Street  ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 2
+    },
+    "content": "Boston MA 02116 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 2
+    },
+    "content": "United States of America ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 3
+    },
+    "content": "(Only in respect of the Sub-Fund MFS Prudent ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 3
+    },
+    "content": "Capital FAM Fund) ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 3
+    },
+    "content": "MFS Investment Management Company (Lux) S.à r.l. ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 3
+    },
+    "content": "4, Rue Albert Borschette ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 3
+    },
+    "content": "L-1246 Luxembourg",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 3
+    },
+    "content": "Grand Duchy of Luxembourg",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 4
+    },
+    "content": "MFS International (U.K.) Limited ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 4
+    },
+    "content": "One Carter Lane ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 4
+    },
+    "content": "London EC4V 5ER ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 4
+    },
+    "content": "United Kingdom ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 5
+    },
+    "content": "MFS Institutional Advisors Inc. ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 5
+    },
+    "content": "111 Huntington Avenue ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 5
+    },
+    "content": "Boston, MA02199 ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 5
+    },
+    "content": "United States of America ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 6
+    },
+    "content": "(Only in respect of Bond 6M Fineco AM Fund, ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 6
+    },
+    "content": "Enhanced Bond 6M Fineco AM Fund and ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 6
+    },
+    "content": "Sustainable Enhanced Bond 12M Fineco AM Fund) ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 6
+    },
+    "content": "BNP Paribas Asset Management France ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 6
+    },
+    "content": "1 Boulevard Haussmann ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 6
+    },
+    "content": "75009, Paris ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
+    "metadata": {
+      "group": 6
+    },
+    "content": "France ",
+    "__pdf_block__": true
+  }
+]

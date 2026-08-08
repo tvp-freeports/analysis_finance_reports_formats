@@ -1,0 +1,53 @@
+[
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "CoRe Series - FAM Park",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      },
+      "tot_assets": "98 092 763",
+      "liabilities": "213 017",
+      "net_assets": "97 879 746",
+      "date": null
+    },
+    "content": "",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "CoRe Series - CoRe Coupon",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      },
+      "tot_assets": "377 626 249",
+      "liabilities": "1 040 409",
+      "net_assets": "376 585 840",
+      "date": null
+    },
+    "content": "",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "CoRe Series - CoRe Income Opportunity",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      },
+      "tot_assets": "719 767 105",
+      "liabilities": "929 635",
+      "net_assets": "718 837 470",
+      "date": null
+    },
+    "content": "",
+    "pdf_block": null,
+    "__text_block__": true
+  }
+]

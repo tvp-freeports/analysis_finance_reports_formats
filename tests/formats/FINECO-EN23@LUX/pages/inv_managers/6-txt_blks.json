@@ -1,0 +1,86 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Invesco Pan European High Income FAM Fund"
+        ]
+      }
+    },
+    "content": "Invesco Asset Management Limited",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Global Macro Credit FAM Fund"
+        ]
+      }
+    },
+    "content": "Algebris (UK) Limited",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Global Macro Credit FAM Fund"
+        ]
+      }
+    },
+    "content": "Algebris Investments (US) Inc.",
+    "pdf_block": null,
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardManagmentCompanyTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Fidelity Global Dividend FAM Fund",
+          "Global Macro Credit FAM Fund",
+          "Invesco Global Total Return Bond FAM Fund",
+          "Invesco Pan European High Income FAM Fund",
+          "US Equity Value FAM Fund"
+        ]
+      }
+    },
+    "content": "Fineco Asset Management DAC ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Fineco Asset Management DAC "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Fidelity Global Dividend FAM Fund",
+          "Invesco Global Total Return Bond FAM Fund",
+          "US Equity Value FAM Fund"
+        ]
+      }
+    },
+    "content": "Fineco Asset Management DAC ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Fineco Asset Management DAC "
+    },
+    "__text_block__": true
+  }
+]

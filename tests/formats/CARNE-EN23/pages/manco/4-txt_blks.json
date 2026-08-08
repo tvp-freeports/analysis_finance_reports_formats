@@ -1,0 +1,24 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardManagmentCompanyTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CoRe Series - CoRe Coupon",
+          "CoRe Series - CoRe Income Opportunity",
+          "CoRe Series - FAM Park",
+          "Invesco Global Total Return Bond FAM Fund",
+          "US Equity Value FAM Fund"
+        ]
+      }
+    },
+    "content": "Carne Global Fund Managers (Luxembourg) S.A. ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Carne Global Fund Managers (Luxembourg) S.A. "
+    },
+    "__text_block__": true
+  }
+]
