@@ -35,7 +35,7 @@
     "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
     "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
     "metadata": {},
-    "content": "CHALLENGE North American Equity Fund",
+    "content": "CHALLENGE Provident Fund 1",
     "pdf_block": null,
     "__text_block__": true
   },
@@ -43,7 +43,7 @@
     "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
     "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
     "metadata": {},
-    "content": "CHALLENGE International Equity Fund",
+    "content": "CHALLENGE North American Equity Fund",
     "pdf_block": null,
     "__text_block__": true
   },
@@ -59,7 +59,7 @@
     "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
     "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
     "metadata": {},
-    "content": "CHALLENGE Provident Fund 1",
+    "content": "CHALLENGE International Equity Fund",
     "pdf_block": null,
     "__text_block__": true
   },
@@ -83,7 +83,7 @@
     "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
     "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
     "metadata": {},
-    "content": "CHALLENGE Provident Fund 1",
+    "content": "CHALLENGE International Equity Fund",
     "pdf_block": null,
     "__text_block__": true
   },
@@ -91,7 +91,7 @@
     "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
     "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
     "metadata": {},
-    "content": "CHALLENGE International Equity Fund",
+    "content": "CHALLENGE Provident Fund 1",
     "pdf_block": null,
     "__text_block__": true
   },
@@ -143,13 +143,13 @@
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "CHALLENGE Emerging Markets Equity Fund",
-          "CHALLENGE Energy Opportunities",
-          "CHALLENGE European Equity Fund",
-          "CHALLENGE Industrials and Materials Opportunities",
-          "Challenge Healthcare Opportunities",
-          "Impax Asset Management Ireland Ltd",
-          "Mediolanum Global Impact"
+          "CHALLENGE EMERGING MARKETS EQUITY FUND",
+          "CHALLENGE ENERGY OPPORTUNITIES",
+          "CHALLENGE EUROPEAN EQUITY FUND",
+          "CHALLENGE HEALTHCARE OPPORTUNITIES",
+          "CHALLENGE INDUSTRIALS AND MATERIALS OPPORTUNITIES",
+          "IMPAX ASSET MANAGEMENT IRELAND LTD",
+          "MEDIOLANUM GLOBAL IMPACT"
         ]
       }
     },
@@ -169,13 +169,13 @@
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "CHALLENGE Emerging Markets Equity Fund",
-          "CHALLENGE Energy Opportunities",
-          "CHALLENGE European Equity Fund",
-          "CHALLENGE Industrials and Materials Opportunities",
-          "Challenge Healthcare Opportunities",
-          "Impax Asset Management Ireland Ltd",
-          "Mediolanum Global Impact"
+          "CHALLENGE EMERGING MARKETS EQUITY FUND",
+          "CHALLENGE ENERGY OPPORTUNITIES",
+          "CHALLENGE EUROPEAN EQUITY FUND",
+          "CHALLENGE HEALTHCARE OPPORTUNITIES",
+          "CHALLENGE INDUSTRIALS AND MATERIALS OPPORTUNITIES",
+          "IMPAX ASSET MANAGEMENT IRELAND LTD",
+          "MEDIOLANUM GLOBAL IMPACT"
         ]
       }
     },

@@ -6,13 +6,13 @@
         "name": "Mediolanum International Funds Limited",
         "managed_funds": {
           "__set__": [
-            "CHALLENGE Emerging Markets Equity Fund",
-            "CHALLENGE Energy Opportunities",
-            "CHALLENGE European Equity Fund",
-            "CHALLENGE Industrials and Materials Opportunities",
-            "Challenge Healthcare Opportunities",
-            "Impax Asset Management Ireland Ltd",
-            "Mediolanum Global Impact"
+            "CHALLENGE EMERGING MARKETS EQUITY FUND",
+            "CHALLENGE ENERGY OPPORTUNITIES",
+            "CHALLENGE EUROPEAN EQUITY FUND",
+            "CHALLENGE HEALTHCARE OPPORTUNITIES",
+            "CHALLENGE INDUSTRIALS AND MATERIALS OPPORTUNITIES",
+            "IMPAX ASSET MANAGEMENT IRELAND LTD",
+            "MEDIOLANUM GLOBAL IMPACT"
           ]
         }
       }
@@ -109,13 +109,13 @@
         "name": "Mediolanum International Funds Limited",
         "managed_funds": {
           "__set__": [
-            "CHALLENGE Emerging Markets Equity Fund",
-            "CHALLENGE Energy Opportunities",
-            "CHALLENGE European Equity Fund",
-            "CHALLENGE Industrials and Materials Opportunities",
-            "Challenge Healthcare Opportunities",
-            "Impax Asset Management Ireland Ltd",
-            "Mediolanum Global Impact"
+            "CHALLENGE EMERGING MARKETS EQUITY FUND",
+            "CHALLENGE ENERGY OPPORTUNITIES",
+            "CHALLENGE EUROPEAN EQUITY FUND",
+            "CHALLENGE HEALTHCARE OPPORTUNITIES",
+            "CHALLENGE INDUSTRIALS AND MATERIALS OPPORTUNITIES",
+            "IMPAX ASSET MANAGEMENT IRELAND LTD",
+            "MEDIOLANUM GLOBAL IMPACT"
           ]
         }
       }
@@ -125,7 +125,7 @@
     "__pydantic__": {
       "class": "freeports._internals.output.classes_schema:Fund",
       "data": {
-        "name": "CHALLENGE North American Equity Fund"
+        "name": "CHALLENGE PROVIDENT FUND 1"
       }
     }
   },
@@ -133,7 +133,7 @@
     "__pydantic__": {
       "class": "freeports._internals.output.classes_schema:Fund",
       "data": {
-        "name": "CHALLENGE International Equity Fund"
+        "name": "CHALLENGE NORTH AMERICAN EQUITY FUND"
       }
     }
   },
@@ -141,7 +141,7 @@
     "__pydantic__": {
       "class": "freeports._internals.output.classes_schema:Fund",
       "data": {
-        "name": "CHALLENGE Pacific Equity Fund"
+        "name": "CHALLENGE PACIFIC EQUITY FUND"
       }
     }
   },
@@ -149,7 +149,7 @@
     "__pydantic__": {
       "class": "freeports._internals.output.classes_schema:Fund",
       "data": {
-        "name": "CHALLENGE Provident Fund 1"
+        "name": "CHALLENGE INTERNATIONAL EQUITY FUND"
       }
     }
   },
@@ -157,7 +157,7 @@
     "__pydantic__": {
       "class": "freeports._internals.output.classes_schema:Fund",
       "data": {
-        "name": "CHALLENGE Provident Fund 1"
+        "name": "CHALLENGE INTERNATIONAL EQUITY FUND"
       }
     }
   },
@@ -165,7 +165,7 @@
     "__pydantic__": {
       "class": "freeports._internals.output.classes_schema:Fund",
       "data": {
-        "name": "CHALLENGE International Equity Fund"
+        "name": "CHALLENGE PROVIDENT FUND 1"
       }
     }
   }

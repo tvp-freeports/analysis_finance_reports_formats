@@ -1,0 +1,83 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "NORDEA",
+        "company_match": "BONO|NORDEA BANK ABP|3,63|2025-02-10",
+        "fund": {
+          "__promise__": true,
+          "id": "title document"
+        },
+        "nominal_quantity": null,
+        "market_value": 2394000.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0019,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-02-10"
+        },
+        "interest_rate": 0.0363
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "INTESA SANPAOLO",
+        "company_match": "BONO|INTESA SANPAOLO SPA|3,47|2025-03-17",
+        "fund": {
+          "__promise__": true,
+          "id": "title document"
+        },
+        "nominal_quantity": null,
+        "market_value": 4001000.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0032,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-03-17"
+        },
+        "interest_rate": 0.0347
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Bond",
+      "data": {
+        "company": "INTESA SANPAOLO",
+        "company_match": "BONO|INTESA SANPAOLO SPA|3,81|2025-11-16",
+        "fund": {
+          "__promise__": true,
+          "id": "title document"
+        },
+        "nominal_quantity": null,
+        "market_value": 1710000.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0014000000000000002,
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "maturity": {
+          "__date__": "2025-11-16"
+        },
+        "interest_rate": 0.0381
+      }
+    }
+  }
+]

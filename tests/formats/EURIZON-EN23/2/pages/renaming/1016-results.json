@@ -1,0 +1,67 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundRename",
+      "data": {
+        "old_name": "Eurizon Fund - Equity Europe LTE",
+        "current_name": "YourIndex SICAV - YIS MSCI Europe Universal",
+        "date": {
+          "__date__": "2025-05-23"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundRename",
+      "data": {
+        "old_name": "Eurizon Fund - Equity USA LTE",
+        "current_name": "YourIndex SICAV - YIS MSCI USA Universal",
+        "date": {
+          "__date__": "2025-05-23"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundRename",
+      "data": {
+        "old_name": "Eurizon Fund - Equity North America LTE",
+        "current_name": "YourIndex SICAV - YIS MSCI North America Universal",
+        "date": {
+          "__date__": "2025-05-23"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundRename",
+      "data": {
+        "old_name": "Eurizon Fund - Equity Japan LTE",
+        "current_name": "YourIndex SICAV - YIS MSCI Japan Universal",
+        "date": {
+          "__date__": "2025-05-23"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundRename",
+      "data": {
+        "old_name": "Eurizon Fund - Equity Pacific Ex-Japan LTE",
+        "current_name": "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
+        "date": {
+          "__date__": "2025-05-23"
+        }
+      }
+    }
+  },
+  {
+    "date-merging-endpage-1016": {
+      "__date__": "2025-05-23"
+    }
+  }
+]

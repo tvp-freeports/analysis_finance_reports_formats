@@ -47,11 +47,11 @@
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "Fidelity Global Dividend FAM Fund",
-          "Global Macro Credit FAM Fund",
-          "Invesco Global Total Return Bond FAM Fund",
-          "Invesco Pan European High Income FAM Fund",
-          "US Equity Value FAM Fund"
+          "FIDELITY GLOBAL DIVIDEND FAM FUND",
+          "GLOBAL MACRO CREDIT FAM FUND",
+          "INVESCO GLOBAL TOTAL RETURN BOND FAM FUND",
+          "INVESCO PAN EUROPEAN HIGH INCOME FAM FUND",
+          "US EQUITY VALUE FAM FUND"
         ]
       }
     },
@@ -69,9 +69,9 @@
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "Fidelity Global Dividend FAM Fund",
-          "Invesco Global Total Return Bond FAM Fund",
-          "US Equity Value FAM Fund"
+          "FIDELITY GLOBAL DIVIDEND FAM FUND",
+          "INVESCO GLOBAL TOTAL RETURN BOND FAM FUND",
+          "US EQUITY VALUE FAM FUND"
         ]
       }
     },

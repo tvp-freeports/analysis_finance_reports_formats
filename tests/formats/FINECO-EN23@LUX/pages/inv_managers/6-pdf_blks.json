@@ -1,11 +1,5 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
-    "metadata": {},
-    "content": "Fineco Asset Management DAC ",
-    "__pdf_block__": true
-  },
-  {
     "type_block_tag": "_plugin_fineco_en23_lux.inv_managers:BlockType:INV_MAN",
     "metadata": {
       "group": 0
@@ -315,6 +309,12 @@
       "group": 6
     },
     "content": "France ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+    "metadata": {},
+    "content": "Fineco Asset Management DAC ",
     "__pdf_block__": true
   }
 ]

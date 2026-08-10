@@ -1,0 +1,159 @@
+[
+  {
+    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "metadata": {},
+    "content": "COUPON STRATEGY COLLECTION ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "metadata": {},
+      "content": "COUPON STRATEGY COLLECTION "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "958.305 ",
+      "% net assets": "0,06 ",
+      "quantity": "10.357 ",
+      "acquisition currency": "DKK ",
+      "acquisition cost": "1.049.575 ",
+      "company match": "Carlsberg AS ",
+      "company": "Carlsberg Group",
+      "fund": "COUPON STRATEGY COLLECTION ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Carlsberg AS ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 3,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Carlsberg AS "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "1.048.851 ",
+      "% net assets": "0,07 ",
+      "quantity": "99.754 ",
+      "acquisition currency": "SEK ",
+      "acquisition cost": "1.093.291 ",
+      "company match": "Nordea Bank Abp ",
+      "company": "NORDEA",
+      "fund": "COUPON STRATEGY COLLECTION ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Nordea Bank Abp ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 10,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Nordea Bank Abp "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "724.049 ",
+      "% net assets": "0,05 ",
+      "quantity": "21.097 ",
+      "acquisition currency": "EUR ",
+      "acquisition cost": "680.648 ",
+      "company match": "AXA SA ",
+      "company": "AXA SA",
+      "fund": "COUPON STRATEGY COLLECTION ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "AXA SA ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 13,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "AXA SA "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "720.921 ",
+      "% net assets": "0,05 ",
+      "quantity": "52.507 ",
+      "acquisition currency": "EUR ",
+      "acquisition cost": "775.320 ",
+      "company match": "Carrefour SA ",
+      "company": "Carrefour",
+      "fund": "COUPON STRATEGY COLLECTION ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Carrefour SA ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 16,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Carrefour SA "
+    },
+    "__text_block__": true
+  },
+  {
+    "subtype_tag": null,
+    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "metadata": {
+      "manco": null,
+      "market value": "623.945 ",
+      "% net assets": "0,04 ",
+      "quantity": "3.309 ",
+      "acquisition currency": "EUR ",
+      "acquisition cost": "624.132 ",
+      "company match": "Siemens AG ",
+      "company": "Siemens",
+      "fund": "COUPON STRATEGY COLLECTION ",
+      "currency": {
+        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+      }
+    },
+    "content": "Siemens AG ",
+    "pdf_block": {
+      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "metadata": {
+        "table-row": 44,
+        "table-col": 0,
+        "is-max-width": false
+      },
+      "content": "Siemens AG "
+    },
+    "__text_block__": true
+  }
+]

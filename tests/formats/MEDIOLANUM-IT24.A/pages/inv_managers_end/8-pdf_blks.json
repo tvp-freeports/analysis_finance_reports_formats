@@ -1,0 +1,26 @@
+[
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Zazove Associates LLC",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 0
+    },
+    "content": "1001 Tahoe Boulevard, Incline Village, NV 89451, Stati Uniti. ",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 0
+    },
+    "content": "(Convertible Strategy Collection) ",
+    "__pdf_block__": true
+  }
+]

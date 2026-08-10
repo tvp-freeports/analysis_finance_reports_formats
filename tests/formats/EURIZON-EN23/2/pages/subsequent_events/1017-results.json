@@ -1,0 +1,44 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundRename",
+      "data": {
+        "old_name": "Eurizon Fund - Equity World ESG Leaders LTE",
+        "current_name": "YourIndex SICAV - YIS MSCI World Selection",
+        "date": {
+          "__promise__": true,
+          "id": "date-merging-endpage-1016"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundRename",
+      "data": {
+        "old_name": "Eurizon Fund - Bond EUR All Maturities LTE",
+        "current_name": "YourIndex SICAV - YIS EMU Government Bond",
+        "date": {
+          "__date__": "2025-06-06"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:FundRename",
+      "data": {
+        "old_name": "Eurizon Fund - Bond Italy Long Term LTE",
+        "current_name": "YourIndex SICAV - YIS 5+ Year Italian Government Bond",
+        "date": {
+          "__date__": "2025-06-06"
+        }
+      }
+    }
+  },
+  {
+    "date-merging-endpage-1017": {
+      "__date__": "2025-06-06"
+    }
+  }
+]

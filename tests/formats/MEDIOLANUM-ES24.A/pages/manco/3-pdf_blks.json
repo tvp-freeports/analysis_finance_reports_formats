@@ -1,5 +1,11 @@
 [
   {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+    "metadata": {},
+    "content": "Mediolanum International Funds Limited  ",
+    "__pdf_block__": true
+  },
+  {
     "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
     "metadata": {},
     "content": "Robeco Institutional Asset Management BV  ",
@@ -219,12 +225,6 @@
     "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
     "metadata": {},
     "content": "(GAMAX FUNDS - MAXI-BOND) ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
-    "metadata": {},
-    "content": "Mediolanum International Funds Limited  ",
     "__pdf_block__": true
   }
 ]

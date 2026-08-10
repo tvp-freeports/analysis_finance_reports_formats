@@ -19,7 +19,7 @@ def create_text_from_table(well_divided,not_divided,groups):
     text_well_divided=[]
     text_not_divided=[]
     for g in sorted(set(groups)):
-        group_g=sorted([w for w in well_divided],key=lambda l: l.bbox[1])
+        group_g=sorted([w for w,gg in zip(well_divided,groups) if gg==g],key=lambda l: l.bbox[1])
         text_well_divided.append(
             " ".join((g.text for g in group_g))
         )
@@ -121,7 +121,7 @@ def pdf_extract(page):
         #         else:
         #             break
         res.append(PdfBlock(
-            TypeBlock.RENAME_ENTRY,{"old_names":text_new_names,"new_names":text_new_names},last_date_content
+            TypeBlock.RENAME_ENTRY,{"old_names":text_old_names,"new_names":text_new_names},last_date_content
         ))
     if last_date_content is not None and not isinstance(last_date_content,Promise):
         res.append(PdfBlock(

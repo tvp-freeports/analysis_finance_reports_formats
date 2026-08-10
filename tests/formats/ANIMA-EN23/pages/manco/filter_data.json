@@ -93,7 +93,7 @@
     "__pydantic__": {
       "class": "freeports._internals.output.classes_schema:Fund",
       "data": {
-        "name": "Kairos International Sicav - Opportunities Long/Short"
+        "name": "Kairos International Sicav Opportunities Long/Short"
       }
     }
   },

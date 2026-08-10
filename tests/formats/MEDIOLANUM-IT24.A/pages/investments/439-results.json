@@ -1,0 +1,50 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "EUROPEAN COLLECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Heidelberg Materials",
+        "company_match": "Heidelberg Materials AG",
+        "fund": "EUROPEAN COLLECTION ",
+        "nominal_quantity": 7433.0,
+        "market_value": 886757.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0018,
+        "acquisition_cost": 765763.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Equity",
+      "data": {
+        "company": "Siemens",
+        "company_match": "Siemens AG",
+        "fund": "EUROPEAN COLLECTION ",
+        "nominal_quantity": 15913.0,
+        "market_value": 3000555.0,
+        "currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        },
+        "perc_net_assets": 0.0062,
+        "acquisition_cost": 2422070.0,
+        "acquisition_currency": {
+          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        }
+      }
+    }
+  }
+]

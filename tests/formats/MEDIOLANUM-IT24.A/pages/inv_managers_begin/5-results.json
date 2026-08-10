@@ -1,0 +1,108 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Advent Capital Management LLC",
+        "managed_funds": {
+          "__set__": [
+            "Convertible Strategy Collection"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Baillie Gifford Investment Management (Europe) Limited",
+        "managed_funds": {
+          "__set__": [
+            "Mediolanum Global Impact"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Blackrock Investment Management (UK) Limited",
+        "managed_funds": {
+          "__set__": [
+            "Mediolanum Future Sustainable Nutrition",
+            "Mediolanum Global Impact"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Carmignac Gestion Luxembourg",
+        "managed_funds": {
+          "__set__": [
+            "Mediolanum Carmignac Strategic Selection"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "First Sentier Investor (UK) IM Limited",
+        "managed_funds": {
+          "__set__": [
+            "Mediolanum Global Impact"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Mediolanum International Funds Limited",
+        "managed_funds": {
+          "__set__": [
+            "CONVERTIBLE STRATEGY COLLECTION",
+            "MEDIOLANUM CARMIGNAC STRATEGIC SELECTION",
+            "MEDIOLANUM GLOBAL IMPACT",
+            "TEST FUND B"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "MEDIOLANUM FUTURE SUSTAINABLE NUTRITION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:ManagementCompany",
+      "data": {
+        "name": "Mediolanum International Funds Limited",
+        "managed_funds": {
+          "__set__": [
+            "CONVERTIBLE STRATEGY COLLECTION",
+            "MEDIOLANUM CARMIGNAC STRATEGIC SELECTION",
+            "MEDIOLANUM GLOBAL IMPACT",
+            "TEST FUND B"
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "US COLLECTION",
+      "currency": "(valori espressi in EUR) ",
+      "tot_assets": "960.446.613",
+      "liabilities": "17.219.697",
+      "net_assets": "943.226.916",
+      "date": "AL 31 DICEMBRE 2024  "
+    },
+    "content": "",
+    "__pdf_block__": true
+  },
+  {
+    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "EUROPEAN COLLECTION",
+      "currency": "(valori espressi in EUR) ",
+      "tot_assets": "491.077.993",
+      "liabilities": "4.704.155",
+      "net_assets": "486.373.838",
+      "date": "AL 31 DICEMBRE 2024  "
+    },
+    "content": "",
+    "__pdf_block__": true
+  }
+]

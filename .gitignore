@@ -1,2 +1,5 @@
 __pycache__
+.benchmarks
+.pytest_cache
+devtools
 AGENTS.md

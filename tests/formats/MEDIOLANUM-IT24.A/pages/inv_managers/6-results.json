@@ -1,0 +1,125 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "MEDIOLANUM INDIA OPPORTUNITIES"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "MEDIOLANUM GLOBAL EQUITY STYLE SELECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "EUROPEAN SMALL CAP EQUITY"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "US COLLECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:Fund",
+      "data": {
+        "name": "PACIFIC COLLECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "FountainCap Research & Investment (Hong Kong) Co.",
+        "managed_funds": {
+          "__set__": [
+            "Chinese Road Opportunities"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Goldman Sachs Asset Management International",
+        "managed_funds": {
+          "__set__": [
+            "Chinese Road Opportunities",
+            "Mediolanum India Opportunities"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Guardcap Asset Management Limited",
+        "managed_funds": {
+          "__set__": [
+            "Global Leaders",
+            "Mediolanum Global Equity Style Selection"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Impax Asset Management Ireland Ltd",
+        "managed_funds": {
+          "__set__": [
+            "Mediolanum Global Impact"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "Intermede Investment Partners Limited",
+        "managed_funds": {
+          "__set__": [
+            "Global Leaders"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "data": {
+        "name": "JP Morgan Asset Management (UK) Limited",
+        "managed_funds": {
+          "__set__": [
+            "European Small Cap Equity",
+            "Mediolanum Global Impact",
+            "Pacific Collection",
+            "US Collection"
+          ]
+        }
+      }
+    }
+  }
+]
