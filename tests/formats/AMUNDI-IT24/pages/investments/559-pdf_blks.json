@@ -1,614 +1,614 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 0
+    },
+    "content": "ARISTA NETWORKS INC "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 0
+    },
+    "content": "3.552,000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 0
+    },
+    "content": "111,450 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 0
+    },
+    "content": "1,038 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 0
+    },
+    "content": "381.360 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 0
+    },
+    "content": "0,30 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 1
+    },
+    "content": "PURE STORAGE INC - CLASS A "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 1
+    },
+    "content": "5.664,000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 1
+    },
+    "content": "62,480 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 1
+    },
+    "content": "1,038 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 1
+    },
+    "content": "340.915 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 1
+    },
+    "content": "0,27 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 2
+    },
+    "content": "EQUINIX INC "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 2
+    },
+    "content": "371,000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 2
+    },
+    "content": "935,930 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 2
+    },
+    "content": "1,038 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 2
+    },
+    "content": "334.502 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 2
+    },
+    "content": "0,27 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 3
+    },
+    "content": "BOOKING HOLDINGS INC "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 3
+    },
+    "content": "66,000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 3
+    },
+    "content": "4.990,870 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 3
+    },
+    "content": "1,038 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 3
+    },
+    "content": "317.323 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 3
+    },
+    "content": "0,25 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": true,
+      "table-col": 0,
+      "table-row": 4
+    },
+    "content": "CROWDSTRIKE HOLDINGS INC - A "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 4
+    },
+    "content": "936,000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 4
+    },
+    "content": "349,310 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 4
+    },
+    "content": "1,038 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 4
+    },
+    "content": "314.970 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 4
+    },
+    "content": "0,25 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 5
+    },
+    "content": "AMPHENOL CORP-CL A "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 5
+    },
+    "content": "4.703,000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 5
+    },
+    "content": "69,500 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 5
+    },
+    "content": "1,038 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 5
+    },
+    "content": "314.877 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 5
+    },
+    "content": "0,25 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 6
+    },
+    "content": "NUTANIX INC - A "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 6
+    },
+    "content": "5.130,000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 6
+    },
+    "content": "61,570 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 6
+    },
+    "content": "1,038 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 6
+    },
+    "content": "304.276 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 6
+    },
+    "content": "0,24 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 7
+    },
+    "content": "INTUIT INC "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 7
+    },
+    "content": "488,000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 7
+    },
+    "content": "630,300 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 7
+    },
+    "content": "1,038 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 7
+    },
+    "content": "296.312 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 7
+    },
+    "content": "0,24 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 8
+    },
+    "content": "UBER TECHNOLOGIES INC "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 8
+    },
+    "content": "4.946,000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 8
+    },
+    "content": "60,770 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 8
+    },
+    "content": "1,038 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 8
+    },
+    "content": "289.551 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 8
+    },
+    "content": "0,23 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 9
+    },
+    "content": "VISA INC-CLASS A SHARES "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 9
+    },
+    "content": "864,000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 9
+    },
+    "content": "315,310 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 9
+    },
+    "content": "1,038 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 9
+    },
+    "content": "262.442 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 9
+    },
+    "content": "0,21 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
     "metadata": {},
-    "content": "Amundi Accumulazione Intelligenza Artificiale 2029 ",
-    "__pdf_block__": true
+    "content": "Amundi Accumulazione Intelligenza Artificiale 2029 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ARISTA NETWORKS INC ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "3.552,000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "111,450 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,038 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "381.360 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0,30 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "PURE STORAGE INC - CLASS A ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "5.664,000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "62,480 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,038 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "340.915 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0,27 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "EQUINIX INC ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "371,000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "935,930 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,038 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "334.502 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0,27 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "BOOKING HOLDINGS INC ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "66,000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "4.990,870 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,038 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "317.323 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0,25 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 0,
-      "is-max-width": true
-    },
-    "content": "CROWDSTRIKE HOLDINGS INC - A ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "936,000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "349,310 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,038 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "314.970 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0,25 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "AMPHENOL CORP-CL A ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "4.703,000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "69,500 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,038 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "314.877 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0,25 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "NUTANIX INC - A ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "5.130,000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "61,570 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,038 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "304.276 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0,24 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "INTUIT INC ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "488,000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "630,300 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,038 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "296.312 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0,24 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "UBER TECHNOLOGIES INC ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "4.946,000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "60,770 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,038 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "289.551 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0,23 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "VISA INC-CLASS A SHARES ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "864,000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "315,310 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,038 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "262.442 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0,21 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
     "metadata": {},
-    "content": "EUR",
-    "__pdf_block__": true
+    "content": "EUR"
   }
 ]

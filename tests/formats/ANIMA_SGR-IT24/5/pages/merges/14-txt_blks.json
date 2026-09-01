@@ -1,21 +1,21 @@
 [
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "old_name": "Anima Riserva Emergente",
       "current_name": "Anima Obbligazionario Emergente",
-      "date": "15 aprile 2024"
+      "date": "15 aprile 2024",
+      "old_name": "Anima Riserva Emergente"
     },
     "content": "Il Consiglio di Amministrazione di ANIMA SGR S.p.A., nella seduta del 26 gennaio 2024, ha approvato la seguente operazione di fusione, approvata in via generale dalla Banca d’Italia, con efficacia a far data dal 15 aprile 2024: ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {
-        "old_name": "Anima Riserva Emergente",
-        "current_name": "Anima Obbligazionario Emergente"
+        "current_name": "Anima Obbligazionario Emergente",
+        "old_name": "Anima Riserva Emergente"
       },
       "content": "Il Consiglio di Amministrazione di ANIMA SGR S.p.A., nella seduta del 26 gennaio 2024, ha approvato la seguente operazione di fusione, approvata in via generale dalla Banca d’Italia, con efficacia a far data dal 15 aprile 2024: "
-    },
-    "__text_block__": true
+    }
   }
 ]

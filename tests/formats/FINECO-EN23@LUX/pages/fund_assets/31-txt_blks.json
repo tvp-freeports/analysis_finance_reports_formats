@@ -1,53 +1,50 @@
 [
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "CoRe Series - FAM Park",
       "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        "__enum__": "freeports.consts:Currency:EUR"
       },
-      "tot_assets": "98 092 763",
+      "date": null,
+      "fund": "CoRe Series - FAM Park",
       "liabilities": "213 017",
       "net_assets": "97 879 746",
-      "date": null
+      "tot_assets": "98 092 763"
     },
     "content": "",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "CoRe Series - CoRe Coupon",
       "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        "__enum__": "freeports.consts:Currency:EUR"
       },
-      "tot_assets": "377 626 249",
+      "date": null,
+      "fund": "CoRe Series - CoRe Coupon",
       "liabilities": "1 040 409",
       "net_assets": "376 585 840",
-      "date": null
+      "tot_assets": "377 626 249"
     },
     "content": "",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "CoRe Series - CoRe Income Opportunity",
       "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        "__enum__": "freeports.consts:Currency:EUR"
       },
-      "tot_assets": "719 767 105",
+      "date": null,
+      "fund": "CoRe Series - CoRe Income Opportunity",
       "liabilities": "929 635",
       "net_assets": "718 837 470",
-      "date": null
+      "tot_assets": "719 767 105"
     },
     "content": "",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   }
 ]

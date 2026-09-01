@@ -1,307 +1,307 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "ARCA CEDOLA ATTIVA 2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "ARCA CEDOLA ATTIVA 2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "5,400%",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 0.65% 20-15/05/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA CEDOLA ATTIVA 2026 ",
+      "interest rate": "0.65%",
       "manco": null,
       "market value": "24.262",
-      "% net assets": "5,400%",
-      "quantity": "                       24.397.400 ",
-      "acquisition currency": "EUR ",
-      "interest rate": "0.65%",
       "maturity": "15/05/2026",
-      "company match": "ITALY BTPS 0.65% 20-15/05/2026 ",
-      "company": "Italy btps",
-      "fund": "ARCA CEDOLA ATTIVA 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                       24.397.400 "
     },
     "content": "ITALY BTPS 0.65% 20-15/05/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 0,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 0
       },
       "content": "ITALY BTPS 0.65% 20-15/05/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,189%",
+      "acquisition currency": "EUR ",
+      "company": "ITALY BOTS",
+      "company match": "ITALY BOTS 0% 25-13/03/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA CEDOLA ATTIVA 2026 ",
       "manco": null,
       "market value": "9.835",
-      "% net assets": "2,189%",
-      "quantity": "                        10.000.000 ",
-      "acquisition currency": "EUR ",
       "maturity": "13/03/2026",
-      "company match": "ITALY BOTS 0% 25-13/03/2026 ",
-      "company": "ITALY BOTS",
-      "fund": "ARCA CEDOLA ATTIVA 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                        10.000.000 "
     },
     "content": "ITALY BOTS 0% 25-13/03/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 1,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 1
       },
       "content": "ITALY BOTS 0% 25-13/03/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,183%",
+      "acquisition currency": "EUR ",
+      "company": "ITALY BOTS",
+      "company match": "ITALY BOTS 0% 25-14/05/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA CEDOLA ATTIVA 2026 ",
       "manco": null,
       "market value": "9.807",
-      "% net assets": "2,183%",
-      "quantity": "                        10.000.000 ",
-      "acquisition currency": "EUR ",
       "maturity": "14/05/2026",
-      "company match": "ITALY BOTS 0% 25-14/05/2026 ",
-      "company": "ITALY BOTS",
-      "fund": "ARCA CEDOLA ATTIVA 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                        10.000.000 "
     },
     "content": "ITALY BOTS 0% 25-14/05/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 2,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 2
       },
       "content": "ITALY BOTS 0% 25-14/05/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,965%",
+      "acquisition currency": "EUR ",
+      "company": "ITALY BOTS",
+      "company match": "ITALY BOTS 0% 25-14/04/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA CEDOLA ATTIVA 2026 ",
       "manco": null,
       "market value": "8.828",
-      "% net assets": "1,965%",
-      "quantity": "                         9.000.000 ",
-      "acquisition currency": "EUR ",
       "maturity": "14/04/2026",
-      "company match": "ITALY BOTS 0% 25-14/04/2026 ",
-      "company": "ITALY BOTS",
-      "fund": "ARCA CEDOLA ATTIVA 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                         9.000.000 "
     },
     "content": "ITALY BOTS 0% 25-14/04/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 3,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 3
       },
       "content": "ITALY BOTS 0% 25-14/04/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,737%",
+      "acquisition currency": "EUR ",
+      "company": "ITALY BOTS",
+      "company match": "ITALY BOTS 0% 24-12/09/2025 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA CEDOLA ATTIVA 2026 ",
       "manco": null,
       "market value": "7.805",
-      "% net assets": "1,737%",
-      "quantity": "                         8.000.000 ",
-      "acquisition currency": "EUR ",
       "maturity": "12/09/2025",
-      "company match": "ITALY BOTS 0% 24-12/09/2025 ",
-      "company": "ITALY BOTS",
-      "fund": "ARCA CEDOLA ATTIVA 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                         8.000.000 "
     },
     "content": "ITALY BOTS 0% 24-12/09/2025 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 4,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 4
       },
       "content": "ITALY BOTS 0% 24-12/09/2025 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,529%",
+      "acquisition currency": "EUR ",
+      "company": "ITALY BOTS",
+      "company match": "ITALY BOTS 0% 25-13/02/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA CEDOLA ATTIVA 2026 ",
       "manco": null,
       "market value": "6.869",
-      "% net assets": "1,529%",
-      "quantity": "                         7.000.000 ",
-      "acquisition currency": "EUR ",
       "maturity": "13/02/2026",
-      "company match": "ITALY BOTS 0% 25-13/02/2026 ",
-      "company": "ITALY BOTS",
-      "fund": "ARCA CEDOLA ATTIVA 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                         7.000.000 "
     },
     "content": "ITALY BOTS 0% 25-13/02/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 6,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 6
       },
       "content": "ITALY BOTS 0% 25-13/02/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,045%",
+      "acquisition currency": "EUR ",
+      "company": "ITALY BOTS",
+      "company match": "ITALY BOTS 0% 24-14/11/2025 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA CEDOLA ATTIVA 2026 ",
       "manco": null,
       "market value": "4.693",
-      "% net assets": "1,045%",
-      "quantity": "                         4.800.000 ",
-      "acquisition currency": "EUR ",
       "maturity": "14/11/2025",
-      "company match": "ITALY BOTS 0% 24-14/11/2025 ",
-      "company": "ITALY BOTS",
-      "fund": "ARCA CEDOLA ATTIVA 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                         4.800.000 "
     },
     "content": "ITALY BOTS 0% 24-14/11/2025 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 10,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 10
       },
       "content": "ITALY BOTS 0% 24-14/11/2025 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,947%",
+      "acquisition currency": "EUR ",
+      "company": "INTESA SANPAOLO",
+      "company match": "INTESA SANPAOLO 0.625% 21-24/02/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA CEDOLA ATTIVA 2026 ",
+      "interest rate": "0.625%",
       "manco": null,
       "market value": "4.254",
-      "% net assets": "0,947%",
-      "quantity": "                         4.300.000 ",
-      "acquisition currency": "EUR ",
-      "interest rate": "0.625%",
       "maturity": "24/02/2026",
-      "company match": "INTESA SANPAOLO 0.625% 21-24/02/2026 ",
-      "company": "INTESA SANPAOLO",
-      "fund": "ARCA CEDOLA ATTIVA 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                         4.300.000 "
     },
     "content": "INTESA SANPAOLO 0.625% 21-24/02/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 14,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 14
       },
       "content": "INTESA SANPAOLO 0.625% 21-24/02/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,709%",
+      "acquisition currency": "EUR ",
+      "company": "AP Møller Mærsk",
+      "company match": "AP MOLLER 1.75% 18-16/03/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA CEDOLA ATTIVA 2026 ",
+      "interest rate": "1.75%",
       "manco": null,
       "market value": "3.187",
-      "% net assets": "0,709%",
-      "quantity": "                         3.200.000 ",
-      "acquisition currency": "EUR ",
-      "interest rate": "1.75%",
       "maturity": "16/03/2026",
-      "company match": "AP MOLLER 1.75% 18-16/03/2026 ",
-      "company": "AP Møller Mærsk",
-      "fund": "ARCA CEDOLA ATTIVA 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                         3.200.000 "
     },
     "content": "AP MOLLER 1.75% 18-16/03/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 42,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 42
       },
       "content": "AP MOLLER 1.75% 18-16/03/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,654%",
+      "acquisition currency": "EUR ",
+      "company": "ITALY BOTS",
+      "company match": "ITALY BOTS 0% 25-14/01/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA CEDOLA ATTIVA 2026 ",
       "manco": null,
       "market value": "2.938",
-      "% net assets": "0,654%",
-      "quantity": "                         3.000.000 ",
-      "acquisition currency": "EUR ",
       "maturity": "14/01/2026",
-      "company match": "ITALY BOTS 0% 25-14/01/2026 ",
-      "company": "ITALY BOTS",
-      "fund": "ARCA CEDOLA ATTIVA 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                         3.000.000 "
     },
     "content": "ITALY BOTS 0% 25-14/01/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 56,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 56
       },
       "content": "ITALY BOTS 0% 25-14/01/2026 "
-    },
-    "__text_block__": true
+    }
   }
 ]

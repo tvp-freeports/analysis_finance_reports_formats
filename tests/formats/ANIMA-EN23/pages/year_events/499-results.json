@@ -1,61 +1,61 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "ANIMA Orizzonte Europa 2022",
         "current_name": "ANIMA Liquidity – Share Class Silver",
         "date": {
           "__date__": "2023-01-11"
-        }
+        },
+        "old_name": "ANIMA Orizzonte Europa 2022"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "ANIMA Orizzonte Europa 2023 - Rendimento Bilanciato",
         "current_name": "ANIMA Liquidity – Share Class Silver",
         "date": {
           "__date__": "2023-06-28"
-        }
+        },
+        "old_name": "ANIMA Orizzonte Europa 2023 - Rendimento Bilanciato"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "ANIMA Orizzonte Sostenibile 2023",
         "current_name": "ANIMA Liquidity",
         "date": {
           "__date__": "2023-07-12"
-        }
+        },
+        "old_name": "ANIMA Orizzonte Sostenibile 2023"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "ANIMA Orizzonte Benessere 2023",
         "current_name": "ANIMA Liquidity",
         "date": {
           "__date__": "2023-09-27"
-        }
+        },
+        "old_name": "ANIMA Orizzonte Benessere 2023"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "ANIMA Orizzonte Energia 2023",
         "current_name": "ANIMA Liquidity – Class Silver",
         "date": {
           "__date__": "2023-12-13"
-        }
+        },
+        "old_name": "ANIMA Orizzonte Energia 2023"
       }
     }
   }

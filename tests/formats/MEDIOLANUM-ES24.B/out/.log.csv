@@ -1,11 +1,6 @@
-Page,Matched Company,Company,Field name,Row,Column,Message
-16,Leonardo,"OBLIGACION|LEONARDO SPA|2,38|2025-10-08",Market value,6,,Field not found
-16,Leonardo,"OBLIGACION|LEONARDO SPA|2,38|2025-10-08",,6,,Skipping line...
-18,Petróleo Brasileiro,"OBLIGACION|PETROBRAS|4,75|2025-01-14",Market value,58,,Field not found
-18,Petróleo Brasileiro,"OBLIGACION|PETROBRAS|4,75|2025-01-14",,58,,Skipping line...
-19,INTESA SANPAOLO,"BONO|INTESA SANPAOLO SPA|1,00|2024-07-04",Market value,16,,Field not found
-19,INTESA SANPAOLO,"BONO|INTESA SANPAOLO SPA|1,00|2024-07-04",,16,,Skipping line...
-19,INTESA SANPAOLO,"OBLIGACION|INTESA SANPAOLO SPA|5,60|2024-09-26",Market value,44,,Field not found
-19,INTESA SANPAOLO,"OBLIGACION|INTESA SANPAOLO SPA|5,60|2024-09-26",,44,,Skipping line...
-21,INTESA SANPAOLO,OBLIGACION|INTESA SANPAOLO SPA|2024-12-17,Market value,9,,Field not found
-21,INTESA SANPAOLO,OBLIGACION|INTESA SANPAOLO SPA|2024-12-17,,9,,Skipping line...
+Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Message
+16,job[MEDIOLANUM-ES24.B]/step[0]/class[investments]/page[16]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Leonardo,,,,expected text block not found near the matched company - row skipped
+18,job[MEDIOLANUM-ES24.B]/step[0]/class[investments]/page[18]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Petróleo Brasileiro,,,,expected text block not found near the matched company - row skipped
+19,job[MEDIOLANUM-ES24.B]/step[0]/class[investments]/page[19]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],INTESA SANPAOLO,,,,expected text block not found near the matched company - row skipped
+19,job[MEDIOLANUM-ES24.B]/step[0]/class[investments]/page[19]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],INTESA SANPAOLO,,,,expected text block not found near the matched company - row skipped
+21,job[MEDIOLANUM-ES24.B]/step[0]/class[investments]/page[21]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],INTESA SANPAOLO,,,,expected text block not found near the matched company - row skipped

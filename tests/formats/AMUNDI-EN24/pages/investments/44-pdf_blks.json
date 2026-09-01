@@ -1,1104 +1,1104 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "USD",
-    "__pdf_block__": true
+    "content": "USD"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "2.11",
-    "__pdf_block__": true
+    "content": "2.11"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "15,895,273",
-    "__pdf_block__": true
+    "content": "15,895,273"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "CSL LTD",
-    "__pdf_block__": true
+    "content": "CSL LTD"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "80,624",
-    "__pdf_block__": true
+    "content": "80,624"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "2.01",
-    "__pdf_block__": true
+    "content": "2.01"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "15,122,078",
-    "__pdf_block__": true
+    "content": "15,122,078"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "SHOPIFY INC",
-    "__pdf_block__": true
+    "content": "SHOPIFY INC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "228,845",
-    "__pdf_block__": true
+    "content": "228,845"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "3.49",
-    "__pdf_block__": true
+    "content": "3.49"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "26,319,432",
-    "__pdf_block__": true
+    "content": "26,319,432"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "NOVO NORDISK AS",
-    "__pdf_block__": true
+    "content": "NOVO NORDISK AS"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "182,116",
-    "__pdf_block__": true
+    "content": "182,116"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "2.78",
-    "__pdf_block__": true
+    "content": "2.78"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "20,954,421",
-    "__pdf_block__": true
+    "content": "20,954,421"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "LOREAL SA",
-    "__pdf_block__": true
+    "content": "LOREAL SA"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "47,681",
-    "__pdf_block__": true
+    "content": "47,681"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "0.94",
-    "__pdf_block__": true
+    "content": "0.94"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "7,075,937",
-    "__pdf_block__": true
+    "content": "7,075,937"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": true,
       "table-col": 1,
-      "is-max-width": true
+      "table-row": 5
     },
-    "content": "LVMH MOET HENNESSY LOUIS VUITTON SE",
-    "__pdf_block__": true
+    "content": "LVMH MOET HENNESSY LOUIS VUITTON SE"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "9,252",
-    "__pdf_block__": true
+    "content": "9,252"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "6.46",
-    "__pdf_block__": true
+    "content": "6.46"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "48,615,292",
-    "__pdf_block__": true
+    "content": "48,615,292"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "SAP SE",
-    "__pdf_block__": true
+    "content": "SAP SE"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "239,345",
-    "__pdf_block__": true
+    "content": "239,345"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "2.98",
-    "__pdf_block__": true
+    "content": "2.98"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "22,477,426",
-    "__pdf_block__": true
+    "content": "22,477,426"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "SIEMENS HEALTHINEERS AG",
-    "__pdf_block__": true
+    "content": "SIEMENS HEALTHINEERS AG"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "389,826",
-    "__pdf_block__": true
+    "content": "389,826"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "2.59",
-    "__pdf_block__": true
+    "content": "2.59"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "19,524,689",
-    "__pdf_block__": true
+    "content": "19,524,689"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "ACCENTURE SHS CLASS A",
-    "__pdf_block__": true
+    "content": "ACCENTURE SHS CLASS A"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "64,336",
-    "__pdf_block__": true
+    "content": "64,336"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "4.53",
-    "__pdf_block__": true
+    "content": "4.53"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "34,112,014",
-    "__pdf_block__": true
+    "content": "34,112,014"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "AON PLC",
-    "__pdf_block__": true
+    "content": "AON PLC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "116,217",
-    "__pdf_block__": true
+    "content": "116,217"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "3.85",
-    "__pdf_block__": true
+    "content": "3.85"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "29,034,532",
-    "__pdf_block__": true
+    "content": "29,034,532"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "ICON PLC",
-    "__pdf_block__": true
+    "content": "ICON PLC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "92,623",
-    "__pdf_block__": true
+    "content": "92,623"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "1.75",
-    "__pdf_block__": true
+    "content": "1.75"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "13,197,566",
-    "__pdf_block__": true
+    "content": "13,197,566"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "GLOBANT SA",
-    "__pdf_block__": true
+    "content": "GLOBANT SA"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "74,102",
-    "__pdf_block__": true
+    "content": "74,102"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "2.01",
-    "__pdf_block__": true
+    "content": "2.01"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "15,121,699",
-    "__pdf_block__": true
+    "content": "15,121,699"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "SAGE GRP",
-    "__pdf_block__": true
+    "content": "SAGE GRP"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "1,099,000",
-    "__pdf_block__": true
+    "content": "1,099,000"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "4.35",
-    "__pdf_block__": true
+    "content": "4.35"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "32,792,230",
-    "__pdf_block__": true
+    "content": "32,792,230"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "ABBOTT LABORATORIES",
-    "__pdf_block__": true
+    "content": "ABBOTT LABORATORIES"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "315,583",
-    "__pdf_block__": true
+    "content": "315,583"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "5.05",
-    "__pdf_block__": true
+    "content": "5.05"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "38,067,823",
-    "__pdf_block__": true
+    "content": "38,067,823"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "ADOBE INC",
-    "__pdf_block__": true
+    "content": "ADOBE INC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "68,524",
-    "__pdf_block__": true
+    "content": "68,524"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "1.93",
-    "__pdf_block__": true
+    "content": "1.93"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "14,512,811",
-    "__pdf_block__": true
+    "content": "14,512,811"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "AIRBNB INC",
-    "__pdf_block__": true
+    "content": "AIRBNB INC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "95,712",
-    "__pdf_block__": true
+    "content": "95,712"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "6.56",
-    "__pdf_block__": true
+    "content": "6.56"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "49,401,793",
-    "__pdf_block__": true
+    "content": "49,401,793"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "ALPHABET INC SHS C",
-    "__pdf_block__": true
+    "content": "ALPHABET INC SHS C"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "269,337",
-    "__pdf_block__": true
+    "content": "269,337"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "9.67",
-    "__pdf_block__": true
+    "content": "9.67"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "72,939,313",
-    "__pdf_block__": true
+    "content": "72,939,313"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "AMAZON.COM INC",
-    "__pdf_block__": true
+    "content": "AMAZON.COM INC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "377,435",
-    "__pdf_block__": true
+    "content": "377,435"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "3.41",
-    "__pdf_block__": true
+    "content": "3.41"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "25,680,657",
-    "__pdf_block__": true
+    "content": "25,680,657"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "AUTOMATIC DATA PROCESSING INC",
-    "__pdf_block__": true
+    "content": "AUTOMATIC DATA PROCESSING INC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "107,590",
-    "__pdf_block__": true
+    "content": "107,590"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "4.51",
-    "__pdf_block__": true
+    "content": "4.51"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "33,962,053",
-    "__pdf_block__": true
+    "content": "33,962,053"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "MASTERCARD INC SHS A",
-    "__pdf_block__": true
+    "content": "MASTERCARD INC SHS A"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "76,994",
-    "__pdf_block__": true
+    "content": "76,994"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "6.48",
-    "__pdf_block__": true
+    "content": "6.48"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "48,850,294",
-    "__pdf_block__": true
+    "content": "48,850,294"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "MICROSOFT CORP",
-    "__pdf_block__": true
+    "content": "MICROSOFT CORP"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "109,297",
-    "__pdf_block__": true
+    "content": "109,297"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "3.55",
-    "__pdf_block__": true
+    "content": "3.55"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "26,712,318",
-    "__pdf_block__": true
+    "content": "26,712,318"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "MSCI",
-    "__pdf_block__": true
+    "content": "MSCI"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "55,437",
-    "__pdf_block__": true
+    "content": "55,437"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "1.97",
-    "__pdf_block__": true
+    "content": "1.97"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "14,865,289",
-    "__pdf_block__": true
+    "content": "14,865,289"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "PAYCOM SOFTWARE INC",
-    "__pdf_block__": true
+    "content": "PAYCOM SOFTWARE INC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "103,924",
-    "__pdf_block__": true
+    "content": "103,924"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "2.14",
-    "__pdf_block__": true
+    "content": "2.14"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "16,135,821",
-    "__pdf_block__": true
+    "content": "16,135,821"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "SERVICENOW INC",
-    "__pdf_block__": true
+    "content": "SERVICENOW INC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "20,498",
-    "__pdf_block__": true
+    "content": "20,498"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "2.33",
-    "__pdf_block__": true
+    "content": "2.33"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "17,533,085",
-    "__pdf_block__": true
+    "content": "17,533,085"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "THERMO FISHER SCIE",
-    "__pdf_block__": true
+    "content": "THERMO FISHER SCIE"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "31,714",
-    "__pdf_block__": true
+    "content": "31,714"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "4.33",
-    "__pdf_block__": true
+    "content": "4.33"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "32,655,954",
-    "__pdf_block__": true
+    "content": "32,655,954"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "VISA INC-A",
-    "__pdf_block__": true
+    "content": "VISA INC-A"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "124,489",
-    "__pdf_block__": true
+    "content": "124,489"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "3.92",
-    "__pdf_block__": true
+    "content": "3.92"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "29,514,838",
-    "__pdf_block__": true
+    "content": "29,514,838"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "WORKDAY INC",
-    "__pdf_block__": true
+    "content": "WORKDAY INC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "132,022",
-    "__pdf_block__": true
+    "content": "132,022"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "2.01",
-    "__pdf_block__": true
+    "content": "2.01"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "15,106,393",
-    "__pdf_block__": true
+    "content": "15,106,393"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "ZOETIS INC",
-    "__pdf_block__": true
+    "content": "ZOETIS INC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "87,164",
-    "__pdf_block__": true
+    "content": "87,164"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
     "metadata": {},
-    "content": "USD",
-    "__pdf_block__": true
+    "content": "Polen Capital Global Growth"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
     "metadata": {},
-    "content": "Polen Capital Global Growth",
-    "__pdf_block__": true
+    "content": "USD"
   }
 ]

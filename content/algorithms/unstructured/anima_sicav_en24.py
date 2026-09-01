@@ -23,7 +23,7 @@ def text_filter(pdf_blks, target_companies):
     """
     txt_blks = std(pdf_blks, target_companies)
     for txt_blk in txt_blks:
-        if txt_blk.type_block==ResultStandardFiltering.FUND:
+        if txt_blk.type_block==ResultStandardFiltering.FUND.name:
             txt_blk.content=fund_remove_regex.sub("",txt_blk.content).replace("*","")
             continue
         c = txt_blk.content

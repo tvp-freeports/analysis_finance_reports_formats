@@ -1,878 +1,878 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "EURIZON STEP TO GLOBAL TRENDS",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "EURIZON STEP TO GLOBAL TRENDS"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "3,5",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 1.85 07/25",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "1.85 ",
       "manco": null,
       "market value": "4.934.506",
-      "% net assets": "3,5",
-      "quantity": "4.939.000",
-      "interest rate": "1.85 ",
-      "company match": "BTPS 1.85 07/25",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "4.939.000"
     },
     "content": "BTPS 1.85 07/25",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 2,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 2
       },
       "content": "BTPS 1.85 07/25"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "3,2",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 1.45 05/25",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "1.45 ",
       "manco": null,
       "market value": "4.311.555",
-      "% net assets": "3,2",
-      "quantity": "4.316.000",
-      "interest rate": "1.45 ",
-      "company match": "BTPS 1.45 05/25",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "4.316.000"
     },
     "content": "BTPS 1.45 05/25",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 4,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 4
       },
       "content": "BTPS 1.45 05/25"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,6",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 2.8 12/28",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "2.8 ",
       "manco": null,
       "market value": "3.480.360",
-      "% net assets": "2,6",
-      "quantity": "3.450.000",
-      "interest rate": "2.8 ",
-      "company match": "BTPS 2.8 12/28",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.450.000"
     },
     "content": "BTPS 2.8 12/28",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 7,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 7
       },
       "content": "BTPS 2.8 12/28"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,4",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 0.5 07/28",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "0.5 ",
       "manco": null,
       "market value": "3.301.408",
-      "% net assets": "2,4",
-      "quantity": "3.520.000",
-      "interest rate": "0.5 ",
-      "company match": "BTPS 0.5 07/28",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.520.000"
     },
     "content": "BTPS 0.5 07/28",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 8,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 8
       },
       "content": "BTPS 0.5 07/28"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,4",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 3.8 08/28",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "3.8 ",
       "manco": null,
       "market value": "3.287.348",
-      "% net assets": "2,4",
-      "quantity": "3.160.000",
-      "interest rate": "3.8 ",
-      "company match": "BTPS 3.8 08/28",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.160.000"
     },
     "content": "BTPS 3.8 08/28",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 9,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 9
       },
       "content": "BTPS 3.8 08/28"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,4",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 2.65 06/28",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "2.65 ",
       "manco": null,
       "market value": "3.256.848",
-      "% net assets": "2,4",
-      "quantity": "3.240.000",
-      "interest rate": "2.65 ",
-      "company match": "BTPS 2.65 06/28",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.240.000"
     },
     "content": "BTPS 2.65 06/28",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 10,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 10
       },
       "content": "BTPS 2.65 06/28"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,4",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 3.4 04/28",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "3.4 ",
       "manco": null,
       "market value": "3.204.864",
-      "% net assets": "2,4",
-      "quantity": "3.120.000",
-      "interest rate": "3.4 ",
-      "company match": "BTPS 3.4 04/28",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.120.000"
     },
     "content": "BTPS 3.4 04/28",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 11,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 11
       },
       "content": "BTPS 3.4 04/28"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,3",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 0.95 09/27",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "0.95 ",
       "manco": null,
       "market value": "3.103.707",
-      "% net assets": "2,3",
-      "quantity": "3.203.000",
-      "interest rate": "0.95 ",
-      "company match": "BTPS 0.95 09/27",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.203.000"
     },
     "content": "BTPS 0.95 09/27",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 12,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 12
       },
       "content": "BTPS 0.95 09/27"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,3",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 3.1 08/26",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "3.1 ",
       "manco": null,
       "market value": "3.091.966",
-      "% net assets": "2,3",
-      "quantity": "3.055.000",
-      "interest rate": "3.1 ",
-      "company match": "BTPS 3.1 08/26",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.055.000"
     },
     "content": "BTPS 3.1 08/26",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 13,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 13
       },
       "content": "BTPS 3.1 08/26"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,3",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 2.05 08/27",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "2.05 ",
       "manco": null,
       "market value": "3.088.906",
-      "% net assets": "2,3",
-      "quantity": "3.101.000",
-      "interest rate": "2.05 ",
-      "company match": "BTPS 2.05 08/27",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.101.000"
     },
     "content": "BTPS 2.05 08/27",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 14,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 14
       },
       "content": "BTPS 2.05 08/27"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,3",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 3.45 07/27",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "3.45 ",
       "manco": null,
       "market value": "3.078.551",
-      "% net assets": "2,3",
-      "quantity": "3.002.000",
-      "interest rate": "3.45 ",
-      "company match": "BTPS 3.45 07/27",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.002.000"
     },
     "content": "BTPS 3.45 07/27",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 16,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 16
       },
       "content": "BTPS 3.45 07/27"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,2",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 3.8 04/26",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "3.8 ",
       "manco": null,
       "market value": "3.049.616",
-      "% net assets": "2,2",
-      "quantity": "3.001.000",
-      "interest rate": "3.8 ",
-      "company match": "BTPS 3.8 04/26",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.001.000"
     },
     "content": "BTPS 3.8 04/26",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 17,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 17
       },
       "content": "BTPS 3.8 04/26"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "2,2",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 0 04/26",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.953.448",
-      "% net assets": "2,2",
-      "quantity": "3.016.000",
-      "company match": "BTPS 0 04/26",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.016.000"
     },
     "content": "BTPS 0 04/26",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 18,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 18
       },
       "content": "BTPS 0 04/26"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,2",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 2.65 12/27",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "2.65 ",
       "manco": null,
       "market value": "2.940.336",
-      "% net assets": "2,2",
-      "quantity": "2.917.000",
-      "interest rate": "2.65 ",
-      "company match": "BTPS 2.65 12/27",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.917.000"
     },
     "content": "BTPS 2.65 12/27",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 19,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 19
       },
       "content": "BTPS 2.65 12/27"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,1",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 1.2 08/25",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "1.2 ",
       "manco": null,
       "market value": "2.875.798",
-      "% net assets": "2,1",
-      "quantity": "2.887.000",
-      "interest rate": "1.2 ",
-      "company match": "BTPS 1.2 08/25",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.887.000"
     },
     "content": "BTPS 1.2 08/25",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 20,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 20
       },
       "content": "BTPS 1.2 08/25"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,1",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 2.1 07/26",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "2.1 ",
       "manco": null,
       "market value": "2.809.719",
-      "% net assets": "2,1",
-      "quantity": "2.810.000",
-      "interest rate": "2.1 ",
-      "company match": "BTPS 2.1 07/26",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.810.000"
     },
     "content": "BTPS 2.1 07/26",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 21,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 21
       },
       "content": "BTPS 2.1 07/26"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,0",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 3.85 09/26",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "3.85 ",
       "manco": null,
       "market value": "2.684.116",
-      "% net assets": "2,0",
-      "quantity": "2.623.000",
-      "interest rate": "3.85 ",
-      "company match": "BTPS 3.85 09/26",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.623.000"
     },
     "content": "BTPS 3.85 09/26",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 22,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 22
       },
       "content": "BTPS 3.85 09/26"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,9",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 0.25 03/28",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "0.25 ",
       "manco": null,
       "market value": "2.603.523",
-      "% net assets": "1,9",
-      "quantity": "2.770.000",
-      "interest rate": "0.25 ",
-      "company match": "BTPS 0.25 03/28",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.770.000"
     },
     "content": "BTPS 0.25 03/28",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 23,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 23
       },
       "content": "BTPS 0.25 03/28"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,9",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 04/27 1.1",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "1.1",
       "manco": null,
       "market value": "2.576.127",
-      "% net assets": "1,9",
-      "quantity": "2.633.000",
-      "interest rate": "1.1",
       "maturity": "04/27",
-      "company match": "BTPS 04/27 1.1",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.633.000"
     },
     "content": "BTPS 04/27 1.1",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 24,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 24
       },
       "content": "BTPS 04/27 1.1"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,9",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 2.2 06/27",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "2.2 ",
       "manco": null,
       "market value": "2.569.109",
-      "% net assets": "1,9",
-      "quantity": "2.574.000",
-      "interest rate": "2.2 ",
-      "company match": "BTPS 2.2 06/27",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.574.000"
     },
     "content": "BTPS 2.2 06/27",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 25,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 25
       },
       "content": "BTPS 2.2 06/27"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1,9",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 2 02/28",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.534.912",
-      "% net assets": "1,9",
-      "quantity": "2.560.000",
-      "company match": "BTPS 2 02/28",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.560.000"
     },
     "content": "BTPS 2 02/28",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 26,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 26
       },
       "content": "BTPS 2 02/28"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1,9",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 0 08/26",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.531.226",
-      "% net assets": "1,9",
-      "quantity": "2.602.000",
-      "company match": "BTPS 0 08/26",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.602.000"
     },
     "content": "BTPS 0 08/26",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 28,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 28
       },
       "content": "BTPS 0 08/26"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1,9",
+      "company": "BOTS ZC",
+      "company match": "BOTS ZC 06/25",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.526.925",
-      "% net assets": "1,9",
-      "quantity": "2.610.000",
-      "company match": "BOTS ZC 06/25",
-      "company": "BOTS ZC",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.610.000"
     },
     "content": "BOTS ZC 06/25",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 29,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 29
       },
       "content": "BOTS ZC 06/25"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1,7",
+      "company": "BOTS ZC",
+      "company match": "BOTS ZC 04/25",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.356.768",
-      "% net assets": "1,7",
-      "quantity": "2.440.000",
-      "company match": "BOTS ZC 04/25",
-      "company": "BOTS ZC",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.440.000"
     },
     "content": "BOTS ZC 04/25",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 30,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 30
       },
       "content": "BOTS ZC 04/25"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,7",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 0.85 01/27",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "0.85 ",
       "manco": null,
       "market value": "2.351.112",
-      "% net assets": "1,7",
-      "quantity": "2.404.000",
-      "interest rate": "0.85 ",
-      "company match": "BTPS 0.85 01/27",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.404.000"
     },
     "content": "BTPS 0.85 01/27",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 31,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 31
       },
       "content": "BTPS 0.85 01/27"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,7",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 2.95 02/27",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "2.95 ",
       "manco": null,
       "market value": "2.346.889",
-      "% net assets": "1,7",
-      "quantity": "2.317.000",
-      "interest rate": "2.95 ",
-      "company match": "BTPS 2.95 02/27",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.317.000"
     },
     "content": "BTPS 2.95 02/27",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 32,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 32
       },
       "content": "BTPS 2.95 02/27"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,2",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 3.2 01/26",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "3.2 ",
       "manco": null,
       "market value": "1.698.982",
-      "% net assets": "1,2",
-      "quantity": "1.686.000",
-      "interest rate": "3.2 ",
-      "company match": "BTPS 3.2 01/26",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.686.000"
     },
     "content": "BTPS 3.2 01/26",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 35,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 35
       },
       "content": "BTPS 3.2 01/26"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,0",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 3.6 09/25",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "3.6 ",
       "manco": null,
       "market value": "1.353.744",
-      "% net assets": "1,0",
-      "quantity": "1.343.000",
-      "interest rate": "3.6 ",
-      "company match": "BTPS 3.6 09/25",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.343.000"
     },
     "content": "BTPS 3.6 09/25",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 36,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 36
       },
       "content": "BTPS 3.6 09/25"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,0",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 3.5 01/26",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "3.5 ",
       "manco": null,
       "market value": "1.334.157",
-      "% net assets": "1,0",
-      "quantity": "1.321.000",
-      "interest rate": "3.5 ",
-      "company match": "BTPS 3.5 01/26",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.321.000"
     },
     "content": "BTPS 3.5 01/26",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 38,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 38
       },
       "content": "BTPS 3.5 01/26"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,0",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 0.5 02/26",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "0.5 ",
       "manco": null,
       "market value": "1.301.048",
-      "% net assets": "1,0",
-      "quantity": "1.319.000",
-      "interest rate": "0.5 ",
-      "company match": "BTPS 0.5 02/26",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.319.000"
     },
     "content": "BTPS 0.5 02/26",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 40,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 40
       },
       "content": "BTPS 0.5 02/26"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,9",
+      "company": "ITALY BTPS",
+      "company match": "BTPS 2.5 11/25",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON STEP TO GLOBAL TRENDS",
+      "interest rate": "2.5 ",
       "manco": null,
       "market value": "1.172.843",
-      "% net assets": "0,9",
-      "quantity": "1.170.000",
-      "interest rate": "2.5 ",
-      "company match": "BTPS 2.5 11/25",
-      "company": "ITALY BTPS",
-      "fund": "EURIZON STEP TO GLOBAL TRENDS",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.170.000"
     },
     "content": "BTPS 2.5 11/25",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 42,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 42
       },
       "content": "BTPS 2.5 11/25"
-    },
-    "__text_block__": true
+    }
   }
 ]

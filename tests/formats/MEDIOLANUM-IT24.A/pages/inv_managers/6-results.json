@@ -1,116 +1,75 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "MEDIOLANUM INDIA OPPORTUNITIES"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
-      "data": {
-        "name": "MEDIOLANUM GLOBAL EQUITY STYLE SELECTION"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
-      "data": {
-        "name": "EUROPEAN SMALL CAP EQUITY"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
-      "data": {
-        "name": "US COLLECTION"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
-      "data": {
-        "name": "PACIFIC COLLECTION"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
-      "data": {
-        "name": "FountainCap Research & Investment (Hong Kong) Co.",
         "managed_funds": {
           "__set__": [
             "Chinese Road Opportunities"
           ]
-        }
+        },
+        "name": "FountainCap Research & Investment (Hong Kong) Co."
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Goldman Sachs Asset Management International",
         "managed_funds": {
           "__set__": [
             "Chinese Road Opportunities",
             "Mediolanum India Opportunities"
           ]
-        }
+        },
+        "name": "Goldman Sachs Asset Management International"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Guardcap Asset Management Limited",
         "managed_funds": {
           "__set__": [
             "Global Leaders",
             "Mediolanum Global Equity Style Selection"
           ]
-        }
+        },
+        "name": "Guardcap Asset Management Limited"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Impax Asset Management Ireland Ltd",
         "managed_funds": {
           "__set__": [
             "Mediolanum Global Impact"
           ]
-        }
+        },
+        "name": "Impax Asset Management Ireland Ltd"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Intermede Investment Partners Limited",
         "managed_funds": {
           "__set__": [
             "Global Leaders"
           ]
-        }
+        },
+        "name": "Intermede Investment Partners Limited"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "JP Morgan Asset Management (UK) Limited",
         "managed_funds": {
           "__set__": [
             "European Small Cap Equity",
@@ -118,7 +77,48 @@
             "Pacific Collection",
             "US Collection"
           ]
-        }
+        },
+        "name": "JP Morgan Asset Management (UK) Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "MEDIOLANUM INDIA OPPORTUNITIES"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "MEDIOLANUM GLOBAL EQUITY STYLE SELECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EUROPEAN SMALL CAP EQUITY"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "PACIFIC COLLECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "US COLLECTION"
       }
     }
   }

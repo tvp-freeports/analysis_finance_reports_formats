@@ -1,9 +1,8 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:ManagementCompany",
       "data": {
-        "name": "Kairos Partners SGR S.p.A.",
         "managed_funds": {
           "__set__": [
             "CORE SERIES CORE COUPON",
@@ -12,15 +11,15 @@
             "INVESCO GLOBAL TOTAL RETURN BOND FAM FUND",
             "US EQUITY VALUE FAM FUND"
           ]
-        }
+        },
+        "name": "Kairos Partners SGR S.p.A."
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:ManagementCompany",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Kairos Partners SGR S.p.A.",
         "managed_funds": {
           "__set__": [
             "CORE SERIES CORE COUPON",
@@ -29,7 +28,8 @@
             "INVESCO GLOBAL TOTAL RETURN BOND FAM FUND",
             "US EQUITY VALUE FAM FUND"
           ]
-        }
+        },
+        "name": "Kairos Partners SGR S.p.A."
       }
     }
   }

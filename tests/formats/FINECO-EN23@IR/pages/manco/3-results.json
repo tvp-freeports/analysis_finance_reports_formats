@@ -1,16 +1,30 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:ManagementCompany",
+      "class": "freeports.output:ManagementCompany",
       "data": {
-        "name": "Fineco Asset Management Designated Activity Company",
         "managed_funds": {
           "__set__": [
             "Test fund A",
             "Test fund B",
             "Test fund C"
           ]
-        }
+        },
+        "name": "Fineco Asset Management Designated Activity Company"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "Test fund A",
+            "Test fund B"
+          ]
+        },
+        "name": "Fineco Asset Management Designated Activity Company"
       }
     }
   }

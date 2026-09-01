@@ -1,330 +1,330 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 0
     },
-    "content": "FountainCap Research & Investment (Hong Kong) Co.",
-    "__pdf_block__": true
+    "content": "FountainCap Research & Investment (Hong Kong) Co."
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 0
     },
-    "content": "Unit 2401-02, China Resources Building, 26 Harbour Road, Wanchai, Hong Kong. ",
-    "__pdf_block__": true
+    "content": "Unit 2401-02, China Resources Building, 26 Harbour Road, Wanchai, Hong Kong. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 0
     },
-    "content": "(Chinese Road Opportunities) ",
-    "__pdf_block__": true
+    "content": "(Chinese Road Opportunities) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 1
     },
-    "content": "Goldman Sachs Asset Management International ",
-    "__pdf_block__": true
+    "content": "Goldman Sachs Asset Management International "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 1
     },
-    "content": "Plumtree Court, 25 Shoe Lane, London EC4A 4AU, Regno Unit",
-    "__pdf_block__": true
+    "content": "Plumtree Court, 25 Shoe Lane, London EC4A 4AU, Regno Unit"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 1
     },
-    "content": "(Chinese Road Opportunities, Mediolanum India Opportunities) ",
-    "__pdf_block__": true
+    "content": "(Chinese Road Opportunities, Mediolanum India Opportunities) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "Guardcap Asset Management Limited",
-    "__pdf_block__": true
+    "content": "Guardcap Asset Management Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "11 Charles II St, St. James’s, London SW1Y 4NS, Regno Unito. ",
-    "__pdf_block__": true
+    "content": "11 Charles II St, St. James’s, London SW1Y 4NS, Regno Unito. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "(Mediolanum Global Equity Style Selection, Global Leaders) ",
-    "__pdf_block__": true
+    "content": "(Mediolanum Global Equity Style Selection, Global Leaders) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 3
     },
-    "content": "Impax Asset Management Ireland Ltd",
-    "__pdf_block__": true
+    "content": "Impax Asset Management Ireland Ltd"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 3
     },
-    "content": "77 Sir John Rogerson’s Quay, Block C, Grand Canal Docklands, Dublin 2, D02 VK60, Irlanda. ",
-    "__pdf_block__": true
+    "content": "77 Sir John Rogerson’s Quay, Block C, Grand Canal Docklands, Dublin 2, D02 VK60, Irlanda. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 3
     },
-    "content": "(Mediolanum Global Impact) ",
-    "__pdf_block__": true
+    "content": "(Mediolanum Global Impact) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 4
     },
-    "content": "Intermede Investment Partners Limited",
-    "__pdf_block__": true
+    "content": "Intermede Investment Partners Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 4
     },
-    "content": "6 Warwick Street, London W1B 5LU, Regno Unito. ",
-    "__pdf_block__": true
+    "content": "6 Warwick Street, London W1B 5LU, Regno Unito. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 4
     },
-    "content": "(Global Leaders) ",
-    "__pdf_block__": true
+    "content": "(Global Leaders) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 5
     },
-    "content": "Invesco Advisers, Inc.",
-    "__pdf_block__": true
+    "content": "Invesco Advisers, Inc."
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 5
     },
-    "content": "Two Peachtree Pointe,1555Peachtree Street NE,Suite 1800 Atlanta,GA30309,Stati Uniti.",
-    "__pdf_block__": true
+    "content": "Two Peachtree Pointe,1555Peachtree Street NE,Suite 1800 Atlanta,GA30309,Stati Uniti."
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 5
     },
-    "content": "(Invesco Balance Risk Coupon Selection) ",
-    "__pdf_block__": true
+    "content": "(Invesco Balance Risk Coupon Selection) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 6
     },
-    "content": "JP Morgan Asset Management (UK) Limited",
-    "__pdf_block__": true
+    "content": "JP Morgan Asset Management (UK) Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 6
     },
-    "content": "60 Victoria Embankment, London EC4Y 0JP, Regno Unito. ",
-    "__pdf_block__": true
+    "content": "60 Victoria Embankment, London EC4Y 0JP, Regno Unito. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 6
     },
-    "content": "(US Collection, Pacific Collection, European Small Cap Equity, Mediolanum Global Impact)  ",
-    "__pdf_block__": true
+    "content": "(US Collection, Pacific Collection, European Small Cap Equity, Mediolanum Global Impact)  "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 7
     },
-    "content": "KBI Global Investors Ltd",
-    "__pdf_block__": true
+    "content": "KBI Global Investors Ltd"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 7
     },
-    "content": "rd",
-    "__pdf_block__": true
+    "content": "rd"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 7
     },
-    "content": " Floor, 2 Harbourmaster Place, IFSC, Dublin 1, D01 X5P3, Irlanda. ",
-    "__pdf_block__": true
+    "content": " Floor, 2 Harbourmaster Place, IFSC, Dublin 1, D01 X5P3, Irlanda. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 7
     },
-    "content": "(Mediolanum Circular Economy Opportunities, Mediolanum Energy Transition) ",
-    "__pdf_block__": true
+    "content": "(Mediolanum Circular Economy Opportunities, Mediolanum Energy Transition) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 8
     },
-    "content": "Lansdowne Partners (UK) LLP",
-    "__pdf_block__": true
+    "content": "Lansdowne Partners (UK) LLP"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 8
     },
-    "content": "65 Curzon Street, London, W1J 8PE, Regno Unito. ",
-    "__pdf_block__": true
+    "content": "65 Curzon Street, London, W1J 8PE, Regno Unito. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 8
     },
-    "content": "(European Collection) ",
-    "__pdf_block__": true
+    "content": "(European Collection) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 9
     },
-    "content": "Mesirow Financial Investment Management, Inc.",
-    "__pdf_block__": true
+    "content": "Mesirow Financial Investment Management, Inc."
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 9
     },
-    "content": "353 North Clark Street Chicago, IL 60654, Stati Uniti. ",
-    "__pdf_block__": true
+    "content": "353 North Clark Street Chicago, IL 60654, Stati Uniti. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 9
     },
-    "content": "(Global High Yield)",
-    "__pdf_block__": true
+    "content": "(Global High Yield)"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 10
     },
-    "content": "Metropolis Capital Limited",
-    "__pdf_block__": true
+    "content": "Metropolis Capital Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 10
     },
-    "content": "AmershamCourt, 154 Station Road, Buckinghamshire, HP6 5DW, Regno Unito. ",
-    "__pdf_block__": true
+    "content": "AmershamCourt, 154 Station Road, Buckinghamshire, HP6 5DW, Regno Unito. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 10
     },
-    "content": "(Dynamic International Value Opportunity) ",
-    "__pdf_block__": true
+    "content": "(Dynamic International Value Opportunity) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 11
     },
-    "content": "Morgan Stanley Investment Management Limited",
-    "__pdf_block__": true
+    "content": "Morgan Stanley Investment Management Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 11
     },
-    "content": "25 Cabot Square, Canary Wharf, London E14 4QA, Regno Unito. ",
-    "__pdf_block__": true
+    "content": "25 Cabot Square, Canary Wharf, London E14 4QA, Regno Unito. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 11
     },
-    "content": "(Mediolanum Morgan Stanley Global Selection, Infrastructure Opportunity Collection,",
-    "__pdf_block__": true
+    "content": "(Mediolanum Morgan Stanley Global Selection, Infrastructure Opportunity Collection,"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 11
     },
-    "content": "Mediolanum Global Sustainable Bond) ",
-    "__pdf_block__": true
+    "content": "Mediolanum Global Sustainable Bond) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 12
     },
-    "content": "Neuberger Berman Asset Management Ireland Limited",
-    "__pdf_block__": true
+    "content": "Neuberger Berman Asset Management Ireland Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 12
     },
-    "content": "32 Molesworth Street, Dublin 2, D02 Y512, Irlanda. ",
-    "__pdf_block__": true
+    "content": "32 Molesworth Street, Dublin 2, D02 Y512, Irlanda. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 12
     },
-    "content": "(Emerging Markets Fixed Income) ",
-    "__pdf_block__": true
+    "content": "(Emerging Markets Fixed Income) "
   }
 ]

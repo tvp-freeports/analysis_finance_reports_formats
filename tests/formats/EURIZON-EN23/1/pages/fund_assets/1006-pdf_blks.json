@@ -1,15 +1,15 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "Eurizon Fund - Flexible US Strategy",
       "currency": "STATEMENT OF NET ASSETS AS AT 30 JUNE 2023 IN EUR",
-      "tot_assets": "125 256 364,03",
+      "date": null,
+      "fund": "Eurizon Fund - Flexible US Strategy",
       "liabilities": "(84 101,11)",
       "net_assets": "125 172 262,92",
-      "date": null
+      "tot_assets": "125 256 364,03"
     },
-    "content": "",
-    "__pdf_block__": true
+    "content": ""
   }
 ]

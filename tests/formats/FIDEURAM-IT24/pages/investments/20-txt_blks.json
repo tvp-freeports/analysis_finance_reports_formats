@@ -1,68 +1,68 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "9,34",
+      "company": "INTESA SANPAOLO",
+      "company match": "INTESA SANPAOLO",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
       "manco": null,
       "market value": "3.340.880",
-      "% net assets": "9,34",
-      "quantity": "962.513,0000000",
-      "company match": "INTESA SANPAOLO",
-      "company": "INTESA SANPAOLO",
-      "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "962.513,0000000"
     },
     "content": "INTESA SANPAOLO",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 0,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 0
       },
       "content": "INTESA SANPAOLO"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1,81",
+      "company": "Leonardo",
+      "company match": "LEONARDO SPA",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
       "manco": null,
       "market value": "646.454",
-      "% net assets": "1,81",
-      "quantity": "29.818,0000000",
-      "company match": "LEONARDO SPA",
-      "company": "Leonardo",
-      "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "29.818,0000000"
     },
     "content": "LEONARDO SPA",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 13,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 13
       },
       "content": "LEONARDO SPA"
-    },
-    "__text_block__": true
+    }
   }
 ]

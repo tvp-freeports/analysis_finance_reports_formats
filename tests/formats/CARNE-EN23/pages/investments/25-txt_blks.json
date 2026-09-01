@@ -1,182 +1,182 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": " Sidera Funds SICAV – Balanced Growth",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": " Sidera Funds SICAV – Balanced Growth"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.08",
+      "acquisition currency": "GBP ",
+      "company": "ROLLS",
+      "company match": "ROLLS-ROYCE HOLDINGS PLC ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "166,871.31",
-      "% net assets": "0.08",
-      "quantity": "48,247.00",
-      "acquisition currency": "GBP ",
-      "company match": "ROLLS-ROYCE HOLDINGS PLC ",
-      "company": "ROLLS",
-      "fund": " Sidera Funds SICAV – Balanced Growth",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "48,247.00"
     },
     "content": "ROLLS-ROYCE HOLDINGS PLC ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 14,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 14
       },
       "content": "ROLLS-ROYCE HOLDINGS PLC "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.04",
+      "acquisition currency": "USD ",
+      "company": "Airbnb",
+      "company match": "AIRBNB INC ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "77,397.68",
-      "% net assets": "0.04",
-      "quantity": "628.00",
-      "acquisition currency": "USD ",
-      "company match": "AIRBNB INC ",
-      "company": "Airbnb",
-      "fund": " Sidera Funds SICAV – Balanced Growth",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "628.00"
     },
     "content": "AIRBNB INC ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 29,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 29
       },
       "content": "AIRBNB INC "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.99",
+      "acquisition currency": "USD ",
+      "company": "Alphabet",
+      "company match": "ALPHABET INC - CLASS A ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "2,137,527.35",
-      "% net assets": "0.99",
-      "quantity": "16,903.00",
-      "acquisition currency": "USD ",
-      "company match": "ALPHABET INC - CLASS A ",
-      "company": "Alphabet",
-      "fund": " Sidera Funds SICAV – Balanced Growth",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "16,903.00"
     },
     "content": "ALPHABET INC - CLASS A ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 31,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 31
       },
       "content": "ALPHABET INC - CLASS A "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.92",
+      "acquisition currency": "USD ",
+      "company": "Amazon",
+      "company match": "AMAZON.COM INC ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "1,969,964.33",
-      "% net assets": "0.92",
-      "quantity": "14,322.00",
-      "acquisition currency": "USD ",
-      "company match": "AMAZON.COM INC ",
-      "company": "Amazon",
-      "fund": " Sidera Funds SICAV – Balanced Growth",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "14,322.00"
     },
     "content": "AMAZON.COM INC ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 33,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 33
       },
       "content": "AMAZON.COM INC "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1.92",
+      "acquisition currency": "USD ",
+      "company": "Apple Inc",
+      "company match": "APPLE INC ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "4,131,625.42",
-      "% net assets": "1.92",
-      "quantity": "23,705.00",
-      "acquisition currency": "USD ",
-      "company match": "APPLE INC ",
-      "company": "Apple Inc",
-      "fund": " Sidera Funds SICAV – Balanced Growth",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "23,705.00"
     },
     "content": "APPLE INC ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 45,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 45
       },
       "content": "APPLE INC "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.08",
+      "acquisition currency": "USD ",
+      "company": "Booking Holdings",
+      "company match": "BOOKING HOLDINGS INC ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "173,406.13",
-      "% net assets": "0.08",
-      "quantity": "54.00",
-      "acquisition currency": "USD ",
-      "company match": "BOOKING HOLDINGS INC ",
-      "company": "Booking Holdings",
-      "fund": " Sidera Funds SICAV – Balanced Growth",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "54.00"
     },
     "content": "BOOKING HOLDINGS INC ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 61,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 61
       },
       "content": "BOOKING HOLDINGS INC "
-    },
-    "__text_block__": true
+    }
   }
 ]

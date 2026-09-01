@@ -1,7 +1,7 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -10,7 +10,6 @@
       }
     },
     "content": "Zazove Associates LLC",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   }
 ]

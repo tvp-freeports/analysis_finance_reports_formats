@@ -1,188 +1,188 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Kairos International Sicav - Bond ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "Kairos International Sicav - Bond (in EUR)"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.80",
+      "acquisition currency": "EUR",
+      "company": "ICCREA",
+      "company match": "1,000,000.00 ICCREA BANCA SPA 21-17/01/2027 FRN",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Kairos International Sicav - Bond ",
       "manco": null,
       "market value": "991,090.00",
-      "% net assets": "0.80",
-      "quantity": "1,000,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "17/01/2027",
-      "company match": "1,000,000.00 ICCREA BANCA SPA 21-17/01/2027 FRN",
-      "company": "ICCREA",
-      "fund": "Kairos International Sicav - Bond ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1,000,000.00 "
     },
     "content": "1,000,000.00 ICCREA BANCA SPA 21-17/01/2027 FRN",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 27,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 27
       },
       "content": "1,000,000.00 ICCREA BANCA SPA 21-17/01/2027 FRN"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.77",
+      "acquisition currency": "EUR",
+      "company": "INTESA SANPAOLO",
+      "company match": "1,000,000.00 INTESA SANPAOLO 2.925% 20-14/10/2030",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Kairos International Sicav - Bond ",
       "manco": null,
       "market value": "957,960.00",
-      "% net assets": "0.77",
-      "quantity": "1,000,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "14/10/2030",
-      "company match": "1,000,000.00 INTESA SANPAOLO 2.925% 20-14/10/2030",
-      "company": "INTESA SANPAOLO",
-      "fund": "Kairos International Sicav - Bond ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1,000,000.00 "
     },
     "content": "1,000,000.00 INTESA SANPAOLO 2.925% 20-14/10/2030",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 28,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 28
       },
       "content": "1,000,000.00 INTESA SANPAOLO 2.925% 20-14/10/2030"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.46",
+      "acquisition currency": "EUR",
+      "company": "INTESA SANPAOLO",
+      "company match": "550,000.00 INTESA SANPAOLO 23-08/03/2028 FRN",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Kairos International Sicav - Bond ",
       "manco": null,
       "market value": "572,379.50",
-      "% net assets": "0.46",
-      "quantity": "550,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "08/03/2028",
-      "company match": "550,000.00 INTESA SANPAOLO 23-08/03/2028 FRN",
-      "company": "INTESA SANPAOLO",
-      "fund": "Kairos International Sicav - Bond ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "550,000.00 "
     },
     "content": "550,000.00 INTESA SANPAOLO 23-08/03/2028 FRN",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 30,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 30
       },
       "content": "550,000.00 INTESA SANPAOLO 23-08/03/2028 FRN"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.41",
+      "acquisition currency": "EUR",
+      "company": "INTESA SANPAOLO",
+      "company match": "500,000.00 INTESA SANPAOLO 23-16/11/2025 FRN",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Kairos International Sicav - Bond ",
       "manco": null,
       "market value": "502,185.00",
-      "% net assets": "0.41",
-      "quantity": "500,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "16/11/2025",
-      "company match": "500,000.00 INTESA SANPAOLO 23-16/11/2025 FRN",
-      "company": "INTESA SANPAOLO",
-      "fund": "Kairos International Sicav - Bond ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "500,000.00 "
     },
     "content": "500,000.00 INTESA SANPAOLO 23-16/11/2025 FRN",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 32,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 32
       },
       "content": "500,000.00 INTESA SANPAOLO 23-16/11/2025 FRN"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.50",
+      "acquisition currency": "EUR",
+      "company": "Volvo Car Corp",
+      "company match": "624,000.00 VOLVO CAR AB 2% 17-24/01/2025",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Kairos International Sicav - Bond ",
       "manco": null,
       "market value": "621,360.48",
-      "% net assets": "0.50",
-      "quantity": "624,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "24/01/2025",
-      "company match": "624,000.00 VOLVO CAR AB 2% 17-24/01/2025",
-      "company": "Volvo Car Corp",
-      "fund": "Kairos International Sicav - Bond ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "624,000.00 "
     },
     "content": "624,000.00 VOLVO CAR AB 2% 17-24/01/2025",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 1,
+        "is-max-width": false,
         "table-col": 4,
-        "is-max-width": false
+        "table-row": 1
       },
       "content": "624,000.00 VOLVO CAR AB 2% 17-24/01/2025"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.50",
+      "acquisition currency": "EUR",
+      "company": "Volvo Car Corp",
+      "company match": "600,000.00 VOLVO CAR AB 4.75% 24-08/05/2030",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Kairos International Sicav - Bond ",
       "manco": null,
       "market value": "618,276.00",
-      "% net assets": "0.50",
-      "quantity": "600,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "08/05/2030",
-      "company match": "600,000.00 VOLVO CAR AB 4.75% 24-08/05/2030",
-      "company": "Volvo Car Corp",
-      "fund": "Kairos International Sicav - Bond ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "600,000.00 "
     },
     "content": "600,000.00 VOLVO CAR AB 4.75% 24-08/05/2030",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 2,
+        "is-max-width": false,
         "table-col": 4,
-        "is-max-width": false
+        "table-row": 2
       },
       "content": "600,000.00 VOLVO CAR AB 4.75% 24-08/05/2030"
-    },
-    "__text_block__": true
+    }
   }
 ]

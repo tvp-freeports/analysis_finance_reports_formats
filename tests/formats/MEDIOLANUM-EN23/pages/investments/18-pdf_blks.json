@@ -1,2204 +1,2204 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 0
+    },
+    "content": "Description"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 0
+    },
+    "content": "Quantity"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 0
+    },
+    "content": "Currency"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 0
+    },
+    "content": "Cost"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 0
+    },
+    "content": "Market"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 1
+    },
+    "content": "Value"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 0
+    },
+    "content": "% Net"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 1
+    },
+    "content": "Assets"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 2
+    },
+    "content": "Nintendo Co.Ltd"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 2
+    },
+    "content": "31,100"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 2
+    },
+    "content": "JPY"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 2
+    },
+    "content": "1,585,099"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 2
+    },
+    "content": "1,765,582"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 2
+    },
+    "content": "1.69"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 3
+    },
+    "content": "Renesas Electronics Corp"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 3
+    },
+    "content": "55,400"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 3
+    },
+    "content": "JPY"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 3
+    },
+    "content": "887,940"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 3
+    },
+    "content": "694,785"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 3
+    },
+    "content": "0.66"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 4
+    },
+    "content": "Sony Group Registered Shs"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 4
+    },
+    "content": "75,400"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 4
+    },
+    "content": "JPY"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 4
+    },
+    "content": "1,227,359"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 4
+    },
+    "content": "1,556,687"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 4
+    },
+    "content": "1.49"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 5
+    },
+    "content": "Asml Holding Nv"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 5
+    },
+    "content": "2,217"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 5
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 5
+    },
+    "content": "1,346,222"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 5
+    },
+    "content": "1,489,602"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 5
+    },
+    "content": "1.42"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 6
+    },
+    "content": "Iberdrola Sa"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 6
+    },
+    "content": "88,545"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 6
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 6
+    },
+    "content": "988,197"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 6
+    },
+    "content": "1,170,122"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 6
+    },
+    "content": "1.12"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 7
+    },
+    "content": "Inditex"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 7
+    },
+    "content": "21,993"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 7
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 7
+    },
+    "content": "1,030,789"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 7
+    },
+    "content": "1,091,733"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 7
+    },
+    "content": "1.04"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 8
+    },
+    "content": "Hexagon Rg-B"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 8
+    },
+    "content": "126,209"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 8
+    },
+    "content": "SEK"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 8
+    },
+    "content": "998,134"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 8
+    },
+    "content": "1,162,623"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 8
+    },
+    "content": "1.11"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 9
+    },
+    "content": "Nestle Ag /Act Nom."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 9
+    },
+    "content": "17,020"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 9
+    },
+    "content": "CHF"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 9
+    },
+    "content": "1,653,662"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 9
+    },
+    "content": "1,354,151"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 9
+    },
+    "content": "1.29"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 10
+    },
+    "content": "3M Co"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 10
+    },
+    "content": "10,108"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 10
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 10
+    },
+    "content": "1,246,102"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 10
+    },
+    "content": "1,257,402"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 10
+    },
+    "content": "1.20"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 11
+    },
+    "content": "Alphabet Inc -C-"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 11
+    },
+    "content": "22,694"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 11
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 11
+    },
+    "content": "2,580,421"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 11
+    },
+    "content": "4,212,617"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 11
+    },
+    "content": "4.03"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 12
+    },
+    "content": "Amazon Com Inc"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 12
+    },
+    "content": "19,210"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 12
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 12
+    },
+    "content": "3,055,761"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 12
+    },
+    "content": "4,095,345"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 12
+    },
+    "content": "3.91"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 13
+    },
+    "content": "American Express Co."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 13
+    },
+    "content": "6,250"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 13
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 13
+    },
+    "content": "950,171"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 13
+    },
+    "content": "1,790,195"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 13
+    },
+    "content": "1.71"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 14
+    },
+    "content": "Ametek Inc"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 14
+    },
+    "content": "9,034"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 14
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 14
+    },
+    "content": "1,129,902"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 14
+    },
+    "content": "1,572,954"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 14
+    },
+    "content": "1.50"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 15
+    },
+    "content": "Apple Inc"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 15
+    },
+    "content": "17,660"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 15
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 15
+    },
+    "content": "3,207,090"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 15
+    },
+    "content": "4,290,595"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 15
+    },
+    "content": "4.10"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 16
+    },
+    "content": "Applied Materials Inc"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 16
+    },
+    "content": "7,783"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 16
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 16
+    },
+    "content": "1,253,275"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 16
+    },
+    "content": "1,226,926"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 16
+    },
+    "content": "1.17"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 17
+    },
+    "content": "Bank Of America Corp"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 17
+    },
+    "content": "40,332"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 17
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 17
+    },
+    "content": "1,457,435"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 17
+    },
+    "content": "1,706,062"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 17
+    },
+    "content": "1.63"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 18
+    },
+    "content": "Bellrng Brnds Rg-Wi"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 18
+    },
+    "content": "10,445"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 18
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 18
+    },
+    "content": "548,947"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 18
+    },
+    "content": "761,100"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 18
+    },
+    "content": "0.73"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 19
+    },
+    "content": "Blackrock Rg"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 19
+    },
+    "content": "1,914"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 19
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 19
+    },
+    "content": "1,260,214"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 19
+    },
+    "content": "1,894,418"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 19
+    },
+    "content": "1.81"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 20
+    },
+    "content": "Boston Scientific Corp."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 20
+    },
+    "content": "20,508"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 20
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 20
+    },
+    "content": "1,202,642"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 20
+    },
+    "content": "1,771,743"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 20
+    },
+    "content": "1.69"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 21
+    },
+    "content": "Broadcom Inc"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 21
+    },
+    "content": "2,467"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 21
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 21
+    },
+    "content": "521,926"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 21
+    },
+    "content": "559,873"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 21
+    },
+    "content": "0.54"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 22
+    },
+    "content": "Conocophillips"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 22
+    },
+    "content": "18,206"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 22
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 22
+    },
+    "content": "1,390,979"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 22
+    },
+    "content": "1,702,828"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 22
+    },
+    "content": "1.63"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 23
+    },
+    "content": "Corpay Inc"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 23
+    },
+    "content": "4,522"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 23
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 23
+    },
+    "content": "1,044,073"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 23
+    },
+    "content": "1,470,538"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 23
+    },
+    "content": "1.41"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 24
+    },
+    "content": "Exxon Mobil Corp"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 24
+    },
+    "content": "17,627"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 24
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 24
+    },
+    "content": "1,690,509"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 24
+    },
+    "content": "1,795,898"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 24
+    },
+    "content": "1.72"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 25
+    },
+    "content": "Fiserv Inc."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 25
+    },
+    "content": "9,024"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 25
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 25
+    },
+    "content": "1,237,355"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 25
+    },
+    "content": "1,793,151"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 25
+    },
+    "content": "1.71"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 26
+    },
+    "content": "Gallagher+Co Arthur J."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 26
+    },
+    "content": "4,617"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 26
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 26
+    },
+    "content": "829,585"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 26
+    },
+    "content": "1,265,210"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 26
+    },
+    "content": "1.21"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 27
+    },
+    "content": "Intercont Exch"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 27
+    },
+    "content": "10,031"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 27
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 27
+    },
+    "content": "1,161,992"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 27
+    },
+    "content": "1,443,409"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 27
+    },
+    "content": "1.38"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 28
+    },
+    "content": "Intuit"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 28
+    },
+    "content": "2,260"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 28
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 28
+    },
+    "content": "898,441"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 28
+    },
+    "content": "1,372,263"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 28
+    },
+    "content": "1.31"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 29
+    },
+    "content": "Iqvia Holdings Inc"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 29
+    },
+    "content": "5,632"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 29
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 29
+    },
+    "content": "1,252,002"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 29
+    },
+    "content": "1,071,276"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 29
+    },
+    "content": "1.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 30
+    },
+    "content": "Jpmorgan Chase & Co"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 30
+    },
+    "content": "4,581"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 30
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 30
+    },
+    "content": "1,007,265"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 30
+    },
+    "content": "1,056,139"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 30
+    },
+    "content": "1.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 31
+    },
+    "content": "Kkr & Co Inc -A-"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 31
+    },
+    "content": "7,545"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 31
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 31
+    },
+    "content": "919,873"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 31
+    },
+    "content": "1,078,563"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 31
+    },
+    "content": "1.03"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 32
+    },
+    "content": "Lilly (Eli) & Co"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 32
+    },
+    "content": "1,082"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 32
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 32
+    },
+    "content": "789,299"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 32
+    },
+    "content": "806,604"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 32
+    },
+    "content": "0.77"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 33
+    },
+    "content": "Mastercard Inc. Shs-A-"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 33
+    },
+    "content": "1,536"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 33
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 33
+    },
+    "content": "782,812"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 33
+    },
+    "content": "777,655"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 33
+    },
+    "content": "0.74"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 34
+    },
+    "content": "Merck"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 34
+    },
+    "content": "15,484"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 34
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 34
+    },
+    "content": "1,410,615"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 34
+    },
+    "content": "1,467,329"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 34
+    },
+    "content": "1.40"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 35
+    },
+    "content": "Meta Platforms Registerd Shs A"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 35
+    },
+    "content": "1,802"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 35
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 35
+    },
+    "content": "1,087,397"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 35
+    },
+    "content": "1,026,361"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 35
+    },
+    "content": "0.98"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 36
+    },
+    "content": "Microsoft Corp."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 36
+    },
+    "content": "14,127"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 36
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 36
+    },
+    "content": "3,573,245"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 36
+    },
+    "content": "5,781,584"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 36
+    },
+    "content": "5.53"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": true,
+      "table-col": 1,
+      "table-row": 37
+    },
+    "content": "The accompanying notes form an integral part of these financial statements."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
     "metadata": {},
-    "content": "(expressed in EUR)",
-    "__pdf_block__": true
+    "content": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
     "metadata": {},
-    "content": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Description",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "Quantity",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "Currency",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "Cost",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "Market",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "Value",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "% Net",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "Assets",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Nintendo Co.Ltd",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "31,100",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "JPY",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,585,099",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,765,582",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.69",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Renesas Electronics Corp",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "55,400",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "JPY",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "887,940",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "694,785",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.66",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Sony Group Registered Shs",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "75,400",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "JPY",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,227,359",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,556,687",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.49",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Asml Holding Nv",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "2,217",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,346,222",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,489,602",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.42",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Iberdrola Sa",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "88,545",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "988,197",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,170,122",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.12",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Inditex",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "21,993",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,030,789",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,091,733",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.04",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Hexagon Rg-B",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "126,209",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "SEK",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "998,134",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,162,623",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.11",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Nestle Ag /Act Nom.",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "17,020",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "CHF",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,653,662",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,354,151",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.29",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "3M Co",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "10,108",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,246,102",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,257,402",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.20",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Alphabet Inc -C-",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "22,694",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2,580,421",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "4,212,617",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "4.03",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Amazon Com Inc",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "19,210",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3,055,761",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "4,095,345",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "3.91",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "American Express Co.",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "6,250",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "950,171",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,790,195",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.71",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Ametek Inc",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "9,034",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,129,902",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,572,954",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.50",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Apple Inc",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "17,660",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3,207,090",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "4,290,595",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "4.10",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Applied Materials Inc",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "7,783",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,253,275",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,226,926",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.17",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Bank Of America Corp",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "40,332",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,457,435",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,706,062",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.63",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Bellrng Brnds Rg-Wi",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "10,445",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "548,947",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "761,100",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.73",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Blackrock Rg",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "1,914",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,260,214",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,894,418",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.81",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Boston Scientific Corp.",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "20,508",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,202,642",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,771,743",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.69",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Broadcom Inc",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "2,467",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "521,926",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "559,873",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.54",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Conocophillips",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "18,206",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,390,979",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,702,828",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.63",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Corpay Inc",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "4,522",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,044,073",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,470,538",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.41",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Exxon Mobil Corp",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "17,627",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,690,509",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,795,898",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.72",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Fiserv Inc.",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "9,024",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,237,355",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,793,151",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.71",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Gallagher+Co Arthur J.",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "4,617",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "829,585",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,265,210",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.21",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Intercont Exch",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "10,031",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,161,992",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,443,409",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.38",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Intuit",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "2,260",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "898,441",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,372,263",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.31",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Iqvia Holdings Inc",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "5,632",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,252,002",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,071,276",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.02",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Jpmorgan Chase & Co",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "4,581",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,007,265",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,056,139",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.01",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Kkr & Co Inc -A-",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "7,545",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "919,873",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,078,563",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.03",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Lilly (Eli) & Co",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "1,082",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "789,299",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "806,604",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.77",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Mastercard Inc. Shs-A-",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "1,536",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "782,812",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "777,655",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.74",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Merck",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "15,484",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,410,615",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,467,329",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.40",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Meta Platforms Registerd Shs A",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "1,802",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "1,087,397",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,026,361",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.98",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Microsoft Corp.",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "14,127",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3,573,245",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "5,781,584",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "5.53",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 37,
-      "table-col": 1,
-      "is-max-width": true
-    },
-    "content": "The accompanying notes form an integral part of these financial statements.",
-    "__pdf_block__": true
+    "content": "(expressed in EUR)"
   }
 ]

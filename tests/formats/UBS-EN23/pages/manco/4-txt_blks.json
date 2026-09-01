@@ -1,7 +1,7 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardManagmentCompanyTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:MANAGEMENT_COMPANY",
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -15,10 +15,10 @@
     },
     "content": "UBS Fund Management (Luxembourg) S.A. ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
       "metadata": {},
       "content": "UBS Fund Management (Luxembourg) S.A. "
-    },
-    "__text_block__": true
+    }
   }
 ]

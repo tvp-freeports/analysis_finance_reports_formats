@@ -1,114 +1,126 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": {
-      "id": "title document"
+      "__promise__": true,
+      "id": "title document",
+      "strict": false,
+      "multiple": false
     },
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": {
-        "id": "title document"
+        "__promise__": true,
+        "id": "title document",
+        "strict": false,
+        "multiple": false
       }
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
-      "manco": null,
-      "market value": "2.394",
       "% net assets": "0,19",
       "acquisition currency": "EUR",
-      "interest rate": "3,63",
-      "maturity": "2025-02-10",
-      "company match": "BONO|NORDEA BANK ABP|3,63|2025-02-10",
       "company": "NORDEA",
+      "company match": "BONO|NORDEA BANK ABP|3,63|2025-02-10",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
       "fund": {
         "__promise__": true,
-        "id": "title document"
+        "id": "title document",
+        "strict": false,
+        "multiple": false
       },
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "interest rate": "3,63",
+      "manco": null,
+      "market value": "2.394",
+      "maturity": "2025-02-10"
     },
     "content": "BONO|NORDEA BANK ABP|3,63|2025-02-10",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 28,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 28
       },
       "content": "BONO|NORDEA BANK ABP|3,63|2025-02-10"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
-      "manco": null,
-      "market value": "4.001",
       "% net assets": "0,32",
       "acquisition currency": "EUR",
-      "interest rate": "3,47",
-      "maturity": "2025-03-17",
-      "company match": "BONO|INTESA SANPAOLO SPA|3,47|2025-03-17",
       "company": "INTESA SANPAOLO",
+      "company match": "BONO|INTESA SANPAOLO SPA|3,47|2025-03-17",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
       "fund": {
         "__promise__": true,
-        "id": "title document"
+        "id": "title document",
+        "strict": false,
+        "multiple": false
       },
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "interest rate": "3,47",
+      "manco": null,
+      "market value": "4.001",
+      "maturity": "2025-03-17"
     },
     "content": "BONO|INTESA SANPAOLO SPA|3,47|2025-03-17",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 34,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 34
       },
       "content": "BONO|INTESA SANPAOLO SPA|3,47|2025-03-17"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
-      "manco": null,
-      "market value": "1.710",
       "% net assets": "0,14",
       "acquisition currency": "EUR",
-      "interest rate": "3,81",
-      "maturity": "2025-11-16",
-      "company match": "BONO|INTESA SANPAOLO SPA|3,81|2025-11-16",
       "company": "INTESA SANPAOLO",
+      "company match": "BONO|INTESA SANPAOLO SPA|3,81|2025-11-16",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
       "fund": {
         "__promise__": true,
-        "id": "title document"
+        "id": "title document",
+        "strict": false,
+        "multiple": false
       },
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "interest rate": "3,81",
+      "manco": null,
+      "market value": "1.710",
+      "maturity": "2025-11-16"
     },
     "content": "BONO|INTESA SANPAOLO SPA|3,81|2025-11-16",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 60,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 60
       },
       "content": "BONO|INTESA SANPAOLO SPA|3,81|2025-11-16"
-    },
-    "__text_block__": true
+    }
   }
 ]

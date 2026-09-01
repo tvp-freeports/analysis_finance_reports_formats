@@ -1,212 +1,212 @@
 [
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+    "__pdf_block__": true,
+    "type_block": "INV",
     "metadata": {},
-    "content": "Eurizon Capital S.A.",
-    "__pdf_block__": true
+    "content": "Eurizon Capital S.A."
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+    "__pdf_block__": true,
+    "type_block": "INV",
     "metadata": {},
-    "content": "Eurizon Capital SGR S.p.A.",
-    "__pdf_block__": true
+    "content": "Eurizon Capital SGR S.p.A."
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+    "__pdf_block__": true,
+    "type_block": "INV",
     "metadata": {},
-    "content": "Epsilon Associati SGR S.p.A. (short name: Epsilon SGR S.p.A.)",
-    "__pdf_block__": true
+    "content": "Epsilon Associati SGR S.p.A. (short name: Epsilon SGR S.p.A.)"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+    "__pdf_block__": true,
+    "type_block": "INV",
     "metadata": {},
-    "content": "Eurizon SLJ Capital LTD",
-    "__pdf_block__": true
+    "content": "Eurizon SLJ Capital LTD"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "(the Sub-Funds Eurizon Fund - Equity China A and Eurizon Fund - Asian Equity",
-    "__pdf_block__": true
+    "content": "(the Sub-Funds Eurizon Fund - Equity China A and Eurizon Fund - Asian Equity"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Opportunities are managed by Eurizon Capital S.A. as from 10 May 2023)",
-    "__pdf_block__": true
+    "content": "Opportunities are managed by Eurizon Capital S.A. as from 10 May 2023)"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "(this function has been delegated by Eurizon Capital S.A. to Eurizon Capital SGR",
-    "__pdf_block__": true
+    "content": "(this function has been delegated by Eurizon Capital S.A. to Eurizon Capital SGR"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "S.p.A. for the Sub-Funds Eurizon Fund - Bond Inflation Linked, Eurizon Fund - Bond",
-    "__pdf_block__": true
+    "content": "S.p.A. for the Sub-Funds Eurizon Fund - Bond Inflation Linked, Eurizon Fund - Bond"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Corporate EUR Short Term, Eurizon Fund - Bond Corporate EUR, Eurizon Fund - Green",
-    "__pdf_block__": true
+    "content": "Corporate EUR Short Term, Eurizon Fund - Bond Corporate EUR, Eurizon Fund - Green"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Euro Credit, Eurizon Fund - Bond Aggregate EUR Short Term, Eurizon Fund - Bond",
-    "__pdf_block__": true
+    "content": "Euro Credit, Eurizon Fund - Bond Aggregate EUR Short Term, Eurizon Fund - Bond"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Aggregate EUR, Eurizon Fund - European Union Bonds, Eurizon Fund - Global Bond,",
-    "__pdf_block__": true
+    "content": "Aggregate EUR, Eurizon Fund - European Union Bonds, Eurizon Fund - Global Bond,"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Eurizon Fund - Global Bond Inflation Linked, Eurizon Fund - Bond Euro High Yield,",
-    "__pdf_block__": true
+    "content": "Eurizon Fund - Global Bond Inflation Linked, Eurizon Fund - Bond Euro High Yield,"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Eurizon Fund - Bond High Yield, Eurizon Fund - Bond Emerging Markets, Eurizon",
-    "__pdf_block__": true
+    "content": "Eurizon Fund - Bond High Yield, Eurizon Fund - Bond Emerging Markets, Eurizon"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Fund - Bond Emerging Markets in Local Currencies ESG, Eurizon Fund - Euro",
-    "__pdf_block__": true
+    "content": "Fund - Bond Emerging Markets in Local Currencies ESG, Eurizon Fund - Euro"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Emerging Markets Bonds, Eurizon Fund - Italian Equity Opportunities, Eurizon Fund -",
-    "__pdf_block__": true
+    "content": "Emerging Markets Bonds, Eurizon Fund - Italian Equity Opportunities, Eurizon Fund -"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Top European Research, Eurizon Fund - Equity Small Mid Cap Europe, Eurizon Fund -",
-    "__pdf_block__": true
+    "content": "Top European Research, Eurizon Fund - Equity Small Mid Cap Europe, Eurizon Fund -"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Equity USA, Eurizon Fund - Sustainable Japan Equity, Eurizon Fund - Sustainable",
-    "__pdf_block__": true
+    "content": "Equity USA, Eurizon Fund - Sustainable Japan Equity, Eurizon Fund - Sustainable"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Global Equity, Eurizon Fund - Equity Planet, Eurizon Fund - Equity Innovation, Eurizon",
-    "__pdf_block__": true
+    "content": "Global Equity, Eurizon Fund - Equity Planet, Eurizon Fund - Equity Innovation, Eurizon"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Fund - Equity People, Eurizon Fund - Equity Circular Economy, Eurizon Fund - Equity",
-    "__pdf_block__": true
+    "content": "Fund - Equity People, Eurizon Fund - Equity Circular Economy, Eurizon Fund - Equity"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "High Dividend, Eurizon Fund - Absolute Green Bonds, Eurizon Fund - Absolute High",
-    "__pdf_block__": true
+    "content": "High Dividend, Eurizon Fund - Absolute Green Bonds, Eurizon Fund - Absolute High"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Yield, Eurizon Fund - Absolute Return Solution, Eurizon Fund - Active Allocation,",
-    "__pdf_block__": true
+    "content": "Yield, Eurizon Fund - Absolute Return Solution, Eurizon Fund - Active Allocation,"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Eurizon Fund - Azioni Strategia Flessibile, Eurizon Fund - Bond Flexible, Eurizon Fund",
-    "__pdf_block__": true
+    "content": "Eurizon Fund - Azioni Strategia Flessibile, Eurizon Fund - Bond Flexible, Eurizon Fund"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "- Conservative Allocation, Eurizon Fund - Dynamic Asset Allocation, Eurizon Fund -",
-    "__pdf_block__": true
+    "content": "- Conservative Allocation, Eurizon Fund - Dynamic Asset Allocation, Eurizon Fund -"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Flexible Allocation, Eurizon Fund - Flexible Europe Strategy, Eurizon Fund - Flexible",
-    "__pdf_block__": true
+    "content": "Flexible Allocation, Eurizon Fund - Flexible Europe Strategy, Eurizon Fund - Flexible"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Multistrategy, Eurizon Fund - Flexible US Strategy, Eurizon Fund - Global Multi Credit,",
-    "__pdf_block__": true
+    "content": "Multistrategy, Eurizon Fund - Flexible US Strategy, Eurizon Fund - Global Multi Credit,"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Eurizon Fund - Inflation Strategy, Eurizon Fund - Securitized Bond Fund and Eurizon",
-    "__pdf_block__": true
+    "content": "Eurizon Fund - Inflation Strategy, Eurizon Fund - Securitized Bond Fund and Eurizon"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Fund - Sustainable Multiasset)",
-    "__pdf_block__": true
+    "content": "Fund - Sustainable Multiasset)"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "(this function has been delegated by Eurizon Capital S.A. to Epsilon Associati SGR",
-    "__pdf_block__": true
+    "content": "(this function has been delegated by Eurizon Capital S.A. to Epsilon Associati SGR"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "S.p.A. for the Sub-Funds Eurizon Fund - Absolute Prudent and Eurizon Fund -",
-    "__pdf_block__": true
+    "content": "S.p.A. for the Sub-Funds Eurizon Fund - Absolute Prudent and Eurizon Fund -"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Absolute Active)",
-    "__pdf_block__": true
+    "content": "Absolute Active)"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "(this function has been delegated by Eurizon Capital S.A. to Eurizon SLJ Capital LTD",
-    "__pdf_block__": true
+    "content": "(this function has been delegated by Eurizon Capital S.A. to Eurizon SLJ Capital LTD"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "for the Sub-Funds Eurizon Fund - Asian Debt Opportunities, Eurizon Fund - China",
-    "__pdf_block__": true
+    "content": "for the Sub-Funds Eurizon Fund - Asian Debt Opportunities, Eurizon Fund - China"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Credit Opportunities, Eurizon Fund - China Opportunity, Eurizon Fund - SLJ Flexible",
-    "__pdf_block__": true
+    "content": "Credit Opportunities, Eurizon Fund - China Opportunity, Eurizon Fund - SLJ Flexible"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Global Macro, Eurizon Fund - SLJ Local Emerging Markets Debt and Eurizon Fund -",
-    "__pdf_block__": true
+    "content": "Global Macro, Eurizon Fund - SLJ Local Emerging Markets Debt and Eurizon Fund -"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:SUB",
+    "__pdf_block__": true,
+    "type_block": "SUB",
     "metadata": {},
-    "content": "Bond Aggregate RMB)",
-    "__pdf_block__": true
+    "content": "Bond Aggregate RMB)"
   }
 ]

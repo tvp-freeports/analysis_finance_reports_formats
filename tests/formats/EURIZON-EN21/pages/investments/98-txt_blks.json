@@ -1,130 +1,130 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Euro Equity",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "Euro Equity"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1.76",
+      "acquisition cost": "6,055,750.14",
+      "acquisition currency": "EUR",
+      "company": "INTESA SANPAOLO",
+      "company match": "Intesa Sanpaolo",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Euro Equity",
       "manco": null,
       "market value": "7,654,096.39",
-      "% net assets": "1.76",
-      "quantity": "3,285,725",
-      "acquisition currency": "EUR",
-      "acquisition cost": "6,055,750.14",
-      "company match": "Intesa Sanpaolo",
-      "company": "INTESA SANPAOLO",
-      "fund": "Euro Equity",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3,285,725"
     },
     "content": "Intesa Sanpaolo",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 1,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 1
       },
       "content": "Intesa Sanpaolo"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.46",
+      "acquisition cost": "1,716,968.34",
+      "acquisition currency": "EUR",
+      "company": "NORDEA",
+      "company match": "Nordea Bank Abp",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Euro Equity",
       "manco": null,
       "market value": "1,972,320.67",
-      "% net assets": "0.46",
-      "quantity": "209,866",
-      "acquisition currency": "EUR",
-      "acquisition cost": "1,716,968.34",
-      "company match": "Nordea Bank Abp",
-      "company": "NORDEA",
-      "fund": "Euro Equity",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "209,866"
     },
     "content": "Nordea Bank Abp",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 16,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 16
       },
       "content": "Nordea Bank Abp"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "2.57",
+      "acquisition cost": "8,166,696.22",
+      "acquisition currency": "EUR",
+      "company": "Siemens",
+      "company match": "Siemens Ag /Nam.",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Euro Equity",
       "manco": null,
       "market value": "11,165,688.06",
-      "% net assets": "2.57",
-      "quantity": "83,563",
-      "acquisition currency": "EUR",
-      "acquisition cost": "8,166,696.22",
-      "company match": "Siemens Ag /Nam.",
-      "company": "Siemens",
-      "fund": "Euro Equity",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "83,563"
     },
     "content": "Siemens Ag /Nam.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 34,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 34
       },
       "content": "Siemens Ag /Nam."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.65",
+      "acquisition cost": "2,194,163.92",
+      "acquisition currency": "EUR",
+      "company": "Siemens",
+      "company match": "Siemens Healthineers Ag",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Euro Equity",
       "manco": null,
       "market value": "2,821,883.04",
-      "% net assets": "0.65",
-      "quantity": "54,603",
-      "acquisition currency": "EUR",
-      "acquisition cost": "2,194,163.92",
-      "company match": "Siemens Healthineers Ag",
-      "company": "Siemens",
-      "fund": "Euro Equity",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "54,603"
     },
     "content": "Siemens Healthineers Ag",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 35,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 35
       },
       "content": "Siemens Healthineers Ag"
-    },
-    "__text_block__": true
+    }
   }
 ]

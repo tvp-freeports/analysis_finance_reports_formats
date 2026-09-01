@@ -25,7 +25,7 @@ def pdf_filter(page):
         y1=520.0
     )).select(lines)
     coord=get_table_coordinates(s)
-    blks=[PdfBlock(BlockType.INV_MAN,{"table-row":cs[0],"table-col":cs[1]},l.text) for cs,l in zip(coord,s)]
+    blks=[PdfBlock(BlockType.INV_MAN.name,{"table-row":cs[0],"table-col":cs[1]},l.text) for cs,l in zip(coord,s)]
     return blks
 
 
@@ -44,16 +44,16 @@ def text_extract(blks,filter_data):
         obj_ifunds=set(MatchFund(name=f) for f in ifunds)
         if not obj_ifunds.isdisjoint(filter_funds):
             res.append(
-                TextBlock.from_content(BlockType.INV_MAN,{"funds": set(ifunds)},i)
+                TextBlock.from_content(BlockType.INV_MAN.name,{"funds": set(ifunds)},i)
             )
             for f in obj_ifunds-filter_funds:
-                res.append(TextBlock.from_content(ResultStandardFiltering.FUND,{},f.name))
+                res.append(TextBlock.from_content(ResultStandardFiltering.FUND.name,{},f.name))
     return res
 
 
 
 def deserialize(blk):
-    if blk.type_block == BlockType.INV_MAN:
+    if blk.type_block == BlockType.INV_MAN.name:
         return InvestmentsManager(
             name=blk.content,
             managed_funds=blk.metadata["funds"]

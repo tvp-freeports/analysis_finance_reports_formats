@@ -1,324 +1,324 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "EMERGING MARKETS FIXED INCOME ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "EMERGING MARKETS FIXED INCOME "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,01 ",
+      "acquisition cost": "128.360 ",
+      "acquisition currency": "ILS ",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond - Fixed 1.3% 30/04/2032 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EMERGING MARKETS FIXED INCOME ",
+      "interest rate": "1.3%",
       "manco": null,
       "market value": "135.612 ",
-      "% net assets": "0,01 ",
-      "quantity": "640.000 ",
-      "acquisition currency": "ILS ",
-      "acquisition cost": "128.360 ",
-      "interest rate": "1.3%",
       "maturity": "30/04/2032",
-      "company match": "Israel Government Bond - Fixed 1.3% 30/04/2032 ",
-      "company": "Israel Government",
-      "fund": "EMERGING MARKETS FIXED INCOME ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "640.000 "
     },
     "content": "Israel Government Bond - Fixed 1.3% 30/04/2032 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 5,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 5
       },
       "content": "Israel Government Bond - Fixed 1.3% 30/04/2032 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,03 ",
+      "acquisition cost": "242.697 ",
+      "acquisition currency": "ILS ",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond - Fixed 1.5% 31/05/2037 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EMERGING MARKETS FIXED INCOME ",
+      "interest rate": "1.5%",
       "manco": null,
       "market value": "261.799 ",
-      "% net assets": "0,03 ",
-      "quantity": "1.390.000 ",
-      "acquisition currency": "ILS ",
-      "acquisition cost": "242.697 ",
-      "interest rate": "1.5%",
       "maturity": "31/05/2037",
-      "company match": "Israel Government Bond - Fixed 1.5% 31/05/2037 ",
-      "company": "Israel Government",
-      "fund": "EMERGING MARKETS FIXED INCOME ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.390.000 "
     },
     "content": "Israel Government Bond - Fixed 1.5% 31/05/2037 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 6,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 6
       },
       "content": "Israel Government Bond - Fixed 1.5% 31/05/2037 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,02 ",
+      "acquisition cost": "168.134 ",
+      "acquisition currency": "ILS ",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond - Fixed 2.25% 28/09/2028 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EMERGING MARKETS FIXED INCOME ",
+      "interest rate": "2.25%",
       "manco": null,
       "market value": "174.936 ",
-      "% net assets": "0,02 ",
-      "quantity": "730.000 ",
-      "acquisition currency": "ILS ",
-      "acquisition cost": "168.134 ",
-      "interest rate": "2.25%",
       "maturity": "28/09/2028",
-      "company match": "Israel Government Bond - Fixed 2.25% 28/09/2028 ",
-      "company": "Israel Government",
-      "fund": "EMERGING MARKETS FIXED INCOME ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "730.000 "
     },
     "content": "Israel Government Bond - Fixed 2.25% 28/09/2028 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 7,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 7
       },
       "content": "Israel Government Bond - Fixed 2.25% 28/09/2028 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,01 ",
+      "acquisition cost": "105.952 ",
+      "acquisition currency": "ILS ",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond - Fixed 2.8% 29/11/2052 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EMERGING MARKETS FIXED INCOME ",
+      "interest rate": "2.8%",
       "manco": null,
       "market value": "116.938 ",
-      "% net assets": "0,01 ",
-      "quantity": "640.000 ",
-      "acquisition currency": "ILS ",
-      "acquisition cost": "105.952 ",
-      "interest rate": "2.8%",
       "maturity": "29/11/2052",
-      "company match": "Israel Government Bond - Fixed 2.8% 29/11/2052 ",
-      "company": "Israel Government",
-      "fund": "EMERGING MARKETS FIXED INCOME ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "640.000 "
     },
     "content": "Israel Government Bond - Fixed 2.8% 29/11/2052 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 8,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 8
       },
       "content": "Israel Government Bond - Fixed 2.8% 29/11/2052 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,02 ",
+      "acquisition cost": "199.644 ",
+      "acquisition currency": "ILS ",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond - Fixed 3.75% 31/03/2047 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EMERGING MARKETS FIXED INCOME ",
+      "interest rate": "3.75%",
       "manco": null,
       "market value": "193.038 ",
-      "% net assets": "0,02 ",
-      "quantity": "850.000 ",
-      "acquisition currency": "ILS ",
-      "acquisition cost": "199.644 ",
-      "interest rate": "3.75%",
       "maturity": "31/03/2047",
-      "company match": "Israel Government Bond - Fixed 3.75% 31/03/2047 ",
-      "company": "Israel Government",
-      "fund": "EMERGING MARKETS FIXED INCOME ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "850.000 "
     },
     "content": "Israel Government Bond - Fixed 3.75% 31/03/2047 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 9,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 9
       },
       "content": "Israel Government Bond - Fixed 3.75% 31/03/2047 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,01 ",
+      "acquisition cost": "92.154 ",
+      "acquisition currency": "ILS ",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond - Fixed 5.5% 31/01/2042 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EMERGING MARKETS FIXED INCOME ",
+      "interest rate": "5.5%",
       "manco": null,
       "market value": "88.618 ",
-      "% net assets": "0,01 ",
-      "quantity": "310.000 ",
-      "acquisition currency": "ILS ",
-      "acquisition cost": "92.154 ",
-      "interest rate": "5.5%",
       "maturity": "31/01/2042",
-      "company match": "Israel Government Bond - Fixed 5.5% 31/01/2042 ",
-      "company": "Israel Government",
-      "fund": "EMERGING MARKETS FIXED INCOME ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "310.000 "
     },
     "content": "Israel Government Bond - Fixed 5.5% 31/01/2042 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 10,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 10
       },
       "content": "Israel Government Bond - Fixed 5.5% 31/01/2042 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,01 ",
+      "acquisition cost": "143.545 ",
+      "acquisition currency": "ILS ",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond - Fixed 6.25% 30/10/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EMERGING MARKETS FIXED INCOME ",
+      "interest rate": "6.25%",
       "manco": null,
       "market value": "140.510 ",
-      "% net assets": "0,01 ",
-      "quantity": "540.000 ",
-      "acquisition currency": "ILS ",
-      "acquisition cost": "143.545 ",
-      "interest rate": "6.25%",
       "maturity": "30/10/2026",
-      "company match": "Israel Government Bond - Fixed 6.25% 30/10/2026 ",
-      "company": "Israel Government",
-      "fund": "EMERGING MARKETS FIXED INCOME ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "540.000 "
     },
     "content": "Israel Government Bond - Fixed 6.25% 30/10/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 11,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 11
       },
       "content": "Israel Government Bond - Fixed 6.25% 30/10/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,08 ",
+      "acquisition cost": "781.250 ",
+      "acquisition currency": "EUR ",
+      "company": "Israel Government International",
+      "company match": "Israel Government International Bond 2.5% 16/01/2049 EMTN ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EMERGING MARKETS FIXED INCOME ",
+      "interest rate": "2.5%",
       "manco": null,
       "market value": "777.950 ",
-      "% net assets": "0,08 ",
-      "quantity": "1.000.000 ",
-      "acquisition currency": "EUR ",
-      "acquisition cost": "781.250 ",
-      "interest rate": "2.5%",
       "maturity": "16/01/2049",
-      "company match": "Israel Government International Bond 2.5% 16/01/2049 EMTN ",
-      "company": "Israel Government International",
-      "fund": "EMERGING MARKETS FIXED INCOME ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.000.000 "
     },
     "content": "Israel Government International Bond 2.5% 16/01/2049 EMTN ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 12,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 12
       },
       "content": "Israel Government International Bond 2.5% 16/01/2049 EMTN "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,03 ",
+      "acquisition cost": "330.180 ",
+      "acquisition currency": "USD ",
+      "company": "Israel Government International",
+      "company match": "Israel Government International Bond 4.5% 03/04/2120 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EMERGING MARKETS FIXED INCOME ",
+      "interest rate": "4.5%",
       "manco": null,
       "market value": "299.881 ",
-      "% net assets": "0,03 ",
-      "quantity": "500.000 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "330.180 ",
-      "interest rate": "4.5%",
       "maturity": "03/04/2120",
-      "company match": "Israel Government International Bond 4.5% 03/04/2120 ",
-      "company": "Israel Government International",
-      "fund": "EMERGING MARKETS FIXED INCOME ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "500.000 "
     },
     "content": "Israel Government International Bond 4.5% 03/04/2120 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 13,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 13
       },
       "content": "Israel Government International Bond 4.5% 03/04/2120 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,12 ",
+      "acquisition cost": "1.270.143 ",
+      "acquisition currency": "USD ",
+      "company": "Israel Government International",
+      "company match": "Israel Government International Bond 5.75% 12/03/2054 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EMERGING MARKETS FIXED INCOME ",
+      "interest rate": "5.75%",
       "manco": null,
       "market value": "1.179.350 ",
-      "% net assets": "0,12 ",
-      "quantity": "1.500.000 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "1.270.143 ",
-      "interest rate": "5.75%",
       "maturity": "12/03/2054",
-      "company match": "Israel Government International Bond 5.75% 12/03/2054 ",
-      "company": "Israel Government International",
-      "fund": "EMERGING MARKETS FIXED INCOME ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.500.000 "
     },
     "content": "Israel Government International Bond 5.75% 12/03/2054 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 14,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 14
       },
       "content": "Israel Government International Bond 5.75% 12/03/2054 "
-    },
-    "__text_block__": true
+    }
   }
 ]

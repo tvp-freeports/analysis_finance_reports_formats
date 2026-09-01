@@ -1,7 +1,7 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -10,12 +10,11 @@
       }
     },
     "content": "FountainCap Research & Investment (Hong Kong) Co.",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -25,20 +24,18 @@
       }
     },
     "content": "Goldman Sachs Asset Management International",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Mediolanum India Opportunities",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -48,20 +45,18 @@
       }
     },
     "content": "Guardcap Asset Management Limited",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Mediolanum Global Equity Style Selection",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -70,12 +65,11 @@
       }
     },
     "content": "Impax Asset Management Ireland Ltd",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -84,12 +78,11 @@
       }
     },
     "content": "Intermede Investment Partners Limited",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -101,31 +94,27 @@
       }
     },
     "content": "JP Morgan Asset Management (UK) Limited",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "European Small Cap Equity",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
-    "metadata": {},
-    "content": "US Collection",
-    "pdf_block": null,
-    "__text_block__": true
-  },
-  {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Pacific Collection",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "US Collection",
+    "pdf_block": null
   }
 ]

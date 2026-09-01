@@ -1,216 +1,216 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "BPER International SICAV – Global  Balanced Risk Control ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "BPER International SICAV – Global  Balanced Risk Control "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.01",
+      "acquisition currency": "GBP ",
+      "company": "ROLLS",
+      "company match": "ROLLS-ROYCE HLDGS ORD GBP0.20 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
+      "interest rate": "0.20 ",
       "manco": null,
       "market value": "8 504.77 ",
-      "% net assets": "0.01",
-      "quantity": "2 459.00 ",
-      "acquisition currency": "GBP ",
-      "interest rate": "0.20 ",
-      "company match": "ROLLS-ROYCE HLDGS ORD GBP0.20 ",
-      "company": "ROLLS",
-      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2 459.00 "
     },
     "content": "ROLLS-ROYCE HLDGS ORD GBP0.20 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 29,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 29
       },
       "content": "ROLLS-ROYCE HLDGS ORD GBP0.20 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1.14",
+      "acquisition currency": "USD ",
+      "company": "Alphabet",
+      "company match": "ALPHABET INC CAP STK USD0.001 CL A ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
+      "interest rate": "0.001 ",
       "manco": null,
       "market value": "919 590.53 ",
-      "% net assets": "1.14",
-      "quantity": "7 272.00 ",
-      "acquisition currency": "USD ",
-      "interest rate": "0.001 ",
-      "company match": "ALPHABET INC CAP STK USD0.001 CL A ",
-      "company": "Alphabet",
-      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "7 272.00 "
     },
     "content": "ALPHABET INC CAP STK USD0.001 CL A ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 41,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 41
       },
       "content": "ALPHABET INC CAP STK USD0.001 CL A "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.83",
+      "acquisition currency": "USD ",
+      "company": "Amazon",
+      "company match": "AMAZON COM INC COM USD0.01 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
+      "interest rate": "0.01 ",
       "manco": null,
       "market value": "667 509.91 ",
-      "% net assets": "0.83",
-      "quantity": "4 853.00 ",
-      "acquisition currency": "USD ",
-      "interest rate": "0.01 ",
-      "company match": "AMAZON COM INC COM USD0.01 ",
-      "company": "Amazon",
-      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "4 853.00 "
     },
     "content": "AMAZON COM INC COM USD0.01 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 42,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 42
       },
       "content": "AMAZON COM INC COM USD0.01 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1.61",
+      "acquisition currency": "USD ",
+      "company": "Apple Inc",
+      "company match": "APPLE INC COM NPV ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
       "manco": null,
       "market value": "1 291 318.31 ",
-      "% net assets": "1.61",
-      "quantity": "7 409.00 ",
-      "acquisition currency": "USD ",
-      "company match": "APPLE INC COM NPV ",
-      "company": "Apple Inc",
-      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "7 409.00 "
     },
     "content": "APPLE INC COM NPV ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 47,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 47
       },
       "content": "APPLE INC COM NPV "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.08",
+      "acquisition currency": "USD ",
+      "company": "Booking Holdings",
+      "company match": "BOOKING HLDGS INC COM USD0.008 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
+      "interest rate": "0.008 ",
       "manco": null,
       "market value": "64 223.42 ",
-      "% net assets": "0.08",
-      "quantity": "20.00 ",
-      "acquisition currency": "USD ",
-      "interest rate": "0.008 ",
-      "company match": "BOOKING HLDGS INC COM USD0.008 ",
-      "company": "Booking Holdings",
-      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "20.00 "
     },
     "content": "BOOKING HLDGS INC COM USD0.008 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 58,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 58
       },
       "content": "BOOKING HLDGS INC COM USD0.008 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.54",
+      "acquisition currency": "USD ",
+      "company": "Chevron",
+      "company match": "CHEVRON CORP COM USD0.75 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
+      "interest rate": "0.75 ",
       "manco": null,
       "market value": "435 739.21 ",
-      "% net assets": "0.54",
-      "quantity": "3 227.00 ",
-      "acquisition currency": "USD ",
-      "interest rate": "0.75 ",
-      "company match": "CHEVRON CORP COM USD0.75 ",
-      "company": "Chevron",
-      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3 227.00 "
     },
     "content": "CHEVRON CORP COM USD0.75 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 67,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 67
       },
       "content": "CHEVRON CORP COM USD0.75 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.10",
+      "acquisition currency": "USD ",
+      "company": "Cisco Systems",
+      "company match": "CISCO SYSTEMS COM USD0.001 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
+      "interest rate": "0.001 ",
       "manco": null,
       "market value": "77 793.44 ",
-      "% net assets": "0.10",
-      "quantity": "1 701.00 ",
-      "acquisition currency": "USD ",
-      "interest rate": "0.001 ",
-      "company match": "CISCO SYSTEMS COM USD0.001 ",
-      "company": "Cisco Systems",
-      "fund": "BPER International SICAV – Global  Balanced Risk Control ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1 701.00 "
     },
     "content": "CISCO SYSTEMS COM USD0.001 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 71,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 71
       },
       "content": "CISCO SYSTEMS COM USD0.001 "
-    },
-    "__text_block__": true
+    }
   }
 ]

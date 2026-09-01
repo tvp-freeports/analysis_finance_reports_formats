@@ -1,12 +1,8 @@
-Page,Matched Company,Company,Field name,Row,Column,Message
-611,ISHARES,IRLANDA iShares IV Public Limited Company - iShares MSCI Japan SRI UCITS ETF,Market value,15,,Field not found
-611,ISHARES,IRLANDA iShares IV Public Limited Company - iShares MSCI Japan SRI UCITS ETF,,15,,Skipping line...
-650,NORDEA,Nordea Bank Abp,% net assets,,,Trying to cast to number but found '-' - forcing cast
-650,NORDEA,Nordea Bank Abp,% net assets,,,"Error casting, found: - "
-650,NORDEA,Nordea Bank Abp,% net assets,,,Skipping field
-658,Expedia,Expedia Group Inc,% net assets,,,Trying to cast to number but found '-' - forcing cast
-658,Expedia,Expedia Group Inc,% net assets,,,"Error casting, found: - "
-658,Expedia,Expedia Group Inc,% net assets,,,Skipping field
-704,Israel Government,Israel Government Bond - Fixed 3.75% 31/03/2047,% net assets,,,Trying to cast to number but found '-' - forcing cast
-704,Israel Government,Israel Government Bond - Fixed 3.75% 31/03/2047,% net assets,,,"Error casting, found: - "
-704,Israel Government,Israel Government Bond - Fixed 3.75% 31/03/2047,% net assets,,,Skipping field
+Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Message
+611,job[MEDIOLANUM-IT24.A]/step[0]/class[investments]/page[611]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],ISHARES,,,,expected text block not found near the matched company - row skipped
+650,job[MEDIOLANUM-IT24.A]/step[0]/class[investments]/page[650]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[NORDEA]/field[% net assets],NORDEA,% net assets,,,trying to cast to number but found a non-numeric shape - forcing cast
+650,job[MEDIOLANUM-IT24.A]/step[0]/class[investments]/page[650]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[NORDEA]/field[% net assets],NORDEA,% net assets,,,"could not cast ""- "": could not convert """" to a number - field skipped"
+658,job[MEDIOLANUM-IT24.A]/step[0]/class[investments]/page[658]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[Expedia]/field[% net assets],Expedia,% net assets,,,trying to cast to number but found a non-numeric shape - forcing cast
+658,job[MEDIOLANUM-IT24.A]/step[0]/class[investments]/page[658]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[Expedia]/field[% net assets],Expedia,% net assets,,,"could not cast ""- "": could not convert """" to a number - field skipped"
+704,job[MEDIOLANUM-IT24.A]/step[0]/class[investments]/page[704]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[Israel Government]/field[% net assets],Israel Government,% net assets,,,trying to cast to number but found a non-numeric shape - forcing cast
+704,job[MEDIOLANUM-IT24.A]/step[0]/class[investments]/page[704]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[Israel Government]/field[% net assets],Israel Government,% net assets,,,"could not cast ""- "": could not convert """" to a number - field skipped"

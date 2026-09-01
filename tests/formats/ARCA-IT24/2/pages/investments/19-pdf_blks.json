@@ -1,3114 +1,3114 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 0
+    },
+    "content": "ITALY BTPS 0.65% 20-15/05/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 0
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 0
+    },
+    "content": "                       24.397.400 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 0
+    },
+    "content": "24.262"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 0
+    },
+    "content": "5,400%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 1
+    },
+    "content": "ITALY BOTS 0% 25-13/03/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 1
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 1
+    },
+    "content": "                        10.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 1
+    },
+    "content": "9.835"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 1
+    },
+    "content": "2,189%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 2
+    },
+    "content": "ITALY BOTS 0% 25-14/05/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 2
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 2
+    },
+    "content": "                        10.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 2
+    },
+    "content": "9.807"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 2
+    },
+    "content": "2,183%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 3
+    },
+    "content": "ITALY BOTS 0% 25-14/04/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 3
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 3
+    },
+    "content": "                         9.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 3
+    },
+    "content": "8.828"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 3
+    },
+    "content": "1,965%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 4
+    },
+    "content": "ITALY BOTS 0% 24-12/09/2025 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 4
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 4
+    },
+    "content": "                         8.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 4
+    },
+    "content": "7.805"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 4
+    },
+    "content": "1,737%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 5
+    },
+    "content": "GOLDMAN SACHS GP 1.625% 16-27/07/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 5
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 5
+    },
+    "content": "                         7.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 5
+    },
+    "content": "6.954"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 5
+    },
+    "content": "1,548%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 6
+    },
+    "content": "ITALY BOTS 0% 25-13/02/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 6
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 6
+    },
+    "content": "                         7.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 6
+    },
+    "content": "6.869"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 6
+    },
+    "content": "1,529%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 7
+    },
+    "content": "CITIGROUP INC 2.125% 14-10/09/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 7
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 7
+    },
+    "content": "                         5.400.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 7
+    },
+    "content": "5.381"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 7
+    },
+    "content": "1,198%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 8
+    },
+    "content": "MORGAN STANLEY 1.375% 16-27/10/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 8
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 8
+    },
+    "content": "                         5.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 8
+    },
+    "content": "4.937"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 8
+    },
+    "content": "1,099%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 9
+    },
+    "content": "CREDIT AGRICOLE 1.875% 16-20/12/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 9
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 9
+    },
+    "content": "                         4.800.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 9
+    },
+    "content": "4.771"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 9
+    },
+    "content": "1,062%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 10
+    },
+    "content": "ITALY BOTS 0% 24-14/11/2025 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 10
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 10
+    },
+    "content": "                         4.800.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 10
+    },
+    "content": "4.693"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 10
+    },
+    "content": "1,045%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 11
+    },
+    "content": "BANCO BILBAO VIZ 1% 19-21/06/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 11
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 11
+    },
+    "content": "                         4.600.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 11
+    },
+    "content": "4.546"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 11
+    },
+    "content": "1,012%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 12
+    },
+    "content": "SOCIETE GENERALE 0.875% 19-01/07/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 12
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 12
+    },
+    "content": "                         4.600.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 12
+    },
+    "content": "4.534"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 12
+    },
+    "content": "1,009%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 13
+    },
+    "content": "WELLS FARGO CO 2% 15-27/04/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 13
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 13
+    },
+    "content": "                         4.500.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 13
+    },
+    "content": "4.491"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 13
+    },
+    "content": "0,999%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 14
+    },
+    "content": "INTESA SANPAOLO 0.625% 21-24/02/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 14
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 14
+    },
+    "content": "                         4.300.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 14
+    },
+    "content": "4.254"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 14
+    },
+    "content": "0,947%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 15
+    },
+    "content": "GEN MOTORS FIN 0.85% 20-26/02/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 15
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 15
+    },
+    "content": "                         4.200.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 15
+    },
+    "content": "4.156"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 15
+    },
+    "content": "0,925%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 16
+    },
+    "content": "LEASEPLAN CORP 0.25% 21-23/02/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 16
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 16
+    },
+    "content": "                         4.200.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 16
+    },
+    "content": "4.141"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 16
+    },
+    "content": "0,922%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 17
+    },
+    "content": "NATWEST MARKETS 0.125% 21-18/06/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 17
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 17
+    },
+    "content": "                         4.200.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 17
+    },
+    "content": "4.118"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 17
+    },
+    "content": "0,917%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 18
+    },
+    "content": "UBS AG LONDON 1.5% 16-10/04/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 18
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 18
+    },
+    "content": "                          4.100.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 18
+    },
+    "content": "4.077"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 18
+    },
+    "content": "0,907%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 19
+    },
+    "content": "MEDIOBANCA SPA 0.875% 19-15/01/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 19
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 19
+    },
+    "content": "                          4.100.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 19
+    },
+    "content": "4.066"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 19
+    },
+    "content": "0,905%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 20
+    },
+    "content": "CAIXABANK 1.375% 19-19/06/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 20
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 20
+    },
+    "content": "                          4.100.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 20
+    },
+    "content": "4.063"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 20
+    },
+    "content": "0,904%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 21
+    },
+    "content": "UBS AG LONDON 0.01% 21-31/03/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 21
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 21
+    },
+    "content": "                          4.100.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 21
+    },
+    "content": "4.035"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 21
+    },
+    "content": "0,898%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 22
+    },
+    "content": "COMMERZBANK AG 22-14/09/2027 FRN "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 22
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 22
+    },
+    "content": "                         4.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 22
+    },
+    "content": "4.028"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 22
+    },
+    "content": "0,896%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 23
+    },
+    "content": "ACEA SPA 1% 16-24/10/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 23
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 23
+    },
+    "content": "                          4.100.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 23
+    },
+    "content": "4.026"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 23
+    },
+    "content": "0,896%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 24
+    },
+    "content": "CRD MUTUEL ARKEA 1.625% 19-15/04/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 24
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 24
+    },
+    "content": "                         4.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 24
+    },
+    "content": "3.982"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 24
+    },
+    "content": "0,886%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 25
+    },
+    "content": "BPCE 1.375% 18-23/03/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 25
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 25
+    },
+    "content": "                         4.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 25
+    },
+    "content": "3.977"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 25
+    },
+    "content": "0,885%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 26
+    },
+    "content": "ACQUIRENTE UNI 2.8% 19-20/02/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 26
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 26
+    },
+    "content": "                         3.800.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 26
+    },
+    "content": "3.803"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 26
+    },
+    "content": "0,846%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 27
+    },
+    "content": "A2A SPA 2.5% 22-15/06/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 27
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 27
+    },
+    "content": "                         3.800.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 27
+    },
+    "content": "3.802"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 27
+    },
+    "content": "0,846%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 28
+    },
+    "content": "VOLKSWAGEN BANK 2.5% 19-31/07/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 28
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 28
+    },
+    "content": "                         3.800.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 28
+    },
+    "content": "3.795"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 28
+    },
+    "content": "0,845%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 29
+    },
+    "content": "NYKREDIT 0.25% 20-13/01/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 29
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 29
+    },
+    "content": "                         3.700.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 29
+    },
+    "content": "3.659"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 29
+    },
+    "content": "0,814%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 30
+    },
+    "content": "BANQ FED CRD MUT 0.01% 21-11/05/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 30
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 30
+    },
+    "content": "                         3.700.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 30
+    },
+    "content": "3.633"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 30
+    },
+    "content": "0,809%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 31
+    },
+    "content": "WESTPAC SEC NZ 0.427% 21-14/12/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 31
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 31
+    },
+    "content": "                         3.700.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 31
+    },
+    "content": "3.591"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 31
+    },
+    "content": "0,799%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 32
+    },
+    "content": "HERA SPA 0.875% 16-14/10/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 32
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 32
+    },
+    "content": "                         3.600.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 32
+    },
+    "content": "3.528"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 32
+    },
+    "content": "0,785%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 33
+    },
+    "content": "GDF SUEZ 1% 15-13/03/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 33
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 33
+    },
+    "content": "                         3.500.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 33
+    },
+    "content": "3.468"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 33
+    },
+    "content": "0,772%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 34
+    },
+    "content": "PARTNERRE IRELAN 1.25% 16-15/09/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 34
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 34
+    },
+    "content": "                         3.500.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 34
+    },
+    "content": "3.452"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 34
+    },
+    "content": "0,768%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 35
+    },
+    "content": "ITALGAS SPA 1.625% 17-19/01/2027 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 35
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 35
+    },
+    "content": "                         3.500.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 35
+    },
+    "content": "3.452"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 35
+    },
+    "content": "0,768%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 36
+    },
+    "content": "MIZUHO FINANCIAL 0.184% 21-13/04/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 36
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 36
+    },
+    "content": "                         3.500.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 36
+    },
+    "content": "3.446"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 36
+    },
+    "content": "0,767%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 37
+    },
+    "content": "AUTOSTRADA TORIN 1% 21-25/11/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 37
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 37
+    },
+    "content": "                         3.500.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 37
+    },
+    "content": "3.424"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 37
+    },
+    "content": "0,762%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 38
+    },
+    "content": "ENI SPA 1.25% 20-18/05/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 38
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 38
+    },
+    "content": "                         3.420.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 38
+    },
+    "content": "3.387"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 38
+    },
+    "content": "0,754%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 39
+    },
+    "content": "RYANAIR DAC 0.875% 21-25/05/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 39
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 39
+    },
+    "content": "                         3.400.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 39
+    },
+    "content": "3.355"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 39
+    },
+    "content": "0,747%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 40
+    },
+    "content": "DS SMITH PLC 0.875% 19-12/09/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 40
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 40
+    },
+    "content": "                         3.400.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 40
+    },
+    "content": "3.333"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 40
+    },
+    "content": "0,742%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 41
+    },
+    "content": "BP CAPITAL PLC 2.213% 14-25/09/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 41
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 41
+    },
+    "content": "                         3.300.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 41
+    },
+    "content": "3.298"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 41
+    },
+    "content": "0,734%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 42
+    },
+    "content": "AP MOLLER 1.75% 18-16/03/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 42
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 42
+    },
+    "content": "                         3.200.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 42
+    },
+    "content": "3.187"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 42
+    },
+    "content": "0,709%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 43
+    },
+    "content": "ANGLO AMERICAN 1.625% 19-11/03/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 43
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 43
+    },
+    "content": "                         3.200.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 43
+    },
+    "content": "3.182"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 43
+    },
+    "content": "0,708%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 44
+    },
+    "content": "EDP FINANCE BV 0.375% 19-16/09/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 44
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 44
+    },
+    "content": "                         3.200.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 44
+    },
+    "content": "3.123"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 44
+    },
+    "content": "0,695%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 45
+    },
+    "content": "SNAM 0.875% 16-25/10/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 45
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 45
+    },
+    "content": "                          3.100.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 45
+    },
+    "content": "3.038"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 45
+    },
+    "content": "0,676%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 46
+    },
+    "content": "TOYOTA MTR CRED 0.25% 20-16/07/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 46
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 46
+    },
+    "content": "                          3.100.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 46
+    },
+    "content": "3.035"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 46
+    },
+    "content": "0,676%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 47
+    },
+    "content": "FIAT CHRYSLER AU 3.875% 20-05/01/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 47
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 47
+    },
+    "content": "                         3.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 47
+    },
+    "content": "3.011"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 47
+    },
+    "content": "0,670%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 48
+    },
+    "content": "DEUTSCHE BANK AG 20-03/09/2026 FRN "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 48
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 48
+    },
+    "content": "                         3.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 48
+    },
+    "content": "2.993"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 48
+    },
+    "content": "0,666%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 49
+    },
+    "content": "UNICREDIT SPA 20-22/07/2027 FRN "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 49
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 49
+    },
+    "content": "                         3.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 49
+    },
+    "content": "2.991"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 49
+    },
+    "content": "0,666%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 50
+    },
+    "content": "DAIMLER AG 2% 20-22/08/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 50
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 50
+    },
+    "content": "                         3.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 50
+    },
+    "content": "2.988"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 50
+    },
+    "content": "0,665%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": true,
+      "table-col": 0,
+      "table-row": 51
+    },
+    "content": "BANCA MONTE DEI PASCHI S 1.875%09/01/26 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 51
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 51
+    },
+    "content": "                         3.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 51
+    },
+    "content": "2.985"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 51
+    },
+    "content": "0,664%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 52
+    },
+    "content": "MONDI FINANCE PL 1.625% 18-27/04/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 52
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 52
+    },
+    "content": "                         3.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 52
+    },
+    "content": "2.984"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 52
+    },
+    "content": "0,664%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 53
+    },
+    "content": "DEUTSCHE TEL FIN 1.125% 17-22/05/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 53
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 53
+    },
+    "content": "                         3.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 53
+    },
+    "content": "2.969"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 53
+    },
+    "content": "0,661%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 54
+    },
+    "content": "AT&T INC 0.25% 19-04/03/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 54
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 54
+    },
+    "content": "                         3.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 54
+    },
+    "content": "2.958"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 54
+    },
+    "content": "0,658%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 55
+    },
+    "content": "ELEC DE FRANCE 1% 16-13/10/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 55
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 55
+    },
+    "content": "                         3.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 55
+    },
+    "content": "2.947"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 55
+    },
+    "content": "0,656%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 56
+    },
+    "content": "ITALY BOTS 0% 25-14/01/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 56
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 56
+    },
+    "content": "                         3.000.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 56
+    },
+    "content": "2.938"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 56
+    },
+    "content": "0,654%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 57
+    },
+    "content": "SYNGENTA FINANCE 3.375% 20-16/04/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 57
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 57
+    },
+    "content": "                         2.900.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 57
+    },
+    "content": "2.909"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 57
+    },
+    "content": "0,647%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 58
+    },
+    "content": "AIB GROUP PLC 22-04/07/2026 FRN "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 58
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 58
+    },
+    "content": "                         2.900.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 58
+    },
+    "content": "2.900"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 58
+    },
+    "content": "0,645%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 59
+    },
+    "content": "BRITISH TELECOMM 1.75% 16-10/03/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 59
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 59
+    },
+    "content": "                         2.900.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 59
+    },
+    "content": "2.887"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 59
+    },
+    "content": "0,643%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 60
+    },
+    "content": "GSK CONSUMER HEA 1.25% 22-29/03/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 60
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 60
+    },
+    "content": "                         2.900.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 60
+    },
+    "content": "2.875"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 60
+    },
+    "content": "0,640%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 61
+    },
+    "content": "BAYER CAP CORPNV 1.5% 18-26/06/2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 61
+    },
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 61
+    },
+    "content": "                         2.900.000 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 61
+    },
+    "content": "2.873"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 61
+    },
+    "content": "0,639%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
     "metadata": {},
-    "content": "ARCA CEDOLA ATTIVA 2026 ",
-    "__pdf_block__": true
+    "content": "ARCA CEDOLA ATTIVA 2026 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ITALY BTPS 0.65% 20-15/05/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                       24.397.400 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "24.262",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "5,400%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ITALY BOTS 0% 25-13/03/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                        10.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "9.835",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "2,189%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ITALY BOTS 0% 25-14/05/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                        10.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "9.807",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "2,183%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ITALY BOTS 0% 25-14/04/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         9.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "8.828",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,965%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ITALY BOTS 0% 24-12/09/2025 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         8.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "7.805",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,737%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "GOLDMAN SACHS GP 1.625% 16-27/07/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         7.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "6.954",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,548%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ITALY BOTS 0% 25-13/02/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         7.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "6.869",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,529%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "CITIGROUP INC 2.125% 14-10/09/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         5.400.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "5.381",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,198%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "MORGAN STANLEY 1.375% 16-27/10/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         5.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.937",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,099%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "CREDIT AGRICOLE 1.875% 16-20/12/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.800.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.771",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,062%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ITALY BOTS 0% 24-14/11/2025 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.800.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.693",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,045%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "BANCO BILBAO VIZ 1% 19-21/06/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.600.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.546",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,012%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "SOCIETE GENERALE 0.875% 19-01/07/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.600.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.534",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "1,009%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "WELLS FARGO CO 2% 15-27/04/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.500.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.491",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,999%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "INTESA SANPAOLO 0.625% 21-24/02/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.300.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.254",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,947%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "GEN MOTORS FIN 0.85% 20-26/02/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.200.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.156",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,925%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "LEASEPLAN CORP 0.25% 21-23/02/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.200.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.141",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,922%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "NATWEST MARKETS 0.125% 21-18/06/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.200.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.118",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,917%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "UBS AG LONDON 1.5% 16-10/04/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                          4.100.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.077",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,907%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "MEDIOBANCA SPA 0.875% 19-15/01/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                          4.100.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.066",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,905%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "CAIXABANK 1.375% 19-19/06/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                          4.100.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.063",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,904%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "UBS AG LONDON 0.01% 21-31/03/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                          4.100.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.035",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,898%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "COMMERZBANK AG 22-14/09/2027 FRN ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.028",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,896%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ACEA SPA 1% 16-24/10/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                          4.100.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "4.026",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,896%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "CRD MUTUEL ARKEA 1.625% 19-15/04/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.982",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,886%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "BPCE 1.375% 18-23/03/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         4.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.977",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,885%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ACQUIRENTE UNI 2.8% 19-20/02/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.800.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.803",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,846%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "A2A SPA 2.5% 22-15/06/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.800.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.802",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 27,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,846%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "VOLKSWAGEN BANK 2.5% 19-31/07/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.800.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.795",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 28,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,845%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "NYKREDIT 0.25% 20-13/01/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.700.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.659",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 29,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,814%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "BANQ FED CRD MUT 0.01% 21-11/05/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.700.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.633",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 30,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,809%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "WESTPAC SEC NZ 0.427% 21-14/12/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.700.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.591",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 31,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,799%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "HERA SPA 0.875% 16-14/10/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.600.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.528",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 32,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,785%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "GDF SUEZ 1% 15-13/03/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.500.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.468",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 33,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,772%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "PARTNERRE IRELAN 1.25% 16-15/09/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.500.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.452",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 34,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,768%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ITALGAS SPA 1.625% 17-19/01/2027 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.500.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.452",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 35,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,768%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "MIZUHO FINANCIAL 0.184% 21-13/04/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.500.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.446",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 36,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,767%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 37,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "AUTOSTRADA TORIN 1% 21-25/11/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 37,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 37,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.500.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 37,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.424",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 37,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,762%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 38,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ENI SPA 1.25% 20-18/05/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 38,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 38,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.420.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 38,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.387",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 38,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,754%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 39,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "RYANAIR DAC 0.875% 21-25/05/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 39,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 39,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.400.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 39,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.355",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 39,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,747%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 40,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "DS SMITH PLC 0.875% 19-12/09/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 40,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 40,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.400.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 40,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.333",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 40,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,742%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 41,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "BP CAPITAL PLC 2.213% 14-25/09/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 41,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 41,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.300.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 41,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.298",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 41,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,734%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 42,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "AP MOLLER 1.75% 18-16/03/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 42,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 42,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.200.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 42,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.187",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 42,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,709%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 43,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ANGLO AMERICAN 1.625% 19-11/03/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 43,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 43,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.200.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 43,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.182",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 43,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,708%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 44,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "EDP FINANCE BV 0.375% 19-16/09/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 44,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 44,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.200.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 44,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.123",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 44,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,695%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 45,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "SNAM 0.875% 16-25/10/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 45,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 45,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                          3.100.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 45,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.038",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 45,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,676%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 46,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "TOYOTA MTR CRED 0.25% 20-16/07/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 46,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 46,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                          3.100.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 46,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.035",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 46,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,676%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 47,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "FIAT CHRYSLER AU 3.875% 20-05/01/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 47,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 47,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 47,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "3.011",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 47,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,670%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 48,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "DEUTSCHE BANK AG 20-03/09/2026 FRN ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 48,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 48,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 48,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.993",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 48,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,666%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 49,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "UNICREDIT SPA 20-22/07/2027 FRN ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 49,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 49,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 49,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.991",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 49,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,666%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 50,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "DAIMLER AG 2% 20-22/08/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 50,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 50,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 50,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.988",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 50,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,665%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 51,
-      "table-col": 0,
-      "is-max-width": true
-    },
-    "content": "BANCA MONTE DEI PASCHI S 1.875%09/01/26 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 51,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 51,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 51,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.985",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 51,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,664%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 52,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "MONDI FINANCE PL 1.625% 18-27/04/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 52,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 52,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 52,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.984",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 52,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,664%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 53,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "DEUTSCHE TEL FIN 1.125% 17-22/05/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 53,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 53,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 53,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.969",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 53,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,661%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 54,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "AT&T INC 0.25% 19-04/03/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 54,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 54,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 54,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.958",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 54,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,658%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 55,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ELEC DE FRANCE 1% 16-13/10/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 55,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 55,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 55,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.947",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 55,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,656%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 56,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ITALY BOTS 0% 25-14/01/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 56,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 56,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         3.000.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 56,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.938",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 56,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,654%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 57,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "SYNGENTA FINANCE 3.375% 20-16/04/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 57,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 57,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         2.900.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 57,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.909",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 57,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,647%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 58,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "AIB GROUP PLC 22-04/07/2026 FRN ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 58,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 58,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         2.900.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 58,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.900",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 58,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,645%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 59,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "BRITISH TELECOMM 1.75% 16-10/03/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 59,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 59,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         2.900.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 59,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.887",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 59,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,643%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 60,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "GSK CONSUMER HEA 1.25% 22-29/03/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 60,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 60,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         2.900.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 60,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.875",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 60,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,640%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 61,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "BAYER CAP CORPNV 1.5% 18-26/06/2026 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 61,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "EUR ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 61,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "                         2.900.000 ",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 61,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "2.873",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 61,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "0,639%",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
     "metadata": {},
-    "content": "EUR",
-    "__pdf_block__": true
+    "content": "EUR"
   }
 ]

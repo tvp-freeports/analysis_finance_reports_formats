@@ -1,33 +1,33 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Bond",
       "data": {
-        "name": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION"
+        "acquisition_cost": 1092653.0,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Siemens",
+        "company_match": "Siemens Financieringsmaatschappij NV 2.875% 11/03/2041",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION ",
+        "interest_rate": 0.02875,
+        "market_value": 1041193.0,
+        "maturity": {
+          "__date__": "2041-03-11"
+        },
+        "nominal_quantity": 1500000.0,
+        "perc_net_assets": 0.0016
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Fund",
       "data": {
-        "company": "Siemens",
-        "company_match": "Siemens Financieringsmaatschappij NV 2.875% 11/03/2041",
-        "fund": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION ",
-        "nominal_quantity": 1500000.0,
-        "market_value": 1041193.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0016,
-        "acquisition_cost": 1092653.0,
-        "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        },
-        "maturity": {
-          "__date__": "2041-03-11"
-        },
-        "interest_rate": 0.02875
+        "name": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION"
       }
     }
   }

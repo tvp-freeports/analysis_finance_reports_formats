@@ -1,99 +1,99 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Equity",
       "data": {
-        "name": "Polen Capital Global Growth"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
-      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Siemens",
         "company_match": "SIEMENS HEALTHINEERS AG",
-        "fund": "Polen Capital Global Growth",
-        "nominal_quantity": 389826.0,
-        "market_value": 22477426.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
-        "perc_net_assets": 0.0298,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "Polen Capital Global Growth",
+        "market_value": 22477426.0,
+        "nominal_quantity": 389826.0,
+        "perc_net_assets": 0.0298
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Airbnb",
         "company_match": "AIRBNB INC",
-        "fund": "Polen Capital Global Growth",
-        "nominal_quantity": 95712.0,
-        "market_value": 14512811.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
-        "perc_net_assets": 0.019299999999999998,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "Polen Capital Global Growth",
+        "market_value": 14512811.0,
+        "nominal_quantity": 95712.0,
+        "perc_net_assets": 0.019299999999999998
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Alphabet",
         "company_match": "ALPHABET INC SHS C",
-        "fund": "Polen Capital Global Growth",
-        "nominal_quantity": 269337.0,
-        "market_value": 49401793.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
-        "perc_net_assets": 0.06559999999999999,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "Polen Capital Global Growth",
+        "market_value": 49401793.0,
+        "nominal_quantity": 269337.0,
+        "perc_net_assets": 0.06559999999999999
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Amazon",
         "company_match": "AMAZON.COM INC",
-        "fund": "Polen Capital Global Growth",
-        "nominal_quantity": 377435.0,
-        "market_value": 72939313.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
-        "perc_net_assets": 0.0967,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "Polen Capital Global Growth",
+        "market_value": 72939313.0,
+        "nominal_quantity": 377435.0,
+        "perc_net_assets": 0.0967
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Microsoft",
         "company_match": "MICROSOFT CORP",
-        "fund": "Polen Capital Global Growth",
-        "nominal_quantity": 109297.0,
-        "market_value": 48850294.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
-        "perc_net_assets": 0.06480000000000001,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "Polen Capital Global Growth",
+        "market_value": 48850294.0,
+        "nominal_quantity": 109297.0,
+        "perc_net_assets": 0.06480000000000001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "POLEN CAPITAL GLOBAL GROWTH"
       }
     }
   }

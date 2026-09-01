@@ -1,23 +1,23 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardManagmentCompanyTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:MANAGEMENT_COMPANY",
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "ANIMA LIQUIDITY",
           "ANIMA LIQUIDITY CLASS SILVER",
           "ANIMA LIQUIDITY SHARE CLASS SILVER",
+          "ANIMA LIQUIDITY",
           "EURIZON FUND BOND EMERGING MARKETS IN LOCAL CURRENCIES"
         ]
       }
     },
     "content": "Kairos Partners SGR S.p.A.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
       "metadata": {},
       "content": "Kairos Partners SGR S.p.A."
-    },
-    "__text_block__": true
+    }
   }
 ]

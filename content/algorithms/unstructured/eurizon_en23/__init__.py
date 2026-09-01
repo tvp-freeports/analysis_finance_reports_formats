@@ -42,8 +42,8 @@ def pdf_extract_page_classify(page):
             page_type="inv_managers_begin"
         elif auditor:
             page_type="inv_managers_end"
-        
-    return [PdfBlock(ResultStandardExtraction.PAGE_CLASS,{"page_type":page_type},"")]
+    
+    return [PdfBlock(ResultStandardExtraction.PAGE_CLASS.name,{"page_type":page_type},"")]
     
     
 

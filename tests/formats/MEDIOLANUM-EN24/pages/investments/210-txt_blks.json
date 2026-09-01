@@ -1,217 +1,217 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "CHALLENGE TECHNOLOGY OPPORTUNITIES "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1.83 ",
+      "acquisition cost": "46,144,907 ",
+      "acquisition currency": "TWD ",
+      "company": "TAIWAN SEMICONDUCTOR",
+      "company match": "Taiwan Semiconductor Manufacturing Co Ltd ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
       "manco": null,
       "market value": "57,612,632 ",
-      "% net assets": "1.83 ",
-      "quantity": "1,863,715 ",
-      "acquisition currency": "TWD ",
-      "acquisition cost": "46,144,907 ",
-      "company match": "Taiwan Semiconductor Manufacturing Co Ltd ",
-      "company": "TAIWAN SEMICONDUCTOR",
-      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1,863,715 "
     },
     "content": "Taiwan Semiconductor Manufacturing Co Ltd ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 9,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 9
       },
       "content": "Taiwan Semiconductor Manufacturing Co Ltd "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.83 ",
+      "acquisition cost": "24,602,570 ",
+      "acquisition currency": "USD ",
+      "company": "TAIWAN SEMICONDUCTOR",
+      "company match": "Taiwan Semiconductor Manufacturing Co Ltd - SADR ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
       "manco": null,
       "market value": "26,154,834 ",
-      "% net assets": "0.83 ",
-      "quantity": "135,555 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "24,602,570 ",
-      "company match": "Taiwan Semiconductor Manufacturing Co Ltd - SADR ",
-      "company": "TAIWAN SEMICONDUCTOR",
-      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "135,555 "
     },
     "content": "Taiwan Semiconductor Manufacturing Co Ltd - SADR ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 10,
+        "is-max-width": true,
         "table-col": 0,
-        "is-max-width": true
+        "table-row": 10
       },
       "content": "Taiwan Semiconductor Manufacturing Co Ltd - SADR "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "2.11 ",
+      "acquisition cost": "64,044,324 ",
+      "acquisition currency": "USD ",
+      "company": "Alphabet",
+      "company match": "Alphabet Inc Shs A ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
       "manco": null,
       "market value": "66,520,614 ",
-      "% net assets": "2.11 ",
-      "quantity": "443,087 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "64,044,324 ",
-      "company match": "Alphabet Inc Shs A ",
-      "company": "Alphabet",
-      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "443,087 "
     },
     "content": "Alphabet Inc Shs A ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 18,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 18
       },
       "content": "Alphabet Inc Shs A "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "2.26 ",
+      "acquisition cost": "59,551,761 ",
+      "acquisition currency": "USD ",
+      "company": "Alphabet",
+      "company match": "Alphabet Inc Shs C ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
       "manco": null,
       "market value": "71,209,123 ",
-      "% net assets": "2.26 ",
-      "quantity": "471,215 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "59,551,761 ",
-      "company match": "Alphabet Inc Shs C ",
-      "company": "Alphabet",
-      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "471,215 "
     },
     "content": "Alphabet Inc Shs C ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 19,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 19
       },
       "content": "Alphabet Inc Shs C "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.78 ",
+      "acquisition cost": "23,261,964 ",
+      "acquisition currency": "USD ",
+      "company": "Amazon",
+      "company match": "Amazon.com Inc ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
       "manco": null,
       "market value": "24,466,232 ",
-      "% net assets": "0.78 ",
-      "quantity": "130,907 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "23,261,964 ",
-      "company match": "Amazon.com Inc ",
-      "company": "Amazon",
-      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "130,907 "
     },
     "content": "Amazon.com Inc ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 20,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 20
       },
       "content": "Amazon.com Inc "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "3.87 ",
+      "acquisition cost": "125,519,440 ",
+      "acquisition currency": "USD ",
+      "company": "Apple Inc",
+      "company match": "Apple Inc ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
       "manco": null,
       "market value": "122,168,305 ",
-      "% net assets": "3.87 ",
-      "quantity": "698,968 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "125,519,440 ",
-      "company match": "Apple Inc ",
-      "company": "Apple Inc",
-      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "698,968 "
     },
     "content": "Apple Inc ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 24,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 24
       },
       "content": "Apple Inc "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.36 ",
+      "acquisition cost": "11,074,509 ",
+      "acquisition currency": "USD ",
+      "company": "Booking Holdings",
+      "company match": "Booking Holdings Inc ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
       "manco": null,
       "market value": "11,303,777 ",
-      "% net assets": "0.36 ",
-      "quantity": "2,292 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "11,074,509 ",
-      "company match": "Booking Holdings Inc ",
-      "company": "Booking Holdings",
-      "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2,292 "
     },
     "content": "Booking Holdings Inc ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 31,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 31
       },
       "content": "Booking Holdings Inc "
-    },
-    "__text_block__": true
+    }
   }
 ]

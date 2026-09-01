@@ -58,8 +58,8 @@ def pdf_extract_inv_managers_begin(page):
     lines_manager = bold_text.select(lines)
     lines_fund = fund_text.select(lines)
 
-    v1 = [PdfBlock(TipiBlocco.INV, {}, l.text) for l in lines_manager]
-    v1.extend([PdfBlock(TipiBlocco.SUB, {}, l.text) for l in lines_fund])
+    v1 = [PdfBlock(TipiBlocco.INV.name, {}, l.text) for l in lines_manager]
+    v1.extend([PdfBlock(TipiBlocco.SUB.name, {}, l.text) for l in lines_fund])
 
     return v1
 
@@ -101,8 +101,8 @@ def pdf_extract_inv_managers(page):
     lines_manager = bold_text.select(lines)
     lines_fund = fund_text.select(lines)
 
-    v1 = [PdfBlock(TipiBlocco.INV, {}, l.text) for l in lines_manager]
-    v1.extend([PdfBlock(TipiBlocco.SUB, {}, l.text) for l in lines_fund])
+    v1 = [PdfBlock(TipiBlocco.INV.name, {}, l.text) for l in lines_manager]
+    v1.extend([PdfBlock(TipiBlocco.SUB.name, {}, l.text) for l in lines_fund])
 
     return v1
 
@@ -125,8 +125,8 @@ def pdf_extract_inv_managers_end(page):
     lines_manager = bold_text.select(lines)
     lines_fund = fund_text.select(lines)
 
-    v1 = [PdfBlock(TipiBlocco.INV, {}, l.text) for l in lines_manager]
-    v1.extend([PdfBlock(TipiBlocco.SUB, {}, l.text) for l in lines_fund])
+    v1 = [PdfBlock(TipiBlocco.INV.name, {}, l.text) for l in lines_manager]
+    v1.extend([PdfBlock(TipiBlocco.SUB.name, {}, l.text) for l in lines_fund])
     return v1
 
 pdf_extract_manco = PdfExtractManagmentCompanyStandard(
@@ -152,8 +152,8 @@ def text_filter_inv_managers(blocks, results):
     )
 
     final = []
-    inv = [b for b in blocks if b.type_block == TipiBlocco.INV]
-    sub = [b.content for b in blocks if b.type_block == TipiBlocco.SUB]
+    inv = [b for b in blocks if b.type_block == TipiBlocco.INV.name]
+    sub = [b.content for b in blocks if b.type_block == TipiBlocco.SUB.name]
     sub = " ".join(sub)
     sub = sub.split(")")[:-1]
     for s in sub:
@@ -185,8 +185,8 @@ def text_filter_inv_managers_begin(blocks, results):
     residual_funds = filter_funds - a_subfunds
 
     final = []
-    inv = [b for b in blocks if b.type_block == TipiBlocco.INV]
-    sub = [b.content for b in blocks if b.type_block == TipiBlocco.SUB]
+    inv = [b for b in blocks if b.type_block == TipiBlocco.INV.name]
+    sub = [b.content for b in blocks if b.type_block == TipiBlocco.SUB.name]
     sub = "".join(sub)
     sub = sub.split(")")[:-1]
     for s in sub:

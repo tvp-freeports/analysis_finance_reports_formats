@@ -1,9 +1,8 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:ManagementCompany",
+      "class": "freeports.output:ManagementCompany",
       "data": {
-        "name": "Eurizon Capital S.A.",
         "managed_funds": {
           "__set__": [
             "EURIZON FUND ASIAN EQUITY OPPORTUNITIES",
@@ -11,7 +10,8 @@
             "EURIZON FUND EQUITY CHINA A",
             "EURIZON FUND GLOBAL BOND HIGH YIELD"
           ]
-        }
+        },
+        "name": "Eurizon Capital S.A."
       }
     }
   }

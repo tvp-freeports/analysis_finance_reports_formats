@@ -1,11 +1,11 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "old_name": "Anima Alto Potenziale Italia",
-      "current_name": "Anima Alto Potenziale Europa"
+      "current_name": "Anima Alto Potenziale Europa",
+      "old_name": "Anima Alto Potenziale Italia"
     },
-    "content": "Il Consiglio di Amministrazione di ANIMA SGR S.p.A., nella seduta del 30 novembre 2023, ha approvato le seguenti operazioni di fusione, approvate in via generale dalla Banca d’Italia, con efficacia a far data dal 15 aprile 2024: ",
-    "__pdf_block__": true
+    "content": "Il Consiglio di Amministrazione di ANIMA SGR S.p.A., nella seduta del 30 novembre 2023, ha approvato le seguenti operazioni di fusione, approvate in via generale dalla Banca d’Italia, con efficacia a far data dal 15 aprile 2024: "
   }
 ]

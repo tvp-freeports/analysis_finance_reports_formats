@@ -1,15 +1,8 @@
-Page,Matched Company,Company,Field name,Row,Column,Message
-798,Alphabet,Alphabet Inc-Class C,Market value,2,,Field not found
-798,Alphabet,Alphabet Inc-Class C,,2,,Skipping line...
-798,Amazon,Amazon.Com Inc,Market value,3,,Field not found
-798,Amazon,Amazon.Com Inc,,3,,Skipping line...
-798,Apple Inc,Apple Inc,Market value,5,,Field not found
-798,Apple Inc,Apple Inc,,5,,Skipping line...
-798,Cisco Systems,Cisco Systems Inc,Market value,7,,Field not found
-798,Cisco Systems,Cisco Systems Inc,,7,,Skipping line...
-798,Microsoft,Microsoft Corporation,Market value,15,,Field not found
-798,Microsoft,Microsoft Corporation,,15,,Skipping line...
-798,Motorola Solutions,Motorola Solutions Inc,Market value,16,,Field not found
-798,Motorola Solutions,Motorola Solutions Inc,,16,,Skipping line...
-798,NVIDIA,Nvidia Corp,Market value,18,,Field not found
-798,NVIDIA,Nvidia Corp,,18,,Skipping line...
+Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Message
+798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Alphabet,,,,expected text block not found near the matched company - row skipped
+798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Amazon,,,,expected text block not found near the matched company - row skipped
+798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Apple Inc,,,,expected text block not found near the matched company - row skipped
+798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Cisco Systems,,,,expected text block not found near the matched company - row skipped
+798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Microsoft,,,,expected text block not found near the matched company - row skipped
+798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Motorola Solutions,,,,expected text block not found near the matched company - row skipped
+798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],NVIDIA,,,,expected text block not found near the matched company - row skipped

@@ -70,11 +70,11 @@ def text_filter(pdf_blks, target_companies):
     """
     txt_blks = std(pdf_blks, target_companies)
     for txt_blk in txt_blks:
-        if txt_blk.type_block == ResultStandardFiltering.FUND:
+        if txt_blk.type_block == ResultStandardFiltering.FUND.name:
             txt_blk.content = remove_fund_excess(txt_blk.content)
         elif (
-            txt_blk.type_block == ResultStandardFiltering.BOND_TARGET
-            or txt_blk.type_block == ResultStandardFiltering.EQUITY_TARGET
+            txt_blk.type_block == ResultStandardFiltering.BOND_TARGET.name
+            or txt_blk.type_block == ResultStandardFiltering.EQUITY_TARGET.name
         ):
             txt_blk.metadata["fund"] = remove_fund_excess(txt_blk.metadata["fund"])
             c = txt_blk.content
@@ -89,7 +89,7 @@ def pdf_extract_rename(page):
         PdfLineSelection.text("has changed its name"), (-0.1, 0.0), 1.2, 2.5
     ).select(lines)
     rename = "".join((r.text for r in renames))
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK, {}, rename)]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {}, rename)]
 
 
 def pdf_extract_merges(page):
@@ -105,7 +105,7 @@ def pdf_extract_merges(page):
     ).select(lines)
     groups = get_groups(body, 20)
     merges = "".join((m.text for g, m in zip(groups, body) if g == 0))
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK, {}, merges)]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {}, merges)]
 
 
 rename_regex = re.compile(
@@ -125,7 +125,7 @@ def text_filter_rename(pdf_blks, filter_data):
     if current_name in funds:
         return [
             TextBlock(
-                OneTextBlockType.RELEVANT_BLOCK,
+                OneTextBlockType.RELEVANT_BLOCK.name,
                 {
                     "old_name": m.group(2),
                     "current_name": current_name.name,
@@ -158,7 +158,7 @@ def text_filter_merges(pdf_blks, filter_data):
             date = m.group(1)
             res.append(
                 TextBlock(
-                    OneTextBlockType.RELEVANT_BLOCK,
+                    OneTextBlockType.RELEVANT_BLOCK.name,
                     {
                         "old_name": old_name,
                         "current_name": current_name.name,
@@ -261,7 +261,7 @@ def esg_indicators_pdf_extact_art8(page):
     )
     # nrows=max(rows)+1
     # ncols=max(cols)+1
-    # blks=[PdfBlock(OnePdfBlockType.RELEVANT_BLOCK,{"table-row":r,"table-col":c},ll.text) for ll,(r,c) in zip(l,cc)]
+    # blks=[PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name,{"table-row":r,"table-col":c},ll.text) for ll,(r,c) in zip(l,cc)]
     # values=[ll.text for ll,r,c in zip(l,rows,cols) for row in range(n_rows) if c==1 and row==r]
 
     res = []
@@ -274,7 +274,7 @@ def esg_indicators_pdf_extact_art8(page):
         ).strip()
 
         res.append((key, value))
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK, {k: v for k, v in res}, f[0].text)]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {k: v for k, v in res}, f[0].text)]
 
 
 @investment_fund_filter_data
@@ -287,7 +287,7 @@ def esg_indicators_text_filter_art8(pdf_blks, filter_funds):
     if fund in filter_funds:
         return [
             TextBlock.from_content(
-                OnePdfBlockType.RELEVANT_BLOCK, {"index": k, "fund": fund_name}, v
+                OnePdfBlockType.RELEVANT_BLOCK.name, {"index": k, "fund": fund_name}, v
             )
             for k, v in blk.metadata.items()
         ]

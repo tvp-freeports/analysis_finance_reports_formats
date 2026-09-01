@@ -1,25 +1,25 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundRename",
+      "class": "freeports.output:FundRename",
       "data": {
-        "old_name": "Sanpaolo Azionario Internazionale Etico",
         "current_name": "EURIZON AZIONARIO INTERNAZIONALE ETICO",
         "date": {
           "__date__": "2008-04-27"
-        }
+        },
+        "old_name": "Sanpaolo Azionario Internazionale Etico"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "AM Azionario Etico",
         "current_name": "EURIZON AZIONARIO INTERNAZIONALE ETICO",
         "date": {
           "__date__": "2022-06-24"
-        }
+        },
+        "old_name": "AM Azionario Etico"
       }
     }
   }

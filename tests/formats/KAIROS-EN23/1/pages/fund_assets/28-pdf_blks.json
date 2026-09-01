@@ -1,15 +1,15 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "Kairos International Sicav - Bond (in EUR)",
       "currency": "Kairos International Sicav - Bond (in EUR)",
-      "tot_assets": "124,084,668.57",
+      "date": null,
+      "fund": "Kairos International Sicav - Bond (in EUR)",
       "liabilities": "349,535.02",
       "net_assets": "123,735,133.55",
-      "date": null
+      "tot_assets": "124,084,668.57"
     },
-    "content": "",
-    "__pdf_block__": true
+    "content": ""
   }
 ]

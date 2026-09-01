@@ -1,321 +1,321 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 1.5% 15-01/06/2025",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 3000000.0,
-        "market_value": 2988420.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.06643,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.5% 15-01/06/2025",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.015,
+        "market_value": 2988420.0,
         "maturity": {
           "__date__": "2025-06-01"
         },
-        "interest_rate": 0.015
+        "nominal_quantity": 3000000.0,
+        "perc_net_assets": 0.06643
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 3.85% 23-15/09/2026",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 2500000.0,
-        "market_value": 2560350.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.056909999999999995,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.85% 23-15/09/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.0385,
+        "market_value": 2560350.0,
         "maturity": {
           "__date__": "2026-09-15"
         },
-        "interest_rate": 0.0385
+        "nominal_quantity": 2500000.0,
+        "perc_net_assets": 0.056909999999999995
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 3.8% 23-15/04/2026",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 2000000.0,
-        "market_value": 2035320.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.04524,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.8% 23-15/04/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.038,
+        "market_value": 2035320.0,
         "maturity": {
           "__date__": "2026-04-15"
         },
-        "interest_rate": 0.038
+        "nominal_quantity": 2000000.0,
+        "perc_net_assets": 0.04524
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 3.1% 24-28/08/2026",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 2000000.0,
-        "market_value": 2022260.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.044950000000000004,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.1% 24-28/08/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.031,
+        "market_value": 2022260.0,
         "maturity": {
           "__date__": "2026-08-28"
         },
-        "interest_rate": 0.031
+        "nominal_quantity": 2000000.0,
+        "perc_net_assets": 0.044950000000000004
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 0.35% 19-01/02/2025",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 2000000.0,
-        "market_value": 1995840.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.04436,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.35% 19-01/02/2025",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.0034999999999999996,
+        "market_value": 1995840.0,
         "maturity": {
           "__date__": "2025-02-01"
         },
-        "interest_rate": 0.0034999999999999996
+        "nominal_quantity": 2000000.0,
+        "perc_net_assets": 0.04436
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 0.5% 20-01/02/2026",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 2000000.0,
-        "market_value": 1961340.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0436,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.5% 20-01/02/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.005,
+        "market_value": 1961340.0,
         "maturity": {
           "__date__": "2026-02-01"
         },
-        "interest_rate": 0.005
+        "nominal_quantity": 2000000.0,
+        "perc_net_assets": 0.0436
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 0.65% 19-28/10/2027",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 1500120.0,
-        "market_value": 1463622.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.03253,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.65% 19-28/10/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.006500000000000001,
+        "market_value": 1463622.0,
         "maturity": {
           "__date__": "2027-10-28"
         },
-        "interest_rate": 0.006500000000000001
+        "nominal_quantity": 1500120.0,
+        "perc_net_assets": 0.03253
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 3.2% 24-28/01/2026",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 1000000.0,
-        "market_value": 1008310.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.02241,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.2% 24-28/01/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.032,
+        "market_value": 1008310.0,
         "maturity": {
           "__date__": "2026-01-28"
         },
-        "interest_rate": 0.032
+        "nominal_quantity": 1000000.0,
+        "perc_net_assets": 0.02241
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 1.85% 20-01/07/2025",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 1000000.0,
-        "market_value": 997280.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.022170000000000002,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.85% 20-01/07/2025",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.018500000000000003,
+        "market_value": 997280.0,
         "maturity": {
           "__date__": "2025-07-01"
         },
-        "interest_rate": 0.018500000000000003
+        "nominal_quantity": 1000000.0,
+        "perc_net_assets": 0.022170000000000002
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 1.45% 18-15/05/2025",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 1000000.0,
-        "market_value": 996270.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.02215,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 1.45% 18-15/05/2025",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.014499999999999999,
+        "market_value": 996270.0,
         "maturity": {
           "__date__": "2025-05-15"
         },
-        "interest_rate": 0.014499999999999999
+        "nominal_quantity": 1000000.0,
+        "perc_net_assets": 0.02215
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BOTS",
-        "company_match": "ITALY BOTS 0% 24-14/03/2025",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 1000000.0,
-        "market_value": 968551.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.02153,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/03/2025",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": null,
+        "market_value": 968551.0,
         "maturity": {
           "__date__": "2025-03-14"
         },
-        "interest_rate": null
+        "nominal_quantity": 1000000.0,
+        "perc_net_assets": 0.02153
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 3.45% 24-15/07/2027",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 500000.0,
-        "market_value": 511885.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.01138,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 3.45% 24-15/07/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.0345,
+        "market_value": 511885.0,
         "maturity": {
           "__date__": "2027-07-15"
         },
-        "interest_rate": 0.0345
+        "nominal_quantity": 500000.0,
+        "perc_net_assets": 0.01138
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 0.85% 19-15/01/2027",
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "nominal_quantity": 500000.0,
-        "market_value": 485435.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.01079,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.85% 19-15/01/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "interest_rate": 0.0085,
+        "market_value": 485435.0,
         "maturity": {
           "__date__": "2027-01-15"
         },
-        "interest_rate": 0.0085
+        "nominal_quantity": 500000.0,
+        "perc_net_assets": 0.01079
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX "
+        "name": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX"
       }
     }
   }

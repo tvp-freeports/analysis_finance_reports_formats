@@ -1,159 +1,159 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "4.03",
+      "acquisition cost": "2,580,421",
+      "acquisition currency": "USD",
+      "company": "Alphabet",
+      "company match": "Alphabet Inc -C-",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
       "manco": null,
       "market value": "4,212,617",
-      "% net assets": "4.03",
-      "quantity": "22,694",
-      "acquisition currency": "USD",
-      "acquisition cost": "2,580,421",
-      "company match": "Alphabet Inc -C-",
-      "company": "Alphabet",
-      "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "22,694"
     },
     "content": "Alphabet Inc -C-",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 11,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 11
       },
       "content": "Alphabet Inc -C-"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "3.91",
+      "acquisition cost": "3,055,761",
+      "acquisition currency": "USD",
+      "company": "Amazon",
+      "company match": "Amazon Com Inc",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
       "manco": null,
       "market value": "4,095,345",
-      "% net assets": "3.91",
-      "quantity": "19,210",
-      "acquisition currency": "USD",
-      "acquisition cost": "3,055,761",
-      "company match": "Amazon Com Inc",
-      "company": "Amazon",
-      "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "19,210"
     },
     "content": "Amazon Com Inc",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 12,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 12
       },
       "content": "Amazon Com Inc"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "4.10",
+      "acquisition cost": "3,207,090",
+      "acquisition currency": "USD",
+      "company": "Apple Inc",
+      "company match": "Apple Inc",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
       "manco": null,
       "market value": "4,290,595",
-      "% net assets": "4.10",
-      "quantity": "17,660",
-      "acquisition currency": "USD",
-      "acquisition cost": "3,207,090",
-      "company match": "Apple Inc",
-      "company": "Apple Inc",
-      "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "17,660"
     },
     "content": "Apple Inc",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 15,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 15
       },
       "content": "Apple Inc"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1.81",
+      "acquisition cost": "1,260,214",
+      "acquisition currency": "USD",
+      "company": "Blackrock",
+      "company match": "Blackrock Rg",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
       "manco": null,
       "market value": "1,894,418",
-      "% net assets": "1.81",
-      "quantity": "1,914",
-      "acquisition currency": "USD",
-      "acquisition cost": "1,260,214",
-      "company match": "Blackrock Rg",
-      "company": "Blackrock",
-      "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1,914"
     },
     "content": "Blackrock Rg",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 19,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 19
       },
       "content": "Blackrock Rg"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "5.53",
+      "acquisition cost": "3,573,245",
+      "acquisition currency": "USD",
+      "company": "Microsoft",
+      "company match": "Microsoft Corp.",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
       "manco": null,
       "market value": "5,781,584",
-      "% net assets": "5.53",
-      "quantity": "14,127",
-      "acquisition currency": "USD",
-      "acquisition cost": "3,573,245",
-      "company match": "Microsoft Corp.",
-      "company": "Microsoft",
-      "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "14,127"
     },
     "content": "Microsoft Corp.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 36,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 36
       },
       "content": "Microsoft Corp."
-    },
-    "__text_block__": true
+    }
   }
 ]

@@ -1,1534 +1,1534 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 1
+    },
+    "content": "KFW 0.0% 20-15.09.28"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 1
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 1
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 1
+    },
+    "content": "99,928"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 1
+    },
+    "content": "85,517"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 1
+    },
+    "content": "0.59"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 2
+    },
+    "content": "KFW 0.875% 19-15.09.26"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 2
+    },
+    "content": "50,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 2
+    },
+    "content": "GBP"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 2
+    },
+    "content": "59,465"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 2
+    },
+    "content": "50,385"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 2
+    },
+    "content": "0.34"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 3
+    },
+    "content": "KFW 1.0% 21-01.10.26"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 3
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 3
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 3
+    },
+    "content": "85,719"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 3
+    },
+    "content": "82,005"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 3
+    },
+    "content": "0.56"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 4
+    },
+    "content": "KFW 2.0% 22-15.11.29"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 4
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 4
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 4
+    },
+    "content": "95,156"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 4
+    },
+    "content": "94,312"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 4
+    },
+    "content": "0.65"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 5
+    },
+    "content": "IRELAND 3.0% 23-18.10.43"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 5
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 5
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 5
+    },
+    "content": "199,416"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 5
+    },
+    "content": "196,739"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 5
+    },
+    "content": "1.35"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 6
+    },
+    "content": "ITALY 1.50% 20-30.04.45 /BTP"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 6
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 6
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 6
+    },
+    "content": "249,544"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 6
+    },
+    "content": "185,661"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 6
+    },
+    "content": "1.27"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 7
+    },
+    "content": "JFM 3.375% 23-22.02.28"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 7
+    },
+    "content": "400,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 7
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 7
+    },
+    "content": "397,707"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 7
+    },
+    "content": "396,359"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 7
+    },
+    "content": "2.73"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 8
+    },
+    "content": "MIT UFJ FIN 0.848% 19.07.29"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 8
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 8
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 8
+    },
+    "content": "202,774"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 8
+    },
+    "content": "169,261"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 8
+    },
+    "content": "1.16"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 9
+    },
+    "content": "EIB 1% 19-14.11.42"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 9
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 9
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 9
+    },
+    "content": "109,583"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 9
+    },
+    "content": "68,298"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 9
+    },
+    "content": "0.47"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 10
+    },
+    "content": "EIB 1.5% 17-02.03.27"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 10
+    },
+    "content": "370,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 10
+    },
+    "content": "SEK"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 10
+    },
+    "content": "39,157"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 10
+    },
+    "content": "29,052"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 10
+    },
+    "content": "0.20"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 11
+    },
+    "content": "EIB 2.25% 22-15.03.30"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 11
+    },
+    "content": "150,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 11
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 11
+    },
+    "content": "144,313"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 11
+    },
+    "content": "142,851"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 11
+    },
+    "content": "0.98"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 12
+    },
+    "content": "EIB 2.875% 18-13.06.25 144A"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 12
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 12
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 12
+    },
+    "content": "181,270"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 12
+    },
+    "content": "176,290"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 12
+    },
+    "content": "1.21"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 13
+    },
+    "content": "EIB 3.3% 17-03.02.28"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 13
+    },
+    "content": "162,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 13
+    },
+    "content": "AUD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 13
+    },
+    "content": "110,547"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 13
+    },
+    "content": "93,877"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 13
+    },
+    "content": "0.65"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 14
+    },
+    "content": "EIB 3.75% 23-14.02.33"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 14
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 14
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 14
+    },
+    "content": "92,254"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 14
+    },
+    "content": "90,320"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 14
+    },
+    "content": "0.62"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 15
+    },
+    "content": "PROLOGIS IN 3.625% 22-07.03.30"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 15
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 15
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 15
+    },
+    "content": "96,795"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 15
+    },
+    "content": "93,573"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 15
+    },
+    "content": "0.64"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 16
+    },
+    "content": "ABN AMRO BA 4.0% 23-16.01.28"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 16
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 16
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 16
+    },
+    "content": "299,241"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 16
+    },
+    "content": "294,451"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 16
+    },
+    "content": "2.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 17
+    },
+    "content": "ALLIANDER 1.625% 18-PERP REGS"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 17
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 17
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 17
+    },
+    "content": "303,271"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 17
+    },
+    "content": "276,929"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 17
+    },
+    "content": "1.90"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 18
+    },
+    "content": "ALLIANDER 3.25% 23-13.06.28"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 18
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 18
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 18
+    },
+    "content": "99,289"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 18
+    },
+    "content": "98,764"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 18
+    },
+    "content": "0.68"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": true,
+      "table-col": 0,
+      "table-row": 19
+    },
+    "content": "DIGITAL DUT 1.50% 20-15.03.30 REGS"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 19
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 19
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 19
+    },
+    "content": "258,426"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 19
+    },
+    "content": "235,865"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 19
+    },
+    "content": "1.62"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 20
+    },
+    "content": "EDP FIN BV 3.875% 22-11.03.30"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 20
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 20
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 20
+    },
+    "content": "99,676"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 20
+    },
+    "content": "99,778"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 20
+    },
+    "content": "0.69"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 21
+    },
+    "content": "GLOBAL SWIT 1.375% 20-07.10.30"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 21
+    },
+    "content": "500,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 21
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 21
+    },
+    "content": "486,601"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 21
+    },
+    "content": "416,200"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 21
+    },
+    "content": "2.86"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 22
+    },
+    "content": "ING GRO 4.625% 18-06.01.26 144A"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 22
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 22
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 22
+    },
+    "content": "185,534"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 22
+    },
+    "content": "178,817"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 22
+    },
+    "content": "1.23"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 23
+    },
+    "content": "NETHER GOVE 0.5% 19-15.01.40"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 23
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 23
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 23
+    },
+    "content": "72,138"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 23
+    },
+    "content": "70,469"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 23
+    },
+    "content": "0.48"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 24
+    },
+    "content": "NWB 0% 19-02.10.34"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 24
+    },
+    "content": "150,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 24
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 24
+    },
+    "content": "147,229"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 24
+    },
+    "content": "105,716"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 24
+    },
+    "content": "0.73"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 25
+    },
+    "content": "SIEMENS ENE 4.25% 23-05.04.29"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 25
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 25
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 25
+    },
+    "content": "100,400"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 25
+    },
+    "content": "97,387"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 25
+    },
+    "content": "0.67"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 0
+    },
+    "content": "Asteria Funds"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 26
+    },
+    "content": "Asteria Funds | 27/41"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
     "metadata": {},
-    "content": "(Expressed in EUR)",
-    "__pdf_block__": true
+    "content": "Asteria Funds – Climate Bonds"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
     "metadata": {},
-    "content": "Asteria Funds – Climate Bonds",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "KFW 0.0% 20-15.09.28",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "100,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "99,928",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "85,517",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 1,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.59",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "KFW 0.875% 19-15.09.26",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "50,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "GBP",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "59,465",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "50,385",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 2,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.34",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "KFW 1.0% 21-01.10.26",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "100,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "85,719",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "82,005",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 3,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.56",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "KFW 2.0% 22-15.11.29",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "100,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "95,156",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "94,312",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 4,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.65",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "IRELAND 3.0% 23-18.10.43",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "200,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "199,416",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "196,739",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 5,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.35",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ITALY 1.50% 20-30.04.45 /BTP",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "300,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "249,544",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "185,661",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 6,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.27",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "JFM 3.375% 23-22.02.28",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "400,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "397,707",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "396,359",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 7,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "2.73",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "MIT UFJ FIN 0.848% 19.07.29",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "200,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "202,774",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "169,261",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 8,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.16",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "EIB 1% 19-14.11.42",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "100,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "109,583",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "68,298",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 9,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.47",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "EIB 1.5% 17-02.03.27",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "370,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "SEK",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "39,157",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "29,052",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 10,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.20",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "EIB 2.25% 22-15.03.30",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "150,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "144,313",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "142,851",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 11,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.98",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "EIB 2.875% 18-13.06.25 144A",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "200,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "181,270",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "176,290",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 12,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.21",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "EIB 3.3% 17-03.02.28",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "162,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "AUD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "110,547",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "93,877",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 13,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.65",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "EIB 3.75% 23-14.02.33",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "100,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "92,254",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "90,320",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 14,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.62",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "PROLOGIS IN 3.625% 22-07.03.30",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "100,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "96,795",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "93,573",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 15,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.64",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ABN AMRO BA 4.0% 23-16.01.28",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "300,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "299,241",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "294,451",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 16,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "2.02",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ALLIANDER 1.625% 18-PERP REGS",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "300,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "303,271",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "276,929",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 17,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.90",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ALLIANDER 3.25% 23-13.06.28",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "100,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "99,289",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "98,764",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 18,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.68",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 0,
-      "is-max-width": true
-    },
-    "content": "DIGITAL DUT 1.50% 20-15.03.30 REGS",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "300,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "258,426",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "235,865",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 19,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.62",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "EDP FIN BV 3.875% 22-11.03.30",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "100,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "99,676",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "99,778",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 20,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.69",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "GLOBAL SWIT 1.375% 20-07.10.30",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "500,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "486,601",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "416,200",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 21,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "2.86",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "ING GRO 4.625% 18-06.01.26 144A",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "200,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "USD",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "185,534",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "178,817",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 22,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "1.23",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "NETHER GOVE 0.5% 19-15.01.40",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "100,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "72,138",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "70,469",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 23,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.48",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "NWB 0% 19-02.10.34",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "150,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "147,229",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "105,716",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 24,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.73",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "SIEMENS ENE 4.25% 23-05.04.29",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 1,
-      "is-max-width": false
-    },
-    "content": "100,000",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 2,
-      "is-max-width": false
-    },
-    "content": "EUR",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 3,
-      "is-max-width": false
-    },
-    "content": "100,400",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "97,387",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 25,
-      "table-col": 5,
-      "is-max-width": false
-    },
-    "content": "0.67",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 0,
-      "table-col": 0,
-      "is-max-width": false
-    },
-    "content": "Asteria Funds",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
-    "metadata": {
-      "table-row": 26,
-      "table-col": 4,
-      "is-max-width": false
-    },
-    "content": "Asteria Funds | 27/41",
-    "__pdf_block__": true
+    "content": "(Expressed in EUR)"
   }
 ]

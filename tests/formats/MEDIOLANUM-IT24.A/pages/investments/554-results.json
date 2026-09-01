@@ -1,109 +1,109 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Equity",
       "data": {
-        "name": "COUPON STRATEGY COLLECTION"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
-      "data": {
-        "company": "Carlsberg Group",
-        "company_match": "Carlsberg AS",
-        "fund": "COUPON STRATEGY COLLECTION ",
-        "nominal_quantity": 10357.0,
-        "market_value": 958305.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0006,
         "acquisition_cost": 1049575.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:DKK"
-        }
+          "__enum__": "freeports.consts:Currency:DKK"
+        },
+        "company": "Carlsberg Group",
+        "company_match": "Carlsberg AS",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "COUPON STRATEGY COLLECTION ",
+        "market_value": 958305.0,
+        "nominal_quantity": 10357.0,
+        "perc_net_assets": 0.0006
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "NORDEA",
-        "company_match": "Nordea Bank Abp",
-        "fund": "COUPON STRATEGY COLLECTION ",
-        "nominal_quantity": 99754.0,
-        "market_value": 1048851.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0007000000000000001,
         "acquisition_cost": 1093291.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:SEK"
-        }
+          "__enum__": "freeports.consts:Currency:SEK"
+        },
+        "company": "NORDEA",
+        "company_match": "Nordea Bank Abp",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "COUPON STRATEGY COLLECTION ",
+        "market_value": 1048851.0,
+        "nominal_quantity": 99754.0,
+        "perc_net_assets": 0.0007000000000000001
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "AXA SA",
-        "company_match": "AXA SA",
-        "fund": "COUPON STRATEGY COLLECTION ",
-        "nominal_quantity": 21097.0,
-        "market_value": 724049.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0005,
         "acquisition_cost": 680648.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        }
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "AXA SA",
+        "company_match": "AXA SA",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "COUPON STRATEGY COLLECTION ",
+        "market_value": 724049.0,
+        "nominal_quantity": 21097.0,
+        "perc_net_assets": 0.0005
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Carrefour",
-        "company_match": "Carrefour SA",
-        "fund": "COUPON STRATEGY COLLECTION ",
-        "nominal_quantity": 52507.0,
-        "market_value": 720921.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0005,
         "acquisition_cost": 775320.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        }
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "Carrefour",
+        "company_match": "Carrefour SA",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "COUPON STRATEGY COLLECTION ",
+        "market_value": 720921.0,
+        "nominal_quantity": 52507.0,
+        "perc_net_assets": 0.0005
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Siemens",
-        "company_match": "Siemens AG",
-        "fund": "COUPON STRATEGY COLLECTION ",
-        "nominal_quantity": 3309.0,
-        "market_value": 623945.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0004,
         "acquisition_cost": 624132.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        }
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "Siemens",
+        "company_match": "Siemens AG",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "COUPON STRATEGY COLLECTION ",
+        "market_value": 623945.0,
+        "nominal_quantity": 3309.0,
+        "perc_net_assets": 0.0004
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "COUPON STRATEGY COLLECTION"
       }
     }
   }

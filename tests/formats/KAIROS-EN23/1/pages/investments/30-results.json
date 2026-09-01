@@ -1,153 +1,153 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Bond",
       "data": {
-        "name": "Kairos International Sicav - Bond "
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
-      "data": {
-        "company": "ICCREA",
-        "company_match": "1,000,000.00 ICCREA BANCA SPA 21-17/01/2027 FRN",
-        "fund": "Kairos International Sicav - Bond ",
-        "nominal_quantity": 1000000.0,
-        "market_value": 991090.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.008,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "ICCREA",
+        "company_match": "1,000,000.00 ICCREA BANCA SPA 21-17/01/2027 FRN",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Kairos International Sicav - Bond ",
+        "interest_rate": null,
+        "market_value": 991090.0,
         "maturity": {
           "__date__": "2027-01-17"
         },
-        "interest_rate": null
+        "nominal_quantity": 1000000.0,
+        "perc_net_assets": 0.008
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "INTESA SANPAOLO",
-        "company_match": "1,000,000.00 INTESA SANPAOLO 2.925% 20-14/10/2030",
-        "fund": "Kairos International Sicav - Bond ",
-        "nominal_quantity": 1000000.0,
-        "market_value": 957960.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0077,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "INTESA SANPAOLO",
+        "company_match": "1,000,000.00 INTESA SANPAOLO 2.925% 20-14/10/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Kairos International Sicav - Bond ",
+        "interest_rate": null,
+        "market_value": 957960.0,
         "maturity": {
           "__date__": "2030-10-14"
         },
-        "interest_rate": null
+        "nominal_quantity": 1000000.0,
+        "perc_net_assets": 0.0077
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "INTESA SANPAOLO",
-        "company_match": "550,000.00 INTESA SANPAOLO 23-08/03/2028 FRN",
-        "fund": "Kairos International Sicav - Bond ",
-        "nominal_quantity": 550000.0,
-        "market_value": 572379.5,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0046,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "INTESA SANPAOLO",
+        "company_match": "550,000.00 INTESA SANPAOLO 23-08/03/2028 FRN",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Kairos International Sicav - Bond ",
+        "interest_rate": null,
+        "market_value": 572379.5,
         "maturity": {
           "__date__": "2028-03-08"
         },
-        "interest_rate": null
+        "nominal_quantity": 550000.0,
+        "perc_net_assets": 0.0046
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "INTESA SANPAOLO",
-        "company_match": "500,000.00 INTESA SANPAOLO 23-16/11/2025 FRN",
-        "fund": "Kairos International Sicav - Bond ",
-        "nominal_quantity": 500000.0,
-        "market_value": 502185.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0040999999999999995,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "INTESA SANPAOLO",
+        "company_match": "500,000.00 INTESA SANPAOLO 23-16/11/2025 FRN",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Kairos International Sicav - Bond ",
+        "interest_rate": null,
+        "market_value": 502185.0,
         "maturity": {
           "__date__": "2025-11-16"
         },
-        "interest_rate": null
+        "nominal_quantity": 500000.0,
+        "perc_net_assets": 0.0040999999999999995
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Volvo Car Corp",
-        "company_match": "624,000.00 VOLVO CAR AB 2% 17-24/01/2025",
-        "fund": "Kairos International Sicav - Bond ",
-        "nominal_quantity": 624000.0,
-        "market_value": 621360.48,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.005,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Volvo Car Corp",
+        "company_match": "624,000.00 VOLVO CAR AB 2% 17-24/01/2025",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Kairos International Sicav - Bond ",
+        "interest_rate": null,
+        "market_value": 621360.48,
         "maturity": {
           "__date__": "2025-01-24"
         },
-        "interest_rate": null
+        "nominal_quantity": 624000.0,
+        "perc_net_assets": 0.005
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Volvo Car Corp",
-        "company_match": "600,000.00 VOLVO CAR AB 4.75% 24-08/05/2030",
-        "fund": "Kairos International Sicav - Bond ",
-        "nominal_quantity": 600000.0,
-        "market_value": 618276.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.005,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Volvo Car Corp",
+        "company_match": "600,000.00 VOLVO CAR AB 4.75% 24-08/05/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Kairos International Sicav - Bond ",
+        "interest_rate": null,
+        "market_value": 618276.0,
         "maturity": {
           "__date__": "2030-05-08"
         },
-        "interest_rate": null
+        "nominal_quantity": 600000.0,
+        "perc_net_assets": 0.005
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "KAIROS INTERNATIONAL SICAV BOND"
       }
     }
   }

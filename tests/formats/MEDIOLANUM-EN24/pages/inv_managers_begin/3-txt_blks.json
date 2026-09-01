@@ -1,7 +1,7 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -10,12 +10,11 @@
       }
     },
     "content": "Acadian Asset Management LLC",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -28,44 +27,39 @@
       }
     },
     "content": "AQR Capital Management LLC",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE Provident Fund 1",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE North American Equity Fund",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE Pacific Equity Fund",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE International Equity Fund",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -76,28 +70,25 @@
       }
     },
     "content": "Axiom Investors LLC",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE International Equity Fund",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE Provident Fund 1",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -106,12 +97,11 @@
       }
     },
     "content": "Blackrock Investment Management (UK) Limited",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -120,12 +110,11 @@
       }
     },
     "content": "Eleva Capital SAS",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -134,12 +123,11 @@
       }
     },
     "content": "FIL (Luxembourg) S.A.",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -155,17 +143,17 @@
     },
     "content": "Mediolanum International Funds Limited ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
       "metadata": {
         "group": 0
       },
       "content": "Mediolanum International Funds Limited "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardManagmentCompanyTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:MANAGEMENT_COMPANY",
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -181,12 +169,12 @@
     },
     "content": "Mediolanum International Funds Limited ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
       "metadata": {
         "group": 0
       },
       "content": "Mediolanum International Funds Limited "
-    },
-    "__text_block__": true
+    }
   }
 ]

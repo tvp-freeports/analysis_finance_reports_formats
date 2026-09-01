@@ -1,2394 +1,2394 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "(valori espressi in EUR) ",
-    "__pdf_block__": true
+    "content": "(valori espressi in EUR) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "Quantità/",
-    "__pdf_block__": true
+    "content": "Quantità/"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "Valore ",
-    "__pdf_block__": true
+    "content": "Valore "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "nominale ",
-    "__pdf_block__": true
+    "content": "nominale "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "Costo di ",
-    "__pdf_block__": true
+    "content": "Costo di "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "acquisizione ",
-    "__pdf_block__": true
+    "content": "acquisizione "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "% atti-",
-    "__pdf_block__": true
+    "content": "% atti-"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "vità",
-    "__pdf_block__": true
+    "content": "vità"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "nette ",
-    "__pdf_block__": true
+    "content": "nette "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "Descrizione ",
-    "__pdf_block__": true
+    "content": "Descrizione "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "Valuta ",
-    "__pdf_block__": true
+    "content": "Valuta "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "Valutazione ",
-    "__pdf_block__": true
+    "content": "Valutazione "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "FRANCIA (cont.)",
-    "__pdf_block__": true
+    "content": "FRANCIA (cont.)"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "Eiffage SA ",
-    "__pdf_block__": true
+    "content": "Eiffage SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "1.852 ",
-    "__pdf_block__": true
+    "content": "1.852 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "154.988 ",
-    "__pdf_block__": true
+    "content": "154.988 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "156.901 ",
-    "__pdf_block__": true
+    "content": "156.901 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "0,03 ",
-    "__pdf_block__": true
+    "content": "0,03 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "EssilorLuxottica SA ",
-    "__pdf_block__": true
+    "content": "EssilorLuxottica SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "15.844 ",
-    "__pdf_block__": true
+    "content": "15.844 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "3.080.366 ",
-    "__pdf_block__": true
+    "content": "3.080.366 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "3.732.846 ",
-    "__pdf_block__": true
+    "content": "3.732.846 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "0,77 ",
-    "__pdf_block__": true
+    "content": "0,77 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "Hermes International SCA ",
-    "__pdf_block__": true
+    "content": "Hermes International SCA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "1.220 ",
-    "__pdf_block__": true
+    "content": "1.220 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "2.518.935 ",
-    "__pdf_block__": true
+    "content": "2.518.935 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "2.832.840 ",
-    "__pdf_block__": true
+    "content": "2.832.840 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "0,58 ",
-    "__pdf_block__": true
+    "content": "0,58 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "Klepierre SA ",
-    "__pdf_block__": true
+    "content": "Klepierre SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "5.368 ",
-    "__pdf_block__": true
+    "content": "5.368 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "130.280 ",
-    "__pdf_block__": true
+    "content": "130.280 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "149.230 ",
-    "__pdf_block__": true
+    "content": "149.230 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "0,03 ",
-    "__pdf_block__": true
+    "content": "0,03 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "Legrand SA ",
-    "__pdf_block__": true
+    "content": "Legrand SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "17.423 ",
-    "__pdf_block__": true
+    "content": "17.423 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "1.714.997 ",
-    "__pdf_block__": true
+    "content": "1.714.997 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "1.638.459 ",
-    "__pdf_block__": true
+    "content": "1.638.459 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "0,34 ",
-    "__pdf_block__": true
+    "content": "0,34 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "L'Oreal SA ",
-    "__pdf_block__": true
+    "content": "L'Oreal SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "7.067 ",
-    "__pdf_block__": true
+    "content": "7.067 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "2.893.283 ",
-    "__pdf_block__": true
+    "content": "2.893.283 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "2.415.854 ",
-    "__pdf_block__": true
+    "content": "2.415.854 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "0,50 ",
-    "__pdf_block__": true
+    "content": "0,50 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "LVMH Moet Hennessy Louis Vuitton SE ",
-    "__pdf_block__": true
+    "content": "LVMH Moet Hennessy Louis Vuitton SE "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "3.051 ",
-    "__pdf_block__": true
+    "content": "3.051 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "2.085.887 ",
-    "__pdf_block__": true
+    "content": "2.085.887 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "1.938.911 ",
-    "__pdf_block__": true
+    "content": "1.938.911 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "0,40 ",
-    "__pdf_block__": true
+    "content": "0,40 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "Pernod Ricard SA ",
-    "__pdf_block__": true
+    "content": "Pernod Ricard SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "14.000 ",
-    "__pdf_block__": true
+    "content": "14.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "2.736.543 ",
-    "__pdf_block__": true
+    "content": "2.736.543 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "1.526.000 ",
-    "__pdf_block__": true
+    "content": "1.526.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "0,31 ",
-    "__pdf_block__": true
+    "content": "0,31 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "Safran SA ",
-    "__pdf_block__": true
+    "content": "Safran SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "2.255 ",
-    "__pdf_block__": true
+    "content": "2.255 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "464.532 ",
-    "__pdf_block__": true
+    "content": "464.532 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "478.286 ",
-    "__pdf_block__": true
+    "content": "478.286 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "0,10 ",
-    "__pdf_block__": true
+    "content": "0,10 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "Sanofi SA ",
-    "__pdf_block__": true
+    "content": "Sanofi SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "41.650 ",
-    "__pdf_block__": true
+    "content": "41.650 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "3.858.816 ",
-    "__pdf_block__": true
+    "content": "3.858.816 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "3.904.271 ",
-    "__pdf_block__": true
+    "content": "3.904.271 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "0,80 ",
-    "__pdf_block__": true
+    "content": "0,80 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "Schneider Electric SE ",
-    "__pdf_block__": true
+    "content": "Schneider Electric SE "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "42.348 ",
-    "__pdf_block__": true
+    "content": "42.348 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "7.902.870 ",
-    "__pdf_block__": true
+    "content": "7.902.870 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "10.201.633 ",
-    "__pdf_block__": true
+    "content": "10.201.633 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "2,10 ",
-    "__pdf_block__": true
+    "content": "2,10 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "TotalEnergies SE ",
-    "__pdf_block__": true
+    "content": "TotalEnergies SE "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "9.658 ",
-    "__pdf_block__": true
+    "content": "9.658 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "521.540 ",
-    "__pdf_block__": true
+    "content": "521.540 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "515.447 ",
-    "__pdf_block__": true
+    "content": "515.447 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "0,11 ",
-    "__pdf_block__": true
+    "content": "0,11 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "Vinci SA ",
-    "__pdf_block__": true
+    "content": "Vinci SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "16.891 ",
-    "__pdf_block__": true
+    "content": "16.891 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "1.749.551 ",
-    "__pdf_block__": true
+    "content": "1.749.551 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "1.684.708 ",
-    "__pdf_block__": true
+    "content": "1.684.708 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "0,35 ",
-    "__pdf_block__": true
+    "content": "0,35 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "Totale Francia ",
-    "__pdf_block__": true
+    "content": "Totale Francia "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "43.112.132 ",
-    "__pdf_block__": true
+    "content": "43.112.132 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "44.946.518 ",
-    "__pdf_block__": true
+    "content": "44.946.518 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "9,26 ",
-    "__pdf_block__": true
+    "content": "9,26 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "GERMANIA ",
-    "__pdf_block__": true
+    "content": "GERMANIA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "Allianz SE ",
-    "__pdf_block__": true
+    "content": "Allianz SE "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "4.172 ",
-    "__pdf_block__": true
+    "content": "4.172 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "981.389 ",
-    "__pdf_block__": true
+    "content": "981.389 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "1.234.495 ",
-    "__pdf_block__": true
+    "content": "1.234.495 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "0,25 ",
-    "__pdf_block__": true
+    "content": "0,25 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "Brenntag SE ",
-    "__pdf_block__": true
+    "content": "Brenntag SE "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "2.698 ",
-    "__pdf_block__": true
+    "content": "2.698 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "186.479 ",
-    "__pdf_block__": true
+    "content": "186.479 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "156.160 ",
-    "__pdf_block__": true
+    "content": "156.160 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "0,03 ",
-    "__pdf_block__": true
+    "content": "0,03 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "Carl Zeiss Meditec AG ",
-    "__pdf_block__": true
+    "content": "Carl Zeiss Meditec AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "2.368 ",
-    "__pdf_block__": true
+    "content": "2.368 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "201.113 ",
-    "__pdf_block__": true
+    "content": "201.113 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "107.791 ",
-    "__pdf_block__": true
+    "content": "107.791 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "0,02 ",
-    "__pdf_block__": true
+    "content": "0,02 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "Commerzbank AG ",
-    "__pdf_block__": true
+    "content": "Commerzbank AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "18.097 ",
-    "__pdf_block__": true
+    "content": "18.097 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "273.008 ",
-    "__pdf_block__": true
+    "content": "273.008 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "284.575 ",
-    "__pdf_block__": true
+    "content": "284.575 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "0,06 ",
-    "__pdf_block__": true
+    "content": "0,06 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "CTS Eventim AG & Co KGaA ",
-    "__pdf_block__": true
+    "content": "CTS Eventim AG & Co KGaA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "1.822 ",
-    "__pdf_block__": true
+    "content": "1.822 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "142.838 ",
-    "__pdf_block__": true
+    "content": "142.838 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "148.766 ",
-    "__pdf_block__": true
+    "content": "148.766 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "0,03 ",
-    "__pdf_block__": true
+    "content": "0,03 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "Deutsche Bank AG ",
-    "__pdf_block__": true
+    "content": "Deutsche Bank AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "23.460 ",
-    "__pdf_block__": true
+    "content": "23.460 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "251.370 ",
-    "__pdf_block__": true
+    "content": "251.370 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "390.374 ",
-    "__pdf_block__": true
+    "content": "390.374 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "0,08 ",
-    "__pdf_block__": true
+    "content": "0,08 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "Deutsche Boerse AG ",
-    "__pdf_block__": true
+    "content": "Deutsche Boerse AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "8.741 ",
-    "__pdf_block__": true
+    "content": "8.741 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "1.807.235 ",
-    "__pdf_block__": true
+    "content": "1.807.235 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "1.943.999 ",
-    "__pdf_block__": true
+    "content": "1.943.999 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "0,40 ",
-    "__pdf_block__": true
+    "content": "0,40 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "Deutsche Lufthansa AG ",
-    "__pdf_block__": true
+    "content": "Deutsche Lufthansa AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "22.767 ",
-    "__pdf_block__": true
+    "content": "22.767 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "143.799 ",
-    "__pdf_block__": true
+    "content": "143.799 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "140.609 ",
-    "__pdf_block__": true
+    "content": "140.609 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "0,03 ",
-    "__pdf_block__": true
+    "content": "0,03 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "Deutsche Post AG ",
-    "__pdf_block__": true
+    "content": "Deutsche Post AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "48.362 ",
-    "__pdf_block__": true
+    "content": "48.362 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "2.103.476 ",
-    "__pdf_block__": true
+    "content": "2.103.476 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "1.643.341 ",
-    "__pdf_block__": true
+    "content": "1.643.341 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "0,34 ",
-    "__pdf_block__": true
+    "content": "0,34 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "Deutsche Telekom AG ",
-    "__pdf_block__": true
+    "content": "Deutsche Telekom AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "125.037 ",
-    "__pdf_block__": true
+    "content": "125.037 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "2.397.922 ",
-    "__pdf_block__": true
+    "content": "2.397.922 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "3.612.319 ",
-    "__pdf_block__": true
+    "content": "3.612.319 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "0,74 ",
-    "__pdf_block__": true
+    "content": "0,74 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "Fresenius Medical Care AG ",
-    "__pdf_block__": true
+    "content": "Fresenius Medical Care AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "16.475 ",
-    "__pdf_block__": true
+    "content": "16.475 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "643.023 ",
-    "__pdf_block__": true
+    "content": "643.023 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "727.536 ",
-    "__pdf_block__": true
+    "content": "727.536 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "0,15 ",
-    "__pdf_block__": true
+    "content": "0,15 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "Hannover Rueck SE ",
-    "__pdf_block__": true
+    "content": "Hannover Rueck SE "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "1.189 ",
-    "__pdf_block__": true
+    "content": "1.189 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "277.939 ",
-    "__pdf_block__": true
+    "content": "277.939 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "287.025 ",
-    "__pdf_block__": true
+    "content": "287.025 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "0,06 ",
-    "__pdf_block__": true
+    "content": "0,06 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "Heidelberg Materials AG ",
-    "__pdf_block__": true
+    "content": "Heidelberg Materials AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "7.433 ",
-    "__pdf_block__": true
+    "content": "7.433 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "765.763 ",
-    "__pdf_block__": true
+    "content": "765.763 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "886.757 ",
-    "__pdf_block__": true
+    "content": "886.757 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "0,18 ",
-    "__pdf_block__": true
+    "content": "0,18 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "Infineon Technologies AG ",
-    "__pdf_block__": true
+    "content": "Infineon Technologies AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "68.298 ",
-    "__pdf_block__": true
+    "content": "68.298 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "2.418.485 ",
-    "__pdf_block__": true
+    "content": "2.418.485 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "2.144.557 ",
-    "__pdf_block__": true
+    "content": "2.144.557 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "0,44 ",
-    "__pdf_block__": true
+    "content": "0,44 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "Mercedes-Benz Group AG ",
-    "__pdf_block__": true
+    "content": "Mercedes-Benz Group AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "6.163 ",
-    "__pdf_block__": true
+    "content": "6.163 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "409.465 ",
-    "__pdf_block__": true
+    "content": "409.465 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "331.569 ",
-    "__pdf_block__": true
+    "content": "331.569 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "0,07 ",
-    "__pdf_block__": true
+    "content": "0,07 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": true,
       "table-col": 0,
-      "is-max-width": true
+      "table-row": 33
     },
-    "content": "Muenchener Rueckversicherungs-Gesellschaft AG in Muenchen ",
-    "__pdf_block__": true
+    "content": "Muenchener Rueckversicherungs-Gesellschaft AG in Muenchen "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "2.690 ",
-    "__pdf_block__": true
+    "content": "2.690 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "1.298.539 ",
-    "__pdf_block__": true
+    "content": "1.298.539 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "1.310.299 ",
-    "__pdf_block__": true
+    "content": "1.310.299 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "0,27 ",
-    "__pdf_block__": true
+    "content": "0,27 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "Rational AG ",
-    "__pdf_block__": true
+    "content": "Rational AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "149 ",
-    "__pdf_block__": true
+    "content": "149 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "91.675 ",
-    "__pdf_block__": true
+    "content": "91.675 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "122.776 ",
-    "__pdf_block__": true
+    "content": "122.776 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "0,03 ",
-    "__pdf_block__": true
+    "content": "0,03 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "Rheinmetall AG ",
-    "__pdf_block__": true
+    "content": "Rheinmetall AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "3.472 ",
-    "__pdf_block__": true
+    "content": "3.472 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "1.793.135 ",
-    "__pdf_block__": true
+    "content": "1.793.135 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "2.133.891 ",
-    "__pdf_block__": true
+    "content": "2.133.891 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "0,44 ",
-    "__pdf_block__": true
+    "content": "0,44 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "RWE AG ",
-    "__pdf_block__": true
+    "content": "RWE AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "39.050 ",
-    "__pdf_block__": true
+    "content": "39.050 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "1.460.034 ",
-    "__pdf_block__": true
+    "content": "1.460.034 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "1.125.812 ",
-    "__pdf_block__": true
+    "content": "1.125.812 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "0,23 ",
-    "__pdf_block__": true
+    "content": "0,23 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "SAP SE ",
-    "__pdf_block__": true
+    "content": "SAP SE "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "16.422 ",
-    "__pdf_block__": true
+    "content": "16.422 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "2.076.501 ",
-    "__pdf_block__": true
+    "content": "2.076.501 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "3.880.519 ",
-    "__pdf_block__": true
+    "content": "3.880.519 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "0,80 ",
-    "__pdf_block__": true
+    "content": "0,80 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "Scout24 SE ",
-    "__pdf_block__": true
+    "content": "Scout24 SE "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "1.700 ",
-    "__pdf_block__": true
+    "content": "1.700 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "105.117 ",
-    "__pdf_block__": true
+    "content": "105.117 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "144.670 ",
-    "__pdf_block__": true
+    "content": "144.670 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "0,03 ",
-    "__pdf_block__": true
+    "content": "0,03 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "Siemens AG ",
-    "__pdf_block__": true
+    "content": "Siemens AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "15.913 ",
-    "__pdf_block__": true
+    "content": "15.913 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "2.422.070 ",
-    "__pdf_block__": true
+    "content": "2.422.070 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "3.000.555 ",
-    "__pdf_block__": true
+    "content": "3.000.555 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "0,62 ",
-    "__pdf_block__": true
+    "content": "0,62 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "Volkswagen AG / preference ",
-    "__pdf_block__": true
+    "content": "Volkswagen AG / preference "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "17.422 ",
-    "__pdf_block__": true
+    "content": "17.422 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "2.394.604 ",
-    "__pdf_block__": true
+    "content": "2.394.604 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "1.551.255 ",
-    "__pdf_block__": true
+    "content": "1.551.255 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "0,32 ",
-    "__pdf_block__": true
+    "content": "0,32 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "Totale Germania ",
-    "__pdf_block__": true
+    "content": "Totale Germania "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "24.644.979 ",
-    "__pdf_block__": true
+    "content": "24.644.979 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "27.309.650 ",
-    "__pdf_block__": true
+    "content": "27.309.650 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "5,62 ",
-    "__pdf_block__": true
+    "content": "5,62 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
     "metadata": {},
-    "content": "(valori espressi in EUR) ",
-    "__pdf_block__": true
+    "content": "EUROPEAN COLLECTION "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
     "metadata": {},
-    "content": "EUROPEAN COLLECTION ",
-    "__pdf_block__": true
+    "content": "(valori espressi in EUR) "
   }
 ]

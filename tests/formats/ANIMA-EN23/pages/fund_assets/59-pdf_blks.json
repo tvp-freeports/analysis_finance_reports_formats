@@ -1,106 +1,106 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "Total Company ^ As at 31 December 2023",
       "currency": "EUR",
-      "tot_assets": "9,742,609,394",
+      "date": "as at 31 December 2023",
+      "fund": "Total Company ^ As at 31 December 2023",
       "liabilities": "(549,060,945)",
       "net_assets": "9,193,548,449",
-      "date": "as at 31 December 2023"
+      "tot_assets": "9,742,609,394"
     },
-    "content": "",
-    "__pdf_block__": true
+    "content": ""
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "ANIMA Liquidity As at 31 December 2023",
       "currency": "EUR",
-      "tot_assets": "304,947,840",
+      "date": "as at 31 December 2023",
+      "fund": "ANIMA Liquidity As at 31 December 2023",
       "liabilities": "(9,666,708)",
       "net_assets": "295,281,132",
-      "date": "as at 31 December 2023"
+      "tot_assets": "304,947,840"
     },
-    "content": "",
-    "__pdf_block__": true
+    "content": ""
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "ANIMA Short Term Bond As at 31 December 2023",
       "currency": "EUR",
-      "tot_assets": "192,017,624",
+      "date": "as at 31 December 2023",
+      "fund": "ANIMA Short Term Bond As at 31 December 2023",
       "liabilities": "(5,847,460)",
       "net_assets": "186,170,164",
-      "date": "as at 31 December 2023"
+      "tot_assets": "192,017,624"
     },
-    "content": "",
-    "__pdf_block__": true
+    "content": ""
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "ANIMA Medium Term Bond As at 31 December 2023",
       "currency": "EUR",
-      "tot_assets": "1,708,513,575",
+      "date": "as at 31 December 2023",
+      "fund": "ANIMA Medium Term Bond As at 31 December 2023",
       "liabilities": "(52,132,775)",
       "net_assets": "1,656,380,800",
-      "date": "as at 31 December 2023"
+      "tot_assets": "1,708,513,575"
     },
-    "content": "",
-    "__pdf_block__": true
+    "content": ""
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "ANIMA Bond Dollar As at 31 December 2023",
       "currency": "EUR",
-      "tot_assets": "313,886,045",
+      "date": "as at 31 December 2023",
+      "fund": "ANIMA Bond Dollar As at 31 December 2023",
       "liabilities": "(4,346,904)",
       "net_assets": "309,539,141",
-      "date": "as at 31 December 2023"
+      "tot_assets": "313,886,045"
     },
-    "content": "",
-    "__pdf_block__": true
+    "content": ""
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "ANIMA Bond Flex As at 31 December 2023",
       "currency": "EUR",
-      "tot_assets": "103,224,319",
+      "date": "as at 31 December 2023",
+      "fund": "ANIMA Bond Flex As at 31 December 2023",
       "liabilities": "(265,712)",
       "net_assets": "102,958,607",
-      "date": "as at 31 December 2023"
+      "tot_assets": "103,224,319"
     },
-    "content": "",
-    "__pdf_block__": true
+    "content": ""
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "ANIMA Global Bond As at 31 December 2023",
       "currency": "EUR",
-      "tot_assets": "58,611,023",
+      "date": "as at 31 December 2023",
+      "fund": "ANIMA Global Bond As at 31 December 2023",
       "liabilities": "(1,677,447)",
       "net_assets": "56,933,576",
-      "date": "as at 31 December 2023"
+      "tot_assets": "58,611,023"
     },
-    "content": "",
-    "__pdf_block__": true
+    "content": ""
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "ANIMA Short Term Corporate Bond As at 31 December 2023",
       "currency": "EUR",
-      "tot_assets": "222,021,276",
+      "date": "as at 31 December 2023",
+      "fund": "ANIMA Short Term Corporate Bond As at 31 December 2023",
       "liabilities": "(520,833)",
       "net_assets": "221,500,443",
-      "date": "as at 31 December 2023"
+      "tot_assets": "222,021,276"
     },
-    "content": "",
-    "__pdf_block__": true
+    "content": ""
   }
 ]

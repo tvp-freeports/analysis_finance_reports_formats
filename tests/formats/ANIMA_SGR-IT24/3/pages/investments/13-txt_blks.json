@@ -1,132 +1,132 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "ANIMA VALORE OBBLIGAZIONARIO ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "ANIMA VALORE OBBLIGAZIONARIO "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "10,507% ",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 2.95% 24-15/02/2027 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+      "interest rate": "2.95%",
       "manco": null,
       "market value": "43.624 ",
-      "% net assets": "10,507% ",
-      "quantity": "                       43.000.000 ",
-      "acquisition currency": "EUR ",
-      "interest rate": "2.95%",
       "maturity": "15/02/2027",
-      "company match": "ITALY BTPS 2.95% 24-15/02/2027 ",
-      "company": "Italy btps",
-      "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                       43.000.000 "
     },
     "content": "ITALY BTPS 2.95% 24-15/02/2027 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 0,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 0
       },
       "content": "ITALY BTPS 2.95% 24-15/02/2027 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "4,807% ",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 2% 18-01/02/2028 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
       "manco": null,
       "market value": "19.956 ",
-      "% net assets": "4,807% ",
-      "quantity": "                       20.000.000 ",
-      "acquisition currency": "EUR ",
       "maturity": "01/02/2028",
-      "company match": "ITALY BTPS 2% 18-01/02/2028 ",
-      "company": "Italy btps",
-      "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                       20.000.000 "
     },
     "content": "ITALY BTPS 2% 18-01/02/2028 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 4,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 4
       },
       "content": "ITALY BTPS 2% 18-01/02/2028 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,889% ",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 0% 21-01/08/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
       "manco": null,
       "market value": "7.842 ",
-      "% net assets": "1,889% ",
-      "quantity": "                         8.000.000 ",
-      "acquisition currency": "EUR ",
       "maturity": "01/08/2026",
-      "company match": "ITALY BTPS 0% 21-01/08/2026 ",
-      "company": "Italy btps",
-      "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                         8.000.000 "
     },
     "content": "ITALY BTPS 0% 21-01/08/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 16,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 16
       },
       "content": "ITALY BTPS 0% 21-01/08/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,219% ",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 2.95% 25-01/07/2030 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+      "interest rate": "2.95%",
       "manco": null,
       "market value": "5.063 ",
-      "% net assets": "1,219% ",
-      "quantity": "                         5.000.000 ",
-      "acquisition currency": "EUR ",
-      "interest rate": "2.95%",
       "maturity": "01/07/2030",
-      "company match": "ITALY BTPS 2.95% 25-01/07/2030 ",
-      "company": "Italy btps",
-      "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "                         5.000.000 "
     },
     "content": "ITALY BTPS 2.95% 25-01/07/2030 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 18,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 18
       },
       "content": "ITALY BTPS 2.95% 25-01/07/2030 "
-    },
-    "__text_block__": true
+    }
   }
 ]

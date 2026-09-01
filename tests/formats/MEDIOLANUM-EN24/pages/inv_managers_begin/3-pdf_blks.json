@@ -1,330 +1,330 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+    "__pdf_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "group": 0
     },
-    "content": "Mediolanum International Funds Limited ",
-    "__pdf_block__": true
+    "content": "Mediolanum International Funds Limited "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+    "__pdf_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "group": 0
     },
-    "content": "th Floor, The Exchange, George’s Dock, IFSC, Dublin 1, D01 P2V6, Ireland. ",
-    "__pdf_block__": true
+    "content": "th Floor, The Exchange, George’s Dock, IFSC, Dublin 1, D01 P2V6, Ireland. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 0
     },
-    "content": "Acadian Asset Management LLC",
-    "__pdf_block__": true
+    "content": "Acadian Asset Management LLC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 0
     },
-    "content": "260 Franklin Street, Boston MA02110, United States. ",
-    "__pdf_block__": true
+    "content": "260 Franklin Street, Boston MA02110, United States. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 0
     },
-    "content": "(CHALLENGE European Equity Fund) ",
-    "__pdf_block__": true
+    "content": "(CHALLENGE European Equity Fund) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 1
     },
-    "content": "Alliance BernsteinHolding LP",
-    "__pdf_block__": true
+    "content": "Alliance BernsteinHolding LP"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 1
     },
-    "content": "60 London Wall, London , EC2M 5SJ, United Kingdom. ",
-    "__pdf_block__": true
+    "content": "60 London Wall, London , EC2M 5SJ, United Kingdom. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 1
     },
-    "content": "(ChallengeHealthcare Opportunities*) ",
-    "__pdf_block__": true
+    "content": "(ChallengeHealthcare Opportunities*) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "AQR Capital Management LLC",
-    "__pdf_block__": true
+    "content": "AQR Capital Management LLC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "Two Greenwich Plaza, Greenwich, CT 06830, United States. ",
-    "__pdf_block__": true
+    "content": "Two Greenwich Plaza, Greenwich, CT 06830, United States. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "(CHALLENGE North American Equity Fund, CHALLENGE Pacific Equity Fund, ",
-    "__pdf_block__": true
+    "content": "(CHALLENGE North American Equity Fund, CHALLENGE Pacific Equity Fund, "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "CHALLENGE Emerging Markets Equity Fund, CHALLENGE International Equity Fund, ",
-    "__pdf_block__": true
+    "content": "CHALLENGE Emerging Markets Equity Fund, CHALLENGE International Equity Fund, "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "CHALLENGE Provident Fund 1) ",
-    "__pdf_block__": true
+    "content": "CHALLENGE Provident Fund 1) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 3
     },
-    "content": "Arga Investment Management LP",
-    "__pdf_block__": true
+    "content": "Arga Investment Management LP"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 3
     },
-    "content": "1010 Washington Blvs, Stamford, CT 06901, United States. ",
-    "__pdf_block__": true
+    "content": "1010 Washington Blvs, Stamford, CT 06901, United States. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 3
     },
-    "content": "(CHALLENGE International Equity Fund, CHALLENGE Provident Fund 1) ",
-    "__pdf_block__": true
+    "content": "(CHALLENGE International Equity Fund, CHALLENGE Provident Fund 1) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 4
     },
-    "content": "Axiom Investors LLC",
-    "__pdf_block__": true
+    "content": "Axiom Investors LLC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 4
     },
-    "content": "33 Benedict Place, 2nd Floor, Greenwich, Connecticut, CT 06830, United States. ",
-    "__pdf_block__": true
+    "content": "33 Benedict Place, 2nd Floor, Greenwich, Connecticut, CT 06830, United States. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 4
     },
-    "content": "(CHALLENGE Emerging Markets Equity Fund, CHALLENGE International Equity Fund, ",
-    "__pdf_block__": true
+    "content": "(CHALLENGE Emerging Markets Equity Fund, CHALLENGE International Equity Fund, "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 4
     },
-    "content": "CHALLENGE Provident Fund 1) ",
-    "__pdf_block__": true
+    "content": "CHALLENGE Provident Fund 1) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 5
     },
-    "content": "Blackrock Investment Management (UK) Limited",
-    "__pdf_block__": true
+    "content": "Blackrock Investment Management (UK) Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 5
     },
-    "content": "12 Throgmorton Avenue, London, EC2N 2DL, United Kingdom. ",
-    "__pdf_block__": true
+    "content": "12 Throgmorton Avenue, London, EC2N 2DL, United Kingdom. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 5
     },
-    "content": "(CHALLENGE Energy Opportunities) ",
-    "__pdf_block__": true
+    "content": "(CHALLENGE Energy Opportunities) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 6
     },
-    "content": "Bluebay Asset Management ",
-    "__pdf_block__": true
+    "content": "Bluebay Asset Management "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 6
     },
-    "content": "77 Grosvenor Street, London, W1K 3JR, United Kingdom. ",
-    "__pdf_block__": true
+    "content": "77 Grosvenor Street, London, W1K 3JR, United Kingdom. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 6
     },
-    "content": "(CHALLENGE Euro Bond Fund) ",
-    "__pdf_block__": true
+    "content": "(CHALLENGE Euro Bond Fund) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 7
     },
-    "content": "Bluebox Asset Management UK Limited",
-    "__pdf_block__": true
+    "content": "Bluebox Asset Management UK Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 7
     },
-    "content": "5-10 Bolton Street, London, W1J 8BA, United Kingdom.",
-    "__pdf_block__": true
+    "content": "5-10 Bolton Street, London, W1J 8BA, United Kingdom."
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 7
     },
-    "content": "(CHALLENGE Technology Opportunities)",
-    "__pdf_block__": true
+    "content": "(CHALLENGE Technology Opportunities)"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 8
     },
-    "content": "DWS Investment GmbH ",
-    "__pdf_block__": true
+    "content": "DWS Investment GmbH "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 8
     },
-    "content": "Mainzer Landstraße 11-17, 60329 Frankfurt am Main, Germany. ",
-    "__pdf_block__": true
+    "content": "Mainzer Landstraße 11-17, 60329 Frankfurt am Main, Germany. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 8
     },
-    "content": "(CHALLENGE Germany Equity Fund) ",
-    "__pdf_block__": true
+    "content": "(CHALLENGE Germany Equity Fund) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 9
     },
-    "content": "Eagle Capital Management LLC",
-    "__pdf_block__": true
+    "content": "Eagle Capital Management LLC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 9
     },
-    "content": "499 Park Ave., 17th Fl, New York, NY 10022, United States. ",
-    "__pdf_block__": true
+    "content": "499 Park Ave., 17th Fl, New York, NY 10022, United States. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 9
     },
-    "content": "(CHALLENGE North American Equity Fund)",
-    "__pdf_block__": true
+    "content": "(CHALLENGE North American Equity Fund)"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 10
     },
-    "content": "Eleva Capital SAS",
-    "__pdf_block__": true
+    "content": "Eleva Capital SAS"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 10
     },
-    "content": "32, Rue Monceau, 75008 Paris, France.",
-    "__pdf_block__": true
+    "content": "32, Rue Monceau, 75008 Paris, France."
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 10
     },
-    "content": "(CHALLENGE European Equity Fund)",
-    "__pdf_block__": true
+    "content": "(CHALLENGE European Equity Fund)"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 11
     },
-    "content": "FIL (Luxembourg) S.A.",
-    "__pdf_block__": true
+    "content": "FIL (Luxembourg) S.A."
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 11
     },
-    "content": "2A, Rue Albert Borschette, L1021, Luxembourg.",
-    "__pdf_block__": true
+    "content": "2A, Rue Albert Borschette, L1021, Luxembourg."
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 11
     },
-    "content": "(CHALLENGE Industrials and Materials Opportunities)",
-    "__pdf_block__": true
+    "content": "(CHALLENGE Industrials and Materials Opportunities)"
   }
 ]

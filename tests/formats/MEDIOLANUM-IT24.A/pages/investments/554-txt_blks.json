@@ -1,159 +1,159 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "COUPON STRATEGY COLLECTION ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "COUPON STRATEGY COLLECTION "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,06 ",
+      "acquisition cost": "1.049.575 ",
+      "acquisition currency": "DKK ",
+      "company": "Carlsberg Group",
+      "company match": "Carlsberg AS ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "COUPON STRATEGY COLLECTION ",
       "manco": null,
       "market value": "958.305 ",
-      "% net assets": "0,06 ",
-      "quantity": "10.357 ",
-      "acquisition currency": "DKK ",
-      "acquisition cost": "1.049.575 ",
-      "company match": "Carlsberg AS ",
-      "company": "Carlsberg Group",
-      "fund": "COUPON STRATEGY COLLECTION ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "10.357 "
     },
     "content": "Carlsberg AS ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 3,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 3
       },
       "content": "Carlsberg AS "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,07 ",
+      "acquisition cost": "1.093.291 ",
+      "acquisition currency": "SEK ",
+      "company": "NORDEA",
+      "company match": "Nordea Bank Abp ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "COUPON STRATEGY COLLECTION ",
       "manco": null,
       "market value": "1.048.851 ",
-      "% net assets": "0,07 ",
-      "quantity": "99.754 ",
-      "acquisition currency": "SEK ",
-      "acquisition cost": "1.093.291 ",
-      "company match": "Nordea Bank Abp ",
-      "company": "NORDEA",
-      "fund": "COUPON STRATEGY COLLECTION ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "99.754 "
     },
     "content": "Nordea Bank Abp ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 10,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 10
       },
       "content": "Nordea Bank Abp "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,05 ",
+      "acquisition cost": "680.648 ",
+      "acquisition currency": "EUR ",
+      "company": "AXA SA",
+      "company match": "AXA SA ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "COUPON STRATEGY COLLECTION ",
       "manco": null,
       "market value": "724.049 ",
-      "% net assets": "0,05 ",
-      "quantity": "21.097 ",
-      "acquisition currency": "EUR ",
-      "acquisition cost": "680.648 ",
-      "company match": "AXA SA ",
-      "company": "AXA SA",
-      "fund": "COUPON STRATEGY COLLECTION ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "21.097 "
     },
     "content": "AXA SA ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 13,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 13
       },
       "content": "AXA SA "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,05 ",
+      "acquisition cost": "775.320 ",
+      "acquisition currency": "EUR ",
+      "company": "Carrefour",
+      "company match": "Carrefour SA ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "COUPON STRATEGY COLLECTION ",
       "manco": null,
       "market value": "720.921 ",
-      "% net assets": "0,05 ",
-      "quantity": "52.507 ",
-      "acquisition currency": "EUR ",
-      "acquisition cost": "775.320 ",
-      "company match": "Carrefour SA ",
-      "company": "Carrefour",
-      "fund": "COUPON STRATEGY COLLECTION ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "52.507 "
     },
     "content": "Carrefour SA ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 16,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 16
       },
       "content": "Carrefour SA "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,04 ",
+      "acquisition cost": "624.132 ",
+      "acquisition currency": "EUR ",
+      "company": "Siemens",
+      "company match": "Siemens AG ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "COUPON STRATEGY COLLECTION ",
       "manco": null,
       "market value": "623.945 ",
-      "% net assets": "0,04 ",
-      "quantity": "3.309 ",
-      "acquisition currency": "EUR ",
-      "acquisition cost": "624.132 ",
-      "company match": "Siemens AG ",
-      "company": "Siemens",
-      "fund": "COUPON STRATEGY COLLECTION ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.309 "
     },
     "content": "Siemens AG ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 44,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 44
       },
       "content": "Siemens AG "
-    },
-    "__text_block__": true
+    }
   }
 ]

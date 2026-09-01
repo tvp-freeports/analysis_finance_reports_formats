@@ -1,1734 +1,1734 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "SAP AG ",
-    "__pdf_block__": true
+    "content": "SAP AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "51.150 ",
-    "__pdf_block__": true
+    "content": "51.150 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "12.086.745 ",
-    "__pdf_block__": true
+    "content": "12.086.745 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "2,38 ",
-    "__pdf_block__": true
+    "content": "2,38 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "ASML HOLDING ",
-    "__pdf_block__": true
+    "content": "ASML HOLDING "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "17.658 ",
-    "__pdf_block__": true
+    "content": "17.658 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "11.864.410 ",
-    "__pdf_block__": true
+    "content": "11.864.410 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "2,34 ",
-    "__pdf_block__": true
+    "content": "2,34 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "T 1.25 04/28 ",
-    "__pdf_block__": true
+    "content": "T 1.25 04/28 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "8.400.000 ",
-    "__pdf_block__": true
+    "content": "8.400.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "7.328.406 ",
-    "__pdf_block__": true
+    "content": "7.328.406 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "1,44 ",
-    "__pdf_block__": true
+    "content": "1,44 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "T 3 09/25 ",
-    "__pdf_block__": true
+    "content": "T 3 09/25 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "7.500.000 ",
-    "__pdf_block__": true
+    "content": "7.500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "7.157.635 ",
-    "__pdf_block__": true
+    "content": "7.157.635 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "1,41 ",
-    "__pdf_block__": true
+    "content": "1,41 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "LVMH MOET HENNESSY L ",
-    "__pdf_block__": true
+    "content": "LVMH MOET HENNESSY L "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "10.926 ",
-    "__pdf_block__": true
+    "content": "10.926 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "6.875.732 ",
-    "__pdf_block__": true
+    "content": "6.875.732 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "1,36 ",
-    "__pdf_block__": true
+    "content": "1,36 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "SCHNEIDER ELECTRIC S ",
-    "__pdf_block__": true
+    "content": "SCHNEIDER ELECTRIC S "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "28.707 ",
-    "__pdf_block__": true
+    "content": "28.707 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "6.872.456 ",
-    "__pdf_block__": true
+    "content": "6.872.456 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "1,36 ",
-    "__pdf_block__": true
+    "content": "1,36 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "ALLIANZ SE REG ",
-    "__pdf_block__": true
+    "content": "ALLIANZ SE REG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "22.738 ",
-    "__pdf_block__": true
+    "content": "22.738 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "6.728.174 ",
-    "__pdf_block__": true
+    "content": "6.728.174 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "1,33 ",
-    "__pdf_block__": true
+    "content": "1,33 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "SIEMENS AG REG ",
-    "__pdf_block__": true
+    "content": "SIEMENS AG REG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "32.314 ",
-    "__pdf_block__": true
+    "content": "32.314 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "6.093.128 ",
-    "__pdf_block__": true
+    "content": "6.093.128 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "1,21 ",
-    "__pdf_block__": true
+    "content": "1,21 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "DEUTSCHE TELEKOM AG ",
-    "__pdf_block__": true
+    "content": "DEUTSCHE TELEKOM AG "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "196.958 ",
-    "__pdf_block__": true
+    "content": "196.958 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "5.690.117 ",
-    "__pdf_block__": true
+    "content": "5.690.117 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "1,13 ",
-    "__pdf_block__": true
+    "content": "1,13 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "GGB 3.875 03/29 ",
-    "__pdf_block__": true
+    "content": "GGB 3.875 03/29 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "5.000.000 ",
-    "__pdf_block__": true
+    "content": "5.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "5.272.400 ",
-    "__pdf_block__": true
+    "content": "5.272.400 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "1,04 ",
-    "__pdf_block__": true
+    "content": "1,04 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "GGB 3.875 06/28 ",
-    "__pdf_block__": true
+    "content": "GGB 3.875 06/28 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "5.000.000 ",
-    "__pdf_block__": true
+    "content": "5.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "5.245.400 ",
-    "__pdf_block__": true
+    "content": "5.245.400 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "1,04 ",
-    "__pdf_block__": true
+    "content": "1,04 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "IBERDROLA SA ",
-    "__pdf_block__": true
+    "content": "IBERDROLA SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "387.172 ",
-    "__pdf_block__": true
+    "content": "387.172 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "5.116.478 ",
-    "__pdf_block__": true
+    "content": "5.116.478 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "1,00 ",
-    "__pdf_block__": true
+    "content": "1,00 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "T 2.25 02/27 ",
-    "__pdf_block__": true
+    "content": "T 2.25 02/27 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "4.850.000 ",
-    "__pdf_block__": true
+    "content": "4.850.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "4.482.414 ",
-    "__pdf_block__": true
+    "content": "4.482.414 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "0,89 ",
-    "__pdf_block__": true
+    "content": "0,89 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "HERMES INTERNATIONAL ",
-    "__pdf_block__": true
+    "content": "HERMES INTERNATIONAL "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "1.800 ",
-    "__pdf_block__": true
+    "content": "1.800 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "4.149.000 ",
-    "__pdf_block__": true
+    "content": "4.149.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "0,82 ",
-    "__pdf_block__": true
+    "content": "0,82 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "PGB 0.475 10/30 ",
-    "__pdf_block__": true
+    "content": "PGB 0.475 10/30 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "4.500.000 ",
-    "__pdf_block__": true
+    "content": "4.500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "4.049.325 ",
-    "__pdf_block__": true
+    "content": "4.049.325 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "0,8 ",
-    "__pdf_block__": true
+    "content": "0,8 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "AIR LIQUIDE SA ",
-    "__pdf_block__": true
+    "content": "AIR LIQUIDE SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "25.862 ",
-    "__pdf_block__": true
+    "content": "25.862 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "3.998.782 ",
-    "__pdf_block__": true
+    "content": "3.998.782 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "0,79 ",
-    "__pdf_block__": true
+    "content": "0,79 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "WIT 1.125 09/28 ",
-    "__pdf_block__": true
+    "content": "WIT 1.125 09/28 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "4.562.000 ",
-    "__pdf_block__": true
+    "content": "4.562.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "3.928.178 ",
-    "__pdf_block__": true
+    "content": "3.928.178 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "0,78 ",
-    "__pdf_block__": true
+    "content": "0,78 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "AXA SA ",
-    "__pdf_block__": true
+    "content": "AXA SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "114.024 ",
-    "__pdf_block__": true
+    "content": "114.024 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "3.890.499 ",
-    "__pdf_block__": true
+    "content": "3.890.499 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "0,77 ",
-    "__pdf_block__": true
+    "content": "0,77 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "L OREAL ",
-    "__pdf_block__": true
+    "content": "L OREAL "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "10.716 ",
-    "__pdf_block__": true
+    "content": "10.716 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "3.615.578 ",
-    "__pdf_block__": true
+    "content": "3.615.578 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "0,72 ",
-    "__pdf_block__": true
+    "content": "0,72 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "BTPS 2.8 06/29 ",
-    "__pdf_block__": true
+    "content": "BTPS 2.8 06/29 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "3.500.000 ",
-    "__pdf_block__": true
+    "content": "3.500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "3.510.150 ",
-    "__pdf_block__": true
+    "content": "3.510.150 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "0,7 ",
-    "__pdf_block__": true
+    "content": "0,7 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "T 0.625 11/27 ",
-    "__pdf_block__": true
+    "content": "T 0.625 11/27 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "4.000.000 ",
-    "__pdf_block__": true
+    "content": "4.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "3.469.547 ",
-    "__pdf_block__": true
+    "content": "3.469.547 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "0,69 ",
-    "__pdf_block__": true
+    "content": "0,69 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "UKT 1.25 07/27 ",
-    "__pdf_block__": true
+    "content": "UKT 1.25 07/27 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "3.100.000 ",
-    "__pdf_block__": true
+    "content": "3.100.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "3.469.413 ",
-    "__pdf_block__": true
+    "content": "3.469.413 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "0,69 ",
-    "__pdf_block__": true
+    "content": "0,69 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "AEMSPA 0.625 07/31 ",
-    "__pdf_block__": true
+    "content": "AEMSPA 0.625 07/31 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "4.100.000 ",
-    "__pdf_block__": true
+    "content": "4.100.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "3.467.411 ",
-    "__pdf_block__": true
+    "content": "3.467.411 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "0,69 ",
-    "__pdf_block__": true
+    "content": "0,69 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "ACGB 2.75 11/29 ",
-    "__pdf_block__": true
+    "content": "ACGB 2.75 11/29 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "6.000.000 ",
-    "__pdf_block__": true
+    "content": "6.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "3.399.832 ",
-    "__pdf_block__": true
+    "content": "3.399.832 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "0,67 ",
-    "__pdf_block__": true
+    "content": "0,67 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "PROSUS ",
-    "__pdf_block__": true
+    "content": "PROSUS "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "88.524 ",
-    "__pdf_block__": true
+    "content": "88.524 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "3.372.764 ",
-    "__pdf_block__": true
+    "content": "3.372.764 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "0,67 ",
-    "__pdf_block__": true
+    "content": "0,67 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "ISPIM FR 02/34 ",
-    "__pdf_block__": true
+    "content": "ISPIM FR 02/34 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "3.000.000 ",
-    "__pdf_block__": true
+    "content": "3.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "3.256.680 ",
-    "__pdf_block__": true
+    "content": "3.256.680 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "0,65 ",
-    "__pdf_block__": true
+    "content": "0,65 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "UKT 0.625 07/35 ",
-    "__pdf_block__": true
+    "content": "UKT 0.625 07/35 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "4.000.000 ",
-    "__pdf_block__": true
+    "content": "4.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "3.216.851 ",
-    "__pdf_block__": true
+    "content": "3.216.851 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "0,64 ",
-    "__pdf_block__": true
+    "content": "0,64 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "TRNIM 4.75 12/49 ",
-    "__pdf_block__": true
+    "content": "TRNIM 4.75 12/49 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "3.000.000 ",
-    "__pdf_block__": true
+    "content": "3.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "3.100.620 ",
-    "__pdf_block__": true
+    "content": "3.100.620 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "0,61 ",
-    "__pdf_block__": true
+    "content": "0,61 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "ESSILOR LUXOTTICA ",
-    "__pdf_block__": true
+    "content": "ESSILOR LUXOTTICA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "13.145 ",
-    "__pdf_block__": true
+    "content": "13.145 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "3.053.584 ",
-    "__pdf_block__": true
+    "content": "3.053.584 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "0,61 ",
-    "__pdf_block__": true
+    "content": "0,61 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "ASSGEN 3.547 01/34 ",
-    "__pdf_block__": true
+    "content": "ASSGEN 3.547 01/34 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "3.000.000 ",
-    "__pdf_block__": true
+    "content": "3.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "3.051.000 ",
-    "__pdf_block__": true
+    "content": "3.051.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "0,6 ",
-    "__pdf_block__": true
+    "content": "0,6 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "BNP PARIBAS ",
-    "__pdf_block__": true
+    "content": "BNP PARIBAS "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "51.220 ",
-    "__pdf_block__": true
+    "content": "51.220 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "3.008.151 ",
-    "__pdf_block__": true
+    "content": "3.008.151 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "0,6 ",
-    "__pdf_block__": true
+    "content": "0,6 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "UCGIM 4.2 06/34 ",
-    "__pdf_block__": true
+    "content": "UCGIM 4.2 06/34 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "2.928.000 ",
-    "__pdf_block__": true
+    "content": "2.928.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "3.007.700 ",
-    "__pdf_block__": true
+    "content": "3.007.700 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "0,6 ",
-    "__pdf_block__": true
+    "content": "0,6 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "TOTAL ENERGIES SE ",
-    "__pdf_block__": true
+    "content": "TOTAL ENERGIES SE "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "55.272 ",
-    "__pdf_block__": true
+    "content": "55.272 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "2.907.307 ",
-    "__pdf_block__": true
+    "content": "2.907.307 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "0,58 ",
-    "__pdf_block__": true
+    "content": "0,58 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": true,
       "table-col": 0,
-      "is-max-width": true
+      "table-row": 33
     },
-    "content": "MUENCHENER RUECKVER ",
-    "__pdf_block__": true
+    "content": "MUENCHENER RUECKVER "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "5.900 ",
-    "__pdf_block__": true
+    "content": "5.900 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "2.873.890 ",
-    "__pdf_block__": true
+    "content": "2.873.890 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "0,57 ",
-    "__pdf_block__": true
+    "content": "0,57 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "BPEIM FR 09/29 ",
-    "__pdf_block__": true
+    "content": "BPEIM FR 09/29 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "2.621.000 ",
-    "__pdf_block__": true
+    "content": "2.621.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "2.852.015 ",
-    "__pdf_block__": true
+    "content": "2.852.015 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "0,57 ",
-    "__pdf_block__": true
+    "content": "0,57 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "ANNGR 5 11/30 ",
-    "__pdf_block__": true
+    "content": "ANNGR 5 11/30 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "2.500.000 ",
-    "__pdf_block__": true
+    "content": "2.500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "2.711.475 ",
-    "__pdf_block__": true
+    "content": "2.711.475 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "0,54 ",
-    "__pdf_block__": true
+    "content": "0,54 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "SABSM FR 06/29 ",
-    "__pdf_block__": true
+    "content": "SABSM FR 06/29 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "2.500.000 ",
-    "__pdf_block__": true
+    "content": "2.500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "2.654.325 ",
-    "__pdf_block__": true
+    "content": "2.654.325 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "0,53 ",
-    "__pdf_block__": true
+    "content": "0,53 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "UKT 3.25 01/33 ",
-    "__pdf_block__": true
+    "content": "UKT 3.25 01/33 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "2.400.000 ",
-    "__pdf_block__": true
+    "content": "2.400.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "2.642.842 ",
-    "__pdf_block__": true
+    "content": "2.642.842 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "0,52 ",
-    "__pdf_block__": true
+    "content": "0,52 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "BANCO SANTANDER SA ",
-    "__pdf_block__": true
+    "content": "BANCO SANTANDER SA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "591.756 ",
-    "__pdf_block__": true
+    "content": "591.756 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "2.601.655 ",
-    "__pdf_block__": true
+    "content": "2.601.655 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "0,52 ",
-    "__pdf_block__": true
+    "content": "0,52 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "SPGB 0.5 10/31 ",
-    "__pdf_block__": true
+    "content": "SPGB 0.5 10/31 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "3.000.000 ",
-    "__pdf_block__": true
+    "content": "3.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "2.589.150 ",
-    "__pdf_block__": true
+    "content": "2.589.150 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "0,51 ",
-    "__pdf_block__": true
+    "content": "0,51 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "BTPS 0.6 08/31 ",
-    "__pdf_block__": true
+    "content": "BTPS 0.6 08/31 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "3.000.000 ",
-    "__pdf_block__": true
+    "content": "3.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "2.562.900 ",
-    "__pdf_block__": true
+    "content": "2.562.900 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "0,51 ",
-    "__pdf_block__": true
+    "content": "0,51 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "GGB 3.375 06/34 ",
-    "__pdf_block__": true
+    "content": "GGB 3.375 06/34 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "2.500.000 ",
-    "__pdf_block__": true
+    "content": "2.500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "2.531.300 ",
-    "__pdf_block__": true
+    "content": "2.531.300 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "0,5 ",
-    "__pdf_block__": true
+    "content": "0,5 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 42,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 42
     },
-    "content": "FERRARI NV ",
-    "__pdf_block__": true
+    "content": "FERRARI NV "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 42,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 42
     },
-    "content": "6.047 ",
-    "__pdf_block__": true
+    "content": "6.047 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 42,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 42
     },
-    "content": "2.493.783 ",
-    "__pdf_block__": true
+    "content": "2.493.783 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 42,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 42
     },
-    "content": "0,49 ",
-    "__pdf_block__": true
+    "content": "0,49 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
     "metadata": {},
-    "content": "EUR",
-    "__pdf_block__": true
+    "content": "Fondo Mediolanum Flessibile Strategico "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
     "metadata": {},
-    "content": "Fondo Mediolanum Flessibile Strategico ",
-    "__pdf_block__": true
+    "content": "EUR"
   }
 ]

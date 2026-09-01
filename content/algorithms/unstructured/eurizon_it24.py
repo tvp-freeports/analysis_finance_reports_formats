@@ -55,7 +55,7 @@ body_set = PdfLineSelection.font("TrebuchetMS")
 pdf_filter_manco = ExtractTextPdfBlockOrFailPage(
     PdfLineSelection.text("^La società di gestione"),
     "managment company",
-    OnePdfBlockType.RELEVANT_BLOCK,
+    OnePdfBlockType.RELEVANT_BLOCK.name,
 )
 
 manco_regex = re.compile("gestione ([^,]+)")
@@ -92,7 +92,7 @@ def pdf_extract_change_name(page):
         .replace("”", '"')
         .replace("“", '"')
     )
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK, {}, text)]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {}, text)]
 
 
 regex_change_name = re.compile(
@@ -126,7 +126,7 @@ def text_filter_change_name(pdf_blks, filter_data):
 
     res = [
         TextBlock(
-            TypeChangeName.RENAMING,
+            TypeChangeName.RENAMING.name,
             {
                 "old_name": old_name_rename,
                 "current_name": current_name.name,
@@ -143,7 +143,7 @@ def text_filter_change_name(pdf_blks, filter_data):
         for i in range(1, len(tmp), 2):
             res.append(
                 TextBlock(
-                    TypeChangeName.MERGING,
+                    TypeChangeName.MERGING.name,
                     {
                         "old_name": tmp[i],
                         "current_name": current_name.name,
@@ -155,7 +155,7 @@ def text_filter_change_name(pdf_blks, filter_data):
     return res
 
 
-@deserialize_block_type(TypeChangeName.RENAMING)
+@deserialize_block_type(TypeChangeName.RENAMING.name)
 def deserialize_rename(txt_blk):
     md = txt_blk.metadata
     return FundRename(
@@ -165,7 +165,7 @@ def deserialize_rename(txt_blk):
     )
 
 
-@deserialize_block_type(TypeChangeName.MERGING)
+@deserialize_block_type(TypeChangeName.MERGING.name)
 def deserialize_merge(txt_blk):
     md = txt_blk.metadata
     return FundMerge(
@@ -178,7 +178,7 @@ def deserialize_merge(txt_blk):
 def sfdr_pdf_extract_1(page):
     lines = pdflines_from_pagedict(page)
     fund_name = next(iter(PdfLineSelection.text("Nome prodotto: ").select(lines))).text
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK, {}, fund_name)]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {}, fund_name)]
 
 
 @investment_fund_filter_data
@@ -187,7 +187,7 @@ def sfdr_text_filter_1(pdf_blks, investment_funds):
     fund_name = fund_name.replace("Nome prodotto: ", "")
     fund = MatchFund(name=fund_name)
     if fund in investment_funds:
-        return [TextBlock.from_content(OneTextBlockType.RELEVANT_BLOCK, {}, fund_name)]
+        return [TextBlock.from_content(OneTextBlockType.RELEVANT_BLOCK.name, {}, fund_name)]
     else:
         return []
 
@@ -219,12 +219,12 @@ def sfdr_pdf_extract_2(page):
         > 0
     ):
         art = SfdrArticle.ART_8
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK, {"article": art}, "")]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {"article": art}, "")]
 
 
 def sfdr_text_filter_2(pdf_blks, _):
     blk = next(iter(pdf_blks))
-    return [TextBlock(OneTextBlockType.RELEVANT_BLOCK, blk.metadata, blk)]
+    return [TextBlock(OneTextBlockType.RELEVANT_BLOCK.name, blk.metadata, blk)]
 
 
 def sfdr_deserialize_2(txt_blk):
@@ -273,7 +273,7 @@ def esg_indicators_pdf_extract(page):
             )
         ).strip()
         res.append((key, value))
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK, {k: v for k, v in res}, "")]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {k: v for k, v in res}, "")]
 
 
 def esg_indicators_text_filter(pdf_blks, _):
@@ -282,7 +282,7 @@ def esg_indicators_text_filter(pdf_blks, _):
     blk = next(iter(pdf_blks))
     m = blk.metadata
     return [
-        TextBlock(OneTextBlockType.RELEVANT_BLOCK, {"key": k, "value": v}, blk)
+        TextBlock(OneTextBlockType.RELEVANT_BLOCK.name, {"key": k, "value": v}, blk)
         for k, v in m.items()
     ]
 

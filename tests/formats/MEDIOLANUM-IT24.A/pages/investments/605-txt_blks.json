@@ -1,45 +1,45 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,16 ",
+      "acquisition cost": "1.092.653 ",
+      "acquisition currency": "USD ",
+      "company": "Siemens",
+      "company match": "Siemens Financieringsmaatschappij NV 2.875% 11/03/2041 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION ",
+      "interest rate": "2.875%",
       "manco": null,
       "market value": "1.041.193 ",
-      "% net assets": "0,16 ",
-      "quantity": "1.500.000 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "1.092.653 ",
-      "interest rate": "2.875%",
       "maturity": "11/03/2041",
-      "company match": "Siemens Financieringsmaatschappij NV 2.875% 11/03/2041 ",
-      "company": "Siemens",
-      "fund": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.500.000 "
     },
     "content": "Siemens Financieringsmaatschappij NV 2.875% 11/03/2041 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 29,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 29
       },
       "content": "Siemens Financieringsmaatschappij NV 2.875% 11/03/2041 "
-    },
-    "__text_block__": true
+    }
   }
 ]

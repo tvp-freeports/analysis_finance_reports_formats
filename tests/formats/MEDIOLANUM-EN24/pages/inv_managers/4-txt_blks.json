@@ -1,7 +1,7 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -11,20 +11,18 @@
       }
     },
     "content": "JP Morgan Asset Management (UK) Limited",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE Pacific Equity Fund",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -36,36 +34,32 @@
       }
     },
     "content": "Mediobanca SGR S.p.A.",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE Provident Fund 4",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
-    "metadata": {},
-    "content": "CHALLENGE Provident Fund 2",
-    "pdf_block": null,
-    "__text_block__": true
-  },
-  {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE Provident Fund 5",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "CHALLENGE Provident Fund 2",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -75,15 +69,13 @@
       }
     },
     "content": "Schroders Investment Management Limited",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CHALLENGE International Equity Fund",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   }
 ]

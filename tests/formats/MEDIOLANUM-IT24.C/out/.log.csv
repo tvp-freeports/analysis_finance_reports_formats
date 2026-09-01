@@ -1,4 +1,3 @@
-Page,Matched Company,Company,Field name,Row,Column,Message
-522,Blackrock,BlackRock Funding Inc,% net assets,,,Trying to cast to number but found '-' - forcing cast
-522,Blackrock,BlackRock Funding Inc,% net assets,,,"Error casting, found: - "
-522,Blackrock,BlackRock Funding Inc,% net assets,,,Skipping field
+Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Message
+522,job[MEDIOLANUM-IT24.C]/step[0]/class[investments]/page[522]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[Blackrock]/field[% net assets],Blackrock,% net assets,,,trying to cast to number but found a non-numeric shape - forcing cast
+522,job[MEDIOLANUM-IT24.C]/step[0]/class[investments]/page[522]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[Blackrock]/field[% net assets],Blackrock,% net assets,,,"could not cast ""- "": could not convert """" to a number - field skipped"

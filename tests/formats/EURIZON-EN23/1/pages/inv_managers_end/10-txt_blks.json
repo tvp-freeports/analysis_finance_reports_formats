@@ -1,7 +1,7 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -12,23 +12,22 @@
     },
     "content": "Eurizon Capital Asia Limited",
     "pdf_block": {
-      "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+      "__pdf_block__": true,
+      "type_block": "INV",
       "metadata": {},
       "content": "Eurizon Capital Asia Limited"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Eurizon Fund - Equity China A ",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -38,15 +37,15 @@
     },
     "content": "Jennison Associates LLC",
     "pdf_block": {
-      "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+      "__pdf_block__": true,
+      "type_block": "INV",
       "metadata": {},
       "content": "Jennison Associates LLC"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardInvestmentsMangerTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:INVESTMENTS_MANAGER",
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
@@ -56,10 +55,10 @@
     },
     "content": "PGIM Inc.",
     "pdf_block": {
-      "type_block_tag": "_plugin_eurizon_en23.investment_managers:TipiBlocco:INV",
+      "__pdf_block__": true,
+      "type_block": "INV",
       "metadata": {},
       "content": "PGIM Inc."
-    },
-    "__text_block__": true
+    }
   }
 ]

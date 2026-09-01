@@ -1,106 +1,106 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "CoRe Series - Invesco Pan European High Income FAM Fund",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "CoRe Series - Invesco Pan European High Income FAM Fund"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.03 ",
+      "acquisition cost": "181 649 ",
+      "acquisition currency": "USD",
+      "company": "Booking Holdings",
+      "company match": "BOOKING HOLDINGS INC 3.55% 15/03/2028",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
+      "interest rate": "3.55%",
       "manco": null,
       "market value": "186 012 ",
-      "% net assets": "0.03 ",
-      "quantity": "200 000",
-      "acquisition currency": "USD",
-      "acquisition cost": "181 649 ",
-      "interest rate": "3.55%",
       "maturity": "15/03/2028",
-      "company match": "BOOKING HOLDINGS INC 3.55% 15/03/2028",
-      "company": "Booking Holdings",
-      "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "200 000"
     },
     "content": "BOOKING HOLDINGS INC 3.55% 15/03/2028",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 40,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 40
       },
       "content": "BOOKING HOLDINGS INC 3.55% 15/03/2028"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.16 ",
+      "acquisition cost": "1 022 400 ",
+      "acquisition currency": "EUR",
+      "company": "Booking Holdings",
+      "company match": "BOOKING HOLDINGS INC 4% 01/03/2044",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
       "manco": null,
       "market value": "1 010 120 ",
-      "% net assets": "0.16 ",
-      "quantity": "1 000 000",
-      "acquisition currency": "EUR",
-      "acquisition cost": "1 022 400 ",
       "maturity": "01/03/2044",
-      "company match": "BOOKING HOLDINGS INC 4% 01/03/2044",
-      "company": "Booking Holdings",
-      "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1 000 000"
     },
     "content": "BOOKING HOLDINGS INC 4% 01/03/2044",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 41,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 41
       },
       "content": "BOOKING HOLDINGS INC 4% 01/03/2044"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.06 ",
+      "acquisition cost": "392 764 ",
+      "acquisition currency": "USD",
+      "company": "Booking Holdings",
+      "company match": "BOOKING HOLDINGS INC 4.625% 13/04/2030",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
+      "interest rate": "4.625%",
       "manco": null,
       "market value": "390 894 ",
-      "% net assets": "0.06 ",
-      "quantity": "410 000",
-      "acquisition currency": "USD",
-      "acquisition cost": "392 764 ",
-      "interest rate": "4.625%",
       "maturity": "13/04/2030",
-      "company match": "BOOKING HOLDINGS INC 4.625% 13/04/2030",
-      "company": "Booking Holdings",
-      "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "410 000"
     },
     "content": "BOOKING HOLDINGS INC 4.625% 13/04/2030",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 42,
+        "is-max-width": false,
         "table-col": 1,
-        "is-max-width": false
+        "table-row": 42
       },
       "content": "BOOKING HOLDINGS INC 4.625% 13/04/2030"
-    },
-    "__text_block__": true
+    }
   }
 ]

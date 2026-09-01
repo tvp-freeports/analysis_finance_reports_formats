@@ -1,7 +1,7 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Barkan and Partners",
         "company_match": "Barkan and Partners",
@@ -9,7 +9,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -19,7 +19,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Barkan and Partners",
         "company_match": "Barkan and Partners",
@@ -27,7 +27,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -37,7 +37,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Barkan and Partners",
         "company_match": "Barkan and Partners",
@@ -45,7 +45,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,

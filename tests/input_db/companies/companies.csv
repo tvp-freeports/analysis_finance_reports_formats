@@ -1,6 +1,6 @@
 Name,Bud,Regex
 AP Møller Mærsk,maersk,\bmaersk
-Airbnb,,\babnb
+Airbnb,,\bairbnb\b
 Alphabet,alphabet,\balphabet\b
 Altice International,altice,\baltice
 Amazon,amazon,\bamazon\b

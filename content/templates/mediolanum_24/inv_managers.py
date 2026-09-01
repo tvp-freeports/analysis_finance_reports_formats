@@ -45,7 +45,7 @@ deselection=(
     PdfLineSelection.text("^ $")
 )
 
-def pdf_extract_body(body,type_block=ResultStandardExtraction.INVESTMENTS_MANAGER):
+def pdf_extract_body(body,type_block=ResultStandardExtraction.INVESTMENTS_MANAGER.name):
     cs=get_table_coordinates(body,table_cfg,algorithm_flags=TablePosAlgorithm.USE_RULER_AREA | TablePosAlgorithm.USE_TEST_POS)
     groups=get_groups(body,15)
     rows,_ = zip(*cs)
@@ -74,8 +74,8 @@ class PdfExtractBeginPage:
         body_selection=PdfLineSelection.area(l,t,r,b) / deselection
         body = body_selection.select(lines)
         manco = manco_selection.select(lines)
-        res = pdf_extract_body(manco,ResultStandardExtraction.MANAGEMENT_COMPANY)
-        res.extend(pdf_extract_body(body,ResultStandardExtraction.INVESTMENTS_MANAGER))
+        res = pdf_extract_body(manco,ResultStandardExtraction.MANAGEMENT_COMPANY.name)
+        res.extend(pdf_extract_body(body,ResultStandardExtraction.INVESTMENTS_MANAGER.name))
         return res
 
 def pdf_extract(page):
@@ -96,7 +96,7 @@ class PdfExtractEndPage:
         b=PdfLineSelection.text(self.depositary_text).select(lines)[0].bbox[1]
         body_selection=PdfLineSelection.area(l,t,r,b) / deselection
         body = body_selection.select(lines)
-        return pdf_extract_body(body,ResultStandardExtraction.INVESTMENTS_MANAGER)
+        return pdf_extract_body(body,ResultStandardExtraction.INVESTMENTS_MANAGER.name)
 
 
 
@@ -150,8 +150,8 @@ def text_filter_begin_page(blocks, results):
     residual_funds = filter_funds - a_subfunds
 
 
-    inv_blocks = [blk for blk in blocks if blk.type_block == ResultStandardExtraction.INVESTMENTS_MANAGER]
-    manco_blocks = [blk for blk in blocks if blk.type_block == ResultStandardExtraction.MANAGEMENT_COMPANY]
+    inv_blocks = [blk for blk in blocks if blk.type_block == ResultStandardExtraction.INVESTMENTS_MANAGER.name]
+    manco_blocks = [blk for blk in blocks if blk.type_block == ResultStandardExtraction.MANAGEMENT_COMPANY.name]
 
     res_inv = text_filter_with_subfunds(inv_blocks,filter_funds)
     res_manco = text_filter_with_subfunds(manco_blocks,filter_funds)
@@ -162,7 +162,7 @@ def text_filter_begin_page(blocks, results):
 
     res = res_inv
     res.extend(res_manco)
-    res.extend([TextBlock(ResultStandardExtraction.MANAGEMENT_COMPANY,r.metadata,r.content) for r in res_manco])
+    res.extend([TextBlock(ResultStandardExtraction.MANAGEMENT_COMPANY.name,r.metadata,r.content) for r in res_manco])
     res.append(
         StandardInvestmentsMangerTextBlock(manco_blocks[0],funds_manco)
     )

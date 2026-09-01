@@ -31,7 +31,7 @@ def text_extract(blks,filter_data):
     a_funds = set(MatchFund(name=n) for inv in filter(lambda x: isinstance(x,InvestmentsManager),filter_data) for n in inv.managed_funds)
     return [
         StandardManagmentCompanyTextBlock(blks[0],inv_funds.union(a_funds)),
-        TextBlock.from_content(BlockType.INV_MAN,{"funds": set(f.name for f in (inv_funds-a_funds))},blks[0].content)
+        TextBlock.from_content(BlockType.INV_MAN.name,{"funds": set(f.name for f in (inv_funds-a_funds))},blks[0].content)
     ]
 
 

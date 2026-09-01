@@ -1,149 +1,149 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "TAIWAN SEMICONDUCTOR",
-        "company_match": "Taiwan Semiconductor Manufacturing Co Ltd",
-        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-        "nominal_quantity": 1863715.0,
-        "market_value": 57612632.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0183,
         "acquisition_cost": 46144907.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:TWD"
-        }
+          "__enum__": "freeports.consts:Currency:TWD"
+        },
+        "company": "TAIWAN SEMICONDUCTOR",
+        "company_match": "Taiwan Semiconductor Manufacturing Co Ltd",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "market_value": 57612632.0,
+        "nominal_quantity": 1863715.0,
+        "perc_net_assets": 0.0183
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "TAIWAN SEMICONDUCTOR",
-        "company_match": "Taiwan Semiconductor Manufacturing Co Ltd - SADR",
-        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-        "nominal_quantity": 135555.0,
-        "market_value": 26154834.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0083,
         "acquisition_cost": 24602570.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "TAIWAN SEMICONDUCTOR",
+        "company_match": "Taiwan Semiconductor Manufacturing Co Ltd - SADR",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "market_value": 26154834.0,
+        "nominal_quantity": 135555.0,
+        "perc_net_assets": 0.0083
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Alphabet",
-        "company_match": "Alphabet Inc Shs A",
-        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-        "nominal_quantity": 443087.0,
-        "market_value": 66520614.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.021099999999999997,
         "acquisition_cost": 64044324.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Alphabet",
+        "company_match": "Alphabet Inc Shs A",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "market_value": 66520614.0,
+        "nominal_quantity": 443087.0,
+        "perc_net_assets": 0.021099999999999997
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Alphabet",
-        "company_match": "Alphabet Inc Shs C",
-        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-        "nominal_quantity": 471215.0,
-        "market_value": 71209123.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0226,
         "acquisition_cost": 59551761.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Alphabet",
+        "company_match": "Alphabet Inc Shs C",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "market_value": 71209123.0,
+        "nominal_quantity": 471215.0,
+        "perc_net_assets": 0.0226
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Amazon",
-        "company_match": "Amazon.com Inc",
-        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-        "nominal_quantity": 130907.0,
-        "market_value": 24466232.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0078000000000000005,
         "acquisition_cost": 23261964.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Amazon",
+        "company_match": "Amazon.com Inc",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "market_value": 24466232.0,
+        "nominal_quantity": 130907.0,
+        "perc_net_assets": 0.0078000000000000005
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc",
-        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-        "nominal_quantity": 698968.0,
-        "market_value": 122168305.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0387,
         "acquisition_cost": 125519440.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "market_value": 122168305.0,
+        "nominal_quantity": 698968.0,
+        "perc_net_assets": 0.0387
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Booking Holdings",
-        "company_match": "Booking Holdings Inc",
-        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
-        "nominal_quantity": 2292.0,
-        "market_value": 11303777.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0036,
         "acquisition_cost": 11074509.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Booking Holdings",
+        "company_match": "Booking Holdings Inc",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "CHALLENGE TECHNOLOGY OPPORTUNITIES ",
+        "market_value": 11303777.0,
+        "nominal_quantity": 2292.0,
+        "perc_net_assets": 0.0036
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE TECHNOLOGY OPPORTUNITIES "
+        "name": "CHALLENGE TECHNOLOGY OPPORTUNITIES"
       }
     }
   }

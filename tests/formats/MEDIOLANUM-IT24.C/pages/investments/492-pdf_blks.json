@@ -1,2494 +1,2494 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "(valori espressi in EUR) ",
-    "__pdf_block__": true
+    "content": "(valori espressi in EUR) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "Quantità/ ",
-    "__pdf_block__": true
+    "content": "Quantità/ "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "Valore ",
-    "__pdf_block__": true
+    "content": "Valore "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "nominale ",
-    "__pdf_block__": true
+    "content": "nominale "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "Costo di  ",
-    "__pdf_block__": true
+    "content": "Costo di  "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "acquisizione ",
-    "__pdf_block__": true
+    "content": "acquisizione "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 0,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 0
     },
-    "content": "% patri-",
-    "__pdf_block__": true
+    "content": "% patri-"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 1,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 1
     },
-    "content": "monio ",
-    "__pdf_block__": true
+    "content": "monio "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "netto ",
-    "__pdf_block__": true
+    "content": "netto "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "Descrizione ",
-    "__pdf_block__": true
+    "content": "Descrizione "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "Valuta ",
-    "__pdf_block__": true
+    "content": "Valuta "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 2,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 2
     },
-    "content": "Valutazione ",
-    "__pdf_block__": true
+    "content": "Valutazione "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 3,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 3
     },
-    "content": "ISRAELE (cont.) ",
-    "__pdf_block__": true
+    "content": "ISRAELE (cont.) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "ICL Group Ltd 6.375% 31/05/2038 ",
-    "__pdf_block__": true
+    "content": "ICL Group Ltd 6.375% 31/05/2038 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "500.000 ",
-    "__pdf_block__": true
+    "content": "500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "431.131 ",
-    "__pdf_block__": true
+    "content": "431.131 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "428.798 ",
-    "__pdf_block__": true
+    "content": "428.798 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 4,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 4
     },
-    "content": "0,04 ",
-    "__pdf_block__": true
+    "content": "0,04 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "Israel Government Bond - Fixed 1.3% 30/04/2032 ",
-    "__pdf_block__": true
+    "content": "Israel Government Bond - Fixed 1.3% 30/04/2032 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "640.000 ",
-    "__pdf_block__": true
+    "content": "640.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "ILS ",
-    "__pdf_block__": true
+    "content": "ILS "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "128.360 ",
-    "__pdf_block__": true
+    "content": "128.360 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "135.612 ",
-    "__pdf_block__": true
+    "content": "135.612 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 5,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 5
     },
-    "content": "0,01 ",
-    "__pdf_block__": true
+    "content": "0,01 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "Israel Government Bond - Fixed 1.5% 31/05/2037 ",
-    "__pdf_block__": true
+    "content": "Israel Government Bond - Fixed 1.5% 31/05/2037 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "1.390.000 ",
-    "__pdf_block__": true
+    "content": "1.390.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "ILS ",
-    "__pdf_block__": true
+    "content": "ILS "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "242.697 ",
-    "__pdf_block__": true
+    "content": "242.697 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "261.799 ",
-    "__pdf_block__": true
+    "content": "261.799 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 6,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 6
     },
-    "content": "0,03 ",
-    "__pdf_block__": true
+    "content": "0,03 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "Israel Government Bond - Fixed 2.25% 28/09/2028 ",
-    "__pdf_block__": true
+    "content": "Israel Government Bond - Fixed 2.25% 28/09/2028 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "730.000 ",
-    "__pdf_block__": true
+    "content": "730.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "ILS ",
-    "__pdf_block__": true
+    "content": "ILS "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "168.134 ",
-    "__pdf_block__": true
+    "content": "168.134 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "174.936 ",
-    "__pdf_block__": true
+    "content": "174.936 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 7,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 7
     },
-    "content": "0,02 ",
-    "__pdf_block__": true
+    "content": "0,02 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "Israel Government Bond - Fixed 2.8% 29/11/2052 ",
-    "__pdf_block__": true
+    "content": "Israel Government Bond - Fixed 2.8% 29/11/2052 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "640.000 ",
-    "__pdf_block__": true
+    "content": "640.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "ILS ",
-    "__pdf_block__": true
+    "content": "ILS "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "105.952 ",
-    "__pdf_block__": true
+    "content": "105.952 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "116.938 ",
-    "__pdf_block__": true
+    "content": "116.938 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 8,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 8
     },
-    "content": "0,01 ",
-    "__pdf_block__": true
+    "content": "0,01 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "Israel Government Bond - Fixed 3.75% 31/03/2047 ",
-    "__pdf_block__": true
+    "content": "Israel Government Bond - Fixed 3.75% 31/03/2047 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "850.000 ",
-    "__pdf_block__": true
+    "content": "850.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "ILS ",
-    "__pdf_block__": true
+    "content": "ILS "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "199.644 ",
-    "__pdf_block__": true
+    "content": "199.644 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "193.038 ",
-    "__pdf_block__": true
+    "content": "193.038 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 9,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 9
     },
-    "content": "0,02 ",
-    "__pdf_block__": true
+    "content": "0,02 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "Israel Government Bond - Fixed 5.5% 31/01/2042 ",
-    "__pdf_block__": true
+    "content": "Israel Government Bond - Fixed 5.5% 31/01/2042 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "310.000 ",
-    "__pdf_block__": true
+    "content": "310.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "ILS ",
-    "__pdf_block__": true
+    "content": "ILS "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "92.154 ",
-    "__pdf_block__": true
+    "content": "92.154 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "88.618 ",
-    "__pdf_block__": true
+    "content": "88.618 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 10,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 10
     },
-    "content": "0,01 ",
-    "__pdf_block__": true
+    "content": "0,01 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "Israel Government Bond - Fixed 6.25% 30/10/2026 ",
-    "__pdf_block__": true
+    "content": "Israel Government Bond - Fixed 6.25% 30/10/2026 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "540.000 ",
-    "__pdf_block__": true
+    "content": "540.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "ILS ",
-    "__pdf_block__": true
+    "content": "ILS "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "143.545 ",
-    "__pdf_block__": true
+    "content": "143.545 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "140.510 ",
-    "__pdf_block__": true
+    "content": "140.510 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 11,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 11
     },
-    "content": "0,01 ",
-    "__pdf_block__": true
+    "content": "0,01 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "Israel Government International Bond 2.5% 16/01/2049 EMTN ",
-    "__pdf_block__": true
+    "content": "Israel Government International Bond 2.5% 16/01/2049 EMTN "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "1.000.000 ",
-    "__pdf_block__": true
+    "content": "1.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "781.250 ",
-    "__pdf_block__": true
+    "content": "781.250 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "777.950 ",
-    "__pdf_block__": true
+    "content": "777.950 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 12,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 12
     },
-    "content": "0,08 ",
-    "__pdf_block__": true
+    "content": "0,08 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "Israel Government International Bond 4.5% 03/04/2120 ",
-    "__pdf_block__": true
+    "content": "Israel Government International Bond 4.5% 03/04/2120 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "500.000 ",
-    "__pdf_block__": true
+    "content": "500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "330.180 ",
-    "__pdf_block__": true
+    "content": "330.180 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "299.881 ",
-    "__pdf_block__": true
+    "content": "299.881 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 13,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 13
     },
-    "content": "0,03 ",
-    "__pdf_block__": true
+    "content": "0,03 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "Israel Government International Bond 5.75% 12/03/2054 ",
-    "__pdf_block__": true
+    "content": "Israel Government International Bond 5.75% 12/03/2054 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "1.500.000 ",
-    "__pdf_block__": true
+    "content": "1.500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "1.270.143 ",
-    "__pdf_block__": true
+    "content": "1.270.143 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "1.179.350 ",
-    "__pdf_block__": true
+    "content": "1.179.350 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 14,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 14
     },
-    "content": "0,12 ",
-    "__pdf_block__": true
+    "content": "0,12 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "Mizrahi Tefahot Bank Ltd 3.077% 07/04/2031 ",
-    "__pdf_block__": true
+    "content": "Mizrahi Tefahot Bank Ltd 3.077% 07/04/2031 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "1.000.000 ",
-    "__pdf_block__": true
+    "content": "1.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "801.798 ",
-    "__pdf_block__": true
+    "content": "801.798 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "829.280 ",
-    "__pdf_block__": true
+    "content": "829.280 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 15,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 15
     },
-    "content": "0,08 ",
-    "__pdf_block__": true
+    "content": "0,08 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "State of Israel 3.375% 15/01/2050 ",
-    "__pdf_block__": true
+    "content": "State of Israel 3.375% 15/01/2050 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "1.500.000 ",
-    "__pdf_block__": true
+    "content": "1.500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "904.377 ",
-    "__pdf_block__": true
+    "content": "904.377 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "825.246 ",
-    "__pdf_block__": true
+    "content": "825.246 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 16,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 16
     },
-    "content": "0,08 ",
-    "__pdf_block__": true
+    "content": "0,08 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "State of Israel 3.8% 13/05/2060 ",
-    "__pdf_block__": true
+    "content": "State of Israel 3.8% 13/05/2060 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "2.000.000 ",
-    "__pdf_block__": true
+    "content": "2.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "1.468.841 ",
-    "__pdf_block__": true
+    "content": "1.468.841 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "1.101.470 ",
-    "__pdf_block__": true
+    "content": "1.101.470 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 17,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 17
     },
-    "content": "0,11 ",
-    "__pdf_block__": true
+    "content": "0,11 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "Totale Israele ",
-    "__pdf_block__": true
+    "content": "Totale Israele "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "10.316.591 ",
-    "__pdf_block__": true
+    "content": "10.316.591 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "9.704.122 ",
-    "__pdf_block__": true
+    "content": "9.704.122 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 18,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 18
     },
-    "content": "0,96 ",
-    "__pdf_block__": true
+    "content": "0,96 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 19,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 19
     },
-    "content": "COSTA D’AVORIO ",
-    "__pdf_block__": true
+    "content": "COSTA D’AVORIO "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "African Development Bank 0% 05/04/2046 EMTN ",
-    "__pdf_block__": true
+    "content": "African Development Bank 0% 05/04/2046 EMTN "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "477.700.000 ",
-    "__pdf_block__": true
+    "content": "477.700.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "ZAR ",
-    "__pdf_block__": true
+    "content": "ZAR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "2.514.242 ",
-    "__pdf_block__": true
+    "content": "2.514.242 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "2.494.220 ",
-    "__pdf_block__": true
+    "content": "2.494.220 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 20,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 20
     },
-    "content": "0,25 ",
-    "__pdf_block__": true
+    "content": "0,25 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "African Development Bank 5.75% / perpetual ",
-    "__pdf_block__": true
+    "content": "African Development Bank 5.75% / perpetual "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "4.000.000 ",
-    "__pdf_block__": true
+    "content": "4.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "3.541.966 ",
-    "__pdf_block__": true
+    "content": "3.541.966 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "3.250.909 ",
-    "__pdf_block__": true
+    "content": "3.250.909 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 21,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 21
     },
-    "content": "0,33 ",
-    "__pdf_block__": true
+    "content": "0,33 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "African Development Bank 6.64% 21/06/2034 EMTN ",
-    "__pdf_block__": true
+    "content": "African Development Bank 6.64% 21/06/2034 EMTN "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "35.000.000.000 ",
-    "__pdf_block__": true
+    "content": "35.000.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "IDR ",
-    "__pdf_block__": true
+    "content": "IDR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "1.971.229 ",
-    "__pdf_block__": true
+    "content": "1.971.229 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "1.828.849 ",
-    "__pdf_block__": true
+    "content": "1.828.849 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 22,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 22
     },
-    "content": "0,19 ",
-    "__pdf_block__": true
+    "content": "0,19 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": true,
       "table-col": 0,
-      "is-max-width": true
+      "table-row": 23
     },
-    "content": "Ivory Coast Government International Bond 4.875% 30/01/2032 ",
-    "__pdf_block__": true
+    "content": "Ivory Coast Government International Bond 4.875% 30/01/2032 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "4.230.000 ",
-    "__pdf_block__": true
+    "content": "4.230.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "3.616.925 ",
-    "__pdf_block__": true
+    "content": "3.616.925 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "3.775.952 ",
-    "__pdf_block__": true
+    "content": "3.775.952 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 23,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 23
     },
-    "content": "0,38 ",
-    "__pdf_block__": true
+    "content": "0,38 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "Ivory Coast Government International Bond 5.25% 22/03/2030 ",
-    "__pdf_block__": true
+    "content": "Ivory Coast Government International Bond 5.25% 22/03/2030 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "3.434.000 ",
-    "__pdf_block__": true
+    "content": "3.434.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "2.822.252 ",
-    "__pdf_block__": true
+    "content": "2.822.252 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "3.279.127 ",
-    "__pdf_block__": true
+    "content": "3.279.127 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 24,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 24
     },
-    "content": "0,33 ",
-    "__pdf_block__": true
+    "content": "0,33 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "Ivory Coast Government International Bond 5.75% 31/12/2032 ",
-    "__pdf_block__": true
+    "content": "Ivory Coast Government International Bond 5.75% 31/12/2032 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "200.000 ",
-    "__pdf_block__": true
+    "content": "200.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "47.450 ",
-    "__pdf_block__": true
+    "content": "47.450 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "72.136 ",
-    "__pdf_block__": true
+    "content": "72.136 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 25,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 25
     },
-    "content": "0,01 ",
-    "__pdf_block__": true
+    "content": "0,01 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "Ivory Coast Government International Bond 5.875% 17/10/2031 ",
-    "__pdf_block__": true
+    "content": "Ivory Coast Government International Bond 5.875% 17/10/2031 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "4.463.000 ",
-    "__pdf_block__": true
+    "content": "4.463.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "3.954.337 ",
-    "__pdf_block__": true
+    "content": "3.954.337 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "4.211.688 ",
-    "__pdf_block__": true
+    "content": "4.211.688 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 26,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 26
     },
-    "content": "0,43 ",
-    "__pdf_block__": true
+    "content": "0,43 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "Ivory Coast Government International Bond 6.625% 22/03/2048 ",
-    "__pdf_block__": true
+    "content": "Ivory Coast Government International Bond 6.625% 22/03/2048 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "2.147.000 ",
-    "__pdf_block__": true
+    "content": "2.147.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "1.773.862 ",
-    "__pdf_block__": true
+    "content": "1.773.862 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "1.670.645 ",
-    "__pdf_block__": true
+    "content": "1.670.645 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 27,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 27
     },
-    "content": "0,17 ",
-    "__pdf_block__": true
+    "content": "0,17 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "Ivory Coast Government International Bond 6.875% 17/10/2040 ",
-    "__pdf_block__": true
+    "content": "Ivory Coast Government International Bond 6.875% 17/10/2040 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "3.785.000 ",
-    "__pdf_block__": true
+    "content": "3.785.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "EUR ",
-    "__pdf_block__": true
+    "content": "EUR "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "3.567.968 ",
-    "__pdf_block__": true
+    "content": "3.567.968 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "3.208.772 ",
-    "__pdf_block__": true
+    "content": "3.208.772 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 28,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 28
     },
-    "content": "0,33 ",
-    "__pdf_block__": true
+    "content": "0,33 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "Ivory Coast Government International Bond 8.075% 01/04/2036 ",
-    "__pdf_block__": true
+    "content": "Ivory Coast Government International Bond 8.075% 01/04/2036 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "661.000 ",
-    "__pdf_block__": true
+    "content": "661.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "596.745 ",
-    "__pdf_block__": true
+    "content": "596.745 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "540.918 ",
-    "__pdf_block__": true
+    "content": "540.918 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 29,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 29
     },
-    "content": "0,05 ",
-    "__pdf_block__": true
+    "content": "0,05 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "Republic of Cote d'Ivoire 6.875% 01/04/2028 ",
-    "__pdf_block__": true
+    "content": "Republic of Cote d'Ivoire 6.875% 01/04/2028 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "655.000.000 ",
-    "__pdf_block__": true
+    "content": "655.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "XOF ",
-    "__pdf_block__": true
+    "content": "XOF "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "979.109 ",
-    "__pdf_block__": true
+    "content": "979.109 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "979.830 ",
-    "__pdf_block__": true
+    "content": "979.830 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 30,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 30
     },
-    "content": "0,10 ",
-    "__pdf_block__": true
+    "content": "0,10 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "Totale Costa d’Avorio ",
-    "__pdf_block__": true
+    "content": "Totale Costa d’Avorio "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "25.386.085 ",
-    "__pdf_block__": true
+    "content": "25.386.085 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "25.313.046 ",
-    "__pdf_block__": true
+    "content": "25.313.046 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 31,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 31
     },
-    "content": "2,57 ",
-    "__pdf_block__": true
+    "content": "2,57 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 32,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 32
     },
-    "content": "GIAMAICA ",
-    "__pdf_block__": true
+    "content": "GIAMAICA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "Jamaica Government International Bond 8% 15/03/2039 ",
-    "__pdf_block__": true
+    "content": "Jamaica Government International Bond 8% 15/03/2039 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "1.000.000 ",
-    "__pdf_block__": true
+    "content": "1.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "1.122.096 ",
-    "__pdf_block__": true
+    "content": "1.122.096 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "998.415 ",
-    "__pdf_block__": true
+    "content": "998.415 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 33,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 33
     },
-    "content": "0,10 ",
-    "__pdf_block__": true
+    "content": "0,10 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "Totale Giamaica ",
-    "__pdf_block__": true
+    "content": "Totale Giamaica "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "1.122.096 ",
-    "__pdf_block__": true
+    "content": "1.122.096 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "998.415 ",
-    "__pdf_block__": true
+    "content": "998.415 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 34,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 34
     },
-    "content": "0,10 ",
-    "__pdf_block__": true
+    "content": "0,10 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 35,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 35
     },
-    "content": "JERSEY ",
-    "__pdf_block__": true
+    "content": "JERSEY "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "Galaxy Pipeline Assets Bidco Ltd 2.625% 31/03/2036 ",
-    "__pdf_block__": true
+    "content": "Galaxy Pipeline Assets Bidco Ltd 2.625% 31/03/2036 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "741.000 ",
-    "__pdf_block__": true
+    "content": "741.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "626.215 ",
-    "__pdf_block__": true
+    "content": "626.215 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "534.964 ",
-    "__pdf_block__": true
+    "content": "534.964 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 36,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 36
     },
-    "content": "0,05 ",
-    "__pdf_block__": true
+    "content": "0,05 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "Galaxy Pipeline Assets Bidco Ltd 2.94% 30/09/2040 ",
-    "__pdf_block__": true
+    "content": "Galaxy Pipeline Assets Bidco Ltd 2.94% 30/09/2040 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "927.000 ",
-    "__pdf_block__": true
+    "content": "927.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "643.664 ",
-    "__pdf_block__": true
+    "content": "643.664 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "570.425 ",
-    "__pdf_block__": true
+    "content": "570.425 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 37,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 37
     },
-    "content": "0,06 ",
-    "__pdf_block__": true
+    "content": "0,06 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "West China Cement Ltd 4.95% 08/07/2026 ",
-    "__pdf_block__": true
+    "content": "West China Cement Ltd 4.95% 08/07/2026 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "200.000 ",
-    "__pdf_block__": true
+    "content": "200.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "151.037 ",
-    "__pdf_block__": true
+    "content": "151.037 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "147.993 ",
-    "__pdf_block__": true
+    "content": "147.993 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 38,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 38
     },
-    "content": "0,01 ",
-    "__pdf_block__": true
+    "content": "0,01 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "Totale Jersey ",
-    "__pdf_block__": true
+    "content": "Totale Jersey "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "1.420.916 ",
-    "__pdf_block__": true
+    "content": "1.420.916 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "1.253.382 ",
-    "__pdf_block__": true
+    "content": "1.253.382 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 39,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 39
     },
-    "content": "0,12 ",
-    "__pdf_block__": true
+    "content": "0,12 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 40,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 40
     },
-    "content": "GIORDANIA ",
-    "__pdf_block__": true
+    "content": "GIORDANIA "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "Jordan Government International Bond 7.5% 13/01/2029 ",
-    "__pdf_block__": true
+    "content": "Jordan Government International Bond 7.5% 13/01/2029 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "1.700.000 ",
-    "__pdf_block__": true
+    "content": "1.700.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "1.543.447 ",
-    "__pdf_block__": true
+    "content": "1.543.447 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "1.479.145 ",
-    "__pdf_block__": true
+    "content": "1.479.145 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 41,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 41
     },
-    "content": "0,15 ",
-    "__pdf_block__": true
+    "content": "0,15 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 42,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 42
     },
-    "content": "Jordan Government International Bond 7.75% 15/01/2028 ",
-    "__pdf_block__": true
+    "content": "Jordan Government International Bond 7.75% 15/01/2028 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 42,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 42
     },
-    "content": "1.500.000 ",
-    "__pdf_block__": true
+    "content": "1.500.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 42,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 42
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 42,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 42
     },
-    "content": "1.403.683 ",
-    "__pdf_block__": true
+    "content": "1.403.683 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 42,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 42
     },
-    "content": "1.317.242 ",
-    "__pdf_block__": true
+    "content": "1.317.242 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 42,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 42
     },
-    "content": "0,13 ",
-    "__pdf_block__": true
+    "content": "0,13 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 43,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 43
     },
-    "content": "Totale Giordania ",
-    "__pdf_block__": true
+    "content": "Totale Giordania "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 43,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 43
     },
-    "content": "2.947.130 ",
-    "__pdf_block__": true
+    "content": "2.947.130 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 43,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 43
     },
-    "content": "2.796.387 ",
-    "__pdf_block__": true
+    "content": "2.796.387 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 43,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 43
     },
-    "content": "0,28 ",
-    "__pdf_block__": true
+    "content": "0,28 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 44,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 44
     },
-    "content": "KAZAKISTAN ",
-    "__pdf_block__": true
+    "content": "KAZAKISTAN "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 45,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 45
     },
-    "content": "Development Bank of Kazakhstan JSC 10.95% 06/05/2026 ",
-    "__pdf_block__": true
+    "content": "Development Bank of Kazakhstan JSC 10.95% 06/05/2026 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 45,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 45
     },
-    "content": "750.000.000 ",
-    "__pdf_block__": true
+    "content": "750.000.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 45,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 45
     },
-    "content": "KZT ",
-    "__pdf_block__": true
+    "content": "KZT "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 45,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 45
     },
-    "content": "1.369.513 ",
-    "__pdf_block__": true
+    "content": "1.369.513 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 45,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 45
     },
-    "content": "1.178.759 ",
-    "__pdf_block__": true
+    "content": "1.178.759 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 45,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 45
     },
-    "content": "0,12 ",
-    "__pdf_block__": true
+    "content": "0,12 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 46,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 46
     },
-    "content": "Development Bank of Kazakhstan JSC 2.95% 06/05/2031 ",
-    "__pdf_block__": true
+    "content": "Development Bank of Kazakhstan JSC 2.95% 06/05/2031 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 46,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 46
     },
-    "content": "300.000 ",
-    "__pdf_block__": true
+    "content": "300.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 46,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 46
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 46,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 46
     },
-    "content": "224.499 ",
-    "__pdf_block__": true
+    "content": "224.499 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 46,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 46
     },
-    "content": "220.112 ",
-    "__pdf_block__": true
+    "content": "220.112 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 46,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 46
     },
-    "content": "0,02 ",
-    "__pdf_block__": true
+    "content": "0,02 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 47,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 47
     },
-    "content": "Development Bank of Kazakhstan JSC 5.25% 23/10/2029 ",
-    "__pdf_block__": true
+    "content": "Development Bank of Kazakhstan JSC 5.25% 23/10/2029 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 47,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 47
     },
-    "content": "400.000 ",
-    "__pdf_block__": true
+    "content": "400.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 47,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 47
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 47,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 47
     },
-    "content": "366.866 ",
-    "__pdf_block__": true
+    "content": "366.866 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 47,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 47
     },
-    "content": "340.715 ",
-    "__pdf_block__": true
+    "content": "340.715 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 47,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 47
     },
-    "content": "0,03 ",
-    "__pdf_block__": true
+    "content": "0,03 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 48,
+      "is-max-width": false,
       "table-col": 0,
-      "is-max-width": false
+      "table-row": 48
     },
-    "content": "Kazakhstan Government International Bond 5.5% 01/07/2037 ",
-    "__pdf_block__": true
+    "content": "Kazakhstan Government International Bond 5.5% 01/07/2037 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 48,
+      "is-max-width": false,
       "table-col": 1,
-      "is-max-width": false
+      "table-row": 48
     },
-    "content": "1.632.000 ",
-    "__pdf_block__": true
+    "content": "1.632.000 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 48,
+      "is-max-width": false,
       "table-col": 2,
-      "is-max-width": false
+      "table-row": 48
     },
-    "content": "USD ",
-    "__pdf_block__": true
+    "content": "USD "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 48,
+      "is-max-width": false,
       "table-col": 3,
-      "is-max-width": false
+      "table-row": 48
     },
-    "content": "1.404.838 ",
-    "__pdf_block__": true
+    "content": "1.404.838 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 48,
+      "is-max-width": false,
       "table-col": 4,
-      "is-max-width": false
+      "table-row": 48
     },
-    "content": "1.390.464 ",
-    "__pdf_block__": true
+    "content": "1.390.464 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
     "metadata": {
-      "table-row": 48,
+      "is-max-width": false,
       "table-col": 5,
-      "is-max-width": false
+      "table-row": 48
     },
-    "content": "0,14 ",
-    "__pdf_block__": true
+    "content": "0,14 "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:CURRENCY_STATEMENT",
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
     "metadata": {},
-    "content": "(valori espressi in EUR) ",
-    "__pdf_block__": true
+    "content": "EMERGING MARKETS FIXED INCOME "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
     "metadata": {},
-    "content": "EMERGING MARKETS FIXED INCOME ",
-    "__pdf_block__": true
+    "content": "(valori espressi in EUR) "
   }
 ]

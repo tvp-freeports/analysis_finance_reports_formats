@@ -1,7 +1,7 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc.",
@@ -9,7 +9,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -19,7 +19,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc.",
@@ -27,7 +27,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -37,7 +37,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc.",
@@ -45,7 +45,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -55,7 +55,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc.",
@@ -63,7 +63,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -73,7 +73,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc.",
@@ -81,7 +81,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -91,7 +91,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "CoRe Series - FAM Park"
       }
@@ -99,7 +99,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "CoRe Series - CoRe Income Opportunity"
       }
@@ -107,7 +107,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "CoRe Series - CoRe Coupon"
       }
@@ -115,7 +115,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "Invesco Global Total Return Bond FAM Fund"
       }
@@ -123,7 +123,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "US Equity Value FAM Fund"
       }

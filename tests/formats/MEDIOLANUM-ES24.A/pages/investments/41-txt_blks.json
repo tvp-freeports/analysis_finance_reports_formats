@@ -1,101 +1,101 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "GAMAX FUNDS - JUNIOR ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "GAMAX FUNDS - JUNIOR "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,13 ",
+      "acquisition cost": "1.213.820 ",
+      "acquisition currency": "USD ",
+      "company": "Expedia",
+      "company match": "Expedia Group Inc ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "1.604.491 ",
-      "% net assets": "0,13 ",
-      "quantity": "8.931 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "1.213.820 ",
-      "company match": "Expedia Group Inc ",
-      "company": "Expedia",
-      "fund": "GAMAX FUNDS - JUNIOR ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "8.931 "
     },
     "content": "Expedia Group Inc ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 18,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 18
       },
       "content": "Expedia Group Inc "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,92 ",
+      "acquisition cost": "7.385.688 ",
+      "acquisition currency": "USD ",
+      "company": "Microsoft",
+      "company match": "Microsoft Corporation. ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "11.136.312 ",
-      "% net assets": "0,92 ",
-      "quantity": "27.211 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "7.385.688 ",
-      "company match": "Microsoft Corporation. ",
-      "company": "Microsoft",
-      "fund": "GAMAX FUNDS - JUNIOR ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "27.211 "
     },
     "content": "Microsoft Corporation. ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 37,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 37
       },
       "content": "Microsoft Corporation. "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,50 ",
+      "acquisition cost": "841.870 ",
+      "acquisition currency": "USD ",
+      "company": "NVIDIA",
+      "company match": "Nvidia Corporation. ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "6.102.249 ",
-      "% net assets": "0,50 ",
-      "quantity": "46.072 ",
-      "acquisition currency": "USD ",
-      "acquisition cost": "841.870 ",
-      "company match": "Nvidia Corporation. ",
-      "company": "NVIDIA",
-      "fund": "GAMAX FUNDS - JUNIOR ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "46.072 "
     },
     "content": "Nvidia Corporation. ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 44,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 44
       },
       "content": "Nvidia Corporation. "
-    },
-    "__text_block__": true
+    }
   }
 ]

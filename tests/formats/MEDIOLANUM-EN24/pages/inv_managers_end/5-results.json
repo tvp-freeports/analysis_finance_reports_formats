@@ -1,22 +1,21 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "TREA Asset Management SGIIC S.A.",
         "managed_funds": {
           "__set__": [
             "CHALLENGE Spain Equity Fund"
           ]
-        }
+        },
+        "name": "TREA Asset Management SGIIC S.A."
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Wellington Management International Limited",
         "managed_funds": {
           "__set__": [
             "CHALLENGE Energy Opportunities",
@@ -26,39 +25,40 @@
             "CHALLENGE Provident Fund 1",
             "CHALLENGE Technology Opportunities"
           ]
-        }
+        },
+        "name": "Wellington Management International Limited"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE Industrials and Materials Opportunities"
+        "name": "CHALLENGE FINANCIAL OPPORTUNITIES"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE International Equity Fund"
+        "name": "CHALLENGE TECHNOLOGY OPPORTUNITIES"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE Financial Opportunities"
+        "name": "CHALLENGE INDUSTRIALS AND MATERIALS OPPORTUNITIES"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE Technology Opportunities"
+        "name": "CHALLENGE INTERNATIONAL EQUITY FUND"
       }
     }
   }

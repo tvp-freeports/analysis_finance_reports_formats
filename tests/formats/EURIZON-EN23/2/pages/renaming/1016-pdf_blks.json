@@ -1,23 +1,8 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
-    "metadata": {},
-    "content": "As a result of the merger of Epsilon SGR S.p.A. into Eurizon Capital SGR S.p.A. on 1st March 2025, Eurizon Capital SGR S.p.A. became delegated investment manager of the Management Company for the Sub-Funds previously managed by Epsilon SGR S.p.A. The Sub-Fund Eurizon Fund - Bond Emerging Markets In Local Currencies ESG was renamed Eurizon Fund - Bond Emerging Markets in Local Currencies on 6 June 2025. The following Sub-Funds have been merged on 23 May 2025:",
-    "__pdf_block__": true
-  },
-  {
-    "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
+    "__pdf_block__": true,
+    "type_block": "RENAME_ENTRY",
     "metadata": {
-      "old_names": [
-        "Eurizon Fund - Equity Euro LTE",
-        "Eurizon Fund - Equity Europe LTE",
-        "Eurizon Fund - Equity USA LTE",
-        "Eurizon Fund - Equity North America LTE",
-        "Eurizon Fund - Equity Japan LTE",
-        "Eurizon Fund - Equity Pacific Ex-Japan LTE",
-        "Eurizon Fund - Equity Europe ESG Leaders LTE",
-        "Eurizon Fund - Equity USA ESG Leaders LTE"
-      ],
       "new_names": [
         "YourIndex SICAV - YIS MSCI EMU Universal",
         "YourIndex SICAV - YIS MSCI Europe Universal",
@@ -27,17 +12,32 @@
         "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
         "YourIndex SICAV - YIS MSCI Europe Selection",
         "YourIndex SICAV - YIS MSCI USA Selection"
+      ],
+      "old_names": [
+        "Eurizon Fund - Equity Euro LTE",
+        "Eurizon Fund - Equity Europe LTE",
+        "Eurizon Fund - Equity USA LTE",
+        "Eurizon Fund - Equity North America LTE",
+        "Eurizon Fund - Equity Japan LTE",
+        "Eurizon Fund - Equity Pacific Ex-Japan LTE",
+        "Eurizon Fund - Equity Europe ESG Leaders LTE",
+        "Eurizon Fund - Equity USA ESG Leaders LTE"
       ]
     },
-    "content": "The following Sub-Funds have been merged on 23 May 2025:",
-    "__pdf_block__": true
+    "content": "The following Sub-Funds have been merged on 23 May 2025:"
   },
   {
-    "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:LAST_DATE",
+    "__pdf_block__": true,
+    "type_block": "LAST_DATE",
     "metadata": {
       "n_page": 1016
     },
-    "content": "The following Sub-Funds have been merged on 23 May 2025:",
-    "__pdf_block__": true
+    "content": "The following Sub-Funds have been merged on 23 May 2025:"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {},
+    "content": "As a result of the merger of Epsilon SGR S.p.A. into Eurizon Capital SGR S.p.A. on 1st March 2025, Eurizon Capital SGR S.p.A. became delegated investment manager of the Management Company for the Sub-Funds previously managed by Epsilon SGR S.p.A. The Sub-Fund Eurizon Fund - Bond Emerging Markets In Local Currencies ESG was renamed Eurizon Fund - Bond Emerging Markets in Local Currencies on 6 June 2025. The following Sub-Funds have been merged on 23 May 2025:"
   }
 ]

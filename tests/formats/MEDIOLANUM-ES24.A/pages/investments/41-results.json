@@ -1,69 +1,69 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Expedia",
-        "company_match": "Expedia Group Inc",
-        "fund": "GAMAX FUNDS - JUNIOR ",
-        "nominal_quantity": 8931.0,
-        "market_value": 1604491.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0013,
         "acquisition_cost": 1213820.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Expedia",
+        "company_match": "Expedia Group Inc",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "GAMAX FUNDS - JUNIOR ",
+        "market_value": 1604491.0,
+        "nominal_quantity": 8931.0,
+        "perc_net_assets": 0.0013
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Microsoft",
-        "company_match": "Microsoft Corporation.",
-        "fund": "GAMAX FUNDS - JUNIOR ",
-        "nominal_quantity": 27211.0,
-        "market_value": 11136312.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0092,
         "acquisition_cost": 7385688.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Microsoft",
+        "company_match": "Microsoft Corporation.",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "GAMAX FUNDS - JUNIOR ",
+        "market_value": 11136312.0,
+        "nominal_quantity": 27211.0,
+        "perc_net_assets": 0.0092
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "NVIDIA",
-        "company_match": "Nvidia Corporation.",
-        "fund": "GAMAX FUNDS - JUNIOR ",
-        "nominal_quantity": 46072.0,
-        "market_value": 6102249.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.005,
         "acquisition_cost": 841870.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "NVIDIA",
+        "company_match": "Nvidia Corporation.",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "GAMAX FUNDS - JUNIOR ",
+        "market_value": 6102249.0,
+        "nominal_quantity": 46072.0,
+        "perc_net_assets": 0.005
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "GAMAX FUNDS - JUNIOR "
+        "name": "GAMAX FUNDS JUNIOR"
       }
     }
   }

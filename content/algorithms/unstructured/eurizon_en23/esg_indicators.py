@@ -81,7 +81,7 @@ def pdf_extract(page):
         )
         m[key] = value
     return [
-        PdfBlock(OnePdfBlockType.RELEVANT_BLOCK, {"page": page, "indicators": m}, "")
+        PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {"page": page, "indicators": m}, "")
     ]
 
 
@@ -92,7 +92,7 @@ def text_filter(pdf_blks, _):
     m = blk.metadata
     return [
         TextBlock(
-            OneTextBlockType.RELEVANT_BLOCK,
+            OneTextBlockType.RELEVANT_BLOCK.name,
             {"page": m["page"], "key": k, "value": v},
             blk,
         )
@@ -121,7 +121,7 @@ def pdf_extract_fund(page):
         )
     ).select(lines)
     fund = "".join(map(lambda sb: sb.text, sorted(fund_blks, key=lambda b: b.bbox[1])))
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK, {"page": page}, fund)]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {"page": page}, fund)]
 
 
 @investment_fund_filter_data
@@ -132,7 +132,7 @@ def text_filter_fund(pdf_blks, investment_funds):
     if fund in investment_funds:
         return [
             TextBlock.from_content(
-                OneTextBlockType.RELEVANT_BLOCK, blk.metadata, fund_name
+                OneTextBlockType.RELEVANT_BLOCK.name, blk.metadata, fund_name
             )
         ]
     else:

@@ -110,7 +110,7 @@ def pdf_extract_merges(page):
         b_font_selection
     ).select(lines)
     return [
-        PdfBlock(OnePdfBlockType.RELEVANT_BLOCK,{
+        PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name,{
             "old_name": old_name,
             "current_name": current_name
         },"".join((b.text for b in body)))
@@ -126,7 +126,7 @@ def text_filter_merges(pdf_blks,filter_data):
     m=date_regex.match(text)
     md["date"]=m.group(1)
     return [
-        TextBlock(OneTextBlockType.RELEVANT_BLOCK,md,pdf_blks[0])
+        TextBlock(OneTextBlockType.RELEVANT_BLOCK.name,md,pdf_blks[0])
     ]
 
 def deserialize_merges(txt_blk):

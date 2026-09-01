@@ -1,338 +1,338 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+    "__pdf_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "group": 0
     },
-    "content": "Mediolanum International Funds Limited ",
-    "__pdf_block__": true
+    "content": "Mediolanum International Funds Limited "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+    "__pdf_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "group": 0
     },
-    "content": "th",
-    "__pdf_block__": true
+    "content": "th"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:MANAGEMENT_COMPANY",
+    "__pdf_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "group": 0
     },
-    "content": " Floor, The Exchange, George’s Dock, IFSC, Dublin 1,D01 P2V6, Irlanda. ",
-    "__pdf_block__": true
+    "content": " Floor, The Exchange, George’s Dock, IFSC, Dublin 1,D01 P2V6, Irlanda. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 0
     },
-    "content": "Advent Capital Management LLC",
-    "__pdf_block__": true
+    "content": "Advent Capital Management LLC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 0
     },
-    "content": "888 Seventh Avenue, 31st Floor, New York, NY 10019, Stati Uniti. ",
-    "__pdf_block__": true
+    "content": "888 Seventh Avenue, 31st Floor, New York, NY 10019, Stati Uniti. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 0
     },
-    "content": "(Convertible Strategy Collection) ",
-    "__pdf_block__": true
+    "content": "(Convertible Strategy Collection) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 1
     },
-    "content": "Aegon USA Investment Management, LLC",
-    "__pdf_block__": true
+    "content": "Aegon USA Investment Management, LLC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 1
     },
-    "content": "4333 Edgewood Road NE Cedar Rapids, Iowa 52499, Stati Uniti. ",
-    "__pdf_block__": true
+    "content": "4333 Edgewood Road NE Cedar Rapids, Iowa 52499, Stati Uniti. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 1
     },
-    "content": "(Global High Yield) ",
-    "__pdf_block__": true
+    "content": "(Global High Yield) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "Algebris (UK) Limited ",
-    "__pdf_block__": true
+    "content": "Algebris (UK) Limited "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "1 St James’ Market, St. James’s, London, SW1Y 4AH, Regno Unito. ",
-    "__pdf_block__": true
+    "content": "1 St James’ Market, St. James’s, London, SW1Y 4AH, Regno Unito. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 2
     },
-    "content": "(Financial Income Strategy) ",
-    "__pdf_block__": true
+    "content": "(Financial Income Strategy) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 3
     },
-    "content": "Alliance Bernstein Holding LP ",
-    "__pdf_block__": true
+    "content": "Alliance Bernstein Holding LP "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 3
     },
-    "content": "60 London Wall, London, EC2M 5SJ, Regno Unito. ",
-    "__pdf_block__": true
+    "content": "60 London Wall, London, EC2M 5SJ, Regno Unito. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 3
     },
-    "content": "(Mediolanum Innovative Thematic Opportunities) ",
-    "__pdf_block__": true
+    "content": "(Mediolanum Innovative Thematic Opportunities) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 4
     },
-    "content": "AQR Capital Management LLC",
-    "__pdf_block__": true
+    "content": "AQR Capital Management LLC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 4
     },
-    "content": "Two Greenwich Plaza, Greenwich, CT 06830, Stati Uniti. ",
-    "__pdf_block__": true
+    "content": "Two Greenwich Plaza, Greenwich, CT 06830, Stati Uniti. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 4
     },
-    "content": "(Dynamic International Value Opportunity) ",
-    "__pdf_block__": true
+    "content": "(Dynamic International Value Opportunity) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 5
     },
-    "content": "Axiom Investors LLC",
-    "__pdf_block__": true
+    "content": "Axiom Investors LLC"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 5
     },
-    "content": "33 Benedict Place, 2nd Floor, Greenwich, Connecticut, CT 06830, Stati Uniti. ",
-    "__pdf_block__": true
+    "content": "33 Benedict Place, 2nd Floor, Greenwich, Connecticut, CT 06830, Stati Uniti. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 5
     },
-    "content": "(Mediolanum Innovative Thematic Opportunities, Mediolanum Global Equity Style Selection) ",
-    "__pdf_block__": true
+    "content": "(Mediolanum Innovative Thematic Opportunities, Mediolanum Global Equity Style Selection) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 6
     },
-    "content": "Baillie Gifford Investment Management (Europe) Limited",
-    "__pdf_block__": true
+    "content": "Baillie Gifford Investment Management (Europe) Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 6
     },
-    "content": "4/5 School House Lane East, Dublin 2, D02 N279, Irlanda. ",
-    "__pdf_block__": true
+    "content": "4/5 School House Lane East, Dublin 2, D02 N279, Irlanda. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 6
     },
-    "content": "(Mediolanum Global Impact) ",
-    "__pdf_block__": true
+    "content": "(Mediolanum Global Impact) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 7
     },
-    "content": "Blackrock Investment Management (UK) Limited",
-    "__pdf_block__": true
+    "content": "Blackrock Investment Management (UK) Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 7
     },
-    "content": "12 Throgmorton Avenue, London EC2N 2DL, Regno Unito. ",
-    "__pdf_block__": true
+    "content": "12 Throgmorton Avenue, London EC2N 2DL, Regno Unito. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 7
     },
-    "content": "(Mediolanum Global Impact, Mediolanum Future Sustainable Nutrition)",
-    "__pdf_block__": true
+    "content": "(Mediolanum Global Impact, Mediolanum Future Sustainable Nutrition)"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 8
     },
-    "content": "Brigade Capital Management, LP",
-    "__pdf_block__": true
+    "content": "Brigade Capital Management, LP"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 8
     },
-    "content": "399 Park Avenue, Suite 1600, New York, NY 10022, Stati Uniti. ",
-    "__pdf_block__": true
+    "content": "399 Park Avenue, Suite 1600, New York, NY 10022, Stati Uniti. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 8
     },
-    "content": "(Global High Yield) ",
-    "__pdf_block__": true
+    "content": "(Global High Yield) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 9
     },
-    "content": "Carmignac Gestion Luxembourg",
-    "__pdf_block__": true
+    "content": "Carmignac Gestion Luxembourg"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 9
     },
-    "content": "7 rue de la Chapelle, L-1325 Luxembourg.",
-    "__pdf_block__": true
+    "content": "7 rue de la Chapelle, L-1325 Luxembourg."
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 9
     },
-    "content": "(Mediolanum Carmignac Strategic Selection) ",
-    "__pdf_block__": true
+    "content": "(Mediolanum Carmignac Strategic Selection) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 10
     },
-    "content": "DWS Investment GmbH",
-    "__pdf_block__": true
+    "content": "DWS Investment GmbH"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 10
     },
-    "content": "Mainzer Landstraße 11-17, 60329 Frankfurt am Main, Germania. ",
-    "__pdf_block__": true
+    "content": "Mainzer Landstraße 11-17, 60329 Frankfurt am Main, Germania. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 10
     },
-    "content": "(Global High Yield) ",
-    "__pdf_block__": true
+    "content": "(Global High Yield) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 11
     },
-    "content": "FIL (Luxembourg) S.A.",
-    "__pdf_block__": true
+    "content": "FIL (Luxembourg) S.A."
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 11
     },
-    "content": "2A, Rue Albert Borschette, L1021, Lussemburgo. ",
-    "__pdf_block__": true
+    "content": "2A, Rue Albert Borschette, L1021, Lussemburgo. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 11
     },
-    "content": "(Mediolanum Global Demographic Opportunities) ",
-    "__pdf_block__": true
+    "content": "(Mediolanum Global Demographic Opportunities) "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 12
     },
-    "content": "First Sentier Investor (UK) IM Limited",
-    "__pdf_block__": true
+    "content": "First Sentier Investor (UK) IM Limited"
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 12
     },
-    "content": "23, St Andrew Square, Edinburgh EH2 1BB, Regno Unito. ",
-    "__pdf_block__": true
+    "content": "23, St Andrew Square, Edinburgh EH2 1BB, Regno Unito. "
   },
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:INVESTMENTS_MANAGER",
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "group": 12
     },
-    "content": "(Mediolanum Global Impact) ",
-    "__pdf_block__": true
+    "content": "(Mediolanum Global Impact) "
   }
 ]

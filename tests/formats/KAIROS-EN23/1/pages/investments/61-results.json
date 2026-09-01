@@ -1,109 +1,109 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Equity",
       "data": {
-        "name": "Kairos International Sicav - Innovation Trends "
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
-      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
         "company": "Alphabet",
         "company_match": "8,700.00 ALPHABET INC-CL A",
-        "fund": "Kairos International Sicav - Innovation Trends ",
-        "nominal_quantity": 8700.0,
-        "market_value": 1646910.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
-        "perc_net_assets": 0.0143,
-        "acquisition_cost": null,
-        "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+        "fund": "Kairos International Sicav - Innovation Trends ",
+        "market_value": 1646910.0,
+        "nominal_quantity": 8700.0,
+        "perc_net_assets": 0.0143
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
         "company": "Hewlett Packard Enterprise",
         "company_match": "15,600.00 HEWLETT PACKARD ENTERPRISE",
-        "fund": "Kairos International Sicav - Innovation Trends ",
-        "nominal_quantity": 15600.0,
-        "market_value": 333060.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
-        "perc_net_assets": 0.0029,
-        "acquisition_cost": null,
-        "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+        "fund": "Kairos International Sicav - Innovation Trends ",
+        "market_value": 333060.0,
+        "nominal_quantity": 15600.0,
+        "perc_net_assets": 0.0029
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
         "company": "International Business Machines",
         "company_match": "5,820.00 INTL BUSINESS MACHINES CORP",
-        "fund": "Kairos International Sicav - Innovation Trends ",
-        "nominal_quantity": 5820.0,
-        "market_value": 1279410.6,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
-        "perc_net_assets": 0.0111,
-        "acquisition_cost": null,
-        "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+        "fund": "Kairos International Sicav - Innovation Trends ",
+        "market_value": 1279410.6,
+        "nominal_quantity": 5820.0,
+        "perc_net_assets": 0.0111
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
         "company": "NVIDIA",
         "company_match": "30,899.00 NVIDIA CORP",
-        "fund": "Kairos International Sicav - Innovation Trends ",
-        "nominal_quantity": 30899.0,
-        "market_value": 4149426.71,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
-        "perc_net_assets": 0.0359,
-        "acquisition_cost": null,
-        "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+        "fund": "Kairos International Sicav - Innovation Trends ",
+        "market_value": 4149426.71,
+        "nominal_quantity": 30899.0,
+        "perc_net_assets": 0.0359
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Cisco Systems",
-        "company_match": "36,290.00 CISCO SYSTEMS INC",
-        "fund": "Kairos International Sicav - Innovation Trends ",
-        "nominal_quantity": 36290.0,
-        "market_value": 2148368.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        },
-        "perc_net_assets": 0.018600000000000002,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Cisco Systems",
+        "company_match": "36,290.00 CISCO SYSTEMS INC",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "Kairos International Sicav - Innovation Trends ",
+        "market_value": 2148368.0,
+        "nominal_quantity": 36290.0,
+        "perc_net_assets": 0.018600000000000002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "KAIROS INTERNATIONAL SICAV INNOVATION TRENDS"
       }
     }
   }

@@ -49,16 +49,16 @@ def pdf_extract_first_page(dict_root) -> List[PdfBlock]:
     lines = pdflines_from_pagedict(dict_root)
     sl = PdfLineSelection.area(0, 88, 1e6, 102).select(lines)[0]
     subfund = sl.text.strip().upper()
-    return [PdfBlock(PdfBlockType.RELEVANT_BLOCK, {"subfund": subfund}, sl.text)]
+    return [PdfBlock(PdfBlockType.RELEVANT_BLOCK.name, {"subfund": subfund}, sl.text)]
 
 
 def text_filter_first_page(
     pdf_blocks: List[PdfBlock], targets: List[str]
 ) -> List[TextBlock]:
-    if len(pdf_blocks) == 1 and pdf_blocks[0].type_block == PdfBlockType.RELEVANT_BLOCK:
+    if len(pdf_blocks) == 1 and pdf_blocks[0].type_block == PdfBlockType.RELEVANT_BLOCK.name:
         return [
             TextBlock(
-                FirstPageTextBlockType.SUBFUND,
+                FirstPageTextBlockType.SUBFUND.name,
                 {"subfund": pdf_blocks[0].metadata["subfund"]},
                 pdf_blocks[0],
             )
@@ -71,9 +71,9 @@ def deserialize_first_page(txt_blk: Optional[TextBlock]) -> Optional[Any]:
 
 
 @deserialize_block_types(
-    ResultStandardFiltering.BOND_TARGET,
-    ResultStandardFiltering.EQUITY_TARGET,
-    ResultStandardFiltering.FUND
+    ResultStandardFiltering.BOND_TARGET.name,
+    ResultStandardFiltering.EQUITY_TARGET.name,
+    ResultStandardFiltering.FUND.name
 )
 def deserialize(txt_blk: Optional[TextBlock]) -> Optional[Any]:
     """Deserialize text blocks into structured data for MEDIOLANUM_ES24_B format.
@@ -93,7 +93,7 @@ def deserialize(txt_blk: Optional[TextBlock]) -> Optional[Any]:
     Handles subfund context resolution and applies specific scaling
     to market values (multiplies by 1000).
     """
-    if txt_blk.type_block==ResultStandardFiltering.FUND:
+    if txt_blk.type_block==ResultStandardFiltering.FUND.name:
         return None
     std = DeserializerInvestmentStandard()
     blk = std(txt_blk)
@@ -114,7 +114,7 @@ pipelines = {
                 ]
             ),
             PdfExtractCurrencyConstant(Currency.EUR),
-            lambda _: [PdfBlock(ResultStandardExtraction.FUND_NAME,{},Promise("title document"))]
+            lambda _: [PdfBlock(ResultStandardExtraction.FUND_NAME.name,{},Promise("title document"))]
         ),
         deserialize=deserialize,
     ),

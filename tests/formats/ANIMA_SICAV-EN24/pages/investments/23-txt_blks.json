@@ -1,246 +1,246 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili (in EUR)"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "10.18",
+      "acquisition currency": "EUR",
+      "company": "Italy btps",
+      "company match": "1,700,000.00 ITALY BTPS 1.2% 22-15/08/2025",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
       "manco": null,
       "market value": "1,670,675.00",
-      "% net assets": "10.18",
-      "quantity": "1,700,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "15/08/2025",
-      "company match": "1,700,000.00 ITALY BTPS 1.2% 22-15/08/2025",
-      "company": "Italy btps",
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1,700,000.00 "
     },
     "content": "1,700,000.00 ITALY BTPS 1.2% 22-15/08/2025",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 2,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 2
       },
       "content": "1,700,000.00 ITALY BTPS 1.2% 22-15/08/2025"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "3.01",
+      "acquisition currency": "EUR",
+      "company": "Italy btps",
+      "company match": "500,000.00 ITALY BTPS 1.85% 20-01/07/2025",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
       "manco": null,
       "market value": "494,890.00",
-      "% net assets": "3.01",
-      "quantity": "500,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "01/07/2025",
-      "company match": "500,000.00 ITALY BTPS 1.85% 20-01/07/2025",
-      "company": "Italy btps",
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "500,000.00 "
     },
     "content": "500,000.00 ITALY BTPS 1.85% 20-01/07/2025",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 3,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 3
       },
       "content": "500,000.00 ITALY BTPS 1.85% 20-01/07/2025"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "12.17",
+      "acquisition currency": "EUR",
+      "company": "Italy btps",
+      "company match": "2,000,000.00 ITALY BTPS  2.5% 14-01/12/2024",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
       "manco": null,
       "market value": "1,996,100.00",
-      "% net assets": "12.17",
-      "quantity": "2,000,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "01/12/2024",
-      "company match": "2,000,000.00 ITALY BTPS  2.5% 14-01/12/2024",
-      "company": "Italy btps",
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2,000,000.00 "
     },
     "content": "2,000,000.00 ITALY BTPS  2.5% 14-01/12/2024",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 4,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 4
       },
       "content": "2,000,000.00 ITALY BTPS  2.5% 14-01/12/2024"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "7.92",
+      "acquisition currency": "EUR",
+      "company": "Italy btps",
+      "company match": "1,300,000.00 ITALY BTPS 3.4% 23-28/03/2025",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
       "manco": null,
       "market value": "1,300,923.00",
-      "% net assets": "7.92",
-      "quantity": "1,300,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "28/03/2025",
-      "company match": "1,300,000.00 ITALY BTPS 3.4% 23-28/03/2025",
-      "company": "Italy btps",
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1,300,000.00 "
     },
     "content": "1,300,000.00 ITALY BTPS 3.4% 23-28/03/2025",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 5,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 5
       },
       "content": "1,300,000.00 ITALY BTPS 3.4% 23-28/03/2025"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "8.22",
+      "acquisition currency": "EUR",
+      "company": "Italy btps",
+      "company match": "1,350,000.00 ITALY BTPS 3.75% 14-01/09/2024",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
       "manco": null,
       "market value": "1,350,000.00",
-      "% net assets": "8.22",
-      "quantity": "1,350,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "01/09/2024",
-      "company match": "1,350,000.00 ITALY BTPS 3.75% 14-01/09/2024",
-      "company": "Italy btps",
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1,350,000.00 "
     },
     "content": "1,350,000.00 ITALY BTPS 3.75% 14-01/09/2024",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 6,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 6
       },
       "content": "1,350,000.00 ITALY BTPS 3.75% 14-01/09/2024"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "6.04",
+      "acquisition currency": "EUR",
+      "company": "ITALY BOTS",
+      "company match": "1,000,000.00 ITALY BOTS 0% 23-13/12/2024",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
       "manco": null,
       "market value": "991,070.00",
-      "% net assets": "6.04",
-      "quantity": "1,000,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "13/12/2024",
-      "company match": "1,000,000.00 ITALY BOTS 0% 23-13/12/2024",
-      "company": "ITALY BOTS",
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1,000,000.00 "
     },
     "content": "1,000,000.00 ITALY BOTS 0% 23-13/12/2024",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 13,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 13
       },
       "content": "1,000,000.00 ITALY BOTS 0% 23-13/12/2024"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "10.62",
+      "acquisition currency": "EUR",
+      "company": "ITALY BOTS",
+      "company match": "1,750,000.00 ITALY BOTS 0% 23-14/10/2024",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
       "manco": null,
       "market value": "1,743,472.50",
-      "% net assets": "10.62",
-      "quantity": "1,750,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "14/10/2024",
-      "company match": "1,750,000.00 ITALY BOTS 0% 23-14/10/2024",
-      "company": "ITALY BOTS",
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1,750,000.00 "
     },
     "content": "1,750,000.00 ITALY BOTS 0% 23-14/10/2024",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 14,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 14
       },
       "content": "1,750,000.00 ITALY BOTS 0% 23-14/10/2024"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "3.00",
+      "acquisition currency": "EUR",
+      "company": "ITALY BOTS",
+      "company match": "500,000.00 ITALY BOTS 0% 24-14/01/2025",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
       "manco": null,
       "market value": "494,065.00",
-      "% net assets": "3.00",
-      "quantity": "500,000.00 ",
-      "acquisition currency": "EUR",
       "maturity": "14/01/2025",
-      "company match": "500,000.00 ITALY BOTS 0% 24-14/01/2025",
-      "company": "ITALY BOTS",
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "500,000.00 "
     },
     "content": "500,000.00 ITALY BOTS 0% 24-14/01/2025",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 15,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 15
       },
       "content": "500,000.00 ITALY BOTS 0% 24-14/01/2025"
-    },
-    "__text_block__": true
+    }
   }
 ]

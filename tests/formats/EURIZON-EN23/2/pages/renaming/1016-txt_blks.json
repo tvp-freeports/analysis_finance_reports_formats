@@ -1,213 +1,212 @@
 [
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RENAME_ENTRY",
     "metadata": {
-      "old_name": "Eurizon Fund - Bond Emerging Markets In Local Currencies ESG",
-      "current_name": "Eurizon Fund - Bond Emerging Markets in Local Currencies",
-      "date": "6 June 2025"
+      "current_name": "YourIndex SICAV - YIS MSCI Europe Universal",
+      "date": "23 May 2025",
+      "old_name": "Eurizon Fund - Equity Europe LTE"
     },
-    "content": "As a result of the merger of Epsilon SGR S.p.A. into Eurizon Capital SGR S.p.A. on 1st March 2025, Eurizon Capital SGR S.p.A. became delegated investment manager of the Management Company for the Sub-Funds previously managed by Epsilon SGR S.p.A. The Sub-Fund Eurizon Fund - Bond Emerging Markets In Local Currencies ESG was renamed Eurizon Fund - Bond Emerging Markets in Local Currencies on 6 June 2025. The following Sub-Funds have been merged on 23 May 2025:",
+    "content": "The following Sub-Funds have been merged on 23 May 2025:",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
-      "metadata": {},
-      "content": "As a result of the merger of Epsilon SGR S.p.A. into Eurizon Capital SGR S.p.A. on 1st March 2025, Eurizon Capital SGR S.p.A. became delegated investment manager of the Management Company for the Sub-Funds previously managed by Epsilon SGR S.p.A. The Sub-Fund Eurizon Fund - Bond Emerging Markets In Local Currencies ESG was renamed Eurizon Fund - Bond Emerging Markets in Local Currencies on 6 June 2025. The following Sub-Funds have been merged on 23 May 2025:"
-    },
-    "__text_block__": true
+      "__pdf_block__": true,
+      "type_block": "RENAME_ENTRY",
+      "metadata": {
+        "new_names": [
+          "YourIndex SICAV - YIS MSCI EMU Universal",
+          "YourIndex SICAV - YIS MSCI Europe Universal",
+          "YourIndex SICAV - YIS MSCI USA Universal",
+          "YourIndex SICAV - YIS MSCI North America Universal",
+          "YourIndex SICAV - YIS MSCI Japan Universal",
+          "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
+          "YourIndex SICAV - YIS MSCI Europe Selection",
+          "YourIndex SICAV - YIS MSCI USA Selection"
+        ],
+        "old_names": [
+          "Eurizon Fund - Equity Euro LTE",
+          "Eurizon Fund - Equity Europe LTE",
+          "Eurizon Fund - Equity USA LTE",
+          "Eurizon Fund - Equity North America LTE",
+          "Eurizon Fund - Equity Japan LTE",
+          "Eurizon Fund - Equity Pacific Ex-Japan LTE",
+          "Eurizon Fund - Equity Europe ESG Leaders LTE",
+          "Eurizon Fund - Equity USA ESG Leaders LTE"
+        ]
+      },
+      "content": "The following Sub-Funds have been merged on 23 May 2025:"
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:LAST_DATE",
+    "__text_block__": true,
+    "type_block": "RENAME_ENTRY",
+    "metadata": {
+      "current_name": "YourIndex SICAV - YIS MSCI USA Universal",
+      "date": "23 May 2025",
+      "old_name": "Eurizon Fund - Equity USA LTE"
+    },
+    "content": "The following Sub-Funds have been merged on 23 May 2025:",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RENAME_ENTRY",
+      "metadata": {
+        "new_names": [
+          "YourIndex SICAV - YIS MSCI EMU Universal",
+          "YourIndex SICAV - YIS MSCI Europe Universal",
+          "YourIndex SICAV - YIS MSCI USA Universal",
+          "YourIndex SICAV - YIS MSCI North America Universal",
+          "YourIndex SICAV - YIS MSCI Japan Universal",
+          "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
+          "YourIndex SICAV - YIS MSCI Europe Selection",
+          "YourIndex SICAV - YIS MSCI USA Selection"
+        ],
+        "old_names": [
+          "Eurizon Fund - Equity Euro LTE",
+          "Eurizon Fund - Equity Europe LTE",
+          "Eurizon Fund - Equity USA LTE",
+          "Eurizon Fund - Equity North America LTE",
+          "Eurizon Fund - Equity Japan LTE",
+          "Eurizon Fund - Equity Pacific Ex-Japan LTE",
+          "Eurizon Fund - Equity Europe ESG Leaders LTE",
+          "Eurizon Fund - Equity USA ESG Leaders LTE"
+        ]
+      },
+      "content": "The following Sub-Funds have been merged on 23 May 2025:"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RENAME_ENTRY",
+    "metadata": {
+      "current_name": "YourIndex SICAV - YIS MSCI North America Universal",
+      "date": "23 May 2025",
+      "old_name": "Eurizon Fund - Equity North America LTE"
+    },
+    "content": "The following Sub-Funds have been merged on 23 May 2025:",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RENAME_ENTRY",
+      "metadata": {
+        "new_names": [
+          "YourIndex SICAV - YIS MSCI EMU Universal",
+          "YourIndex SICAV - YIS MSCI Europe Universal",
+          "YourIndex SICAV - YIS MSCI USA Universal",
+          "YourIndex SICAV - YIS MSCI North America Universal",
+          "YourIndex SICAV - YIS MSCI Japan Universal",
+          "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
+          "YourIndex SICAV - YIS MSCI Europe Selection",
+          "YourIndex SICAV - YIS MSCI USA Selection"
+        ],
+        "old_names": [
+          "Eurizon Fund - Equity Euro LTE",
+          "Eurizon Fund - Equity Europe LTE",
+          "Eurizon Fund - Equity USA LTE",
+          "Eurizon Fund - Equity North America LTE",
+          "Eurizon Fund - Equity Japan LTE",
+          "Eurizon Fund - Equity Pacific Ex-Japan LTE",
+          "Eurizon Fund - Equity Europe ESG Leaders LTE",
+          "Eurizon Fund - Equity USA ESG Leaders LTE"
+        ]
+      },
+      "content": "The following Sub-Funds have been merged on 23 May 2025:"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RENAME_ENTRY",
+    "metadata": {
+      "current_name": "YourIndex SICAV - YIS MSCI Japan Universal",
+      "date": "23 May 2025",
+      "old_name": "Eurizon Fund - Equity Japan LTE"
+    },
+    "content": "The following Sub-Funds have been merged on 23 May 2025:",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RENAME_ENTRY",
+      "metadata": {
+        "new_names": [
+          "YourIndex SICAV - YIS MSCI EMU Universal",
+          "YourIndex SICAV - YIS MSCI Europe Universal",
+          "YourIndex SICAV - YIS MSCI USA Universal",
+          "YourIndex SICAV - YIS MSCI North America Universal",
+          "YourIndex SICAV - YIS MSCI Japan Universal",
+          "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
+          "YourIndex SICAV - YIS MSCI Europe Selection",
+          "YourIndex SICAV - YIS MSCI USA Selection"
+        ],
+        "old_names": [
+          "Eurizon Fund - Equity Euro LTE",
+          "Eurizon Fund - Equity Europe LTE",
+          "Eurizon Fund - Equity USA LTE",
+          "Eurizon Fund - Equity North America LTE",
+          "Eurizon Fund - Equity Japan LTE",
+          "Eurizon Fund - Equity Pacific Ex-Japan LTE",
+          "Eurizon Fund - Equity Europe ESG Leaders LTE",
+          "Eurizon Fund - Equity USA ESG Leaders LTE"
+        ]
+      },
+      "content": "The following Sub-Funds have been merged on 23 May 2025:"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RENAME_ENTRY",
+    "metadata": {
+      "current_name": "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
+      "date": "23 May 2025",
+      "old_name": "Eurizon Fund - Equity Pacific Ex-Japan LTE"
+    },
+    "content": "The following Sub-Funds have been merged on 23 May 2025:",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RENAME_ENTRY",
+      "metadata": {
+        "new_names": [
+          "YourIndex SICAV - YIS MSCI EMU Universal",
+          "YourIndex SICAV - YIS MSCI Europe Universal",
+          "YourIndex SICAV - YIS MSCI USA Universal",
+          "YourIndex SICAV - YIS MSCI North America Universal",
+          "YourIndex SICAV - YIS MSCI Japan Universal",
+          "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
+          "YourIndex SICAV - YIS MSCI Europe Selection",
+          "YourIndex SICAV - YIS MSCI USA Selection"
+        ],
+        "old_names": [
+          "Eurizon Fund - Equity Euro LTE",
+          "Eurizon Fund - Equity Europe LTE",
+          "Eurizon Fund - Equity USA LTE",
+          "Eurizon Fund - Equity North America LTE",
+          "Eurizon Fund - Equity Japan LTE",
+          "Eurizon Fund - Equity Pacific Ex-Japan LTE",
+          "Eurizon Fund - Equity Europe ESG Leaders LTE",
+          "Eurizon Fund - Equity USA ESG Leaders LTE"
+        ]
+      },
+      "content": "The following Sub-Funds have been merged on 23 May 2025:"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "LAST_DATE",
     "metadata": {
       "n_page": 1016
     },
     "content": "23 May 2025",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "old_name": "Eurizon Fund - Equity Europe LTE",
-      "current_name": "YourIndex SICAV - YIS MSCI Europe Universal",
-      "date": "23 May 2025"
+      "current_name": "Eurizon Fund - Bond Emerging Markets in Local Currencies",
+      "date": "6 June 2025",
+      "old_name": "Eurizon Fund - Bond Emerging Markets In Local Currencies ESG"
     },
-    "content": "The following Sub-Funds have been merged on 23 May 2025:",
+    "content": "As a result of the merger of Epsilon SGR S.p.A. into Eurizon Capital SGR S.p.A. on 1st March 2025, Eurizon Capital SGR S.p.A. became delegated investment manager of the Management Company for the Sub-Funds previously managed by Epsilon SGR S.p.A. The Sub-Fund Eurizon Fund - Bond Emerging Markets In Local Currencies ESG was renamed Eurizon Fund - Bond Emerging Markets in Local Currencies on 6 June 2025. The following Sub-Funds have been merged on 23 May 2025:",
     "pdf_block": {
-      "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
-      "metadata": {
-        "old_names": [
-          "Eurizon Fund - Equity Euro LTE",
-          "Eurizon Fund - Equity Europe LTE",
-          "Eurizon Fund - Equity USA LTE",
-          "Eurizon Fund - Equity North America LTE",
-          "Eurizon Fund - Equity Japan LTE",
-          "Eurizon Fund - Equity Pacific Ex-Japan LTE",
-          "Eurizon Fund - Equity Europe ESG Leaders LTE",
-          "Eurizon Fund - Equity USA ESG Leaders LTE"
-        ],
-        "new_names": [
-          "YourIndex SICAV - YIS MSCI EMU Universal",
-          "YourIndex SICAV - YIS MSCI Europe Universal",
-          "YourIndex SICAV - YIS MSCI USA Universal",
-          "YourIndex SICAV - YIS MSCI North America Universal",
-          "YourIndex SICAV - YIS MSCI Japan Universal",
-          "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
-          "YourIndex SICAV - YIS MSCI Europe Selection",
-          "YourIndex SICAV - YIS MSCI USA Selection"
-        ]
-      },
-      "content": "The following Sub-Funds have been merged on 23 May 2025:"
-    },
-    "__text_block__": true
-  },
-  {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
-    "metadata": {
-      "old_name": "Eurizon Fund - Equity USA LTE",
-      "current_name": "YourIndex SICAV - YIS MSCI USA Universal",
-      "date": "23 May 2025"
-    },
-    "content": "The following Sub-Funds have been merged on 23 May 2025:",
-    "pdf_block": {
-      "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
-      "metadata": {
-        "old_names": [
-          "Eurizon Fund - Equity Euro LTE",
-          "Eurizon Fund - Equity Europe LTE",
-          "Eurizon Fund - Equity USA LTE",
-          "Eurizon Fund - Equity North America LTE",
-          "Eurizon Fund - Equity Japan LTE",
-          "Eurizon Fund - Equity Pacific Ex-Japan LTE",
-          "Eurizon Fund - Equity Europe ESG Leaders LTE",
-          "Eurizon Fund - Equity USA ESG Leaders LTE"
-        ],
-        "new_names": [
-          "YourIndex SICAV - YIS MSCI EMU Universal",
-          "YourIndex SICAV - YIS MSCI Europe Universal",
-          "YourIndex SICAV - YIS MSCI USA Universal",
-          "YourIndex SICAV - YIS MSCI North America Universal",
-          "YourIndex SICAV - YIS MSCI Japan Universal",
-          "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
-          "YourIndex SICAV - YIS MSCI Europe Selection",
-          "YourIndex SICAV - YIS MSCI USA Selection"
-        ]
-      },
-      "content": "The following Sub-Funds have been merged on 23 May 2025:"
-    },
-    "__text_block__": true
-  },
-  {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
-    "metadata": {
-      "old_name": "Eurizon Fund - Equity North America LTE",
-      "current_name": "YourIndex SICAV - YIS MSCI North America Universal",
-      "date": "23 May 2025"
-    },
-    "content": "The following Sub-Funds have been merged on 23 May 2025:",
-    "pdf_block": {
-      "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
-      "metadata": {
-        "old_names": [
-          "Eurizon Fund - Equity Euro LTE",
-          "Eurizon Fund - Equity Europe LTE",
-          "Eurizon Fund - Equity USA LTE",
-          "Eurizon Fund - Equity North America LTE",
-          "Eurizon Fund - Equity Japan LTE",
-          "Eurizon Fund - Equity Pacific Ex-Japan LTE",
-          "Eurizon Fund - Equity Europe ESG Leaders LTE",
-          "Eurizon Fund - Equity USA ESG Leaders LTE"
-        ],
-        "new_names": [
-          "YourIndex SICAV - YIS MSCI EMU Universal",
-          "YourIndex SICAV - YIS MSCI Europe Universal",
-          "YourIndex SICAV - YIS MSCI USA Universal",
-          "YourIndex SICAV - YIS MSCI North America Universal",
-          "YourIndex SICAV - YIS MSCI Japan Universal",
-          "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
-          "YourIndex SICAV - YIS MSCI Europe Selection",
-          "YourIndex SICAV - YIS MSCI USA Selection"
-        ]
-      },
-      "content": "The following Sub-Funds have been merged on 23 May 2025:"
-    },
-    "__text_block__": true
-  },
-  {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
-    "metadata": {
-      "old_name": "Eurizon Fund - Equity Japan LTE",
-      "current_name": "YourIndex SICAV - YIS MSCI Japan Universal",
-      "date": "23 May 2025"
-    },
-    "content": "The following Sub-Funds have been merged on 23 May 2025:",
-    "pdf_block": {
-      "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
-      "metadata": {
-        "old_names": [
-          "Eurizon Fund - Equity Euro LTE",
-          "Eurizon Fund - Equity Europe LTE",
-          "Eurizon Fund - Equity USA LTE",
-          "Eurizon Fund - Equity North America LTE",
-          "Eurizon Fund - Equity Japan LTE",
-          "Eurizon Fund - Equity Pacific Ex-Japan LTE",
-          "Eurizon Fund - Equity Europe ESG Leaders LTE",
-          "Eurizon Fund - Equity USA ESG Leaders LTE"
-        ],
-        "new_names": [
-          "YourIndex SICAV - YIS MSCI EMU Universal",
-          "YourIndex SICAV - YIS MSCI Europe Universal",
-          "YourIndex SICAV - YIS MSCI USA Universal",
-          "YourIndex SICAV - YIS MSCI North America Universal",
-          "YourIndex SICAV - YIS MSCI Japan Universal",
-          "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
-          "YourIndex SICAV - YIS MSCI Europe Selection",
-          "YourIndex SICAV - YIS MSCI USA Selection"
-        ]
-      },
-      "content": "The following Sub-Funds have been merged on 23 May 2025:"
-    },
-    "__text_block__": true
-  },
-  {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
-    "metadata": {
-      "old_name": "Eurizon Fund - Equity Pacific Ex-Japan LTE",
-      "current_name": "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
-      "date": "23 May 2025"
-    },
-    "content": "The following Sub-Funds have been merged on 23 May 2025:",
-    "pdf_block": {
-      "type_block_tag": "_plugin_eurizon_en23.merging:TypeBlock:RENAME_ENTRY",
-      "metadata": {
-        "old_names": [
-          "Eurizon Fund - Equity Euro LTE",
-          "Eurizon Fund - Equity Europe LTE",
-          "Eurizon Fund - Equity USA LTE",
-          "Eurizon Fund - Equity North America LTE",
-          "Eurizon Fund - Equity Japan LTE",
-          "Eurizon Fund - Equity Pacific Ex-Japan LTE",
-          "Eurizon Fund - Equity Europe ESG Leaders LTE",
-          "Eurizon Fund - Equity USA ESG Leaders LTE"
-        ],
-        "new_names": [
-          "YourIndex SICAV - YIS MSCI EMU Universal",
-          "YourIndex SICAV - YIS MSCI Europe Universal",
-          "YourIndex SICAV - YIS MSCI USA Universal",
-          "YourIndex SICAV - YIS MSCI North America Universal",
-          "YourIndex SICAV - YIS MSCI Japan Universal",
-          "YourIndex SICAV - YIS MSCI Pacific ex Japan Universal",
-          "YourIndex SICAV - YIS MSCI Europe Selection",
-          "YourIndex SICAV - YIS MSCI USA Selection"
-        ]
-      },
-      "content": "The following Sub-Funds have been merged on 23 May 2025:"
-    },
-    "__text_block__": true
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "As a result of the merger of Epsilon SGR S.p.A. into Eurizon Capital SGR S.p.A. on 1st March 2025, Eurizon Capital SGR S.p.A. became delegated investment manager of the Management Company for the Sub-Funds previously managed by Epsilon SGR S.p.A. The Sub-Fund Eurizon Fund - Bond Emerging Markets In Local Currencies ESG was renamed Eurizon Fund - Bond Emerging Markets in Local Currencies on 6 June 2025. The following Sub-Funds have been merged on 23 May 2025:"
+    }
   }
 ]

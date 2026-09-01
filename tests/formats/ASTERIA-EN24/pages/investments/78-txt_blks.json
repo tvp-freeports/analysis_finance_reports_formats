@@ -1,231 +1,231 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Asteria Funds - Global Investment Grade",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "Asteria Funds - Global Investment Grade"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.32",
+      "acquisition cost": "206,946",
+      "acquisition currency": "EUR",
+      "company": "Siemens",
+      "company match": "Siemens Financieringsmaatschappij NV 3.375%23–24.08.31",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Asteria Funds - Global Investment Grade",
+      "interest rate": "3.375%",
       "manco": null,
       "market value": "206,352",
-      "% net assets": "0.32",
-      "quantity": "200,000",
-      "acquisition currency": "EUR",
-      "acquisition cost": "206,946",
-      "interest rate": "3.375%",
       "maturity": "24.08.31",
-      "company match": "Siemens Financieringsmaatschappij NV 3.375%23–24.08.31",
-      "company": "Siemens",
-      "fund": "Asteria Funds - Global Investment Grade",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "200,000"
     },
     "content": "Siemens Financieringsmaatschappij NV 3.375%23–24.08.31",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 3,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 3
       },
       "content": "Siemens Financieringsmaatschappij NV 3.375%23–24.08.31"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.15",
+      "acquisition cost": "100,635",
+      "acquisition currency": "EUR",
+      "company": "Siemens",
+      "company match": "Siemens Financieringsmaatschappij NV 3.625%24–22.02.44",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Asteria Funds - Global Investment Grade",
+      "interest rate": "3.625%",
       "manco": null,
       "market value": "99,614",
-      "% net assets": "0.15",
-      "quantity": "100,000",
-      "acquisition currency": "EUR",
-      "acquisition cost": "100,635",
-      "interest rate": "3.625%",
       "maturity": "22.02.44",
-      "company match": "Siemens Financieringsmaatschappij NV 3.625%24–22.02.44",
-      "company": "Siemens",
-      "fund": "Asteria Funds - Global Investment Grade",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "100,000"
     },
     "content": "Siemens Financieringsmaatschappij NV 3.625%24–22.02.44",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 4,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 4
       },
       "content": "Siemens Financieringsmaatschappij NV 3.625%24–22.02.44"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.14",
+      "acquisition cost": "92,753",
+      "acquisition currency": "USD",
+      "company": "International Business Machines",
+      "company match": "IBM International Capital Pte. Ltd. 5.250%",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Asteria Funds - Global Investment Grade",
+      "interest rate": "5.250%",
       "manco": null,
       "market value": "91,377",
-      "% net assets": "0.14",
-      "quantity": "100,000",
-      "acquisition currency": "USD",
-      "acquisition cost": "92,753",
-      "interest rate": "5.250%",
       "maturity": "05.02.44",
-      "company match": "IBM International Capital Pte. Ltd. 5.250%",
-      "company": "International Business Machines",
-      "fund": "Asteria Funds - Global Investment Grade",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "100,000"
     },
     "content": "IBM International Capital Pte. Ltd. 5.250%24–05.02.44",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 7,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 7
       },
       "content": "IBM International Capital Pte. Ltd. 5.250%24–05.02.44"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.26",
+      "acquisition cost": "174,497",
+      "acquisition currency": "USD",
+      "company": "International Business Machines",
+      "company match": "IBM International Capital Pte. Ltd. 5.300%",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Asteria Funds - Global Investment Grade",
+      "interest rate": "5.300%",
       "manco": null,
       "market value": "169,415",
-      "% net assets": "0.26",
-      "quantity": "190,000",
-      "acquisition currency": "USD",
-      "acquisition cost": "174,497",
-      "interest rate": "5.300%",
       "maturity": "05.02.54",
-      "company match": "IBM International Capital Pte. Ltd. 5.300%",
-      "company": "International Business Machines",
-      "fund": "Asteria Funds - Global Investment Grade",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "190,000"
     },
     "content": "IBM International Capital Pte. Ltd. 5.300%24–05.02.54",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 8,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 8
       },
       "content": "IBM International Capital Pte. Ltd. 5.300%24–05.02.54"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.15",
+      "acquisition cost": "98,608",
+      "acquisition currency": "EUR",
+      "company": "Apple Inc",
+      "company match": "Apple, Inc. 1.625% 14–10.11.26",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Asteria Funds - Global Investment Grade",
+      "interest rate": "1.625%",
       "manco": null,
       "market value": "98,419",
-      "% net assets": "0.15",
-      "quantity": "100,000",
-      "acquisition currency": "EUR",
-      "acquisition cost": "98,608",
-      "interest rate": "1.625%",
       "maturity": "10.11.26",
-      "company match": "Apple, Inc. 1.625% 14–10.11.26",
-      "company": "Apple Inc",
-      "fund": "Asteria Funds - Global Investment Grade",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "100,000"
     },
     "content": "Apple, Inc. 1.625% 14–10.11.26",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 25,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 25
       },
       "content": "Apple, Inc. 1.625% 14–10.11.26"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.19",
+      "acquisition cost": "122,534",
+      "acquisition currency": "USD",
+      "company": "Apple Inc",
+      "company match": "Apple, Inc. 4.250% 17–09.02.47",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Asteria Funds - Global Investment Grade",
+      "interest rate": "4.250%",
       "manco": null,
       "market value": "124,136",
-      "% net assets": "0.19",
-      "quantity": "150,000",
-      "acquisition currency": "USD",
-      "acquisition cost": "122,534",
-      "interest rate": "4.250%",
       "maturity": "09.02.47",
-      "company match": "Apple, Inc. 4.250% 17–09.02.47",
-      "company": "Apple Inc",
-      "fund": "Asteria Funds - Global Investment Grade",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "150,000"
     },
     "content": "Apple, Inc. 4.250% 17–09.02.47",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 26,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 26
       },
       "content": "Apple, Inc. 4.250% 17–09.02.47"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0.03",
+      "acquisition cost": "17,265",
+      "acquisition currency": "USD",
+      "company": "Apple Inc",
+      "company match": "Apple, Inc. 4.650% 16–23.02.46",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Asteria Funds - Global Investment Grade",
+      "interest rate": "4.650%",
       "manco": null,
       "market value": "17,665",
-      "% net assets": "0.03",
-      "quantity": "20,000",
-      "acquisition currency": "USD",
-      "acquisition cost": "17,265",
-      "interest rate": "4.650%",
       "maturity": "23.02.46",
-      "company match": "Apple, Inc. 4.650% 16–23.02.46",
-      "company": "Apple Inc",
-      "fund": "Asteria Funds - Global Investment Grade",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "20,000"
     },
     "content": "Apple, Inc. 4.650% 16–23.02.46",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 27,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 27
       },
       "content": "Apple, Inc. 4.650% 16–23.02.46"
-    },
-    "__text_block__": true
+    }
   }
 ]

@@ -1,114 +1,114 @@
 [
   {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_it24:TypeChangeName:RENAMING",
+    "__text_block__": true,
+    "type_block": "RENAMING",
     "metadata": {
-      "old_name": "Eurizon Focus Azioni America",
       "current_name": "EURIZON AZIONI AMERICA",
-      "date": "29 maggio 2011"
+      "date": "29 maggio 2011",
+      "old_name": "Eurizon Focus Azioni America"
     },
     "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\".",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\"."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_it24:TypeChangeName:MERGING",
+    "__text_block__": true,
+    "type_block": "MERGING",
     "metadata": {
-      "old_name": "BN Azioni America",
       "current_name": "EURIZON AZIONI AMERICA",
-      "date": "1 settembre 2003"
+      "date": "1 settembre 2003",
+      "old_name": "BN Azioni America"
     },
     "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\".",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\"."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_it24:TypeChangeName:MERGING",
+    "__text_block__": true,
+    "type_block": "MERGING",
     "metadata": {
-      "old_name": "Epta Selezione America",
       "current_name": "EURIZON AZIONI AMERICA",
-      "date": "1 novembre 2004"
+      "date": "1 novembre 2004",
+      "old_name": "Epta Selezione America"
     },
     "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\".",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\"."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_it24:TypeChangeName:MERGING",
+    "__text_block__": true,
+    "type_block": "MERGING",
     "metadata": {
-      "old_name": "Nextra Azioni Nord America",
       "current_name": "EURIZON AZIONI AMERICA",
-      "date": "28 aprile 2008"
+      "date": "28 aprile 2008",
+      "old_name": "Nextra Azioni Nord America"
     },
     "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\".",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\"."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_it24:TypeChangeName:MERGING",
+    "__text_block__": true,
+    "type_block": "MERGING",
     "metadata": {
-      "old_name": "Nextra Azioni Nord America Dinamico",
       "current_name": "EURIZON AZIONI AMERICA",
-      "date": "28 aprile 2008"
+      "date": "28 aprile 2008",
+      "old_name": "Nextra Azioni Nord America Dinamico"
     },
     "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\".",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\"."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_it24:TypeChangeName:MERGING",
+    "__text_block__": true,
+    "type_block": "MERGING",
     "metadata": {
-      "old_name": "Eurizon Azioni PMI America",
       "current_name": "EURIZON AZIONI AMERICA",
-      "date": "4 maggio 2018"
+      "date": "4 maggio 2018",
+      "old_name": "Eurizon Azioni PMI America"
     },
     "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\".",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\"."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "_plugin_eurizon_it24:TypeChangeName:MERGING",
+    "__text_block__": true,
+    "type_block": "MERGING",
     "metadata": {
-      "old_name": "Eurizon AM Azioni USA",
       "current_name": "EURIZON AZIONI AMERICA",
-      "date": "24 giugno 2022"
+      "date": "24 giugno 2022",
+      "old_name": "Eurizon AM Azioni USA"
     },
     "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\".",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "Il fondo \"EURIZON AZIONI AMERICA\" (già denominato \"Sanpaolo-Hambros America\" fino al 31 dicembre 1998, \"Sanpaolo America\" fino al 27 aprile 2008 ed \"Eurizon Focus Azioni America\" fino al 29 maggio 2011) è stato istituito in data 25 novembre 1994 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 19 aprile 1995. Il Fondo è operativo a partire dal 15 gennaio 1996. In data 1° settembre 2003 ha incorporato il fondo \"BN Azioni America\"; in data 1° novembre 2004 ha incorporato il fondo \"Epta Selezione America\", in data 28 aprile 2008 ha incorporato i fondi \"Nextra Azioni Nord America\" e \"Nextra Azioni Nord America Dinamico\" e in data 4 maggio 2018 ha incorporato il fondo \"Eurizon Azioni PMI America\". In data 24 giugno 2022 ha incorporato il fondo \"Eurizon AM Azioni USA\"."
-    },
-    "__text_block__": true
+    }
   }
 ]

@@ -165,7 +165,7 @@ def pdf_extract_merges(page):
     n_groups = max(groups) + 1
     return [
         PdfBlock(
-            OnePdfBlockType.RELEVANT_BLOCK,
+            OnePdfBlockType.RELEVANT_BLOCK.name,
             {},
             " ".join((b.text for g, b in zip(groups, body) if group == g)),
         )
@@ -194,7 +194,7 @@ def text_filter_merges(pdf_blks, filter_data):
         if current_name in funds:
             res.append(
                 TextBlock(
-                    OneTextBlockType.RELEVANT_BLOCK,
+                    OneTextBlockType.RELEVANT_BLOCK.name,
                     {
                         "old_name": old_name,
                         "current_name": current_name.name,

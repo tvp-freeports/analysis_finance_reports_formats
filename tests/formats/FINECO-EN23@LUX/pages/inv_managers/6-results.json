@@ -1,63 +1,62 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Invesco Asset Management Limited",
         "managed_funds": {
           "__set__": [
             "Invesco Pan European High Income FAM Fund"
           ]
-        }
+        },
+        "name": "Invesco Asset Management Limited"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Algebris (UK) Limited",
         "managed_funds": {
           "__set__": [
             "Global Macro Credit FAM Fund"
           ]
-        }
+        },
+        "name": "Algebris (UK) Limited"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Algebris Investments (US) Inc.",
         "managed_funds": {
           "__set__": [
             "Global Macro Credit FAM Fund"
           ]
-        }
+        },
+        "name": "Algebris Investments (US) Inc."
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Fineco Asset Management DAC",
         "managed_funds": {
           "__set__": [
             "FIDELITY GLOBAL DIVIDEND FAM FUND",
             "INVESCO GLOBAL TOTAL RETURN BOND FAM FUND",
             "US EQUITY VALUE FAM FUND"
           ]
-        }
+        },
+        "name": "Fineco Asset Management DAC"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:ManagementCompany",
+      "class": "freeports.output:ManagementCompany",
       "data": {
-        "name": "Fineco Asset Management DAC",
         "managed_funds": {
           "__set__": [
             "FIDELITY GLOBAL DIVIDEND FAM FUND",
@@ -66,7 +65,8 @@
             "INVESCO PAN EUROPEAN HIGH INCOME FAM FUND",
             "US EQUITY VALUE FAM FUND"
           ]
-        }
+        },
+        "name": "Fineco Asset Management DAC"
       }
     }
   }

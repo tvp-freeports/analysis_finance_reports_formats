@@ -1,8 +1,8 @@
 [
   {
-    "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {},
-    "content": "Il fondo \"EURIZON AZIONARIO INTERNAZIONALE ETICO\" (già denominato \"Sanpaolo Azionario Internazionale Etico\" fino al 27 aprile 2008) è stato istituito in data 13 settembre 1996 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 31 dicembre 1996. Il Fondo è operativo a partire dal 2 giugno 1997. In data 24 giugno 2022 ha incorporato il fondo \"AM Azionario Etico\".",
-    "__pdf_block__": true
+    "content": "Il fondo \"EURIZON AZIONARIO INTERNAZIONALE ETICO\" (già denominato \"Sanpaolo Azionario Internazionale Etico\" fino al 27 aprile 2008) è stato istituito in data 13 settembre 1996 ai sensi della legge n. 77 del 23 marzo 1983 ed autorizzato dalla Banca d'Italia con Provvedimento del 31 dicembre 1996. Il Fondo è operativo a partire dal 2 giugno 1997. In data 24 giugno 2022 ha incorporato il fondo \"AM Azionario Etico\"."
   }
 ]

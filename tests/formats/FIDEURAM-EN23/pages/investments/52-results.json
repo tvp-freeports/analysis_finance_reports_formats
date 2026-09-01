@@ -1,153 +1,153 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "APPLE, INC. 2.513% 19/08/2024",
-        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
-        "nominal_quantity": 446000.0,
-        "market_value": 298975.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0028000000000000004,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:CAD"
+          "__enum__": "freeports.consts:Currency:CAD"
         },
+        "company": "Apple Inc",
+        "company_match": "APPLE, INC. 2.513% 19/08/2024",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
+        "interest_rate": 0.02513,
+        "market_value": 298975.0,
         "maturity": {
           "__date__": "2024-08-19"
         },
-        "interest_rate": 0.02513
+        "nominal_quantity": 446000.0,
+        "perc_net_assets": 0.0028000000000000004
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "APPLE, INC. 2.90% 12/09/2027",
-        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
-        "nominal_quantity": 895000.0,
-        "market_value": 784958.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0073,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
+        "company": "Apple Inc",
+        "company_match": "APPLE, INC. 2.90% 12/09/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
+        "interest_rate": 0.028999999999999998,
+        "market_value": 784958.0,
         "maturity": {
           "__date__": "2027-09-12"
         },
-        "interest_rate": 0.028999999999999998
+        "nominal_quantity": 895000.0,
+        "perc_net_assets": 0.0073
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "APPLE, INC. 3.35% 09/02/2027",
-        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
-        "nominal_quantity": 123000.0,
-        "market_value": 110583.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.001,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
+        "company": "Apple Inc",
+        "company_match": "APPLE, INC. 3.35% 09/02/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
+        "interest_rate": 0.0335,
+        "market_value": 110583.0,
         "maturity": {
           "__date__": "2027-02-09"
         },
-        "interest_rate": 0.0335
+        "nominal_quantity": 123000.0,
+        "perc_net_assets": 0.001
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Booking Holdings",
-        "company_match": "BOOKING HOLDINGS, INC. 3.55% 15/03/2028",
-        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
-        "nominal_quantity": 50000.0,
-        "market_value": 44200.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0004,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
+        "company": "Booking Holdings",
+        "company_match": "BOOKING HOLDINGS, INC. 3.55% 15/03/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
+        "interest_rate": 0.0355,
+        "market_value": 44200.0,
         "maturity": {
           "__date__": "2028-03-15"
         },
-        "interest_rate": 0.0355
+        "nominal_quantity": 50000.0,
+        "perc_net_assets": 0.0004
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Booking Holdings",
-        "company_match": "BOOKING HOLDINGS, INC. 4.00% 15/11/2026",
-        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
-        "nominal_quantity": 600000.0,
-        "market_value": 604104.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.005600000000000001,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Booking Holdings",
+        "company_match": "BOOKING HOLDINGS, INC. 4.00% 15/11/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
+        "interest_rate": 0.04,
+        "market_value": 604104.0,
         "maturity": {
           "__date__": "2026-11-15"
         },
-        "interest_rate": 0.04
+        "nominal_quantity": 600000.0,
+        "perc_net_assets": 0.005600000000000001
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Expedia",
-        "company_match": "EXPEDIA GROUP, INC. 2.95% 15/03/2031",
-        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
-        "nominal_quantity": 47000.0,
-        "market_value": 35703.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0003,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
+        "company": "Expedia",
+        "company_match": "EXPEDIA GROUP, INC. 2.95% 15/03/2031",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
+        "interest_rate": 0.029500000000000002,
+        "market_value": 35703.0,
         "maturity": {
           "__date__": "2031-03-15"
         },
-        "interest_rate": 0.029500000000000002
+        "nominal_quantity": 47000.0,
+        "perc_net_assets": 0.0003
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND"
+        "name": "WILLERFUNDS PRIVATE SUITE JANUS HENDERSON STRATEGIC BOND"
       }
     }
   }

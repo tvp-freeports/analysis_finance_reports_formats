@@ -1,36 +1,34 @@
 [
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "US COLLECTION",
       "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        "__enum__": "freeports.consts:Currency:EUR"
       },
-      "tot_assets": "960.446.613",
+      "date": "31 DICEMBRE 2024",
+      "fund": "US COLLECTION",
       "liabilities": "17.219.697",
       "net_assets": "943.226.916",
-      "date": "31 DICEMBRE 2024"
+      "tot_assets": "960.446.613"
     },
     "content": "",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "fund": "EUROPEAN COLLECTION",
       "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+        "__enum__": "freeports.consts:Currency:EUR"
       },
-      "tot_assets": "491.077.993",
+      "date": "31 DICEMBRE 2024",
+      "fund": "EUROPEAN COLLECTION",
       "liabilities": "4.704.155",
       "net_assets": "486.373.838",
-      "date": "31 DICEMBRE 2024"
+      "tot_assets": "491.077.993"
     },
     "content": "",
-    "pdf_block": null,
-    "__text_block__": true
+    "pdf_block": null
   }
 ]

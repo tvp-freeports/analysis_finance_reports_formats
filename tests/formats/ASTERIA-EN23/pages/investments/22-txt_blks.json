@@ -1,72 +1,72 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Asteria Funds – People Impact Global Equities",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "Asteria Funds – People Impact Global Equities"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1.12",
+      "acquisition cost": "144,290",
+      "acquisition currency": "USD",
+      "company": "Airbnb",
+      "company match": "AIRBNB RG-A",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:USD"
+      },
+      "fund": "Asteria Funds – People Impact Global Equities",
       "manco": null,
       "market value": "165,839",
-      "% net assets": "1.12",
-      "quantity": "1,294",
-      "acquisition currency": "USD",
-      "acquisition cost": "144,290",
-      "company match": "AIRBNB RG-A",
-      "company": "Airbnb",
-      "fund": "Asteria Funds – People Impact Global Equities",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:USD"
-      }
+      "quantity": "1,294"
     },
     "content": "AIRBNB RG-A",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 12,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 12
       },
       "content": "AIRBNB RG-A"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "2.56",
+      "acquisition cost": "424,237",
+      "acquisition currency": "USD",
+      "company": "Cisco Systems",
+      "company match": "CISCO SYSTEMS INC.",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:USD"
+      },
+      "fund": "Asteria Funds – People Impact Global Equities",
       "manco": null,
       "market value": "378,789",
-      "% net assets": "2.56",
-      "quantity": "7,321",
-      "acquisition currency": "USD",
-      "acquisition cost": "424,237",
-      "company match": "CISCO SYSTEMS INC.",
-      "company": "Cisco Systems",
-      "fund": "Asteria Funds – People Impact Global Equities",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:USD"
-      }
+      "quantity": "7,321"
     },
     "content": "CISCO SYSTEMS INC.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 23,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 23
       },
       "content": "CISCO SYSTEMS INC."
-    },
-    "__text_block__": true
+    }
   }
 ]

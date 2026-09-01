@@ -1,33 +1,33 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Siemens",
-        "company_match": "SIEMENS ENE 4.25% 23-05.04.29",
-        "fund": "Asteria Funds – Climate Bonds",
-        "nominal_quantity": 100000.0,
-        "market_value": 97387.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0067,
         "acquisition_cost": 100400.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Siemens",
+        "company_match": "SIEMENS ENE 4.25% 23-05.04.29",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Asteria Funds – Climate Bonds",
+        "interest_rate": 0.0425,
+        "market_value": 97387.0,
         "maturity": {
           "__date__": "2029-04-05"
         },
-        "interest_rate": 0.0425
+        "nominal_quantity": 100000.0,
+        "perc_net_assets": 0.0067
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "Asteria Funds – Climate Bonds"
+        "name": "ASTERIA FUNDS CLIMATE BONDS"
       }
     }
   }

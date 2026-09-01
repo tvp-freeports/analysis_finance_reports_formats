@@ -1,69 +1,69 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
         "company": "Booking Holdings",
         "company_match": "BOOKING HOLDINGS, INC.",
-        "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
-        "nominal_quantity": 1160.0,
-        "market_value": 2760810.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.0116,
-        "acquisition_cost": null,
-        "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+        "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
+        "market_value": 2760810.0,
+        "nominal_quantity": 1160.0,
+        "perc_net_assets": 0.0116
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
         "company": "Microsoft",
         "company_match": "MICROSOFT CORP.",
-        "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
-        "nominal_quantity": 10830.0,
-        "market_value": 2547117.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.010700000000000001,
-        "acquisition_cost": null,
-        "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+        "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
+        "market_value": 2547117.0,
+        "nominal_quantity": 10830.0,
+        "perc_net_assets": 0.010700000000000001
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
         "company": "NVIDIA",
         "company_match": "NVIDIA CORP.",
-        "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
-        "nominal_quantity": 6398.0,
-        "market_value": 1400621.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.0059,
-        "acquisition_cost": null,
-        "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+        "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
+        "market_value": 1400621.0,
+        "nominal_quantity": 6398.0,
+        "perc_net_assets": 0.0059
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN"
+        "name": "WILLERFUNDS PRIVATE SUITE BNY MELLON GLOBAL REAL RETURN"
       }
     }
   }

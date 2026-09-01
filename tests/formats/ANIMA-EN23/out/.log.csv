@@ -1,1 +1,2 @@
-Page,Matched Company,Company,Field name,Row,Column,Message
+Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Message
+63,job[ANIMA-EN23]/step[1]/class[fund_assets]/page[63]/pipeline[fund_assets]/pdf_extract/pipe[PdfExtractAssetsStandard],,,,,assets columns have mismatched lengths - extra entries dropped

@@ -1,68 +1,68 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Fondo Mediolanum Flessibile Futuro Sostenibile ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "Fondo Mediolanum Flessibile Futuro Sostenibile "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,68 ",
+      "company": "AXA SA",
+      "company match": "AXA SA ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Fondo Mediolanum Flessibile Futuro Sostenibile ",
       "manco": null,
       "market value": "2.554.018 ",
-      "% net assets": "0,68 ",
-      "quantity": "74.854 ",
-      "company match": "AXA SA ",
-      "company": "AXA SA",
-      "fund": "Fondo Mediolanum Flessibile Futuro Sostenibile ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "74.854 "
     },
     "content": "AXA SA ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 1,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 1
       },
       "content": "AXA SA "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,66 ",
+      "company": "Siemens",
+      "company match": "SIEMENS AG REG ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Fondo Mediolanum Flessibile Futuro Sostenibile ",
       "manco": null,
       "market value": "2.477.301 ",
-      "% net assets": "0,66 ",
-      "quantity": "13.138 ",
-      "company match": "SIEMENS AG REG ",
-      "company": "Siemens",
-      "fund": "Fondo Mediolanum Flessibile Futuro Sostenibile ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "13.138 "
     },
     "content": "SIEMENS AG REG ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 3,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 3
       },
       "content": "SIEMENS AG REG "
-    },
-    "__text_block__": true
+    }
   }
 ]

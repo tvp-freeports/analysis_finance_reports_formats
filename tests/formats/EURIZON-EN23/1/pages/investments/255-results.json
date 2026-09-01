@@ -1,149 +1,149 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Amazon",
-        "company_match": "AMAZON.COM, INC.",
-        "fund": "Eurizon Fund - Equity USA ESG LTE",
-        "nominal_quantity": 236085.0,
-        "market_value": 28209011.06,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.030299999999999997,
         "acquisition_cost": 28971775.38,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Amazon",
+        "company_match": "AMAZON.COM, INC.",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Eurizon Fund - Equity USA ESG LTE",
+        "market_value": 28209011.06,
+        "nominal_quantity": 236085.0,
+        "perc_net_assets": 0.030299999999999997
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Alphabet",
-        "company_match": "ALPHABET, INC.",
-        "fund": "Eurizon Fund - Equity USA ESG LTE",
-        "nominal_quantity": 142683.0,
-        "market_value": 15820675.68,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.017,
         "acquisition_cost": 14252145.33,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
-      "data": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
         "company": "Alphabet",
         "company_match": "ALPHABET, INC.",
-        "fund": "Eurizon Fund - Equity USA ESG LTE",
-        "nominal_quantity": 143934.0,
-        "market_value": 15791837.27,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.017,
+        "fund": "Eurizon Fund - Equity USA ESG LTE",
+        "market_value": 15820675.68,
+        "nominal_quantity": 142683.0,
+        "perc_net_assets": 0.017
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
         "acquisition_cost": 14408213.83,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Alphabet",
+        "company_match": "ALPHABET, INC.",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Eurizon Fund - Equity USA ESG LTE",
+        "market_value": 15791837.27,
+        "nominal_quantity": 143934.0,
+        "perc_net_assets": 0.017
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Cisco Systems",
-        "company_match": "CISCO SYSTEMS, INC.",
-        "fund": "Eurizon Fund - Equity USA ESG LTE",
-        "nominal_quantity": 101756.0,
-        "market_value": 4825713.85,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0052,
         "acquisition_cost": 4439769.52,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Cisco Systems",
+        "company_match": "CISCO SYSTEMS, INC.",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Eurizon Fund - Equity USA ESG LTE",
+        "market_value": 4825713.85,
+        "nominal_quantity": 101756.0,
+        "perc_net_assets": 0.0052
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Booking Holdings",
-        "company_match": "BOOKING HOLDINGS, INC.",
-        "fund": "Eurizon Fund - Equity USA ESG LTE",
-        "nominal_quantity": 1037.0,
-        "market_value": 2566674.01,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0028000000000000004,
         "acquisition_cost": 1961778.23,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Booking Holdings",
+        "company_match": "BOOKING HOLDINGS, INC.",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Eurizon Fund - Equity USA ESG LTE",
+        "market_value": 2566674.01,
+        "nominal_quantity": 1037.0,
+        "perc_net_assets": 0.0028000000000000004
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Airbnb",
-        "company_match": "AIRBNB, INC.",
-        "fund": "Eurizon Fund - Equity USA ESG LTE",
-        "nominal_quantity": 10261.0,
-        "market_value": 1205361.46,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0013,
         "acquisition_cost": 1234992.92,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Airbnb",
+        "company_match": "AIRBNB, INC.",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Eurizon Fund - Equity USA ESG LTE",
+        "market_value": 1205361.46,
+        "nominal_quantity": 10261.0,
+        "perc_net_assets": 0.0013
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Motorola Solutions",
-        "company_match": "MOTOROLA SOLUTIONS, INC.",
-        "fund": "Eurizon Fund - Equity USA ESG LTE",
-        "nominal_quantity": 3381.0,
-        "market_value": 908872.02,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.001,
         "acquisition_cost": 704300.06,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Motorola Solutions",
+        "company_match": "MOTOROLA SOLUTIONS, INC.",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Eurizon Fund - Equity USA ESG LTE",
+        "market_value": 908872.02,
+        "nominal_quantity": 3381.0,
+        "perc_net_assets": 0.001
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "Eurizon Fund - Equity USA ESG LTE"
+        "name": "EURIZON FUND EQUITY USA ESG LTE"
       }
     }
   }

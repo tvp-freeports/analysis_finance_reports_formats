@@ -1,85 +1,85 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundRename",
+      "class": "freeports.output:FundRename",
       "data": {
-        "old_name": "Eurizon Focus Azioni America",
         "current_name": "EURIZON AZIONI AMERICA",
         "date": {
           "__date__": "2011-05-29"
-        }
+        },
+        "old_name": "Eurizon Focus Azioni America"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "BN Azioni America",
         "current_name": "EURIZON AZIONI AMERICA",
         "date": {
           "__date__": "2003-09-01"
-        }
+        },
+        "old_name": "BN Azioni America"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "Epta Selezione America",
         "current_name": "EURIZON AZIONI AMERICA",
         "date": {
           "__date__": "2004-11-01"
-        }
+        },
+        "old_name": "Epta Selezione America"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "Nextra Azioni Nord America",
         "current_name": "EURIZON AZIONI AMERICA",
         "date": {
           "__date__": "2008-04-28"
-        }
+        },
+        "old_name": "Nextra Azioni Nord America"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "Nextra Azioni Nord America Dinamico",
         "current_name": "EURIZON AZIONI AMERICA",
         "date": {
           "__date__": "2008-04-28"
-        }
+        },
+        "old_name": "Nextra Azioni Nord America Dinamico"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "Eurizon Azioni PMI America",
         "current_name": "EURIZON AZIONI AMERICA",
         "date": {
           "__date__": "2018-05-04"
-        }
+        },
+        "old_name": "Eurizon Azioni PMI America"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundMerge",
+      "class": "freeports.output:FundMerge",
       "data": {
-        "old_name": "Eurizon AM Azioni USA",
         "current_name": "EURIZON AZIONI AMERICA",
         "date": {
           "__date__": "2022-06-24"
-        }
+        },
+        "old_name": "Eurizon AM Azioni USA"
       }
     }
   }

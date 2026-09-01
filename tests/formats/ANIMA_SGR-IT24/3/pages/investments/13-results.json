@@ -1,105 +1,105 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 2.95% 24-15/02/2027",
-        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
-        "nominal_quantity": 43000000.0,
-        "market_value": 43624.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.10507,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 2.95% 24-15/02/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+        "interest_rate": 0.029500000000000002,
+        "market_value": 43624.0,
         "maturity": {
           "__date__": "2027-02-15"
         },
-        "interest_rate": 0.029500000000000002
+        "nominal_quantity": 43000000.0,
+        "perc_net_assets": 0.10507
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 2% 18-01/02/2028",
-        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
-        "nominal_quantity": 20000000.0,
-        "market_value": 19956.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.04807,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 2% 18-01/02/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+        "interest_rate": null,
+        "market_value": 19956.0,
         "maturity": {
           "__date__": "2028-02-01"
         },
-        "interest_rate": null
+        "nominal_quantity": 20000000.0,
+        "perc_net_assets": 0.04807
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 0% 21-01/08/2026",
-        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
-        "nominal_quantity": 8000000.0,
-        "market_value": 7842.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.01889,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0% 21-01/08/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+        "interest_rate": null,
+        "market_value": 7842.0,
         "maturity": {
           "__date__": "2026-08-01"
         },
-        "interest_rate": null
+        "nominal_quantity": 8000000.0,
+        "perc_net_assets": 0.01889
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 2.95% 25-01/07/2030",
-        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
-        "nominal_quantity": 5000000.0,
-        "market_value": 5063.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.012190000000000001,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 2.95% 25-01/07/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+        "interest_rate": 0.029500000000000002,
+        "market_value": 5063.0,
         "maturity": {
           "__date__": "2030-07-01"
         },
-        "interest_rate": 0.029500000000000002
+        "nominal_quantity": 5000000.0,
+        "perc_net_assets": 0.012190000000000001
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "ANIMA VALORE OBBLIGAZIONARIO "
+        "name": "ANIMA VALORE OBBLIGAZIONARIO"
       }
     }
   }

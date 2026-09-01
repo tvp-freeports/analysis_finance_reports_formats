@@ -1,98 +1,98 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1.16",
+      "acquisition currency": "USD",
+      "company": "Booking Holdings",
+      "company match": "BOOKING HOLDINGS, INC.",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
       "manco": null,
       "market value": "2,760,810",
-      "% net assets": "1.16",
-      "quantity": "1,160",
-      "acquisition currency": "USD",
-      "company match": "BOOKING HOLDINGS, INC.",
-      "company": "Booking Holdings",
-      "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1,160"
     },
     "content": "BOOKING HOLDINGS, INC.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 14,
+        "is-max-width": false,
         "table-col": 3,
-        "is-max-width": false
+        "table-row": 14
       },
       "content": "BOOKING HOLDINGS, INC."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1.07",
+      "acquisition currency": "USD",
+      "company": "Microsoft",
+      "company match": "MICROSOFT CORP.",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
       "manco": null,
       "market value": "2,547,117",
-      "% net assets": "1.07",
-      "quantity": "10,830",
-      "acquisition currency": "USD",
-      "company match": "MICROSOFT CORP.",
-      "company": "Microsoft",
-      "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "10,830"
     },
     "content": "MICROSOFT CORP.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 26,
+        "is-max-width": false,
         "table-col": 3,
-        "is-max-width": false
+        "table-row": 26
       },
       "content": "MICROSOFT CORP."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.59",
+      "acquisition currency": "USD",
+      "company": "NVIDIA",
+      "company match": "NVIDIA CORP.",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
       "manco": null,
       "market value": "1,400,621",
-      "% net assets": "0.59",
-      "quantity": "6,398",
-      "acquisition currency": "USD",
-      "company match": "NVIDIA CORP.",
-      "company": "NVIDIA",
-      "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "6,398"
     },
     "content": "NVIDIA CORP.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 28,
+        "is-max-width": false,
         "table-col": 3,
-        "is-max-width": false
+        "table-row": 28
       },
       "content": "NVIDIA CORP."
-    },
-    "__text_block__": true
+    }
   }
 ]

@@ -1,209 +1,209 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BTPS",
-        "company_match": "BTPS 2.45 09/50",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 1480000.0,
-        "market_value": 1087208.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.034,
         "acquisition_cost": null,
         "acquisition_currency": null,
+        "company": "ITALY BTPS",
+        "company_match": "BTPS 2.45 09/50",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "interest_rate": 0.0245,
+        "market_value": 1087208.0,
         "maturity": null,
-        "interest_rate": 0.0245
+        "nominal_quantity": 1480000.0,
+        "perc_net_assets": 0.034
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Microsoft",
         "company_match": "MICROSOFT CORP",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 1812.0,
-        "market_value": 844613.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.027000000000000003,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "market_value": 844613.0,
+        "nominal_quantity": 1812.0,
+        "perc_net_assets": 0.027000000000000003
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Amazon",
         "company_match": "AMAZON.COM INC",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 2068.0,
-        "market_value": 422996.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.013000000000000001,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "market_value": 422996.0,
+        "nominal_quantity": 2068.0,
+        "perc_net_assets": 0.013000000000000001
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Alphabet",
         "company_match": "ALPHABET INC CL A",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 2344.0,
-        "market_value": 393005.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.013000000000000001,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "market_value": 393005.0,
+        "nominal_quantity": 2344.0,
+        "perc_net_assets": 0.013000000000000001
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Apple Inc",
         "company_match": "APPLE INC",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 2078.0,
-        "market_value": 376856.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.012,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "market_value": 376856.0,
+        "nominal_quantity": 2078.0,
+        "perc_net_assets": 0.012
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Volvo Car Corp",
         "company_match": "VOLVO AB B SHS",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 14700.0,
-        "market_value": 370047.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.012,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "market_value": 370047.0,
+        "nominal_quantity": 14700.0,
+        "perc_net_assets": 0.012
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "INTESA SANPAOLO",
         "company_match": "INTESA SANPAOLO",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 57664.0,
-        "market_value": 305331.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.01,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "market_value": 305331.0,
+        "nominal_quantity": 57664.0,
+        "perc_net_assets": 0.01
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Carrefour",
         "company_match": "CARREFOUR SA",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 21148.0,
-        "market_value": 265830.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.008,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "market_value": 265830.0,
+        "nominal_quantity": 21148.0,
+        "perc_net_assets": 0.008
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Cisco Systems",
         "company_match": "CISCO SYSTEMS INC",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 3485.0,
-        "market_value": 207294.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.006999999999999999,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "market_value": 207294.0,
+        "nominal_quantity": 3485.0,
+        "perc_net_assets": 0.006999999999999999
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "Blackrock",
         "company_match": "BLACKROCK FUNDING IN",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 214.0,
-        "market_value": 206794.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.006999999999999999,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "market_value": 206794.0,
+        "nominal_quantity": 214.0,
+        "perc_net_assets": 0.006999999999999999
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "NVIDIA",
         "company_match": "NVIDIA CORP",
-        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
-        "nominal_quantity": 1315.0,
-        "market_value": 204359.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.006999999999999999,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
+        "market_value": 204359.0,
+        "nominal_quantity": 1315.0,
+        "perc_net_assets": 0.006999999999999999
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025"
+        "name": "EURIZON GLOBAL DIVIDEND ESG 50 LUGLIO 2025"
       }
     }
   }

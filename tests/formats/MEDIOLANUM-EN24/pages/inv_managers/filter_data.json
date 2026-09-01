@@ -1,7 +1,7 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc.",
@@ -9,7 +9,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -19,7 +19,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc.",
@@ -27,7 +27,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -37,7 +37,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc.",
@@ -45,7 +45,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -55,7 +55,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc.",
@@ -63,7 +63,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -73,7 +73,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc.",
@@ -81,7 +81,7 @@
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -91,7 +91,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
         "name": "Nino",
         "managed_funds": {
@@ -104,7 +104,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "CHALLENGE Spain Equity Fund"
       }
@@ -112,7 +112,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "Chinese Road Opportunities"
       }
@@ -120,7 +120,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "Convertible Strategy Collection"
       }
@@ -128,7 +128,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "CHALLENGE Provident Fund 1"
       }
@@ -136,7 +136,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "CHALLENGE North American Equity Fund"
       }
@@ -144,7 +144,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "CHALLENGE Provident Fund 3"
       }
@@ -152,7 +152,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "CHALLENGE Energy Opportunities"
       }

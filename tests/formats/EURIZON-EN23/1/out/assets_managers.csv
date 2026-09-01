@@ -1,6 +1,6 @@
-ID,Report page,Name
-1,8,Eurizon Capital S.A.
-2,9,Eurizon Capital SGR S.p.A.
-3,9,Epsilon Associati SGR S.p.A. (short name: Epsilon SGR S.p.A.)
-4,9,Eurizon SLJ Capital LTD
-5,10,Eurizon Capital Asia Limited
+ID,Format,Report,Report page,Name
+1,EURIZON-EN23,report,8,Eurizon Capital S.A.
+2,EURIZON-EN23,report,9,Eurizon Capital SGR S.p.A.
+3,EURIZON-EN23,report,9,Epsilon Associati SGR S.p.A. (short name: Epsilon SGR S.p.A.)
+4,EURIZON-EN23,report,9,Eurizon SLJ Capital LTD
+5,EURIZON-EN23,report,10,Eurizon Capital Asia Limited

@@ -1,109 +1,109 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Airbnb",
-        "company_match": "Airbnb Rg-A",
-        "fund": "GAMAX FUNDS - JUNIOR ",
-        "nominal_quantity": 52492.0,
-        "market_value": 6665354.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0055000000000000005,
         "acquisition_cost": 6568240.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Airbnb",
+        "company_match": "Airbnb Rg-A",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "GAMAX FUNDS - JUNIOR ",
+        "market_value": 6665354.0,
+        "nominal_quantity": 52492.0,
+        "perc_net_assets": 0.0055000000000000005
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Alphabet",
-        "company_match": "Alphabet Inc -A-",
-        "fund": "GAMAX FUNDS - JUNIOR ",
-        "nominal_quantity": 121404.0,
-        "market_value": 22366265.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.018500000000000003,
         "acquisition_cost": 12633047.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Alphabet",
+        "company_match": "Alphabet Inc -A-",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "GAMAX FUNDS - JUNIOR ",
+        "market_value": 22366265.0,
+        "nominal_quantity": 121404.0,
+        "perc_net_assets": 0.018500000000000003
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Amazon",
-        "company_match": "Amazon Com Inc",
-        "fund": "GAMAX FUNDS - JUNIOR ",
-        "nominal_quantity": 430725.0,
-        "market_value": 91825483.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0758,
         "acquisition_cost": 57416684.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Amazon",
+        "company_match": "Amazon Com Inc",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "GAMAX FUNDS - JUNIOR ",
+        "market_value": 91825483.0,
+        "nominal_quantity": 430725.0,
+        "perc_net_assets": 0.0758
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "GAMAX FUNDS - JUNIOR ",
-        "nominal_quantity": 45139.0,
-        "market_value": 10966770.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0091,
         "acquisition_cost": 6802972.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Apple Inc",
+        "company_match": "Apple Inc.",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "GAMAX FUNDS - JUNIOR ",
+        "market_value": 10966770.0,
+        "nominal_quantity": 45139.0,
+        "perc_net_assets": 0.0091
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Booking Holdings",
-        "company_match": "Booking Holdings Inc",
-        "fund": "GAMAX FUNDS - JUNIOR ",
-        "nominal_quantity": 4894.0,
-        "market_value": 23530001.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0194,
         "acquisition_cost": 12262755.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "company": "Booking Holdings",
+        "company_match": "Booking Holdings Inc",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "GAMAX FUNDS - JUNIOR ",
+        "market_value": 23530001.0,
+        "nominal_quantity": 4894.0,
+        "perc_net_assets": 0.0194
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "GAMAX FUNDS - JUNIOR "
+        "name": "GAMAX FUNDS JUNIOR"
       }
     }
   }

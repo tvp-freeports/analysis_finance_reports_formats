@@ -1,14 +1,14 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Zazove Associates LLC",
         "managed_funds": {
           "__set__": [
             "Convertible Strategy Collection"
           ]
-        }
+        },
+        "name": "Zazove Associates LLC"
       }
     }
   }

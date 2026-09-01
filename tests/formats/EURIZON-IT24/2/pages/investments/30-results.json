@@ -1,619 +1,619 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 1.85 07/25",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 4939000.0,
-        "market_value": 4934506.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.035,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.018500000000000003,
+        "market_value": 4934506.0,
         "maturity": null,
-        "interest_rate": 0.018500000000000003
+        "nominal_quantity": 4939000.0,
+        "perc_net_assets": 0.035
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 1.45 05/25",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 4316000.0,
-        "market_value": 4311555.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.032,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.014499999999999999,
+        "market_value": 4311555.0,
         "maturity": null,
-        "interest_rate": 0.014499999999999999
+        "nominal_quantity": 4316000.0,
+        "perc_net_assets": 0.032
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 2.8 12/28",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3450000.0,
-        "market_value": 3480360.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.026000000000000002,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.027999999999999997,
+        "market_value": 3480360.0,
         "maturity": null,
-        "interest_rate": 0.027999999999999997
+        "nominal_quantity": 3450000.0,
+        "perc_net_assets": 0.026000000000000002
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 0.5 07/28",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3520000.0,
-        "market_value": 3301408.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.024,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.005,
+        "market_value": 3301408.0,
         "maturity": null,
-        "interest_rate": 0.005
+        "nominal_quantity": 3520000.0,
+        "perc_net_assets": 0.024
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 3.8 08/28",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3160000.0,
-        "market_value": 3287348.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.024,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.038,
+        "market_value": 3287348.0,
         "maturity": null,
-        "interest_rate": 0.038
+        "nominal_quantity": 3160000.0,
+        "perc_net_assets": 0.024
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 2.65 06/28",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3240000.0,
-        "market_value": 3256848.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.024,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.0265,
+        "market_value": 3256848.0,
         "maturity": null,
-        "interest_rate": 0.0265
+        "nominal_quantity": 3240000.0,
+        "perc_net_assets": 0.024
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 3.4 04/28",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3120000.0,
-        "market_value": 3204864.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.024,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.034,
+        "market_value": 3204864.0,
         "maturity": null,
-        "interest_rate": 0.034
+        "nominal_quantity": 3120000.0,
+        "perc_net_assets": 0.024
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 0.95 09/27",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3203000.0,
-        "market_value": 3103707.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.023,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.0095,
+        "market_value": 3103707.0,
         "maturity": null,
-        "interest_rate": 0.0095
+        "nominal_quantity": 3203000.0,
+        "perc_net_assets": 0.023
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 3.1 08/26",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3055000.0,
-        "market_value": 3091966.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.023,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.031,
+        "market_value": 3091966.0,
         "maturity": null,
-        "interest_rate": 0.031
+        "nominal_quantity": 3055000.0,
+        "perc_net_assets": 0.023
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 2.05 08/27",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3101000.0,
-        "market_value": 3088906.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.023,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.020499999999999997,
+        "market_value": 3088906.0,
         "maturity": null,
-        "interest_rate": 0.020499999999999997
+        "nominal_quantity": 3101000.0,
+        "perc_net_assets": 0.023
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 3.45 07/27",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3002000.0,
-        "market_value": 3078551.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.023,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.0345,
+        "market_value": 3078551.0,
         "maturity": null,
-        "interest_rate": 0.0345
+        "nominal_quantity": 3002000.0,
+        "perc_net_assets": 0.023
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 3.8 04/26",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3001000.0,
-        "market_value": 3049616.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.022000000000000002,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.038,
+        "market_value": 3049616.0,
         "maturity": null,
-        "interest_rate": 0.038
+        "nominal_quantity": 3001000.0,
+        "perc_net_assets": 0.022000000000000002
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 0 04/26",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 3016000.0,
-        "market_value": 2953448.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.022000000000000002,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "market_value": 2953448.0,
+        "nominal_quantity": 3016000.0,
+        "perc_net_assets": 0.022000000000000002
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 2.65 12/27",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2917000.0,
-        "market_value": 2940336.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.022000000000000002,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.0265,
+        "market_value": 2940336.0,
         "maturity": null,
-        "interest_rate": 0.0265
+        "nominal_quantity": 2917000.0,
+        "perc_net_assets": 0.022000000000000002
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 1.2 08/25",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2887000.0,
-        "market_value": 2875798.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.021,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.012,
+        "market_value": 2875798.0,
         "maturity": null,
-        "interest_rate": 0.012
+        "nominal_quantity": 2887000.0,
+        "perc_net_assets": 0.021
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 2.1 07/26",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2810000.0,
-        "market_value": 2809719.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.021,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.021,
+        "market_value": 2809719.0,
         "maturity": null,
-        "interest_rate": 0.021
+        "nominal_quantity": 2810000.0,
+        "perc_net_assets": 0.021
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 3.85 09/26",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2623000.0,
-        "market_value": 2684116.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.02,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.0385,
+        "market_value": 2684116.0,
         "maturity": null,
-        "interest_rate": 0.0385
+        "nominal_quantity": 2623000.0,
+        "perc_net_assets": 0.02
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 0.25 03/28",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2770000.0,
-        "market_value": 2603523.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.019,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.0025,
+        "market_value": 2603523.0,
         "maturity": null,
-        "interest_rate": 0.0025
+        "nominal_quantity": 2770000.0,
+        "perc_net_assets": 0.019
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BTPS",
-        "company_match": "BTPS 04/27 1.1",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2633000.0,
-        "market_value": 2576127.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.019,
         "acquisition_cost": null,
         "acquisition_currency": null,
+        "company": "ITALY BTPS",
+        "company_match": "BTPS 04/27 1.1",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.011000000000000001,
+        "market_value": 2576127.0,
         "maturity": {
           "__date__": "2027-04-01"
         },
-        "interest_rate": 0.011000000000000001
+        "nominal_quantity": 2633000.0,
+        "perc_net_assets": 0.019
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 2.2 06/27",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2574000.0,
-        "market_value": 2569109.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.019,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.022000000000000002,
+        "market_value": 2569109.0,
         "maturity": null,
-        "interest_rate": 0.022000000000000002
+        "nominal_quantity": 2574000.0,
+        "perc_net_assets": 0.019
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 2 02/28",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2560000.0,
-        "market_value": 2534912.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.019,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "market_value": 2534912.0,
+        "nominal_quantity": 2560000.0,
+        "perc_net_assets": 0.019
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 0 08/26",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2602000.0,
-        "market_value": 2531226.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.019,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "market_value": 2531226.0,
+        "nominal_quantity": 2602000.0,
+        "perc_net_assets": 0.019
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "BOTS ZC",
         "company_match": "BOTS ZC 06/25",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2610000.0,
-        "market_value": 2526925.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.019,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "market_value": 2526925.0,
+        "nominal_quantity": 2610000.0,
+        "perc_net_assets": 0.019
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "BOTS ZC",
         "company_match": "BOTS ZC 04/25",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2440000.0,
-        "market_value": 2356768.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.017,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "market_value": 2356768.0,
+        "nominal_quantity": 2440000.0,
+        "perc_net_assets": 0.017
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 0.85 01/27",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2404000.0,
-        "market_value": 2351112.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.017,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.0085,
+        "market_value": 2351112.0,
         "maturity": null,
-        "interest_rate": 0.0085
+        "nominal_quantity": 2404000.0,
+        "perc_net_assets": 0.017
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 2.95 02/27",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 2317000.0,
-        "market_value": 2346889.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.017,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.029500000000000002,
+        "market_value": 2346889.0,
         "maturity": null,
-        "interest_rate": 0.029500000000000002
+        "nominal_quantity": 2317000.0,
+        "perc_net_assets": 0.017
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 3.2 01/26",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 1686000.0,
-        "market_value": 1698982.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.012,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.032,
+        "market_value": 1698982.0,
         "maturity": null,
-        "interest_rate": 0.032
+        "nominal_quantity": 1686000.0,
+        "perc_net_assets": 0.012
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 3.6 09/25",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 1343000.0,
-        "market_value": 1353744.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.01,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.036000000000000004,
+        "market_value": 1353744.0,
         "maturity": null,
-        "interest_rate": 0.036000000000000004
+        "nominal_quantity": 1343000.0,
+        "perc_net_assets": 0.01
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 3.5 01/26",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 1321000.0,
-        "market_value": 1334157.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.01,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.035,
+        "market_value": 1334157.0,
         "maturity": null,
-        "interest_rate": 0.035
+        "nominal_quantity": 1321000.0,
+        "perc_net_assets": 0.01
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 0.5 02/26",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 1319000.0,
-        "market_value": 1301048.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.01,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.005,
+        "market_value": 1301048.0,
         "maturity": null,
-        "interest_rate": 0.005
+        "nominal_quantity": 1319000.0,
+        "perc_net_assets": 0.01
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
         "company": "ITALY BTPS",
         "company_match": "BTPS 2.5 11/25",
-        "fund": "EURIZON STEP TO GLOBAL TRENDS",
-        "nominal_quantity": 1170000.0,
-        "market_value": 1172843.0,
         "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
-        "perc_net_assets": 0.009000000000000001,
-        "acquisition_cost": null,
-        "acquisition_currency": null,
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": 0.025,
+        "market_value": 1172843.0,
         "maturity": null,
-        "interest_rate": 0.025
+        "nominal_quantity": 1170000.0,
+        "perc_net_assets": 0.009000000000000001
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
         "name": "EURIZON STEP TO GLOBAL TRENDS"
       }

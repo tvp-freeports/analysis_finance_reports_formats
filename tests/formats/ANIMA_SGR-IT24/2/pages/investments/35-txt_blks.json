@@ -1,535 +1,535 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "ANIMA PICPAC ESALOGO BILANCIATO 2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "15,149%",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 0% 21-01/08/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "9.802.300 ",
-      "% net assets": "15,149%",
-      "quantity": "10.000.000",
-      "acquisition currency": "EUR ",
       "maturity": "01/08/2026",
-      "company match": "ITALY BTPS 0% 21-01/08/2026 ",
-      "company": "Italy btps",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "10.000.000"
     },
     "content": "ITALY BTPS 0% 21-01/08/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 0,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 0
       },
       "content": "ITALY BTPS 0% 21-01/08/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "10,723%",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 1.25% 16-01/12/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "interest rate": "1.25%",
       "manco": null,
       "market value": "6.937.980 ",
-      "% net assets": "10,723%",
-      "quantity": "7.000.000",
-      "acquisition currency": "EUR ",
-      "interest rate": "1.25%",
       "maturity": "01/12/2026",
-      "company match": "ITALY BTPS 1.25% 16-01/12/2026 ",
-      "company": "Italy btps",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "7.000.000"
     },
     "content": "ITALY BTPS 1.25% 16-01/12/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 1,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 1
       },
       "content": "ITALY BTPS 1.25% 16-01/12/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "4,623%",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 1.6% 16-01/06/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "interest rate": "1.6%",
       "manco": null,
       "market value": "2.991.600 ",
-      "% net assets": "4,623%",
-      "quantity": "3.000.000",
-      "acquisition currency": "EUR ",
-      "interest rate": "1.6%",
       "maturity": "01/06/2026",
-      "company match": "ITALY BTPS 1.6% 16-01/06/2026 ",
-      "company": "Italy btps",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.000.000"
     },
     "content": "ITALY BTPS 1.6% 16-01/06/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 2,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 2
       },
       "content": "ITALY BTPS 1.6% 16-01/06/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "2,349%",
+      "acquisition currency": "EUR ",
+      "company": "INTESA SANPAOLO",
+      "company match": "INTESA SANPAOLO 3.928% 14-15/09/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "interest rate": "3.928%",
       "manco": null,
       "market value": "1.519.650 ",
-      "% net assets": "2,349%",
-      "quantity": "1.500.000",
-      "acquisition currency": "EUR ",
-      "interest rate": "3.928%",
       "maturity": "15/09/2026",
-      "company match": "INTESA SANPAOLO 3.928% 14-15/09/2026 ",
-      "company": "INTESA SANPAOLO",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.500.000"
     },
     "content": "INTESA SANPAOLO 3.928% 14-15/09/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 5,
+        "is-max-width": true,
         "table-col": 0,
-        "is-max-width": true
+        "table-row": 5
       },
       "content": "INTESA SANPAOLO 3.928% 14-15/09/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "2,149%",
+      "acquisition currency": "USD ",
+      "company": "NVIDIA",
+      "company match": "NVIDIA CORP ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "1.390.597 ",
-      "% net assets": "2,149%",
-      "quantity": "10.332",
-      "acquisition currency": "USD ",
-      "company match": "NVIDIA CORP ",
-      "company": "NVIDIA",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "10.332"
     },
     "content": "NVIDIA CORP ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 6,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 6
       },
       "content": "NVIDIA CORP "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "2,042%",
+      "acquisition currency": "USD ",
+      "company": "Microsoft",
+      "company match": "MICROSOFT CORP ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "1.321.229 ",
-      "% net assets": "2,042%",
-      "quantity": "3.118",
-      "acquisition currency": "USD ",
-      "company match": "MICROSOFT CORP ",
-      "company": "Microsoft",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "3.118"
     },
     "content": "MICROSOFT CORP ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 7,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 7
       },
       "content": "MICROSOFT CORP "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,875%",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 0.65% 20-15/05/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "interest rate": "0.65%",
       "manco": null,
       "market value": "1.213.112 ",
-      "% net assets": "1,875%",
-      "quantity": "1.219.870",
-      "acquisition currency": "EUR ",
-      "interest rate": "0.65%",
       "maturity": "15/05/2026",
-      "company match": "ITALY BTPS 0.65% 20-15/05/2026 ",
-      "company": "Italy btps",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.219.870"
     },
     "content": "ITALY BTPS 0.65% 20-15/05/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 8,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 8
       },
       "content": "ITALY BTPS 0.65% 20-15/05/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,571%",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 4.5% 10-01/03/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "interest rate": "4.5%",
       "manco": null,
       "market value": "1.016.530 ",
-      "% net assets": "1,571%",
-      "quantity": "1.000.000",
-      "acquisition currency": "EUR ",
-      "interest rate": "4.5%",
       "maturity": "01/03/2026",
-      "company match": "ITALY BTPS 4.5% 10-01/03/2026 ",
-      "company": "Italy btps",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.000.000"
     },
     "content": "ITALY BTPS 4.5% 10-01/03/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 9,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 9
       },
       "content": "ITALY BTPS 4.5% 10-01/03/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,533%",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 0.5% 20-01/02/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "interest rate": "0.5%",
       "manco": null,
       "market value": "991.840 ",
-      "% net assets": "1,533%",
-      "quantity": "1.000.000",
-      "acquisition currency": "EUR ",
-      "interest rate": "0.5%",
       "maturity": "01/02/2026",
-      "company match": "ITALY BTPS 0.5% 20-01/02/2026 ",
-      "company": "Italy btps",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.000.000"
     },
     "content": "ITALY BTPS 0.5% 20-01/02/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 11,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 11
       },
       "content": "ITALY BTPS 0.5% 20-01/02/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "1,524%",
+      "acquisition currency": "EUR ",
+      "company": "Italy btps",
+      "company match": "ITALY BTPS 0% 21-01/04/2026 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "985.800 ",
-      "% net assets": "1,524%",
-      "quantity": "1.000.000",
-      "acquisition currency": "EUR ",
       "maturity": "01/04/2026",
-      "company match": "ITALY BTPS 0% 21-01/04/2026 ",
-      "company": "Italy btps",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "1.000.000"
     },
     "content": "ITALY BTPS 0% 21-01/04/2026 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 14,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 14
       },
       "content": "ITALY BTPS 0% 21-01/04/2026 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1,374%",
+      "acquisition currency": "USD ",
+      "company": "Apple Inc",
+      "company match": "APPLE INC ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "889.300 ",
-      "% net assets": "1,374%",
-      "quantity": "5.088",
-      "acquisition currency": "USD ",
-      "company match": "APPLE INC ",
-      "company": "Apple Inc",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "5.088"
     },
     "content": "APPLE INC ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 17,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 17
       },
       "content": "APPLE INC "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "1,225%",
+      "acquisition currency": "USD ",
+      "company": "Amazon",
+      "company match": "AMAZON.COM INC ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "792.634 ",
-      "% net assets": "1,225%",
-      "quantity": "4.241",
-      "acquisition currency": "USD ",
-      "company match": "AMAZON.COM INC ",
-      "company": "Amazon",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "4.241"
     },
     "content": "AMAZON.COM INC ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 18,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 18
       },
       "content": "AMAZON.COM INC "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,807%",
+      "acquisition currency": "EUR ",
+      "company": "ICCREA",
+      "company match": "ICCREA BANCA SPA 22-20/09/2027 FRN ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "522.150 ",
-      "% net assets": "0,807%",
-      "quantity": "500.000",
-      "acquisition currency": "EUR ",
       "maturity": "20/09/2027",
-      "company match": "ICCREA BANCA SPA 22-20/09/2027 FRN ",
-      "company": "ICCREA",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "500.000"
     },
     "content": "ICCREA BANCA SPA 22-20/09/2027 FRN ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 22,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 22
       },
       "content": "ICCREA BANCA SPA 22-20/09/2027 FRN "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,643%",
+      "acquisition currency": "USD ",
+      "company": "Alphabet",
+      "company match": "ALPHABET INC-CL A ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "415.860 ",
-      "% net assets": "0,643%",
-      "quantity": "2.770",
-      "acquisition currency": "USD ",
-      "company match": "ALPHABET INC-CL A ",
-      "company": "Alphabet",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.770"
     },
     "content": "ALPHABET INC-CL A ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 30,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 30
       },
       "content": "ALPHABET INC-CL A "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,521%",
+      "acquisition currency": "USD ",
+      "company": "Alphabet",
+      "company match": "ALPHABET INC-CL C ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "336.993 ",
-      "% net assets": "0,521%",
-      "quantity": "2.230",
-      "acquisition currency": "USD ",
-      "company match": "ALPHABET INC-CL C ",
-      "company": "Alphabet",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.230"
     },
     "content": "ALPHABET INC-CL C ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 32,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 32
       },
       "content": "ALPHABET INC-CL C "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:BOND_TARGET",
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
     "metadata": {
+      "% net assets": "0,446%",
+      "acquisition currency": "EUR ",
+      "company": "Carlsberg Group",
+      "company match": "CARLSBERG BREW 0.375% 20-30/06/2027 ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "interest rate": "0.375%",
       "manco": null,
       "market value": "288.318 ",
-      "% net assets": "0,446%",
-      "quantity": "300.000",
-      "acquisition currency": "EUR ",
-      "interest rate": "0.375%",
       "maturity": "30/06/2027",
-      "company match": "CARLSBERG BREW 0.375% 20-30/06/2027 ",
-      "company": "Carlsberg Group",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "300.000"
     },
     "content": "CARLSBERG BREW 0.375% 20-30/06/2027 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 35,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 35
       },
       "content": "CARLSBERG BREW 0.375% 20-30/06/2027 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,255%",
+      "acquisition currency": "USD ",
+      "company": "International Business Machines",
+      "company match": "INTL BUSINESS MACHINES CORP ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "164.736 ",
-      "% net assets": "0,255%",
-      "quantity": "656",
-      "acquisition currency": "USD ",
-      "company match": "INTL BUSINESS MACHINES CORP ",
-      "company": "International Business Machines",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "656"
     },
     "content": "INTL BUSINESS MACHINES CORP ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 43,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 43
       },
       "content": "INTL BUSINESS MACHINES CORP "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,242%",
+      "acquisition currency": "USD ",
+      "company": "Cisco Systems",
+      "company match": "CISCO SYSTEMS INC ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
       "manco": null,
       "market value": "156.450 ",
-      "% net assets": "0,242%",
-      "quantity": "2.647",
-      "acquisition currency": "USD ",
-      "company match": "CISCO SYSTEMS INC ",
-      "company": "Cisco Systems",
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "2.647"
     },
     "content": "CISCO SYSTEMS INC ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 47,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 47
       },
       "content": "CISCO SYSTEMS INC "
-    },
-    "__text_block__": true
+    }
   }
 ]

@@ -121,11 +121,11 @@ def pdf_extract(page):
         #         else:
         #             break
         res.append(PdfBlock(
-            TypeBlock.RENAME_ENTRY,{"old_names":text_old_names,"new_names":text_new_names},last_date_content
+            TypeBlock.RENAME_ENTRY.name,{"old_names":text_old_names,"new_names":text_new_names},last_date_content
         ))
     if last_date_content is not None and not isinstance(last_date_content,Promise):
         res.append(PdfBlock(
-            TypeBlock.LAST_DATE,last_date_md,last_date_content
+            TypeBlock.LAST_DATE.name,last_date_md,last_date_content
         ))
     return res
 
@@ -135,7 +135,7 @@ def text_filter(pdf_blks,filter_data):
     funds=set(map(lambda x: MatchFund(name=x.name),filter(lambda x: isinstance(x,Fund),filter_data)))
     res=[]
     for blk in pdf_blks:
-        if blk.type_block == TypeBlock.RENAME_ENTRY:
+        if blk.type_block == TypeBlock.RENAME_ENTRY.name:
             if isinstance(blk.content,Promise):
                 date_text=blk.content
             else:
@@ -144,7 +144,7 @@ def text_filter(pdf_blks,filter_data):
                 current_name=MatchFund(name=n)
                 if current_name in funds:
                     res.append(
-                        TextBlock(TypeBlock.RENAME_ENTRY,{
+                        TextBlock(TypeBlock.RENAME_ENTRY.name,{
                             "old_name": o,
                             "current_name": current_name.name,
                             "date": date_text
@@ -155,14 +155,14 @@ def text_filter(pdf_blks,filter_data):
 
 def text_filter_last_date(pdf_blks,filter_data):
     try:
-        blk=next(filter(lambda x: x.type_block==TypeBlock.LAST_DATE,pdf_blks))
+        blk=next(filter(lambda x: x.type_block==TypeBlock.LAST_DATE.name,pdf_blks))
     except StopIteration:
         return []
     m=merging_regex.search(blk.content)
     if not m:
         return []
     date_text=m.group(1)
-    return [TextBlock.from_content(TypeBlock.LAST_DATE,{"n_page":blk.metadata["n_page"]},date_text)]
+    return [TextBlock.from_content(TypeBlock.LAST_DATE.name,{"n_page":blk.metadata["n_page"]},date_text)]
 
 
 
@@ -176,7 +176,7 @@ def pdf_extract_renaming(page):
     )&PdfLineSelection.font("frutiger-light")).select(lines)
     text=" ".join([x.text for x in selected])
 
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK,{},text)]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name,{},text)]
 
 
 renaming_regex=re.compile("The Sub-Fund (.+?) was renamed (.+?) on ([0-9]+[^,]+?[0-9]+)")
@@ -191,7 +191,7 @@ def text_filter_renaming(pdf_blks,filter_data):
     current_name=MatchFund(name=m.group(2))
     date=m.group(3)
     if current_name in funds:
-        return [TextBlock(OneTextBlockType.RELEVANT_BLOCK,{
+        return [TextBlock(OneTextBlockType.RELEVANT_BLOCK.name,{
             "old_name": old_name,
             "current_name": current_name.name,
             "date": date
@@ -199,7 +199,7 @@ def text_filter_renaming(pdf_blks,filter_data):
     return []
 
 
-@deserialize_block_type(TypeBlock.RENAME_ENTRY)
+@deserialize_block_type(TypeBlock.RENAME_ENTRY.name)
 def deserialize(txt_blk):
     md={**txt_blk.metadata}
     return FundRename(
@@ -208,7 +208,7 @@ def deserialize(txt_blk):
         date=to_date_with_en_month(md["date"]) if not isinstance(md["date"],Promise) else md["date"]
     )
 
-@deserialize_block_type(TypeBlock.LAST_DATE)
+@deserialize_block_type(TypeBlock.LAST_DATE.name)
 def deserialize_last_date(txt_blk):
     n_page=txt_blk.metadata["n_page"]
     return {

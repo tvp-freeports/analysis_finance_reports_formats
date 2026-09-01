@@ -1,89 +1,89 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
+      "class": "freeports.output:Equity",
       "data": {
-        "company": "Siemens",
-        "company_match": "SIEMENS AG REG",
-        "fund": "Fondo Mediolanum Flessibile Strategico ",
-        "nominal_quantity": 32314.0,
-        "market_value": 6093128.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0121,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Equity",
-      "data": {
-        "company": "AXA SA",
-        "company_match": "AXA SA",
-        "fund": "Fondo Mediolanum Flessibile Strategico ",
-        "nominal_quantity": 114024.0,
-        "market_value": 3890499.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0077,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
-      "data": {
-        "company": "ITALY BTPS",
-        "company_match": "BTPS 2.8 06/29",
-        "fund": "Fondo Mediolanum Flessibile Strategico ",
-        "nominal_quantity": 3500000.0,
-        "market_value": 3510150.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.006999999999999999,
         "acquisition_cost": null,
         "acquisition_currency": null,
+        "company": "Siemens",
+        "company_match": "SIEMENS AG REG",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Fondo Mediolanum Flessibile Strategico ",
+        "market_value": 6093128.0,
+        "nominal_quantity": 32314.0,
+        "perc_net_assets": 0.0121
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "AXA SA",
+        "company_match": "AXA SA",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Fondo Mediolanum Flessibile Strategico ",
+        "market_value": 3890499.0,
+        "nominal_quantity": 114024.0,
+        "perc_net_assets": 0.0077
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "ITALY BTPS",
+        "company_match": "BTPS 2.8 06/29",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Fondo Mediolanum Flessibile Strategico ",
+        "interest_rate": 0.027999999999999997,
+        "market_value": 3510150.0,
         "maturity": {
           "__date__": "2029-06-01"
         },
-        "interest_rate": 0.027999999999999997
+        "nominal_quantity": 3500000.0,
+        "perc_net_assets": 0.006999999999999999
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BTPS",
-        "company_match": "BTPS 0.6 08/31",
-        "fund": "Fondo Mediolanum Flessibile Strategico ",
-        "nominal_quantity": 3000000.0,
-        "market_value": 2562900.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0051,
         "acquisition_cost": null,
         "acquisition_currency": null,
+        "company": "ITALY BTPS",
+        "company_match": "BTPS 0.6 08/31",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Fondo Mediolanum Flessibile Strategico ",
+        "interest_rate": 0.006,
+        "market_value": 2562900.0,
         "maturity": {
           "__date__": "2031-08-01"
         },
-        "interest_rate": 0.006
+        "nominal_quantity": 3000000.0,
+        "perc_net_assets": 0.0051
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "Fondo Mediolanum Flessibile Strategico "
+        "name": "FONDO MEDIOLANUM FLESSIBILE STRATEGICO"
       }
     }
   }

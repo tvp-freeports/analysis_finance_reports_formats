@@ -1,23 +1,22 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "JP Morgan Asset Management (UK) Limited",
         "managed_funds": {
           "__set__": [
             "CHALLENGE North American Equity Fund",
             "CHALLENGE Pacific Equity Fund"
           ]
-        }
+        },
+        "name": "JP Morgan Asset Management (UK) Limited"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Mediobanca SGR S.p.A.",
         "managed_funds": {
           "__set__": [
             "CHALLENGE Provident Fund 2",
@@ -25,61 +24,62 @@
             "CHALLENGE Provident Fund 4",
             "CHALLENGE Provident Fund 5"
           ]
-        }
+        },
+        "name": "Mediobanca SGR S.p.A."
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Schroders Investment Management Limited",
         "managed_funds": {
           "__set__": [
             "CHALLENGE International Equity Fund",
             "CHALLENGE Provident Fund 1"
           ]
-        }
+        },
+        "name": "Schroders Investment Management Limited"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE Pacific Equity Fund"
+        "name": "CHALLENGE PACIFIC EQUITY FUND"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE Provident Fund 4"
+        "name": "CHALLENGE PROVIDENT FUND 4"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE Provident Fund 2"
+        "name": "CHALLENGE PROVIDENT FUND 5"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE Provident Fund 5"
+        "name": "CHALLENGE PROVIDENT FUND 2"
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE International Equity Fund"
+        "name": "CHALLENGE INTERNATIONAL EQUITY FUND"
       }
     }
   }

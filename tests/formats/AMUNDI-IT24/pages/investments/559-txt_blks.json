@@ -1,41 +1,41 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Amundi Accumulazione Intelligenza Artificiale 2029 ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "Amundi Accumulazione Intelligenza Artificiale 2029 "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,25 ",
+      "company": "Booking Holdings",
+      "company match": "BOOKING HOLDINGS INC ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Amundi Accumulazione Intelligenza Artificiale 2029 ",
       "manco": null,
       "market value": "4.990,870 ",
-      "% net assets": "0,25 ",
-      "quantity": "66,000 ",
-      "company match": "BOOKING HOLDINGS INC ",
-      "company": "Booking Holdings",
-      "fund": "Amundi Accumulazione Intelligenza Artificiale 2029 ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "66,000 "
     },
     "content": "BOOKING HOLDINGS INC ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 3,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 3
       },
       "content": "BOOKING HOLDINGS INC "
-    },
-    "__text_block__": true
+    }
   }
 ]

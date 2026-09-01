@@ -41,7 +41,7 @@ def pdf_extract(page):
     ).select(lines)
     groups=get_groups(body,20)
     return [
-        PdfBlock(BlockType.INV_MAN, {"group": g}, b.text) for g, b in zip(groups, body)
+        PdfBlock(BlockType.INV_MAN.name, {"group": g}, b.text) for g, b in zip(groups, body)
     ]
 
 
@@ -69,7 +69,7 @@ def text_filter(pdf_blocks, filter_data):
     blocks = []
     manco = None
     for b in pdf_blocks:
-        if b.type_block == BlockType.INV_MAN:
+        if b.type_block == BlockType.INV_MAN.name:
             blocks.append(b)
         else:
             manco = b

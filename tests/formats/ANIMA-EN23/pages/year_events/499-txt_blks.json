@@ -1,82 +1,82 @@
 [
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "old_name": "ANIMA Orizzonte Europa 2022",
       "current_name": "ANIMA Liquidity – Share Class Silver",
-      "date": "11 January 2023"
+      "date": "11 January 2023",
+      "old_name": "ANIMA Orizzonte Europa 2022"
     },
     "content": "ANIMA Orizzonte Europa 2022 was automatically converted into ANIMA Liquidity – Share Class Silver on 11 January 2023.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "ANIMA Orizzonte Europa 2022 was automatically converted into ANIMA Liquidity – Share Class Silver on 11 January 2023."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "old_name": "ANIMA Orizzonte Europa 2023 - Rendimento Bilanciato",
       "current_name": "ANIMA Liquidity – Share Class Silver",
-      "date": "28 June 2023"
+      "date": "28 June 2023",
+      "old_name": "ANIMA Orizzonte Europa 2023 - Rendimento Bilanciato"
     },
     "content": "ANIMA Orizzonte Europa 2023 - Rendimento Bilanciato was automatically converted into ANIMA Liquidity – Share Class Silver on 28 June 2023.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "ANIMA Orizzonte Europa 2023 - Rendimento Bilanciato was automatically converted into ANIMA Liquidity – Share Class Silver on 28 June 2023."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "old_name": "ANIMA Orizzonte Sostenibile 2023",
       "current_name": "ANIMA Liquidity",
-      "date": "12 July 2023"
+      "date": "12 July 2023",
+      "old_name": "ANIMA Orizzonte Sostenibile 2023"
     },
     "content": "ANIMA Orizzonte Sostenibile 2023 was automatically converted into ANIMA Liquidity on 12 July 2023.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "ANIMA Orizzonte Sostenibile 2023 was automatically converted into ANIMA Liquidity on 12 July 2023."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "old_name": "ANIMA Orizzonte Benessere 2023",
       "current_name": "ANIMA Liquidity",
-      "date": "27 September 2023"
+      "date": "27 September 2023",
+      "old_name": "ANIMA Orizzonte Benessere 2023"
     },
     "content": "ANIMA Orizzonte Benessere 2023 was automatically converted into ANIMA Liquidity on 27 September 2023.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "ANIMA Orizzonte Benessere 2023 was automatically converted into ANIMA Liquidity on 27 September 2023."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:OneTextBlockType:RELEVANT_BLOCK",
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
     "metadata": {
-      "old_name": "ANIMA Orizzonte Energia 2023",
       "current_name": "ANIMA Liquidity – Class Silver",
-      "date": "13 December 2023"
+      "date": "13 December 2023",
+      "old_name": "ANIMA Orizzonte Energia 2023"
     },
     "content": "ANIMA Orizzonte Energia 2023 was automatically converted into ANIMA Liquidity – Class Silver on 13 December 2023.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:OnePdfBlockType:RELEVANT_BLOCK",
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
       "metadata": {},
       "content": "ANIMA Orizzonte Energia 2023 was automatically converted into ANIMA Liquidity – Class Silver on 13 December 2023."
-    },
-    "__text_block__": true
+    }
   }
 ]

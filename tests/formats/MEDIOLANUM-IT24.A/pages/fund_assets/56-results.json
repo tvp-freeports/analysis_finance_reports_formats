@@ -1,35 +1,35 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "class": "freeports.output:FundAssets",
       "data": {
-        "fund": "US COLLECTION",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
         "date": {
           "__date__": "2024-12-31"
         },
-        "tot_assets": 960446613.0,
+        "fund": "US COLLECTION",
         "liabilities": 17219697.0,
         "net_assets": 943226916.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        }
+        "tot_assets": 960446613.0
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "class": "freeports.output:FundAssets",
       "data": {
-        "fund": "EUROPEAN COLLECTION",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
         "date": {
           "__date__": "2024-12-31"
         },
-        "tot_assets": 491077993.0,
+        "fund": "EUROPEAN COLLECTION",
         "liabilities": 4704155.0,
         "net_assets": 486373838.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        }
+        "tot_assets": 491077993.0
       }
     }
   }

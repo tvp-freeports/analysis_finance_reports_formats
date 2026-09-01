@@ -1,9 +1,8 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:InvestmentsManager",
+      "class": "freeports.output:ManagementCompany",
       "data": {
-        "name": "ANIMA SGR S.p.A.",
         "managed_funds": {
           "__set__": [
             "ANIMA ALTO POTENZIALE EUROPA",
@@ -11,15 +10,15 @@
             "EURIZON FUND BOND EMERGING MARKETS IN LOCAL CURRENCIES",
             "KAIROS INTERNATIONAL SICAV OPPORTUNITIES LONGSHORT"
           ]
-        }
+        },
+        "name": "ANIMA SGR S.p.A."
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:ManagementCompany",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "ANIMA SGR S.p.A.",
         "managed_funds": {
           "__set__": [
             "ANIMA ALTO POTENZIALE EUROPA",
@@ -27,7 +26,8 @@
             "EURIZON FUND BOND EMERGING MARKETS IN LOCAL CURRENCIES",
             "KAIROS INTERNATIONAL SICAV OPPORTUNITIES LONGSHORT"
           ]
-        }
+        },
+        "name": "ANIMA SGR S.p.A."
       }
     }
   }

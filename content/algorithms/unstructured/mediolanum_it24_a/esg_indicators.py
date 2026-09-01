@@ -33,7 +33,7 @@ def pdf_extract(page):
         key=" ".join((table_lines.text for r,c,table_lines in zip(rows,cols,table_lines) if row==r and c==0)).strip()
         value=" ".join((table_lines.text for r,c,table_lines in zip(rows,cols,table_lines) if row==r and c==1)).strip()
         res.append((key,value))
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK,{k: v for k,v in res},f[0].text)]
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name,{k: v for k,v in res},f[0].text)]
 
 suffix_regex=re.compile(r" \(.*Comparto.*\),.*")
 prefix="Nome del prodotto: "
@@ -47,7 +47,7 @@ def text_filter(pdf_blks,filter_funds):
     if fund in filter_funds:
         return [
             TextBlock.from_content(
-                OnePdfBlockType.RELEVANT_BLOCK,
+                OnePdfBlockType.RELEVANT_BLOCK.name,
                 {"index":k,"fund":fund_name},v
             ) for k,v in blk.metadata.items()
         ]

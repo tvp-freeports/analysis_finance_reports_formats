@@ -1,72 +1,72 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "EUROPEAN COLLECTION ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "EUROPEAN COLLECTION "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,18 ",
+      "acquisition cost": "765.763 ",
+      "acquisition currency": "EUR ",
+      "company": "Heidelberg Materials",
+      "company match": "Heidelberg Materials AG ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EUROPEAN COLLECTION ",
       "manco": null,
       "market value": "886.757 ",
-      "% net assets": "0,18 ",
-      "quantity": "7.433 ",
-      "acquisition currency": "EUR ",
-      "acquisition cost": "765.763 ",
-      "company match": "Heidelberg Materials AG ",
-      "company": "Heidelberg Materials",
-      "fund": "EUROPEAN COLLECTION ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "7.433 "
     },
     "content": "Heidelberg Materials AG ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 30,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 30
       },
       "content": "Heidelberg Materials AG "
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0,62 ",
+      "acquisition cost": "2.422.070 ",
+      "acquisition currency": "EUR ",
+      "company": "Siemens",
+      "company match": "Siemens AG ",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EUROPEAN COLLECTION ",
       "manco": null,
       "market value": "3.000.555 ",
-      "% net assets": "0,62 ",
-      "quantity": "15.913 ",
-      "acquisition currency": "EUR ",
-      "acquisition cost": "2.422.070 ",
-      "company match": "Siemens AG ",
-      "company": "Siemens",
-      "fund": "EUROPEAN COLLECTION ",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-      }
+      "quantity": "15.913 "
     },
     "content": "Siemens AG ",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 39,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 39
       },
       "content": "Siemens AG "
-    },
-    "__text_block__": true
+    }
   }
 ]

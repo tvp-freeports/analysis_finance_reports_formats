@@ -1,81 +1,81 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Booking Holdings",
-        "company_match": "BOOKING HOLDINGS INC 3.55% 15/03/2028",
-        "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
-        "nominal_quantity": 200000.0,
-        "market_value": 186012.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0003,
         "acquisition_cost": 181649.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
+        "company": "Booking Holdings",
+        "company_match": "BOOKING HOLDINGS INC 3.55% 15/03/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
+        "interest_rate": 0.0355,
+        "market_value": 186012.0,
         "maturity": {
           "__date__": "2028-03-15"
         },
-        "interest_rate": 0.0355
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0003
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Booking Holdings",
-        "company_match": "BOOKING HOLDINGS INC 4% 01/03/2044",
-        "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
-        "nominal_quantity": 1000000.0,
-        "market_value": 1010120.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0016,
         "acquisition_cost": 1022400.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Booking Holdings",
+        "company_match": "BOOKING HOLDINGS INC 4% 01/03/2044",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
+        "interest_rate": null,
+        "market_value": 1010120.0,
         "maturity": {
           "__date__": "2044-03-01"
         },
-        "interest_rate": null
+        "nominal_quantity": 1000000.0,
+        "perc_net_assets": 0.0016
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Booking Holdings",
-        "company_match": "BOOKING HOLDINGS INC 4.625% 13/04/2030",
-        "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
-        "nominal_quantity": 410000.0,
-        "market_value": 390894.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.0006,
         "acquisition_cost": 392764.0,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:USD"
         },
+        "company": "Booking Holdings",
+        "company_match": "BOOKING HOLDINGS INC 4.625% 13/04/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
+        "interest_rate": 0.04625,
+        "market_value": 390894.0,
         "maturity": {
           "__date__": "2030-04-13"
         },
-        "interest_rate": 0.04625
+        "nominal_quantity": 410000.0,
+        "perc_net_assets": 0.0006
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "CoRe Series - Invesco Pan European High Income FAM Fund"
+        "name": "CORE SERIES INVESCO PAN EUROPEAN HIGH INCOME FAM FUND"
       }
     }
   }

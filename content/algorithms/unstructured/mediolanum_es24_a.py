@@ -42,7 +42,7 @@ def pdf_extract_inv_managers(page):
         (left_column | right_column) / PdfLineSelection.text("^ $") / PdfLineSelection.text("^  $")
     ).select(lines)
     return [
-        PdfBlock(ResultStandardExtraction.INVESTMENTS_MANAGER,{},b.text) for b in body
+        PdfBlock(ResultStandardExtraction.INVESTMENTS_MANAGER.name,{},b.text) for b in body
     ]
 
 date_regex=re.compile("\\((desde el|hasta el) [^)]+\\)")
@@ -54,7 +54,7 @@ def text_filter_inv_managers(pdf_blks,filter_data):
     res=[]
     investments_managers_funds=set()
     for blk in pdf_blks:
-        if blk.type_block == ResultStandardExtraction.MANAGEMENT_COMPANY:
+        if blk.type_block == ResultStandardExtraction.MANAGEMENT_COMPANY.name:
             manco=blk.content
             continue
         txt=blk.content

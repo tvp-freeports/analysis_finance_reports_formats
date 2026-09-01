@@ -1,249 +1,249 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "Italy btps",
-        "company_match": "ITALY BTPS 0.65% 20-15/05/2026",
-        "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "nominal_quantity": 24397400.0,
-        "market_value": 24262.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.054000000000000006,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.65% 20-15/05/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ARCA CEDOLA ATTIVA 2026 ",
+        "interest_rate": 0.006500000000000001,
+        "market_value": 24262.0,
         "maturity": {
           "__date__": "2026-05-15"
         },
-        "interest_rate": 0.006500000000000001
+        "nominal_quantity": 24397400.0,
+        "perc_net_assets": 0.054000000000000006
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BOTS",
-        "company_match": "ITALY BOTS 0% 25-13/03/2026",
-        "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "nominal_quantity": 10000000.0,
-        "market_value": 9835.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.02189,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 25-13/03/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ARCA CEDOLA ATTIVA 2026 ",
+        "interest_rate": null,
+        "market_value": 9835.0,
         "maturity": {
           "__date__": "2026-03-13"
         },
-        "interest_rate": null
+        "nominal_quantity": 10000000.0,
+        "perc_net_assets": 0.02189
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BOTS",
-        "company_match": "ITALY BOTS 0% 25-14/05/2026",
-        "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "nominal_quantity": 10000000.0,
-        "market_value": 9807.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.02183,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 25-14/05/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ARCA CEDOLA ATTIVA 2026 ",
+        "interest_rate": null,
+        "market_value": 9807.0,
         "maturity": {
           "__date__": "2026-05-14"
         },
-        "interest_rate": null
+        "nominal_quantity": 10000000.0,
+        "perc_net_assets": 0.02183
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BOTS",
-        "company_match": "ITALY BOTS 0% 25-14/04/2026",
-        "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "nominal_quantity": 9000000.0,
-        "market_value": 8828.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.01965,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 25-14/04/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ARCA CEDOLA ATTIVA 2026 ",
+        "interest_rate": null,
+        "market_value": 8828.0,
         "maturity": {
           "__date__": "2026-04-14"
         },
-        "interest_rate": null
+        "nominal_quantity": 9000000.0,
+        "perc_net_assets": 0.01965
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BOTS",
-        "company_match": "ITALY BOTS 0% 24-12/09/2025",
-        "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "nominal_quantity": 8000000.0,
-        "market_value": 7805.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.01737,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-12/09/2025",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ARCA CEDOLA ATTIVA 2026 ",
+        "interest_rate": null,
+        "market_value": 7805.0,
         "maturity": {
           "__date__": "2025-09-12"
         },
-        "interest_rate": null
+        "nominal_quantity": 8000000.0,
+        "perc_net_assets": 0.01737
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BOTS",
-        "company_match": "ITALY BOTS 0% 25-13/02/2026",
-        "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "nominal_quantity": 7000000.0,
-        "market_value": 6869.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.01529,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 25-13/02/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ARCA CEDOLA ATTIVA 2026 ",
+        "interest_rate": null,
+        "market_value": 6869.0,
         "maturity": {
           "__date__": "2026-02-13"
         },
-        "interest_rate": null
+        "nominal_quantity": 7000000.0,
+        "perc_net_assets": 0.01529
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BOTS",
-        "company_match": "ITALY BOTS 0% 24-14/11/2025",
-        "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "nominal_quantity": 4800000.0,
-        "market_value": 4693.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.01045,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 24-14/11/2025",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ARCA CEDOLA ATTIVA 2026 ",
+        "interest_rate": null,
+        "market_value": 4693.0,
         "maturity": {
           "__date__": "2025-11-14"
         },
-        "interest_rate": null
+        "nominal_quantity": 4800000.0,
+        "perc_net_assets": 0.01045
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "INTESA SANPAOLO",
-        "company_match": "INTESA SANPAOLO 0.625% 21-24/02/2026",
-        "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "nominal_quantity": 4300000.0,
-        "market_value": 4254.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.00947,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "INTESA SANPAOLO",
+        "company_match": "INTESA SANPAOLO 0.625% 21-24/02/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ARCA CEDOLA ATTIVA 2026 ",
+        "interest_rate": 0.00625,
+        "market_value": 4254.0,
         "maturity": {
           "__date__": "2026-02-24"
         },
-        "interest_rate": 0.00625
+        "nominal_quantity": 4300000.0,
+        "perc_net_assets": 0.00947
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "AP Møller Mærsk",
-        "company_match": "AP MOLLER 1.75% 18-16/03/2026",
-        "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "nominal_quantity": 3200000.0,
-        "market_value": 3187.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.00709,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "AP Møller Mærsk",
+        "company_match": "AP MOLLER 1.75% 18-16/03/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ARCA CEDOLA ATTIVA 2026 ",
+        "interest_rate": 0.0175,
+        "market_value": 3187.0,
         "maturity": {
           "__date__": "2026-03-16"
         },
-        "interest_rate": 0.0175
+        "nominal_quantity": 3200000.0,
+        "perc_net_assets": 0.00709
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Bond",
+      "class": "freeports.output:Bond",
       "data": {
-        "company": "ITALY BOTS",
-        "company_match": "ITALY BOTS 0% 25-14/01/2026",
-        "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "nominal_quantity": 3000000.0,
-        "market_value": 2938.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        },
-        "perc_net_assets": 0.006540000000000001,
         "acquisition_cost": null,
         "acquisition_currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
+        "company": "ITALY BOTS",
+        "company_match": "ITALY BOTS 0% 25-14/01/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ARCA CEDOLA ATTIVA 2026 ",
+        "interest_rate": null,
+        "market_value": 2938.0,
         "maturity": {
           "__date__": "2026-01-14"
         },
-        "interest_rate": null
+        "nominal_quantity": 3000000.0,
+        "perc_net_assets": 0.006540000000000001
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:Fund",
+      "class": "freeports.output:Fund",
       "data": {
-        "name": "ARCA CEDOLA ATTIVA 2026 "
+        "name": "ARCA CEDOLA ATTIVA 2026"
       }
     }
   }

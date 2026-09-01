@@ -1,101 +1,101 @@
 [
   {
-    "subtype_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:StandardFundTextBlock",
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:FUND",
+    "__text_block__": true,
+    "type_block": "FUND",
     "metadata": {},
     "content": "Global Index",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:FUND_NAME",
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
       "metadata": {},
       "content": "Global Index"
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.23",
+      "acquisition cost": "55,615,949",
+      "acquisition currency": "USD",
+      "company": "Blackrock",
+      "company match": "BlackRock, Inc.",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:SEK"
+      },
+      "fund": "Global Index",
       "manco": null,
       "market value": "112,190,930",
-      "% net assets": "0.23",
-      "quantity": "9,905",
-      "acquisition currency": "USD",
-      "acquisition cost": "55,615,949",
-      "company match": "BlackRock, Inc.",
-      "company": "Blackrock",
-      "fund": "Global Index",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:SEK"
-      }
+      "quantity": "9,905"
     },
     "content": "BlackRock, Inc.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 17,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 17
       },
       "content": "BlackRock, Inc."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.24",
+      "acquisition cost": "40,160,698",
+      "acquisition currency": "USD",
+      "company": "Booking Holdings",
+      "company match": "Booking Holdings, Inc.",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:SEK"
+      },
+      "fund": "Global Index",
       "manco": null,
       "market value": "118,742,892",
-      "% net assets": "0.24",
-      "quantity": "2,163",
-      "acquisition currency": "USD",
-      "acquisition cost": "40,160,698",
-      "company match": "Booking Holdings, Inc.",
-      "company": "Booking Holdings",
-      "fund": "Global Index",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:SEK"
-      }
+      "quantity": "2,163"
     },
     "content": "Booking Holdings, Inc.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 20,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 20
       },
       "content": "Booking Holdings, Inc."
-    },
-    "__text_block__": true
+    }
   },
   {
-    "subtype_tag": null,
-    "type_block_tag": "freeports._internals.formats.utils.text_filter.standard_txt_blks:ResultStandardFiltering:EQUITY_TARGET",
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
     "metadata": {
+      "% net assets": "0.26",
+      "acquisition cost": "51,265,710",
+      "acquisition currency": "USD",
+      "company": "Caterpillar",
+      "company match": "Caterpillar, Inc.",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:SEK"
+      },
+      "fund": "Global Index",
       "manco": null,
       "market value": "127,032,704",
-      "% net assets": "0.26",
-      "quantity": "31,693",
-      "acquisition currency": "USD",
-      "acquisition cost": "51,265,710",
-      "company match": "Caterpillar, Inc.",
-      "company": "Caterpillar",
-      "fund": "Global Index",
-      "currency": {
-        "__enum__": "freeports._internals.commons.consts:Currency:SEK"
-      }
+      "quantity": "31,693"
     },
     "content": "Caterpillar, Inc.",
     "pdf_block": {
-      "type_block_tag": "freeports._internals.formats.utils.pdf_extract.standard_pdf_blks:ResultStandardExtraction:TABLE_BODY",
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
       "metadata": {
-        "table-row": 40,
+        "is-max-width": false,
         "table-col": 0,
-        "is-max-width": false
+        "table-row": 40
       },
       "content": "Caterpillar, Inc."
-    },
-    "__text_block__": true
+    }
   }
 ]

@@ -1,52 +1,52 @@
 [
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "class": "freeports.output:FundAssets",
       "data": {
-        "fund": "Fidelity Euro Bond FAM Fund",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
         "date": {
           "__date__": "2024-12-31"
         },
-        "tot_assets": 435099727.0,
+        "fund": "Fidelity Euro Bond FAM Fund",
         "liabilities": 4256970.0,
         "net_assets": 430842757.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:EUR"
-        }
+        "tot_assets": 435099727.0
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "class": "freeports.output:FundAssets",
       "data": {
-        "fund": "Fidelity Global Dividend FAM Fund",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
         "date": {
           "__date__": "2024-12-31"
         },
-        "tot_assets": 721238425.0,
+        "fund": "Fidelity Global Dividend FAM Fund",
         "liabilities": 3027304.0,
         "net_assets": 718211121.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+        "tot_assets": 721238425.0
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports._internals.output.classes_schema:FundAssets",
+      "class": "freeports.output:FundAssets",
       "data": {
-        "fund": "US Equity Value FAM Fund",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
         "date": {
           "__date__": "2024-12-31"
         },
-        "tot_assets": 523524846.0,
+        "fund": "US Equity Value FAM Fund",
         "liabilities": 1521765.0,
         "net_assets": 522003081.0,
-        "currency": {
-          "__enum__": "freeports._internals.commons.consts:Currency:USD"
-        }
+        "tot_assets": 523524846.0
       }
     }
   }
