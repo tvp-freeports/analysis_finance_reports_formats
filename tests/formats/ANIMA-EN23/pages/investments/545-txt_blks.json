@@ -24,7 +24,9 @@
       "fund": "ANIMA U.S. Equity",
       "manco": null,
       "market value": "1,001,593",
-      "quantity": "8,127"
+      "quantity": "8,127",
+      "table col": 1,
+      "table row": 13
     },
     "content": "Airbnb Inc",
     "pdf_block": {
@@ -51,7 +53,9 @@
       "fund": "ANIMA U.S. Equity",
       "manco": null,
       "market value": "13,360,490",
-      "quantity": "105,653"
+      "quantity": "105,653",
+      "table col": 1,
+      "table row": 14
     },
     "content": "Alphabet Inc (Class A)",
     "pdf_block": {
@@ -78,7 +82,9 @@
       "fund": "ANIMA U.S. Equity",
       "manco": null,
       "market value": "11,818,905",
-      "quantity": "92,640"
+      "quantity": "92,640",
+      "table col": 1,
+      "table row": 15
     },
     "content": "Alphabet Inc (Class C)",
     "pdf_block": {
@@ -105,7 +111,9 @@
       "fund": "ANIMA U.S. Equity",
       "manco": null,
       "market value": "22,684,606",
-      "quantity": "164,924"
+      "quantity": "164,924",
+      "table col": 1,
+      "table row": 16
     },
     "content": "Amazon.com Inc",
     "pdf_block": {
@@ -132,7 +140,9 @@
       "fund": "ANIMA U.S. Equity",
       "manco": null,
       "market value": "2,353,788",
-      "quantity": "733"
+      "quantity": "733",
+      "table col": 1,
+      "table row": 17
     },
     "content": "Booking Holdings Inc",
     "pdf_block": {
@@ -159,7 +169,9 @@
       "fund": "ANIMA U.S. Equity",
       "manco": null,
       "market value": "2,544,638",
-      "quantity": "9,507"
+      "quantity": "9,507",
+      "table col": 1,
+      "table row": 33
     },
     "content": "Caterpillar Inc",
     "pdf_block": {

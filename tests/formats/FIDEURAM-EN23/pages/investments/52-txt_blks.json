@@ -27,7 +27,9 @@
       "manco": null,
       "market value": "298,975",
       "maturity": "19/08/2024",
-      "quantity": "446,000"
+      "quantity": "446,000",
+      "table col": 3,
+      "table row": 5
     },
     "content": "APPLE, INC. 2.513% 19/08/2024",
     "pdf_block": {
@@ -57,7 +59,9 @@
       "manco": null,
       "market value": "784,958",
       "maturity": "12/09/2027",
-      "quantity": "895,000"
+      "quantity": "895,000",
+      "table col": 3,
+      "table row": 6
     },
     "content": "APPLE, INC. 2.90% 12/09/2027",
     "pdf_block": {
@@ -87,7 +91,9 @@
       "manco": null,
       "market value": "110,583",
       "maturity": "09/02/2027",
-      "quantity": "123,000"
+      "quantity": "123,000",
+      "table col": 3,
+      "table row": 7
     },
     "content": "APPLE, INC. 3.35% 09/02/2027",
     "pdf_block": {
@@ -117,7 +123,9 @@
       "manco": null,
       "market value": "44,200",
       "maturity": "15/03/2028",
-      "quantity": "50,000"
+      "quantity": "50,000",
+      "table col": 3,
+      "table row": 18
     },
     "content": "BOOKING HOLDINGS, INC. 3.55% 15/03/2028",
     "pdf_block": {
@@ -147,7 +155,9 @@
       "manco": null,
       "market value": "604,104",
       "maturity": "15/11/2026",
-      "quantity": "600,000"
+      "quantity": "600,000",
+      "table col": 3,
+      "table row": 19
     },
     "content": "BOOKING HOLDINGS, INC. 4.00% 15/11/2026",
     "pdf_block": {
@@ -177,7 +187,9 @@
       "manco": null,
       "market value": "35,703",
       "maturity": "15/03/2031",
-      "quantity": "47,000"
+      "quantity": "47,000",
+      "table col": 3,
+      "table row": 38
     },
     "content": "EXPEDIA GROUP, INC. 2.95% 15/03/2031",
     "pdf_block": {

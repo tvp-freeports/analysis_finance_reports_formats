@@ -26,7 +26,9 @@
       "fund": "Global Index",
       "manco": null,
       "market value": "112,190,930",
-      "quantity": "9,905"
+      "quantity": "9,905",
+      "table col": 0,
+      "table row": 17
     },
     "content": "BlackRock, Inc.",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "fund": "Global Index",
       "manco": null,
       "market value": "118,742,892",
-      "quantity": "2,163"
+      "quantity": "2,163",
+      "table col": 0,
+      "table row": 20
     },
     "content": "Booking Holdings, Inc.",
     "pdf_block": {
@@ -84,7 +88,9 @@
       "fund": "Global Index",
       "manco": null,
       "market value": "127,032,704",
-      "quantity": "31,693"
+      "quantity": "31,693",
+      "table col": 0,
+      "table row": 40
     },
     "content": "Caterpillar, Inc.",
     "pdf_block": {

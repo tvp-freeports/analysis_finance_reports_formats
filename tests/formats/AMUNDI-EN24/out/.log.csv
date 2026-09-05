@@ -1,1 +1,3 @@
-Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Message
+Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,236,job[AMUNDI-EN24]/step[0]/class[investments]/document[report]/page[236]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[PETROBRAS GLOBAL FINANCE BV 5.625% 20/05/2043],PETROBRAS GLOBAL FINANCE BV 5.625% 20/05/2043,perc_net_assets,row 26,col 2,WARN,0 sits on the edge of the admissible range - kept
+report,262,job[AMUNDI-EN24]/step[0]/class[investments]/document[report]/page[262]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[HYUNDAI ENGINEERING AND CONSTR],HYUNDAI ENGINEERING AND CONSTR,perc_net_assets,row 29,col 6,WARN,0 sits on the edge of the admissible range - kept

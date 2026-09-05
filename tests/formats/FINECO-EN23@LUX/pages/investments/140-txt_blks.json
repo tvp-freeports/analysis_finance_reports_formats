@@ -28,7 +28,9 @@
       "manco": null,
       "market value": "186 012 ",
       "maturity": "15/03/2028",
-      "quantity": "200 000"
+      "quantity": "200 000",
+      "table col": 1,
+      "table row": 40
     },
     "content": "BOOKING HOLDINGS INC 3.55% 15/03/2028",
     "pdf_block": {
@@ -58,7 +60,9 @@
       "manco": null,
       "market value": "1 010 120 ",
       "maturity": "01/03/2044",
-      "quantity": "1 000 000"
+      "quantity": "1 000 000",
+      "table col": 1,
+      "table row": 41
     },
     "content": "BOOKING HOLDINGS INC 4% 01/03/2044",
     "pdf_block": {
@@ -89,7 +93,9 @@
       "manco": null,
       "market value": "390 894 ",
       "maturity": "13/04/2030",
-      "quantity": "410 000"
+      "quantity": "410 000",
+      "table col": 1,
+      "table row": 42
     },
     "content": "BOOKING HOLDINGS INC 4.625% 13/04/2030",
     "pdf_block": {

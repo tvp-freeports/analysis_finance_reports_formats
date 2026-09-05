@@ -26,7 +26,9 @@
       "manco": null,
       "market value": "1,670,675.00",
       "maturity": "15/08/2025",
-      "quantity": "1,700,000.00 "
+      "quantity": "1,700,000.00 ",
+      "table col": 0,
+      "table row": 2
     },
     "content": "1,700,000.00 ITALY BTPS 1.2% 22-15/08/2025",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "manco": null,
       "market value": "494,890.00",
       "maturity": "01/07/2025",
-      "quantity": "500,000.00 "
+      "quantity": "500,000.00 ",
+      "table col": 0,
+      "table row": 3
     },
     "content": "500,000.00 ITALY BTPS 1.85% 20-01/07/2025",
     "pdf_block": {
@@ -84,7 +88,9 @@
       "manco": null,
       "market value": "1,996,100.00",
       "maturity": "01/12/2024",
-      "quantity": "2,000,000.00 "
+      "quantity": "2,000,000.00 ",
+      "table col": 0,
+      "table row": 4
     },
     "content": "2,000,000.00 ITALY BTPS  2.5% 14-01/12/2024",
     "pdf_block": {
@@ -113,7 +119,9 @@
       "manco": null,
       "market value": "1,300,923.00",
       "maturity": "28/03/2025",
-      "quantity": "1,300,000.00 "
+      "quantity": "1,300,000.00 ",
+      "table col": 0,
+      "table row": 5
     },
     "content": "1,300,000.00 ITALY BTPS 3.4% 23-28/03/2025",
     "pdf_block": {
@@ -142,7 +150,9 @@
       "manco": null,
       "market value": "1,350,000.00",
       "maturity": "01/09/2024",
-      "quantity": "1,350,000.00 "
+      "quantity": "1,350,000.00 ",
+      "table col": 0,
+      "table row": 6
     },
     "content": "1,350,000.00 ITALY BTPS 3.75% 14-01/09/2024",
     "pdf_block": {
@@ -171,7 +181,9 @@
       "manco": null,
       "market value": "991,070.00",
       "maturity": "13/12/2024",
-      "quantity": "1,000,000.00 "
+      "quantity": "1,000,000.00 ",
+      "table col": 0,
+      "table row": 13
     },
     "content": "1,000,000.00 ITALY BOTS 0% 23-13/12/2024",
     "pdf_block": {
@@ -200,7 +212,9 @@
       "manco": null,
       "market value": "1,743,472.50",
       "maturity": "14/10/2024",
-      "quantity": "1,750,000.00 "
+      "quantity": "1,750,000.00 ",
+      "table col": 0,
+      "table row": 14
     },
     "content": "1,750,000.00 ITALY BOTS 0% 23-14/10/2024",
     "pdf_block": {
@@ -229,7 +243,9 @@
       "manco": null,
       "market value": "494,065.00",
       "maturity": "14/01/2025",
-      "quantity": "500,000.00 "
+      "quantity": "500,000.00 ",
+      "table col": 0,
+      "table row": 15
     },
     "content": "500,000.00 ITALY BOTS 0% 24-14/01/2025",
     "pdf_block": {

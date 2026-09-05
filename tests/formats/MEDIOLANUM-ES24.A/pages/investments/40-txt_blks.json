@@ -26,7 +26,9 @@
       "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "6.665.354 ",
-      "quantity": "52.492 "
+      "quantity": "52.492 ",
+      "table col": 0,
+      "table row": 32
     },
     "content": "Airbnb Rg-A ",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "22.366.265 ",
-      "quantity": "121.404 "
+      "quantity": "121.404 ",
+      "table col": 0,
+      "table row": 34
     },
     "content": "Alphabet Inc -A- ",
     "pdf_block": {
@@ -84,7 +88,9 @@
       "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "91.825.483 ",
-      "quantity": "430.725 "
+      "quantity": "430.725 ",
+      "table col": 0,
+      "table row": 36
     },
     "content": "Amazon Com Inc ",
     "pdf_block": {
@@ -113,7 +119,9 @@
       "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "10.966.770 ",
-      "quantity": "45.139 "
+      "quantity": "45.139 ",
+      "table col": 0,
+      "table row": 37
     },
     "content": "Apple Inc. ",
     "pdf_block": {
@@ -142,7 +150,9 @@
       "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "23.530.001 ",
-      "quantity": "4.894 "
+      "quantity": "4.894 ",
+      "table col": 0,
+      "table row": 43
     },
     "content": "Booking Holdings Inc ",
     "pdf_block": {

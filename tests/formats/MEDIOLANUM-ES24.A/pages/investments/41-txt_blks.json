@@ -26,7 +26,9 @@
       "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "1.604.491 ",
-      "quantity": "8.931 "
+      "quantity": "8.931 ",
+      "table col": 0,
+      "table row": 18
     },
     "content": "Expedia Group Inc ",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "11.136.312 ",
-      "quantity": "27.211 "
+      "quantity": "27.211 ",
+      "table col": 0,
+      "table row": 37
     },
     "content": "Microsoft Corporation. ",
     "pdf_block": {
@@ -84,7 +88,9 @@
       "fund": "GAMAX FUNDS - JUNIOR ",
       "manco": null,
       "market value": "6.102.249 ",
-      "quantity": "46.072 "
+      "quantity": "46.072 ",
+      "table col": 0,
+      "table row": 44
     },
     "content": "Nvidia Corporation. ",
     "pdf_block": {

@@ -26,7 +26,9 @@
       "fund": "Euro Equity",
       "manco": null,
       "market value": "7,654,096.39",
-      "quantity": "3,285,725"
+      "quantity": "3,285,725",
+      "table col": 0,
+      "table row": 1
     },
     "content": "Intesa Sanpaolo",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "fund": "Euro Equity",
       "manco": null,
       "market value": "1,972,320.67",
-      "quantity": "209,866"
+      "quantity": "209,866",
+      "table col": 0,
+      "table row": 16
     },
     "content": "Nordea Bank Abp",
     "pdf_block": {
@@ -84,7 +88,9 @@
       "fund": "Euro Equity",
       "manco": null,
       "market value": "11,165,688.06",
-      "quantity": "83,563"
+      "quantity": "83,563",
+      "table col": 0,
+      "table row": 34
     },
     "content": "Siemens Ag /Nam.",
     "pdf_block": {
@@ -113,7 +119,9 @@
       "fund": "Euro Equity",
       "manco": null,
       "market value": "2,821,883.04",
-      "quantity": "54,603"
+      "quantity": "54,603",
+      "table col": 0,
+      "table row": 35
     },
     "content": "Siemens Healthineers Ag",
     "pdf_block": {

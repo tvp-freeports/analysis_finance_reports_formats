@@ -28,7 +28,9 @@
       "manco": null,
       "market value": "1.041.193 ",
       "maturity": "11/03/2041",
-      "quantity": "1.500.000 "
+      "quantity": "1.500.000 ",
+      "table col": 0,
+      "table row": 29
     },
     "content": "Siemens Financieringsmaatschappij NV 2.875% 11/03/2041 ",
     "pdf_block": {

@@ -24,7 +24,9 @@
       "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
       "manco": null,
       "market value": "3.340.880",
-      "quantity": "962.513,0000000"
+      "quantity": "962.513,0000000",
+      "table col": 0,
+      "table row": 0
     },
     "content": "INTESA SANPAOLO",
     "pdf_block": {
@@ -51,7 +53,9 @@
       "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
       "manco": null,
       "market value": "646.454",
-      "quantity": "29.818,0000000"
+      "quantity": "29.818,0000000",
+      "table col": 0,
+      "table row": 13
     },
     "content": "LEONARDO SPA",
     "pdf_block": {

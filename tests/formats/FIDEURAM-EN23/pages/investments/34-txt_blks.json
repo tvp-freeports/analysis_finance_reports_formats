@@ -25,7 +25,9 @@
       "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
       "manco": null,
       "market value": "2,760,810",
-      "quantity": "1,160"
+      "quantity": "1,160",
+      "table col": 3,
+      "table row": 14
     },
     "content": "BOOKING HOLDINGS, INC.",
     "pdf_block": {
@@ -53,7 +55,9 @@
       "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
       "manco": null,
       "market value": "2,547,117",
-      "quantity": "10,830"
+      "quantity": "10,830",
+      "table col": 3,
+      "table row": 26
     },
     "content": "MICROSOFT CORP.",
     "pdf_block": {
@@ -81,7 +85,9 @@
       "fund": "WILLERFUNDS - PRIVATE SUITE - BNY MELLON GLOBAL REAL RETURN",
       "manco": null,
       "market value": "1,400,621",
-      "quantity": "6,398"
+      "quantity": "6,398",
+      "table col": 3,
+      "table row": 28
     },
     "content": "NVIDIA CORP.",
     "pdf_block": {

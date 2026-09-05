@@ -26,7 +26,9 @@
       "manco": null,
       "market value": "991,090.00",
       "maturity": "17/01/2027",
-      "quantity": "1,000,000.00 "
+      "quantity": "1,000,000.00 ",
+      "table col": 0,
+      "table row": 27
     },
     "content": "1,000,000.00 ICCREA BANCA SPA 21-17/01/2027 FRN",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "manco": null,
       "market value": "957,960.00",
       "maturity": "14/10/2030",
-      "quantity": "1,000,000.00 "
+      "quantity": "1,000,000.00 ",
+      "table col": 0,
+      "table row": 28
     },
     "content": "1,000,000.00 INTESA SANPAOLO 2.925% 20-14/10/2030",
     "pdf_block": {
@@ -84,7 +88,9 @@
       "manco": null,
       "market value": "572,379.50",
       "maturity": "08/03/2028",
-      "quantity": "550,000.00 "
+      "quantity": "550,000.00 ",
+      "table col": 0,
+      "table row": 30
     },
     "content": "550,000.00 INTESA SANPAOLO 23-08/03/2028 FRN",
     "pdf_block": {
@@ -113,7 +119,9 @@
       "manco": null,
       "market value": "502,185.00",
       "maturity": "16/11/2025",
-      "quantity": "500,000.00 "
+      "quantity": "500,000.00 ",
+      "table col": 0,
+      "table row": 32
     },
     "content": "500,000.00 INTESA SANPAOLO 23-16/11/2025 FRN",
     "pdf_block": {
@@ -142,7 +150,9 @@
       "manco": null,
       "market value": "621,360.48",
       "maturity": "24/01/2025",
-      "quantity": "624,000.00 "
+      "quantity": "624,000.00 ",
+      "table col": 4,
+      "table row": 1
     },
     "content": "624,000.00 VOLVO CAR AB 2% 17-24/01/2025",
     "pdf_block": {
@@ -171,7 +181,9 @@
       "manco": null,
       "market value": "618,276.00",
       "maturity": "08/05/2030",
-      "quantity": "600,000.00 "
+      "quantity": "600,000.00 ",
+      "table col": 4,
+      "table row": 2
     },
     "content": "600,000.00 VOLVO CAR AB 4.75% 24-08/05/2030",
     "pdf_block": {

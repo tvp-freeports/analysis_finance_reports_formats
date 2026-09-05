@@ -27,7 +27,9 @@
       "manco": null,
       "market value": "24.262",
       "maturity": "15/05/2026",
-      "quantity": "                       24.397.400 "
+      "quantity": "                       24.397.400 ",
+      "table col": 0,
+      "table row": 0
     },
     "content": "ITALY BTPS 0.65% 20-15/05/2026 ",
     "pdf_block": {
@@ -56,7 +58,9 @@
       "manco": null,
       "market value": "9.835",
       "maturity": "13/03/2026",
-      "quantity": "                        10.000.000 "
+      "quantity": "                        10.000.000 ",
+      "table col": 0,
+      "table row": 1
     },
     "content": "ITALY BOTS 0% 25-13/03/2026 ",
     "pdf_block": {
@@ -85,7 +89,9 @@
       "manco": null,
       "market value": "9.807",
       "maturity": "14/05/2026",
-      "quantity": "                        10.000.000 "
+      "quantity": "                        10.000.000 ",
+      "table col": 0,
+      "table row": 2
     },
     "content": "ITALY BOTS 0% 25-14/05/2026 ",
     "pdf_block": {
@@ -114,7 +120,9 @@
       "manco": null,
       "market value": "8.828",
       "maturity": "14/04/2026",
-      "quantity": "                         9.000.000 "
+      "quantity": "                         9.000.000 ",
+      "table col": 0,
+      "table row": 3
     },
     "content": "ITALY BOTS 0% 25-14/04/2026 ",
     "pdf_block": {
@@ -143,7 +151,9 @@
       "manco": null,
       "market value": "7.805",
       "maturity": "12/09/2025",
-      "quantity": "                         8.000.000 "
+      "quantity": "                         8.000.000 ",
+      "table col": 0,
+      "table row": 4
     },
     "content": "ITALY BOTS 0% 24-12/09/2025 ",
     "pdf_block": {
@@ -172,7 +182,9 @@
       "manco": null,
       "market value": "6.869",
       "maturity": "13/02/2026",
-      "quantity": "                         7.000.000 "
+      "quantity": "                         7.000.000 ",
+      "table col": 0,
+      "table row": 6
     },
     "content": "ITALY BOTS 0% 25-13/02/2026 ",
     "pdf_block": {
@@ -201,7 +213,9 @@
       "manco": null,
       "market value": "4.693",
       "maturity": "14/11/2025",
-      "quantity": "                         4.800.000 "
+      "quantity": "                         4.800.000 ",
+      "table col": 0,
+      "table row": 10
     },
     "content": "ITALY BOTS 0% 24-14/11/2025 ",
     "pdf_block": {
@@ -231,7 +245,9 @@
       "manco": null,
       "market value": "4.254",
       "maturity": "24/02/2026",
-      "quantity": "                         4.300.000 "
+      "quantity": "                         4.300.000 ",
+      "table col": 0,
+      "table row": 14
     },
     "content": "INTESA SANPAOLO 0.625% 21-24/02/2026 ",
     "pdf_block": {
@@ -261,7 +277,9 @@
       "manco": null,
       "market value": "3.187",
       "maturity": "16/03/2026",
-      "quantity": "                         3.200.000 "
+      "quantity": "                         3.200.000 ",
+      "table col": 0,
+      "table row": 42
     },
     "content": "AP MOLLER 1.75% 18-16/03/2026 ",
     "pdf_block": {
@@ -290,7 +308,9 @@
       "manco": null,
       "market value": "2.938",
       "maturity": "14/01/2026",
-      "quantity": "                         3.000.000 "
+      "quantity": "                         3.000.000 ",
+      "table col": 0,
+      "table row": 56
     },
     "content": "ITALY BOTS 0% 25-14/01/2026 ",
     "pdf_block": {

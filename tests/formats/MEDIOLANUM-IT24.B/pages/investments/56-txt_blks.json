@@ -24,7 +24,9 @@
       "fund": "Fondo Mediolanum Flessibile Futuro Sostenibile ",
       "manco": null,
       "market value": "2.554.018 ",
-      "quantity": "74.854 "
+      "quantity": "74.854 ",
+      "table col": 0,
+      "table row": 1
     },
     "content": "AXA SA ",
     "pdf_block": {
@@ -51,7 +53,9 @@
       "fund": "Fondo Mediolanum Flessibile Futuro Sostenibile ",
       "manco": null,
       "market value": "2.477.301 ",
-      "quantity": "13.138 "
+      "quantity": "13.138 ",
+      "table col": 0,
+      "table row": 3
     },
     "content": "SIEMENS AG REG ",
     "pdf_block": {

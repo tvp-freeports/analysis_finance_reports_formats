@@ -25,7 +25,9 @@
       "interest rate": "1.85 ",
       "manco": null,
       "market value": "4.934.506",
-      "quantity": "4.939.000"
+      "quantity": "4.939.000",
+      "table col": 0,
+      "table row": 2
     },
     "content": "BTPS 1.85 07/25",
     "pdf_block": {
@@ -53,7 +55,9 @@
       "interest rate": "1.45 ",
       "manco": null,
       "market value": "4.311.555",
-      "quantity": "4.316.000"
+      "quantity": "4.316.000",
+      "table col": 0,
+      "table row": 4
     },
     "content": "BTPS 1.45 05/25",
     "pdf_block": {
@@ -81,7 +85,9 @@
       "interest rate": "2.8 ",
       "manco": null,
       "market value": "3.480.360",
-      "quantity": "3.450.000"
+      "quantity": "3.450.000",
+      "table col": 0,
+      "table row": 7
     },
     "content": "BTPS 2.8 12/28",
     "pdf_block": {
@@ -109,7 +115,9 @@
       "interest rate": "0.5 ",
       "manco": null,
       "market value": "3.301.408",
-      "quantity": "3.520.000"
+      "quantity": "3.520.000",
+      "table col": 0,
+      "table row": 8
     },
     "content": "BTPS 0.5 07/28",
     "pdf_block": {
@@ -137,7 +145,9 @@
       "interest rate": "3.8 ",
       "manco": null,
       "market value": "3.287.348",
-      "quantity": "3.160.000"
+      "quantity": "3.160.000",
+      "table col": 0,
+      "table row": 9
     },
     "content": "BTPS 3.8 08/28",
     "pdf_block": {
@@ -165,7 +175,9 @@
       "interest rate": "2.65 ",
       "manco": null,
       "market value": "3.256.848",
-      "quantity": "3.240.000"
+      "quantity": "3.240.000",
+      "table col": 0,
+      "table row": 10
     },
     "content": "BTPS 2.65 06/28",
     "pdf_block": {
@@ -193,7 +205,9 @@
       "interest rate": "3.4 ",
       "manco": null,
       "market value": "3.204.864",
-      "quantity": "3.120.000"
+      "quantity": "3.120.000",
+      "table col": 0,
+      "table row": 11
     },
     "content": "BTPS 3.4 04/28",
     "pdf_block": {
@@ -221,7 +235,9 @@
       "interest rate": "0.95 ",
       "manco": null,
       "market value": "3.103.707",
-      "quantity": "3.203.000"
+      "quantity": "3.203.000",
+      "table col": 0,
+      "table row": 12
     },
     "content": "BTPS 0.95 09/27",
     "pdf_block": {
@@ -249,7 +265,9 @@
       "interest rate": "3.1 ",
       "manco": null,
       "market value": "3.091.966",
-      "quantity": "3.055.000"
+      "quantity": "3.055.000",
+      "table col": 0,
+      "table row": 13
     },
     "content": "BTPS 3.1 08/26",
     "pdf_block": {
@@ -277,7 +295,9 @@
       "interest rate": "2.05 ",
       "manco": null,
       "market value": "3.088.906",
-      "quantity": "3.101.000"
+      "quantity": "3.101.000",
+      "table col": 0,
+      "table row": 14
     },
     "content": "BTPS 2.05 08/27",
     "pdf_block": {
@@ -305,7 +325,9 @@
       "interest rate": "3.45 ",
       "manco": null,
       "market value": "3.078.551",
-      "quantity": "3.002.000"
+      "quantity": "3.002.000",
+      "table col": 0,
+      "table row": 16
     },
     "content": "BTPS 3.45 07/27",
     "pdf_block": {
@@ -333,7 +355,9 @@
       "interest rate": "3.8 ",
       "manco": null,
       "market value": "3.049.616",
-      "quantity": "3.001.000"
+      "quantity": "3.001.000",
+      "table col": 0,
+      "table row": 17
     },
     "content": "BTPS 3.8 04/26",
     "pdf_block": {
@@ -360,7 +384,9 @@
       "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.953.448",
-      "quantity": "3.016.000"
+      "quantity": "3.016.000",
+      "table col": 0,
+      "table row": 18
     },
     "content": "BTPS 0 04/26",
     "pdf_block": {
@@ -388,7 +414,9 @@
       "interest rate": "2.65 ",
       "manco": null,
       "market value": "2.940.336",
-      "quantity": "2.917.000"
+      "quantity": "2.917.000",
+      "table col": 0,
+      "table row": 19
     },
     "content": "BTPS 2.65 12/27",
     "pdf_block": {
@@ -416,7 +444,9 @@
       "interest rate": "1.2 ",
       "manco": null,
       "market value": "2.875.798",
-      "quantity": "2.887.000"
+      "quantity": "2.887.000",
+      "table col": 0,
+      "table row": 20
     },
     "content": "BTPS 1.2 08/25",
     "pdf_block": {
@@ -444,7 +474,9 @@
       "interest rate": "2.1 ",
       "manco": null,
       "market value": "2.809.719",
-      "quantity": "2.810.000"
+      "quantity": "2.810.000",
+      "table col": 0,
+      "table row": 21
     },
     "content": "BTPS 2.1 07/26",
     "pdf_block": {
@@ -472,7 +504,9 @@
       "interest rate": "3.85 ",
       "manco": null,
       "market value": "2.684.116",
-      "quantity": "2.623.000"
+      "quantity": "2.623.000",
+      "table col": 0,
+      "table row": 22
     },
     "content": "BTPS 3.85 09/26",
     "pdf_block": {
@@ -500,7 +534,9 @@
       "interest rate": "0.25 ",
       "manco": null,
       "market value": "2.603.523",
-      "quantity": "2.770.000"
+      "quantity": "2.770.000",
+      "table col": 0,
+      "table row": 23
     },
     "content": "BTPS 0.25 03/28",
     "pdf_block": {
@@ -529,7 +565,9 @@
       "manco": null,
       "market value": "2.576.127",
       "maturity": "04/27",
-      "quantity": "2.633.000"
+      "quantity": "2.633.000",
+      "table col": 0,
+      "table row": 24
     },
     "content": "BTPS 04/27 1.1",
     "pdf_block": {
@@ -557,7 +595,9 @@
       "interest rate": "2.2 ",
       "manco": null,
       "market value": "2.569.109",
-      "quantity": "2.574.000"
+      "quantity": "2.574.000",
+      "table col": 0,
+      "table row": 25
     },
     "content": "BTPS 2.2 06/27",
     "pdf_block": {
@@ -584,7 +624,9 @@
       "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.534.912",
-      "quantity": "2.560.000"
+      "quantity": "2.560.000",
+      "table col": 0,
+      "table row": 26
     },
     "content": "BTPS 2 02/28",
     "pdf_block": {
@@ -611,7 +653,9 @@
       "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.531.226",
-      "quantity": "2.602.000"
+      "quantity": "2.602.000",
+      "table col": 0,
+      "table row": 28
     },
     "content": "BTPS 0 08/26",
     "pdf_block": {
@@ -638,7 +682,9 @@
       "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.526.925",
-      "quantity": "2.610.000"
+      "quantity": "2.610.000",
+      "table col": 0,
+      "table row": 29
     },
     "content": "BOTS ZC 06/25",
     "pdf_block": {
@@ -665,7 +711,9 @@
       "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.356.768",
-      "quantity": "2.440.000"
+      "quantity": "2.440.000",
+      "table col": 0,
+      "table row": 30
     },
     "content": "BOTS ZC 04/25",
     "pdf_block": {
@@ -693,7 +741,9 @@
       "interest rate": "0.85 ",
       "manco": null,
       "market value": "2.351.112",
-      "quantity": "2.404.000"
+      "quantity": "2.404.000",
+      "table col": 0,
+      "table row": 31
     },
     "content": "BTPS 0.85 01/27",
     "pdf_block": {
@@ -721,7 +771,9 @@
       "interest rate": "2.95 ",
       "manco": null,
       "market value": "2.346.889",
-      "quantity": "2.317.000"
+      "quantity": "2.317.000",
+      "table col": 0,
+      "table row": 32
     },
     "content": "BTPS 2.95 02/27",
     "pdf_block": {
@@ -749,7 +801,9 @@
       "interest rate": "3.2 ",
       "manco": null,
       "market value": "1.698.982",
-      "quantity": "1.686.000"
+      "quantity": "1.686.000",
+      "table col": 0,
+      "table row": 35
     },
     "content": "BTPS 3.2 01/26",
     "pdf_block": {
@@ -777,7 +831,9 @@
       "interest rate": "3.6 ",
       "manco": null,
       "market value": "1.353.744",
-      "quantity": "1.343.000"
+      "quantity": "1.343.000",
+      "table col": 0,
+      "table row": 36
     },
     "content": "BTPS 3.6 09/25",
     "pdf_block": {
@@ -805,7 +861,9 @@
       "interest rate": "3.5 ",
       "manco": null,
       "market value": "1.334.157",
-      "quantity": "1.321.000"
+      "quantity": "1.321.000",
+      "table col": 0,
+      "table row": 38
     },
     "content": "BTPS 3.5 01/26",
     "pdf_block": {
@@ -833,7 +891,9 @@
       "interest rate": "0.5 ",
       "manco": null,
       "market value": "1.301.048",
-      "quantity": "1.319.000"
+      "quantity": "1.319.000",
+      "table col": 0,
+      "table row": 40
     },
     "content": "BTPS 0.5 02/26",
     "pdf_block": {
@@ -861,7 +921,9 @@
       "interest rate": "2.5 ",
       "manco": null,
       "market value": "1.172.843",
-      "quantity": "1.170.000"
+      "quantity": "1.170.000",
+      "table col": 0,
+      "table row": 42
     },
     "content": "BTPS 2.5 11/25",
     "pdf_block": {

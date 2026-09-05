@@ -1,2 +1,1 @@
-Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Message
-172,job[MEDIOLANUM-EN24]/step[0]/class[investments]/page[172]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],HD Hyundai,,,,expected text block not found near the matched company - row skipped
+Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message

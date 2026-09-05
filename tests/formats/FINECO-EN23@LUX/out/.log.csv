@@ -1,1 +1,2 @@
-Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Message
+Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,143,job[FINECO-EN23@LUX]/step[0]/class[investments]/document[report]/page[143]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[EXPEDIA GROUP INC - 144A - 6.25% 01/05/2025],EXPEDIA GROUP INC - 144A - 6.25% 01/05/2025,perc_net_assets,row 5,col 2,WARN,0 sits on the edge of the admissible range - kept

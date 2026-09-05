@@ -1,13 +1,13 @@
-Fund ID,Indicator,Value,Report page
-4,"Emissioni di GHG  tCO2e (tabella 1, PAI 1)",250.797,358
-4,"Impronta di carbonio  tCO2e/ EVIC in milioni di  EUR (tabella 1, PAI 2)  Intensità di GHG delle imprese beneficiarie degli",120,358
-4,"investimenti  tCO2e/ vendite in milioni di EUR  (tabella 1, PAI 3)",527,358
-4,"Rapporto tra rifiuti pericolosi e rifiuti radioattivi (tabella 1, PAI 9)  Violazioni dei principi del Global Compact delle  Nazioni Unite e delle linee guida",0,358
-4,"dell’Organizzazione per la cooperazione e lo  sviluppo economico (OCSE) destinate alle imprese  multinazionali  (tabella 1, PAI 10)",0,358
-4,"Diversità di genere nel consiglio  (tabella 1, PAI 13)",36,358
-7,"Emissioni di GHG  tCO2e (tabella 1, PAI 1)",147.335,370
-7,"Impronta di carbonio  tCO2e/ EVIC in milioni di  EUR (tabella 1, PAI 2)",166,370
-7,"Intensità di GHG delle imprese beneficiarie degli  investimenti  tCO2e/ vendite in milioni di EUR  (tabella 1, PAI 3)",650,370
-7,"Quota di consumo e produzione di energia non  rinnovabile  % (tabella 1, PAI 5)",72,370
-7,"Violazioni dei principi del Global Compact delle  Nazioni Unite e delle linee guida  dell’Organizzazione per la cooperazione e lo  sviluppo economico (OCSE) destinate alle imprese  multinazionali  (tabella 1, PAI 10)",0,370
-7,"Mancanza di procedure e di meccanismi di  conformità per monitorare la conformità ai  principi del Global Compact delle Nazioni Unite e  alle linee guida OCSE destinate alle imprese  multinazionali  (tabella 1, PAI 11)",0,370
+Fund ID,Indicator,Value,Report page,Report
+4,"Diversità di genere nel consiglio  (tabella 1, PAI 13)",36,358,report
+4,"Emissioni di GHG  tCO2e (tabella 1, PAI 1)",250.797,358,report
+4,"Impronta di carbonio  tCO2e/ EVIC in milioni di  EUR (tabella 1, PAI 2)  Intensità di GHG delle imprese beneficiarie degli",120,358,report
+4,"Rapporto tra rifiuti pericolosi e rifiuti radioattivi (tabella 1, PAI 9)  Violazioni dei principi del Global Compact delle  Nazioni Unite e delle linee guida",0,358,report
+4,"dell’Organizzazione per la cooperazione e lo  sviluppo economico (OCSE) destinate alle imprese  multinazionali  (tabella 1, PAI 10)",0,358,report
+4,"investimenti  tCO2e/ vendite in milioni di EUR  (tabella 1, PAI 3)",527,358,report
+7,"Emissioni di GHG  tCO2e (tabella 1, PAI 1)",147.335,370,report
+7,"Impronta di carbonio  tCO2e/ EVIC in milioni di  EUR (tabella 1, PAI 2)",166,370,report
+7,"Intensità di GHG delle imprese beneficiarie degli  investimenti  tCO2e/ vendite in milioni di EUR  (tabella 1, PAI 3)",650,370,report
+7,"Mancanza di procedure e di meccanismi di  conformità per monitorare la conformità ai  principi del Global Compact delle Nazioni Unite e  alle linee guida OCSE destinate alle imprese  multinazionali  (tabella 1, PAI 11)",0,370,report
+7,"Quota di consumo e produzione di energia non  rinnovabile  % (tabella 1, PAI 5)",72,370,report
+7,"Violazioni dei principi del Global Compact delle  Nazioni Unite e delle linee guida  dell’Organizzazione per la cooperazione e lo  sviluppo economico (OCSE) destinate alle imprese  multinazionali  (tabella 1, PAI 10)",0,370,report

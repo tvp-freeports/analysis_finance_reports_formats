@@ -26,7 +26,9 @@
       "fund": "COUPON STRATEGY COLLECTION ",
       "manco": null,
       "market value": "958.305 ",
-      "quantity": "10.357 "
+      "quantity": "10.357 ",
+      "table col": 0,
+      "table row": 3
     },
     "content": "Carlsberg AS ",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "fund": "COUPON STRATEGY COLLECTION ",
       "manco": null,
       "market value": "1.048.851 ",
-      "quantity": "99.754 "
+      "quantity": "99.754 ",
+      "table col": 0,
+      "table row": 10
     },
     "content": "Nordea Bank Abp ",
     "pdf_block": {
@@ -84,7 +88,9 @@
       "fund": "COUPON STRATEGY COLLECTION ",
       "manco": null,
       "market value": "724.049 ",
-      "quantity": "21.097 "
+      "quantity": "21.097 ",
+      "table col": 0,
+      "table row": 13
     },
     "content": "AXA SA ",
     "pdf_block": {
@@ -113,7 +119,9 @@
       "fund": "COUPON STRATEGY COLLECTION ",
       "manco": null,
       "market value": "720.921 ",
-      "quantity": "52.507 "
+      "quantity": "52.507 ",
+      "table col": 0,
+      "table row": 16
     },
     "content": "Carrefour SA ",
     "pdf_block": {
@@ -142,7 +150,9 @@
       "fund": "COUPON STRATEGY COLLECTION ",
       "manco": null,
       "market value": "623.945 ",
-      "quantity": "3.309 "
+      "quantity": "3.309 ",
+      "table col": 0,
+      "table row": 44
     },
     "content": "Siemens AG ",
     "pdf_block": {

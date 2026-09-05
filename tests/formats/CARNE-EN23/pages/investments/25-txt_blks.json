@@ -25,7 +25,9 @@
       "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "166,871.31",
-      "quantity": "48,247.00"
+      "quantity": "48,247.00",
+      "table col": 1,
+      "table row": 14
     },
     "content": "ROLLS-ROYCE HOLDINGS PLC ",
     "pdf_block": {
@@ -53,7 +55,9 @@
       "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "77,397.68",
-      "quantity": "628.00"
+      "quantity": "628.00",
+      "table col": 1,
+      "table row": 29
     },
     "content": "AIRBNB INC ",
     "pdf_block": {
@@ -81,7 +85,9 @@
       "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "2,137,527.35",
-      "quantity": "16,903.00"
+      "quantity": "16,903.00",
+      "table col": 1,
+      "table row": 31
     },
     "content": "ALPHABET INC - CLASS A ",
     "pdf_block": {
@@ -109,7 +115,9 @@
       "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "1,969,964.33",
-      "quantity": "14,322.00"
+      "quantity": "14,322.00",
+      "table col": 1,
+      "table row": 33
     },
     "content": "AMAZON.COM INC ",
     "pdf_block": {
@@ -137,7 +145,9 @@
       "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "4,131,625.42",
-      "quantity": "23,705.00"
+      "quantity": "23,705.00",
+      "table col": 1,
+      "table row": 45
     },
     "content": "APPLE INC ",
     "pdf_block": {
@@ -165,7 +175,9 @@
       "fund": " Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "173,406.13",
-      "quantity": "54.00"
+      "quantity": "54.00",
+      "table col": 1,
+      "table row": 61
     },
     "content": "BOOKING HOLDINGS INC ",
     "pdf_block": {

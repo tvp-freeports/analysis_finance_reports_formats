@@ -26,7 +26,9 @@
       "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
       "manco": null,
       "market value": "4,212,617",
-      "quantity": "22,694"
+      "quantity": "22,694",
+      "table col": 0,
+      "table row": 11
     },
     "content": "Alphabet Inc -C-",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
       "manco": null,
       "market value": "4,095,345",
-      "quantity": "19,210"
+      "quantity": "19,210",
+      "table col": 0,
+      "table row": 12
     },
     "content": "Amazon Com Inc",
     "pdf_block": {
@@ -84,7 +88,9 @@
       "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
       "manco": null,
       "market value": "4,290,595",
-      "quantity": "17,660"
+      "quantity": "17,660",
+      "table col": 0,
+      "table row": 15
     },
     "content": "Apple Inc",
     "pdf_block": {
@@ -113,7 +119,9 @@
       "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
       "manco": null,
       "market value": "1,894,418",
-      "quantity": "1,914"
+      "quantity": "1,914",
+      "table col": 0,
+      "table row": 19
     },
     "content": "Blackrock Rg",
     "pdf_block": {
@@ -142,7 +150,9 @@
       "fund": "Mediolanum Specialities SICAV-SIF – Diversified Equity Fund",
       "manco": null,
       "market value": "5,781,584",
-      "quantity": "14,127"
+      "quantity": "14,127",
+      "table col": 0,
+      "table row": 36
     },
     "content": "Microsoft Corp.",
     "pdf_block": {

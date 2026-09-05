@@ -1,8 +1,1 @@
-Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Message
-798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Alphabet,,,,expected text block not found near the matched company - row skipped
-798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Amazon,,,,expected text block not found near the matched company - row skipped
-798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Apple Inc,,,,expected text block not found near the matched company - row skipped
-798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Cisco Systems,,,,expected text block not found near the matched company - row skipped
-798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Microsoft,,,,expected text block not found near the matched company - row skipped
-798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],Motorola Solutions,,,,expected text block not found near the matched company - row skipped
-798,job[FINECO-EN23@IR]/step[0]/class[investments]/page[798]/pipeline[investments]/text_filter/pipe[TextFilterInvestmentsStandard],NVIDIA,,,,expected text block not found near the matched company - row skipped
+Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message

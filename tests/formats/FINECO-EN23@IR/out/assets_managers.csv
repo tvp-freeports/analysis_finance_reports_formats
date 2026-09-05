@@ -1,15 +1,15 @@
-ID,Format,Report,Report page,Name
-1,FINECO-EN23@IR,report,3,Fineco Asset Management Designated Activity Company
-2,FINECO-EN23@IR,report,155,FIL Pensions Management
-3,FINECO-EN23@IR,report,155,"Invesco Advisers, Inc."
-4,FINECO-EN23@IR,report,155,M&G Investment Management Limited
-5,FINECO-EN23@IR,report,155,Amundi Ireland Limited
-6,FINECO-EN23@IR,report,155,Schroder Investment Management Limited
-7,FINECO-EN23@IR,report,155,FIL Pensions Management AG
-8,FINECO-EN23@IR,report,155,Vontobel Asset Management AG
-9,FINECO-EN23@IR,report,155,Invesco Asset Management Limited
-10,FINECO-EN23@IR,report,156,Infusive Asset Management Inc.
-11,FINECO-EN23@IR,report,156,Nordea Investment Management AB
-12,FINECO-EN23@IR,report,156,CPR Asset Management
-13,FINECO-EN23@IR,report,156,MSIM Fund Management (Ireland) Limited
-14,FINECO-EN23@IR,report,156,Banor Capital Limited
+ID,Report,Report page,Name
+1,report,3,Fineco Asset Management Designated Activity Company
+2,report,155,FIL Pensions Management
+3,report,155,"Invesco Advisers, Inc."
+4,report,155,M&G Investment Management Limited
+5,report,155,Amundi Ireland Limited
+6,report,155,Schroder Investment Management Limited
+7,report,155,FIL Pensions Management AG
+8,report,155,Vontobel Asset Management AG
+9,report,155,Invesco Asset Management Limited
+10,report,156,Infusive Asset Management Inc.
+11,report,156,Nordea Investment Management AB
+12,report,156,CPR Asset Management
+13,report,156,MSIM Fund Management (Ireland) Limited
+14,report,156,Banor Capital Limited

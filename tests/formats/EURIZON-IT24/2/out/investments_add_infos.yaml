@@ -1,78 +1,78 @@
 1:
+  maturity: null
   interest_rate: 0.018500000000000003
-  maturity: null
 2:
+  maturity: null
   interest_rate: 0.014499999999999999
-  maturity: null
 3:
+  maturity: null
   interest_rate: 0.027999999999999997
-  maturity: null
 4:
-  interest_rate: 0.005
   maturity: null
+  interest_rate: 0.005
 5:
-  interest_rate: 0.038
   maturity: null
+  interest_rate: 0.038
 6:
-  interest_rate: 0.0265
   maturity: null
+  interest_rate: 0.0265
 7:
+  maturity: null
   interest_rate: 0.034
-  maturity: null
 8:
+  maturity: null
   interest_rate: 0.0095
-  maturity: null
 9:
+  maturity: null
   interest_rate: 0.031
-  maturity: null
 10:
+  maturity: null
   interest_rate: 0.020499999999999997
-  maturity: null
 11:
+  maturity: null
   interest_rate: 0.0345
-  maturity: null
 12:
+  maturity: null
   interest_rate: 0.038
-  maturity: null
 14:
+  maturity: null
   interest_rate: 0.0265
-  maturity: null
 15:
+  maturity: null
   interest_rate: 0.012
-  maturity: null
 16:
+  maturity: null
   interest_rate: 0.021
-  maturity: null
 17:
+  maturity: null
   interest_rate: 0.0385
-  maturity: null
 18:
+  maturity: null
   interest_rate: 0.0025
-  maturity: null
 19:
-  interest_rate: 0.011000000000000001
   maturity: '2027-04-01'
+  interest_rate: 0.011000000000000001
 20:
+  maturity: null
   interest_rate: 0.022000000000000002
-  maturity: null
 25:
+  maturity: null
   interest_rate: 0.0085
-  maturity: null
 26:
+  maturity: null
   interest_rate: 0.029500000000000002
-  maturity: null
 27:
+  maturity: null
   interest_rate: 0.032
-  maturity: null
 28:
+  maturity: null
   interest_rate: 0.036000000000000004
-  maturity: null
 29:
+  maturity: null
   interest_rate: 0.035
-  maturity: null
 30:
+  maturity: null
   interest_rate: 0.005
-  maturity: null
 31:
-  interest_rate: 0.025
   maturity: null
+  interest_rate: 0.025

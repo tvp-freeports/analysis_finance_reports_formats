@@ -43,7 +43,7 @@ body_set = (
         y1=(
             PdfLineSelection.text("SWAPS")
             | PdfLineSelection.text("FORWARDS")
-            | PdfLineSelection.text("FEATURES")
+            | PdfLineSelection.text("FUTURES")
         )
         & tnrb,
     )

@@ -1,12 +1,12 @@
 1:
-  interest_rate: 0.029500000000000002
   maturity: '2027-02-15'
-2:
-  interest_rate: null
-  maturity: '2028-02-01'
-3:
-  interest_rate: null
-  maturity: '2026-08-01'
-4:
   interest_rate: 0.029500000000000002
+2:
+  maturity: '2028-02-01'
+  interest_rate: null
+3:
+  maturity: '2026-08-01'
+  interest_rate: null
+4:
   maturity: '2030-07-01'
+  interest_rate: 0.029500000000000002

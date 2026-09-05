@@ -75,12 +75,20 @@ b_font_selection = (
     | PdfLineSelection.font("Open Sans")
 )
 
+# The listing is closed below as well as above. The section that follows it — the fund's
+# "Ripartizione degli strumenti finanziari" summary — is set in the same font at the same size, so
+# only its position tells the two apart; left unbounded, its much finer column grid is tabularised
+# together with the holdings and pushes every field of every holding out of the column the format
+# reads.
 body_set = (
     PdfLineSelection.area_from_bounds(
         x0=0.0,
         x1=1e6,
-        y1=1e6,
         y0=PdfLineSelection(text="Elenco analitico", font_size=(11, 13))
+        & b_font_selection,
+        y1=PdfLineSelection(
+            text="Ripartizione degli strumenti finanziari", font_size=(11, 13)
+        )
         & b_font_selection,
     )
     & PdfLineSelection.font_size(6.8, 7.2)

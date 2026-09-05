@@ -25,7 +25,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "3.090",
-      "quantity": "650.000 "
+      "quantity": "650.000 ",
+      "table col": 0,
+      "table row": 0
     },
     "content": "ISHARES EURO CORP ESG UCITS ",
     "pdf_block": {
@@ -53,7 +55,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "871",
-      "quantity": "89.500 "
+      "quantity": "89.500 ",
+      "table col": 0,
+      "table row": 2
     },
     "content": "ISHARES G BD IN F IE-DEURHA ",
     "pdf_block": {
@@ -81,7 +85,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "859",
-      "quantity": "148.500 "
+      "quantity": "148.500 ",
+      "table col": 0,
+      "table row": 3
     },
     "content": "ISHARES USD HY CORP ESG USDA ",
     "pdf_block": {
@@ -109,7 +115,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "709",
-      "quantity": "150.000 "
+      "quantity": "150.000 ",
+      "table col": 0,
+      "table row": 5
     },
     "content": "ISHARES USD CORP ESG-USD ACC ",
     "pdf_block": {
@@ -137,7 +145,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "505",
-      "quantity": "7.450 "
+      "quantity": "7.450 ",
+      "table col": 0,
+      "table row": 7
     },
     "content": "ISHARES MSCI EUROPE SRI ",
     "pdf_block": {
@@ -167,7 +177,9 @@
       "manco": null,
       "market value": "398",
       "maturity": "01/06/2025",
-      "quantity": "400.000 "
+      "quantity": "400.000 ",
+      "table col": 0,
+      "table row": 12
     },
     "content": "ITALY BTPS 1.5% 15-01/06/2025 ",
     "pdf_block": {
@@ -195,7 +207,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "307",
-      "quantity": "3.600 "
+      "quantity": "3.600 ",
+      "table col": 0,
+      "table row": 15
     },
     "content": "ISHARES GLOBAL GOVT BOND ",
     "pdf_block": {
@@ -225,7 +239,9 @@
       "manco": null,
       "market value": "304",
       "maturity": "15/01/2026",
-      "quantity": "300.000 "
+      "quantity": "300.000 ",
+      "table col": 0,
+      "table row": 16
     },
     "content": "ITALY BTPS 3.5% 22-15/01/2026 ",
     "pdf_block": {
@@ -255,7 +271,9 @@
       "manco": null,
       "market value": "303",
       "maturity": "15/02/2027",
-      "quantity": "300.000 "
+      "quantity": "300.000 ",
+      "table col": 0,
+      "table row": 17
     },
     "content": "ITALY BTPS 2.95% 24-15/02/2027 ",
     "pdf_block": {
@@ -285,7 +303,9 @@
       "manco": null,
       "market value": "274",
       "maturity": "15/02/2029",
-      "quantity": "300.000 "
+      "quantity": "300.000 ",
+      "table col": 0,
+      "table row": 23
     },
     "content": "ITALY BTPS 0.45% 21-15/02/2029 ",
     "pdf_block": {
@@ -313,7 +333,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "271",
-      "quantity": "21.350 "
+      "quantity": "21.350 ",
+      "table col": 0,
+      "table row": 24
     },
     "content": "BLACKROCK GL FUT OF TP-D2EUR ",
     "pdf_block": {
@@ -342,7 +364,9 @@
       "manco": null,
       "market value": "251",
       "maturity": "01/03/2025",
-      "quantity": "250.000 "
+      "quantity": "250.000 ",
+      "table col": 0,
+      "table row": 26
     },
     "content": "ITALY BTPS 5% 09-01/03/2025 ",
     "pdf_block": {
@@ -370,7 +394,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "247",
-      "quantity": "4.000 "
+      "quantity": "4.000 ",
+      "table col": 0,
+      "table row": 27
     },
     "content": "ISHARES S&P GLOBAL WATER 50 ",
     "pdf_block": {
@@ -398,7 +424,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "236",
-      "quantity": "53.000 "
+      "quantity": "53.000 ",
+      "table col": 0,
+      "table row": 29
     },
     "content": "ISHARES ESG USD EM BD EUR-HA ",
     "pdf_block": {
@@ -426,7 +454,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "235",
-      "quantity": "1.771 "
+      "quantity": "1.771 ",
+      "table col": 0,
+      "table row": 30
     },
     "content": "NVIDIA CORP ",
     "pdf_block": {
@@ -454,7 +484,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "206",
-      "quantity": "504 "
+      "quantity": "504 ",
+      "table col": 0,
+      "table row": 31
     },
     "content": "MICROSOFT CORP ",
     "pdf_block": {
@@ -482,7 +514,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "199",
-      "quantity": "31.300 "
+      "quantity": "31.300 ",
+      "table col": 0,
+      "table row": 34
     },
     "content": "ISHARES MSCI JAPAN ESG SCRND ",
     "pdf_block": {
@@ -510,7 +544,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "187",
-      "quantity": "25.300 "
+      "quantity": "25.300 ",
+      "table col": 0,
+      "table row": 39
     },
     "content": "ISHARES SMART CITY INFR USDA ",
     "pdf_block": {
@@ -538,7 +574,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "141",
-      "quantity": "5.600 "
+      "quantity": "5.600 ",
+      "table col": 0,
+      "table row": 40
     },
     "content": "ISHARES GLB TIMBER&FORESTRY ",
     "pdf_block": {
@@ -568,7 +606,9 @@
       "manco": null,
       "market value": "100",
       "maturity": "01/06/2027",
-      "quantity": "100.000 "
+      "quantity": "100.000 ",
+      "table col": 0,
+      "table row": 43
     },
     "content": "ITALY BTPS 2.2% 17-01/06/2027 ",
     "pdf_block": {
@@ -596,7 +636,9 @@
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
       "manco": null,
       "market value": "89",
-      "quantity": "419 "
+      "quantity": "419 ",
+      "table col": 0,
+      "table row": 48
     },
     "content": "AMAZON.COM INC ",
     "pdf_block": {

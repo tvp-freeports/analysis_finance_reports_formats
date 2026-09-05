@@ -26,7 +26,9 @@
       "fund": "Eurizon Fund - Equity USA ESG LTE",
       "manco": null,
       "market value": "28 209 011,06",
-      "quantity": "236 085,00"
+      "quantity": "236 085,00",
+      "table col": 1,
+      "table row": 2
     },
     "content": "AMAZON.COM, INC.",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "fund": "Eurizon Fund - Equity USA ESG LTE",
       "manco": null,
       "market value": "15 820 675,68",
-      "quantity": "142 683,00"
+      "quantity": "142 683,00",
+      "table col": 1,
+      "table row": 3
     },
     "content": "ALPHABET, INC.",
     "pdf_block": {
@@ -84,7 +88,9 @@
       "fund": "Eurizon Fund - Equity USA ESG LTE",
       "manco": null,
       "market value": "15 791 837,27",
-      "quantity": "143 934,00"
+      "quantity": "143 934,00",
+      "table col": 1,
+      "table row": 4
     },
     "content": "ALPHABET, INC.",
     "pdf_block": {
@@ -113,7 +119,9 @@
       "fund": "Eurizon Fund - Equity USA ESG LTE",
       "manco": null,
       "market value": "4 825 713,85",
-      "quantity": "101 756,00"
+      "quantity": "101 756,00",
+      "table col": 1,
+      "table row": 6
     },
     "content": "CISCO SYSTEMS, INC.",
     "pdf_block": {
@@ -142,7 +150,9 @@
       "fund": "Eurizon Fund - Equity USA ESG LTE",
       "manco": null,
       "market value": "2 566 674,01",
-      "quantity": "1 037,00"
+      "quantity": "1 037,00",
+      "table col": 1,
+      "table row": 12
     },
     "content": "BOOKING HOLDINGS, INC.",
     "pdf_block": {
@@ -171,7 +181,9 @@
       "fund": "Eurizon Fund - Equity USA ESG LTE",
       "manco": null,
       "market value": "1 205 361,46",
-      "quantity": "10 261,00"
+      "quantity": "10 261,00",
+      "table col": 1,
+      "table row": 17
     },
     "content": "AIRBNB, INC.",
     "pdf_block": {
@@ -200,7 +212,9 @@
       "fund": "Eurizon Fund - Equity USA ESG LTE",
       "manco": null,
       "market value": "908 872,02",
-      "quantity": "3 381,00"
+      "quantity": "3 381,00",
+      "table col": 1,
+      "table row": 19
     },
     "content": "MOTOROLA SOLUTIONS, INC.",
     "pdf_block": {

@@ -26,7 +26,9 @@
       "fund": "EUROPEAN COLLECTION ",
       "manco": null,
       "market value": "886.757 ",
-      "quantity": "7.433 "
+      "quantity": "7.433 ",
+      "table col": 0,
+      "table row": 30
     },
     "content": "Heidelberg Materials AG ",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "fund": "EUROPEAN COLLECTION ",
       "manco": null,
       "market value": "3.000.555 ",
-      "quantity": "15.913 "
+      "quantity": "15.913 ",
+      "table col": 0,
+      "table row": 39
     },
     "content": "Siemens AG ",
     "pdf_block": {

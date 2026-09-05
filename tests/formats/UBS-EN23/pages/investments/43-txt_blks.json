@@ -26,7 +26,9 @@
       "interest rate": "0.20 ",
       "manco": null,
       "market value": "8 504.77 ",
-      "quantity": "2 459.00 "
+      "quantity": "2 459.00 ",
+      "table col": 1,
+      "table row": 29
     },
     "content": "ROLLS-ROYCE HLDGS ORD GBP0.20 ",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "interest rate": "0.001 ",
       "manco": null,
       "market value": "919 590.53 ",
-      "quantity": "7 272.00 "
+      "quantity": "7 272.00 ",
+      "table col": 1,
+      "table row": 41
     },
     "content": "ALPHABET INC CAP STK USD0.001 CL A ",
     "pdf_block": {
@@ -84,7 +88,9 @@
       "interest rate": "0.01 ",
       "manco": null,
       "market value": "667 509.91 ",
-      "quantity": "4 853.00 "
+      "quantity": "4 853.00 ",
+      "table col": 1,
+      "table row": 42
     },
     "content": "AMAZON COM INC COM USD0.01 ",
     "pdf_block": {
@@ -112,7 +118,9 @@
       "fund": "BPER International SICAV – Global  Balanced Risk Control ",
       "manco": null,
       "market value": "1 291 318.31 ",
-      "quantity": "7 409.00 "
+      "quantity": "7 409.00 ",
+      "table col": 1,
+      "table row": 47
     },
     "content": "APPLE INC COM NPV ",
     "pdf_block": {
@@ -141,7 +149,9 @@
       "interest rate": "0.008 ",
       "manco": null,
       "market value": "64 223.42 ",
-      "quantity": "20.00 "
+      "quantity": "20.00 ",
+      "table col": 1,
+      "table row": 58
     },
     "content": "BOOKING HLDGS INC COM USD0.008 ",
     "pdf_block": {
@@ -170,7 +180,9 @@
       "interest rate": "0.75 ",
       "manco": null,
       "market value": "435 739.21 ",
-      "quantity": "3 227.00 "
+      "quantity": "3 227.00 ",
+      "table col": 1,
+      "table row": 67
     },
     "content": "CHEVRON CORP COM USD0.75 ",
     "pdf_block": {
@@ -199,7 +211,9 @@
       "interest rate": "0.001 ",
       "manco": null,
       "market value": "77 793.44 ",
-      "quantity": "1 701.00 "
+      "quantity": "1 701.00 ",
+      "table col": 1,
+      "table row": 71
     },
     "content": "CISCO SYSTEMS COM USD0.001 ",
     "pdf_block": {

@@ -25,7 +25,9 @@
       "fund": "Kairos International Sicav - Innovation Trends ",
       "manco": null,
       "market value": "1,646,910.00",
-      "quantity": "8,700.00 "
+      "quantity": "8,700.00 ",
+      "table col": 0,
+      "table row": 41
     },
     "content": "8,700.00 ALPHABET INC-CL A",
     "pdf_block": {
@@ -53,7 +55,9 @@
       "fund": "Kairos International Sicav - Innovation Trends ",
       "manco": null,
       "market value": "333,060.00",
-      "quantity": "15,600.00 "
+      "quantity": "15,600.00 ",
+      "table col": 4,
+      "table row": 1
     },
     "content": "15,600.00 HEWLETT PACKARD ENTERPRISE",
     "pdf_block": {
@@ -81,7 +85,9 @@
       "fund": "Kairos International Sicav - Innovation Trends ",
       "manco": null,
       "market value": "1,279,410.60",
-      "quantity": "5,820.00 "
+      "quantity": "5,820.00 ",
+      "table col": 4,
+      "table row": 2
     },
     "content": "5,820.00 INTL BUSINESS MACHINES CORP",
     "pdf_block": {
@@ -109,7 +115,9 @@
       "fund": "Kairos International Sicav - Innovation Trends ",
       "manco": null,
       "market value": "4,149,426.71",
-      "quantity": "30,899.00 "
+      "quantity": "30,899.00 ",
+      "table col": 4,
+      "table row": 43
     },
     "content": "30,899.00 NVIDIA CORP",
     "pdf_block": {
@@ -137,7 +145,9 @@
       "fund": "Kairos International Sicav - Innovation Trends ",
       "manco": null,
       "market value": "2,148,368.00",
-      "quantity": "36,290.00 "
+      "quantity": "36,290.00 ",
+      "table col": 4,
+      "table row": 53
     },
     "content": "36,290.00 CISCO SYSTEMS INC",
     "pdf_block": {

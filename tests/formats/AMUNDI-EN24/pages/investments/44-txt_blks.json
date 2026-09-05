@@ -24,7 +24,9 @@
       "fund": "Polen Capital Global Growth",
       "manco": null,
       "market value": "22,477,426",
-      "quantity": "389,826"
+      "quantity": "389,826",
+      "table col": 1,
+      "table row": 7
     },
     "content": "SIEMENS HEALTHINEERS AG",
     "pdf_block": {
@@ -51,7 +53,9 @@
       "fund": "Polen Capital Global Growth",
       "manco": null,
       "market value": "14,512,811",
-      "quantity": "95,712"
+      "quantity": "95,712",
+      "table col": 1,
+      "table row": 15
     },
     "content": "AIRBNB INC",
     "pdf_block": {
@@ -78,7 +82,9 @@
       "fund": "Polen Capital Global Growth",
       "manco": null,
       "market value": "49,401,793",
-      "quantity": "269,337"
+      "quantity": "269,337",
+      "table col": 1,
+      "table row": 16
     },
     "content": "ALPHABET INC SHS C",
     "pdf_block": {
@@ -105,7 +111,9 @@
       "fund": "Polen Capital Global Growth",
       "manco": null,
       "market value": "72,939,313",
-      "quantity": "377,435"
+      "quantity": "377,435",
+      "table col": 1,
+      "table row": 17
     },
     "content": "AMAZON.COM INC",
     "pdf_block": {
@@ -132,7 +140,9 @@
       "fund": "Polen Capital Global Growth",
       "manco": null,
       "market value": "48,850,294",
-      "quantity": "109,297"
+      "quantity": "109,297",
+      "table col": 1,
+      "table row": 20
     },
     "content": "MICROSOFT CORP",
     "pdf_block": {

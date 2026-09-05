@@ -28,7 +28,9 @@
       "manco": null,
       "market value": "97,387",
       "maturity": "05.04.29",
-      "quantity": "100,000"
+      "quantity": "100,000",
+      "table col": 0,
+      "table row": 25
     },
     "content": "SIEMENS ENE 4.25% 23-05.04.29",
     "pdf_block": {

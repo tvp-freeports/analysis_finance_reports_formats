@@ -25,7 +25,9 @@
       "interest rate": "2.45 ",
       "manco": null,
       "market value": " 1.087.208",
-      "quantity": " 1.480.000"
+      "quantity": " 1.480.000",
+      "table col": 0,
+      "table row": 3
     },
     "content": "BTPS 2.45 09/50",
     "pdf_block": {
@@ -52,7 +54,9 @@
       "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
       "manco": null,
       "market value": " 844.613",
-      "quantity": " 1.812"
+      "quantity": " 1.812",
+      "table col": 0,
+      "table row": 6
     },
     "content": "MICROSOFT CORP",
     "pdf_block": {
@@ -79,7 +83,9 @@
       "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
       "manco": null,
       "market value": " 422.996",
-      "quantity": " 2.068"
+      "quantity": " 2.068",
+      "table col": 0,
+      "table row": 14
     },
     "content": "AMAZON.COM INC",
     "pdf_block": {
@@ -106,7 +112,9 @@
       "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
       "manco": null,
       "market value": " 393.005",
-      "quantity": " 2.344"
+      "quantity": " 2.344",
+      "table col": 0,
+      "table row": 17
     },
     "content": "ALPHABET INC CL A",
     "pdf_block": {
@@ -133,7 +141,9 @@
       "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
       "manco": null,
       "market value": " 376.856",
-      "quantity": " 2.078"
+      "quantity": " 2.078",
+      "table col": 0,
+      "table row": 18
     },
     "content": "APPLE INC",
     "pdf_block": {
@@ -160,7 +170,9 @@
       "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
       "manco": null,
       "market value": " 370.047",
-      "quantity": " 14.700"
+      "quantity": " 14.700",
+      "table col": 0,
+      "table row": 19
     },
     "content": "VOLVO AB B SHS",
     "pdf_block": {
@@ -187,7 +199,9 @@
       "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
       "manco": null,
       "market value": " 305.331",
-      "quantity": " 57.664"
+      "quantity": " 57.664",
+      "table col": 0,
+      "table row": 25
     },
     "content": "INTESA SANPAOLO",
     "pdf_block": {
@@ -214,7 +228,9 @@
       "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
       "manco": null,
       "market value": " 265.830",
-      "quantity": " 21.148"
+      "quantity": " 21.148",
+      "table col": 0,
+      "table row": 33
     },
     "content": "CARREFOUR SA",
     "pdf_block": {
@@ -241,7 +257,9 @@
       "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
       "manco": null,
       "market value": " 207.294",
-      "quantity": " 3.485"
+      "quantity": " 3.485",
+      "table col": 0,
+      "table row": 39
     },
     "content": "CISCO SYSTEMS INC",
     "pdf_block": {
@@ -268,7 +286,9 @@
       "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
       "manco": null,
       "market value": " 206.794",
-      "quantity": " 214"
+      "quantity": " 214",
+      "table col": 0,
+      "table row": 40
     },
     "content": "BLACKROCK FUNDING IN",
     "pdf_block": {
@@ -295,7 +315,9 @@
       "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
       "manco": null,
       "market value": " 204.359",
-      "quantity": " 1.315"
+      "quantity": " 1.315",
+      "table col": 0,
+      "table row": 41
     },
     "content": "NVIDIA CORP",
     "pdf_block": {

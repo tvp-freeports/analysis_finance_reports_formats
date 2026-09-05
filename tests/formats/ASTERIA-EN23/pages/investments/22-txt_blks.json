@@ -26,7 +26,9 @@
       "fund": "Asteria Funds – People Impact Global Equities",
       "manco": null,
       "market value": "165,839",
-      "quantity": "1,294"
+      "quantity": "1,294",
+      "table col": 0,
+      "table row": 12
     },
     "content": "AIRBNB RG-A",
     "pdf_block": {
@@ -55,7 +57,9 @@
       "fund": "Asteria Funds – People Impact Global Equities",
       "manco": null,
       "market value": "378,789",
-      "quantity": "7,321"
+      "quantity": "7,321",
+      "table col": 0,
+      "table row": 23
     },
     "content": "CISCO SYSTEMS INC.",
     "pdf_block": {

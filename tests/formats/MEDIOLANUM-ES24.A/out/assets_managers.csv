@@ -1,9 +1,9 @@
-ID,Format,Report,Report page,Name
-1,MEDIOLANUM-ES24.A,report,3,Robeco Institutional Asset Management BV
-2,MEDIOLANUM-ES24.A,report,3,Ninety One UK Limited
-3,MEDIOLANUM-ES24.A,report,3,JP Morgan Asset Management (UK) Limited
-4,MEDIOLANUM-ES24.A,report,3,DJE Kapital AG
-5,MEDIOLANUM-ES24.A,report,3,FIL (Luxembourg) S.A.
-6,MEDIOLANUM-ES24.A,report,3,Wellington Management International Limited
-7,MEDIOLANUM-ES24.A,report,3,Mediolanum Gestione Fondi SGR P.A.
-8,MEDIOLANUM-ES24.A,report,3,Mediolanum International Funds Limited
+ID,Report,Report page,Name
+1,report,3,Mediolanum International Funds Limited
+2,report,3,Robeco Institutional Asset Management BV
+3,report,3,Ninety One UK Limited
+4,report,3,JP Morgan Asset Management (UK) Limited
+5,report,3,DJE Kapital AG
+6,report,3,FIL (Luxembourg) S.A.
+7,report,3,Wellington Management International Limited
+8,report,3,Mediolanum Gestione Fondi SGR P.A.

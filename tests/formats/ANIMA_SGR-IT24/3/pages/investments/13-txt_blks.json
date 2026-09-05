@@ -27,7 +27,9 @@
       "manco": null,
       "market value": "43.624 ",
       "maturity": "15/02/2027",
-      "quantity": "                       43.000.000 "
+      "quantity": "                       43.000.000 ",
+      "table col": 0,
+      "table row": 0
     },
     "content": "ITALY BTPS 2.95% 24-15/02/2027 ",
     "pdf_block": {
@@ -56,7 +58,9 @@
       "manco": null,
       "market value": "19.956 ",
       "maturity": "01/02/2028",
-      "quantity": "                       20.000.000 "
+      "quantity": "                       20.000.000 ",
+      "table col": 0,
+      "table row": 4
     },
     "content": "ITALY BTPS 2% 18-01/02/2028 ",
     "pdf_block": {
@@ -85,7 +89,9 @@
       "manco": null,
       "market value": "7.842 ",
       "maturity": "01/08/2026",
-      "quantity": "                         8.000.000 "
+      "quantity": "                         8.000.000 ",
+      "table col": 0,
+      "table row": 16
     },
     "content": "ITALY BTPS 0% 21-01/08/2026 ",
     "pdf_block": {
@@ -115,7 +121,9 @@
       "manco": null,
       "market value": "5.063 ",
       "maturity": "01/07/2030",
-      "quantity": "                         5.000.000 "
+      "quantity": "                         5.000.000 ",
+      "table col": 0,
+      "table row": 18
     },
     "content": "ITALY BTPS 2.95% 25-01/07/2030 ",
     "pdf_block": {

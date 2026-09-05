@@ -1,3 +1,2 @@
-Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Message
-522,job[MEDIOLANUM-IT24.C]/step[0]/class[investments]/page[522]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[Blackrock]/field[% net assets],Blackrock,% net assets,,,trying to cast to number but found a non-numeric shape - forcing cast
-522,job[MEDIOLANUM-IT24.C]/step[0]/class[investments]/page[522]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[Blackrock]/field[% net assets],Blackrock,% net assets,,,"could not cast ""- "": could not convert """" to a number - field skipped"
+Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,522,job[MEDIOLANUM-IT24.C]/step[0]/class[investments]/document[report]/page[522]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[BlackRock Funding Inc],BlackRock Funding Inc,perc_net_assets,row 52,col 1,WARN,0 sits on the edge of the admissible range - kept

@@ -1,28 +1,28 @@
-ID,Format,Report,Report page,Name
-1,MEDIOLANUM-EN24,report,3,Mediolanum International Funds Limited
-2,MEDIOLANUM-EN24,report,3,Acadian Asset Management LLC
-3,MEDIOLANUM-EN24,report,3,AQR Capital Management LLC
-4,MEDIOLANUM-EN24,report,3,Arga Investment Management LP
-5,MEDIOLANUM-EN24,report,3,Axiom Investors LLC
-6,MEDIOLANUM-EN24,report,3,Blackrock Investment Management (UK) Limited
-7,MEDIOLANUM-EN24,report,3,Bluebay Asset Management
-8,MEDIOLANUM-EN24,report,3,Bluebox Asset Management UK Limited
-9,MEDIOLANUM-EN24,report,3,DWS Investment GmbH
-10,MEDIOLANUM-EN24,report,3,Eagle Capital Management LLC
-11,MEDIOLANUM-EN24,report,3,Eleva Capital SAS
-12,MEDIOLANUM-EN24,report,3,FIL (Luxembourg) S.A.
-13,MEDIOLANUM-EN24,report,4,JP Morgan Asset Management (UK) Limited
-14,MEDIOLANUM-EN24,report,4,Jupiter Asset Management Limited
-15,MEDIOLANUM-EN24,report,4,Lansdowne Partners (UK) LLP
-16,MEDIOLANUM-EN24,report,4,Mediobanca SGR S.p.A.
-17,MEDIOLANUM-EN24,report,4,Mediolanum Gestione Fondi SGR P.A.
-18,MEDIOLANUM-EN24,report,4,Morgan Stanley Investment Management Limited
-19,MEDIOLANUM-EN24,report,4,Neuberger Berman Asset Management Ireland Limited
-20,MEDIOLANUM-EN24,report,4,Ninety One Limited (UK)
-21,MEDIOLANUM-EN24,report,4,Robeco Institutional Asset Management B.V.
-22,MEDIOLANUM-EN24,report,4,Schroders Investment Management Limited
-23,MEDIOLANUM-EN24,report,4,Sustainable Growth Advisers
-24,MEDIOLANUM-EN24,report,4,Tenax Capital Limited
-25,MEDIOLANUM-EN24,report,4,"The Putnam Advisory Company, LLC"
-26,MEDIOLANUM-EN24,report,5,TREA Asset Management SGIIC S.A.
-27,MEDIOLANUM-EN24,report,5,Wellington Management International Limited
+ID,Report,Report page,Name
+1,report,3,Acadian Asset Management LLC
+2,report,3,AQR Capital Management LLC
+3,report,3,Arga Investment Management LP
+4,report,3,Axiom Investors LLC
+5,report,3,Blackrock Investment Management (UK) Limited
+6,report,3,Bluebay Asset Management
+7,report,3,Bluebox Asset Management UK Limited
+8,report,3,DWS Investment GmbH
+9,report,3,Eagle Capital Management LLC
+10,report,3,Eleva Capital SAS
+11,report,3,FIL (Luxembourg) S.A.
+12,report,3,Mediolanum International Funds Limited
+13,report,4,JP Morgan Asset Management (UK) Limited
+14,report,4,Jupiter Asset Management Limited
+15,report,4,Lansdowne Partners (UK) LLP
+16,report,4,Mediobanca SGR S.p.A.
+17,report,4,Mediolanum Gestione Fondi SGR P.A.
+18,report,4,Morgan Stanley Investment Management Limited
+19,report,4,Neuberger Berman Asset Management Ireland Limited
+20,report,4,Ninety One Limited (UK)
+21,report,4,Robeco Institutional Asset Management B.V.
+22,report,4,Schroders Investment Management Limited
+23,report,4,Sustainable Growth Advisers
+24,report,4,Tenax Capital Limited
+25,report,4,"The Putnam Advisory Company, LLC"
+26,report,5,TREA Asset Management SGIIC S.A.
+27,report,5,Wellington Management International Limited

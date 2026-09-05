@@ -24,7 +24,9 @@
       "fund": "Fondo Mediolanum Flessibile Strategico ",
       "manco": null,
       "market value": "6.093.128 ",
-      "quantity": "32.314 "
+      "quantity": "32.314 ",
+      "table col": 0,
+      "table row": 7
     },
     "content": "SIEMENS AG REG ",
     "pdf_block": {
@@ -51,7 +53,9 @@
       "fund": "Fondo Mediolanum Flessibile Strategico ",
       "manco": null,
       "market value": "3.890.499 ",
-      "quantity": "114.024 "
+      "quantity": "114.024 ",
+      "table col": 0,
+      "table row": 17
     },
     "content": "AXA SA ",
     "pdf_block": {
@@ -80,7 +84,9 @@
       "manco": null,
       "market value": "3.510.150 ",
       "maturity": "06/29",
-      "quantity": "3.500.000 "
+      "quantity": "3.500.000 ",
+      "table col": 0,
+      "table row": 19
     },
     "content": "BTPS 2.8 06/29 ",
     "pdf_block": {
@@ -109,7 +115,9 @@
       "manco": null,
       "market value": "2.562.900 ",
       "maturity": "08/31",
-      "quantity": "3.000.000 "
+      "quantity": "3.000.000 ",
+      "table col": 0,
+      "table row": 40
     },
     "content": "BTPS 0.6 08/31 ",
     "pdf_block": {

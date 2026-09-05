@@ -41,7 +41,9 @@
       "interest rate": "3,63",
       "manco": null,
       "market value": "2.394",
-      "maturity": "2025-02-10"
+      "maturity": "2025-02-10",
+      "table col": 0,
+      "table row": 28
     },
     "content": "BONO|NORDEA BANK ABP|3,63|2025-02-10",
     "pdf_block": {
@@ -75,7 +77,9 @@
       "interest rate": "3,47",
       "manco": null,
       "market value": "4.001",
-      "maturity": "2025-03-17"
+      "maturity": "2025-03-17",
+      "table col": 0,
+      "table row": 34
     },
     "content": "BONO|INTESA SANPAOLO SPA|3,47|2025-03-17",
     "pdf_block": {
@@ -109,7 +113,9 @@
       "interest rate": "3,81",
       "manco": null,
       "market value": "1.710",
-      "maturity": "2025-11-16"
+      "maturity": "2025-11-16",
+      "table col": 0,
+      "table row": 60
     },
     "content": "BONO|INTESA SANPAOLO SPA|3,81|2025-11-16",
     "pdf_block": {

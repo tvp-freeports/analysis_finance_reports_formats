@@ -64,36 +64,6 @@
     "type_block": "TABLE_BODY",
     "metadata": {
       "is-max-width": false,
-      "table-col": 5,
-      "table-row": 0
-    },
-    "content": "% patri-"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 5,
-      "table-row": 1
-    },
-    "content": "monio "
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 5,
-      "table-row": 2
-    },
-    "content": "netto "
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
       "table-col": 0,
       "table-row": 2
     },
