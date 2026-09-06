@@ -96,7 +96,7 @@
   interest_rate: 0.0475
 206:
   maturity: '2027-02-01'
-  interest_rate: 0.015
+  interest_rate: 0.115
 207:
   maturity: '2029-11-28'
   interest_rate: null
@@ -465,7 +465,7 @@
   interest_rate: 0.01625
 380:
   maturity: '2027-02-01'
-  interest_rate: 0.015
+  interest_rate: 0.115
 381:
   maturity: '2029-01-15'
   interest_rate: 0.05125
@@ -483,7 +483,7 @@
   interest_rate: 0.03625
 400:
   maturity: '2027-02-01'
-  interest_rate: 0.015
+  interest_rate: 0.115
 401:
   maturity: '2029-01-15'
   interest_rate: 0.05125
@@ -738,7 +738,7 @@
   interest_rate: 0.03125
 577:
   maturity: '2024-10-15'
-  interest_rate: null
+  interest_rate: 0
 578:
   maturity: '2026-01-09'
   interest_rate: null
@@ -750,52 +750,52 @@
   interest_rate: null
 581:
   maturity: '2024-11-18'
-  interest_rate: null
+  interest_rate: 0
 582:
   maturity: '2024-09-13'
   interest_rate: null
 583:
   maturity: '2024-10-24'
-  interest_rate: null
+  interest_rate: 0
 584:
   maturity: '2024-12-27'
-  interest_rate: null
+  interest_rate: 0
 585:
   maturity: '2024-07-12'
-  interest_rate: null
+  interest_rate: 0
 586:
   maturity: '2024-11-13'
-  interest_rate: null
+  interest_rate: 0
 587:
   maturity: '2024-12-13'
-  interest_rate: null
+  interest_rate: 0
 588:
   maturity: '2024-11-14'
-  interest_rate: null
+  interest_rate: 0
 589:
   maturity: '2025-02-17'
-  interest_rate: null
+  interest_rate: 0
 590:
   maturity: '2024-10-14'
-  interest_rate: null
+  interest_rate: 0
 591:
   maturity: '2025-04-07'
-  interest_rate: null
+  interest_rate: 0
 592:
   maturity: '2025-01-10'
-  interest_rate: null
+  interest_rate: 0
 593:
   maturity: '2025-03-10'
-  interest_rate: null
+  interest_rate: 0
 594:
   maturity: '2025-06-12'
-  interest_rate: null
+  interest_rate: 0
 595:
   maturity: '2025-02-14'
-  interest_rate: null
+  interest_rate: 0
 596:
   maturity: '2025-05-16'
-  interest_rate: null
+  interest_rate: 0
 597:
   maturity: '2024-10-04'
   interest_rate: null
@@ -810,7 +810,7 @@
   interest_rate: null
 601:
   maturity: '2024-11-19'
-  interest_rate: null
+  interest_rate: 0
 602:
   maturity: '2026-02-05'
   interest_rate: 0.047

@@ -225,7 +225,7 @@
   interest_rate: 0.05
 131:
   maturity: '2027-05-15'
-  interest_rate: 0.005
+  interest_rate: 0.105
 132:
   maturity: '2027-02-01'
   interest_rate: 0.08125

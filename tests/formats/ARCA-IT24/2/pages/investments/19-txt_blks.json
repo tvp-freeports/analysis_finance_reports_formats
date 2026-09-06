@@ -55,6 +55,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ARCA CEDOLA ATTIVA 2026 ",
+      "interest rate": "0%",
       "manco": null,
       "market value": "9.835",
       "maturity": "13/03/2026",
@@ -86,6 +87,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ARCA CEDOLA ATTIVA 2026 ",
+      "interest rate": "0%",
       "manco": null,
       "market value": "9.807",
       "maturity": "14/05/2026",
@@ -117,6 +119,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ARCA CEDOLA ATTIVA 2026 ",
+      "interest rate": "0%",
       "manco": null,
       "market value": "8.828",
       "maturity": "14/04/2026",
@@ -148,6 +151,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ARCA CEDOLA ATTIVA 2026 ",
+      "interest rate": "0%",
       "manco": null,
       "market value": "7.805",
       "maturity": "12/09/2025",
@@ -179,6 +183,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ARCA CEDOLA ATTIVA 2026 ",
+      "interest rate": "0%",
       "manco": null,
       "market value": "6.869",
       "maturity": "13/02/2026",
@@ -210,6 +215,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ARCA CEDOLA ATTIVA 2026 ",
+      "interest rate": "0%",
       "manco": null,
       "market value": "4.693",
       "maturity": "14/11/2025",
@@ -305,6 +311,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ARCA CEDOLA ATTIVA 2026 ",
+      "interest rate": "0%",
       "manco": null,
       "market value": "2.938",
       "maturity": "14/01/2026",

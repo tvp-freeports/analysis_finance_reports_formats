@@ -13,7 +13,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-        "interest_rate": null,
+        "interest_rate": 0.0,
         "market_value": 9802300.0,
         "maturity": {
           "__date__": "2026-08-01"
@@ -221,7 +221,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-        "interest_rate": null,
+        "interest_rate": 0.0,
         "market_value": 985800.0,
         "maturity": {
           "__date__": "2026-04-01"

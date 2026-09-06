@@ -65,7 +65,12 @@ pdf_extract_assets = PdfExtractAssetsStandard(
 )
 
 text_filter_assets = TextFilterAssetsStandard()
-deserialize_assets = DeserializerAssetsStandard(num_converter=to_float)
+
+# Sidera Funds lays the Statement of Net Assets out so that assets plus liabilities equal net
+# assets, which means "Total Liabilities" is printed negative. The output schema wants the
+# magnitude — it checks `liabilities + net_assets == tot_assets` — so the sign is dropped here,
+# where the convention is visible, rather than by the cast, which honours every sign it reads.
+deserialize_assets = DeserializerAssetsStandard(num_converter=lambda text: abs(to_float(text)))
 
 pipelines = {
     "investments": Pipeline(

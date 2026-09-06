@@ -10,6 +10,9 @@
 46:
   maturity: null
   interest_rate: 0.055
+47:
+  maturity: null
+  interest_rate: 0.07
 48:
   maturity: '2027-07-15'
   interest_rate: 0.055
@@ -18,7 +21,7 @@
   interest_rate: 0.055
 50:
   maturity: '2035-01-13'
-  interest_rate: null
+  interest_rate: 0.06
 51:
   maturity: '2029-10-15'
   interest_rate: 0.055
@@ -45,7 +48,7 @@
   interest_rate: 0.08248
 171:
   maturity: '2025-03-27'
-  interest_rate: null
+  interest_rate: 0
 177:
   maturity: null
   interest_rate: 0.06375
@@ -156,7 +159,7 @@
   interest_rate: 0.055999999999999994
 311:
   maturity: '2035-01-13'
-  interest_rate: null
+  interest_rate: 0.06
 312:
   maturity: '2029-11-06'
   interest_rate: 0.0525
@@ -168,7 +171,7 @@
   interest_rate: 0.01125
 376:
   maturity: '2031-10-28'
-  interest_rate: null
+  interest_rate: 0.03
 377:
   maturity: '2041-10-07'
   interest_rate: 0.01375

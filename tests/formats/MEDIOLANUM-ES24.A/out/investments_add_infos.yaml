@@ -3,7 +3,7 @@
   interest_rate: 0.0165
 4:
   maturity: '2025-12-01'
-  interest_rate: 0.0225
+  interest_rate: 0.02
 5:
   maturity: '2035-03-01'
   interest_rate: 0.0335

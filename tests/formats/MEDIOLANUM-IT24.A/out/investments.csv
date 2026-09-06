@@ -45,7 +45,7 @@ ID,Report,Report page,Triggering text,Investee,Financial instrument,Nominal/Quan
 44,report,460,Glencore Finance Europe Ltd 1.75% 17/03/2025 EMTN,Glencore,BOND,4570000.0,4555010.0,EUR,0.0029,19,4792766.0,EUR
 45,report,469,Altice France SA 5.5% 15/01/2028,Altice International,BOND,390000.0,282472.0,EUR,0.0001,2,287632.0,USD
 46,report,472,Intesa Sanpaolo SpA 5.5% EMTN / perpetual,INTESA SANPAOLO,BOND,1000000.0,1007510.0,EUR,0.0003,2,992851.0,EUR
-47,report,472,Intesa Sanpaolo SpA 7% / perpetual,INTESA SANPAOLO,EQUITY,1960000.0,2089223.0,EUR,0.0006,2,1960000.0,EUR
+47,report,472,Intesa Sanpaolo SpA 7% / perpetual,INTESA SANPAOLO,BOND,1960000.0,2089223.0,EUR,0.0006,2,1960000.0,EUR
 48,report,474,EDreams ODIGEO SA 5.5% 15/07/2027,eDreams ODIGEO,BOND,500000.0,504830.0,EUR,0.0001,2,483980.0,EUR
 49,report,476,Petrobras Global Finance BV 5.5% 10/06/2051,Petróleo Brasileiro,BOND,1803000.0,1314249.0,EUR,0.0004,2,1344636.0,USD
 50,report,476,Petrobras Global Finance BV 6% 13/01/2035,Petróleo Brasileiro,BOND,2000000.0,1780879.0,EUR,0.0005,2,1777279.0,USD

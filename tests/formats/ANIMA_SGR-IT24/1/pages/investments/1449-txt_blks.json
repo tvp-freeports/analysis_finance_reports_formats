@@ -343,6 +343,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "interest rate": "0%",
       "manco": null,
       "market value": "968.551 ",
       "maturity": "14/03/2025",

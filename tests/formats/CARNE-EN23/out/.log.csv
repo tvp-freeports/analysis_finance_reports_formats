@@ -1,11 +1,1 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
-report,19,job[CARNE-EN23]/step[1]/class[fund_assets]/document[report]/page[19]/pipeline[fund_assets]/deserialize/pipe[DeserializerAssetsStandard],,,,,WARN,"forced ""-365,138.81"" to ""365,138.81"" to read it as a number"
-report,36,job[CARNE-EN23]/step[1]/class[fund_assets]/document[report]/page[36]/pipeline[fund_assets]/deserialize/pipe[DeserializerAssetsStandard],,,,,WARN,"forced ""-127,140.29"" to ""127,140.29"" to read it as a number"
-report,44,job[CARNE-EN23]/step[1]/class[fund_assets]/document[report]/page[44]/pipeline[fund_assets]/deserialize/pipe[DeserializerAssetsStandard],,,,,WARN,"forced ""-51,846.70"" to ""51,846.70"" to read it as a number"
-report,52,job[CARNE-EN23]/step[1]/class[fund_assets]/document[report]/page[52]/pipeline[fund_assets]/deserialize/pipe[DeserializerAssetsStandard],,,,,WARN,"forced ""-395,332.77"" to ""395,332.77"" to read it as a number"
-report,60,job[CARNE-EN23]/step[1]/class[fund_assets]/document[report]/page[60]/pipeline[fund_assets]/deserialize/pipe[DeserializerAssetsStandard],,,,,WARN,"forced ""-2,365,783.37"" to ""2,365,783.37"" to read it as a number"
-report,79,job[CARNE-EN23]/step[1]/class[fund_assets]/document[report]/page[79]/pipeline[fund_assets]/deserialize/pipe[DeserializerAssetsStandard],,,,,WARN,"forced ""-313,152.74"" to ""313,152.74"" to read it as a number"
-report,86,job[CARNE-EN23]/step[1]/class[fund_assets]/document[report]/page[86]/pipeline[fund_assets]/deserialize/pipe[DeserializerAssetsStandard],,,,,WARN,"forced ""-85,318.72"" to ""85,318.72"" to read it as a number"
-report,94,job[CARNE-EN23]/step[1]/class[fund_assets]/document[report]/page[94]/pipeline[fund_assets]/deserialize/pipe[DeserializerAssetsStandard],,,,,WARN,"forced ""-301,298.99"" to ""301,298.99"" to read it as a number"
-report,106,job[CARNE-EN23]/step[1]/class[fund_assets]/document[report]/page[106]/pipeline[fund_assets]/deserialize/pipe[DeserializerAssetsStandard],,,,,WARN,"forced ""-1,971,595.06"" to ""1,971,595.06"" to read it as a number"
-report,127,job[CARNE-EN23]/step[1]/class[fund_assets]/document[report]/page[127]/pipeline[fund_assets]/deserialize/pipe[DeserializerAssetsStandard],,,,,WARN,"forced ""-4,681,061.94"" to ""4,681,061.94"" to read it as a number"

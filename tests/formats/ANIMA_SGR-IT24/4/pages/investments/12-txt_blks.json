@@ -119,6 +119,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+      "interest rate": "4%",
       "manco": null,
       "market value": "508.350 ",
       "maturity": "19/05/2026",

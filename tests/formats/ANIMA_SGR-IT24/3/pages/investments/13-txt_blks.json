@@ -55,6 +55,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+      "interest rate": "2%",
       "manco": null,
       "market value": "19.956 ",
       "maturity": "01/02/2028",
@@ -86,6 +87,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+      "interest rate": "0%",
       "manco": null,
       "market value": "7.842 ",
       "maturity": "01/08/2026",

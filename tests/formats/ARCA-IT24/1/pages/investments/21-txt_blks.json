@@ -361,6 +361,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+      "interest rate": "5%",
       "manco": null,
       "market value": "251",
       "maturity": "01/03/2025",

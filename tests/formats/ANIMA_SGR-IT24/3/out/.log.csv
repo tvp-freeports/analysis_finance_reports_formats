@@ -1,1 +1,2 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,13,job[ANIMA_SGR-IT24]/step[0]/class[investments]/document[report]/page[13]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[ITALY BTPS 0% 21-01/08/2026],ITALY BTPS 0% 21-01/08/2026,interest_rate,row 17,col 1,WARN,0 sits on the edge of the admissible range - kept

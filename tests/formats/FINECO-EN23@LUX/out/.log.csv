@@ -1,2 +1,3 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,87,job[FINECO-EN23@LUX]/step[0]/class[investments]/document[report]/page[87]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[CARLSBERG BREWERIES A/S 0% 17/04/2025],CARLSBERG BREWERIES A/S 0% 17/04/2025,interest_rate,row 8,col 2,WARN,0 sits on the edge of the admissible range - kept
 report,143,job[FINECO-EN23@LUX]/step[0]/class[investments]/document[report]/page[143]/pipeline[investments]/deserialize/pipe[DeserializerInvestmentStandard]/investment[EXPEDIA GROUP INC - 144A - 6.25% 01/05/2025],EXPEDIA GROUP INC - 144A - 6.25% 01/05/2025,perc_net_assets,row 5,col 2,WARN,0 sits on the edge of the admissible range - kept

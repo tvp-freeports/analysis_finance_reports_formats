@@ -37,7 +37,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "CoRe Series - Invesco Pan European High Income FAM Fund",
-        "interest_rate": null,
+        "interest_rate": 0.04,
         "market_value": 1010120.0,
         "maturity": {
           "__date__": "2044-03-01"
