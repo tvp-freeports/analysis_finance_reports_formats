@@ -1,11 +1,11 @@
-version: d7f23dc8ad3014b4f9b7a0e550f24c83531559c46e91d28d25706c323b890323
+version: 06fd3756bf2640655303997f64a5a89fb4b0110c76308a645fcc43a2361af4a8
 who:
   name: Oreste Sciacqualegni
   email: orestesciacqualegni@tutanota.com
   pubkey_id: 09E506DD865A64A364B9F55610FF6836D9E35209
 methodologies:
   - name: basic check
-    sha256: eb4b396bf453fbf6273d7cca7ef0fc7fac925c03c20dd98bcae054d75a148f37
+    sha256: 2ca6cb2c718e9bacdadaffb9dc1587910efd9590743ae4acee5b9b1dd2c4ec77
 data:
   - methodology: basic check
     files:
@@ -16,15 +16,15 @@ data:
 sign: |-
   -----BEGIN PGP SIGNATURE-----
 
-  iQGzBAABCgAdFiEECeUG3YZaZKNkufVWEP9oNtnjUgkFAmqeu4sACgkQEP9oNtnj
-  UglcoAwAjMAoUn1QtZB4YDrfZOiiho7zSR+Xr9eS5n7YAP6s3wSw32ttGoCpWkm6
-  EpS/DMrFg5pBP5GY+1Hu3LHCxKOnh9/p4MqY4xCYC6LR1jsoCqltwih0C2AP3wIc
-  jnKekeEPTjKCxxjEZo79TO2NnBjKJJizRr+YcEpZmdfRnbFMTDRsd8E1Ww4nhLqQ
-  o7ZJk7BdvkvJPQnLAA6qm7DUbKqmMp94AxnuASVgkWuh8tHlca0l3VGWt9v5i1m4
-  gtnCMXRT954PEhj5z+NnuhuAt7fhOstbHwhNCgGJDNn/uuvXz7ylQ01ZMCezZ+kv
-  fnQT86Jig0XWnteKsnwcGN+LOZ8kpJxnrNHKxhoyzjOgIhDXBZGg9h3FnDskPCl8
-  t4eSNvdXbYG9qyCNzA7/ezLVGaa/9FHsFarHVnmOmpFtv/+M2Zup2PcdIwsA1nzc
-  55FMrHPrL//nF2q9Vo+71vILQUZToWg+RuqAwbAu19IObbEQVpJloQK4FQUv4lVK
-  cJI1mncu
-  =LvnD
+  iQGzBAABCgAdFiEECeUG3YZaZKNkufVWEP9oNtnjUgkFAmqe7tIACgkQEP9oNtnj
+  Ugk+3AwA2P8/cjSKRpPbjw1+LbR9kT3+3VTIXpC+JEh/fDN9Rd+ucyqe1SpP1ANy
+  XVQMIdKCNmGIeqtShnm+OQty8vWYp8O2hBkLo3EP00BOfkHPMe/wA1/fUHfnW7hs
+  olctWCKcWR5Vb70PuN4VPxjjsH33F5DR0UkKq+r9rkSkAyHupOw3KuAlyWg/6/hR
+  YNxXYl00ZdHbyDDOdGFhZETixUyMe0NfkUt8fue4NUo9w8WJtdqXdw3rTnxd7GZD
+  Y5EwSwtL11xgvgmkpLjgZ5KhlzOkvIMlbE9BnV90ga0ujMUu8TED8ib8fhg9NuKJ
+  xTrFI8/RsonrA+d0k9cgiZKsjcE3F9j3d191q8UqcuW5xDjrZSrKy8XG+rw//X3i
+  CMu0QB/1xo8Szwd6D01GPGQJFiQNYHE+FeLmmatPpcgDpRNCWBq1FqU5egI4euCr
+  jb0k06ylFs5LowlqYN401vi9R9Ieqci98FsLn0gkKaLWprUj41zb6jb3gl6FUczY
+  pKnUEMo8
+  =7nMj
   -----END PGP SIGNATURE-----
