@@ -13,18 +13,1156 @@ data:
         sha256: 8e352214e9f20dd2a0b86747bcc9842561e3f87c82406f96a102bfc59c6c9d15
       - path: tests/formats/EURIZON-EN23/1/pages/investments/255-txt_blks.json
         sha256: 7bd7683651c8fa88159ba5c92608213cbc6eee15eac5b3504862ae6a30624a83
+      - path: tests/formats/AMUNDI-EN24/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/AMUNDI-EN24/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/AMUNDI-EN24/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/AMUNDI-EN24/out/funds.csv
+        sha256: c76b0c2a0321d2a9773468acb6924a511b26c5238a6c6b7c428d04376035fed3
+      - path: tests/formats/AMUNDI-EN24/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/AMUNDI-EN24/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/AMUNDI-EN24/out/investments_add_infos.yaml
+        sha256: d32572fc83ca7f97ada5bf719d9f5e9a08668cbc031c7d38b17b8b1434a27aa0
+      - path: tests/formats/AMUNDI-EN24/out/investments.csv
+        sha256: 3a95e49a57a5d2b8e486918e5bba5f16fd954fa5d7a9347c458c869c3bacccff
+      - path: tests/formats/AMUNDI-EN24/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/AMUNDI-EN24/out/.log.csv
+        sha256: 8db96ac35e85b41fd3a4d6a034cf0ad91b6829c400af1c2073e4d0934194970a
+      - path: tests/formats/AMUNDI-EN24/pages/investments/44-pdf_blks.json
+        sha256: 19dd11fec5b3c48c7a951381f707d86d6527937c41e87c46c3aac38414f724be
+      - path: tests/formats/AMUNDI-EN24/pages/investments/44-results.json
+        sha256: 530bdac30357c7355d1cae0650083440055606cca2b622a1142cc46391ed2dca
+      - path: tests/formats/AMUNDI-EN24/pages/investments/44-txt_blks.json
+        sha256: a664fde890e6d349a30b78316a4c1c4a58adb8d63c295c3efd98a4dc5df28644
+      - path: tests/formats/AMUNDI-IT24/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/AMUNDI-IT24/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/AMUNDI-IT24/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/AMUNDI-IT24/out/funds.csv
+        sha256: dd7515bf63382f772364da89e175e9b6d1f25620830e264ea4b7482911a9279a
+      - path: tests/formats/AMUNDI-IT24/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/AMUNDI-IT24/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/AMUNDI-IT24/out/investments_add_infos.yaml
+        sha256: 8f645bf431aebe94c6e8c3e73e82d9f803b2b0deb033a265ee4a9da6c3e2cfd7
+      - path: tests/formats/AMUNDI-IT24/out/investments.csv
+        sha256: 59673a8b7d00582e6975818efec30230219ead9de5d1b32bacbcb1ed4a195db5
+      - path: tests/formats/AMUNDI-IT24/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/AMUNDI-IT24/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/AMUNDI-IT24/pages/investments/559-pdf_blks.json
+        sha256: 256179a6c20798a1707b68cf5df3334d9e8793653b34e8cb4ae3018de7496ccf
+      - path: tests/formats/AMUNDI-IT24/pages/investments/559-results.json
+        sha256: 3cd29cc6b48592d3db9a28ce53b7e033b5ff0b5104644049f9b1fb5556ffc162
+      - path: tests/formats/AMUNDI-IT24/pages/investments/559-txt_blks.json
+        sha256: 1609af3495893853f47370126774823437a7d46b76dc5b85472bc15fe07fb1bf
+      - path: tests/formats/ANIMA-EN23/out/assets_managers.csv
+        sha256: 4474c889b262c0d2b8744ec8e94c180de0bbb152585b76f24a2568481a1020a2
+      - path: tests/formats/ANIMA-EN23/out/funds_assets.csv
+        sha256: 47606081ba218cdb3b1887c93298668aff8e69c78f6653b0826792018208199e
+      - path: tests/formats/ANIMA-EN23/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/ANIMA-EN23/out/funds.csv
+        sha256: bfc5d6fa058df27d7a034b9dfe236136efd227f903016d9be4a8e3a1461f77e6
+      - path: tests/formats/ANIMA-EN23/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/ANIMA-EN23/out/funds_sfdr_classification.csv
+        sha256: ce12b1c242bbd5a20d28ee7359d849ad050f3e1d5bae2f4b4f10ae424a8b9f5e
+      - path: tests/formats/ANIMA-EN23/out/investments_add_infos.yaml
+        sha256: 554c44cda6a35595f6daf4632dabc6e690caa818c2c33e4141b33e2b355dd05a
+      - path: tests/formats/ANIMA-EN23/out/investments.csv
+        sha256: f71445a01a12545c065d68ad232729a4107449ddb6c9b6d7d8fb69005a51b060
+      - path: tests/formats/ANIMA-EN23/out/investments_managers_to_funds.csv
+        sha256: d1aefaa8691cc4019a3698a9ed7f2aa03aacbb3ea91dfe921f5e58f1a133ac24
+      - path: tests/formats/ANIMA-EN23/out/.log.csv
+        sha256: 3fc68acb1829fdf4bdd290cd084d74f2ce7858beb851b8a9a8a76a31ff319c9f
+      - path: tests/formats/ANIMA-EN23/pages/fund_assets/59-pdf_blks.json
+        sha256: c15a01066e81a94d07dabeb3b4afc92a132a2f1a33f2a8007e796cb34acdb715
+      - path: tests/formats/ANIMA-EN23/pages/fund_assets/59-results.json
+        sha256: 8f9d4ef40392c42e2c26c38aff84dd6cf6e3949e16d4475044286b55ad61f9d3
+      - path: tests/formats/ANIMA-EN23/pages/fund_assets/59-txt_blks.json
+        sha256: 40d3c51af1ae44a500c25a22b90b25c1765ca24725daddbe2ff53e77a29f8719
+      - path: tests/formats/ANIMA-EN23/pages/fund_assets/filter_data.json
+        sha256: 28374fab857ce2cdf19e8ac439a24239d9de3afcdec995109dd0036dcfd2b923
+      - path: tests/formats/ANIMA-EN23/pages/investments/545-pdf_blks.json
+        sha256: 4b13f562fd8d0a08c647b78292c0508da916eab45c6760f5e4f5ad9b653cb2b2
+      - path: tests/formats/ANIMA-EN23/pages/investments/545-results.json
+        sha256: c2c6a2bb1227f3264b2d35f1b0a67ff7f6bc58c37a8ce9ddb65a37ac65c161e5
+      - path: tests/formats/ANIMA-EN23/pages/investments/545-txt_blks.json
+        sha256: a4b6a7ca82264ec24fc6ffd46085a88b55e48df2cfa19a414294760e0c6639b1
+      - path: tests/formats/ANIMA-EN23/pages/manco/6-pdf_blks.json
+        sha256: db6516f80ac4cf9ec834d3f43aa5b9cd5a64215b776bbd8c2ef55db187618475
+      - path: tests/formats/ANIMA-EN23/pages/manco/6-results.json
+        sha256: 3321e2da5afc9652b8afdaa52a6f38b4abb836f9d11f6aefc07803d9a57942f4
+      - path: tests/formats/ANIMA-EN23/pages/manco/6-txt_blks.json
+        sha256: d1bf2a7fdcb58f4b67d13a650088e821b7514977b3921df5d641324e87d777cd
+      - path: tests/formats/ANIMA-EN23/pages/manco/filter_data.json
+        sha256: 9bde8686d7636a199ec81371e29101ba2ec5b9526ba81b81bfa791ef0168bd7d
+      - path: tests/formats/ANIMA-EN23/pages/year_events/499-pdf_blks.json
+        sha256: 2bf07ebc67977b7a2e02e6ca0510531b5c01395b5688fe67077f66d7e577febb
+      - path: tests/formats/ANIMA-EN23/pages/year_events/499-results.json
+        sha256: 36e07dc3dc9ac88a7cf265845dc1ebd24f6b8c91df62d0f39b9382c407d71a75
+      - path: tests/formats/ANIMA-EN23/pages/year_events/499-txt_blks.json
+        sha256: d62ab0ef403e575f6164f1f1e408c5f4839ad04666f35d2a2a70bb7115d46e09
+      - path: tests/formats/ANIMA-EN23/pages/year_events/filter_data.json
+        sha256: d4f40e5eb809a8478371e198cfbb8890614dddcd39dbc413da67c6d5c953dabf
+      - path: tests/formats/ANIMA_SGR-IT24/1/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/ANIMA_SGR-IT24/1/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/ANIMA_SGR-IT24/1/out/funds_change_name.csv
+        sha256: fd3559835660e8ca75bd559c299dc5c118f6e5d567de12adfb0f5dbd502841c3
+      - path: tests/formats/ANIMA_SGR-IT24/1/out/funds.csv
+        sha256: 2b84152f8da07ce248678a17f7730c5b1ed27f393595b7a6d279779c8b93a028
+      - path: tests/formats/ANIMA_SGR-IT24/1/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/ANIMA_SGR-IT24/1/out/funds_sfdr_classification.csv
+        sha256: 1e6f19dba5750b4e462459cf7aa053b4d72925c327b179561a2696cd002d29e3
+      - path: tests/formats/ANIMA_SGR-IT24/1/out/investments_add_infos.yaml
+        sha256: d0768fa2ced98c9504a805bae953d7f33c3b7e55d0fdef6c650610c3173efa7a
+      - path: tests/formats/ANIMA_SGR-IT24/1/out/investments.csv
+        sha256: 99e466510f32749e23d4617e4ea45ecd6f5c3f74c3586411cccd97562010e681
+      - path: tests/formats/ANIMA_SGR-IT24/1/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/ANIMA_SGR-IT24/1/out/.log.csv
+        sha256: f7424785e9ac9b6ba931cbedf89e80460f92434621a64dfe2e251f607f6ed7a8
+      - path: tests/formats/ANIMA_SGR-IT24/1/pages/investments/1449-pdf_blks.json
+        sha256: 66cf6b197a9110d8d6aeeb84cf782898449c9144a50dc97a41d71e83496d5c5b
+      - path: tests/formats/ANIMA_SGR-IT24/1/pages/investments/1449-results.json
+        sha256: 2a9cb75dd96d293084a7a561c5064d7ae073a9f1dc034c6ed2354bf65c7f8286
+      - path: tests/formats/ANIMA_SGR-IT24/1/pages/investments/1449-txt_blks.json
+        sha256: afc9bfa2eec4bbf5adbb45126a4261eadb9c7f82c559120448b12669d6735439
+      - path: tests/formats/ANIMA_SGR-IT24/2/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/ANIMA_SGR-IT24/2/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/ANIMA_SGR-IT24/2/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/ANIMA_SGR-IT24/2/out/funds.csv
+        sha256: 99c923884cdb57c6863987c5db776e9cb645c44aeee0c20e1b9364e9377a5ffb
+      - path: tests/formats/ANIMA_SGR-IT24/2/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/ANIMA_SGR-IT24/2/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/ANIMA_SGR-IT24/2/out/investments_add_infos.yaml
+        sha256: 5516a1ddaad66ba730c8153715f5276c6bfa9e479ca17b4bf0656ab6cc4392b2
+      - path: tests/formats/ANIMA_SGR-IT24/2/out/investments.csv
+        sha256: 18722a4d1b1ea7eb49e9b35936eacac81cd2bc15311b56100dd0700315008276
+      - path: tests/formats/ANIMA_SGR-IT24/2/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/ANIMA_SGR-IT24/2/out/.log.csv
+        sha256: c5251f829cf3e17e48d6ddea0175dcfa967a0cc5f132a00e821154a6e207e46d
+      - path: tests/formats/ANIMA_SGR-IT24/2/pages/investments/35-pdf_blks.json
+        sha256: c7fdc9bd4d618ff99cf412e2a079a68652e2fc19c88ed5fcbfc70f54aa93287b
+      - path: tests/formats/ANIMA_SGR-IT24/2/pages/investments/35-results.json
+        sha256: 912e347e48d1d6ef87f383ff59916f690299d307b93d7c5dd080522b69fca62e
+      - path: tests/formats/ANIMA_SGR-IT24/2/pages/investments/35-txt_blks.json
+        sha256: b760bc5236f0557d913c0ce16c51598ad458a0a43bdb86d120f768abc20cbbd3
+      - path: tests/formats/ANIMA_SGR-IT24/3/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/ANIMA_SGR-IT24/3/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/ANIMA_SGR-IT24/3/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/ANIMA_SGR-IT24/3/out/funds.csv
+        sha256: 1bebdc003e26cd8ba8720a9eb7e66bba291c2409a238425059ab1fd477b70f0c
+      - path: tests/formats/ANIMA_SGR-IT24/3/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/ANIMA_SGR-IT24/3/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/ANIMA_SGR-IT24/3/out/investments_add_infos.yaml
+        sha256: 3ba33ab7f57be44ba9200e45e1d389622cbc734847d4421dc09051869edb3383
+      - path: tests/formats/ANIMA_SGR-IT24/3/out/investments.csv
+        sha256: 06348308682adbc003c1855d1016d5d5faaba104cef68b4cf73165b74d445667
+      - path: tests/formats/ANIMA_SGR-IT24/3/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/ANIMA_SGR-IT24/3/out/.log.csv
+        sha256: 5b82944019f018f4f97ad59557b1267dd19da64f6aed087f7032e6919aa6ec30
+      - path: tests/formats/ANIMA_SGR-IT24/3/pages/investments/13-pdf_blks.json
+        sha256: 42514d43f0b31bd334ba8639e8b6b6c581e875d3739d19fe2b42ab63f1fa8b92
+      - path: tests/formats/ANIMA_SGR-IT24/3/pages/investments/13-results.json
+        sha256: 7f283e110aaa104ba06d0d16df542be6a7b0bb11958b7473ef2131e739c37ec3
+      - path: tests/formats/ANIMA_SGR-IT24/3/pages/investments/13-txt_blks.json
+        sha256: 3b8f7288c835c20176196b628557fb802cddfad891ce40470c76a1b31267e692
+      - path: tests/formats/ANIMA_SGR-IT24/4/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/ANIMA_SGR-IT24/4/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/ANIMA_SGR-IT24/4/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/ANIMA_SGR-IT24/4/out/funds.csv
+        sha256: 6a5b5f4243dab699ced55408150207dff212422bcb2d7068a51a9fce8e1d5d69
+      - path: tests/formats/ANIMA_SGR-IT24/4/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/ANIMA_SGR-IT24/4/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/ANIMA_SGR-IT24/4/out/investments_add_infos.yaml
+        sha256: faf038d40d3ddb3b2829ae3bc4485479c97e98ff88c9333c765f936e26cb745b
+      - path: tests/formats/ANIMA_SGR-IT24/4/out/investments.csv
+        sha256: 93e9bd2c4c88803688476b7ab4362b18acd76a0399c3f8078a91f8a209add2c6
+      - path: tests/formats/ANIMA_SGR-IT24/4/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/ANIMA_SGR-IT24/4/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/ANIMA_SGR-IT24/4/pages/investments/12-pdf_blks.json
+        sha256: eefe5ce89e05439a615e8d5df8b1293affcd5a08f7a90f9b1aa3de2bca53274c
+      - path: tests/formats/ANIMA_SGR-IT24/4/pages/investments/12-results.json
+        sha256: e0306fa06b440da2ed0493f2a5806851e5b78fef47a456cdc7a86701cc7e2e26
+      - path: tests/formats/ANIMA_SGR-IT24/4/pages/investments/12-txt_blks.json
+        sha256: 958ab9980d1fc0bfb0d0a1a68aab2629ee2e902ae6bba8ab40fb79ba804fbb66
+      - path: tests/formats/ANIMA_SGR-IT24/5/pages/merges/13-pdf_blks.json
+        sha256: 8a54e4fe730773460058a869f84f582075e64e9f9a747ac8ff8018576f46e05d
+      - path: tests/formats/ANIMA_SGR-IT24/5/pages/merges/13-results.json
+        sha256: 10931b3af2956b37c63e8b860ec5e71a5d7dd16941fb5b0e595f8d3f8b205f4e
+      - path: tests/formats/ANIMA_SGR-IT24/5/pages/merges/13-txt_blks.json
+        sha256: 9a4f494433c28629a281e2027bbc49fe63cd6f6555b94553359438ac34a21778
+      - path: tests/formats/ANIMA_SGR-IT24/5/pages/merges/14-pdf_blks.json
+        sha256: 03cc50a1612b588fb2e006868e0047d53ca5e056b3d4adbf45d3d66aa92943a0
+      - path: tests/formats/ANIMA_SGR-IT24/5/pages/merges/14-results.json
+        sha256: 50b0b828475b9cd15ef0a43c74c50b1606785344e50f19a7319215c354baf4b9
+      - path: tests/formats/ANIMA_SGR-IT24/5/pages/merges/14-txt_blks.json
+        sha256: 7d41723a56c7079e6d7568e0dd78f48848b7d61c64c799dcccd43c7b7d77e4c1
+      - path: tests/formats/ANIMA_SGR-IT24/5/pages/merges/filter_data.json
+        sha256: 02eb64829afb050cb2c4e97ff97979a49031e25c3798bbe0b916b64bcf700b9b
+      - path: tests/formats/ANIMA_SICAV-EN24/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/ANIMA_SICAV-EN24/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/ANIMA_SICAV-EN24/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/ANIMA_SICAV-EN24/out/funds.csv
+        sha256: adc38f78e3faa2224360180e10e1bcdcc5266976b37ca09865e12ecb8665b7a9
+      - path: tests/formats/ANIMA_SICAV-EN24/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/ANIMA_SICAV-EN24/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/ANIMA_SICAV-EN24/out/investments_add_infos.yaml
+        sha256: 723b8791cec41350a4f8282dbd874cf9ef531ad2cc1ad0c0c11667a54ca87029
+      - path: tests/formats/ANIMA_SICAV-EN24/out/investments.csv
+        sha256: 3c4cd0613e21d69739e927786cae9f4a6848158ba52dc60e8b1753f94049a74f
+      - path: tests/formats/ANIMA_SICAV-EN24/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/ANIMA_SICAV-EN24/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/ANIMA_SICAV-EN24/pages/investments/23-pdf_blks.json
+        sha256: a9dbc57cd44863acd3d046adceea081b203cac0746e3dbff7d71f5686606cbb4
+      - path: tests/formats/ANIMA_SICAV-EN24/pages/investments/23-results.json
+        sha256: bebcc0ca43ac1dbf8e29f17a594ca2b9cce3519d6b46e36ae939341294fbb9c8
+      - path: tests/formats/ANIMA_SICAV-EN24/pages/investments/23-txt_blks.json
+        sha256: 49bf82e4f1170fe93b0103e9ac492f1072f7413c8b662124923cd5e46abdebe6
+      - path: tests/formats/ARCA-IT24/1/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/ARCA-IT24/1/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/ARCA-IT24/1/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/ARCA-IT24/1/out/funds.csv
+        sha256: abc83da96b710ad7a7586abc04ed52775688491feeec33e5054686ecd69ad0a2
+      - path: tests/formats/ARCA-IT24/1/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/ARCA-IT24/1/out/funds_sfdr_classification.csv
+        sha256: cbc8bf249d20dd11ab05ca552cdb408b27818dbb560599d0bee67ab0853c6b02
+      - path: tests/formats/ARCA-IT24/1/out/investments_add_infos.yaml
+        sha256: fc3dfb17d5a0dc7d9289e7ceaee81c22ff661be2d665199634f72ccb9fa97524
+      - path: tests/formats/ARCA-IT24/1/out/investments.csv
+        sha256: 590ef9803b9be6392ca2da0781228b8abdf338deb0c2556a8db060db5057ee01
+      - path: tests/formats/ARCA-IT24/1/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/ARCA-IT24/1/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/ARCA-IT24/1/pages/investments/21-pdf_blks.json
+        sha256: 65c1aadaec033d7e521cce6c19100c3150bb5083f09d92e8075be7c84d5c7bc8
+      - path: tests/formats/ARCA-IT24/1/pages/investments/21-results.json
+        sha256: 66b77b544cd94ab33b31db57023dc69f1b399b3d68ec8d461cc5c0372e3545d6
+      - path: tests/formats/ARCA-IT24/1/pages/investments/21-txt_blks.json
+        sha256: c49966df668785e246c45cc1499746d0d04c25659a82424d7b521f62aec6d291
+      - path: tests/formats/ARCA-IT24/2/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/ARCA-IT24/2/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/ARCA-IT24/2/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/ARCA-IT24/2/out/funds.csv
+        sha256: cb6480dbdf124af27ea1fe64716cfb0b8259da790946dce800037e44599cdb11
+      - path: tests/formats/ARCA-IT24/2/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/ARCA-IT24/2/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/ARCA-IT24/2/out/investments_add_infos.yaml
+        sha256: 6f7d03e97406f7b4c478dff0192b17d25e80fccd392a9440503cfeee92943cbd
+      - path: tests/formats/ARCA-IT24/2/out/investments.csv
+        sha256: f64e092049ff5f16b665258d5386ab768f1edc13a5f9f6753d9dff2fe853d38d
+      - path: tests/formats/ARCA-IT24/2/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/ARCA-IT24/2/out/.log.csv
+        sha256: 97d85b18c5acd893e3addf24fbb4e9faeb0d2c70f0bb1cc6825b89abfb98e562
+      - path: tests/formats/ARCA-IT24/2/pages/investments/19-pdf_blks.json
+        sha256: 3a157f41955ccfda0ef4b3da049154d10f4a2301885285a693d81c06ff9834ae
+      - path: tests/formats/ARCA-IT24/2/pages/investments/19-results.json
+        sha256: 0d6a250e34204478accd9a1fd586e0672c83c2f89a4735e84ba78153c9f56338
+      - path: tests/formats/ARCA-IT24/2/pages/investments/19-txt_blks.json
+        sha256: 06c61441e8671652f33bc307686da3c604f6b6a5d4521bda0f28a53c5254019d
+      - path: tests/formats/ASTERIA-EN23/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/ASTERIA-EN23/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/ASTERIA-EN23/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/ASTERIA-EN23/out/funds.csv
+        sha256: 22d3966a3246eaeaa85b593b891035a9e794a49cee34678e3e5ffb5da57f143d
+      - path: tests/formats/ASTERIA-EN23/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/ASTERIA-EN23/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/ASTERIA-EN23/out/investments_add_infos.yaml
+        sha256: 6ad3cae381591cd3083d56f38c527fc86a4854da2c5da8136007f1b2a36af732
+      - path: tests/formats/ASTERIA-EN23/out/investments.csv
+        sha256: ef00523a58cfc09ca45bc3c55b3f9641d47fd4c01c4f8709d780d49665c45c91
+      - path: tests/formats/ASTERIA-EN23/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/ASTERIA-EN23/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/ASTERIA-EN23/pages/investments/22-pdf_blks.json
+        sha256: d968f82f92d891487518b701aefcce6c24336c289bf28d88a4553f6ab4d18868
+      - path: tests/formats/ASTERIA-EN23/pages/investments/22-results.json
+        sha256: 7c9d25b4ed26fdc3c4e19da584162ef523dc13b7c15d5284e8878ebbd3a97f17
+      - path: tests/formats/ASTERIA-EN23/pages/investments/22-txt_blks.json
+        sha256: f2769bf52b3e3289b6f397d7e0640d789a4079d44bd9a7b21dcdf727688dde4c
+      - path: tests/formats/ASTERIA-EN23/pages/investments/27-pdf_blks.json
+        sha256: e4d1b1554a68e973b6a0c220ba396835f2e4046d59fea64336daac88227af9f5
+      - path: tests/formats/ASTERIA-EN23/pages/investments/27-results.json
+        sha256: 19ad12f22fb3fbdfdd953fa73116c23d98ad40140dbb365fd6dafa3c577d8020
+      - path: tests/formats/ASTERIA-EN23/pages/investments/27-txt_blks.json
+        sha256: 48af043f53c2cb2777e4814d269e18d816b0a042eb3bb536d5bca2049e37a8c5
+      - path: tests/formats/ASTERIA-EN24/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/ASTERIA-EN24/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/ASTERIA-EN24/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/ASTERIA-EN24/out/funds.csv
+        sha256: 1a9c44cdd912abd7bf75183f25611657935c002e9ae24d423f4cfeef7d49a644
+      - path: tests/formats/ASTERIA-EN24/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/ASTERIA-EN24/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/ASTERIA-EN24/out/investments_add_infos.yaml
+        sha256: b1a581bf0769379af088d033493be98c204fac87cfefb4da4a595985175632e4
+      - path: tests/formats/ASTERIA-EN24/out/investments.csv
+        sha256: 07480b30e91ff4744d57b501d356e1fb8ab6d3c9b4c7b5383681c40c51880c19
+      - path: tests/formats/ASTERIA-EN24/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/ASTERIA-EN24/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/ASTERIA-EN24/pages/investments/78-pdf_blks.json
+        sha256: db970053a15b242e38fb4aa70df13ed333d5cdcbf5c812f993cadb57442086fe
+      - path: tests/formats/ASTERIA-EN24/pages/investments/78-results.json
+        sha256: cf637b9b5407aec5c28c76204d87f1d132e972cadd604bc8f56aa4b9ef57bb31
+      - path: tests/formats/ASTERIA-EN24/pages/investments/78-txt_blks.json
+        sha256: 0026af2aeb5b30fc0c20ffc52399779174be2d74417d0c2ff9238a30886d3b60
+      - path: tests/formats/ASTERIA-EN24/pages/investments/79-pdf_blks.json
+        sha256: 9330db5bad8688f8e0bf2fcb45f09a99733ee63f0e350bfdf425a666265844ab
+      - path: tests/formats/ASTERIA-EN24/pages/investments/79-results.json
+        sha256: 9ff31cb7aa328c5d5337853b74b3d765aef30ac85ef3e1c3ec9150f9475dfcad
+      - path: tests/formats/ASTERIA-EN24/pages/investments/79-txt_blks.json
+        sha256: 34034138717cf4977f2f32d9a231203b55253d2b4d9b7223a668fd3df827e17a
+      - path: tests/formats/CARNE-EN23/out/assets_managers.csv
+        sha256: b9961b58b44f386f42c28be7160e73880f8c5547a42480f0bf5e038ab2b26288
+      - path: tests/formats/CARNE-EN23/out/funds_assets.csv
+        sha256: a6751e81c84e9236840fd009db41f9e7b18aca135daec9c76e4dd71e1812afc3
+      - path: tests/formats/CARNE-EN23/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/CARNE-EN23/out/funds.csv
+        sha256: 53a1b0367faeb8c5300f731e98b633f50a78aa1a77a3156da978e57d203a9865
+      - path: tests/formats/CARNE-EN23/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/CARNE-EN23/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/CARNE-EN23/out/investments_add_infos.yaml
+        sha256: df6c5b7eba2ba3b0bcd34a627b9b4efb617ee7b658ec5b00f8178c15d73aea6a
+      - path: tests/formats/CARNE-EN23/out/investments.csv
+        sha256: 7fb138721ba8058affa0edf0b32b336c95560bae0b986d8b8f95f6b4d6cf0866
+      - path: tests/formats/CARNE-EN23/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/CARNE-EN23/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/CARNE-EN23/pages/fund_assets/19-pdf_blks.json
+        sha256: 617e6c8d64531f1062eab3c5bb131d8721e8c5c5716c25d0e0541e7a2eee7ec3
+      - path: tests/formats/CARNE-EN23/pages/fund_assets/19-results.json
+        sha256: dc3d9e6f36cb9173dd02e9545688ad87f79d89421ea60f55f9d304d036875e25
+      - path: tests/formats/CARNE-EN23/pages/fund_assets/19-txt_blks.json
+        sha256: 7bc579461ee0518225c6e1c9461e4b9d7bccb144575bdfe86df423ee77a8541f
+      - path: tests/formats/CARNE-EN23/pages/fund_assets/filter_data.json
+        sha256: 9150665c1069d4dcf3afef61677c6b72f2c4521b336241d9854fe14a3ba80ae2
+      - path: tests/formats/CARNE-EN23/pages/investments/25-pdf_blks.json
+        sha256: efac26c65c7c420ff4339e6685e44f8190df33810ddbe6ee39274e30ac98bd2a
+      - path: tests/formats/CARNE-EN23/pages/investments/25-results.json
+        sha256: 027578a1c70fa8d39bd165447d47f311eeeda43cb590d71de95d302215a6bb6b
+      - path: tests/formats/CARNE-EN23/pages/investments/25-txt_blks.json
+        sha256: 5a1dfc41a614591dde0b4ce14db70a2609f72bd3a593c9346fe9016daf965e5e
+      - path: tests/formats/CARNE-EN23/pages/manco/4-pdf_blks.json
+        sha256: 616283de032d82ac1cb44577831c98592ce0e8425d1d4cea7363490f0858437d
+      - path: tests/formats/CARNE-EN23/pages/manco/4-results.json
+        sha256: 53404490b446b7febb68b643ee32c413edd699fdf2eb209d96cdc0dfe3bf4898
+      - path: tests/formats/CARNE-EN23/pages/manco/4-txt_blks.json
+        sha256: 596ae7d263a1484ba058bb0bf904b0e4e6bdce77efd5a1d381987137c98ba8f1
+      - path: tests/formats/CARNE-EN23/pages/manco/filter_data.json
+        sha256: 4f3c8b44df733c6eae89cdebaf3069a79242f52b4444725a8f65785a44d335da
+      - path: tests/formats/DANSKEINVEST-EN24/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/DANSKEINVEST-EN24/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/DANSKEINVEST-EN24/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/DANSKEINVEST-EN24/out/funds.csv
+        sha256: 01ead4ed3a66be18144aeb4e4a08674f686211ff97f2f0d8a524b0a9cd864da6
+      - path: tests/formats/DANSKEINVEST-EN24/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/DANSKEINVEST-EN24/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/DANSKEINVEST-EN24/out/investments_add_infos.yaml
+        sha256: ef0a3da1a22a0e1dd347f909639a26509d881ad1e7bf7b3eb6ce04187caf5060
+      - path: tests/formats/DANSKEINVEST-EN24/out/investments.csv
+        sha256: 0fb501d81dbf08d7a072f51e153bdff561811cce3391ce35f95e196c8b975693
+      - path: tests/formats/DANSKEINVEST-EN24/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/DANSKEINVEST-EN24/out/.log.csv
+        sha256: 76a7ec5c7e15a301cd4719756469b1e38c6bdfebb4297dd53bda4fb001e727d1
+      - path: tests/formats/DANSKEINVEST-EN24/pages/investments/163-pdf_blks.json
+        sha256: cdf973ae68ab465497d389cb4db630c991d8a7016f1a7d6bb702e3cdf2db6be1
+      - path: tests/formats/DANSKEINVEST-EN24/pages/investments/163-results.json
+        sha256: dbd0a193f5d44df7c48ea23afa4c58c9cd8e99ca4d8253765e15a2a45bad3390
+      - path: tests/formats/DANSKEINVEST-EN24/pages/investments/163-txt_blks.json
+        sha256: f23cdd09ab79416da90bffa05f4b56bcbbade9ada73bc5a8d25c857a0017d1e3
+      - path: tests/formats/EURIZON-EN21/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/EURIZON-EN21/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/EURIZON-EN21/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/EURIZON-EN21/out/funds.csv
+        sha256: c421e30b539aafc186eb3bda56392fc9aba98a3e6748b8d9e0290f093be3c905
+      - path: tests/formats/EURIZON-EN21/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/EURIZON-EN21/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/EURIZON-EN21/out/investments_add_infos.yaml
+        sha256: cb9b20500b2be198829bce67176bc206585adae4616e6a5b397fff529d422a66
+      - path: tests/formats/EURIZON-EN21/out/investments.csv
+        sha256: d976dd5fe5f8913cba461e4d4a0e486c246f28d61ecf34f9e8bd34be683863d2
+      - path: tests/formats/EURIZON-EN21/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/EURIZON-EN21/out/.log.csv
+        sha256: 3d5ff0d62e9cce67b7c2ace4715584152933526a68fbc614c07800d101ddf3ff
+      - path: tests/formats/EURIZON-EN21/pages/investments/98-pdf_blks.json
+        sha256: 37c5eb441a83b4e758e954a455f10bdbfe29dedeb6fae45bd7cf92853e82c58a
+      - path: tests/formats/EURIZON-EN21/pages/investments/98-results.json
+        sha256: be96f99eedad1f75a5d60710ca5b493b051feb239714b64531cefabdcd1c6d71
+      - path: tests/formats/EURIZON-EN21/pages/investments/98-txt_blks.json
+        sha256: 17f365d4ab559b5615dd10765fc46fd677ca0506a7e1e4040e01ad8f1eefc110
+      - path: tests/formats/EURIZON-EN23/1/out/assets_managers.csv
+        sha256: ea9a8af5f2d81acd8a492922b943aa593e0edb564929ed820ee6984d2204c6d5
+      - path: tests/formats/EURIZON-EN23/1/out/funds_assets.csv
+        sha256: a5c54919cd240c3fe9ec8ba86e0284e1387dd130a1bacc57caae8861bc53dab3
+      - path: tests/formats/EURIZON-EN23/1/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/EURIZON-EN23/1/out/funds.csv
+        sha256: cfc75dfba04a6b4381b4ed1d778bc656ba7058b577f46837323f2e29b2776de0
+      - path: tests/formats/EURIZON-EN23/1/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/EURIZON-EN23/1/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/EURIZON-EN23/1/out/investments_add_infos.yaml
+        sha256: d615ac95b3b36c183aa95b86809e52035a7ad1ccf29e48aad941b3de3bb74b12
+      - path: tests/formats/EURIZON-EN23/1/out/investments.csv
+        sha256: 2e056884ed4cf60a299d12e600801a33f6e61d3f592f1e903c8fe3d33c3971e5
+      - path: tests/formats/EURIZON-EN23/1/out/investments_managers_to_funds.csv
+        sha256: 7460a916898c02a7d5cfa9d599bd584298deac4f6b4698bd7174b92a62c231c0
+      - path: tests/formats/EURIZON-EN23/1/out/.log.csv
+        sha256: f3068e96b02be57c184ce1729c3363a4e79c8c7e6c3fd7e83fdd709d93b7e91e
+      - path: tests/formats/EURIZON-EN23/1/pages/fund_assets/1006-pdf_blks.json
+        sha256: 96d4588a1155d5413e79577509bcabfdad96521fd82a68364137bb8c9515addc
+      - path: tests/formats/EURIZON-EN23/1/pages/fund_assets/1006-results.json
+        sha256: a5a8c28d4f43c9a675479285ed0ce7eea9e58b067a3dc404ccb540eccdc7ae2b
+      - path: tests/formats/EURIZON-EN23/1/pages/fund_assets/1006-txt_blks.json
+        sha256: bf7e6bc77f0f838d11a69344aa48c5d2b7397f24d717a06c25b071c1eee16642
+      - path: tests/formats/EURIZON-EN23/1/pages/fund_assets/filter_data.json
+        sha256: 6c76ae61c3be8d79046555a050016d667cfe1910d1451a181c3f578634354350
+      - path: tests/formats/EURIZON-EN23/1/pages/investments/255-results.json
+        sha256: 8bb7dbacdaa5deaeea1148d324b18f4c500f88ef9d182e66cae6c9ca1629b3bb
+      - path: tests/formats/EURIZON-EN23/1/pages/inv_managers_begin/9-pdf_blks.json
+        sha256: 919a7f8c6796fbc8fe899d087d18cd0045531037c459837d66aee8794fe80da4
+      - path: tests/formats/EURIZON-EN23/1/pages/inv_managers_begin/9-results.json
+        sha256: ac36a35f34325af11320cf3e8b7b0f126f9f81552348a7c1b9eee817e9cbe0db
+      - path: tests/formats/EURIZON-EN23/1/pages/inv_managers_begin/9-txt_blks.json
+        sha256: c54e86ed71197fadda1cb798f23fd347150ad008e24b9586d76880b69a0eaefc
+      - path: tests/formats/EURIZON-EN23/1/pages/inv_managers_begin/filter_data.json
+        sha256: 26acd46c1aa91a5daefad64a56de8eb34de09e632bb0b1b4c24f75c679a35ebf
+      - path: tests/formats/EURIZON-EN23/1/pages/inv_managers_end/10-pdf_blks.json
+        sha256: 5e482cb3750a21ca2bb6aecd4c4d31f6fde7e3621042ecc9da8adf5b586408e0
+      - path: tests/formats/EURIZON-EN23/1/pages/inv_managers_end/10-results.json
+        sha256: 7673d9a95628f78b003af554ef723576b6ae7f4147e0d24357ac41bcc8edabe8
+      - path: tests/formats/EURIZON-EN23/1/pages/inv_managers_end/10-txt_blks.json
+        sha256: 3041ed738c705944ac6358333fd3b61b5fa86390b07e4d5aacac3d98f8819a6c
+      - path: tests/formats/EURIZON-EN23/1/pages/inv_managers_end/filter_data.json
+        sha256: 94c9e99b212016e2159854a847c748c1ce98df044469c5dd5c8be48effb4d729
+      - path: tests/formats/EURIZON-EN23/1/pages/manco/8-pdf_blks.json
+        sha256: 2811f12b459b3748df6b262e917dd9a1579ce8619a561f7ca2d2288743e8f050
+      - path: tests/formats/EURIZON-EN23/1/pages/manco/8-results.json
+        sha256: fcc5fb5e411a00180d37244430b56035ff3eedd5cd8b20d670f7abf4ad939519
+      - path: tests/formats/EURIZON-EN23/1/pages/manco/8-txt_blks.json
+        sha256: 97ef6fa59ed810e4b20c6430c6e11e0dd2ced1822802f38ee8d900464be94e0b
+      - path: tests/formats/EURIZON-EN23/1/pages/manco/filter_data.json
+        sha256: 862bf70864512cd92f502a03333ea235beecfa58f9b9d78a584903d3c55a6870
+      - path: tests/formats/EURIZON-EN23/2/pages/renaming/1016-pdf_blks.json
+        sha256: 1610dfe971a374ba3eb34e21a6e93a78e1bbe5c07699bf9c01622cc556937b76
+      - path: tests/formats/EURIZON-EN23/2/pages/renaming/1016-results.json
+        sha256: 46b8e2a33724c832151d23e654d3099c2fc453dad73fa934d47a6ab35c591626
+      - path: tests/formats/EURIZON-EN23/2/pages/renaming/1016-txt_blks.json
+        sha256: 7de4e49c3634a91f71b16bb33c607fad3f908177479db5a4c27fb6bee647627e
+      - path: tests/formats/EURIZON-EN23/2/pages/renaming/filter_data.json
+        sha256: 69ecc7432df8fc48809ba2a4f062e776550c8209e47a4273d6ece70de05eb2f7
+      - path: tests/formats/EURIZON-EN23/2/pages/subsequent_events/1017-pdf_blks.json
+        sha256: f9e17071da8994d7c979cb5e72a3d9c4426ccd78e87cd04ad973a42ed11d9fa5
+      - path: tests/formats/EURIZON-EN23/2/pages/subsequent_events/1017-results.json
+        sha256: 656e235357ef0d8a36c9dc3fc5bf33796ea135854395298536c226d2b655d64d
+      - path: tests/formats/EURIZON-EN23/2/pages/subsequent_events/1017-txt_blks.json
+        sha256: 32ff065a7abe55d9ee3a29d0a506c8ac5f9fdb77599eb2971c8d68d8b5665af3
+      - path: tests/formats/EURIZON-EN23/2/pages/subsequent_events/filter_data.json
+        sha256: c277596472680a80d58fa641bcf3ecbb0514281323521ee1208239a661ac1cb4
+      - path: tests/formats/EURIZON-IT24/1/out/assets_managers.csv
+        sha256: 2ef5fe740f848c95604cc9090844bf967aef6905d49b2388bceba58b974e4166
+      - path: tests/formats/EURIZON-IT24/1/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/EURIZON-IT24/1/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/EURIZON-IT24/1/out/funds.csv
+        sha256: 0081c1b9bd79747f9f3dee252f50e44adc3ec7680d32bf5ecd0dd0469b7f95a4
+      - path: tests/formats/EURIZON-IT24/1/out/funds_esg_indicators.csv
+        sha256: 65578cea232eed301933975a53f1b5ca1585d92585482114f0d29f505ae3a1d1
+      - path: tests/formats/EURIZON-IT24/1/out/funds_sfdr_classification.csv
+        sha256: 8540826d2a439e2b2648bfdbf511294c7cf9ecf30e94b614d0e00b6a46624d4d
+      - path: tests/formats/EURIZON-IT24/1/out/investments_add_infos.yaml
+        sha256: 9844ebaaeb99500e73f783ae263cadf0598c608fbd8e937169ea4fc0f0fefc2e
+      - path: tests/formats/EURIZON-IT24/1/out/investments.csv
+        sha256: aa17953551d1c9d13f4f2c9afcd8a2c58c64ac3a53709f6741f848e21c4b0d0a
+      - path: tests/formats/EURIZON-IT24/1/out/investments_managers_to_funds.csv
+        sha256: cc4d079526f87162a09d284bfef5409b2ef6c2cbad7c0fca6f75b5d22b555ee2
+      - path: tests/formats/EURIZON-IT24/1/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/EURIZON-IT24/1/pages/investments/36-pdf_blks.json
+        sha256: 9da52ea4a66db4d38d4cc5a434c808a9549432076cc49f716236056f667e93e2
+      - path: tests/formats/EURIZON-IT24/1/pages/investments/36-results.json
+        sha256: a80df5e01a88248b8aac0ab57b682c51a56a809c8e6871c221d71eab7da4bd36
+      - path: tests/formats/EURIZON-IT24/1/pages/investments/36-txt_blks.json
+        sha256: c4b30d0dd11c5464043767852ffb98ef2bae15cda0f233dcca63209f3d69da19
+      - path: tests/formats/EURIZON-IT24/1/pages/manco/7-pdf_blks.json
+        sha256: 26002ba9f9ac208cf5527f986b2a72b78a2890b1832867e51964dfa97475ce57
+      - path: tests/formats/EURIZON-IT24/1/pages/manco/7-results.json
+        sha256: d4cb73f1242af4429ff1a7d0ee6fb70bd948fba861d9f58da2fede261a5d834a
+      - path: tests/formats/EURIZON-IT24/1/pages/manco/7-txt_blks.json
+        sha256: 8f2366fbb718d040930eb824a7ac012519f1be14c8bb7e333a10327b0cd1585a
+      - path: tests/formats/EURIZON-IT24/1/pages/manco/filter_data.json
+        sha256: 4f3c8b44df733c6eae89cdebaf3069a79242f52b4444725a8f65785a44d335da
+      - path: tests/formats/EURIZON-IT24/2/out/assets_managers.csv
+        sha256: 2ef5fe740f848c95604cc9090844bf967aef6905d49b2388bceba58b974e4166
+      - path: tests/formats/EURIZON-IT24/2/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/EURIZON-IT24/2/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/EURIZON-IT24/2/out/funds.csv
+        sha256: ae535f811fe6ac50e22423421ce59fde00633e14756f555f565651aec7f49488
+      - path: tests/formats/EURIZON-IT24/2/out/funds_esg_indicators.csv
+        sha256: f4a7a51e6ec3a6c4904ffbab4d291bd6f1303cac1e405b0c5351ca2151e811df
+      - path: tests/formats/EURIZON-IT24/2/out/funds_sfdr_classification.csv
+        sha256: 261537af2fd351a620570503c5ea50c519e58b41e554c3579695d8ba2d21b3df
+      - path: tests/formats/EURIZON-IT24/2/out/investments_add_infos.yaml
+        sha256: 18b4d8287860ddd554dc59b1b30a5c0ef1901527eef92317c40141a7f3a94cdf
+      - path: tests/formats/EURIZON-IT24/2/out/investments.csv
+        sha256: a565c79463fa7aa60b4f9ea57580210a27327c1a4f8c57eb8e2b8597a9597337
+      - path: tests/formats/EURIZON-IT24/2/out/investments_managers_to_funds.csv
+        sha256: cc4d079526f87162a09d284bfef5409b2ef6c2cbad7c0fca6f75b5d22b555ee2
+      - path: tests/formats/EURIZON-IT24/2/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/EURIZON-IT24/2/pages/investments/30-pdf_blks.json
+        sha256: dc8608ea759ca629fc8bc37815d8892bfb9327ed1433dbe6a6cd62f904d00dfe
+      - path: tests/formats/EURIZON-IT24/2/pages/investments/30-results.json
+        sha256: 56c22aea022a794f6a7875484676b90fd5e0636f5df49ec9f8977e75afed07cb
+      - path: tests/formats/EURIZON-IT24/2/pages/investments/30-txt_blks.json
+        sha256: b806365c5b3a64762428dfe2578ce089c6f1b4533fd7cd0bce9c42379ee8f061
+      - path: tests/formats/EURIZON-IT24/2/pages/manco/7-pdf_blks.json
+        sha256: 856d10cd6e1500c829dc087a2418eec0489307b5372bec8b49692b11c993cb43
+      - path: tests/formats/EURIZON-IT24/2/pages/manco/7-results.json
+        sha256: d4cb73f1242af4429ff1a7d0ee6fb70bd948fba861d9f58da2fede261a5d834a
+      - path: tests/formats/EURIZON-IT24/2/pages/manco/7-txt_blks.json
+        sha256: 8f2366fbb718d040930eb824a7ac012519f1be14c8bb7e333a10327b0cd1585a
+      - path: tests/formats/EURIZON-IT24/2/pages/manco/filter_data.json
+        sha256: 4f3c8b44df733c6eae89cdebaf3069a79242f52b4444725a8f65785a44d335da
+      - path: tests/formats/EURIZON-IT24/3/pages/merges/14-pdf_blks.json
+        sha256: bf7020020ae22b829bad838c66dea99b5395269ad4c42084ff3aa4962de40e1a
+      - path: tests/formats/EURIZON-IT24/3/pages/merges/14-results.json
+        sha256: 94e3c71c316393fb09cf2fc51c5ddb7bad9e5bf3838ee97541b46376d7ca1252
+      - path: tests/formats/EURIZON-IT24/3/pages/merges/14-txt_blks.json
+        sha256: 82a92644f7518c976306534fc46d59935e6aa041c447743045d177035a67e9b8
+      - path: tests/formats/EURIZON-IT24/3/pages/merges/filter_data.json
+        sha256: a75a3133708ff8c4cceb747e24bae89af1a72bd734e1d2dde79e0ddd272a61e4
+      - path: tests/formats/EURIZON-IT24/4/pages/merges/14-pdf_blks.json
+        sha256: 9b4a7682c6b41aa1ed45cd62a456e3d555ed905732c599ba666a3850fcfe354d
+      - path: tests/formats/EURIZON-IT24/4/pages/merges/14-results.json
+        sha256: 658bd2dcce5159c20a961941ae1c35aaf6579f19663e49383dc9fa6a9e57a2fb
+      - path: tests/formats/EURIZON-IT24/4/pages/merges/14-txt_blks.json
+        sha256: 84886f9acaa4e4c33d77c10476a4879ede6ff6c7e0524bf1c43a8af414f4c6f9
+      - path: tests/formats/EURIZON-IT24/4/pages/merges/filter_data.json
+        sha256: f81bfe2dcacac307b970b978d8ecc8795c06ec79d7302fa832ef8dcd285ba116
+      - path: tests/formats/FIDEURAM-EN23/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/FIDEURAM-EN23/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/FIDEURAM-EN23/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/FIDEURAM-EN23/out/funds.csv
+        sha256: 0efc56a3ba7f35a9fc6436b1d51abbe223cd6853f573b33fad64e71f81c72dd2
+      - path: tests/formats/FIDEURAM-EN23/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/FIDEURAM-EN23/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/FIDEURAM-EN23/out/investments_add_infos.yaml
+        sha256: e0fbcd18d3ac3a3dcfcb732d74b456944f36e33e7c9036ecf09bfc6749f9fbce
+      - path: tests/formats/FIDEURAM-EN23/out/investments.csv
+        sha256: 332cbaac5aa912209492a6a93c373e2e96978aa620f74609b70a0684ca906ee9
+      - path: tests/formats/FIDEURAM-EN23/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/FIDEURAM-EN23/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/FIDEURAM-EN23/pages/investments/34-pdf_blks.json
+        sha256: cdc48193527c7bacf9077f3a3e437e406ccb2934ed191c049be61995bdc4fa33
+      - path: tests/formats/FIDEURAM-EN23/pages/investments/34-results.json
+        sha256: c359f9383e5c94396ac13d84edfd1b50eb4ccc9ed55e12cf996f481ade22b251
+      - path: tests/formats/FIDEURAM-EN23/pages/investments/34-txt_blks.json
+        sha256: e65b2c5d3613c78bd6f438cd820167af8776647c8c6e0e919b4601c9f35eeb22
+      - path: tests/formats/FIDEURAM-EN23/pages/investments/52-pdf_blks.json
+        sha256: 3d9ccbc23cf5d9b6d54d7a66c0dcd3f367caa79762fb20d03761ea371b15838b
+      - path: tests/formats/FIDEURAM-EN23/pages/investments/52-results.json
+        sha256: 55c3c6c8a0aa103127438c7acd1f9277738fe4119427c86305e5909dfddc3726
+      - path: tests/formats/FIDEURAM-EN23/pages/investments/52-txt_blks.json
+        sha256: bbda3ca6b866b2112c6182796459215ccd7f027fbc45337f3dfa4fbb8087bf8a
+      - path: tests/formats/FIDEURAM-IT24/out/assets_managers.csv
+        sha256: 46d371cad096761eedfe7d0452298ab82f74136727d61c17729e9a98133fd423
+      - path: tests/formats/FIDEURAM-IT24/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/FIDEURAM-IT24/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/FIDEURAM-IT24/out/funds.csv
+        sha256: d6b16e2af176dc2a673ed6e213940c9b5852ed8007e3b44a79d9b6c10f6f22b8
+      - path: tests/formats/FIDEURAM-IT24/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/FIDEURAM-IT24/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/FIDEURAM-IT24/out/investments_add_infos.yaml
+        sha256: ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356
+      - path: tests/formats/FIDEURAM-IT24/out/investments.csv
+        sha256: 476435a67c23bfdde91be8c20bb342d155cb6b61f1adbdd9882fecabe53d56f8
+      - path: tests/formats/FIDEURAM-IT24/out/investments_managers_to_funds.csv
+        sha256: 0fff6f00d89b8919c5e4245f03cba1ce633ad6b84c1f2e4e44c02c5e5e49c603
+      - path: tests/formats/FIDEURAM-IT24/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/FIDEURAM-IT24/pages/investments/20-pdf_blks.json
+        sha256: 3e1cc5234ea66ea28008b8508a85988c74c60fd3b9aad66dc7a2190e17012a44
+      - path: tests/formats/FIDEURAM-IT24/pages/investments/20-results.json
+        sha256: 940b793399efa0bdfd550e5e5b7a1c6fbf957847bd3801f2da8a862ab185d1b7
+      - path: tests/formats/FIDEURAM-IT24/pages/investments/20-txt_blks.json
+        sha256: 70b6703622d004fc74715c8a89b1aa7ea241b83f98d14affe21bf0052c122c5a
+      - path: tests/formats/FIDEURAM-IT24/pages/manco/1-pdf_blks.json
+        sha256: 62751a2a7d76908dbcc8d72042fd07c70fcf7ce27f8e3a79d134548be95ee58e
+      - path: tests/formats/FIDEURAM-IT24/pages/manco/1-results.json
+        sha256: 17caf64cb45d0c9fef77540c8c48f280a3c5b830432ccf4ae9af7114c0663337
+      - path: tests/formats/FIDEURAM-IT24/pages/manco/1-txt_blks.json
+        sha256: c2ffb9832c673437d19973c2f8524319fa074dd928f1635c8ac11f014ad0a7cc
+      - path: tests/formats/FIDEURAM-IT24/pages/manco/filter_data.json
+        sha256: 4f3c8b44df733c6eae89cdebaf3069a79242f52b4444725a8f65785a44d335da
+      - path: tests/formats/FINECO-EN23@IR/out/assets_managers.csv
+        sha256: 478c1af1f32d9b3f833dafc67206321026d23a7c3f55603a6e7779ad1995a956
+      - path: tests/formats/FINECO-EN23@IR/out/funds_assets.csv
+        sha256: 8b68391bad27372d4c36814cf037b0e3fc6a2a50607be30deb30a316601792ca
+      - path: tests/formats/FINECO-EN23@IR/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/FINECO-EN23@IR/out/funds.csv
+        sha256: 1c559d5c6a04ab57be5839752fdf6371362636ea99d796b2fb06a4678e63e647
+      - path: tests/formats/FINECO-EN23@IR/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/FINECO-EN23@IR/out/funds_sfdr_classification.csv
+        sha256: 1646e64c7939d870312f20f61b0e5b2e8a2017dadc7fbe110ec0b06c4020ed95
+      - path: tests/formats/FINECO-EN23@IR/out/investments_add_infos.yaml
+        sha256: 9f3352c7d2cdfff4f0d68381ae8133d340f627bb139961cbb7c098e29aaeedf5
+      - path: tests/formats/FINECO-EN23@IR/out/investments.csv
+        sha256: 028053233e7a1c6154a3f3216f955931148d76a7a6c8abf559f9c6e9617d10c5
+      - path: tests/formats/FINECO-EN23@IR/out/investments_managers_to_funds.csv
+        sha256: 2ef914cdc7e1c4fa2b37b79436ac95fb7118f2c05eed92fc825847dd7d062e3d
+      - path: tests/formats/FINECO-EN23@IR/out/.log.csv
+        sha256: 395b1e1fab6456938fb470bf8ad5fb8700b21deb5754e48f8c6e3b427456b221
+      - path: tests/formats/FINECO-EN23@IR/pages/fund_assets/71-pdf_blks.json
+        sha256: 71d9eaa5d280dc088f6fe5deeab296ca9422df3f39b0435f01f82c819c276f2e
+      - path: tests/formats/FINECO-EN23@IR/pages/fund_assets/71-results.json
+        sha256: 7affe88bd3c79c8f6dfad2f08ebde6f55c0d109340d50b14954664b861e22abd
+      - path: tests/formats/FINECO-EN23@IR/pages/fund_assets/71-txt_blks.json
+        sha256: 92c9fcf7656ef9c81d7ae1b68bbb923f49ebaa67d63c54aa99dfb5262aab8f02
+      - path: tests/formats/FINECO-EN23@IR/pages/fund_assets/filter_data.json
+        sha256: ef1a42bddd53a7bd79f65fd1ab541f2a30efcdeba1637b5f3871dccd3c8c0b86
+      - path: tests/formats/FINECO-EN23@IR/pages/investments/517-pdf_blks.json
+        sha256: 60a21d4d8d66d1bf3696c419928d6e72b398b6dece7ed5313619253fb5249a1b
+      - path: tests/formats/FINECO-EN23@IR/pages/investments/517-results.json
+        sha256: af9d1af53ccfbb6b88dbfef0e237444013f5bf45da9f7717850aec450fc1f21b
+      - path: tests/formats/FINECO-EN23@IR/pages/investments/517-txt_blks.json
+        sha256: 70e047b668f937519049390b0b41219e5ce1d8fea9c71760f484042ec58b5376
+      - path: tests/formats/FINECO-EN23@IR/pages/inv_managers_table/155-pdf_blks.json
+        sha256: aaab9615f5f9f473c999b8592fd8971f2512fec073b2cdb59623785d81c023b6
+      - path: tests/formats/FINECO-EN23@IR/pages/inv_managers_table/155-results.json
+        sha256: f635ebe8f4bc101aae6a0d99b6d44db4bc9e94ee332fb2a42736a368df400ab2
+      - path: tests/formats/FINECO-EN23@IR/pages/inv_managers_table/155-txt_blks.json
+        sha256: 5b6f4b185ec7280d427966109ee0909eed45e9474cfa2d72cf00ed236257dad6
+      - path: tests/formats/FINECO-EN23@IR/pages/inv_managers_table/filter_data.json
+        sha256: ef1a42bddd53a7bd79f65fd1ab541f2a30efcdeba1637b5f3871dccd3c8c0b86
+      - path: tests/formats/FINECO-EN23@IR/pages/manco/3-pdf_blks.json
+        sha256: 4e1c5865f1deb9298bf2d3ba76cd840214751378dbd122c2df5758b0cf8fd603
+      - path: tests/formats/FINECO-EN23@IR/pages/manco/3-results.json
+        sha256: fdbbb18ccbcf12433f05fd83b57c55d2d94030bf36a3589e9352a9c73626cdb2
+      - path: tests/formats/FINECO-EN23@IR/pages/manco/3-txt_blks.json
+        sha256: f2dac8ef119d037f42b4f70f8dcbebef8fd30742a93ab2dc0fb114c28191242c
+      - path: tests/formats/FINECO-EN23@IR/pages/manco/filter_data.json
+        sha256: f1f63fe007796a65b7eb94b4938da84b29b974b3d39ced04c4cfb90eaffb0c4e
+      - path: tests/formats/FINECO-EN23@LUX/out/assets_managers.csv
+        sha256: ae09ead7a7c98d797706dd209ead07b923350a1e916091d8856c42dd6c7f04a0
+      - path: tests/formats/FINECO-EN23@LUX/out/funds_assets.csv
+        sha256: a1b4d63d38f4df3975b0e206a68913c166dc8a1249df77009fd2af0965678aea
+      - path: tests/formats/FINECO-EN23@LUX/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/FINECO-EN23@LUX/out/funds.csv
+        sha256: 13f695ab77afe1ac59f697ff4eebef2a7e0e8ce93466a8bc407c27176cfd3930
+      - path: tests/formats/FINECO-EN23@LUX/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/FINECO-EN23@LUX/out/funds_sfdr_classification.csv
+        sha256: f06f7362471587490b24da42b93822678d595f37874faed9fd25ba28b8d626ed
+      - path: tests/formats/FINECO-EN23@LUX/out/investments_add_infos.yaml
+        sha256: 739e1f3215bfcc4ffa5c2a6dd489e5ed4959c366bef853ea60741e7c597f5d21
+      - path: tests/formats/FINECO-EN23@LUX/out/investments.csv
+        sha256: c418495df656a7c37f5797139ca07a1364c3c0834260c750b2843605768f0223
+      - path: tests/formats/FINECO-EN23@LUX/out/investments_managers_to_funds.csv
+        sha256: 21577b8cdeb22b9f2d1ad26952ea646bde2727d1dd2b8cb4ef8e0ceb309b7df1
+      - path: tests/formats/FINECO-EN23@LUX/out/.log.csv
+        sha256: 8ee93d3d0f747325b79e916f80269c6c843b08868a8ac842cd1b0c795e849122
+      - path: tests/formats/FINECO-EN23@LUX/pages/fund_assets/31-pdf_blks.json
+        sha256: 2b13a7afe1284b22d6f49b7b4be4225ba8aefda002bce534c541d364b833a46d
+      - path: tests/formats/FINECO-EN23@LUX/pages/fund_assets/31-results.json
+        sha256: 198e49cd7c334595b47c760d21c690b8efe0db4437e28bcfae729e1ef90b1693
+      - path: tests/formats/FINECO-EN23@LUX/pages/fund_assets/31-txt_blks.json
+        sha256: 44ad2d1df822a1c09f51116a0cece738c587ed8b95d942799a446fee2748aa3e
+      - path: tests/formats/FINECO-EN23@LUX/pages/fund_assets/filter_data.json
+        sha256: 4f3c8b44df733c6eae89cdebaf3069a79242f52b4444725a8f65785a44d335da
+      - path: tests/formats/FINECO-EN23@LUX/pages/investments/140-pdf_blks.json
+        sha256: f7655596ccfcade4d66d319cd42a6eb6272eece40e123167d48fd4c9af8afc50
+      - path: tests/formats/FINECO-EN23@LUX/pages/investments/140-results.json
+        sha256: 44a7440ce26f4febf68e9877b14eeb42e8fa7434a29da7ca23452aec20798ebb
+      - path: tests/formats/FINECO-EN23@LUX/pages/investments/140-txt_blks.json
+        sha256: 058428135fdd053c29646dc4bdba4510cf69317f2396d6822c17c52e86474bd5
+      - path: tests/formats/FINECO-EN23@LUX/pages/investments/149-pdf_blks.json
+        sha256: e17a05a669419660c71022bd1854b60605a115984831ae691b8d4b9023c2bdd7
+      - path: tests/formats/FINECO-EN23@LUX/pages/investments/149-results.json
+        sha256: a9c9014813a51069c267b66f0ae5d7acb7bfe818ad9c57a8cce6fe79cf25993f
+      - path: tests/formats/FINECO-EN23@LUX/pages/investments/149-txt_blks.json
+        sha256: a915d32f9486dab8187dac696b28eb062162114e062b7cc65dfaa45400e29a0b
+      - path: tests/formats/FINECO-EN23@LUX/pages/inv_managers/6-pdf_blks.json
+        sha256: 7d2e8b96464e00c188d758c2d488797b81053eb37b01a18ada3b745dc0f8f67b
+      - path: tests/formats/FINECO-EN23@LUX/pages/inv_managers/6-results.json
+        sha256: dd3ad3f7320e6c13a2a289cf5a1d0edecab5e88f7e32c1b37c7ee020ad08f9cc
+      - path: tests/formats/FINECO-EN23@LUX/pages/inv_managers/6-txt_blks.json
+        sha256: e7e7c0dd8a50fcb22eed2fb8411504885556a9af62fb7fba3d332f6bc872b214
+      - path: tests/formats/FINECO-EN23@LUX/pages/inv_managers/filter_data.json
+        sha256: 7f0f94a25605e8c4ca3d3d96b6a661d518cfc6dd733ecb3dfc87e1f19c63c5cf
+      - path: tests/formats/KAIROS-EN23/1/out/assets_managers.csv
+        sha256: 22a513ea8d8c07fe18a541a5b92ea70a8b84bcd19e3ce0a86a408ef3178125d1
+      - path: tests/formats/KAIROS-EN23/1/out/funds_assets.csv
+        sha256: 2dd1ef3a94a61c46232dc5fa2e91099721efeb7166a2feb5f03fee7ae58a6156
+      - path: tests/formats/KAIROS-EN23/1/out/funds_change_name.csv
+        sha256: 5b88cc6cef0ed745f6cfb5cecbf6d50edcc1f280568e33148917e8615c886904
+      - path: tests/formats/KAIROS-EN23/1/out/funds.csv
+        sha256: 21d64eab126dcc849d4e68fdd95af6b967fcb6e269aa385004cc923ebf165800
+      - path: tests/formats/KAIROS-EN23/1/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/KAIROS-EN23/1/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/KAIROS-EN23/1/out/investments_add_infos.yaml
+        sha256: 65eed20d3ab71f9269841d414375065246602229d0ba619c2fb083f77b4da6c0
+      - path: tests/formats/KAIROS-EN23/1/out/investments.csv
+        sha256: e8aba4d9bafaef30ec58e5986352acc9a34a7d5e0d086aefd5925a81cfc48334
+      - path: tests/formats/KAIROS-EN23/1/out/investments_managers_to_funds.csv
+        sha256: bae41fa8e83680c57f8bb9a7a94d32becf2873cb72bf656a10a912a04553f37b
+      - path: tests/formats/KAIROS-EN23/1/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/KAIROS-EN23/1/pages/fund_assets/28-pdf_blks.json
+        sha256: eb9c43a86048d95857eb4f2804e02e297eb9b9c952135f0fcf6b9c75726a5909
+      - path: tests/formats/KAIROS-EN23/1/pages/fund_assets/28-results.json
+        sha256: 17c8d8c64ec0df26855829af9844f1dfa5832910c96f9bf798e4fc7d842a552e
+      - path: tests/formats/KAIROS-EN23/1/pages/fund_assets/28-txt_blks.json
+        sha256: 8de94d51c9c48d616d2d64c9f723a9e72ec57510eb5c60934237c55edba13d4c
+      - path: tests/formats/KAIROS-EN23/1/pages/fund_assets/filter_data.json
+        sha256: acc3fdc8184694f142c571d30c8baf3bcbd0e519201f5206e58798b209b0e01c
+      - path: tests/formats/KAIROS-EN23/1/pages/investments/30-pdf_blks.json
+        sha256: 7a1e151f9a50a0e055adb9cf8d145d68f2802ff4680a5ee1a9eee776e742b871
+      - path: tests/formats/KAIROS-EN23/1/pages/investments/30-results.json
+        sha256: c6c93c553f1419fa7faca0923bb92c207873b1245fe0454fa96380c7d6513809
+      - path: tests/formats/KAIROS-EN23/1/pages/investments/30-txt_blks.json
+        sha256: d5296db2afb649dc826c065a4f33aedf47dd05d5b07b7c3cdd2d97c222977805
+      - path: tests/formats/KAIROS-EN23/1/pages/investments/61-pdf_blks.json
+        sha256: bd2134fa11b3ba0ae695c0f46e5e397e56895655472bfb567599c92de48df82c
+      - path: tests/formats/KAIROS-EN23/1/pages/investments/61-results.json
+        sha256: da8a58233558d32f443d734314045d28d86dc6630e6b8a93d799b1e6abd55232
+      - path: tests/formats/KAIROS-EN23/1/pages/investments/61-txt_blks.json
+        sha256: 57525fa399f5fb734734e96bbf225545307a12b7748820b70a628e5850390403
+      - path: tests/formats/KAIROS-EN23/1/pages/manco/6-pdf_blks.json
+        sha256: d546931cbb087f9481dc87e0aba7235775fc6e65122a7fe5740720a71331e489
+      - path: tests/formats/KAIROS-EN23/1/pages/manco/6-results.json
+        sha256: dfc3830315ca41d6c6a4cbfea77cca3b990e2a518b0289fbd9e1e38cb9b1c55d
+      - path: tests/formats/KAIROS-EN23/1/pages/manco/6-txt_blks.json
+        sha256: 9e460bc871c04698e56ac81cd4f3631ff3d02e3b247ad9600ab45c253824133a
+      - path: tests/formats/KAIROS-EN23/1/pages/manco/filter_data.json
+        sha256: 4f3c8b44df733c6eae89cdebaf3069a79242f52b4444725a8f65785a44d335da
+      - path: tests/formats/KAIROS-EN23/2/pages/manco/6-pdf_blks.json
+        sha256: d546931cbb087f9481dc87e0aba7235775fc6e65122a7fe5740720a71331e489
+      - path: tests/formats/KAIROS-EN23/2/pages/manco/6-results.json
+        sha256: f33fa32f3f2f4aa00d96017c3a9d294003a0f948a692ae4f39fd99aa7e81c5da
+      - path: tests/formats/KAIROS-EN23/2/pages/manco/6-txt_blks.json
+        sha256: 3954f3a82403eeaa692bdbf5816cc6ee5dc98c8fe0fba63e16373c5bdc7daa8f
+      - path: tests/formats/KAIROS-EN23/2/pages/manco/filter_data.json
+        sha256: d4f40e5eb809a8478371e198cfbb8890614dddcd39dbc413da67c6d5c953dabf
+      - path: tests/formats/KAIROS-EN23/2/pages/merges/104-pdf_blks.json
+        sha256: 504ae5fb44cd89b8a08d9d17c220994d246be46dc6fa397b30e5e517cab41af7
+      - path: tests/formats/KAIROS-EN23/2/pages/merges/104-results.json
+        sha256: 55f8ef43c5679da3a1804948f3d1d89eb58a2e96fa2ea82ce7baf50ebbd2aa70
+      - path: tests/formats/KAIROS-EN23/2/pages/merges/104-txt_blks.json
+        sha256: d28e64ef319a1d6e4ddabd033e41afad0f4337b56d9d164800e38424fcd8db4e
+      - path: tests/formats/KAIROS-EN23/2/pages/merges/filter_data.json
+        sha256: c558947c475bba077cb72b3c2984394dba9fb54f2b2f11bf8a5130de2939a36a
+      - path: tests/formats/MEDIOLANUM-EN23/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/MEDIOLANUM-EN23/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/MEDIOLANUM-EN23/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/MEDIOLANUM-EN23/out/funds.csv
+        sha256: e6a9973682538ed1c1be65de69a969ec82e1584bc3854a6c299687e33a9375dc
+      - path: tests/formats/MEDIOLANUM-EN23/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/MEDIOLANUM-EN23/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/MEDIOLANUM-EN23/out/investments_add_infos.yaml
+        sha256: ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356
+      - path: tests/formats/MEDIOLANUM-EN23/out/investments.csv
+        sha256: e6d04be2bea5e0164ce9e837586301a629c9a37c82e700797a1ca2b06d482faa
+      - path: tests/formats/MEDIOLANUM-EN23/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/MEDIOLANUM-EN23/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/MEDIOLANUM-EN23/pages/investments/18-pdf_blks.json
+        sha256: b2a9eaf730752937c3efdbc821eb5748f2c892efa5cbcdd7e76535d48984befc
+      - path: tests/formats/MEDIOLANUM-EN23/pages/investments/18-results.json
+        sha256: 76df84ec631476d570cc96dc28a44f06a63c1b8ee4883f2d8356581e7df2b318
+      - path: tests/formats/MEDIOLANUM-EN23/pages/investments/18-txt_blks.json
+        sha256: 95c05107d1fce7e2b726ae88ead3d891f1a3b54f493cd41058afda2367213138
+      - path: tests/formats/MEDIOLANUM-EN24/out/assets_managers.csv
+        sha256: f3c433de52cfec57bc8bfc288cc5fd57feac004786ebc1c7b63a7497ad4831c7
+      - path: tests/formats/MEDIOLANUM-EN24/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/MEDIOLANUM-EN24/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/MEDIOLANUM-EN24/out/funds.csv
+        sha256: a261ad7a4928048a73b67f9e788a8ae74ead870e472836f29fa320610f0acb77
+      - path: tests/formats/MEDIOLANUM-EN24/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/MEDIOLANUM-EN24/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/MEDIOLANUM-EN24/out/investments_add_infos.yaml
+        sha256: fbd58c2e97640e207c76ea538f3f544a0ec7c4afb8e4e438f449e802e35e58de
+      - path: tests/formats/MEDIOLANUM-EN24/out/investments.csv
+        sha256: 8bdad98b864f32c51b63508ffdc79f85863928ebc10df3ae8945d5bec2b01aec
+      - path: tests/formats/MEDIOLANUM-EN24/out/investments_managers_to_funds.csv
+        sha256: d31a951c7eb108276561ad55f4e311cebfa2a894be5f929567df3852f31ef8bf
+      - path: tests/formats/MEDIOLANUM-EN24/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/MEDIOLANUM-EN24/pages/investments/210-pdf_blks.json
+        sha256: 86f36f0378fee6011ef4a6b0c0362cdd3a6e0431f02ff092053e70f0a714f1a5
+      - path: tests/formats/MEDIOLANUM-EN24/pages/investments/210-results.json
+        sha256: a106d6d890aaf618a96cd7ba821766dd84bbfb2e757b9195512c3abe3a85bac8
+      - path: tests/formats/MEDIOLANUM-EN24/pages/investments/210-txt_blks.json
+        sha256: 753152088b1aff75f4cd7681cd7a6597ffdb7f44c3808e88b70bcacd35973746
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers/4-pdf_blks.json
+        sha256: d85eaa6050e1b18a14ad68afdc57f2d90547ebe8defdeb21060861da5c790356
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers/4-results.json
+        sha256: 03682887c99814405ad768e889a10c99ca0656e2e765ccfce1db2fe86dff9228
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers/4-txt_blks.json
+        sha256: b5a40f2125ddb109cb7efa9e6ed06f49bfc3ed69a9381204cac3dbfdfe84a577
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers_begin/3-pdf_blks.json
+        sha256: 40228ce0f90f863ee5d6758c0ad4fc3b0bff75eec493febfaae51cf6e56ee490
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers_begin/3-results.json
+        sha256: 5612a091da5fa1930733ede2f693a21f17f58242411377217a0d6ff0007264b5
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers_begin/3-txt_blks.json
+        sha256: 620a0108907e00649e9c3dc0c0590bf711f6470b31cb05869ebefed93fb0bb0b
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers_begin/filter_data.json
+        sha256: 3841f3727adfba12739907dd91c0d70dd6cc410ec0c8185e5f6abc5fbf125ebc
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers_end/5-pdf_blks.json
+        sha256: e59a133e32cc5ecd3805c9b731eaaa45b63efdae10d4cf5c1d932a60e7cb291b
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers_end/5-results.json
+        sha256: 76674464d53dba4634d4a63616c62df0139f73bb0d4de61a848ffd755a5176b0
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers_end/5-txt_blks.json
+        sha256: d14a14b1e2f8d9b5644845ce6a9305865194071ca8ed756841ff5993fff87342
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers_end/filter_data.json
+        sha256: cf65a3d9032ba7f0e48da3c8b2b89dc6eee8aa84e46b28256ebf7162d62b730f
+      - path: tests/formats/MEDIOLANUM-EN24/pages/inv_managers/filter_data.json
+        sha256: 6bf67b5659f8f24b08ed46256e6fdaa5777fb719ab0c35624bfef16842f2b691
+      - path: tests/formats/MEDIOLANUM-ES24.A/out/assets_managers.csv
+        sha256: 9a2a8a43bcd928d4e885c78d3b7e622b7a0b5ed9b78978d172184ea0e96b722c
+      - path: tests/formats/MEDIOLANUM-ES24.A/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/MEDIOLANUM-ES24.A/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/MEDIOLANUM-ES24.A/out/funds.csv
+        sha256: 99557db9abcf7519d3db03d5826f8e16f0d54677f52dc9d176c1bd1822f87099
+      - path: tests/formats/MEDIOLANUM-ES24.A/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/MEDIOLANUM-ES24.A/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/MEDIOLANUM-ES24.A/out/investments_add_infos.yaml
+        sha256: 78a8c69d872d4a81c7a3f3cf4d403b7fac55abfeef3e75b18d40f2863efe9619
+      - path: tests/formats/MEDIOLANUM-ES24.A/out/investments.csv
+        sha256: c555c31bd11c6b29779eb06075a10f27da03090f18ad3b52c6dc03befb3c3875
+      - path: tests/formats/MEDIOLANUM-ES24.A/out/investments_managers_to_funds.csv
+        sha256: b038df102cf25b5c549bc5c1310ce8e223731bf77d0b79889e6ead67ffa0eb76
+      - path: tests/formats/MEDIOLANUM-ES24.A/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/MEDIOLANUM-ES24.A/pages/investments/40-pdf_blks.json
+        sha256: 410edbe5ecb5f72418425ce1ca6ff2b02a54d4bd53a1bb20371fc46a45538623
+      - path: tests/formats/MEDIOLANUM-ES24.A/pages/investments/40-results.json
+        sha256: 47b0f22a156b5426fa0ccf3008148700155a9dff1e8e41c39cde0f9c8f223ec2
+      - path: tests/formats/MEDIOLANUM-ES24.A/pages/investments/40-txt_blks.json
+        sha256: d416b9edd522936fbab5e3acfcd56feee3f24e3366b2f512dab2686072f9e9d5
+      - path: tests/formats/MEDIOLANUM-ES24.A/pages/investments/41-pdf_blks.json
+        sha256: 21831c184c72fca3e9d8c06ebec7a1f499c9cf541a9e96f136eb08afee7f4a08
+      - path: tests/formats/MEDIOLANUM-ES24.A/pages/investments/41-results.json
+        sha256: 63ff8095cb38b43bbfdfd76dd2e72f3389f66a7f1f1e3b041e90e2da671ceb68
+      - path: tests/formats/MEDIOLANUM-ES24.A/pages/investments/41-txt_blks.json
+        sha256: 96099d995e6fb913c02eedd47a25bdcf074c7863c2ae4c5d663d9430ad68784c
+      - path: tests/formats/MEDIOLANUM-ES24.A/pages/manco/3-pdf_blks.json
+        sha256: 6900d7cc448e4361e501e455c087bedd7a8c27434f4475e3c322141b50491175
+      - path: tests/formats/MEDIOLANUM-ES24.A/pages/manco/3-results.json
+        sha256: 7280d988664f5cb51d6e238b059cdb9edd3beddb89b187a56114471ae7074be9
+      - path: tests/formats/MEDIOLANUM-ES24.A/pages/manco/3-txt_blks.json
+        sha256: 48bfd8bdc298c1fceb15e44190dff9addee7a412247c0de7db5862dc5cc0959f
+      - path: tests/formats/MEDIOLANUM-ES24.A/pages/manco/filter_data.json
+        sha256: 4f3c8b44df733c6eae89cdebaf3069a79242f52b4444725a8f65785a44d335da
+      - path: tests/formats/MEDIOLANUM-ES24.B/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/MEDIOLANUM-ES24.B/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/MEDIOLANUM-ES24.B/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/MEDIOLANUM-ES24.B/out/funds.csv
+        sha256: 0ed84e046dd93dce73bd534d2e46949eac3483457de73a481f17d213bef7affd
+      - path: tests/formats/MEDIOLANUM-ES24.B/out/investments_add_infos.yaml
+        sha256: 05f8fa4332926f938c457a14e5aadca1c1246b66b3c1844ad445c8bc98e18f98
+      - path: tests/formats/MEDIOLANUM-ES24.B/out/investments.csv
+        sha256: f67cae3fee282477ab4edb102fefbaaf2ba8462473c55783eb4cf019fc254ff5
+      - path: tests/formats/MEDIOLANUM-ES24.B/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/MEDIOLANUM-ES24.B/out/.log.csv
+        sha256: 1f883268f334bd1f068e189e5e94ceb068c19b7b8112e64e3e5abe52ccacf44b
+      - path: tests/formats/MEDIOLANUM-ES24.B/pages/investments/20-pdf_blks.json
+        sha256: 90130ca5d7c636b037ea1e526e80fccb5a7ac7caf4be70b15a08aaf2b43941ed
+      - path: tests/formats/MEDIOLANUM-ES24.B/pages/investments/20-results.json
+        sha256: 5c57285dff8730fa83f2d65b77f1fde49df400993dad7584de2bbbec5b5d1bc1
+      - path: tests/formats/MEDIOLANUM-ES24.B/pages/investments/20-txt_blks.json
+        sha256: 6dceb65d316bb2b0d4c812d9c0df9abf21624e561433957128118a2a40c94f5b
+      - path: tests/formats/MEDIOLANUM-IT24.A/out/assets_managers.csv
+        sha256: 68e442e8086dbce1e7b0ec08e7be448f6c450d8ddd5b71842f30f4f351986359
+      - path: tests/formats/MEDIOLANUM-IT24.A/out/funds_assets.csv
+        sha256: a63094a8d80cd2909d2befb2837ac18532e13f82b2d4a7eb9bbf1b561f42faa2
+      - path: tests/formats/MEDIOLANUM-IT24.A/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/MEDIOLANUM-IT24.A/out/funds.csv
+        sha256: 6e7a93daa83e67e526a499cd4f4afa8778a0ab1aa8232c38c6e0e81c81ab710a
+      - path: tests/formats/MEDIOLANUM-IT24.A/out/funds_esg_indicators.csv
+        sha256: 873c4625bc41e9bd41c62beb3e8cd67d6e801c81addf765795bcc5de9028ffe1
+      - path: tests/formats/MEDIOLANUM-IT24.A/out/funds_sfdr_classification.csv
+        sha256: 601434a12a62af8f897acdb5415de775cef4879bd082c976b5adb575f12f17dc
+      - path: tests/formats/MEDIOLANUM-IT24.A/out/investments_add_infos.yaml
+        sha256: 2e46b1ed6584538098f01c33a30110c47536e6dc04f27044518d0f80a99c1cf2
+      - path: tests/formats/MEDIOLANUM-IT24.A/out/investments.csv
+        sha256: 4c5edae08a51723fc92bcbaf7f04a83fef8e446783e337b29e4285269ee568a7
+      - path: tests/formats/MEDIOLANUM-IT24.A/out/investments_managers_to_funds.csv
+        sha256: b3a1c53cbac813a641f93c37c27122ebd49c80918c222a226286285f043000c4
+      - path: tests/formats/MEDIOLANUM-IT24.A/out/.log.csv
+        sha256: fc76f2c87c3aeff70609740788f8ef6072cd62da216b2c47eb2723bc1d059ef2
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/fund_assets/56-pdf_blks.json
+        sha256: 746234992c811f6f519331e0feab650a495a2fbc7bc0d3e9380f792e05a24ea2
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/fund_assets/56-results.json
+        sha256: 9f5c61752169d7d0a33fb7e63b4723eb5caf4d804cf0ef5cf1673637f64596ce
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/fund_assets/56-txt_blks.json
+        sha256: e08ca9fc27156dcfbf8070ced5dc6358a25f712a09a05e084392b37474530c3a
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/fund_assets/filter_data.json
+        sha256: cd92ab520b4799f11736011e4847b34c3c268ad529eb65f633ba48a734d2cb28
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/investments/439-pdf_blks.json
+        sha256: ebcddda5e5a5b91e2f64ef66309b8727cefbc755c7b81dbfe4148a1beee0f48a
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/investments/439-results.json
+        sha256: 15d358a1b7e6f57642e4e39503a819f6cb9e4878f0ceb5b40abcd25042733f87
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/investments/439-txt_blks.json
+        sha256: ab6754b0a84438e1c9d66db550db787194d194e96e4e99c85b6c2c82a3d830a8
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/investments/554-pdf_blks.json
+        sha256: 8ca6a2247a5e78d957aa4a6cafb66224f8e900d147cbaed248b635e594638f20
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/investments/554-results.json
+        sha256: bd92f457c7d90a3ad60bd23c3cb46a07a7f58877c4e2602bcb6c8d03652b40db
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/investments/554-txt_blks.json
+        sha256: 2664416c30634dea07a86066719fb97c8a9979ff6712e9e597e66040093465ed
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/investments/605-pdf_blks.json
+        sha256: 7bda43463d54750b92f2be24fdff01f79b9154820c0854682abe86ced78c35f7
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/investments/605-results.json
+        sha256: 49247c0ebdde15dbee3d890833badc307c567ea71090db1c7ed827a99994c2d0
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/investments/605-txt_blks.json
+        sha256: 232432a9c8c341ad554a65f2f0b68858440bb732bb9aa14413360cd94daf2cb4
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers/6-pdf_blks.json
+        sha256: 252b1f33fc24d8a19b4ab3f3d21170228ec8cbd16959245ca67732e87f8904a3
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers/6-results.json
+        sha256: 34aa2fef495efedd7575fbeb30935653031d9a97c99b9125e68b9192be067ab8
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers/6-txt_blks.json
+        sha256: a33552d301caae8b27008e3a92ce2a416a980a5780d1e82974cb2e4ec3dcb3b0
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers_begin/5-pdf_blks.json
+        sha256: ffb56fcf607825f2dec6ab8ac5538d1c9368e07849d106ee746599fb0aec625f
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers_begin/5-results.json
+        sha256: ef34dda40b4c9cfcd79895f50d07da28358c4276b0f82f98bb6f21f552bdf818
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers_begin/5-txt_blks.json
+        sha256: 55c2fa2abdb00e0f8d00528d3d0fa058a7e13a5f910f91ae48046dc1f8c94893
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers_begin/filter_data.json
+        sha256: 7b93ca84e4b5acbcc7d1e90fb4514e0de4052c2f68553d2943588419e7bc151e
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers_end/8-pdf_blks.json
+        sha256: 12944b54d00500df10e1fd2dedaf21b640d8286b40b5c5fe75ea3cf4cdb70751
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers_end/8-results.json
+        sha256: 62bbbb6d31f4a7045aba8cf25c130617c033a09fcc048e6dde568b29bfd09a9e
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers_end/8-txt_blks.json
+        sha256: edd39b63a480e63a22ff005a3d64f632cb38e0cb216cb21270f41dc86de907af
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers_end/filter_data.json
+        sha256: c6bb7b2f3dc4cbaec7c4482f8e36f88f030beb130a85c8322bdbdbe6cf3d6c9e
+      - path: tests/formats/MEDIOLANUM-IT24.A/pages/inv_managers/filter_data.json
+        sha256: 6744ba921ccc379695c0ad3f8c3a365bde924e2f5b3ad774031e9d6b0afb0b46
+      - path: tests/formats/MEDIOLANUM-IT24.B/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/MEDIOLANUM-IT24.B/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/MEDIOLANUM-IT24.B/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/MEDIOLANUM-IT24.B/out/funds.csv
+        sha256: c55a33bc4eebb5b6e68ee1e966d7c04041ffb04ed8cb1c7e22b1e57af65b269a
+      - path: tests/formats/MEDIOLANUM-IT24.B/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/MEDIOLANUM-IT24.B/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/MEDIOLANUM-IT24.B/out/investments_add_infos.yaml
+        sha256: 566552f6ce490c049d231258dc6e16d7e5a0f07a294797918c8a79c8cd3e9901
+      - path: tests/formats/MEDIOLANUM-IT24.B/out/investments.csv
+        sha256: 5c30b559555b3e48b178139494cbc5a968bdff6d8a51741d7358166ce04ed266
+      - path: tests/formats/MEDIOLANUM-IT24.B/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/MEDIOLANUM-IT24.B/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/MEDIOLANUM-IT24.B/pages/investments/56-pdf_blks.json
+        sha256: 540f9253af701ccbcfb718d668d0303ba82ba29e36bcf8c541dfad0c387dae2b
+      - path: tests/formats/MEDIOLANUM-IT24.B/pages/investments/56-results.json
+        sha256: a5342427bd4f9bc02654e172bd9e9a5aa8a9f92cd516e32f16ca453f726083e4
+      - path: tests/formats/MEDIOLANUM-IT24.B/pages/investments/56-txt_blks.json
+        sha256: 3a11e95ef12ca1cb07e43d7e1b6a4eb56a6ed44665ebad12ec48513d586573ee
+      - path: tests/formats/MEDIOLANUM-IT24.B/pages/investments/95-pdf_blks.json
+        sha256: c8fc53eacfb5d098416762218daf683c290478f587261762bd99349175884796
+      - path: tests/formats/MEDIOLANUM-IT24.B/pages/investments/95-results.json
+        sha256: dce92811a7c3aa21f721583b0fce85ebc21772db8616680a270ef9ad949190ce
+      - path: tests/formats/MEDIOLANUM-IT24.B/pages/investments/95-txt_blks.json
+        sha256: 440bf2c7021c2cd2b58c466fa53c5943c2868511c716c2929762f96fb7791854
+      - path: tests/formats/MEDIOLANUM-IT24.C/out/assets_managers.csv
+        sha256: 11534aed34369005237f7b164be70bcc918249a07c3eb8d722a4d3217ee6cc23
+      - path: tests/formats/MEDIOLANUM-IT24.C/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/MEDIOLANUM-IT24.C/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/MEDIOLANUM-IT24.C/out/funds.csv
+        sha256: 1cdc9dca63e940404dbaf9b97a1f15876df8250868ae19e6287ae22a2035f21f
+      - path: tests/formats/MEDIOLANUM-IT24.C/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/MEDIOLANUM-IT24.C/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/MEDIOLANUM-IT24.C/out/investments_add_infos.yaml
+        sha256: 3df098238cdfb7a54c50097faafc4e6cc8070a681a2a5bfbaa03e6f7b87cbb96
+      - path: tests/formats/MEDIOLANUM-IT24.C/out/investments.csv
+        sha256: fcb6224ab67bb0049c0cacbb3b79c3db323cdd40a3cc7d088df520ac9c9d8b13
+      - path: tests/formats/MEDIOLANUM-IT24.C/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/MEDIOLANUM-IT24.C/out/.log.csv
+        sha256: 87d69b6495059c685b4092f35047a062e86fb5bd4c8142a14a4b817a434e3c0d
+      - path: tests/formats/MEDIOLANUM-IT24.C/pages/investments/492-pdf_blks.json
+        sha256: 96dfc4ceac0b1f5a594218e088104a54a775042458bb0e3361fdea6b9117a8a4
+      - path: tests/formats/MEDIOLANUM-IT24.C/pages/investments/492-results.json
+        sha256: 9c6c2bcd638094ec7c30d1580475539259174584e5ebee15dd2b71ebec9cfa99
+      - path: tests/formats/MEDIOLANUM-IT24.C/pages/investments/492-txt_blks.json
+        sha256: 6e3dc615bdadc5767fa51a4021c7a8c4deeeb2e2e3744fb6c6d293c77901ee26
+      - path: tests/formats/UBS-EN23/out/assets_managers.csv
+        sha256: f4dd29b522cd418d60ff9d52b7831399031406feddebb3c9f5fae413bdfef89d
+      - path: tests/formats/UBS-EN23/out/funds_assets.csv
+        sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
+      - path: tests/formats/UBS-EN23/out/funds_change_name.csv
+        sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
+      - path: tests/formats/UBS-EN23/out/funds.csv
+        sha256: 408fde953835dd42422e33c84167402392f67c1bfe878d72bcda4a919cabe46c
+      - path: tests/formats/UBS-EN23/out/funds_esg_indicators.csv
+        sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
+      - path: tests/formats/UBS-EN23/out/funds_sfdr_classification.csv
+        sha256: 595917539cd96498dfd83e65aa660bb0743ad80165c0337afe889b5677846d51
+      - path: tests/formats/UBS-EN23/out/investments_add_infos.yaml
+        sha256: bab00cdead3becc03a5acc9adc1330a7cf0376165bf26b1bffcf2b287b0dd84f
+      - path: tests/formats/UBS-EN23/out/investments.csv
+        sha256: 9ffc762f64ad388618c01b2d8bab698931058892b69b15c178149470366faa66
+      - path: tests/formats/UBS-EN23/out/investments_managers_to_funds.csv
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
+      - path: tests/formats/UBS-EN23/out/.log.csv
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
+      - path: tests/formats/UBS-EN23/pages/investments/43-pdf_blks.json
+        sha256: 35e417255fcbb5b556bd3f1bbfc30ca968ada124623ac5eff48c8f5a68cef296
+      - path: tests/formats/UBS-EN23/pages/investments/43-results.json
+        sha256: 9003fb2e39ca3562efabcaea3f0210d231e7bf54cce4877c5dc6eebc399abf88
+      - path: tests/formats/UBS-EN23/pages/investments/43-txt_blks.json
+        sha256: c5f73eb3dff0c1a2e1378084c7752e75099d71361ef853580f96fc241da6395e
+      - path: tests/formats/UBS-EN23/pages/manco/4-pdf_blks.json
+        sha256: b6c64c113f52499a2ed66610111e0406ef30aa1d205bb0eac970143585d7fe75
+      - path: tests/formats/UBS-EN23/pages/manco/4-results.json
+        sha256: f0e8a78ccc20e2060865d1028fe12ca9db2f3c6aa2a956c323582ac1791b34a0
+      - path: tests/formats/UBS-EN23/pages/manco/4-txt_blks.json
+        sha256: 4780fb892554024f05b407628b5e3d8f1cb26cf102665c4d497891700ba5f9b7
+      - path: tests/formats/UBS-EN23/pages/manco/filter_data.json
+        sha256: 4f3c8b44df733c6eae89cdebaf3069a79242f52b4444725a8f65785a44d335da
 sign: |-
   -----BEGIN PGP SIGNATURE-----
 
-  iQGzBAABCgAdFiEECeUG3YZaZKNkufVWEP9oNtnjUgkFAmqe7tIACgkQEP9oNtnj
-  Ugk+3AwA2P8/cjSKRpPbjw1+LbR9kT3+3VTIXpC+JEh/fDN9Rd+ucyqe1SpP1ANy
-  XVQMIdKCNmGIeqtShnm+OQty8vWYp8O2hBkLo3EP00BOfkHPMe/wA1/fUHfnW7hs
-  olctWCKcWR5Vb70PuN4VPxjjsH33F5DR0UkKq+r9rkSkAyHupOw3KuAlyWg/6/hR
-  YNxXYl00ZdHbyDDOdGFhZETixUyMe0NfkUt8fue4NUo9w8WJtdqXdw3rTnxd7GZD
-  Y5EwSwtL11xgvgmkpLjgZ5KhlzOkvIMlbE9BnV90ga0ujMUu8TED8ib8fhg9NuKJ
-  xTrFI8/RsonrA+d0k9cgiZKsjcE3F9j3d191q8UqcuW5xDjrZSrKy8XG+rw//X3i
-  CMu0QB/1xo8Szwd6D01GPGQJFiQNYHE+FeLmmatPpcgDpRNCWBq1FqU5egI4euCr
-  jb0k06ylFs5LowlqYN401vi9R9Ieqci98FsLn0gkKaLWprUj41zb6jb3gl6FUczY
-  pKnUEMo8
-  =7nMj
+  iQGzBAABCgAdFiEECeUG3YZaZKNkufVWEP9oNtnjUgkFAmqfJu8ACgkQEP9oNtnj
+  Ugm9mQwAyPF9k2TgwdUIPPilJ++OM8fspbJuPQvdFOI/92JH46dJvQO1G48E0gGO
+  4exynffFO+Dxrmw2vGUfEOgIasdY6d0eqGZMreOgWacw26SFvzU+1brC6YuRIn0u
+  c1p78TKF4ANUrllVKtIq2ddm7AvAo4dHwd5DQrpQRgsxOlUiAc5NealTtbOO0eF/
+  z0DuuKYopfyyQc/mrSkA9wx7Uwuv7BOK9I92n7l08ubHxBMS/TC2VwMjEtbbruA6
+  WEROIo/2Vsu9qyTvAnDfLDN8c9yk/Rt2unn7x3VzP2jQ6phi/lf37eklVdY+3x05
+  XVvLpsgDrCyjZ9XdM/j5YAa/Gokfz3l2LSdSy22rkur0BMi+BHylY2gYChMz7sFG
+  KzlnupVho2+GcGcyHeYo4pdjJlfwKG5Znxipl5zt/o42gA7Zyox8mRXCIrHKRckB
+  31W9XFC2W/oomCoBG9PqFq2u252+Kq7F0WqXI/3/nA48OO3F1yEVV1rFmPqjEbAe
+  Y2Rm7At7
+  =7IOE
   -----END PGP SIGNATURE-----
