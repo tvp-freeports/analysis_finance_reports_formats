@@ -1,121 +1,85 @@
 #!/bin/sh
 #
-# An example hook script to verify what is about to be committed.
-# Called by "git commit" with no arguments.  The hook should
-# exit with non-zero status after issuing an appropriate message if
-# it wants to stop the commit.
+# Pre-commit hook for a freeports **format repository**. Active because `core.hooksPath` points at
+# `.githooks/`, which `make githooks` sets up.
 #
-# To enable this hook, rename this file to "pre-commit".
-# if [ "$(basename $VIRTUAL_ENV)" != "freeports-dev" ] ; then
-# 	echo "You have to activate \`freeports-dev\` virtual env to commit" 1>&2
-# 	echo "In order to do so, execute \`source venv/freeports-dev/bin/activate\`" 1>&2
-# 	exit 1
-# fi
+# Four gates, cheapest first:
+#   1. the `freeports-dev` environment must be active (the tests open PDFs through PyMuPDF);
+#   2. the branch's class — on an `off` branch this hook does nothing at all;
+#   3. no non-ASCII filenames may be added;
+#   4. `make pre-commit` — an alias of `make ci-fast`: the linter, the per-page suite, the fast
+#      measurements, the report, the fingerprint rule and `ci-check`, which is the step that
+#      decides. Its verdict is carried past the staging below and acted on at the very bottom,
+#      where the branch class decides whether it refuses or is merely reported.
+#
+# **The last gate is a name, not a list.** What the commit gate consists of is decided in the
+# `Makefile` at the root of this repository, so it can grow without this file ever being touched
+# again. This hook used to run a dozen commands of its own — the two suites, three measurements, the
+# nine renderings of the grant report, the five of the CI report, the fingerprint check and the
+# verdict — and every one of them was a second copy of something a person also had to be able to run
+# by hand. There is now one copy, in the Makefile, and `make ci-fast` is exactly what this runs.
+#
+# **Which gate, and it depends on the branch.**
+#
+# On `dev` — the default — `make pre-commit` is `ci-fast`: seconds, no network, no whole-document
+# extraction. What it leaves unmeasured it says it has left unmeasured, and the commit stands.
+#
+# On `prod` it is `make ci-full`: both suites entire, and the grants re-resolved over the network.
+# Minutes. That is not a punishment, it is the other half of the same bargain — the fast gate is
+# affordable *because* the slow one is what a production commit has to clear, and running it here
+# leaves `ci-check` with nothing to call stale. A commit to `main` is a deliberate act made a few
+# times a week; taking the time then is the point of it.
+#
+# **Nothing left out is left silent.** Each suite records its outcome *and the commit it ran at*,
+# each slow metric records the commit it was measured at, and `ci-check` — which costs a fifth of a
+# second — prints a suite nobody ran here as `NOT RUN` and a figure from an earlier commit as
+# `STALE`. Neither reads as a pass.
+#
+# **What refuses, and on which branch.** `ci.yaml` at the root puts every branch in one of three
+# classes. On `prod` a missed threshold, a failing suite, a figure nobody could measure, or a
+# `validation_sha256` that moved without `info.version` moving refuses the commit. On `dev` all of
+# that is measured and reported and nothing is refused — the Makefile's gates run the suites and the
+# grant checks in a mode that records rather than raises, precisely so that this decision is
+# `ci-check`'s alone. On `off` this hook returns immediately. `freeports-dev branch-class` prints the
+# class you are on and the rule that put you there; run it first when this hook does something you
+# did not expect.
+#
+# Note that everything below sees the *working tree*, not the staged snapshot: a commit of a subset
+# of your changes is checked against everything you have on disk.
 
 if [ "$(basename "${VIRTUAL_ENV:-}")" != "freeports-dev" ] && [ "${CONDA_DEFAULT_ENV:-}" != "freeports-dev" ]; then
     echo "You have to activate \`freeports-dev\` environment to commit" 1>&2
     echo "In order to do so, execute one of the following:" 1>&2
     echo "  - venv  →  source venv/freeports-dev/bin/activate" 1>&2
+    echo "            (Windows: source venv/freeports-dev/Scripts/activate)" 1>&2
     echo "  - conda →  conda activate freeports-dev" 1>&2
     exit 1
 fi
 
-# (
-# 	cd docs
-# 	make html
-# )
-
-
 # The repository being committed, named outright rather than inherited.
 #
-# Everything below acts on *this* working tree, and git already knows which one it is. Left to
-# resolve it themselves, `freeports-dev` and `freeports-validate` would each consult their own
-# tiers -- `--repo`, then `FREEPORTS_FORMATS_REPO_PATH`, then `formats_repo` in whatever
-# configuration file is found from here -- and any of those can name a different repository than the
-# one you are committing to. A relative value carried in from another directory is the usual way it
-# happens, and it fails confusingly: the path comes out doubled, and the hook says the repository is
-# not a repository. A hook has no business asking where it is.
+# Everything below acts on *this* working tree, and git already knows which one it is. `make` is run
+# with `-C` for the same reason the Makefile passes `--repo` to every command it calls: a
+# `formats_repo:` line in whatever configuration file is found from here, or a relative
+# `FREEPORTS_FORMATS_REPO_PATH` carried in from another directory, both name a different repository
+# than the one being committed. A hook has no business asking where it is.
 repo_root=$(git rev-parse --show-toplevel) || exit 1
 
-freeports-dev test --repo "$repo_root" -- -m "not integration_tests"
-
-
-# Keep the validation report current, and never refuse a commit over it.
+# An `off` branch — `experimental`, `wip/*`, `spike/*` — and this hook has nothing to say.
 #
-# The badges, the block in README.md and the six pages under validation/report/ are all functions
-# of this repository's validation documents, so a commit that changes a granted file and leaves
-# them alone publishes figures that are already wrong. Regenerating them here, and `git add`ing
-# what was rewritten, puts the refresh in the same commit as the change that caused it.
-#
-# Nothing below can fail the hook, on purpose. The figures depend on resolving each methodology
-# page from wherever this machine is configured to fetch it, and a committer on a train, behind a
-# proxy, or working in a repository whose documentation server is down still has to be able to
-# commit. A report one run out of date is a smaller problem than a commit that cannot be made.
-if command -v freeports-validate >/dev/null 2>&1; then
-    report_model=$(mktemp "${TMPDIR:-/tmp}/freeports-report.XXXXXX" 2>/dev/null) || report_model=""
-
-    if [ -n "$report_model" ] &&
-        freeports-validate --repo "$repo_root" collect > "$report_model" 2>/dev/null; then
-        # One walk of the repository, rendered nine times. Collecting once per artefact would
-        # re-resolve every methodology page nine times for an answer that cannot have changed in
-        # between.
-        refresh() {
-            freeports-validate --repo "$repo_root" report \
-                --model "$report_model" "$@" >/dev/null 2>&1
-        }
-
-        # Only what was actually rewritten is staged. A page somebody deleted, or one whose marker
-        # pair they removed, is left alone rather than recreated behind their back.
-        refreshed=""
-        if refresh --format badges --out "$repo_root/validation/report/badges/"; then
-            refreshed="$refreshed validation/report/badges"
-        fi
-        if [ -f "$repo_root/README.md" ] && refresh --format markdown --out "$repo_root/README.md"; then
-            refreshed="$refreshed README.md"
-        fi
-        for table in file-contributor file-methodology contributor-methodology \
-                     contributor-file methodology-file methodology-contributor; do
-            page="validation/report/$table.md"
-            [ -f "$repo_root/$page" ] || continue
-            if refresh --format markdown --table "$table" --out "$repo_root/$page"; then
-                refreshed="$refreshed $page"
-            fi
-        done
-
-        # Unquoted on purpose: the names are the fixed ones just above, none of which contains a
-        # space, and this is the one place the list has to be split back into arguments.
-        if [ -n "$refreshed" ]; then
-            # Staged by path relative to the top level, which is what `git add --` wants and what
-            # `refreshed` holds -- the absolute forms above are only for `--out`.
-            git -C "$repo_root" add -- $refreshed
-            echo "freeports-validate: report refreshed"
-        fi
-    else
-        echo "freeports-validate: the grants could not be read, so the report is unchanged" 1>&2
+# Before everything that costs anything, and after the environment check only because the class is
+# read by `freeports-dev`, which needs the environment to be there at all. A branch nobody classified
+# is `dev`, never `off`: the quiet answer is never the default one.
+branch_class=dev
+if command -v freeports-dev >/dev/null 2>&1; then
+    branch_class=$(freeports-dev branch-class --repo "$repo_root" --format json 2>/dev/null \
+        | sed -n 's/.*"class": *"\([a-z]*\)".*/\1/p')
+    branch_class=${branch_class:-dev}
+    if [ "$branch_class" = "off" ]; then
+        echo "$(git rev-parse --abbrev-ref HEAD) is an 'off' branch in ci.yaml: nothing is checked."
+        exit 0
     fi
-
-    # The integrity check itself, and it warns rather than refuses.
-    #
-    # Everything above is a *rendering* of what `validation/` claims; this is the check of whether
-    # those claims still hold -- signatures verify, hashes still match the files, methodology pages
-    # still say what they said. It is loud when it has something to say, and it never stops the
-    # commit: a granted output regenerated by `make-tests` is a normal step of writing a format, and
-    # a contributor who does not hold the key that granted a file could not clear the gate at all.
-    # What it can do is make sure nobody re-grants by accident, or pushes a broken claim unaware.
-    #
-    # A page that could not be fetched also comes back non-zero, and deliberately so: a grant
-    # nobody could verify is one this run does not vouch for. `check-grants` distinguishes that
-    # from a real failure in its own output and in its exit status.
-    if ! freeports-validate --repo "$repo_root" check-grants; then
-        echo "" 1>&2
-        echo "freeports-validate: the grants above are not all vouched for by this run." 1>&2
-        echo "The commit is not being refused. Re-grant with \`freeports-validate grant\`, or" 1>&2
-        echo "restate a changed one with \`freeports-validate update\`, once you know which it is." 1>&2
-    fi
-
-    rm -f "$report_model"
 fi
-
 
 if git rev-parse --verify HEAD >/dev/null 2>&1
 then
@@ -128,20 +92,14 @@ fi
 # If you want to allow non-ASCII filenames set this variable to true.
 allownonascii=$(git config --type=bool hooks.allownonascii)
 
-# Redirect output to stderr.
-exec 1>&2
-
-# Cross platform projects tend to avoid non-ASCII filenames; prevent
-# them from being added to the repository. We exploit the fact that the
-# printable range starts at the space character and ends with tilde.
+# Cross platform projects tend to avoid non-ASCII filenames; prevent them from being added to the
+# repository. We exploit the fact that the printable range starts at the space character and ends
+# with tilde.
 if [ "$allownonascii" != "true" ] &&
-	# Note that the use of brackets around a tr range is ok here, (it's
-	# even required, for portability to Solaris 10's /usr/bin/tr), since
-	# the square bracket bytes happen to fall in the designated range.
 	test $(git diff-index --cached --name-only --diff-filter=A -z $against |
 	  LC_ALL=C tr -d '[ -~]\0' | wc -c) != 0
 then
-	cat <<\EOF
+	cat <<\MSG 1>&2
 Error: Attempt to add a non-ASCII file name.
 
 This can cause problems if you want to work with people on other platforms.
@@ -151,9 +109,96 @@ To be portable it is advisable to rename the file.
 If you know what you are doing you can disable this check using:
 
   git config hooks.allownonascii true
-EOF
+MSG
 	exit 1
 fi
 
-# If there are whitespace errors, print the offending file names and fail.
-#exec git diff-index --check --cached $against --
+# The gate itself.
+#
+# `-j`, because the gates say with `.WAIT` which of their steps may overlap and which may not: the
+# measurements are independent, the report may only be rendered once they have landed, the
+# fingerprint rule only once the report is written, and the verdict only after that. `-Otarget` is
+# set in the Makefile, so each recipe's output still arrives in one piece rather than interleaved.
+#
+# `-k` — keep going — because a hook must say **everything** that is wrong with the commit, not the
+# first thing. Two steps of the gate can refuse, the fingerprint rule and the verdict; without `-k`
+# a manifest whose version did not move would hide the verdict table behind it, and the next commit
+# would discover the second refusal after fixing the first. With it both run, the table is the last
+# thing printed, and make still exits non-zero. Typed by hand, `make ci-fast` stops at the first
+# refusal instead — which is what a person running one command wants.
+#
+# The exit status is carried across the staging below in `gate_status` rather than short-circuiting
+# on it: a refused commit still leaves a correct report on disk, and the message that explains the
+# refusal belongs at the bottom, where a reader looks for it.
+if [ "$branch_class" = "prod" ]; then
+    echo "$(git rev-parse --abbrev-ref HEAD) is a 'prod' branch: running the full gate."
+    echo "This measures everything at this commit — both suites and the grants — and takes minutes."
+    make -C "$repo_root" -k -j ci-full || gate_status=1
+else
+    make -C "$repo_root" -k -j pre-commit || gate_status=1
+fi
+
+# Stage what the run rewrote, and never refuse a commit over it.
+#
+# The badges, the blocks in `README.md`, the pages under `ci/report/` and `validation/report/` and
+# the manifest's fingerprint are all functions of what the gate above just measured — so a commit
+# that moves a figure and leaves them alone publishes numbers that are already wrong.
+#
+# **This is why the staging comes after the gate and not before it.** `ci-fast` *is* what measures
+# this commit; anything staged before it describes the previous one and would be rewritten a second
+# later — landing in the working tree instead of in the commit, so that every commit left the branch
+# dirty and the next `git status` showed the same files modified again. That was the first
+# arrangement here and it was wrong.
+#
+# A gate that stopped early rewrote nothing, and then `git add` stages files identical to what is
+# already committed, which is a no-op and leaves the branch clean.
+refreshed="README.md package.yaml ci/report/badges ci/report/index.html"
+for page in thresholds breakdown; do
+    refreshed="$refreshed ci/report/$page.md"
+done
+
+# The grant report's artefacts as well, and **only on a prod branch**, because that is the only
+# branch on which anything rewrote them: `ci-full` runs `make validation`, `ci-fast` does not.
+# Staging them unconditionally would be harmless the day nothing changed and wrong the day something
+# did; listing them only where they were regenerated keeps the rule simple — what a run rewrote,
+# that run stages.
+if [ "$branch_class" = "prod" ]; then
+    refreshed="$refreshed validation/report/badges"
+    for page in file-contributor file-methodology contributor-methodology \
+                contributor-file methodology-file methodology-contributor; do
+        refreshed="$refreshed validation/report/$page.md"
+    done
+fi
+
+# Unquoted on purpose: the names are the fixed ones just above, none of which contains a space, and
+# this is the one place the list has to be split back into arguments.
+git -C "$repo_root" add -- $refreshed 2>/dev/null \
+    && echo "freeports-dev: the reports were staged" \
+    || echo "freeports-dev: the reports could not be staged" 1>&2
+
+# The verdict, and the only thing in this file that refuses.
+#
+# **The branch class decides.** The two steps of the gate that are *meant* to refuse — `ci-check`
+# and the fingerprint rule — already know which branch this is and act accordingly, so on a `dev`
+# branch a failing `make` means something else went wrong: a tool that is not installed, a
+# measurement that crashed, a target that could not read what it needed. That is worth saying
+# loudly and it is not worth refusing a commit over, for exactly the reason the suites are recorded
+# rather than announced — a `dev` branch measures and reports, and `prod` is where nothing may be
+# unknown.
+#
+# So the refusal is conditional on the class, and the class alone. Nothing in this file decides
+# anything else.
+if [ -n "${gate_status:-}" ]; then
+	if [ "$branch_class" = "prod" ]; then
+		echo 1>&2
+		echo "Commit gate failed — commit refused. Run \`make ci-full\` to see it again, or" 1>&2
+		echo "\`make ci-check\` for just the verdict table. \`make branch-class\` says why this" 1>&2
+		echo "branch enforces rather than reports. Commit with --no-verify if you know better." 1>&2
+		exit 1
+	fi
+	echo 1>&2
+	echo "Commit gate failed, and the commit stands: $(git rev-parse --abbrev-ref HEAD) is a" 1>&2
+	echo "'$branch_class' branch, where this is measured and reported rather than enforced. The" 1>&2
+	echo "outcome is recorded with this commit — \`make ci-check\` shows it, and \`make ci-full\`" 1>&2
+	echo "is what a prod branch will hold it to. \`make branch-class\` says why." 1>&2
+fi

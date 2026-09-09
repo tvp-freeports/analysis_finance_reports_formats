@@ -1,0 +1,40 @@
+# How this repository is gated. The same file, the same name and the same syntax in every
+# freeports repository, so that the roles of the branches read the same everywhere.
+#
+# `package.yaml` says what this repository *is* — its description, its version, and the fingerprint
+# of everything a methodology grant covers. This file says how it is *gated*.
+#
+# Every setting is also reachable from the environment and the command line, per setting:
+#   thresholds     --min tests.formats.integration=86   FREEPORTS_CI_MIN_TESTS_FORMATS_INTEGRATION
+#   branch class   --branch-class prod                  FREEPORTS_CI_BRANCH_CLASS
+#   key server     --keyserver URL                      FREEPORTS_VALIDATE_KEYSERVER
+#
+# `freeports-dev branch-class` prints the class of the branch you are on and the rule that
+# produced it. It is the first thing to run when a commit hook does something unexpected.
+
+branches:
+  # A missed threshold, a failing suite or a figure nobody could measure refuses the commit, and a
+  # moved `validation_sha256` with no version bump refuses it too.
+  prod: [main, master, "release/*"]
+  # Everything is measured and reported; nothing refuses the commit. Format work happens here.
+  dev: [dev]
+  # The hook does nothing at all.
+  off: [experimental, "wip/*", "spike/*"]
+  # Anything unlisted. `dev` unless said otherwise: a branch nobody classified is not production.
+  default: dev
+
+keyserver: https://keys.openpgp.org
+
+# Seeded at the figures measured on 2026-09-08, never at an aspiration. A metric named nowhere here
+# is reported and gates nothing — which is what the metrics whose measurement is not built yet are.
+#
+# `content/` has never been linted: 97 ruff violations, 75 of them auto-fixable. The threshold
+# starts where the code actually is, so that today's commits pass and tomorrow's cannot make it
+# worse. Fixing those 97 is its own deliberate commit — mixing it in here would hide it.
+thresholds:
+  tests.formats.integration: 86                   # measured 86.1 % (31/36 documents)
+  tests.formats.single_page: 100                  # measured 100 % (36/36 documents)
+  docs.python: 18                                 # measured 18.60 % (24/129 public objects)
+  lint.python: 9.6                                # measured 9.667 (97 ruff violations / 2909 lines)
+  grants.coverage: 100                            # measured 100 % (571/571)
+  grants.keys_online: 100                         # measured 100 % (1/1) — key published 2026-09-09

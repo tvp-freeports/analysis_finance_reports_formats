@@ -1,7 +1,7 @@
 schema: v0.0.0
 info:
   description: "Italy - 5 top groups"
-  version: v0.0.0
-  validation_sha256: 4dfe67c2ea5bd43e9d7d56ee14fcf416f545d9817f7425b13c535d10a61fbf7e
+  version: v0.0.1
+  validation_sha256: 2c89dc0c6d59f8d81e1b2bce38047121b93b68f6b7b892871f590b50ca9299ae
 
 
