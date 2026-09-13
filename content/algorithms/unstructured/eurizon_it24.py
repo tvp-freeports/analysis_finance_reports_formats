@@ -99,7 +99,15 @@ regex_change_name = re.compile(
     r'Il fondo "(.+)" \(già denominato (.+)\) è stato istituito'
 )
 regex_rename = re.compile(r'"(.+)" fino al ([0-9]+ [a-z]+ [0-9]+)')
-regex_split_merges = re.compile("[iI]n data ")
+# Every incorporation in the paragraph, read one by one instead of splitting the paragraph on
+# "in data": the same sentence also introduces them with "il <date>", with "e in data <date>" and
+# with "; il <date>", and a split that misses one of those forms hands two incorporations to a
+# single date.  The fund names come quoted, one for "il fondo" and a list for "i fondi", whose
+# items are separated by a comma, by "e" or by "ed" -- often all three in the same list.
+regex_merge = re.compile(
+    r'([0-9]+ [a-zàèéìòù]+ [0-9]+) ha incorporato il? [Ff]ond[oi] '
+    r'("[^"]*"(?:(?:,| ed?) "[^"]*")*)'
+)
 
 
 def text_filter_change_name(pdf_blks, filter_data):
@@ -109,7 +117,10 @@ def text_filter_change_name(pdf_blks, filter_data):
             filter(lambda x: isinstance(x, Fund), filter_data),
         )
     )
-    text = pdf_blks[0].content
+    # The line breaks of the PDF reach the block as runs of spaces, and the day of a date is
+    # written both "1" and "1°": both are noise for the patterns below, and normalising them here
+    # once keeps every pattern free of the alternatives.
+    text = re.sub(r"\s+", " ", pdf_blks[0].content.replace("°", "")).strip()
     m = regex_change_name.match(text)
     if not m:
         return []
@@ -117,29 +128,28 @@ def text_filter_change_name(pdf_blks, filter_data):
     if current_name not in funds:
         return []
 
-    rename = m.group(2).replace(" ed", ",").split(", ")[-1]
-    m = regex_rename.match(rename)
-    old_name_rename = m.group(1)
-    date_rename = m.group(2)
+    rename = regex_rename.match(
+        m.group(2).replace(" ed", ",").split(", ")[-1].strip()
+    )
     merges_text = text.partition("Il Fondo è operativo a partire dal")[2]
-    merges = regex_split_merges.split(merges_text)[1:]
 
+    # A renaming written in some other shape costs the renaming alone.  The incorporations below
+    # are independent facts that happen to share the paragraph, and dropping them along with it
+    # would lose more than it protects.
     res = [
         TextBlock(
             TypeChangeName.RENAMING.name,
             {
-                "old_name": old_name_rename,
+                "old_name": rename.group(1),
                 "current_name": current_name.name,
-                "date": date_rename,
+                "date": rename.group(2),
             },
             pdf_blks[0],
         )
-    ]
-    for mrg in merges:
-        mrg = mrg.replace("°", "")
-        m = re.match("([0-9]+ .+ [0-9]+) ha incorporato il? fond[oi] (.+)", mrg)
-        date_merge = m.group(1)
-        tmp = m.group(2).split('"')
+    ] if rename else []
+    for mrg in regex_merge.finditer(merges_text):
+        date_merge = mrg.group(1)
+        tmp = mrg.group(2).split('"')
         for i in range(1, len(tmp), 2):
             res.append(
                 TextBlock(
@@ -231,8 +241,19 @@ def sfdr_deserialize_2(txt_blk):
     return {"sfdr-article": txt_blk.metadata["article"]}
 
 
+# The heading the sustainability-indicator table hangs from.  The pipe runs on two page classes now
+# -- the second page of the SFDR annex carries the table whenever the annex is short enough -- so it
+# checks the heading itself instead of trusting the class: without it `area_from_bounds` falls back
+# to the whole page and builds a table out of the article's prose.
+esg_indicators_title = PdfLineSelection.text(
+    "stata la prestazione degli indicatori di sostenibi"
+)
+
+
 def esg_indicators_pdf_extract(page):
     lines = pdflines_from_pagedict(page)
+    if len(esg_indicators_title.select(lines)) == 0:
+        return []
     table_lines = (
         PdfLineSelection.area_from_bounds(
             0.0,
@@ -246,12 +267,15 @@ def esg_indicators_pdf_extract(page):
             | PdfLineSelection.area(0.0, 780, 1e6, 1e6)
         )
     ).select(lines)
+    if len(table_lines) == 0:
+        return []
     rows, cols = zip(
         *get_table_coordinates(
             table_lines,
             algorithm_flags=TablePosAlgorithm.USE_RULER_AREA
             | TablePosAlgorithm.BIG_CELL_RULE,
-            tolerance=0.0,
+            col_tolerance=0.0,
+            row_tolerance=0.0,
             collapse=True,
         )
     )

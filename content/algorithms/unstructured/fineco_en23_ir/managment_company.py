@@ -17,11 +17,25 @@ class BlockType(Enum):
     INV_MAN = auto()
 
 
+# "Directors and Other Information" is a column of bold section headings down the left margin, with
+# each section's text beside it.  The management company is the one headed "Manager", and it runs
+# down to whatever heading comes next: "Investment Manager & Investment Advisor" in the FAM Series
+# reports, but "Distributor" in the FAM Evolution ones, which name no investment manager at all.
+# So the end of the section is read from the layout rather than from a heading known in advance.
+section_headings = PdfLineSelection(font="timesnewromanbold", area=(0.0, 0.0, 200.0, 1e6))
+manager_heading = PdfLineSelection(font="timesnewromanbold", text="^Manager")
+
+
 def pdf_filter(page):
     lines = pdflines_from_pagedict(page)
-    b=PdfLineSelection(font="timesnewromanbold",text="Investment Manager").select(lines)[0].bbox[1]
-    t=PdfLineSelection(font="timesnewromanbold",text="^Manager").select(lines)[0].bbox[1]-10.0
-    std_pdf_filter = PdfExtractManagmentCompanyStandard(PdfLineSelection(font="timesnewroman",area=(0.0,t,1e6,b)))
+    manager = manager_heading.select(lines)
+    if not manager:
+        return []
+    t = min(line.bbox[1] for line in manager)
+    below = [line.bbox[1] for line in section_headings.select(lines) if line.bbox[1] > t]
+    if not below:
+        return []
+    std_pdf_filter = PdfExtractManagmentCompanyStandard(PdfLineSelection(font="timesnewroman",area=(0.0,t-10.0,1e6,min(below))))
     return std_pdf_filter(page)
 
 

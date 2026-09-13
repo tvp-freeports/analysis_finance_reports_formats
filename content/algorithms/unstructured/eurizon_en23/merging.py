@@ -80,11 +80,14 @@ def pdf_extract(page):
         
         table=PdfLineSelection(font="frutiger-light",area=(0.0,top,1e6,btm)).select(lines)
         _,cols=zip(*get_table_coordinates(table))
+        # Blank lines carry no name.  They are the indentation of the bullet lists that a
+        # subsequent-events page carries when it has no merger table at all, and taken as names
+        # they make an empty page look like a table of three old names against one new one.
         old_names=[
-            l for l,c in zip(table,cols) if c==0
+            l for l,c in zip(table,cols) if c==0 and l.text.strip()
         ]
         new_names=[
-            l for l,c in zip(table,cols) if c==4
+            l for l,c in zip(table,cols) if c==4 and l.text.strip()
         ]
         if i==-1 and len(new_names)==0:
             return []

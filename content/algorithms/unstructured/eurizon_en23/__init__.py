@@ -10,6 +10,7 @@ from freeports.standard_funcs.text_filter import TextFilterSfdrArticleStandard
 from freeports.standard_funcs.deserialize import DeserializeSfdrArticleStandard
 from freeports.utils.pdf_extract import PdfLineSelection,pdflines_from_pagedict
 from . import fund_assets
+from . import investments
 from . import investment_managers
 from . import merging
 from . import esg_indicators as esg
@@ -59,6 +60,16 @@ pipelines = {
         pdf_extract=investment_managers.pdf_extract_manco,
         text_filter=investment_managers.text_filter_manco,
         deserialize=investment_managers.deserialize_manco,
+    ),
+    # Only `pdf_extract`: the column positions, the flags and the deserializer stay in the
+    # structured CSVs, which is where every other format of this repository keeps them. The
+    # `partial_pipes.csv` row switches the structured `pdf_extract` off so the two do not stack.
+    "investments": Pipeline(
+        pdf_extract=(
+            investments.pdf_extract,
+            investments.pdf_extract_fund,
+            investments.pdf_extract_currency,
+        )
     ),
     "inv_managers_begin": Pipeline(
         pdf_extract=investment_managers.pdf_extract_inv_managers_begin,

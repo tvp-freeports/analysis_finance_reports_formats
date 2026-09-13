@@ -55,7 +55,8 @@ def pdf_extract(page):
         *get_table_coordinates(
             l,
             algorithm_flags=TablePosAlgorithm.USE_RULER_AREA,
-            tolerance=0,
+            col_tolerance=0,
+            row_tolerance=0,
             collapse=True,
         )
     )

@@ -13,6 +13,13 @@ EURIZON-EN23(inv_managers_end),inv_managers_end
 EURIZON-EN23(sfdr),sfdr_classification
 EURIZON-EN23(esg_fund),sfdr_classification
 EURIZON-EN23(esg_indicators),esg_indicators
+EURIZON-IT24(investments),investments
+EURIZON-IT24(manco),manco
+EURIZON-IT24(merges),merges
+EURIZON-IT24(sfdr_page_1),sfdr_page_1
+EURIZON-IT24(sfdr_page_2),sfdr_page_2
+EURIZON-IT24(esg_indicators),sfdr_page_2
+EURIZON-IT24(esg_indicators),esg_indicators
 KAIROS-EN23(investments),investments
 KAIROS-EN23(manco),manco
 KAIROS-EN23(renames),merges

@@ -255,7 +255,8 @@ def esg_indicators_pdf_extact_art8(page):
             l,
             algorithm_flags=TablePosAlgorithm.USE_RULER_AREA
             | TablePosAlgorithm.BIG_CELL_RULE,
-            tolerance=-0.2,
+            col_tolerance=-0.2,
+            row_tolerance=-0.2,
             collapse=True,
         )
     )

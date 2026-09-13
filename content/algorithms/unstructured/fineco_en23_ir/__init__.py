@@ -44,7 +44,13 @@ pipelines = {
             ),
             (
                 PdfLineSelection.area_from_bounds(
-                    x0=PdfLineSelection.text('means'),
+                    # The left edge is the end of the annex's "means" label, which sits alone in
+                    # the glossary column and is written both "means " and " means" -- so the
+                    # column, not the spelling, is what identifies it.  Some pages also carry a
+                    # body sentence containing "means" ("... which means, that the majority ..."),
+                    # and its right edge lies past the fixed x1 below: taken as the left edge it
+                    # inverts the window, and the page is lost.
+                    x0=PdfLineSelection(text='means', area=(0.0, 0.0, 150.0, 1e6)),
                     x1=372.94,
                     y0=PdfLineSelection.text('Regulation (EU) 2020/852'),
                     y1=PdfLineSelection.text('Did this financial product')

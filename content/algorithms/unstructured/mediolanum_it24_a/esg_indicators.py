@@ -24,7 +24,8 @@ def pdf_extract(page):
     rows,cols=zip(*get_table_coordinates(
         table_lines,
         algorithm_flags=TablePosAlgorithm.USE_RULER_AREA|TablePosAlgorithm.BIG_CELL_RULE,
-        tolerance=0.0,
+        col_tolerance=0.0,
+        row_tolerance=0.0,
         collapse=True
     ))
 

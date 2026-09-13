@@ -9,7 +9,11 @@ AMUNDI-IT24(investments):
     area:
       y_max: 60
   currency: EUR
-  tolerance: 1.0
+  # 0.5 on both axes, which is what this format has always had: of the two keys the old schema
+  # accepted the engine passed only one to the tabularizer, and that one value served columns and
+  # rows together. The two axes are separate now and neither stands in for the other, so the value
+  # that was implicit is written twice.
+  col_tolerance: 0.5
   row_tolerance: 0.5
 
 FIDEURAM-IT24(investments):
