@@ -1,4 +1,4 @@
-version: 06fd3756bf2640655303997f64a5a89fb4b0110c76308a645fcc43a2361af4a8
+version: bd628eae5e929bb4bbba85f064f93d7a1fc8215f9f8df9696f0a8e3509531050
 who:
   name: Oreste Sciacqualegni
   email: orestesciacqualegni@tutanota.com
@@ -32,7 +32,7 @@ data:
       - path: tests/formats/AMUNDI-EN24/out/investments_managers_to_funds.csv
         sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
       - path: tests/formats/AMUNDI-EN24/out/.log.csv
-        sha256: 8db96ac35e85b41fd3a4d6a034cf0ad91b6829c400af1c2073e4d0934194970a
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/AMUNDI-EN24/pages/investments/44-pdf_blks.json
         sha256: 19dd11fec5b3c48c7a951381f707d86d6527937c41e87c46c3aac38414f724be
       - path: tests/formats/AMUNDI-EN24/pages/investments/44-results.json
@@ -84,7 +84,7 @@ data:
       - path: tests/formats/ANIMA-EN23/out/investments_managers_to_funds.csv
         sha256: d1aefaa8691cc4019a3698a9ed7f2aa03aacbb3ea91dfe921f5e58f1a133ac24
       - path: tests/formats/ANIMA-EN23/out/.log.csv
-        sha256: 3fc68acb1829fdf4bdd290cd084d74f2ce7858beb851b8a9a8a76a31ff319c9f
+        sha256: acae1b6db87af81d0748ec7efa5d879a8ce60a2fdcedd1f7ce658c5110c2f474
       - path: tests/formats/ANIMA-EN23/pages/fund_assets/59-pdf_blks.json
         sha256: c15a01066e81a94d07dabeb3b4afc92a132a2f1a33f2a8007e796cb34acdb715
       - path: tests/formats/ANIMA-EN23/pages/fund_assets/59-results.json
@@ -134,7 +134,7 @@ data:
       - path: tests/formats/ANIMA_SGR-IT24/1/out/investments_managers_to_funds.csv
         sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
       - path: tests/formats/ANIMA_SGR-IT24/1/out/.log.csv
-        sha256: f7424785e9ac9b6ba931cbedf89e80460f92434621a64dfe2e251f607f6ed7a8
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/ANIMA_SGR-IT24/1/pages/investments/1449-pdf_blks.json
         sha256: 66cf6b197a9110d8d6aeeb84cf782898449c9144a50dc97a41d71e83496d5c5b
       - path: tests/formats/ANIMA_SGR-IT24/1/pages/investments/1449-results.json
@@ -160,7 +160,7 @@ data:
       - path: tests/formats/ANIMA_SGR-IT24/2/out/investments_managers_to_funds.csv
         sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
       - path: tests/formats/ANIMA_SGR-IT24/2/out/.log.csv
-        sha256: c5251f829cf3e17e48d6ddea0175dcfa967a0cc5f132a00e821154a6e207e46d
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/ANIMA_SGR-IT24/2/pages/investments/35-pdf_blks.json
         sha256: c7fdc9bd4d618ff99cf412e2a079a68652e2fc19c88ed5fcbfc70f54aa93287b
       - path: tests/formats/ANIMA_SGR-IT24/2/pages/investments/35-results.json
@@ -186,7 +186,7 @@ data:
       - path: tests/formats/ANIMA_SGR-IT24/3/out/investments_managers_to_funds.csv
         sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
       - path: tests/formats/ANIMA_SGR-IT24/3/out/.log.csv
-        sha256: 5b82944019f018f4f97ad59557b1267dd19da64f6aed087f7032e6919aa6ec30
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/ANIMA_SGR-IT24/3/pages/investments/13-pdf_blks.json
         sha256: 42514d43f0b31bd334ba8639e8b6b6c581e875d3739d19fe2b42ab63f1fa8b92
       - path: tests/formats/ANIMA_SGR-IT24/3/pages/investments/13-results.json
@@ -304,7 +304,7 @@ data:
       - path: tests/formats/ARCA-IT24/2/out/investments_managers_to_funds.csv
         sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
       - path: tests/formats/ARCA-IT24/2/out/.log.csv
-        sha256: 97d85b18c5acd893e3addf24fbb4e9faeb0d2c70f0bb1cc6825b89abfb98e562
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/ARCA-IT24/2/pages/investments/19-pdf_blks.json
         sha256: 3a157f41955ccfda0ef4b3da049154d10f4a2301885285a693d81c06ff9834ae
       - path: tests/formats/ARCA-IT24/2/pages/investments/19-results.json
@@ -436,7 +436,7 @@ data:
       - path: tests/formats/DANSKEINVEST-EN24/out/investments_managers_to_funds.csv
         sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
       - path: tests/formats/DANSKEINVEST-EN24/out/.log.csv
-        sha256: 76a7ec5c7e15a301cd4719756469b1e38c6bdfebb4297dd53bda4fb001e727d1
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/DANSKEINVEST-EN24/pages/investments/163-pdf_blks.json
         sha256: cdf973ae68ab465497d389cb4db630c991d8a7016f1a7d6bb702e3cdf2db6be1
       - path: tests/formats/DANSKEINVEST-EN24/pages/investments/163-results.json
@@ -462,7 +462,7 @@ data:
       - path: tests/formats/EURIZON-EN21/out/investments_managers_to_funds.csv
         sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
       - path: tests/formats/EURIZON-EN21/out/.log.csv
-        sha256: 3d5ff0d62e9cce67b7c2ace4715584152933526a68fbc614c07800d101ddf3ff
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/EURIZON-EN21/pages/investments/98-pdf_blks.json
         sha256: 37c5eb441a83b4e758e954a455f10bdbfe29dedeb6fae45bd7cf92853e82c58a
       - path: tests/formats/EURIZON-EN21/pages/investments/98-results.json
@@ -488,7 +488,7 @@ data:
       - path: tests/formats/EURIZON-EN23/1/out/investments_managers_to_funds.csv
         sha256: 7460a916898c02a7d5cfa9d599bd584298deac4f6b4698bd7174b92a62c231c0
       - path: tests/formats/EURIZON-EN23/1/out/.log.csv
-        sha256: f3068e96b02be57c184ce1729c3363a4e79c8c7e6c3fd7e83fdd709d93b7e91e
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/EURIZON-EN23/1/pages/fund_assets/1006-pdf_blks.json
         sha256: 96d4588a1155d5413e79577509bcabfdad96521fd82a68364137bb8c9515addc
       - path: tests/formats/EURIZON-EN23/1/pages/fund_assets/1006-results.json
@@ -708,7 +708,7 @@ data:
       - path: tests/formats/FINECO-EN23@IR/out/investments_managers_to_funds.csv
         sha256: 2ef914cdc7e1c4fa2b37b79436ac95fb7118f2c05eed92fc825847dd7d062e3d
       - path: tests/formats/FINECO-EN23@IR/out/.log.csv
-        sha256: 395b1e1fab6456938fb470bf8ad5fb8700b21deb5754e48f8c6e3b427456b221
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/FINECO-EN23@IR/pages/fund_assets/71-pdf_blks.json
         sha256: 71d9eaa5d280dc088f6fe5deeab296ca9422df3f39b0435f01f82c819c276f2e
       - path: tests/formats/FINECO-EN23@IR/pages/fund_assets/71-results.json
@@ -758,7 +758,7 @@ data:
       - path: tests/formats/FINECO-EN23@LUX/out/investments_managers_to_funds.csv
         sha256: 21577b8cdeb22b9f2d1ad26952ea646bde2727d1dd2b8cb4ef8e0ceb309b7df1
       - path: tests/formats/FINECO-EN23@LUX/out/.log.csv
-        sha256: 8ee93d3d0f747325b79e916f80269c6c843b08868a8ac842cd1b0c795e849122
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/FINECO-EN23@LUX/pages/fund_assets/31-pdf_blks.json
         sha256: 2b13a7afe1284b22d6f49b7b4be4225ba8aefda002bce534c541d364b833a46d
       - path: tests/formats/FINECO-EN23@LUX/pages/fund_assets/31-results.json
@@ -1008,7 +1008,7 @@ data:
       - path: tests/formats/MEDIOLANUM-IT24.A/out/investments_managers_to_funds.csv
         sha256: b3a1c53cbac813a641f93c37c27122ebd49c80918c222a226286285f043000c4
       - path: tests/formats/MEDIOLANUM-IT24.A/out/.log.csv
-        sha256: fc76f2c87c3aeff70609740788f8ef6072cd62da216b2c47eb2723bc1d059ef2
+        sha256: a3230b0c96937e14f0da588652907a665fb6e3756b40be2353be39d2b9a9ace6
       - path: tests/formats/MEDIOLANUM-IT24.A/pages/fund_assets/56-pdf_blks.json
         sha256: 746234992c811f6f519331e0feab650a495a2fbc7bc0d3e9380f792e05a24ea2
       - path: tests/formats/MEDIOLANUM-IT24.A/pages/fund_assets/56-results.json
@@ -1110,7 +1110,7 @@ data:
       - path: tests/formats/MEDIOLANUM-IT24.C/out/investments_managers_to_funds.csv
         sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
       - path: tests/formats/MEDIOLANUM-IT24.C/out/.log.csv
-        sha256: 87d69b6495059c685b4092f35047a062e86fb5bd4c8142a14a4b817a434e3c0d
+        sha256: 939ff1c0a9fedc029e8cf9bdf05431c8c5dcf1aefef8cc86b0cb83fc78a01154
       - path: tests/formats/MEDIOLANUM-IT24.C/pages/investments/492-pdf_blks.json
         sha256: 96dfc4ceac0b1f5a594218e088104a54a775042458bb0e3361fdea6b9117a8a4
       - path: tests/formats/MEDIOLANUM-IT24.C/pages/investments/492-results.json
@@ -1154,15 +1154,15 @@ data:
 sign: |-
   -----BEGIN PGP SIGNATURE-----
 
-  iQGzBAABCgAdFiEECeUG3YZaZKNkufVWEP9oNtnjUgkFAmqfJu8ACgkQEP9oNtnj
-  Ugm9mQwAyPF9k2TgwdUIPPilJ++OM8fspbJuPQvdFOI/92JH46dJvQO1G48E0gGO
-  4exynffFO+Dxrmw2vGUfEOgIasdY6d0eqGZMreOgWacw26SFvzU+1brC6YuRIn0u
-  c1p78TKF4ANUrllVKtIq2ddm7AvAo4dHwd5DQrpQRgsxOlUiAc5NealTtbOO0eF/
-  z0DuuKYopfyyQc/mrSkA9wx7Uwuv7BOK9I92n7l08ubHxBMS/TC2VwMjEtbbruA6
-  WEROIo/2Vsu9qyTvAnDfLDN8c9yk/Rt2unn7x3VzP2jQ6phi/lf37eklVdY+3x05
-  XVvLpsgDrCyjZ9XdM/j5YAa/Gokfz3l2LSdSy22rkur0BMi+BHylY2gYChMz7sFG
-  KzlnupVho2+GcGcyHeYo4pdjJlfwKG5Znxipl5zt/o42gA7Zyox8mRXCIrHKRckB
-  31W9XFC2W/oomCoBG9PqFq2u252+Kq7F0WqXI/3/nA48OO3F1yEVV1rFmPqjEbAe
-  Y2Rm7At7
-  =7IOE
+  iQGzBAABCgAdFiEECeUG3YZaZKNkufVWEP9oNtnjUgkFAmqm/+IACgkQEP9oNtnj
+  UglwOAv/QQTfC92Iu/2Oq2FXfEJ770Hak9/nsNOZockO1b8uuBGACEERtDOiTkgl
+  wuV7/DAeU82B3Tx9yPMu0GF8icGiLraI2HIcftlvuvEyZ5EsPq0GRQYcq1UuG7eJ
+  W1szu6M9GHGQmqJkfGMaVJstpNH9jUj6mXh/Ky51D5/YQMm/h2/EAoqo5HCMKRgh
+  QpUkMOojYg+HUmhYfA0UdpFdAGwpCka+fnTPVPEU81xrieeRq+wdoGKDn9BQE6sV
+  dVxzexoH8piWDzoIzNoDXmF8QBoqUw6QbstCkX7jFEaD2ces8QOOLoaA9WB/YpPg
+  cUFU4Vzh3xaCMbrtKfQXQEIQPn1G2i72+Bvq0ASdKOGaNv3o9ps7cCH5dm+ZGqt5
+  8Vdar4gMgbifKaT4z5cLr9igta+/QGXap1HNq4UOzA1cqSWBmLDM+GHXsDVTCwcT
+  Pz4/pPoeCVW3MesV080B+vOb4iO9igsVrIT6NT+Z9BVDZb162riEEVwrE0/aaCh/
+  +KJr0ljr
+  =h5rb
   -----END PGP SIGNATURE-----

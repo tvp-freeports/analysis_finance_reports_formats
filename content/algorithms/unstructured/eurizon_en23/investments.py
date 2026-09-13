@@ -85,14 +85,14 @@ def column_bands(lines):
     is always prose and never a cell — a footnote (`Cross umbrella holding, see further information
     in Note 2h.`), a section heading (`Unrealised loss on forward foreign exchange contracts`), a
     column title. So the bands are measured **without** the lines that hold two of them together,
-    recognised by the only property that matters: remove one and the page has more columns than it
-    had. The line itself is not discarded — it is still a block, and the tabularizer puts it in the
-    first band it meets, exactly as before.
+    recognised by the only property that matters: they are the few that cross a place where the
+    many stop. The line itself is not discarded — it is still a block, and the tabularizer puts it
+    in the first band it meets, exactly as before.
     """
     spans = sorted((line.bbox[0], line.bbox[2]) for line in lines)
-    # A page can carry two bridges over the same gap, and then neither is visible on its own: a
-    # second pass sees the one that the first uncovered. The loop is bounded because every pass
-    # that changes anything removes at least one span.
+    # Removing a band's bridges can uncover the next gap along, so the measurement is repeated
+    # until it stops changing. The loop is bounded because every pass that changes anything
+    # removes at least one span.
     while True:
         kept = [s for group in _groups(spans) for s in _without_bridges(group)]
         if not kept or len(kept) == len(spans):
@@ -115,15 +115,44 @@ def _groups(spans):
 
 
 def _without_bridges(group):
-    """One band's spans, minus the ones that alone keep it from falling into several.
+    """One band's spans, minus the ones that hold it together across a gap.
 
-    Removing a span can only ever split the band it belongs to, so the test is run band by band
+    Removing a span can only ever split the band it belongs to, so the search is run band by band
     rather than over the whole page: on a table of six columns that is six small problems instead
     of one large one, and the page has a few hundred lines.
     """
     if len(group) < 3:
         return group
-    return [s for i, s in enumerate(group) if len(_merge(group[:i] + group[i + 1 :])) == 1]
+    remaining = list(group)
+    for bridge in _bridges(group):
+        remaining.remove(bridge)
+    return remaining
+
+
+def _bridges(group):
+    """The spans that keep one band from falling into two, however many of them there are.
+
+    Asking instead which single span splits the band when removed — which is the same question for
+    one bridge and the wrong question for two — misses the page that carries two footnotes over the
+    same gap, and neither of them is visible while the other is there.
+
+    A gap is a place where the spans on the left end, the spans on the right begin, and a handful
+    cross. The handful has to be a **minority of both sides**: that is what separates a gap from the
+    inside of a column, where a long cell may well be the only one reaching a given `x`, but nothing
+    starts beyond it — a column of left-aligned names has no cell entirely to the right of one of
+    its own, and a column of right-aligned figures none entirely to the left. The narrowest such
+    place is the one taken, and its crossing spans are the bridges.
+    """
+    best = None
+    for x in sorted({span[1] for span in group}):
+        left = [span for span in group if span[1] <= x]
+        right = [span for span in group if span[0] >= x]
+        if not left or not right:
+            continue
+        crossing = [span for span in group if span[0] < x < span[1]]
+        if len(crossing) < min(len(left), len(right)) and (best is None or len(crossing) < len(best)):
+            best = crossing
+    return best or []
 
 
 def _partition(bands, lines):
