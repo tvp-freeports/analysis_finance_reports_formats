@@ -1,7 +1,10 @@
 from freeports.utils.pdf_extract import (
     PdfLineSelection
 )
-from freeports.standard_funcs.pdf_extract import PdfExtractAssetsStandard
+from freeports.standard_funcs.pdf_extract import (
+    AssetsColumn,
+    PdfExtractAssetsStandard,
+)
 from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.utils.deserialize import (
@@ -15,22 +18,19 @@ y1 = PdfLineSelection(font="timesnewromanbold", font_size=(8.9, 9.1), text="^Ass
 pdf_extract = PdfExtractAssetsStandard(
     fund_set=PdfLineSelection.area_from_bounds(x0=x0, y0=0, x1=1e6, y1=y1),
     currency_set=None,
-    tot_assets_set=PdfLineSelection(
-        font="timesnewromanbold", font_size=(8.9, 9.1), text="Total assets"
+    tot_assets=AssetsColumn(
+        PdfLineSelection(font="timesnewromanbold", font_size=(8.9, 9.1), text="Total assets"),
+        mult=(100.0, 1.2),
     ),
-    liabilities_set=PdfLineSelection(
-        font="timesnewromanbold", font_size=(8.9, 9.1), text="Total liabilities"
+    liabilities=AssetsColumn(
+        PdfLineSelection(font="timesnewromanbold", font_size=(8.9, 9.1), text="Total liabilities"),
+        mult=(100.0, 2.2),
     ),
-    net_assets_set=PdfLineSelection(
-        font="timesnewromanbold", font_size=(8.9, 9.1), text="Net assets"
+    net_assets=AssetsColumn(
+        PdfLineSelection(font="timesnewromanbold", font_size=(8.9, 9.1), text="Net assets"),
+        mult=(100.0, 2.2),
     ),
-    tot_assets_vec=(1.2, 0.0),
-    liabilities_vec=(1.2, 0.0),
-    net_assets_vec=(1.2, 0.0),
-    tot_assets_mult=(100.0, 1.2),
-    liabilities_mult=(100.0, 2.2),
-    net_assets_mult=(100.0, 2.2),
-    date_set=PdfLineSelection(font="timesnewromanbold", text="^as at"),
+    date=PdfLineSelection(font="timesnewromanbold", text="^as at"),
     table_condition=True,
 )
 

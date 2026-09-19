@@ -1,2 +1,3 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,6,job[ANIMA-EN23]/step[1]/class[manco]/document[report]/page[6]/pipeline[manco]/deserialize/pipe[DeserializerInvestmentsManagerFromManco],,investments_manager,,,WARN,"investments_manager was not read: imposed as ""ANIMA SGR S.p.A."" - the management company, which the format declares to manage the investments too"
 report,63,job[ANIMA-EN23]/step[1]/class[fund_assets]/document[report]/page[63]/pipeline[fund_assets]/pdf_extract/pipe[PdfExtractAssetsStandard],,,,,WARN,assets columns have mismatched lengths - extra entries dropped

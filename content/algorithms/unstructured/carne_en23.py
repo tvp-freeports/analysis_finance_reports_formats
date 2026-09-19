@@ -5,6 +5,7 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractCurrencyStandard,
     PdfExtractFundStandard,
     PdfExtractManagmentCompanyStandard,
+    AssetsColumn,
     PdfExtractAssetsStandard,
 )
 from freeports.utils.pdf_extract import (
@@ -45,23 +46,22 @@ currency_set_assets = PdfLineSelection.area_from_movewindow(
 pdf_extract_assets = PdfExtractAssetsStandard(
     fund_set=subfund_set,
     currency_set=currency_set_assets,
-    tot_assets_set=PdfLineSelection(
-        font="arial-boldmt", font_size=(7.9, 8.2), text="^Total Assets"
+    tot_assets=AssetsColumn(
+        PdfLineSelection(font="arial-boldmt", font_size=(7.9, 8.2), text="^Total Assets"),
+        mult=(100.0, 1.02),
     ),
-    liabilities_set=PdfLineSelection(
-        font="arial-boldmt", font_size=(7.9, 8.2), text="^Total Liabilities"
+    liabilities=AssetsColumn(
+        PdfLineSelection(font="arial-boldmt", font_size=(7.9, 8.2), text="^Total Liabilities"),
+        mult=(100.0, 1.02),
     ),
-    net_assets_set=PdfLineSelection(
-        font="arial-boldmt",
-        font_size=(7.9, 8.2),
-        text="^Net assets at the end of the financial year",
+    net_assets=AssetsColumn(
+        PdfLineSelection(
+            font="arial-boldmt",
+            font_size=(7.9, 8.2),
+            text="^Net assets at the end of the financial year",
+        ),
+        mult=(100.0, 1.02),
     ),
-    tot_assets_vec=(1.2, 0.0),
-    liabilities_vec=(1.2, 0.0),
-    net_assets_vec=(1.2, 0.0),
-    tot_assets_mult=(100.0, 1.02),
-    liabilities_mult=(100.0, 1.02),
-    net_assets_mult=(100.0, 1.02),
 )
 
 text_filter_assets = TextFilterAssetsStandard()

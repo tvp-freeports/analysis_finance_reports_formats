@@ -1,6 +1,7 @@
 from freeports.core import PdfBlock, TextBlock
 from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
 from freeports.standard_funcs.pdf_extract import (
+    AssetsColumn,
     PdfExtractAssetsStandard,
     PdfExtractCurrencyStandard,
 )
@@ -36,18 +37,12 @@ pdf_extract_funds = PdfLineSelection.area_from_movewindow(
 pdf_extract = PdfExtractAssetsStandard(
     fund_set=pdf_extract_funds,
     currency_set=PdfLineSelection(text="(valori espressi in"),
-    tot_assets_set=PdfLineSelection(text="TOTALE ATTIVITÀ"),
-    liabilities_set=PdfLineSelection(
-        text="sottoscrittori di quote di partecipazione riscattabili"
+    tot_assets=AssetsColumn(PdfLineSelection(text="TOTALE ATTIVITÀ")),
+    liabilities=AssetsColumn(
+        PdfLineSelection(text="sottoscrittori di quote di partecipazione riscattabili")
     ),
-    net_assets_set=PdfLineSelection(text="RISCATTABILI"),
-    tot_assets_vec=(1.2, 0.0),
-    liabilities_vec=(1.2, 0.0),
-    net_assets_vec=(1.2, 0.0),
-    tot_assets_mult=(100.0, 1.3),
-    liabilities_mult=(100.0, 1.3),
-    net_assets_mult=(100.0, 1.3),
-    date_set=PdfLineSelection(font_size=(11, 12.1), text="^AL"),
+    net_assets=AssetsColumn(PdfLineSelection(text="RISCATTABILI")),
+    date=PdfLineSelection(font_size=(11, 12.1), text="^AL"),
     table_condition=True,
     skip_column=2,
 )

@@ -1,1 +1,2 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,21,job[ARCA-IT24]/step[0]/class[investments]/document[report]/page[21]/pipeline[investments]/pdf_extract/pipe[PdfExtractCurrencyConstant],,currency,,,WARN,"currency was not read: imposed as ""EUR"" - declared by the format, not written in the report - holds for every page of it"

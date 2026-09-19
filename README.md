@@ -124,8 +124,8 @@ the code somebody fixes.
 | --- | ---: | ---: | --- |
 | `tests.formats.integration` | 86.1 % | 86.0 % | pass |
 | `tests.formats.single_page` | 100.0 % | 100.0 % | pass |
-| `docs.python` | 19.7 % | 18.0 % | pass |
-| `lint.python` | 9.686 | 9.600 | pass |
+| `docs.python` | 33.5 % | 18.0 % | pass |
+| `lint.python` | 9.742 | 9.600 | pass |
 | `grants.coverage` | 100.0 % | 100.0 % | stale |
 | `grants.keys_online` | 100.0 % | 100.0 % | stale |
 

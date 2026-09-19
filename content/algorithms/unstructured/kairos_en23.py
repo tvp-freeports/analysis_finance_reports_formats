@@ -10,6 +10,7 @@ from freeports.standard_funcs.text_filter import (
 from freeports.interfaces.text_blks import OneTextBlockType,ResultStandardFiltering
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractManagmentCompanyStandard,
+    AssetsColumn,
     PdfExtractAssetsStandard,
     PdfExtractSfdrArticleStandard,
 )
@@ -213,23 +214,21 @@ currency_set_assets = PdfLineSelection(
 pdf_extract_assets = PdfExtractAssetsStandard(
     fund_set=fund_curr_set,
     currency_set=currency_set_assets,
-    tot_assets_set=PdfLineSelection(
-        font="arialnarrow-bold", font_size=(7.9, 8.1), text="^Total assets"
+    tot_assets=AssetsColumn(
+        PdfLineSelection(font="arialnarrow-bold", font_size=(7.9, 8.1), text="^Total assets"),
+        mult=(50.0, 1.02),
     ),
-    liabilities_set=PdfLineSelection(
-        font="arialnarrow-bold", font_size=(7.9, 8.1), text="^Total liabilities"
+    liabilities=AssetsColumn(
+        PdfLineSelection(font="arialnarrow-bold", font_size=(7.9, 8.1), text="^Total liabilities"),
+        mult=(50.0, 1.02),
     ),
-    net_assets_set=PdfLineSelection(
-        font="arialnarrow-bold",
-        font_size=(7.9, 8.1),
-        text="^Total liabilities",  # "^Net assets at the end of the year"
+    # The net-assets label is not usable here, so the window hangs off the liabilities one and
+    # drops a row: "^Net assets at the end of the year" is what it would otherwise anchor to.
+    net_assets=AssetsColumn(
+        PdfLineSelection(font="arialnarrow-bold", font_size=(7.9, 8.1), text="^Total liabilities"),
+        vec=(1.2, 1.2),
+        mult=(5.0, 2.0),
     ),
-    tot_assets_vec=(1.2, 0.0),
-    liabilities_vec=(1.2, 0.0),
-    net_assets_vec=(1.2, 1.2),
-    tot_assets_mult=(50.0, 1.02),
-    liabilities_mult=(50.0, 1.02),
-    net_assets_mult=(5.0, 2.0),
 )
 
 text_filter_assets = TextFilterAssetsStandard(
