@@ -5,12 +5,63 @@
       "data": {
         "managed_funds": {
           "__set__": [
-            "Eurizon Fund - Asian Equity Opportunities",
-            "Eurizon Fund - Equity China A",
-            "Eurizon Fund - Global Bond High Yield"
+            "EURIZON FUND ABSOLUTE HIGH YIELD"
           ]
         },
         "name": "Eurizon Capital S.A."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            " EurizonFund - Sustainable Multiasset",
+            "Eurizon Fund - Absolute Green Bonds",
+            "Eurizon Fund - Absolute HighYield",
+            "Eurizon Fund - Absolute Return Solution",
+            "Eurizon Fund - Active Allocation",
+            "Eurizon Fund - Azioni Strategia Flessibile",
+            "Eurizon Fund - Bond Aggregate EUR Short Term",
+            "Eurizon Fund - Bond Corporate EUR",
+            "Eurizon Fund - Bond Emerging Markets",
+            "Eurizon Fund - Bond Euro High Yield",
+            "Eurizon Fund - Bond Flexible",
+            "Eurizon Fund - Bond High Yield",
+            "Eurizon Fund - Bond Inflation Linked",
+            "Eurizon Fund - BondAggregate EUR",
+            "Eurizon Fund - BondCorporate EUR Short Term",
+            "Eurizon Fund - Dynamic Asset Allocation",
+            "Eurizon Fund - Equity Circular Economy",
+            "Eurizon Fund - Equity Innovation",
+            "Eurizon Fund - Equity Planet",
+            "Eurizon Fund - Equity Small Mid Cap Europe",
+            "Eurizon Fund - EquityHigh Dividend",
+            "Eurizon Fund - EuroEmerging Markets Bonds",
+            "Eurizon Fund - European Union Bonds",
+            "Eurizon Fund - Flexible Europe Strategy",
+            "Eurizon Fund - Flexible US Strategy",
+            "Eurizon Fund - FlexibleMultistrategy",
+            "Eurizon Fund - Global Bond Inflation Linked",
+            "Eurizon Fund - Global Bond",
+            "Eurizon Fund - Global Multi Credit",
+            "Eurizon Fund - GreenEuro Credit",
+            "Eurizon Fund - Inflation Strategy",
+            "Eurizon Fund - Italian Equity Opportunities",
+            "Eurizon Fund - Securitized Bond Fund ",
+            "Eurizon Fund - Sustainable Japan Equity",
+            "Eurizon Fund - SustainableGlobal Equity",
+            "Eurizon Fund -Equity USA",
+            "Eurizon Fund -Flexible Allocation",
+            "Eurizon Fund -Top European Research",
+            "Eurizon Fund- Conservative Allocation",
+            "EurizonFund - Bond Emerging Markets in Local Currencies ESG",
+            "EurizonFund - Equity People"
+          ]
+        },
+        "name": "Eurizon Capital SGR S.p.A."
       }
     }
   },
@@ -25,24 +76,6 @@
           ]
         },
         "name": "Epsilon Associati SGR S.p.A. (short name: Epsilon SGR S.p.A.)"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:InvestmentsManager",
-      "data": {
-        "managed_funds": {
-          "__set__": [
-            " Eurizon Fund -Bond Aggregate RMB",
-            "Eurizon Fund - Asian Debt Opportunities",
-            "Eurizon Fund - China Opportunity",
-            "Eurizon Fund - ChinaCredit Opportunities",
-            "Eurizon Fund - SLJ FlexibleGlobal Macro",
-            "Eurizon Fund - SLJ Local Emerging Markets Debt "
-          ]
-        },
-        "name": "Eurizon SLJ Capital LTD"
       }
     }
   },
@@ -218,14 +251,6 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "EURIZON FUND ABSOLUTE GREEN BONDS"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Fund",
-      "data": {
         "name": "EURIZONFUND SUSTAINABLE MULTIASSET"
       }
     }
@@ -378,7 +403,15 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "EURIZON FUND ABSOLUTE ACTIVE"
+        "name": "EURIZON FUND ABSOLUTE PRUDENT"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON FUND CHINA OPPORTUNITY"
       }
     }
   },

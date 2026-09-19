@@ -4,12 +4,12 @@
       "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fidelity Global Dividend FAM Fund",
+        "company_match": "Apple Inc",
+        "fund": "KAIROS INTERNATIONAL SICAV BOND",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -21,13 +21,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Invesco Global Total Return Bond FAM Fund",
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "KAIROS INTERNATIONAL SICAV BOND PLUS",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -39,13 +39,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fidelity Euro Bond FAM Fund",
+        "company": "Amazon",
+        "company_match": "Amazon",
+        "fund": "KAIROS INTERNATIONAL SICAV FINANCIAL INCOME",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -55,37 +55,14 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "US Equity Value FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Amundi European Equity Value FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "name": "Kairos Partners SGR S.p.A.",
+        "managed_funds": {
+          "__set__": [
+            "KAIROS INTERNATIONAL SICAV BOND"
+          ]
+        }
       }
     }
   },
@@ -93,7 +70,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "CoRe Series - FAM Park"
+        "name": "KAIROS INTERNATIONAL SICAV BOND"
       }
     }
   },
@@ -101,7 +78,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "CoRe Series - CoRe Income Opportunity"
+        "name": "KAIROS INTERNATIONAL SICAV BOND PLUS"
       }
     }
   },
@@ -109,7 +86,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "CoRe Series - CoRe Coupon"
+        "name": "KAIROS INTERNATIONAL SICAV FINANCIAL INCOME"
       }
     }
   },
@@ -117,7 +94,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Invesco Global Total Return Bond FAM Fund"
+        "name": "KAIROS INTERNATIONAL SICAV INNOVATION TRENDS"
       }
     }
   },
@@ -125,7 +102,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "US Equity Value FAM Fund"
+        "name": "KAIROS INTERNATIONAL SICAV ITALIA"
       }
     }
   }

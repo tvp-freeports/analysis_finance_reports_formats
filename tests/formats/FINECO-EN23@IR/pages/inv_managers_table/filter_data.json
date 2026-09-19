@@ -4,12 +4,12 @@
       "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fidelity Global Dividend FAM Fund",
+        "company_match": "Apple Inc",
+        "fund": "AMUNDI EMERGING MARKETS BOND FAM FUND",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -21,13 +21,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Invesco Global Total Return Bond FAM Fund",
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "AMUNDI EUROPEAN EQUITY VALUE FAM FUND",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -39,13 +39,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fidelity Euro Bond FAM Fund",
+        "company": "Amazon",
+        "company_match": "Amazon",
+        "fund": "AMUNDI STRATEGIC BOND FAM FUND",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -55,91 +55,14 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "US Equity Value FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Amundi Emerging Markets Bond FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Amundi European Equity Value FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "M&G Optimal Income FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fineco AM Global Premium Equities Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "name": "FIL Pensions Management",
+        "managed_funds": {
+          "__set__": [
+            "AMUNDI EMERGING MARKETS BOND FAM FUND"
+          ]
+        }
       }
     }
   },
@@ -147,7 +70,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Fidelity Euro Bond FAM Fund"
+        "name": "AMUNDI EMERGING MARKETS BOND FAM FUND"
       }
     }
   },
@@ -155,7 +78,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Eurizon Fund - Flexible US Strategy"
+        "name": "AMUNDI EUROPEAN EQUITY VALUE FAM FUND"
       }
     }
   },
@@ -163,7 +86,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Fidelity Global Dividend FAM Fund"
+        "name": "AMUNDI STRATEGIC BOND FAM FUND"
       }
     }
   },
@@ -171,7 +94,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Invesco Global Total Return Bond FAM Fund"
+        "name": "AMUNDI EMERGING MARKETS BOND FAM FUND CONTINUED"
       }
     }
   },
@@ -179,7 +102,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "US Equity Value FAM Fund"
+        "name": "AMUNDI EUROPEAN EQUITY VALUE FAM FUND CONTINUED"
       }
     }
   }

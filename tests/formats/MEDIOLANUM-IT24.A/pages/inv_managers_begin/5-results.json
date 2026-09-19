@@ -18,10 +18,10 @@
       "data": {
         "managed_funds": {
           "__set__": [
-            "Mediolanum Global Impact"
+            "Global High Yield"
           ]
         },
-        "name": "Baillie Gifford Investment Management (Europe) Limited"
+        "name": "Aegon USA Investment Management, LLC"
       }
     }
   },
@@ -31,11 +31,10 @@
       "data": {
         "managed_funds": {
           "__set__": [
-            "Mediolanum Future Sustainable Nutrition",
-            "Mediolanum Global Impact"
+            "Financial Income Strategy"
           ]
         },
-        "name": "Blackrock Investment Management (UK) Limited"
+        "name": "Algebris (UK) Limited"
       }
     }
   },
@@ -45,10 +44,10 @@
       "data": {
         "managed_funds": {
           "__set__": [
-            "Mediolanum Carmignac Strategic Selection"
+            "Global High Yield"
           ]
         },
-        "name": "Carmignac Gestion Luxembourg"
+        "name": "Brigade Capital Management, LP"
       }
     }
   },
@@ -58,10 +57,10 @@
       "data": {
         "managed_funds": {
           "__set__": [
-            "Mediolanum Global Impact"
+            "Global High Yield"
           ]
         },
-        "name": "First Sentier Investor (UK) IM Limited"
+        "name": "DWS Investment GmbH"
       }
     }
   },
@@ -71,21 +70,14 @@
       "data": {
         "managed_funds": {
           "__set__": [
+            "CHINESE ROAD OPPORTUNITIES",
+            "CHINESE ROAD OPPORTUNITY",
             "CONVERTIBLE STRATEGY COLLECTION",
-            "MEDIOLANUM CARMIGNAC STRATEGIC SELECTION",
-            "MEDIOLANUM GLOBAL IMPACT",
-            "TEST FUND B"
+            "FINANCIAL INCOME STRATEGY",
+            "GLOBAL HIGH YIELD"
           ]
         },
         "name": "Mediolanum International Funds Limited"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Fund",
-      "data": {
-        "name": "MEDIOLANUM FUTURE SUSTAINABLE NUTRITION"
       }
     }
   },
@@ -95,10 +87,11 @@
       "data": {
         "managed_funds": {
           "__set__": [
+            "CHINESE ROAD OPPORTUNITIES",
+            "CHINESE ROAD OPPORTUNITY",
             "CONVERTIBLE STRATEGY COLLECTION",
-            "MEDIOLANUM CARMIGNAC STRATEGIC SELECTION",
-            "MEDIOLANUM GLOBAL IMPACT",
-            "TEST FUND B"
+            "FINANCIAL INCOME STRATEGY",
+            "GLOBAL HIGH YIELD"
           ]
         },
         "name": "Mediolanum International Funds Limited"

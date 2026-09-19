@@ -4,12 +4,12 @@
       "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fidelity Global Dividend FAM Fund",
+        "company_match": "Apple Inc",
+        "fund": "EURIZON AZIONARIO INTERNAZIONALE ETICO",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -21,13 +21,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Invesco Global Total Return Bond FAM Fund",
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "EURIZON GLOBAL DIVIDEND ESG 50 LUGLIO 2025",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -39,13 +39,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fidelity Euro Bond FAM Fund",
+        "company": "Amazon",
+        "company_match": "Amazon",
+        "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -55,53 +55,14 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "US Equity Value FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Amundi European Equity Value FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Fund",
-      "data": {
-        "name": "Kairos International Sicav - Opportunities Long/Short"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Fund",
-      "data": {
-        "name": "Kairos International Sicav - ActivESG"
+        "name": "EURIZON CAPITAL SGR S.p.A.",
+        "managed_funds": {
+          "__set__": [
+            "EURIZON AZIONARIO INTERNAZIONALE ETICO"
+          ]
+        }
       }
     }
   },
@@ -117,7 +78,23 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Eurizon Fund - Bond Emerging Markets in Local Currencies"
+        "name": "EURIZON GLOBAL DIVIDEND ESG 50 LUGLIO 2025"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON STEP TO GLOBAL TRENDS"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON AZIONI AMERICA"
       }
     }
   }

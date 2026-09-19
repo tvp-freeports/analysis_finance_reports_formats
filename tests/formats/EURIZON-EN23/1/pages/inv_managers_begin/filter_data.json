@@ -3,9 +3,9 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Barkan and Partners",
-        "company_match": "Barkan and Partners",
-        "fund": "Eurizon Fund - Global Bond High Yield",
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "fund": "EURIZON FUND ABSOLUTE ACTIVE",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -21,9 +21,9 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Barkan and Partners",
-        "company_match": "Barkan and Partners",
-        "fund": "Eurizon Fund - Asian Equity Opportunities",
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "EURIZON FUND ABSOLUTE GREEN BONDS",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -39,9 +39,9 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Barkan and Partners",
-        "company_match": "Barkan and Partners",
-        "fund": "Eurizon Fund - Equity China A",
+        "company": "Amazon",
+        "company_match": "Amazon",
+        "fund": "EURIZON FUND ABSOLUTE HIGH YIELD",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -55,37 +55,54 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "company": "Barkan and Partners",
-        "company_match": "Barkan and Partners",
-        "fund": "Eurizon Fund - Absolute Prudent",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:EUR"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "name": "Eurizon Capital SGR S.p.A.",
+        "managed_funds": {
+          "__set__": [
+            "EURIZON FUND ABSOLUTE ACTIVE"
+          ]
+        }
       }
     }
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:Fund",
       "data": {
-        "company": "Barkan and Partners",
-        "company_match": "Barkan and Partners",
-        "fund": "Eurizon Fund - China Opportunity",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:EUR"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "name": "EURIZON FUND ABSOLUTE ACTIVE"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON FUND ABSOLUTE GREEN BONDS"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON FUND ABSOLUTE HIGH YIELD"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON FUND ABSOLUTE HIGHYIELD"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON FUND BOND CORPORATE EUR SHORT TERM LTE"
       }
     }
   }

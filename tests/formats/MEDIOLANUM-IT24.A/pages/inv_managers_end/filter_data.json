@@ -4,12 +4,12 @@
       "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "CHALLENGE North American Equity Fund",
+        "company_match": "Apple Inc",
+        "fund": "CONVERTIBLE STRATEGY COLLECTION",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -21,13 +21,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "CHALLENGE Emerging Markets Equity Fund",
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "GLOBAL HIGH YIELD",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -39,49 +39,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Chinese Road Opportunities",
+        "company": "Amazon",
+        "company_match": "Amazon",
+        "fund": "FINANCIAL INCOME STRATEGY",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Impax Asset Management Ireland Ltd",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Global Leaders",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -93,10 +57,10 @@
     "__pydantic__": {
       "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Nino",
+        "name": "Advent Capital Management LLC",
         "managed_funds": {
           "__set__": [
-            "Impax Asset Management Ireland Ltd"
+            "CONVERTIBLE STRATEGY COLLECTION"
           ]
         }
       }
@@ -106,7 +70,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE Spain Equity Fund"
+        "name": "CONVERTIBLE STRATEGY COLLECTION"
       }
     }
   },
@@ -114,7 +78,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Chinese Road Opportunities"
+        "name": "GLOBAL HIGH YIELD"
       }
     }
   },
@@ -122,7 +86,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Convertible Strategy Collection"
+        "name": "FINANCIAL INCOME STRATEGY"
       }
     }
   },
@@ -130,7 +94,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE Provident Fund 1"
+        "name": "CHINESE ROAD OPPORTUNITY"
       }
     }
   },
@@ -138,23 +102,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "CHALLENGE Energy Opportunities"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Fund",
-      "data": {
-        "name": "Sidera Funds SICAV – Balanced Growth"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Fund",
-      "data": {
-        "name": "CHALLENGE Energy Opportunities"
+        "name": "COUPON STRATEGY COLLECTION"
       }
     }
   }
