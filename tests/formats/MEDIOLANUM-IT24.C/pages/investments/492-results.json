@@ -13,7 +13,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "EMERGING MARKETS FIXED INCOME ",
-        "interest_rate": 0.013000000000000001,
+        "interest_rate": 0.013,
         "market_value": 135612.0,
         "maturity": {
           "__date__": "2032-04-30"
@@ -85,7 +85,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "EMERGING MARKETS FIXED INCOME ",
-        "interest_rate": 0.027999999999999997,
+        "interest_rate": 0.028,
         "market_value": 116938.0,
         "maturity": {
           "__date__": "2052-11-29"

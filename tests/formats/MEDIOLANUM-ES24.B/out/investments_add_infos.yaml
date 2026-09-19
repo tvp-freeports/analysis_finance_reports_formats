@@ -21,10 +21,10 @@
   interest_rate: 0.0375
 8:
   maturity: '2025-10-08'
-  interest_rate: 0.023799999999999998
+  interest_rate: 0.0238
 9:
   maturity: '2025-03-24'
-  interest_rate: 0.048799999999999996
+  interest_rate: 0.0488
 10:
   maturity: '2025-02-10'
   interest_rate: 0.0363

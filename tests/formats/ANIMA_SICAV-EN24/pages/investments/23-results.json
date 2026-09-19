@@ -91,7 +91,7 @@
           "__date__": "2025-03-28"
         },
         "nominal_quantity": 1300000.0,
-        "perc_net_assets": 0.07919999999999999
+        "perc_net_assets": 0.0792
       }
     }
   },
@@ -115,7 +115,7 @@
           "__date__": "2024-09-01"
         },
         "nominal_quantity": 1350000.0,
-        "perc_net_assets": 0.08220000000000001
+        "perc_net_assets": 0.0822
       }
     }
   },
@@ -163,7 +163,7 @@
           "__date__": "2024-10-14"
         },
         "nominal_quantity": 1750000.0,
-        "perc_net_assets": 0.10619999999999999
+        "perc_net_assets": 0.1062
       }
     }
   },

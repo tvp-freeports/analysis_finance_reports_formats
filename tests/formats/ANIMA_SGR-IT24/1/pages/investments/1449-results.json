@@ -43,7 +43,7 @@
           "__date__": "2026-09-15"
         },
         "nominal_quantity": 2500000.0,
-        "perc_net_assets": 0.056909999999999995
+        "perc_net_assets": 0.05691
       }
     }
   },
@@ -91,7 +91,7 @@
           "__date__": "2026-08-28"
         },
         "nominal_quantity": 2000000.0,
-        "perc_net_assets": 0.044950000000000004
+        "perc_net_assets": 0.04495
       }
     }
   },
@@ -109,7 +109,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "interest_rate": 0.0034999999999999996,
+        "interest_rate": 0.0035,
         "market_value": 1995840.0,
         "maturity": {
           "__date__": "2025-02-01"
@@ -157,7 +157,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "interest_rate": 0.006500000000000001,
+        "interest_rate": 0.0065,
         "market_value": 1463622.0,
         "maturity": {
           "__date__": "2027-10-28"
@@ -205,13 +205,13 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "interest_rate": 0.018500000000000003,
+        "interest_rate": 0.0185,
         "market_value": 997280.0,
         "maturity": {
           "__date__": "2025-07-01"
         },
         "nominal_quantity": 1000000.0,
-        "perc_net_assets": 0.022170000000000002
+        "perc_net_assets": 0.02217
       }
     }
   },
@@ -229,7 +229,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
-        "interest_rate": 0.014499999999999999,
+        "interest_rate": 0.0145,
         "market_value": 996270.0,
         "maturity": {
           "__date__": "2025-05-15"

@@ -1,5 +1,5 @@
 ID,Report,Report page,Triggering text,Investee,Financial instrument,Nominal/Quantity,Market value,Currency,% net assets,Fund ID,Acquisition cost,Acquisition currency
-1,report,23,INTESA SANPAOLO,INTESA SANPAOLO,EQUITY,42900000.0,165722690.0,EUR,0.0773,1,,
+1,report,23,INTESA SANPAOLO,INTESA SANPAOLO,EQUITY,42900000.0,165722692.0,EUR,0.0773,1,,
 2,report,23,LEONARDO SPA,Leonardo,EQUITY,1950000.0,50563500.0,EUR,0.0236,1,,
 3,report,55,APPLE INC,Apple Inc,EQUITY,68274.0,16587548.0,EUR,0.0437,2,,
 4,report,55,NVIDIA CORP,NVIDIA,EQUITY,116000.0,15364235.0,EUR,0.0405,2,,

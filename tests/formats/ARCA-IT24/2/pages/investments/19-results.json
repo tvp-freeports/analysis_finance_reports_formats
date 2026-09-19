@@ -13,13 +13,13 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ARCA CEDOLA ATTIVA 2026 ",
-        "interest_rate": 0.006500000000000001,
+        "interest_rate": 0.0065,
         "market_value": 24262.0,
         "maturity": {
           "__date__": "2026-05-15"
         },
         "nominal_quantity": 24397400.0,
-        "perc_net_assets": 0.054000000000000006
+        "perc_net_assets": 0.054
       }
     }
   },
@@ -235,7 +235,7 @@
           "__date__": "2026-01-14"
         },
         "nominal_quantity": 3000000.0,
-        "perc_net_assets": 0.006540000000000001
+        "perc_net_assets": 0.00654
       }
     }
   },

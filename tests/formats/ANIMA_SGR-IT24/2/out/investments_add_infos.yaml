@@ -21,7 +21,7 @@
   interest_rate: 0
 8:
   maturity: '2025-07-01'
-  interest_rate: 0.018500000000000003
+  interest_rate: 0.0185
 12:
   maturity: '2026-09-15'
   interest_rate: 0.03928
@@ -87,7 +87,7 @@
   interest_rate: 0.03928
 66:
   maturity: '2026-05-15'
-  interest_rate: 0.006500000000000001
+  interest_rate: 0.0065
 67:
   maturity: '2026-03-01'
   interest_rate: 0.045
@@ -237,13 +237,13 @@
   interest_rate: 0.012
 199:
   maturity: '2025-07-01'
-  interest_rate: 0.018500000000000003
+  interest_rate: 0.0185
 200:
   maturity: '2025-11-15'
   interest_rate: 0.025
 201:
   maturity: '2025-09-29'
-  interest_rate: 0.036000000000000004
+  interest_rate: 0.036
 203:
   maturity: '2025-08-14'
   interest_rate: 0
@@ -252,7 +252,7 @@
   interest_rate: 0
 210:
   maturity: '2025-09-29'
-  interest_rate: 0.036000000000000004
+  interest_rate: 0.036
 211:
   maturity: '2025-08-15'
   interest_rate: 0.012
@@ -297,7 +297,7 @@
   interest_rate: 0
 227:
   maturity: '2025-09-29'
-  interest_rate: 0.036000000000000004
+  interest_rate: 0.036
 228:
   maturity: '2026-03-01'
   interest_rate: 0.045

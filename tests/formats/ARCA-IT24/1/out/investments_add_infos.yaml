@@ -6,13 +6,13 @@
   interest_rate: 0.035
 9:
   maturity: '2027-02-15'
-  interest_rate: 0.029500000000000002
+  interest_rate: 0.0295
 10:
   maturity: '2029-02-15'
-  interest_rate: 0.0045000000000000005
+  interest_rate: 0.0045
 12:
   maturity: '2025-03-01'
   interest_rate: 0.05
 20:
   maturity: '2027-06-01'
-  interest_rate: 0.022000000000000002
+  interest_rate: 0.022

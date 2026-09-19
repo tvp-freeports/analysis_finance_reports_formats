@@ -47,13 +47,13 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Fondo Mediolanum Flessibile Strategico ",
-        "interest_rate": 0.027999999999999997,
+        "interest_rate": 0.028,
         "market_value": 3510150.0,
         "maturity": {
           "__date__": "2029-06-01"
         },
         "nominal_quantity": 3500000.0,
-        "perc_net_assets": 0.006999999999999999
+        "perc_net_assets": 0.007
       }
     }
   },

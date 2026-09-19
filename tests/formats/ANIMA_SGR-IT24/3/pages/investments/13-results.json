@@ -13,7 +13,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
-        "interest_rate": 0.029500000000000002,
+        "interest_rate": 0.0295,
         "market_value": 43624.0,
         "maturity": {
           "__date__": "2027-02-15"
@@ -85,13 +85,13 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
-        "interest_rate": 0.029500000000000002,
+        "interest_rate": 0.0295,
         "market_value": 5063.0,
         "maturity": {
           "__date__": "2030-07-01"
         },
         "nominal_quantity": 5000000.0,
-        "perc_net_assets": 0.012190000000000001
+        "perc_net_assets": 0.01219
       }
     }
   },

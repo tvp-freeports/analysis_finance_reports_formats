@@ -19,7 +19,7 @@
           "__date__": "2026-08-01"
         },
         "nominal_quantity": 10000000.0,
-        "perc_net_assets": 0.15148999999999999
+        "perc_net_assets": 0.15149
       }
     }
   },
@@ -131,7 +131,7 @@
         "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
         "market_value": 1321229.0,
         "nominal_quantity": 3118.0,
-        "perc_net_assets": 0.020419999999999997
+        "perc_net_assets": 0.02042
       }
     }
   },
@@ -149,7 +149,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
-        "interest_rate": 0.006500000000000001,
+        "interest_rate": 0.0065,
         "market_value": 1213112.0,
         "maturity": {
           "__date__": "2026-05-15"

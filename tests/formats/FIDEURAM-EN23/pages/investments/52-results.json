@@ -19,7 +19,7 @@
           "__date__": "2024-08-19"
         },
         "nominal_quantity": 446000.0,
-        "perc_net_assets": 0.0028000000000000004
+        "perc_net_assets": 0.0028
       }
     }
   },
@@ -37,7 +37,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
-        "interest_rate": 0.028999999999999998,
+        "interest_rate": 0.029,
         "market_value": 784958.0,
         "maturity": {
           "__date__": "2027-09-12"
@@ -115,7 +115,7 @@
           "__date__": "2026-11-15"
         },
         "nominal_quantity": 600000.0,
-        "perc_net_assets": 0.005600000000000001
+        "perc_net_assets": 0.0056
       }
     }
   },
@@ -133,7 +133,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "WILLERFUNDS - PRIVATE SUITE - JANUS HENDERSON STRATEGIC BOND",
-        "interest_rate": 0.029500000000000002,
+        "interest_rate": 0.0295,
         "market_value": 35703.0,
         "maturity": {
           "__date__": "2031-03-15"

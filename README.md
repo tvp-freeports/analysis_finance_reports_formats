@@ -131,8 +131,6 @@ the code somebody fixes.
 
 grants.coverage, grants.keys_online — measured at c3b3dafe, not at this one. Run `make ci` to take it again.
 
-formats.integration — last run at c3b3dafe, not at HEAD (57c177a1). Run `make test-slow`.
-
 *pass* — measured, current, and at or above the minimum this repository asks for.
 
 *stale* — computed, but at a commit other than this one, so it describes other code.

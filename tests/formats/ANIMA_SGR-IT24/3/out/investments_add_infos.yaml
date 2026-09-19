@@ -1,6 +1,6 @@
 1:
   maturity: '2027-02-15'
-  interest_rate: 0.029500000000000002
+  interest_rate: 0.0295
 2:
   maturity: '2028-02-01'
   interest_rate: 0.02
@@ -9,4 +9,4 @@
   interest_rate: 0
 4:
   maturity: '2030-07-01'
-  interest_rate: 0.029500000000000002
+  interest_rate: 0.0295

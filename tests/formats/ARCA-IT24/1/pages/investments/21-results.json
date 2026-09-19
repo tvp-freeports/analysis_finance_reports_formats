@@ -139,7 +139,7 @@
         "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
         "market_value": 307.0,
         "nominal_quantity": 3600.0,
-        "perc_net_assets": 0.013959999999999998
+        "perc_net_assets": 0.01396
       }
     }
   },
@@ -181,7 +181,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
-        "interest_rate": 0.029500000000000002,
+        "interest_rate": 0.0295,
         "market_value": 303.0,
         "maturity": {
           "__date__": "2027-02-15"
@@ -205,7 +205,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
-        "interest_rate": 0.0045000000000000005,
+        "interest_rate": 0.0045,
         "market_value": 274.0,
         "maturity": {
           "__date__": "2029-02-15"
@@ -275,7 +275,7 @@
         "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
         "market_value": 247.0,
         "nominal_quantity": 4000.0,
-        "perc_net_assets": 0.011240000000000002
+        "perc_net_assets": 0.01124
       }
     }
   },
@@ -335,7 +335,7 @@
         "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
         "market_value": 206.0,
         "nominal_quantity": 504.0,
-        "perc_net_assets": 0.009389999999999999
+        "perc_net_assets": 0.00939
       }
     }
   },
@@ -413,7 +413,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
-        "interest_rate": 0.022000000000000002,
+        "interest_rate": 0.022,
         "market_value": 100.0,
         "maturity": {
           "__date__": "2027-06-01"

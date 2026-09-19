@@ -67,7 +67,7 @@
           "__date__": "2044-02-05"
         },
         "nominal_quantity": 100000.0,
-        "perc_net_assets": 0.0014000000000000002
+        "perc_net_assets": 0.0014
       }
     }
   },
@@ -157,7 +157,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Asteria Funds - Global Investment Grade",
-        "interest_rate": 0.04650000000000001,
+        "interest_rate": 0.0465,
         "market_value": 17665.0,
         "maturity": {
           "__date__": "2046-02-23"

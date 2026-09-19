@@ -1,6 +1,6 @@
 1:
   maturity: '2028-05-15'
-  interest_rate: 0.013000000000000001
+  interest_rate: 0.013
 30:
   maturity: '2024-09-23'
   interest_rate: 0.02375
@@ -24,7 +24,7 @@
   interest_rate: 0.08
 37:
   maturity: '2028-01-27'
-  interest_rate: 0.059989999999999995
+  interest_rate: 0.05999
 38:
   maturity: '2049-03-19'
   interest_rate: 0.069
@@ -66,7 +66,7 @@
   interest_rate: 0.02921
 51:
   maturity: '2031-03-15'
-  interest_rate: 0.029500000000000002
+  interest_rate: 0.0295
 52:
   maturity: '2023-09-13'
   interest_rate: 0.01875
@@ -84,13 +84,13 @@
   interest_rate: 0
 57:
   maturity: '1978-03-10'
-  interest_rate: 0.048499999999999995
+  interest_rate: 0.0485
 61:
   maturity: '2049-09-01'
   interest_rate: 0.0385
 80:
   maturity: '2028-05-15'
-  interest_rate: 0.013000000000000001
+  interest_rate: 0.013
 81:
   maturity: '2027-02-01'
   interest_rate: 0.08125
@@ -141,7 +141,7 @@
   interest_rate: 0.04625
 138:
   maturity: '1978-03-10'
-  interest_rate: 0.048499999999999995
+  interest_rate: 0.0485
 139:
   maturity: '2049-09-01'
   interest_rate: 0.0385
@@ -153,10 +153,10 @@
   interest_rate: 0.0385
 208:
   maturity: '2028-05-15'
-  interest_rate: 0.013000000000000001
+  interest_rate: 0.013
 209:
   maturity: '1978-03-10'
-  interest_rate: 0.048499999999999995
+  interest_rate: 0.0485
 210:
   maturity: '2025-01-15'
   interest_rate: 0.0225
@@ -198,13 +198,13 @@
   interest_rate: 0.0175
 235:
   maturity: '2028-05-15'
-  interest_rate: 0.013000000000000001
+  interest_rate: 0.013
 239:
   maturity: '2043-11-15'
   interest_rate: 0.0525
 240:
   maturity: '2032-02-11'
-  interest_rate: 0.006500000000000001
+  interest_rate: 0.0065
 241:
   maturity: '2025-05-11'
   interest_rate: 0.01554
