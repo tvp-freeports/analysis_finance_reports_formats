@@ -1,0 +1,109 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "fund": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "MEDIOLANUM GLOBAL IMPACT",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "Amazon",
+        "fund": "CONVERTIBLE STRATEGY COLLECTION",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "name": "Mediolanum Gestione Fondi SGR p.A.",
+        "managed_funds": {
+          "__set__": [
+            "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "MEDIOLANUM GLOBAL IMPACT"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CONVERTIBLE STRATEGY COLLECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "GLOBAL HIGH YIELD"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "FINANCIAL INCOME STRATEGY"
+      }
+    }
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "fund": "ANIMA SHORT TERM CORPORATE BOND",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "ANIMA ASIAPACIFIC EQUITY",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "Amazon",
+        "fund": "ANIMA CREDIT OPPORTUNITIES",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "name": "ANIMA SGR S.p.A.",
+        "managed_funds": {
+          "__set__": [
+            "ANIMA SHORT TERM CORPORATE BOND"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ANIMA SHORT TERM CORPORATE BOND"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ANIMA ASIAPACIFIC EQUITY"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ANIMA CREDIT OPPORTUNITIES"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ANIMA EMERGING MARKETS EQUITY"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ANIMA EURO EQUITY"
+      }
+    }
+  }
+]

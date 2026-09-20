@@ -3,6 +3,7 @@
 import logging as log
 from typing import List, TypeAlias
 import re
+import sfdr
 from freeports.core import Pipeline, PdfBlock, TextBlock
 from freeports.output import Fund, FundMerge
 from freeports.standard_funcs.pdf_extract import (
@@ -12,7 +13,6 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractCurrencyStandard,
     PdfExtractFundStandard,
     PdfExtractManagmentCompanyStandard,
-    PdfExtractSfdrArticleStandard
 )
 from freeports.interfaces.pdf_blks import (
     OnePdfBlockType,
@@ -24,7 +24,6 @@ from freeports.interfaces.text_blks import (
 from freeports.standard_funcs.text_filter import (
     TextFilterManagmentCompanyStandard,
     TextFilterAssetsStandard,
-    TextFilterSfdrArticleStandard
 )
 from freeports.utils.pdf_extract import (
     PdfLineSelection,
@@ -35,7 +34,6 @@ from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerFromManco,
     DeserializerAssetsStandard,
-    DeserializeSfdrArticleStandard
 )
 from freeports.utils.deserialize import (
     to_int,
@@ -242,13 +240,7 @@ pipelines = {
         )
     ),
     "year_events": Pipeline(pdf_extract_merges, text_filter_merges, deserialize_merges),
-    "sfdr_classification": Pipeline(
-        PdfExtractSfdrArticleStandard(
-            PdfLineSelection.text("periodic disclosure for the financial products referred to in Article 9"),
-            PdfLineSelection.text("periodic disclosure for the financial products referred to in Article 8"),
-            PdfLineSelection(text='Product name')
-        ),
-        TextFilterSfdrArticleStandard(['Product name: ']),
-        DeserializeSfdrArticleStandard()
-    )
+    # Il segno e' una `X` di testo in Calibri-Bold, e ce ne sono piu' d'una per pagina: quella
+    # della prima domanda la sceglie la posizione, non l'unicita'.
+    "sfdr_classification": sfdr.ENGLISH.pipeline()
 }

@@ -2,42 +2,11 @@
 
 import re
 
-from freeports.utils.pdf_extract import PdfLineSelection
-from freeports.standard_funcs.pdf_extract import PdfExtractSfdrArticleStandard
-from freeports.standard_funcs.text_filter import TextFilterSfdrArticleStandard
-from freeports.standard_funcs.deserialize import DeserializeSfdrArticleStandard
+import sfdr
 from freeports.core import Pipeline
 
 from . import inv_managers
 from . import fund_assets
-
-sfdr_classification_pdf_extract = PdfExtractSfdrArticleStandard(
-    art9_selection=(
-        PdfLineSelection.text('periodic disclosure for') & PdfLineSelection.text('products referred to in Article 9')
-    ),
-    art8_selection=(
-        PdfLineSelection.text('periodic disclosure for') & PdfLineSelection.text('products referred to in Article 8')
-    ),
-    fund_selection = PdfLineSelection.area_from_bounds(
-        x0=PdfLineSelection.text('Product name'),
-        x1=1e6,
-        y0=0,
-        y1=PdfLineSelection.text('Did this financial product')
-    ) & (
-        PdfLineSelection(font='calibri') | PdfLineSelection(font='calibri-bold')
-    ) / (
-        PdfLineSelection(text='Regulation (EU) 2020/852', font='calibri-bold')
-    ) / (
-        PdfLineSelection(text='^ $')
-    ) / (
-        PdfLineSelection.area_from_movewindow(
-            PdfLineSelection(text='Legal entity identifier') | PdfLineSelection(text='Legal Entity Identifier'),
-            (0.0,0.0),
-            30.0,
-            3.0
-        )
-    ) | PdfLineSelection.text('Product name')
-)
 
 pipelines = {
     "inv_managers": Pipeline(
@@ -54,9 +23,9 @@ pipelines = {
         text_filter=fund_assets.text_filter,
         deserialize=fund_assets.deserialize,
     ),
-    "sfdr_classification": Pipeline(
-        pdf_extract=sfdr_classification_pdf_extract,
-        text_filter=TextFilterSfdrArticleStandard(fund_prefix=re.compile(r'Product name.*:\s*')),
-        deserialize=DeserializeSfdrArticleStandard()
-    )
+    # Lo stesso documento scrive il nome del prodotto in due impaginazioni -- sulla riga
+    # dell'etichetta a p223, accanto a p197 -- e il modello le legge tutt'e due. Il segno e'
+    # un'immagine su quattro moduli, una `X` di testo su uno e un **tracciato vettoriale** sul
+    # sesto: l'unico di tutta la raccolta.
+    "sfdr_classification": sfdr.ENGLISH.pipeline(product_prefix=re.compile(r"Product name.*:\s*")),
 }

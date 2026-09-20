@@ -63,13 +63,13 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `docs.python` | `algorithms.unstructured.ubs_en23` | 0.0 % |
 | `docs.python` | `templates.inv_managers.assignment.Declared` | 0.0 % |
 | `docs.python` | `templates.mediolanum_24` | 0.0 % |
-| `lint.python` | `F401` | 76 |
+| `lint.python` | `F401` | 73 |
 | `lint.python` | `E741` | 16 |
 | `lint.python` | `F841` | 3 |
 | `lint.python` | `F541` | 1 |
 | `lint.python` | `F811` | 1 |
 | `grants.coverage` | `basic check` | 1.0 % |
 
-Only the worst 15 lines of each metric are shown: tests.formats.single_page (21 more), docs.python (37 more). `freeports-dev ci-report --format json` carries every one of them.
+Only the worst 15 lines of each metric are shown: tests.formats.single_page (21 more), docs.python (40 more). `freeports-dev ci-report --format json` carries every one of them.
 
 <!-- freeports-dev:end -->

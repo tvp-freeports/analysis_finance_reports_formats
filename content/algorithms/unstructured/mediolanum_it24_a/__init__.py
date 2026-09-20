@@ -1,10 +1,8 @@
-from freeports.core import Pipeline
-from freeports.utils.pdf_extract import PdfLineSelection
-from freeports.standard_funcs.pdf_extract import PdfExtractSfdrArticleStandard
-from freeports.standard_funcs.text_filter import TextFilterSfdrArticleStandard
-from freeports.standard_funcs.deserialize import DeserializeSfdrArticleStandard
-import mediolanum_24
 import re
+
+import mediolanum_24
+import sfdr
+from freeports.core import Pipeline
 
 from . import fund_assets
 from . import esg_indicators as esg
@@ -43,14 +41,15 @@ pipelines = {
             mediolanum_24.inv_managers.deserialize_fund,
         ),
     ),
-    "sfdr_classification": Pipeline(
-        PdfExtractSfdrArticleStandard(
-            PdfLineSelection.text("obiettivo di investimento sostenibile di questo"),
-            PdfLineSelection.text("sono state soddisfatte le caratteristiche ambientali e/o sociali promosse"),
-            PdfLineSelection.text("Nome del prodotto: ")
-        ),
-        TextFilterSfdrArticleStandard(("Nome del prodotto: ",re.compile(" \(.*\)"),re.compile(", un comparto .*"))),
-        DeserializeSfdrArticleStandard()
+    # Il modulo di questo formato **non ha titolo**: prima l'articolo si deduceva fiutando la prosa
+    # ("obiettivo di investimento sostenibile di questo" ⇒ 9), adesso si legge dalla casella, che
+    # qui e' un'immagine sola nella banda -- la vuota e' disegnata.
+    "sfdr_classification": sfdr.ITALIAN.pipeline(
+        product_prefix=(
+            "Nome del prodotto: ",
+            re.compile(r" \(.*\)"),
+            re.compile(r", un comparto .*"),
+        )
     ),
     "esg_indicators": Pipeline(
         esg.pdf_extract,

@@ -2,6 +2,7 @@
 
 from freeports.core import PdfBlock, TextBlock
 import carryover
+import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
@@ -10,20 +11,17 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractCurrencyStandard,
     PdfExtractLabelledValueStandard,
     PdfExtractPageClassifyStandard,
-    PdfExtractSfdrArticleStandard,
 )
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.standard_funcs.text_filter import (
     TextFilterAssetsStandard,
     TextFilterPageClassifyStandard,
-    TextFilterSfdrArticleStandard,
 )
 from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.utils.text_filter import MatchFund
 from freeports.standard_funcs.deserialize import (
     DeserializerAssetsStandard,
     DeserializerPageClassifyStandard,
-    DeserializeSfdrArticleStandard,
 )
 from freeports.consts import Currency
 from freeports.utils.deserialize import to_date_with_it_month, to_int
@@ -342,14 +340,8 @@ pipelines = {
             PdfExtractCurrencyStandard(currency_set)
         )
     ),
-    "sfdr_classification": Pipeline(
-        PdfExtractSfdrArticleStandard(
-            PdfLineSelection.text("per i prodotti finanziari di cui all'articolo 9"),
-            PdfLineSelection.text("per i prodotti finanziari di cui all'articolo 8"),
-            PdfLineSelection.text("Nome del prodotto: "),
-        ),
-        TextFilterSfdrArticleStandard("Nome del prodotto: "),
-        DeserializeSfdrArticleStandard()
-    ),
+    # Il segno e' una `X` di testo, e su quasi tutti i moduli e' **fusa nella riga
+    # dell'etichetta** (`Si'` / `X No`): per questo le etichette si ancorano anche in coda.
+    "sfdr_classification": sfdr.ITALIAN.pipeline(),
     "merges": Pipeline(pdf_extract_merges,text_filter_merges,deserialize_merges)
 }

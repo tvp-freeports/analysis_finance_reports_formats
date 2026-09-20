@@ -1,0 +1,13 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "SFDR_ARTICLE",
+    "metadata": {
+      "article": {
+        "__enum__": "freeports.consts:SfdrArticle:ART_8"
+      }
+    },
+    "content": "Mediolanum Invesco Balanced Risk Coupon Selection",
+    "pdf_block": null
+  }
+]

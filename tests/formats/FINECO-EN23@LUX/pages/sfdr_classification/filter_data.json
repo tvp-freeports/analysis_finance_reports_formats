@@ -1,0 +1,109 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "fund": "CoRe Series – Global Macro Credit FAM Fund",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "CORE SERIES BOND 6M FINECO AM FUND",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "Amazon",
+        "fund": "CORE SERIES CORE AGGRESSIVE",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "name": "Fineco Asset Management DAC",
+        "managed_funds": {
+          "__set__": [
+            "CoRe Series – Global Macro Credit FAM Fund"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CoRe Series – Global Macro Credit FAM Fund"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CORE SERIES BOND 6M FINECO AM FUND"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CORE SERIES CORE AGGRESSIVE"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CORE SERIES CORE ALL EUROPE"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CORE SERIES CORE ALTERNATIVE"
+      }
+    }
+  }
+]

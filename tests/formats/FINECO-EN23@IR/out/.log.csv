@@ -1,1 +1,3 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,975,job[FINECO-EN23@IR]/step[1]/class[sfdr_classification]/document[report]/page[975]/pipeline[sfdr_classification]/text_filter/pipe[TextFilterSfdrSignStandard],,,,,WARN,this disclosure's article was read but the page does not name the fund it belongs to: there is nobody to attribute it to
+report,1058,job[FINECO-EN23@IR]/step[1]/class[sfdr_classification]/document[report]/page[1058]/pipeline[sfdr_classification]/text_filter/pipe[TextFilterSfdrSignStandard],,,,,WARN,this disclosure's article was read but the page does not name the fund it belongs to: there is nobody to attribute it to

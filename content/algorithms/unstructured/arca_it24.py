@@ -1,27 +1,21 @@
 """Unstructured module for ARCA-IT24"""
 
 import carryover
+import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractFundStandard,
     PdfExtractCurrencyConstant,
     PdfExtractLabelledValueStandard,
-    PdfExtractSfdrArticleStandard,
 )
 from freeports.consts import Currency
 from freeports.utils.pdf_extract import (
     LabelledValueWhere,
     PdfLineSelection,
 )
-from freeports.standard_funcs.text_filter import (
-    TextFilterAssetsStandard,
-    TextFilterSfdrArticleStandard,
-)
-from freeports.standard_funcs.deserialize import (
-    DeserializeSfdrArticleStandard,
-    DeserializerAssetsStandard,
-)
+from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
+from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
 from freeports.utils.deserialize import to_int
 from freeports.core import Pipeline
 
@@ -172,17 +166,8 @@ pipelines = {
         text_filter=text_filter_fund_assets_end,
         deserialize=DeserializerAssetsStandard(to_int),
     ),
-    "sfdr_classification": Pipeline(
-        PdfExtractSfdrArticleStandard(
-            PdfLineSelection.text(
-                "informativa periodica per i prodotti finanziari di cui all'articolo 9"
-            ),
-            PdfLineSelection.text(
-                "informativa periodica per i prodotti finanziari di cui all'articolo 8"
-            ),
-            PdfLineSelection(text="Nome del prodotto"),
-        ),
-        TextFilterSfdrArticleStandard(["Nome del prodotto: "]),
-        DeserializeSfdrArticleStandard(),
-    ),
+    # L'articolo si legge dalla casella spuntata, non dal titolo: il titolo resta come verifica
+    # (`R34`). Su questo formato il segno è un'immagine, e una sola nella banda -- la casella vuota
+    # e' disegnata, non fotografata.
+    "sfdr_classification": sfdr.ITALIAN.pipeline(),
 }

@@ -1,13 +1,9 @@
 from freeports.core import (
     Pipeline,PdfBlock
 )
-from freeports.standard_funcs.pdf_extract import (
-    PdfExtractSfdrArticleStandard,
-    PdfExtractPageClassifyStandard
-)
+import sfdr
+from freeports.standard_funcs.pdf_extract import PdfExtractPageClassifyStandard
 from freeports.interfaces.pdf_blks import ResultStandardExtraction
-from freeports.standard_funcs.text_filter import TextFilterSfdrArticleStandard
-from freeports.standard_funcs.deserialize import DeserializeSfdrArticleStandard
 from freeports.utils.pdf_extract import PdfLineSelection,pdflines_from_pagedict
 from . import fund_assets
 from . import investments
@@ -100,20 +96,11 @@ pipelines = {
         (merging.text_filter,merging.text_filter_last_date),
         (merging.deserialize,merging.deserialize_last_date)
     ),
-    "sfdr": Pipeline(
-        PdfExtractSfdrArticleStandard(
-            PdfLineSelection.text("Template periodic disclosure") & PdfLineSelection.text("Article 9"),
-            PdfLineSelection.text("Template periodic disclosure") & PdfLineSelection.text("Article 8"),
-            PdfLineSelection.text("Product name") | PdfLineSelection.area_from_bounds(
-                0.0,
-                PdfLineSelection.text("Product name"),
-                1e6,
-                PdfLineSelection.text("Legal entity identifier")
-            )
-        ),
-        TextFilterSfdrArticleStandard("Product name: "),
-        DeserializeSfdrArticleStandard()
-    ),
+    # Il formato scrive le caselle con il font `funddsymbol`, dove la vuota e' la lettera `U` e
+    # quella spuntata la `C`: e' il caso per cui l'elenco dei segni e' un parametro e non un
+    # criterio. L'elenco predefinito del motore le conosce gia', quindi qui non c'e' niente da
+    # dichiarare.
+    "sfdr": sfdr.ENGLISH.pipeline(),
     "esg_fund": Pipeline(
         esg.pdf_extract_fund,
         esg.text_filter_fund,

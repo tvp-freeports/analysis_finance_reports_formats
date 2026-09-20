@@ -7,7 +7,6 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractCurrencyConstant,
     PdfExtractFundStandard,
     PdfExtractLabelledValueStandard,
-    PdfExtractSfdrArticleStandard
 )
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.core import Pipeline
@@ -20,13 +19,9 @@ from freeports.utils.pdf_extract import (
     get_table_coordinates,
     TablePosAlgorithm,
 )
-from freeports.standard_funcs.text_filter import (
-    TextFilterAssetsStandard,
-    TextFilterSfdrArticleStandard
-)
+from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.interfaces.text_blks import OneTextBlockType,StandardManagmentCompanyTextBlock
 from freeports.standard_funcs.deserialize import (
-    DeserializeSfdrArticleStandard,
     DeserializerAssetsStandard,
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerFromManco

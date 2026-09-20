@@ -1,10 +1,11 @@
 """KAIROS-EN23 format submodule"""
 
 import re
+
+import sfdr
 from freeports.standard_funcs.text_filter import (
     TextFilterInvestmentsStandard,
     TextFilterManagmentCompanyStandard,
-    TextFilterSfdrArticleStandard,
     TextFilterAssetsStandard
 )
 from freeports.interfaces.text_blks import OneTextBlockType,ResultStandardFiltering
@@ -12,14 +13,12 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractManagmentCompanyStandard,
     AssetsColumn,
     PdfExtractAssetsStandard,
-    PdfExtractSfdrArticleStandard,
 )
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
     DeserializerAssetsStandard,
     DeserializerInvestmentsManagerFromManco,
-    DeserializeSfdrArticleStandard,
 )
 from freeports.utils.deserialize import to_int_en_month, to_float
 from freeports.utils.pdf_extract import (
@@ -322,31 +321,11 @@ pipelines = {
             DeserializerInvestmentsManagerFromManco(),
         ),
     ),
-    "sfdr": Pipeline(
-        PdfExtractSfdrArticleStandard(
-            PdfLineSelection.text("Disclosure pursuant to Article 9"),
-            PdfLineSelection.text("Disclosure pursuant to Article 8"),
-            PdfLineSelection.text("Product name: "),
-        ),
-        TextFilterSfdrArticleStandard(fund_prefix=["Product name: "]),
-        DeserializeSfdrArticleStandard()
-    ),
-    "sfdr2": Pipeline(
-        PdfExtractSfdrArticleStandard(
-            PdfLineSelection.text("periodic disclosure for the financial products referred to in Article 9"),
-            PdfLineSelection.text("periodic disclosure for the financial products referred to in Article 8"),
-            (
-                PdfLineSelection.area_from_movewindow(
-                    PdfLineSelection(text='Product name:'),
-                    (0.0,0.0),
-                    3.0,
-                    2.0
-                )
-            ) / PdfLineSelection.text('^ $')
-        ),
-        TextFilterSfdrArticleStandard(re.compile(r'Product name.*:\s*')),
-        DeserializeSfdrArticleStandard()
-    ),
+    # Le due classi di pagina sono due impaginazioni dello stesso allegato, e si leggono con lo
+    # stesso modulo: quello che cambia e' come il rapporto intitola l'allegato e come scrive
+    # l'etichetta del prodotto.
+    "sfdr": sfdr.ENGLISH.pipeline(),
+    "sfdr2": sfdr.ENGLISH.pipeline(product_prefix=re.compile(r'Product name.*:\s*')),
     "esg": Pipeline(
         esg_indicators_pdf_extact_art8,
         esg_indicators_text_filter_art8,
