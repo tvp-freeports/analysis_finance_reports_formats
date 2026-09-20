@@ -1,0 +1,19 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2024-12-31"
+        },
+        "fund": "ANIMA PRIVATE ALTO POTENZIALE 2028",
+        "liabilities": 31434.0,
+        "net_assets": 36806411.0,
+        "tot_assets": 36837845.0
+      }
+    }
+  }
+]

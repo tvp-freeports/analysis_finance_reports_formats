@@ -1,0 +1,80 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "fund": "FIDEURAM ITALIAFIDEURAM ISPB ASSET MANAGEMENT SGR SPA RELAZIONE AL 28 GIUGNO 2024",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "FIDEURAM BILANCIATOFIDEURAM ISPB ASSET MANAGEMENT SGR SPA RELAZIONE AL 28 GIUGNO 2024",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Amazon",
+        "company_match": "Amazon",
+        "fund": "FIDEURAM MONETARIOFIDEURAM ISPB ASSET MANAGEMENT SGR SPA RELAZIONE AL 28 GIUGNO 2024",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "FIDEURAM ITALIAFIDEURAM ISPB ASSET MANAGEMENT SGR SPA RELAZIONE AL 28 GIUGNO 2024"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "FIDEURAM BILANCIATOFIDEURAM ISPB ASSET MANAGEMENT SGR SPA RELAZIONE AL 28 GIUGNO 2024"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "FIDEURAM MONETARIOFIDEURAM ISPB ASSET MANAGEMENT SGR SPA RELAZIONE AL 28 GIUGNO 2024"
+      }
+    }
+  }
+]

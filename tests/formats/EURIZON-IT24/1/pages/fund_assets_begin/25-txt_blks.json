@@ -1,0 +1,15 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "EURIZON GLOBAL DIVIDEND ESG 50 LUGLIO 2025",
+      "tot_assets": " 31.363.698"
+    },
+    "content": "",
+    "pdf_block": null
+  }
+]

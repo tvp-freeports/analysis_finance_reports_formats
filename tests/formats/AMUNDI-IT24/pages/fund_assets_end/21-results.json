@@ -1,0 +1,19 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2024-12-30"
+        },
+        "fund": "Amundi Accumulazione Cina 2026 ",
+        "liabilities": 79654.0,
+        "net_assets": 30686443.0,
+        "tot_assets": 30766097.0
+      }
+    }
+  }
+]

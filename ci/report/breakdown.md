@@ -34,13 +34,9 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `tests.formats.integration` | `EURIZON-IT24/4` | no |
 | `tests.formats.integration` | `KAIROS-EN23/2` | no |
 | `tests.formats.single_page` | `AMUNDI-EN24` | 1 page: 44 |
-| `tests.formats.single_page` | `AMUNDI-IT24` | 1 page: 559 |
-| `tests.formats.single_page` | `ANIMA_SGR-IT24/1` | 1 page: 1449 |
 | `tests.formats.single_page` | `ANIMA_SGR-IT24/2` | 1 page: 35 |
 | `tests.formats.single_page` | `ANIMA_SGR-IT24/3` | 1 page: 13 |
-| `tests.formats.single_page` | `ANIMA_SGR-IT24/4` | 1 page: 12 |
 | `tests.formats.single_page` | `ANIMA_SICAV-EN24` | 1 page: 23 |
-| `tests.formats.single_page` | `ARCA-IT24/1` | 1 page: 21 |
 | `tests.formats.single_page` | `ARCA-IT24/2` | 1 page: 19 |
 | `tests.formats.single_page` | `DANSKEINVEST-EN24` | 1 page: 163 |
 | `tests.formats.single_page` | `EURIZON-EN21` | 1 page: 98 |
@@ -48,12 +44,15 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `tests.formats.single_page` | `EURIZON-IT24/4` | 1 page: 14 |
 | `tests.formats.single_page` | `MEDIOLANUM-EN23` | 1 page: 18 |
 | `tests.formats.single_page` | `MEDIOLANUM-ES24.B` | 1 page: 20 |
+| `tests.formats.single_page` | `MEDIOLANUM-IT24.C` | 1 page: 492 |
+| `tests.formats.single_page` | `ANIMA_SGR-IT24/5` | 2 pages: 13, 14 |
+| `tests.formats.single_page` | `ASTERIA-EN23` | 2 pages: 22, 27 |
+| `tests.formats.single_page` | `ASTERIA-EN24` | 2 pages: 78, 79 |
 | `docs.python` | `algorithms.unstructured.eurizon_en23` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.esg_indicators` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.fund_assets` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.investment_managers` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.merging` | 0.0 % |
-| `docs.python` | `algorithms.unstructured.fideuram_it24` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.fineco_en23_ir.fund_assets` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.fineco_en23_lux.fund_assets` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.fineco_en23_lux.inv_managers` | 0.0 % |
@@ -63,6 +62,7 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `docs.python` | `algorithms.unstructured.mediolanum_it24_a.fund_assets` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.ubs_en23` | 0.0 % |
 | `docs.python` | `templates.inv_managers.assignment.Declared` | 0.0 % |
+| `docs.python` | `templates.mediolanum_24` | 0.0 % |
 | `lint.python` | `F401` | 76 |
 | `lint.python` | `E741` | 16 |
 | `lint.python` | `F841` | 3 |
@@ -70,6 +70,6 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `lint.python` | `F811` | 1 |
 | `grants.coverage` | `basic check` | 1.0 % |
 
-Only the worst 15 lines of each metric are shown: tests.formats.single_page (21 more), docs.python (30 more). `freeports-dev ci-report --format json` carries every one of them.
+Only the worst 15 lines of each metric are shown: tests.formats.single_page (21 more), docs.python (37 more). `freeports-dev ci-report --format json` carries every one of them.
 
 <!-- freeports-dev:end -->

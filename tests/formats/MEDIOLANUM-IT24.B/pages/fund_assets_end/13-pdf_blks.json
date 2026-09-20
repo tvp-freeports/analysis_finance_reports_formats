@@ -1,0 +1,32 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
+    "metadata": {},
+    "content": "Fondo Mediolanum Flessibile Futuro Italia "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
+    "metadata": {},
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "ASSETS_DATE",
+    "metadata": {},
+    "content": "30/12/2024 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "LIABILITIES",
+    "metadata": {},
+    "content": "1.475.252 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NET_ASSETS",
+    "metadata": {},
+    "content": "2.141.430.461 "
+  }
+]

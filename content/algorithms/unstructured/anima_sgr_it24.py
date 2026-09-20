@@ -1,26 +1,39 @@
 """Custom pipeline for ANIMA_SGR-IT24"""
 
 from freeports.core import PdfBlock, TextBlock
+import carryover
+
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
+    PdfExtractCurrencyConstant,
     PdfExtractFundStandard,
     PdfExtractCurrencyStandard,
+    PdfExtractLabelledValueStandard,
     PdfExtractPageClassifyStandard,
     PdfExtractSfdrArticleStandard,
 )
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.standard_funcs.text_filter import (
+    TextFilterAssetsStandard,
     TextFilterPageClassifyStandard,
     TextFilterSfdrArticleStandard,
 )
 from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.utils.text_filter import MatchFund
 from freeports.standard_funcs.deserialize import (
+    DeserializerAssetsStandard,
     DeserializerPageClassifyStandard,
     DeserializeSfdrArticleStandard,
 )
-from freeports.utils.deserialize import to_date_with_it_month
-from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict, get_table_coordinates
+from freeports.consts import Currency
+from freeports.utils.deserialize import to_date_with_it_month, to_int
+from freeports.utils.pdf_extract import (
+    LabelledValueWhere,
+    LabelledValueTake,
+    PdfLineSelection,
+    pdflines_from_pagedict,
+    get_table_coordinates,
+)
 from freeports.core import Pipeline
 from freeports.output import Fund, FundMerge
 import re
@@ -150,6 +163,126 @@ header_sets_merges=[
     PdfLineSelection.text("ONDO RICEVENTE") & h_font_selection
 ]
 
+
+# ----------------------------------------------------------------------------------------------
+# La situazione patrimoniale, che sta su due pagine (`FA-2` e `FA-3`)
+# ----------------------------------------------------------------------------------------------
+# Centotre coppie su cinque documenti, e questo formato porta il caso che `R8` prevede: **lo stesso
+# prospetto in quattro famiglie tipografiche**. Lato e Lato Bold nei due documenti grandi,
+# Trebuchet nel secondo e nel quarto, Open Sans nel terzo, e il secondo e il quarto mescolano —
+# testatine in Open Sans o in Lato, tabella in Trebuchet. Il carattere entra quindi come
+# **unione di varianti**, che e' esattamente cio' che `R8` autorizza, e il resto della ricetta non
+# cambia di una riga.
+#
+# Il nome del comparto sta nella testatina in alto a destra, tranne nel quarto documento, dove la
+# riga e' una sola e comincia con la societa' di gestione. Quel documento pero' porta **un fondo
+# solo**, quindi `carryover.sole_fund` risponde, e lo dichiara come valore imposto (`R3`).
+
+TOT_ASSETS = "TOT_ASSETS"
+LIABILITIES = "LIABILITIES"
+NET_ASSETS = "NET_ASSETS"
+ASSETS_DATE = "ASSETS_DATE"
+FUND_NAME = "FUND_NAME"
+
+assets_bold_set = (
+    PdfLineSelection.font("LatoBold")
+    | PdfLineSelection.font("TrebuchetMS-Bold")
+    | PdfLineSelection.font("Open-SansBold")
+) & PdfLineSelection(font_size=(6.9, 7.1))
+
+assets_body_set = (
+    PdfLineSelection.font("Lato")
+    | PdfLineSelection.font("TrebuchetMS")
+    | PdfLineSelection.font("Open-Sans")
+) & PdfLineSelection(font_size=(6.9, 7.1))
+
+# La testatina in alto a destra. Il prefisso d'ombrello e' l'ancora: nella stessa area il quarto
+# documento ha solo uno spazio, che senza il prefisso diventerebbe il nome del comparto.
+assets_fund_set = PdfLineSelection(text="^ANIMA") & PdfLineSelection(
+    area=(300.0, 20.0, 1e6, 50.0)
+)
+
+# `R5`: l'esercizio corrente e' cio' che sta a sinistra dell'intestazione dell'esercizio
+# precedente, meno le percentuali, che sono le sole a portare il segno.
+current_year = PdfLineSelection.area_from_bounds(
+    0.0, 0.0, PdfLineSelection(text="^Situazione a fine"), 1e6
+) - PdfLineSelection(text="%")
+
+assets_carryover = carryover.Carryover("tot_assets")
+
+pdf_extract_assets_fund = PdfExtractLabelledValueStandard(
+    assets_fund_set, FUND_NAME, "fund", take=LabelledValueTake.ALL
+)
+
+pdf_extract_tot_assets = PdfExtractLabelledValueStandard(
+    assets_bold_set & PdfLineSelection(text="^TOTALE ATTIVITA'"),
+    TOT_ASSETS,
+    "tot_assets",
+    where=LabelledValueWhere.RIGHT,
+    value=current_year,
+)
+
+pdf_extract_liabilities = PdfExtractLabelledValueStandard(
+    assets_bold_set & PdfLineSelection(text="^TOTALE PASSIVITA'"),
+    LIABILITIES,
+    "liabilities",
+    where=LabelledValueWhere.RIGHT,
+    value=current_year,
+)
+
+# `CLASSE AM`, `CLASSE FM`, `CLASSE IM`: il netto delle classi di quote, non quello del fondo.
+pdf_extract_net_assets = PdfExtractLabelledValueStandard(
+    (assets_bold_set & PdfLineSelection(text="^VALORE COMPLESSIVO NETTO DEL FONDO"))
+    - PdfLineSelection(text="CLASSE"),
+    NET_ASSETS,
+    "net_assets",
+    where=LabelledValueWhere.RIGHT,
+    value=current_year,
+)
+
+pdf_extract_assets_date = PdfExtractLabelledValueStandard(
+    assets_body_set & PdfLineSelection(text="^Situazione al"),
+    ASSETS_DATE,
+    "assets date",
+    where=LabelledValueWhere.BELOW,
+)
+
+record_begin = carryover.Record(
+    fund=FUND_NAME, currency="CURRENCY_STATEMENT", tot_assets=TOT_ASSETS
+)
+
+record_end = carryover.Record(
+    fund=FUND_NAME,
+    currency="CURRENCY_STATEMENT",
+    date=ASSETS_DATE,
+    liabilities=LIABILITIES,
+    net_assets=NET_ASSETS,
+)
+
+assets_filter = TextFilterAssetsStandard()
+
+
+def _fund_the_page_does_not_name(pdf_blks, filter_data):
+    """Il ripiego per il documento a un fondo solo, chiesto **solo** quando serve davvero."""
+    if any(blk.type_block == FUND_NAME for blk in pdf_blks):
+        return None
+    name = carryover.sole_fund(filter_data)
+    return {"fund": name} if name else None
+
+
+def text_filter_fund_assets_begin(pdf_blks, filter_data):
+    """La prima delle due pagine: un prospetto solo, filtrato sui fondi d'interesse."""
+    also = _fund_the_page_does_not_name(pdf_blks, filter_data)
+    return assets_filter(record_begin(pdf_blks, also=also), filter_data)
+
+
+def text_filter_fund_assets_end(pdf_blks, filter_data):
+    """La seconda: il filtro **prima** e la promessa **dopo**."""
+    also = _fund_the_page_does_not_name(pdf_blks, filter_data)
+    blocks = assets_filter(record_end(pdf_blks, also=also), filter_data)
+    return assets_carryover.resume(blocks, filter_data)
+
+
 pipelines = {
     "": Pipeline(
         pdf_extract=(
@@ -161,10 +294,46 @@ pipelines = {
             ),
             PdfExtractPageClassifyStandard(
                 header_sets=PdfLineSelection.text("aveva un obiettivo di investimento sostenibile"),page_type="sfdr_classification"
-            )
+            ),
+            # Senza carattere: le quattro famiglie tipografiche del formato non si scrivono in un
+            # insieme solo, e la congiunzione delle due etichette basta da se'.
+            PdfExtractPageClassifyStandard(
+                header_sets=[
+                    PdfLineSelection.text("^SITUAZIONE PATRIMONIALE"),
+                    PdfLineSelection.text("^TOTALE ATTIVITA'"),
+                ],
+                page_type="fund_assets_begin",
+            ),
+            PdfExtractPageClassifyStandard(
+                header_sets=[
+                    PdfLineSelection.text("^PASSIVITA' E NETTO"),
+                    PdfLineSelection.text("^TOTALE PASSIVITA'"),
+                ],
+                page_type="fund_assets_end",
+            ),
         ),
         text_filter=TextFilterPageClassifyStandard(),
         deserialize=DeserializerPageClassifyStandard(),
+    ),
+    "fund_assets_begin": Pipeline(
+        pdf_extract=(
+            pdf_extract_assets_fund,
+            PdfExtractCurrencyConstant(Currency.EUR),
+            pdf_extract_tot_assets,
+        ),
+        text_filter=text_filter_fund_assets_begin,
+        deserialize=assets_carryover.deposit,
+    ),
+    "fund_assets_end": Pipeline(
+        pdf_extract=(
+            pdf_extract_assets_fund,
+            PdfExtractCurrencyConstant(Currency.EUR),
+            pdf_extract_assets_date,
+            pdf_extract_liabilities,
+            pdf_extract_net_assets,
+        ),
+        text_filter=text_filter_fund_assets_end,
+        deserialize=DeserializerAssetsStandard(to_int),
     ),
     "investments": Pipeline(
         pdf_extract=(

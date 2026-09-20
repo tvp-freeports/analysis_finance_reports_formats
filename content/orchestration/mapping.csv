@@ -28,3 +28,16 @@ KAIROS-EN23(fund_assets),fund_assets
 KAIROS-EN23(sfdr),sfdr_classification
 KAIROS-EN23(esg),sfdr_classification
 KAIROS-EN23(sfdr2),sfdr_classification_2
+ARCA-IT24(investments),investments
+ARCA-IT24(fund_assets_begin),fund_assets_begin
+ARCA-IT24(fund_assets_end),fund_assets_end
+ARCA-IT24(sfdr_classification),sfdr_classification
+MEDIOLANUM-IT24.B(investments),investments
+MEDIOLANUM-IT24.B(fund_assets_begin),fund_assets_begin
+MEDIOLANUM-IT24.B(fund_assets_end),fund_assets_end
+FIDEURAM-IT24(manco),manco
+FIDEURAM-IT24(fund_assets_begin),fund_assets_begin
+FIDEURAM-IT24(fund_assets_end),fund_assets_end
+FIDEURAM-IT24(investments),investments
+EURIZON-IT24(fund_assets_begin),fund_assets_begin
+EURIZON-IT24(fund_assets_end),fund_assets_end

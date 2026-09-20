@@ -33,10 +33,18 @@ EURIZON-IT24/9,"""stata la prestazione degli indicatori di sosten""",esg_indicat
 EURIZON-IT24/9,"""Allegato SFDR - Pag. 7$""",esg_indicators
 EURIZON-IT24/10,"""stata la prestazione degli indicatori di sosten""",esg_indicators
 EURIZON-IT24/10,"""Allegato SFDR - Pag. 8$""",esg_indicators
+EURIZON-IT24/11,"TrebuchetMSBold ""^ATTIVITA'""",fund_assets_begin
+EURIZON-IT24/11,"TrebuchetMS ""^TOTALE ATTIVITA'""",fund_assets_begin
+EURIZON-IT24/12,"TrebuchetMSBold ""^PASSIVITA' E NETTO""",fund_assets_end
+EURIZON-IT24/12,"TrebuchetMSBold ""^TOTALE PASSIVITA'""",fund_assets_end
 UBS-EN23,"Frutiger45LightBold ""Nominal """,investments
 MEDIOLANUM-IT24.C,"""Valutazione """,investments
 AMUNDI-EN24,"ArialNarrow-BoldItalic ""Securities Portfolio as at""",investments
 AMUNDI-IT24,"TrebuchetMS-Bold ""Titolo""",investments
+AMUNDI-IT24/1,"TrebuchetMS-Bold ""^ATTIVITÀ""",fund_assets_begin
+AMUNDI-IT24/1,"TrebuchetMS-Bold ""^TOTALE ATTIVITÀ""",fund_assets_begin
+AMUNDI-IT24/2,"TrebuchetMS-Bold ""^PASSIVITÀ E NETTO""",fund_assets_end
+AMUNDI-IT24/2,"TrebuchetMS-Bold ""^TOTALE PASSIVITÀ""",fund_assets_end
 ANIMA-EN23/0,"Helvetica-Bold ""Holdings""",investments
 ANIMA-EN23/1,"helvetica-condensed-bold ""^Statement of Financial Position""",fund_assets
 ANIMA-EN23/1,"helvetica-condensed-blac ""ANIMA Funds Plc""",fund_assets
@@ -47,6 +55,10 @@ ANIMA_SICAV-EN24,"ArialNarrow-Bold ""Quantity/""",investments
 ARCA-IT24/0,"TrebuchetMS-Bold ""Titoli""",investments
 ARCA-IT24/0,"TrebuchetMS-Bold ""Divisa""",investments
 ARCA-IT24/1,"""informativa periodica per i prodotti finanziari""",sfdr_classification
+ARCA-IT24/2,"TrebuchetMS-Bold ""^ATTIVITA'""",fund_assets_begin
+ARCA-IT24/2,"TrebuchetMS-Bold ""^TOTALE ATTIVITA'""",fund_assets_begin
+ARCA-IT24/3,"TrebuchetMS-Bold ""^PASSIVITA' E NETTO""",fund_assets_end
+ARCA-IT24/3,"TrebuchetMS-Bold ""^TOTALE PASSIVITA'""",fund_assets_end
 ASTERIA-EN23,"CenturyGothic-Bold ""Number of Shares/""",investments
 ASTERIA-EN24,"CenturyGothic-Bold ""Transferable securities admitted to an official stock""",investments
 DANSKEINVEST-EN24,"Calibri[13] ""Statement of Investments""",investments
@@ -55,6 +67,10 @@ FIDEURAM-EN23,"Arial ""Country""",investments
 FIDEURAM-IT24/0,"Tahoma,Bold ""Titolo""",investments
 FIDEURAM-IT24/0,"Tahoma,Bold ""Controvalore""",investments
 FIDEURAM-IT24/1,"arialitalic[15.48] ""Fondi comuni di investimento""",manco
+FIDEURAM-IT24/2,"TahomaBold ""^ATTIVITÀ""",fund_assets_begin
+FIDEURAM-IT24/2,"TahomaBold ""^TOTALE ATTIVITA'""",fund_assets_begin
+FIDEURAM-IT24/3,"TahomaBold ""^PASSIVITÀ E NETTO""",fund_assets_end
+FIDEURAM-IT24/3,"TahomaBold ""^TOTALE PASSIVITA'""",fund_assets_end
 MEDIOLANUM-ES24.B/0,"Helvetica-Bold ""Descripc""",investments
 MEDIOLANUM-ES24.B/0,"Helvetica-Bold ""Divisa""",investments
 MEDIOLANUM-ES24.B/0,"Helvetica-Bold ""Periodo actual""",investments
@@ -74,6 +90,10 @@ MEDIOLANUM-IT24.A/5,"""Qual è stata la prestazione degli indicatori di sostenib
 MEDIOLANUM-IT24.A/5,"""^PAI $""",esg_indicators
 MEDIOLANUM-IT24.B,"Helvetica-Bold ""Titolo""",investments
 MEDIOLANUM-IT24.B,"Helvetica-Bold ""Controvalore""",investments
+MEDIOLANUM-IT24.B/1,"Helvetica-Bold ""^SITUAZIONE PATRIMONIALE""",fund_assets_begin
+MEDIOLANUM-IT24.B/1,"Helvetica-Bold ""^TOTALE ATTIVITÀ""",fund_assets_begin
+MEDIOLANUM-IT24.B/2,"Helvetica-Bold ""^TOTALE PASSIVITÀ""",fund_assets_end
+MEDIOLANUM-IT24.B/2,"Helvetica ""VALORE COMPLESSIVO NETTO DEL FONDO""",fund_assets_end
 MEDIOLANUM-IT24.C,"[7.920006] ""Descrizione""",investments
 MEDIOLANUM-EN24/0,"[8.04] ""Face value""",investments
 MEDIOLANUM-EN24/1,"[9.48] ""MANAGER AND GLOBAL""",inv_managers_begin

@@ -1,0 +1,19 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2024-12-30"
+        },
+        "fund": "Fondo Mediolanum Flessibile Futuro Italia ",
+        "liabilities": 1475252.0,
+        "net_assets": 2141430461.0,
+        "tot_assets": 2142905713.0
+      }
+    }
+  }
+]

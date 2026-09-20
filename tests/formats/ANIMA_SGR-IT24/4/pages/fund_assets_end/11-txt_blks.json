@@ -1,0 +1,18 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "date": "31/12/2024 ",
+      "fund": "ANIMA PRIVATE ALTO POTENZIALE 2028",
+      "liabilities": "31.434 ",
+      "net_assets": "36.806.411 ",
+      "tot_assets": "36.837.845 "
+    },
+    "content": "",
+    "pdf_block": null
+  }
+]

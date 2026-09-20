@@ -1,0 +1,19 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2024-12-31"
+        },
+        "fund": "ANIMA LIQUIDITA' EURO ",
+        "liabilities": 4232895.0,
+        "net_assets": 3536468027.0,
+        "tot_assets": 3540700922.0
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "date": "31/12/2024 ",
+      "fund": "ANIMA LIQUIDITA' EURO ",
+      "liabilities": "4.232.895 ",
+      "net_assets": "3.536.468.027 ",
+      "tot_assets": "3.540.700.922 "
+    },
+    "content": "",
+    "pdf_block": null
+  }
+]

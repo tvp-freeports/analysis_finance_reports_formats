@@ -1,0 +1,32 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
+    "metadata": {},
+    "content": "ARCA OPPORTUNITÀ GREEN 2027 VIII"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
+    "metadata": {},
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "ASSETS_DATE",
+    "metadata": {},
+    "content": "30/12/2024 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "LIABILITIES",
+    "metadata": {},
+    "content": "274.045 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NET_ASSETS",
+    "metadata": {},
+    "content": "21.696.650 "
+  }
+]

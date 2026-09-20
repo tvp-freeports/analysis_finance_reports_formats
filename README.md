@@ -124,12 +124,14 @@ the code somebody fixes.
 | --- | ---: | ---: | --- |
 | `tests.formats.integration` | 86.1 % | 86.0 % | pass |
 | `tests.formats.single_page` | 100.0 % | 100.0 % | pass |
-| `docs.python` | 33.5 % | 18.0 % | pass |
-| `lint.python` | 9.742 | 9.600 | pass |
+| `docs.python` | 40.5 % | 18.0 % | pass |
+| `lint.python` | 9.790 | 9.600 | pass |
 | `grants.coverage` | 100.0 % | 100.0 % | stale |
 | `grants.keys_online` | 100.0 % | 100.0 % | stale |
 
 grants.coverage, grants.keys_online — measured at c3b3dafe, not at this one. Run `make ci` to take it again.
+
+formats.integration — last run at a335073a, not at HEAD (306a49b4). Run `make test-slow`.
 
 *pass* — measured, current, and at or above the minimum this repository asks for.
 

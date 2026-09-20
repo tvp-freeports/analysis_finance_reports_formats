@@ -1,0 +1,18 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "date": "28/06/2024",
+      "fund": "Fideuram Italia/Fideuram ISPB Asset Management SGR S.p.A. - Relazione al 28 giugno 2024",
+      "liabilities": "176.204",
+      "net_assets": "35.560.480",
+      "tot_assets": "35.736.684"
+    },
+    "content": "",
+    "pdf_block": null
+  }
+]

@@ -1,2 +1,4 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,8,job[ARCA-IT24]/step[1]/class[fund_assets_begin]/document[report]/page[8]/pipeline[fund_assets_begin]/pdf_extract/pipe[PdfExtractCurrencyConstant],,currency,,,WARN,"currency was not read: imposed as ""EUR"" - declared by the format, not written in the report - holds for every page of it"
+report,9,job[ARCA-IT24]/step[2]/class[fund_assets_end]/document[report]/page[9]/pipeline[fund_assets_end]/pdf_extract/pipe[PdfExtractCurrencyConstant],,currency,,,WARN,"currency was not read: imposed as ""EUR"" - declared by the format, not written in the report - holds for every page of it"
 report,19,job[ARCA-IT24]/step[0]/class[investments]/document[report]/page[19]/pipeline[investments]/pdf_extract/pipe[PdfExtractCurrencyConstant],,currency,,,WARN,"currency was not read: imposed as ""EUR"" - declared by the format, not written in the report - holds for every page of it"

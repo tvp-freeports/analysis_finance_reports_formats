@@ -1,15 +1,19 @@
 """Unstructured module for EURIZON-IT24"""
 
+import carryover
+
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractCurrencyConstant,
     PdfExtractFundStandard,
+    PdfExtractLabelledValueStandard,
     PdfExtractSfdrArticleStandard
 )
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.core import Pipeline
 from freeports.utils.pdf_extract import (
     ExtractTextPdfBlockOrFailPage,
+    LabelledValueWhere,
     PdfLineSelection,
     pdflines_from_pagedict,
     get_groups,
@@ -17,15 +21,17 @@ from freeports.utils.pdf_extract import (
     TablePosAlgorithm,
 )
 from freeports.standard_funcs.text_filter import (
+    TextFilterAssetsStandard,
     TextFilterSfdrArticleStandard
 )
 from freeports.interfaces.text_blks import OneTextBlockType,StandardManagmentCompanyTextBlock
 from freeports.standard_funcs.deserialize import (
     DeserializeSfdrArticleStandard,
+    DeserializerAssetsStandard,
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerFromManco
 )
-from freeports.utils.deserialize import to_date_with_it_month, deserialize_block_type
+from freeports.utils.deserialize import to_date_with_it_month, to_int, deserialize_block_type
 from freeports.utils.text_filter import MatchFund,investment_fund_filter_data
 from freeports.consts import Currency, SfdrArticle
 from freeports.core import Promise
@@ -318,7 +324,112 @@ def esg_indicators_deserialize(txt_blk):
     )
 
 
+
+# ----------------------------------------------------------------------------------------------
+# La situazione patrimoniale, che sta su due pagine (`FA-2` e `FA-3`)
+# ----------------------------------------------------------------------------------------------
+# Un comparto per documento, e la pagina del prospetto **non lo nomina**: il nome sta sulla pagina
+# degli investimenti, che lo `algorithms_schedule.csv` fa girare prima. E' l'altro caso di `U7` —
+# un valore che una pagina prende da un'altra — e lo risolve `carryover.sole_fund`, che lo
+# dichiara come valore imposto (`R3`) perche' imposto e'.
+
+TOT_ASSETS = "TOT_ASSETS"
+LIABILITIES = "LIABILITIES"
+NET_ASSETS = "NET_ASSETS"
+ASSETS_DATE = "ASSETS_DATE"
+
+# `TOTALE ATTIVITA'` e' in tondo e `TOTALE PASSIVITA'` in nero: due corpi, non uno.
+assets_body_set = PdfLineSelection(font="TrebuchetMS", font_size=(5.9, 6.1))
+assets_bold_set = PdfLineSelection(font="TrebuchetMSBold", font_size=(5.9, 6.1))
+
+# `R5`: l'esercizio precedente non si estrae. Sull'attivo il valore finisce a 319,6 e la
+# percentuale comincia a 352,6; sul passivo il valore finisce a 397,7 e l'esercizio precedente
+# comincia a 459,8.
+current_year_on_assets = PdfLineSelection.area(0.0, 0.0, 335.0, 1e6)
+current_year_on_liabilities = PdfLineSelection.area(0.0, 0.0, 430.0, 1e6)
+
+assets_carryover = carryover.Carryover("tot_assets")
+
+pdf_extract_tot_assets = PdfExtractLabelledValueStandard(
+    assets_body_set & PdfLineSelection(text="^TOTALE ATTIVITA'"),
+    TOT_ASSETS,
+    "tot_assets",
+    where=LabelledValueWhere.RIGHT,
+    value=current_year_on_assets,
+)
+
+pdf_extract_liabilities = PdfExtractLabelledValueStandard(
+    assets_bold_set & PdfLineSelection(text="^TOTALE PASSIVITA'"),
+    LIABILITIES,
+    "liabilities",
+    where=LabelledValueWhere.RIGHT,
+    value=current_year_on_liabilities,
+)
+
+# `Valore complessivo netto della classe` e' la classe di quote e sta nello stesso carattere:
+# a distinguerla e' solo `del fondo`.
+pdf_extract_net_assets = PdfExtractLabelledValueStandard(
+    assets_body_set & PdfLineSelection(text="^Valore complessivo netto del fondo"),
+    NET_ASSETS,
+    "net_assets",
+    where=LabelledValueWhere.RIGHT,
+    value=current_year_on_liabilities,
+)
+
+# `R17`: la data si prende dalla colonna. `Situazione a fine esercizio` e' l'altra.
+pdf_extract_assets_date = PdfExtractLabelledValueStandard(
+    assets_body_set & PdfLineSelection(text="^Situazione al"),
+    ASSETS_DATE,
+    "assets date",
+    where=LabelledValueWhere.BELOW,
+)
+
+record_begin = carryover.Record(currency="CURRENCY_STATEMENT", tot_assets=TOT_ASSETS)
+
+record_end = carryover.Record(
+    currency="CURRENCY_STATEMENT",
+    date=ASSETS_DATE,
+    liabilities=LIABILITIES,
+    net_assets=NET_ASSETS,
+)
+
+assets_filter = TextFilterAssetsStandard()
+
+
+def text_filter_fund_assets_begin(pdf_blks, filter_data):
+    fund = carryover.sole_fund(filter_data)
+    if fund is None:
+        return []
+    return assets_filter(record_begin(pdf_blks, also={"fund": fund}), filter_data)
+
+
+def text_filter_fund_assets_end(pdf_blks, filter_data):
+    fund = carryover.sole_fund(filter_data)
+    if fund is None:
+        return []
+    blocks = assets_filter(record_end(pdf_blks, also={"fund": fund}), filter_data)
+    return assets_carryover.resume(blocks, filter_data)
+
+
 pipelines = {
+    "fund_assets_begin": Pipeline(
+        pdf_extract=(
+            PdfExtractCurrencyConstant(Currency.EUR),
+            pdf_extract_tot_assets,
+        ),
+        text_filter=text_filter_fund_assets_begin,
+        deserialize=assets_carryover.deposit,
+    ),
+    "fund_assets_end": Pipeline(
+        pdf_extract=(
+            PdfExtractCurrencyConstant(Currency.EUR),
+            pdf_extract_assets_date,
+            pdf_extract_liabilities,
+            pdf_extract_net_assets,
+        ),
+        text_filter=text_filter_fund_assets_end,
+        deserialize=DeserializerAssetsStandard(to_int),
+    ),
     "manco": Pipeline(
         pdf_extract=pdf_filter_manco,
         text_filter=text_filter_manco,

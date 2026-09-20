@@ -1,0 +1,15 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+      "tot_assets": "21.970.695"
+    },
+    "content": "",
+    "pdf_block": null
+  }
+]

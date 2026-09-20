@@ -1,0 +1,19 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2024-12-30"
+        },
+        "fund": "ARCA OPPORTUNITÀ GREEN 2027 VIII",
+        "liabilities": 274045.0,
+        "net_assets": 21696650.0,
+        "tot_assets": 21970695.0
+      }
+    }
+  }
+]

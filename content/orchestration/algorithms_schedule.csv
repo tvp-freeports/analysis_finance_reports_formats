@@ -1,5 +1,7 @@
 Format name,Page type,Filter next iteration
 ANIMA_SGR-IT24,investments,TRUE
+ANIMA_SGR-IT24,fund_assets_begin,TRUE
+ANIMA_SGR-IT24,fund_assets_end,
 ANIMA_SGR-IT24,merges,
 ANIMA_SGR-IT24,sfdr_classification,
 CARNE-EN23,investments,TRUE
@@ -25,6 +27,8 @@ EURIZON-EN23,subsequent_events,
 EURIZON-EN23,sfdr_classification,
 EURIZON-EN23,esg_indicators,
 EURIZON-IT24,investments,TRUE
+EURIZON-IT24,fund_assets_begin,TRUE
+EURIZON-IT24,fund_assets_end,
 EURIZON-IT24,sfdr_page_1,
 EURIZON-IT24,sfdr_page_2,
 EURIZON-IT24,esg_indicators,
@@ -47,6 +51,8 @@ FINECO-EN23@LUX,fund_assets,
 FINECO-EN23@LUX,sfdr_classification,
 FINECO-EN23@LUX,inv_managers,
 FIDEURAM-IT24,investments,TRUE
+FIDEURAM-IT24,fund_assets_begin,TRUE
+FIDEURAM-IT24,fund_assets_end,
 FIDEURAM-IT24,manco,
 KAIROS-EN23,investments,TRUE
 KAIROS-EN23,sfdr_classification,
@@ -60,6 +66,14 @@ ANIMA-EN23,manco,
 ANIMA-EN23,fund_assets,
 ANIMA-EN23,sfdr_classification,
 ARCA-IT24,investments,TRUE
+ARCA-IT24,fund_assets_begin,TRUE
+ARCA-IT24,fund_assets_end,
 ARCA-IT24,sfdr_classification,
 UBS-EN23,investments,TRUE
 UBS-EN23,manco,
+MEDIOLANUM-IT24.B,investments,TRUE
+MEDIOLANUM-IT24.B,fund_assets_begin,TRUE
+MEDIOLANUM-IT24.B,fund_assets_end,
+AMUNDI-IT24,investments,TRUE
+AMUNDI-IT24,fund_assets_begin,TRUE
+AMUNDI-IT24,fund_assets_end,

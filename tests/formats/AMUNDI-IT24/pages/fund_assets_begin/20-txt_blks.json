@@ -1,0 +1,15 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Amundi Accumulazione Cina 2026 ",
+      "tot_assets": "30.766.097 "
+    },
+    "content": "",
+    "pdf_block": null
+  }
+]

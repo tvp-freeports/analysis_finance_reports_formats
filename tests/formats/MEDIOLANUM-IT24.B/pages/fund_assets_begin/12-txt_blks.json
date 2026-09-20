@@ -1,0 +1,15 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "Fondo Mediolanum Flessibile Futuro Italia ",
+      "tot_assets": "2.142.905.713 "
+    },
+    "content": "",
+    "pdf_block": null
+  }
+]
