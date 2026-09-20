@@ -7,6 +7,7 @@ ANIMA_SGR-IT24,sfdr_classification,
 CARNE-EN23,investments,TRUE
 CARNE-EN23,fund_assets,
 CARNE-EN23,manco,
+CARNE-EN23,sfdr_classification,
 MEDIOLANUM-EN24,investments,TRUE
 MEDIOLANUM-EN24,inv_managers_end,
 MEDIOLANUM-EN24,inv_managers,TRUE
@@ -71,9 +72,18 @@ ARCA-IT24,fund_assets_end,
 ARCA-IT24,sfdr_classification,
 UBS-EN23,investments,TRUE
 UBS-EN23,manco,
+UBS-EN23,sfdr_classification,
 MEDIOLANUM-IT24.B,investments,TRUE
 MEDIOLANUM-IT24.B,fund_assets_begin,TRUE
 MEDIOLANUM-IT24.B,fund_assets_end,
+MEDIOLANUM-IT24.B,sfdr_classification,
 AMUNDI-IT24,investments,TRUE
 AMUNDI-IT24,fund_assets_begin,TRUE
 AMUNDI-IT24,fund_assets_end,
+AMUNDI-IT24,sfdr_classification,
+AMUNDI-EN24,investments,TRUE
+AMUNDI-EN24,sfdr_classification,
+ASTERIA-EN24,investments,TRUE
+ASTERIA-EN24,sfdr_classification,
+DANSKEINVEST-EN24,investments,TRUE
+DANSKEINVEST-EN24,sfdr_classification,

@@ -33,21 +33,21 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `tests.formats.integration` | `EURIZON-IT24/3` | no |
 | `tests.formats.integration` | `EURIZON-IT24/4` | no |
 | `tests.formats.integration` | `KAIROS-EN23/2` | no |
-| `tests.formats.single_page` | `AMUNDI-EN24` | 1 page: 44 |
 | `tests.formats.single_page` | `ANIMA_SGR-IT24/2` | 1 page: 35 |
 | `tests.formats.single_page` | `ANIMA_SGR-IT24/3` | 1 page: 13 |
 | `tests.formats.single_page` | `ANIMA_SICAV-EN24` | 1 page: 23 |
 | `tests.formats.single_page` | `ARCA-IT24/2` | 1 page: 19 |
-| `tests.formats.single_page` | `DANSKEINVEST-EN24` | 1 page: 163 |
 | `tests.formats.single_page` | `EURIZON-EN21` | 1 page: 98 |
 | `tests.formats.single_page` | `EURIZON-IT24/3` | 1 page: 14 |
 | `tests.formats.single_page` | `EURIZON-IT24/4` | 1 page: 14 |
 | `tests.formats.single_page` | `MEDIOLANUM-EN23` | 1 page: 18 |
 | `tests.formats.single_page` | `MEDIOLANUM-ES24.B` | 1 page: 20 |
 | `tests.formats.single_page` | `MEDIOLANUM-IT24.C` | 1 page: 492 |
+| `tests.formats.single_page` | `AMUNDI-EN24` | 2 pages: 44, 777 |
 | `tests.formats.single_page` | `ANIMA_SGR-IT24/5` | 2 pages: 13, 14 |
 | `tests.formats.single_page` | `ASTERIA-EN23` | 2 pages: 22, 27 |
-| `tests.formats.single_page` | `ASTERIA-EN24` | 2 pages: 78, 79 |
+| `tests.formats.single_page` | `DANSKEINVEST-EN24` | 2 pages: 163, 364 |
+| `tests.formats.single_page` | `EURIZON-EN23/2` | 2 pages: 1016, 1017 |
 | `docs.python` | `algorithms.unstructured.eurizon_en23` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.esg_indicators` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.fund_assets` | 0.0 % |
@@ -70,6 +70,6 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `lint.python` | `F811` | 1 |
 | `grants.coverage` | `basic check` | 1.0 % |
 
-Only the worst 15 lines of each metric are shown: tests.formats.single_page (21 more), docs.python (40 more). `freeports-dev ci-report --format json` carries every one of them.
+Only the worst 15 lines of each metric are shown: tests.formats.single_page (21 more), docs.python (44 more). `freeports-dev ci-report --format json` carries every one of them.
 
 <!-- freeports-dev:end -->

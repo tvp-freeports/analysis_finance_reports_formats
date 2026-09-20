@@ -4,6 +4,7 @@ CARNE-EN23/0,"Arial-BoldMT ""Currency""",investments
 CARNE-EN23/1,"arial-boldmt ""Management Company""",manco
 CARNE-EN23/1,"arial-boldmt ""Legal adviser""",manco
 CARNE-EN23/2,"arial-boldmt ""^Statement of Net Assets""",fund_assets
+CARNE-EN23/3,"""periodic disclosure for the financial products""",sfdr_classification
 EURIZON-EN23/0,"Frutiger-Light ""Nominal /""",investments
 EURIZON-EN23/0,"Frutiger-Black[11.9735] ""PORTFOLIO AS AT""",investments
 EURIZON-EN23/1,"frutiger-lightitalic ""MANAGEMENT COMPANY AND PROMOTER""",manco
@@ -40,11 +41,13 @@ EURIZON-IT24/12,"TrebuchetMSBold ""^TOTALE PASSIVITA'""",fund_assets_end
 UBS-EN23,"Frutiger45LightBold ""Nominal """,investments
 MEDIOLANUM-IT24.C,"""Valutazione """,investments
 AMUNDI-EN24,"ArialNarrow-BoldItalic ""Securities Portfolio as at""",investments
+AMUNDI-EN24/1,"""eriodic disclosure for the financial products""",sfdr_classification
 AMUNDI-IT24,"TrebuchetMS-Bold ""Titolo""",investments
 AMUNDI-IT24/1,"TrebuchetMS-Bold ""^ATTIVITÀ""",fund_assets_begin
 AMUNDI-IT24/1,"TrebuchetMS-Bold ""^TOTALE ATTIVITÀ""",fund_assets_begin
 AMUNDI-IT24/2,"TrebuchetMS-Bold ""^PASSIVITÀ E NETTO""",fund_assets_end
 AMUNDI-IT24/2,"TrebuchetMS-Bold ""^TOTALE PASSIVITÀ""",fund_assets_end
+AMUNDI-IT24/3,"""nformativa periodica per i prodotti finanziari""",sfdr_classification
 ANIMA-EN23/0,"Helvetica-Bold ""Holdings""",investments
 ANIMA-EN23/1,"helvetica-condensed-bold ""^Statement of Financial Position""",fund_assets
 ANIMA-EN23/1,"helvetica-condensed-blac ""ANIMA Funds Plc""",fund_assets
@@ -61,7 +64,9 @@ ARCA-IT24/3,"TrebuchetMS-Bold ""^PASSIVITA' E NETTO""",fund_assets_end
 ARCA-IT24/3,"TrebuchetMS-Bold ""^TOTALE PASSIVITA'""",fund_assets_end
 ASTERIA-EN23,"CenturyGothic-Bold ""Number of Shares/""",investments
 ASTERIA-EN24,"CenturyGothic-Bold ""Transferable securities admitted to an official stock""",investments
+ASTERIA-EN24/1,"""periodic disclosure for the financial products""",sfdr_classification
 DANSKEINVEST-EN24,"Calibri[13] ""Statement of Investments""",investments
+DANSKEINVEST-EN24/1,"""periodic disclosure for the financial products""",sfdr_classification
 EURIZON-EN21,"ArialMT-Bold ""Face value/""",investments
 FIDEURAM-EN23,"Arial ""Country""",investments
 FIDEURAM-IT24/0,"Tahoma,Bold ""Titolo""",investments
@@ -94,6 +99,7 @@ MEDIOLANUM-IT24.B/1,"Helvetica-Bold ""^SITUAZIONE PATRIMONIALE""",fund_assets_be
 MEDIOLANUM-IT24.B/1,"Helvetica-Bold ""^TOTALE ATTIVITÀ""",fund_assets_begin
 MEDIOLANUM-IT24.B/2,"Helvetica-Bold ""^TOTALE PASSIVITÀ""",fund_assets_end
 MEDIOLANUM-IT24.B/2,"Helvetica ""VALORE COMPLESSIVO NETTO DEL FONDO""",fund_assets_end
+MEDIOLANUM-IT24.B/3,"""informativa periodica per i prodotti finanziari""",sfdr_classification
 MEDIOLANUM-IT24.C,"[7.920006] ""Descrizione""",investments
 MEDIOLANUM-EN24/0,"[8.04] ""Face value""",investments
 MEDIOLANUM-EN24/1,"[9.48] ""MANAGER AND GLOBAL""",inv_managers_begin
@@ -126,4 +132,5 @@ KAIROS-EN23/4,"""roduct name""",sfdr_classification
 KAIROS-EN23/5,"""periodic disclosure for the financial products""",sfdr_classification_2
 UBS-EN23/0,"Frutiger45LightBold ""Description """,investments
 UBS-EN23/1,"Frutiger45LightBold ""Management Company and Domiciliation Agent""",manco
+UBS-EN23/2,"""periodic disclosure for the financial products""",sfdr_classification
 MEDIOLANUM-EN23,"TimesNewRomanPS[15.9647] ""Statement of Investments""",investments

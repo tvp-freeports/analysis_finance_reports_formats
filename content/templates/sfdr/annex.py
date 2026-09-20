@@ -45,6 +45,8 @@ from freeports.standard_funcs.pdf_extract import (
 from freeports.standard_funcs.text_filter import TextFilterSfdrSignStandard
 from freeports.utils.pdf_extract import LabelledValueTake, LabelledValueWhere, PdfLineSelection
 
+from .product import joined_product_pipe
+
 #: Il tipo di blocco con cui il nome del prodotto arriva al `text_filter`. È il difetto che
 #: `TextFilterSfdrSignStandard` si aspetta, quindi non va nominato da nessuna delle due parti.
 PRODUCT_BLOCK = "FUND_NAME"
@@ -111,6 +113,8 @@ class Annex:
         title,
         product,
         product_prefix,
+        identifier,
+        band,
     ):
         self.question = question
         self.affirmative = affirmative
@@ -120,6 +124,8 @@ class Annex:
         self.title = title
         self.product = product
         self.product_prefix = product_prefix
+        self.identifier = identifier
+        self.band = band
 
     def sign(self, **overrides):
         """Il tubo del segno. Ogni parametro di `PdfExtractSfdrSignStandard` si può sovrascrivere.
@@ -186,6 +192,24 @@ class Annex:
             ),
         )
 
+    def joined_pipes(self, product=None, identifier=None, band=None, prepend=""):
+        """Il tubo unico che legge il nome **a capo**, nella colonna dell'etichetta.
+
+        Cinque formati su sette scrivono il nome in piu' righe o in piu' frammenti, e i due tubi di
+        `product_pipes` ne portano giu' solo il primo pezzo. Questo li sostituisce con uno solo:
+        la colonna dell'etichetta, dalla sua riga fino al primo appiglio che chiude il blocco.
+        Il perche' di ogni scelta sta in `product.py`.
+        """
+        return (
+            joined_product_pipe(
+                _selection(product or self.product),
+                _selection(identifier or self.identifier),
+                _selection(band or self.band),
+                PRODUCT_BLOCK,
+                prepend,
+            ),
+        )
+
     def pipeline(
         self,
         *,
@@ -193,6 +217,10 @@ class Annex:
         product_across=None,
         product_pipes=None,
         product_prefix=None,
+        product_joined=False,
+        product_prepend="",
+        identifier=None,
+        band=None,
         demand_investment_funds_match=True,
         also_deserialize=(),
         **overrides,
@@ -204,11 +232,17 @@ class Annex:
         quel caso vuole un tubo scritto dal formato. Gli basta emettere blocchi di tipo
         `PRODUCT_BLOCK`.
 
+        `product_joined` sceglie il lettore a colonna di `joined_pipes` al posto dei due tubi
+        predefiniti: e' quello che serve dove il nome va a capo, o dove il PDF lo spezza in
+        frammenti che nessuno dei due tubi riunisce.
+
         `also_deserialize` aggiunge deserializzatori accanto a quello dell'articolo, e serve
         all'annesso spagnolo, che dal nome del prodotto **dichiara anche il fondo**: è un documento
         a sé, e il fondo nessun'altra pagina del job glielo ha già detto.
         """
         prefix = self.product_prefix if product_prefix is None else product_prefix
+        if product_pipes is None and product_joined:
+            product_pipes = self.joined_pipes(product, identifier, band, product_prepend)
         return Pipeline(
             (self.sign(**overrides),)
             + tuple(

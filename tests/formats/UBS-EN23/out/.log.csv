@@ -1,1 +1,2 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,189,job[UBS-EN23]/step[1]/class[sfdr_classification]/document[report]/page[189]/pipeline[sfdr_classification]/pdf_extract/pipe[PdfExtractSfdrSignStandard],,,,,WARN,the first question of this disclosure carries no tick and the row below it is not on the page: the article is not read

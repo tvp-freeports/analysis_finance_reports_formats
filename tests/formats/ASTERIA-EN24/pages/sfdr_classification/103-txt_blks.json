@@ -1,0 +1,13 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "SFDR_ARTICLE",
+    "metadata": {
+      "article": {
+        "__enum__": "freeports.consts:SfdrArticle:ART_9"
+      }
+    },
+    "content": "ASTERIA FUNDS – PLANET IMPACT GLOBAL EQUITIES",
+    "pdf_block": null
+  }
+]

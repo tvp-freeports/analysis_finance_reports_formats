@@ -1,0 +1,16 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundSfdrClassification",
+      "data": {
+        "article": {
+          "__enum__": "freeports.consts:SfdrArticle:ART_8"
+        },
+        "fund": "Eurizon Global Dividend ESG 50 - Luglio 2025"
+      }
+    }
+  },
+  {
+    "esg-indicator-fund": "Eurizon Global Dividend ESG 50 - Luglio 2025"
+  }
+]

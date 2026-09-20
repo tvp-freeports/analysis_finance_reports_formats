@@ -1,6 +1,9 @@
 """Unstructured module for EURIZON-IT24"""
 
+import re
+
 import carryover
+import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
@@ -27,18 +30,16 @@ from freeports.standard_funcs.deserialize import (
     DeserializerInvestmentsManagerFromManco
 )
 from freeports.utils.deserialize import to_date_with_it_month, to_int, deserialize_block_type
-from freeports.utils.text_filter import MatchFund,investment_fund_filter_data
-from freeports.consts import Currency, SfdrArticle
+from freeports.utils.text_filter import MatchFund
+from freeports.consts import Currency
 from freeports.core import Promise
 from freeports.core import PageParseFail, PdfBlock, TextBlock
 from freeports.output import (
     Fund,
     FundMerge,
     FundRename,
-    FundSfdrClassification,
     FundEsgIndicator,
 )
-import re
 from enum import Enum, auto
 
 
@@ -186,60 +187,8 @@ def deserialize_merge(txt_blk):
     )
 
 
-def sfdr_pdf_extract_1(page):
-    lines = pdflines_from_pagedict(page)
-    fund_name = next(iter(PdfLineSelection.text("Nome prodotto: ").select(lines))).text
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {}, fund_name)]
-
-
-@investment_fund_filter_data
-def sfdr_text_filter_1(pdf_blks, investment_funds):
-    fund_name = next(iter(pdf_blks)).content
-    fund_name = fund_name.replace("Nome prodotto: ", "")
-    fund = MatchFund(name=fund_name)
-    if fund in investment_funds:
-        return [TextBlock.from_content(OneTextBlockType.RELEVANT_BLOCK.name, {}, fund_name)]
-    else:
-        return []
-
-
-def sfdr_deserialize_1(txt_blk):
-    return FundSfdrClassification(article=Promise("sfdr-article"), fund=txt_blk.content)
-
-
 def esg_indicators_deserialize_fund(txt_blk):
     return {"esg-indicator-fund": txt_blk.content}
-
-
-def sfdr_pdf_extract_2(page):
-    lines = pdflines_from_pagedict(page)
-    art = SfdrArticle.ART_6
-    if (
-        len(
-            PdfLineSelection.text("obiettivo di investimento sostenibile").select(lines)
-        )
-        > 0
-    ):
-        art = SfdrArticle.ART_9
-    elif (
-        len(
-            PdfLineSelection.text(
-                "soddisfatte le caratteristiche ambientali e/o sociali promosse"
-            ).select(lines)
-        )
-        > 0
-    ):
-        art = SfdrArticle.ART_8
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {"article": art}, "")]
-
-
-def sfdr_text_filter_2(pdf_blks, _):
-    blk = next(iter(pdf_blks))
-    return [TextBlock(OneTextBlockType.RELEVANT_BLOCK.name, blk.metadata, blk)]
-
-
-def sfdr_deserialize_2(txt_blk):
-    return {"sfdr-article": txt_blk.metadata["article"]}
 
 
 # The heading the sustainability-indicator table hangs from.  The pipe runs on two page classes now
@@ -448,12 +397,22 @@ pipelines = {
         text_filter_change_name,
         (deserialize_rename, deserialize_merge),
     ),
-    "sfdr_page_1": Pipeline(
-        sfdr_pdf_extract_1,
-        sfdr_text_filter_1,
-        (sfdr_deserialize_1, esg_indicators_deserialize_fund),
+    # L'articolo si leggeva **fiutando la prosa** della seconda pagina dell'allegato -- se c'era
+    # scritto `obiettivo di investimento sostenibile` era il 9, se c'era `soddisfatte le
+    # caratteristiche ambientali` era l'8 -- e la prima pagina gli passava il fondo con una
+    # promessa. Adesso si legge dalla casella, su una pagina sola e senza promessa.
+    #
+    # Tre cose di questo formato non sono quelle dell'allegato italiano: l'etichetta del prodotto e'
+    # `Nome prodotto` e non `Nome del prodotto`, e le due opzioni della riga sotto cominciano in
+    # minuscolo. Il titolo l'allegato non ce l'ha -- su tutti e 200 i moduli della raccolta -- e
+    # `R34` non ha niente da verificare.
+    "sfdr_page_1": sfdr.ITALIAN.pipeline(
+        product="Nome prodotto",
+        product_prefix=re.compile(r"Nome prodotto\s*:\s*"),
+        made="ha effettuato investimenti sostenibili",
+        promoted="ha promosso caratteristiche Ambientali",
+        also_deserialize=(esg_indicators_deserialize_fund,),
     ),
-    "sfdr_page_2": Pipeline(sfdr_pdf_extract_2, sfdr_text_filter_2, sfdr_deserialize_2),
     "esg_indicators": Pipeline(
         esg_indicators_pdf_extract,
         esg_indicators_text_filter,

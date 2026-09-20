@@ -37,6 +37,8 @@ ITALIAN = Annex(
     title="prodotti finanziari di cui all'articolo",
     product="Nome del prodotto",
     product_prefix="Nome del prodotto: ",
+    identifier="dentificativo della persona giuridica",
+    band=("Caratteristiche ambientali e/o sociali", "biettivo di investimento sostenibile"),
 )
 
 #: Inglese — misurato su UBS-EN23, KAIROS-EN23, FINECO-EN23@IR e @LUX, ASTERIA-EN24,
@@ -53,6 +55,8 @@ ENGLISH = Annex(
     title=("referred to in Article", "pursuant to Article"),
     product="Product name",
     product_prefix="Product name: ",
+    identifier=("Legal entity identifier", "Legal Entity Identifier"),
+    band=("Environmental and/or social characteristics", "Sustainable investment objective"),
 )
 
 #: Spagnolo — **non misurato su nessun documento**: v. il docstring del pacchetto.
@@ -65,6 +69,8 @@ SPANISH = Annex(
     title="productos financieros a los que se hace referencia en el artículo",
     product="Nombre del producto",
     product_prefix="Nombre del producto: ",
+    identifier="dentificador de entidad jur",
+    band=("Características medioambientales o sociales", "bjetivo de inversión sostenible"),
 )
 
 #: Francese — le etichette sono misurate (AMUNDI-EN24 p777), il resto no: nessun documento della
@@ -78,6 +84,8 @@ FRENCH = Annex(
     title="produits financiers visés à l'article",
     product="Nom du produit",
     product_prefix="Nom du produit: ",
+    identifier="dentifiant d’entité juridique",
+    band=("Caractéristiques environnementales et/ou sociales", "bjectif d’investissement durable"),
 )
 
 __all__ = ["PRODUCT_BLOCK", "Annex", "ENGLISH", "FRENCH", "ITALIAN", "SPANISH"]

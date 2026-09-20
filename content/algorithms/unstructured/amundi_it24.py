@@ -23,7 +23,10 @@ non c'e' nessuna colonna da cui difendersi. A questo si aggiunge una sola sottra
 percentuali portano la virgola decimale e gli importi no.
 """
 
+import re
+
 import carryover
+import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractCurrencyConstant,
@@ -134,5 +137,9 @@ pipelines = {
         ),
         text_filter=text_filter_fund_assets_end,
         deserialize=DeserializerAssetsStandard(to_int),
+    ),
+    # Il segno e' una `X` di testo in Calibri-Bold su tutti e venticinque i moduli.
+    "sfdr_classification": sfdr.ITALIAN.pipeline(
+        product_joined=True, product_prefix=re.compile(r"Nome del prodotto\s*:\s*")
     ),
 }

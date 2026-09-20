@@ -1,0 +1,19 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2023-12-31"
+        },
+        "fund": "Sidera Funds SICAV – Christian Equity",
+        "liabilities": 127140.29,
+        "net_assets": 36265944.22,
+        "tot_assets": 36393084.51
+      }
+    }
+  }
+]

@@ -1,6 +1,9 @@
 """MEDIOLANUM_IT24_B format submodule"""
 
+import re
+
 import carryover
+import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
@@ -170,5 +173,14 @@ pipelines = {
         ),
         text_filter=text_filter_fund_assets_end,
         deserialize=DeserializerAssetsStandard(to_int),
+    ),
+    # Il segno e' un'immagine, e il modulo e' quello italiano. Il nome del prodotto pero' non e'
+    # scritto come lo scrivono gli investimenti: il portafoglio intitola i comparti
+    # `Fondo Mediolanum ...`, il modulo `Mediolanum ...`. Senza rimettere davanti la parola che
+    # manca, `R24` non regge e le due righe si perdono in silenzio.
+    "sfdr_classification": sfdr.ITALIAN.pipeline(
+        product_joined=True,
+        product_prepend="FONDO",
+        product_prefix=re.compile(r"Nome del prodotto\s*:\s*"),
     ),
 }
