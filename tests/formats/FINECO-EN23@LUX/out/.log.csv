@@ -1,1 +1,2 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,6,job[FINECO-EN23@LUX]/step[1]/class[inv_managers]/document[report]/page[6]/pipeline[inv_managers]/text_filter/pipe[inv_managers::text_filter[0]],,investments_manager,,,WARN,"investments_manager was not read: imposed as ""Fineco Asset Management DAC"" - the residual of a report that names no manager for these funds"

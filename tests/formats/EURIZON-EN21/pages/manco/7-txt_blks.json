@@ -1,0 +1,19 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "EURO EQUITY",
+          "EURO FIXED INCOME",
+          "HIGH YIELD 1 5 YEARS EURO HEDGED",
+          "HIGH YIELD BOND",
+          "USA EQUITY"
+        ]
+      }
+    },
+    "content": "Eurizon Capital S.A.",
+    "pdf_block": null
+  }
+]

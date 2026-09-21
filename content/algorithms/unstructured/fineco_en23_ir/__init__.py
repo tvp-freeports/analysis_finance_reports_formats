@@ -2,6 +2,7 @@
 
 import re
 
+import esg
 import sfdr
 from freeports.core import PdfBlock, Pipeline
 from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict
@@ -10,6 +11,7 @@ from . import investments
 from . import inv_managers
 from . import managment_company
 from . import fund_assets
+from . import esg_indicators
 
 #: Il nome del prodotto, che su questo formato **va a capo**.
 #:
@@ -65,7 +67,7 @@ pipelines = {
     "manco": Pipeline(
         managment_company.pdf_filter,
         managment_company.text_extract,
-        (managment_company.deserialize, inv_managers.deserialize),
+        (managment_company.deserialize, managment_company.deserialize_inv_manager),
     ),
     "fund_assets": Pipeline(
         fund_assets.pdf_extract, fund_assets.text_filter, fund_assets.deserialize
@@ -77,5 +79,18 @@ pipelines = {
     "sfdr_classification": sfdr.ENGLISH.pipeline(
         product_pipes=(pdf_extract_product,),
         product_prefix=re.compile(r"Product name.*:\s*"),
+    ),
+    # La pagina del modulo legge il nome **due volte**: una per l'articolo SFDR, una per lasciarlo
+    # alla pagina degli indicatori, che il comparto non lo nomina. Sono due dati diversi sulla
+    # stessa pagina, quindi due pipeline (`R27`), tutt'e due sulla classe `sfdr_classification`.
+    "esg_fund": Pipeline(
+        esg_indicators.pdf_extract_fund,
+        esg_indicators.text_filter_fund,
+        esg_indicators.carry.deposit,
+    ),
+    "esg_indicators": Pipeline(
+        esg_indicators.pdf_extract_indicators,
+        esg_indicators.text_filter_indicators,
+        esg.deserialize,
     ),
 }

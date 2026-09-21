@@ -11,7 +11,10 @@ Questo pacchetto è il pezzo che manca, e sono due cose indipendenti:
   i metadati che i `text_filter` standard si aspettano. Serve anche a chi la seconda pagina non ce
   l'ha;
 - `Carryover` porta un valore **dalla prima pagina alla seconda**, depositandolo come promessa e
-  ritrovandolo in `data.previous()`;
+  ritrovandolo in `data.previous()`, appaiando le due pagine **col nome del comparto**;
+- `PageCarryover` fa la stessa cosa quando il nome del comparto non c'è, e le due pagine si
+  appaiano **col numero di pagina**: è il caso del modulo periodico europeo, che il nome del
+  prodotto lo scrive sulla pagina prima di quella degli indicatori;
 - `sole_fund` risponde alla domanda *di quale comparto parla questa pagina* quando la pagina non lo
   dice e il documento ne porta uno solo.
 
@@ -52,12 +55,15 @@ che per `R27` è ciò che separa due pipeline.
 """
 
 from .document import sole_fund
+from .page import PageCarryover, page_number
 from .promise import Carryover
 from .record import RELEVANT_BLOCK, Record
 
 __all__ = [
     "RELEVANT_BLOCK",
     "Carryover",
+    "PageCarryover",
     "Record",
+    "page_number",
     "sole_fund",
 ]

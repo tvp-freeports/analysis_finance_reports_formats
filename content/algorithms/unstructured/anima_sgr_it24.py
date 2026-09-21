@@ -1,10 +1,20 @@
-"""Custom pipeline for ANIMA_SGR-IT24"""
+"""ANIMA_SGR-IT24: gli attivi a cavallo di due pagine, la societa' di gestione, e `EI-4`.
+
+`EI-4` e' la ricetta in cui il modulo periodico risponde alla domanda sugli indicatori **con
+sola prosa**: p1726 scrive quattro righe di discorso e nessuna misura, e la lettura giusta e' non
+estrarre niente (`R11`). Non e' un ramo del template ESG ma la sua regola generale applicata —
+un indicatore senza numero non esiste — e per questo la pipeline e' la stessa che leggerebbe un
+elenco di percentuali.
+"""
 
 from freeports.core import PdfBlock, TextBlock
 import carryover
+import esg
+import manco
 import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
+    PdfExtractSectionStandard,
     PdfExtractInvestmentsStandard,
     PdfExtractCurrencyConstant,
     PdfExtractFundStandard,
@@ -12,7 +22,7 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractLabelledValueStandard,
     PdfExtractPageClassifyStandard,
 )
-from freeports.interfaces.pdf_blks import OnePdfBlockType
+from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
 from freeports.standard_funcs.text_filter import (
     TextFilterAssetsStandard,
     TextFilterPageClassifyStandard,
@@ -21,6 +31,8 @@ from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.utils.text_filter import MatchFund
 from freeports.standard_funcs.deserialize import (
     DeserializerAssetsStandard,
+    DeserializerInvestmentsManagerFromManco,
+    DeserializerManagmentCompanyStandard,
     DeserializerPageClassifyStandard,
 )
 from freeports.consts import Currency
@@ -281,7 +293,54 @@ def text_filter_fund_assets_end(pdf_blks, filter_data):
     return assets_carryover.resume(blocks, filter_data)
 
 
+# `MC-3`: l'etichetta e il nome stanno sulla **stessa riga**, e quella riga e' la testata che ogni
+# pagina del prospetto ripete -- `Società di Gestione del Risparmio ANIMA SGR S.p.A.`, lato 7.92.
+# Il tubo e' `A1` con la posizione per difetto, che consegna la riga intera; quale pezzo della riga
+# sia il nome lo decide il `text_filter` (`R23`).
+pdf_extract_manco = PdfExtractLabelledValueStandard(
+    manco_set,
+    ResultStandardExtraction.MANAGEMENT_COMPANY.name,
+    "managment company",
+)
+
+# La testata sta su **tutte** le pagine, quindi non puo' essere lei a classificarle: l'ancora e'
+# l'indice, che ogni documento del formato ha una volta sola e sempre a pagina 3 (misurato sui
+# cinque documenti di prova, di 1901, 106, 15, 13 e 1901 pagine). Il corpo e non il carattere,
+# perche' le quattro famiglie tipografiche del formato scrivono `INDICE` in tre nomi di font
+# diversi -- `latobold`, `open-sansbold`, `lato-bold` -- ma tutte fra 18.96 e 20.04, e in pagina
+# non c'e' nient'altro sopra gli 11.04.
+pdf_classify_manco = PdfExtractPageClassifyStandard(
+    header_sets=PdfLineSelection(text="^INDICE", font_size=(18.0, 21.0)),
+    page_type="manco",
+)
+
+text_filter_manco = manco.text_filter(
+    manco.Between(after="Società di Gestione del Risparmio")
+)
+
+
+# Il glossario del modello europeo sta nella colonna di sinistra e in ordine di lettura si
+# intreccia col corpo: l'ascissa e' cio' che lo lascia fuori, ed e' geometria, quindi `pdf_extract`.
+pdf_extract_esg = PdfExtractSectionStandard(
+    PdfLineSelection(
+        font="timesnewromanbolditalic",
+        font_size=(9.5, 10.5),
+        text="prestazione degli indicatori",
+    ),
+    OnePdfBlockType.RELEVANT_BLOCK.name,
+    "esg indicators",
+    body=PdfLineSelection(font="timesnewroman", font_size=(9.5, 10.5))
+    & PdfLineSelection.area(140.0, 0.0, 1e6, 1e6),
+)
+
 pipelines = {
+    "esg_indicators": Pipeline(
+        pdf_extract=pdf_extract_esg,
+        # Il comparto non serve: la sezione non porta nessun numero, quindi nessuna riga esce e
+        # la domanda *di chi e' questa pagina* non si pone.
+        text_filter=esg.text_filter(esg.LeadingNumber(), None),
+        deserialize=esg.deserialize,
+    ),
     "": Pipeline(
         pdf_extract=(
             PdfExtractPageClassifyStandard(
@@ -308,6 +367,18 @@ pipelines = {
                     PdfLineSelection.text("^TOTALE PASSIVITA'"),
                 ],
                 page_type="fund_assets_end",
+            ),
+            pdf_classify_manco,
+            # La classificazione di questo formato e' tutta qui dentro e non nel CSV strutturato:
+            # una riga in `page_classify/args.csv` accenderebbe **anche** il classificatore per
+            # difetto, e ogni pagina uscirebbe classificata due volte.
+            PdfExtractPageClassifyStandard(
+                header_sets=PdfLineSelection(
+                    font="timesnewromanbolditalic",
+                    font_size=(9.5, 10.5),
+                    text="prestazione degli indicatori",
+                ),
+                page_type="esg_indicators",
             ),
         ),
         text_filter=TextFilterPageClassifyStandard(),
@@ -343,5 +414,15 @@ pipelines = {
     # Il segno e' una `X` di testo, e su quasi tutti i moduli e' **fusa nella riga
     # dell'etichetta** (`Si'` / `X No`): per questo le etichette si ancorano anche in coda.
     "sfdr_classification": sfdr.ITALIAN.pipeline(),
-    "merges": Pipeline(pdf_extract_merges,text_filter_merges,deserialize_merges)
+    "merges": Pipeline(pdf_extract_merges,text_filter_merges,deserialize_merges),
+    # Il secondo deserializzatore e' cio' che lega i comparti alla societa' di gestione (`R15`):
+    # ANIMA_SGR-IT24 nessun gestore delegato lo dichiara, quindi il residuo e' tutto suo.
+    "manco": Pipeline(
+        pdf_extract_manco,
+        text_filter_manco,
+        (
+            DeserializerManagmentCompanyStandard(),
+            DeserializerInvestmentsManagerFromManco(),
+        ),
+    ),
 }

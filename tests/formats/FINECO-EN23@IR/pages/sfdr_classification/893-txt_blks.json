@@ -1,6 +1,15 @@
 [
   {
     "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "page": 893
+    },
+    "content": "Fidelity EURO Bond FAM Fund",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
     "type_block": "SFDR_ARTICLE",
     "metadata": {
       "article": {

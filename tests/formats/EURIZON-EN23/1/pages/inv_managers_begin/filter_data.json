@@ -3,8 +3,62 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc",
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "EURIZON FUND BOND INFLATION LINKED",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "EURIZON FUND ITALIAN EQUITY OPPORTUNITIES",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "EURIZON FUND ABSOLUTE PRUDENT",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Acme",
+        "company_match": "Acme",
         "fund": "EURIZON FUND ABSOLUTE ACTIVE",
         "nominal_quantity": null,
         "market_value": 100.0,
@@ -21,9 +75,9 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Alphabet",
-        "company_match": "Alphabet",
-        "fund": "EURIZON FUND ABSOLUTE GREEN BONDS",
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "EURIZON FUND SLJ FLEXIBLE GLOBAL MACRO",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -39,9 +93,9 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Amazon",
-        "company_match": "Amazon",
-        "fund": "EURIZON FUND ABSOLUTE HIGH YIELD",
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "EURIZON FUND EQUITY CHINA A",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -55,14 +109,79 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:InvestmentsManager",
+      "class": "freeports.output:Equity",
       "data": {
-        "name": "Eurizon Capital SGR S.p.A.",
-        "managed_funds": {
-          "__set__": [
-            "EURIZON FUND ABSOLUTE ACTIVE"
-          ]
-        }
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "EURIZON FUND ASIAN EQUITY OPPORTUNITIES",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "EURIZON FUND BOND USD LTE",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "EURIZON FUND BOND CORPORATE SMART ESG",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON FUND BOND INFLATION LINKED"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON FUND ITALIAN EQUITY OPPORTUNITIES"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON FUND ABSOLUTE PRUDENT"
       }
     }
   },
@@ -78,7 +197,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "EURIZON FUND ABSOLUTE GREEN BONDS"
+        "name": "EURIZON FUND SLJ FLEXIBLE GLOBAL MACRO"
       }
     }
   },
@@ -86,7 +205,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "EURIZON FUND ABSOLUTE HIGH YIELD"
+        "name": "EURIZON FUND EQUITY CHINA A"
       }
     }
   },
@@ -94,7 +213,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "EURIZON FUND ABSOLUTE HIGHYIELD"
+        "name": "EURIZON FUND ASIAN EQUITY OPPORTUNITIES"
       }
     }
   },
@@ -102,7 +221,29 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "EURIZON FUND BOND CORPORATE EUR SHORT TERM LTE"
+        "name": "EURIZON FUND BOND USD LTE"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON FUND BOND CORPORATE SMART ESG"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "name": "Eurizon Capital Asia Limited",
+        "managed_funds": {
+          "__set__": [
+            "EURIZON FUND EQUITY CHINA A",
+            "EURIZON FUND ASIAN EQUITY OPPORTUNITIES"
+          ]
+        }
       }
     }
   }

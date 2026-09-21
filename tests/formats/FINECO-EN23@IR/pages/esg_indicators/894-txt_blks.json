@@ -1,0 +1,117 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "esg-fund-page-893",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "of the Fund was invested in securities of issuers with favourable ESG characteristics in accordance with Fidelity’s Sustainable Investing Framework",
+      "value": "93.07%"
+    },
+    "content": "93.07% of the Fund was invested in securities of issuers with favourable ESG characteristics",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "page": 894
+      },
+      "content": "93.07% of the Fund was invested in securities of issuers with favourable ESG characteristics"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "esg-fund-page-893",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "of the Fund was invested in sustainable investments",
+      "value": "38.42%"
+    },
+    "content": "38.42% of the Fund was invested in sustainable investments.",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "page": 894
+      },
+      "content": "38.42% of the Fund was invested in sustainable investments."
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "esg-fund-page-893",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "of the Fund was invested in sustainable investments with an environmental objective in economic activities (that qualify as environmentally sustainable under the EU Taxonomy)",
+      "value": "2.32%"
+    },
+    "content": "2.32% of the Fund was invested in sustainable investments with an environmental objective",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "page": 894
+      },
+      "content": "2.32% of the Fund was invested in sustainable investments with an environmental objective"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "esg-fund-page-893",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "of the Fund was invested in sustainable investments with an environmental objective in economic activities (that do not qualify as environmentally sustainable under the EU Taxonomy)",
+      "value": "20.13%"
+    },
+    "content": "20.13% of the Fund was invested in sustainable investments with an environmental objective",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "page": 894
+      },
+      "content": "20.13% of the Fund was invested in sustainable investments with an environmental objective"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "esg-fund-page-893",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "of the Fund invested in sustainable investments with a social objective",
+      "value": "15.97%"
+    },
+    "content": "15.97% of the Fund invested in sustainable investments with a social objective.",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "page": 894
+      },
+      "content": "15.97% of the Fund invested in sustainable investments with a social objective."
+    }
+  }
+]

@@ -12,6 +12,7 @@ struttura che `A7` ha per le ridenominazioni.
 
 | come la pagina lega il gestore ai suoi comparti | lettore | misurato su |
 |---|---|---|
+| **non lo lega affatto**: un nome, e il residuo è suo | `Named` | ASTERIA-EN23 p3 |
 | la specificazione sta **sotto** il nome, fra parentesi | `Adjacent(where=BELOW)` | MEDIOLANUM-IT24.A p5 · EURIZON-EN23 p9 · CARNE-EN23 p4 |
 | la specificazione sta **sopra**, e copre le società che seguono | `Adjacent(where=ABOVE)` | FINECO-EN23@LUX p6 |
 | i comparti elencati **prima**, poi il gestore, poi la frase che conferma | `Adjacent(where=ABOVE, take=FIRST, spec=Listing(...))` | UBS-EN23 p4–5 |
@@ -38,10 +39,12 @@ Non è una raffinatezza: MEDIOLANUM-IT24.A p5 scrive `(Mediolanum Global Impact`
 chiusa**, e chiudere al gruppo recupera un'assegnazione che si perderebbe.
 """
 
-from dataclasses import dataclass
+import re
+from dataclasses import dataclass, replace
 from enum import Enum, auto
 
 from freeports import log
+from freeports.core import PdfBlock
 
 from .assignment import Declared
 
@@ -69,6 +72,32 @@ class Take(Enum):
 
 
 @dataclass(frozen=True)
+class Named:
+    """Il blocco **è** la dichiarazione: un nome, e nessun comparto detto.
+
+    È la forma più semplice che una pagina abbia — ASTERIA-EN23 p3 scrive `Investment Manager and
+    Global Distributor:` e sotto un nome solo — ed è quella in cui il lavoro è tutto di `R15`: un
+    gestore senza comparti dichiarati si prende il residuo, che lì è l'intero documento.
+
+    Esiste come lettore invece di lasciare il chiamante a costruirsi i `Declared` a mano perché è
+    qui che stanno le due cose che il chiamante dimenticherebbe: il richiamo di nota da togliere, e
+    il caso in cui la riga ne nomina **due** (`separators`). Il blocco si conserva sempre, così la
+    riga d'uscita sa da che pagina viene.
+    """
+
+    separators: tuple = ()
+    note_marks: str = NOTE_MARKS
+
+    def __call__(self, blocks):
+        """Una dichiarazione per nome, nell'ordine in cui la pagina li scrive."""
+        declarations = []
+        for block in blocks:
+            for name in _split(_text(block), self.separators, self.note_marks):
+                declarations.append(Declared(name, block=_named(block, name)))
+        return declarations
+
+
+@dataclass(frozen=True)
 class Parenthetical:
     """La specificazione è una **frase fra parentesi**, che può andare a capo più volte.
 
@@ -83,7 +112,12 @@ class Parenthetical:
       charge for the USD nominated securities in the subfund …»*. Il gestore entra per quel
       comparto, ma il comparto **resta** nel residuo (`R21`);
     - `block_type` — quando il `pdf_extract` ha già separato la specificazione in un tipo di blocco
-      suo, il riconoscimento è per tipo e non per parentesi.
+      suo, il riconoscimento è per tipo e non per parentesi;
+    - `umbrella` — il nome dell'ombrello, quando la parentesi nomina il comparto **senza**. Su
+      FINECO-EN23@LUX p6 la specificazione scrive `Invesco Pan European High Income FAM Fund`
+      mentre gli investimenti scrivono `CoRe Series Invesco Pan European High Income FAM Fund`:
+      sono lo stesso comparto e non lo stesso elemento, e `R24` vuole il secondo. L'ombrello sta
+      nella testatina di ogni pagina, quindi è una costante del formato e non una lettura.
     """
 
     markers: tuple = ()
@@ -92,6 +126,7 @@ class Parenthetical:
     opener: str = "("
     closer: str = ")"
     block_type: str = None
+    umbrella: str = None
     note_marks: str = NOTE_MARKS
 
     def opens(self, block):
@@ -127,7 +162,9 @@ class Parenthetical:
                     .format(text)
                 )
                 return None, partial
-        return _split(body, self.separators, self.note_marks), partial
+        return _composed(
+            _split(body, self.separators, self.note_marks), self.umbrella
+        ), partial
 
 
 @dataclass(frozen=True)
@@ -188,7 +225,25 @@ class Adjacent:
       ricadono dentro;
     - `take` — quante società ricadono nello scopo di una specificazione `ABOVE`. `ALL` fino alla
       prossima specificazione (FINECO-EN23@LUX p6: una specificazione, **tre** società), `FIRST`
-      solo la prima (UBS-EN23, dove dopo il nome c'è un paragrafo di prosa nello stesso carattere).
+      solo la prima (UBS-EN23, dove dopo il nome c'è un paragrafo di prosa nello stesso carattere);
+    - `note_type` — il tipo di blocco delle righe che **non sono nomi**: l'indirizzo, e la
+      qualificazione temporale. Serve quando la pagina non porta i gruppi, perche' senza gruppi
+      ogni blocco e' un'entrata a se' e la prima riga che arriva diventa un nome. Dire quale tipo
+      porta le righe secondarie e' tipografia, cioe' `pdf_extract`; dire che cosa significano e'
+      questo lettore (`R23`);
+    - `retired` — le espressioni che qualificano un'entrata come **non piu' in carica**. Il gestore
+      che le porta non esce affatto, e i comparti che rivendica tornano nel residuo, cioè a chi il
+      documento dice che li gestisce alla chiusura. EURIZON-EN23 p10 scrive `Eurizon Capital Asia
+      Limited` e sotto `(until 10th of May 2023)`, mentre p9 scrive che quei due comparti *are
+      managed by Eurizon Capital S.A. as from 10 May 2023*: la regola è quella della società di
+      gestione — **si estrae solo chi è in carica alla data di chiusura**, non la storia
+      dell'esercizio. La riga qualificante è una riga qualunque dell'entrata, quindi il
+      `pdf_extract` deve portarla: qui si riconosce, non si seleziona (`R23`);
+    - `strip` — le code da togliere al nome, una per espressione regolare. UBS-EN23 p4 scrive
+      `Banca Cesare Ponti, Milano, Italy`, cioè la ragione sociale **con dentro la città**, e
+      `r",.*$"` la riporta a `Banca Cesare Ponti`. È un parametro e non una regola: FIDEURAM-EN23
+      p71 scrive `Vontobel Asset Management S.A., Milan Branch`, che è un gestore con la virgola
+      dentro, e la stessa espressione lo mutilerebbe (`R33`: l'ancora vale dentro il formato).
 
     Di ogni entrata si prende **la prima riga che non è specificazione**: le altre sono l'indirizzo,
     che nessuno chiede. Un'entrata senza specificazione è un gestore *senza fondi dichiarati*, cioè
@@ -199,14 +254,21 @@ class Adjacent:
     where: Where = Where.BELOW
     take: Take = Take.ALL
     group_key: str = "group"
+    strip: tuple = ()
+    note_type: str = None
+    retired: tuple = ()
 
     def __call__(self, blocks):
         """Le dichiarazioni lette dai blocchi, nell'ordine in cui la pagina le scrive."""
         events = _scan(blocks, self.spec, self.group_key)
-        return _below(events) if self.where is Where.BELOW else _above(events, self.take)
+        return (_below if self.where is Where.BELOW else _above)(events, self)
+
+    def names(self, block):
+        """Se questo blocco puo' portare il nome di un gestore."""
+        return self.note_type is None or block.type_block != self.note_type
 
 
-def _below(events):
+def _below(events, reader):
     """Il nome apre l'entrata, la specificazione la chiude e gli si attacca."""
     declarations = []
     named = False
@@ -218,14 +280,23 @@ def _below(events):
                 declarations[-1] = _merge(declarations[-1], payload)
             else:
                 log.debug("a specification opens the section before any manager is named")
-        elif not named:
+        elif not named and reader.names(payload):
             named = True
-            declarations.append(_declared(payload, None))
+            declarations.append(_declared(payload, None, reader.strip))
+        else:
+            _retire(declarations, payload, reader.retired)
     return declarations
 
 
-def _above(events, take):
-    """La specificazione apre uno scopo, e le società che seguono ci ricadono dentro."""
+def _above(events, reader):
+    """La specificazione apre uno scopo, e le società che seguono ci ricadono dentro.
+
+    Una specificazione che si chiude **riapre** la possibilità di un nome, anche se l'entrata era
+    già stata nominata. Senza questo, UBS-EN23 p4 perde `UBS Asset Management Switzerland AG`: la
+    riga dell'ombrello, l'elenco dei cinque comparti e il nome del gestore stanno tutt'e tre nello
+    stesso paragrafo, l'ombrello consuma il posto del nome e il gestore arriva a entrata già
+    nominata. Lo scopo lo apre la specificazione, non lo stacco tipografico.
+    """
     declarations = []
     pending = None
     taken = 0
@@ -234,15 +305,34 @@ def _above(events, take):
         if kind is _ENTRY:
             named = False
         elif kind is _SPEC:
-            pending, taken = payload, 0
-        elif not named:
+            pending, taken, named = payload, 0, False
+        elif not named and reader.names(payload):
             named = True
             if pending is None:
                 log.debug("'{}' is named before any specification: dropped".format(_text(payload)))
-            elif take is Take.ALL or not taken:
-                declarations.append(_declared(payload, pending))
+            elif reader.take is Take.ALL or not taken:
+                declarations.append(_declared(payload, pending, reader.strip))
                 taken += 1
+        else:
+            _retire(declarations, payload, reader.retired)
     return declarations
+
+
+def _retire(declarations, block, retired):
+    """Segna come non piu' in carica l'ultima dichiarazione aperta, se la riga lo qualifica.
+
+    Si **segna** invece di togliere per due ragioni. La prima e' che la specificazione arriva dopo
+    la riga qualificante, e togliere subito la dichiarazione la farebbe attaccare al gestore
+    precedente: EURIZON-EN23 p10 mette l'`(until …)` fra il nome e la parentesi che nomina i
+    comparti. La seconda e' che i comparti nominati servono ancora — `assign` li tiene fra i
+    comparti del documento e li rimette nel residuo (vedi `Declared.retired`).
+    """
+    if not retired or not declarations:
+        return
+    text = _text(block)
+    if any(re.search(pattern, text) for pattern in retired):
+        declarations[-1] = replace(declarations[-1], retired=True)
+        log.debug("'{}' qualifies the entry as no longer in charge: not extracted".format(text))
 
 
 @dataclass(frozen=True)
@@ -257,9 +347,17 @@ class ConnectorLine:
     Un gestore può esserci due volte su righe diverse, e due gestori possono stare sulla stessa
     riga (`FIL Investments International and FIL (Luxembourg) S.A. for …`): ciascuno diventa una
     dichiarazione, e `assignment.assign` le fonde per nome (`R22`).
+
+    `after` è la parte di frase che precede il nome e non ne fa parte. FIDEURAM apre la riga col
+    gestore e non ne ha bisogno; UBS-EN23 p4 scrive un paragrafo intero — *«The Management Company
+    delegated to Nordea Investment Management AB the day to day portfolio management of BPER
+    International SICAV – Low Duration European Covered Bond.»* — e senza `after` il gestore si
+    chiamerebbe con tutta la frase davanti. La riga che l'`after` non porta si lascia cadere, che è
+    come si distinguono i paragrafi che dichiarano da quelli che spiegano.
     """
 
     connector: str = " for "
+    after: str = ""
     manager_separators: tuple = (" and ",)
     fund_separators: tuple = (",", " and ")
     terminators: str = ",.;"
@@ -274,12 +372,31 @@ class ConnectorLine:
             if self.connector not in text:
                 log.debug("'{}' carries no '{}': dropped".format(text, self.connector.strip()))
                 continue
+            if self.after:
+                position = text.find(self.after)
+                if position < 0:
+                    log.debug("'{}' carries no '{}': dropped".format(text, self.after.strip()))
+                    continue
+                text = text[position + len(self.after):]
+                if self.connector not in text:
+                    continue
             names, funds = text.split(self.connector, 1)
             funds = _split(funds.strip().rstrip(self.terminators), self.fund_separators,
                            self.note_marks)
             for name in _split(names, self.manager_separators, ""):
-                declarations.append(Declared(name, funds=funds, block=entry[0]))
+                declarations.append(Declared(name, funds=funds, block=_named(entry[0], name)))
         return declarations
+
+
+def _named(block, name):
+    """Lo stesso blocco, con **il solo nome** del gestore per contenuto.
+
+    Il blocco si conserva perché la riga d'uscita sappia da che pagina viene, e il contenuto è ciò
+    che `blocks.text_blocks` scrive come nome: su una riga `<gestore> for <comparti>` tenerla intera
+    vorrebbe dire chiamare il gestore con tutto l'elenco dei suoi comparti appresso. Gli altri
+    lettori non ne hanno bisogno perché da loro la riga **è** il nome.
+    """
+    return PdfBlock(block.type_block, dict(block.metadata), name)
 
 
 @dataclass(frozen=True)
@@ -404,10 +521,24 @@ def _group_of(block, group_key):
         return None
 
 
-def _declared(block, spec):
+def _declared(block, spec, strip=()):
     """Una dichiarazione dal blocco del nome e dalla specificazione che gli tocca."""
     funds, partial = (None, False) if spec is None else spec
-    return Declared(block, funds=funds, partial=partial)
+    return Declared(_stripped(block, strip), funds=funds, partial=partial)
+
+
+def _stripped(block, strip):
+    """Il blocco del nome senza le code che il formato dichiara di non volere.
+
+    Il blocco si riscrive invece di riscrivere il nome più avanti perché è il blocco a viaggiare
+    fino alla riga d'uscita: `blocks.text_blocks` scrive come nome il suo contenuto.
+    """
+    if not strip:
+        return block
+    name = _text(block)
+    for pattern in strip:
+        name = re.sub(pattern, "", name).strip()
+    return _named(block, name) if name else block
 
 
 def _merge(declaration, spec):
@@ -421,7 +552,15 @@ def _merge(declaration, spec):
         funds=frozenset(before) | frozenset(funds),
         partial=partial if declaration.funds is None else declaration.partial and partial,
         block=declaration.block,
+        retired=declaration.retired,
     )
+
+
+def _composed(names, umbrella):
+    """I nomi con l'ombrello davanti, o com'erano se il formato non ne dichiara nessuno."""
+    if not umbrella:
+        return names
+    return tuple("{} {}".format(umbrella, name) for name in names)
 
 
 def _split(text, separators, note_marks):

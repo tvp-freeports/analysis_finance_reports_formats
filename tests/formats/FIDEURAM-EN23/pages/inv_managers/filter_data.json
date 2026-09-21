@@ -55,6 +55,17 @@
   },
   {
     "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "name": "Fideuram Asset Management (Ireland) dac",
+        "managed_funds": {
+          "__set__": []
+        }
+      }
+    }
+  },
+  {
+    "__pydantic__": {
       "class": "freeports.output:InvestmentsManager",
       "data": {
         "name": "FIL Pensions Management",

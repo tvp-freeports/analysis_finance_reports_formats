@@ -3,13 +3,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fidelity Global Dividend FAM Fund",
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "CORE SERIES INVESCO PAN EUROPEAN HIGH INCOME FAM FUND",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -21,13 +21,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Invesco Global Total Return Bond FAM Fund",
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "CORE SERIES GLOBAL MACRO CREDIT FAM FUND",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -39,13 +39,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fidelity Euro Bond FAM Fund",
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "CORE SERIES CORE AGGRESSIVE",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -57,85 +57,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "US Equity Value FAM Fund",
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "CORE SERIES FAM PARK",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Amundi Emerging Markets Bond FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Amundi European Equity Value FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "M&G Optimal Income FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fineco AM Global Premium Equities Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -147,7 +75,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Invesco Pan European High Income FAM Fund"
+        "name": "CORE SERIES INVESCO PAN EUROPEAN HIGH INCOME FAM FUND"
       }
     }
   },
@@ -155,7 +83,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Global Macro Credit FAM Fund"
+        "name": "CORE SERIES GLOBAL MACRO CREDIT FAM FUND"
       }
     }
   },
@@ -163,7 +91,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Fidelity Global Dividend FAM Fund"
+        "name": "CORE SERIES MFS PRUDENT CAPITAL FAM FUND"
       }
     }
   },
@@ -171,7 +99,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Invesco Global Total Return Bond FAM Fund"
+        "name": "CORE SERIES BOND 6M FINECO AM FUND"
       }
     }
   },
@@ -179,7 +107,31 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "US Equity Value FAM Fund"
+        "name": "CORE SERIES ENHANCED BOND 6M FINECO AM FUND"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CORE SERIES SUSTAINABLE ENHANCED BOND 12M FINECO AM FUND"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CORE SERIES CORE AGGRESSIVE"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CORE SERIES FAM PARK"
       }
     }
   }

@@ -414,6 +414,44 @@ class TestWhatOtherPagesHaveAlreadyTaken:
         assert assigned_funds(filter_data) == fund_set(["Alpha Fund", "Beta Fund"])
 
 
+class TestWhenTheSectionDoesNotEndHere:
+    """`settle=False`: la pagina dichiara, ma il conto del residuo lo chiude un'altra."""
+
+    def test_nobody_takes_what_nobody_claimed(self, recorder):
+        """UBS-EN23 p4: la sezione continua a p5, dove Morgan Stanley rivendica un comparto.
+
+        Chiudendo il conto qui, quel comparto finirebbe alla società di gestione — cioè attribuito
+        a chi la pagina dopo dice esplicitamente che non lo gestisce.
+        """
+        assignment = assign(
+            [Declared("Delegate SA", funds=["Alpha Fund"])],
+            ["Alpha Fund", "Beta Fund"],
+            manco="The Manco",
+            settle=False,
+        )
+
+        assert names(assignment) == ["Delegate SA"]
+        assert not recorder.imposed
+
+    def test_it_says_nothing_about_the_funds_it_leaves_open(self, recorder):
+        """Il residuo non deciso non è un errore: è un conto che un'altra pagina chiuderà."""
+        assign([], ["Alpha Fund"], manco=None, settle=False)
+
+        assert not recorder.errors
+        assert not recorder.warnings
+
+    def test_the_page_that_does_close_it_sees_what_the_others_took(self, recorder):
+        """p5: `already_assigned` porta i comparti di p4, e il residuo è ciò che resta davvero."""
+        assignment = assign(
+            [Declared("Morgan Stanley", funds=["Beta Fund"])],
+            ["Alpha Fund", "Beta Fund", "Gamma Fund"],
+            manco="The Manco",
+            already_assigned=["Alpha Fund"],
+        )
+
+        assert funds_of(assignment, "The Manco") == ["Gamma Fund"]
+
+
 class TestThePublicSurface:
     """Che cosa il pacchetto offre a chi lo importa."""
 

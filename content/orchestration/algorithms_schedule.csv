@@ -4,6 +4,8 @@ ANIMA_SGR-IT24,fund_assets_begin,TRUE
 ANIMA_SGR-IT24,fund_assets_end,
 ANIMA_SGR-IT24,merges,
 ANIMA_SGR-IT24,sfdr_classification,
+ANIMA_SGR-IT24,manco,
+ANIMA_SGR-IT24,esg_indicators,
 CARNE-EN23,investments,TRUE
 CARNE-EN23,fund_assets,
 CARNE-EN23,manco,
@@ -47,6 +49,7 @@ FINECO-EN23@IR,fund_assets,
 FINECO-EN23@IR,sfdr_classification,
 FINECO-EN23@IR,inv_managers_table,TRUE
 FINECO-EN23@IR,manco,
+FINECO-EN23@IR,esg_indicators,
 FINECO-EN23@LUX,investments,TRUE
 FINECO-EN23@LUX,fund_assets,
 FINECO-EN23@LUX,sfdr_classification,
@@ -70,8 +73,10 @@ ARCA-IT24,investments,TRUE
 ARCA-IT24,fund_assets_begin,TRUE
 ARCA-IT24,fund_assets_end,
 ARCA-IT24,sfdr_classification,
+ARCA-IT24,merges,
 UBS-EN23,investments,TRUE
-UBS-EN23,manco,
+UBS-EN23,manco,TRUE
+UBS-EN23,inv_managers_end,
 UBS-EN23,sfdr_classification,
 MEDIOLANUM-IT24.B,investments,TRUE
 MEDIOLANUM-IT24.B,fund_assets_begin,TRUE
@@ -83,7 +88,16 @@ AMUNDI-IT24,fund_assets_end,
 AMUNDI-IT24,sfdr_classification,
 AMUNDI-EN24,investments,TRUE
 AMUNDI-EN24,sfdr_classification,
+AMUNDI-EN24,renaming,
 ASTERIA-EN24,investments,TRUE
 ASTERIA-EN24,sfdr_classification,
 DANSKEINVEST-EN24,investments,TRUE
 DANSKEINVEST-EN24,sfdr_classification,
+DANSKEINVEST-EN24,merges,
+EURIZON-EN21,investments,TRUE
+EURIZON-EN21,manco,
+FIDEURAM-EN23,investments,TRUE
+FIDEURAM-EN23,manco_note,TRUE
+FIDEURAM-EN23,inv_managers,
+ASTERIA-EN23,investments,TRUE
+ASTERIA-EN23,inv_managers,

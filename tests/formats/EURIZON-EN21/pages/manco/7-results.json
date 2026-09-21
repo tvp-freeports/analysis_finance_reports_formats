@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "EURO EQUITY",
+            "EURO FIXED INCOME",
+            "HIGH YIELD 1 5 YEARS EURO HEDGED",
+            "HIGH YIELD BOND",
+            "USA EQUITY"
+          ]
+        },
+        "name": "Eurizon Capital S.A."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "EURO EQUITY",
+            "EURO FIXED INCOME",
+            "HIGH YIELD 1 5 YEARS EURO HEDGED",
+            "HIGH YIELD BOND",
+            "USA EQUITY"
+          ]
+        },
+        "name": "Eurizon Capital S.A."
+      }
+    }
+  }
+]

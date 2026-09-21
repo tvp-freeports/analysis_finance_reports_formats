@@ -1,0 +1,35 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "BPER INTERNATIONAL SICAV GLOBAL BALANCED RISK CONTROL"
+        ]
+      }
+    },
+    "content": "Morgan Stanley Investment Management Limited",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "group": "L3"
+      },
+      "content": "Morgan Stanley Investment Management Limited"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES"
+        ]
+      }
+    },
+    "content": "UBS Fund Management (Luxembourg) S.A.",
+    "pdf_block": null
+  }
+]

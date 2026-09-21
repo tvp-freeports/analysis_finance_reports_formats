@@ -102,13 +102,19 @@ class Declared:
     - `partial` — vero quando la specificazione copre **una parte** del comparto e non il comparto
       (CARNE-EN23 p4: *«in charge for the USD nominated securities in the subfund …»*). Il gestore
       entra per quel comparto, ma il comparto **resta** nel residuo, perché il gestore di default
-      continua a rispondere del resto.
+      continua a rispondere del resto;
+    - `retired` — vero quando la pagina qualifica il gestore come **non piu' in carica** alla data
+      di chiusura (EURIZON-EN23 p10: `(until 10th of May 2023)`). Si estrae solo chi è in carica
+      alla chiusura, quindi la dichiarazione **non diventa una riga**; ma i comparti che nomina
+      restano comparti del documento, e non essendo piu' rivendicati tornano nel residuo, cioè a
+      chi il documento dice che li gestisce adesso.
     """
 
     name: str
     funds: frozenset = None
     partial: bool = False
     block: object = None
+    retired: bool = False
 
     def __post_init__(self):
         if not isinstance(self.name, str):
@@ -150,7 +156,7 @@ class Assignment:
     to_manco: bool
 
 
-def assign(declared, funds, manco=None, already_assigned=()):
+def assign(declared, funds, manco=None, already_assigned=(), settle=True):
     """Assegna i fondi ai gestori, e restituisce l'[`Assignment`][] che ne esce.
 
     `declared` sono le coppie lette dalla pagina (`Declared`), `funds` i fondi che il job ha visto,
@@ -164,26 +170,37 @@ def assign(declared, funds, manco=None, already_assigned=()):
     Avvisa in due casi, che sono i due in cui il dato d'uscita **non** sta scritto nel documento:
     quando il residuo va alla società di gestione (`R3`, valore imposto) e quando più gestori
     restano senza fondi e il residuo va a tutti quanti (`R21`, ambiguità risolta per eccesso).
+
+    `settle=False` dice che **la sezione non finisce qui**: i gestori che la pagina dichiara si
+    scrivono, ma ciò che nessuno rivendica non si dà a nessuno e non si segnala. Serve alle sezioni
+    a cavallo di più pagine in cui nessun gestore è dichiarato *senza* comparti — UBS-EN23 p4→5 è
+    il caso — perché lì il residuo lo deciderebbe la prima pagina sulla sola metà che ha letto, e
+    la società di gestione si prenderebbe comparti che la pagina dopo attribuisce a un delegato.
+    L'ultima pagina chiude il conto, e sa che cosa le altre hanno già preso da `already_assigned`.
     """
     funds = fund_set(funds)
     declarations = _flatten(declared)
     declarations = [_respell(d, funds) for d in declarations]
     kept = [d for d in declarations if _is_of_interest(d, funds)]
 
+    # I gestori usciti durante l'esercizio non scrivono righe, ma i comparti che nominano sono
+    # comparti del documento lo stesso: `named` li conta, `claimed` no.
+    live = [d for d in kept if not d.retired]
+
     claimed = fund_set(already_assigned)
-    claimed |= frozenset().union(*[d.funds for d in kept if d.funds is not None and not d.partial])
+    claimed |= frozenset().union(*[d.funds for d in live if d.funds is not None and not d.partial])
     named = frozenset().union(*[d.funds for d in kept if d.funds is not None])
     new_funds = named - funds
     residual = funds - claimed
 
-    unspecified = [d for d in kept if d.funds is None]
+    unspecified = [d for d in live if d.funds is None]
     managers = [
         Assigned(d.name, residual if d.funds is None else d.funds, d.block)
-        for d in kept
+        for d in live
     ]
     to_manco = False
 
-    if not unspecified:
+    if settle and not unspecified:
         if residual and manco is not None:
             managers.append(Assigned(_content_of(manco), residual, _block_of(manco), is_manco=True))
             to_manco = True
@@ -197,7 +214,7 @@ def assign(declared, funds, manco=None, already_assigned=()):
                 "{} funds have no investments manager and the format reads no management company"
                 .format(len(residual))
             )
-    elif len(unspecified) > 1:
+    elif settle and len(unspecified) > 1:
         log.warn(
             "the report names {} managers without saying which funds each has: "
             "every one of them is credited with all {} residual funds"
@@ -229,13 +246,19 @@ def _flatten(declared):
             merged[key] = d
             continue
         before = merged[key]
+        # Un nome dichiarato anche **senza** la qualificazione temporale è in carica: il documento
+        # lo nomina due volte e una delle due volte non lo qualifica.
+        retired = before.retired and d.retired
         if before.funds is None or d.funds is None:
-            merged[key] = replace(before, funds=None, partial=before.partial and d.partial)
+            merged[key] = replace(
+                before, funds=None, partial=before.partial and d.partial, retired=retired
+            )
         else:
             merged[key] = replace(
                 before,
                 funds=before.funds | d.funds,
                 partial=before.partial and d.partial,
+                retired=retired,
             )
     return [merged[name] for name in order]
 

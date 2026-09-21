@@ -1,0 +1,42 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "ASTERIA FUNDS CLIMATE BONDS",
+          "ASTERIA FUNDS PEOPLE IMPACT GLOBAL EQUITIES",
+          "ASTERIA FUNDS PLANET IMPACT GLOBAL EQUITIES"
+        ]
+      }
+    },
+    "content": "Asteria Obviam SA",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INVESTMENTS_MANAGER",
+      "metadata": {},
+      "content": "Asteria Obviam SA"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "ASTERIA FUNDS CLIMATE BONDS",
+          "ASTERIA FUNDS PEOPLE IMPACT GLOBAL EQUITIES",
+          "ASTERIA FUNDS PLANET IMPACT GLOBAL EQUITIES"
+        ]
+      }
+    },
+    "content": "Waystone Management Company (Lux) S.A.",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Waystone Management Company (Lux) S.A."
+    }
+  }
+]

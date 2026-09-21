@@ -3,9 +3,9 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc",
-        "fund": "AKTIV FORMOGENHETSFORVALTNING",
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "EUROPEAN CORPORATE GREEN BOND",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -21,8 +21,26 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Alphabet",
-        "company_match": "Alphabet",
+        "company": "Acme",
+        "company_match": "Acme",
+        "fund": "GLOBAL EMERGING MARKETS",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Acme",
+        "company_match": "Acme",
         "fund": "DENMARK FOCUS",
         "nominal_quantity": null,
         "market_value": 100.0,
@@ -37,32 +55,9 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:Fund",
       "data": {
-        "company": "Amazon",
-        "company_match": "Amazon",
-        "fund": "EMERGING MARKETS DEBT HARD CURRENCY",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:EUR"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:InvestmentsManager",
-      "data": {
-        "name": "Danske Bank A/S",
-        "managed_funds": {
-          "__set__": [
-            "AKTIV FORMOGENHETSFORVALTNING"
-          ]
-        }
+        "name": "EUROPEAN CORPORATE GREEN BOND"
       }
     }
   },
@@ -70,7 +65,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "AKTIV FORMOGENHETSFORVALTNING"
+        "name": "GLOBAL EMERGING MARKETS"
       }
     }
   },
@@ -95,14 +90,6 @@
       "class": "freeports.output:Fund",
       "data": {
         "name": "DANISH BOND"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Fund",
-      "data": {
-        "name": "DANISH MORTGAGE BOND"
       }
     }
   }

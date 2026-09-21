@@ -24,6 +24,7 @@ from inv_managers import (
     assign,
 )
 from inv_managers import reading as reading_module
+from freeports.utils.text_filter import MatchFund
 
 
 class Recorder:
@@ -88,6 +89,40 @@ def read(reader, blocks):
         )
         for declaration in reader(blocks)
     ]
+
+
+class TestNamed:
+    """Il blocco è la dichiarazione, e la pagina non dice quali comparti tocchino a chi."""
+
+    def test_the_block_alone_is_a_manager_without_funds(self):
+        """ASTERIA-EN23 p3: sotto `Investment Manager and Global Distributor:` c'è un nome solo."""
+        blocks = [PdfBlock("INV_MAN", {}, "Asteria Obviam SA")]
+
+        assert read(inv_managers.Named(), blocks) == [("Asteria Obviam SA", None, False)]
+
+    def test_the_note_mark_does_not_stay_in_the_name(self):
+        """Un richiamo di nota sul nome del gestore si toglie come su quello di un comparto."""
+        blocks = [PdfBlock("INV_MAN", {}, "Asteria Obviam SA*")]
+
+        assert read(inv_managers.Named(), blocks) == [("Asteria Obviam SA", None, False)]
+
+    def test_a_line_that_names_two_becomes_two_declarations(self):
+        """`separators` c'è perché una riga sola può nominarne due, e `R22` le vuole distinte."""
+        blocks = [PdfBlock("INV_MAN", {}, "Alpha Capital SA and Beta Advisers Ltd")]
+
+        assert read(inv_managers.Named(separators=(" and ",)), blocks) == [
+            ("Alpha Capital SA", None, False),
+            ("Beta Advisers Ltd", None, False),
+        ]
+
+    def test_the_block_it_keeps_is_the_one_the_line_comes_from(self):
+        """La riga d'uscita deve sapere da che pagina viene, e il blocco è l'unico a saperlo."""
+        block = PdfBlock("INV_MAN", {"page": 3}, "Asteria Obviam SA")
+
+        kept = inv_managers.Named()([block])[0]
+
+        assert kept.block.metadata == {"page": 3}
+        assert str(kept.block.content) == "Asteria Obviam SA"
 
 
 class TestAdjacentBelow:
@@ -275,6 +310,73 @@ class TestAdjacentAbove:
              ["BPER International SICAV Global Balanced Risk Control"], False),
         ]
 
+    def test_a_listing_inside_a_named_entry_still_gives_its_manager(self):
+        """UBS-EN23 p4, colonna di destra: ombrello, elenco e gestore in **un solo** paragrafo.
+
+        La riga dell'ombrello non apre nessun elenco — non porta il trattino — quindi consuma il
+        posto del nome; se la specificazione che si chiude non lo riaprisse, `UBS Asset Management
+        Switzerland AG` non uscirebbe affatto. Lo scopo lo apre la specificazione, non lo stacco.
+        """
+        blocks = grouped([
+            "BPER International SICAV",
+            "– Emerging Markets - Multi Asset Dividend",
+            "– Equity North America",
+            "UBS Asset Management Switzerland AG",
+        ])
+        reader = Adjacent(Listing(umbrella="BPER International SICAV"),
+                          where=Where.ABOVE, take=Take.FIRST)
+
+        assert read(reader, blocks) == [
+            ("UBS Asset Management Switzerland AG",
+             ["BPER International SICAV Emerging Markets - Multi Asset Dividend",
+              "BPER International SICAV Equity North America"], False),
+        ]
+
+    def test_the_city_inside_the_company_name_is_stripped(self):
+        """UBS-EN23 p4: `Banca Cesare Ponti, Milano, Italy` è la sede dentro la ragione sociale.
+
+        L'anagrafica vuole `Banca Cesare Ponti`, e questo formato lo dichiara togliendo tutto ciò
+        che segue la prima virgola. È un parametro del formato: la stessa espressione su
+        FIDEURAM-EN23 mutilerebbe `Vontobel Asset Management S.A., Milan Branch`.
+        """
+        blocks = grouped([
+            "BPER International SICAV",
+            "– Open Selection Defence",
+            "Banca Cesare Ponti, Milano, Italy",
+        ])
+        reader = Adjacent(Listing(umbrella="BPER International SICAV"),
+                          where=Where.ABOVE, take=Take.FIRST, strip=(r",.*$",))
+
+        assert read(reader, blocks) == [
+            ("Banca Cesare Ponti", ["BPER International SICAV Open Selection Defence"], False),
+        ]
+
+    def test_the_block_that_travels_to_the_output_carries_the_stripped_name(self):
+        """Il nome della riga d'uscita è il **contenuto del blocco**, non il testo letto."""
+        blocks = grouped([
+            "BPER International SICAV",
+            "– Open Selection Defence",
+            "Banca Cesare Ponti, Milano, Italy",
+        ])
+        reader = Adjacent(Listing(umbrella="BPER International SICAV"),
+                          where=Where.ABOVE, take=Take.FIRST, strip=(r",.*$",))
+
+        declaration = reader(blocks)[0]
+        assert str(declaration.block.content) == "Banca Cesare Ponti"
+        assert declaration.block.metadata == {"group": 0}
+
+    def test_without_strip_the_name_stays_as_the_page_writes_it(self):
+        """Il difetto è che il parametro non c'è: senza, la città resta nel nome."""
+        blocks = grouped([
+            "BPER International SICAV",
+            "– Open Selection Defence",
+            "Banca Cesare Ponti, Milano, Italy",
+        ])
+        reader = Adjacent(Listing(umbrella="BPER International SICAV"),
+                          where=Where.ABOVE, take=Take.FIRST)
+
+        assert read(reader, blocks)[0][0] == "Banca Cesare Ponti, Milano, Italy"
+
     def test_a_name_before_any_specification_is_reported_and_dropped(self, recorder):
         """UBS-EN23 p5 comincia con la coda della prosa della pagina prima."""
         blocks = typed_groups(
@@ -457,6 +559,60 @@ class TestConnectorLine:
         ]
 
 
+    def test_the_formula_that_opens_the_sentence_is_not_part_of_the_name(self):
+        """UBS-EN23 p4: il gestore sta **dentro** la frase, fra due espressioni fisse."""
+        blocks = grouped([
+            "The Management Company delegated to Nordea ",
+            "Investment Management AB the day to day portfolio ",
+            "management of BPER International SICAV – Low ",
+            "Duration European Covered Bond. ",
+        ])
+        reader = ConnectorLine(
+            connector=" the day to day portfolio management of ",
+            after="The Management Company delegated to ",
+        )
+
+        assert read(reader, blocks) == [
+            ("Nordea Investment Management AB",
+             ["BPER International SICAV – Low Duration European Covered Bond"], False),
+        ]
+
+    def test_a_paragraph_without_the_opening_formula_is_dropped(self, recorder):
+        """UBS-EN23 p4 alterna una dichiarazione e un paragrafo che spiega: il secondo non dichiara."""
+        blocks = grouped([
+            "The portfolio management units of Nordea Investment ",
+            "Management AB may transfer their mandates, ",
+        ])
+        reader = ConnectorLine(
+            connector=" the day to day portfolio management of ",
+            after="The Management Company delegated to ",
+        )
+
+        assert read(reader, blocks) == []
+        assert recorder.debugs
+
+    def test_the_block_it_keeps_carries_the_name_alone(self):
+        """La riga d'uscita sa da che pagina viene, e si chiama col nome del gestore.
+
+        `blocks.text_blocks` prende il nome dal **contenuto del blocco** quando il blocco c'è.
+        Tenendo la riga intera, FIDEURAM-EN23 p71 avrebbe scritto in `investments_managers.csv`
+        `Newton Investment Management Limited for Willerfunds - Private Suite - BNY Mellon Global
+        Real Return,` come ragione sociale.
+        """
+        blocks = [
+            PdfBlock(
+                "INV_MAN",
+                {"group": 0},
+                "Newton Investment Management Limited for Willerfunds - Private Suite - "
+                "BNY Mellon Global Real Return,",
+            )
+        ]
+        declared = ConnectorLine()(blocks)
+        assert len(declared) == 1
+        assert declared[0].block.content == "Newton Investment Management Limited"
+        assert declared[0].block.metadata == {"group": 0}
+
+
 class TestTable:
     """Una riga per comparto, e lo stesso gestore su molte righe."""
 
@@ -571,3 +727,98 @@ class TestReadingAndAssigningTogether:
         declarations = Adjacent(Parenthetical())(blocks)
 
         assert declarations[0].block is blocks[0]
+
+
+class TestTheManagerWhoLeftDuringTheYear:
+    """EURIZON-EN23 p9→10: si estrae chi è in carica alla chiusura, non la storia dell'esercizio.
+
+    p10 scrive `Eurizon Capital Asia Limited`, sotto `(until 10th of May 2023)`, e piu' sotto la
+    parentesi che gli attribuisce `Eurizon Fund - Equity China A` e `Eurizon Fund - Asian Equity
+    Opportunities`; p9 dice degli stessi due comparti che *are managed by Eurizon Capital S.A. as
+    from 10 May 2023*. La regola è quella della società di gestione, che l'utente ha esteso ai
+    gestori il 2026-09-21.
+    """
+
+    def entries(self):
+        """I blocchi di p10 come il `pdf_extract` li porta: nome, tondo chiaro, corsivo."""
+        return typed(
+            ("INV", "Eurizon Capital Asia Limited"),
+            ("NOTE", "(until 10th of May 2023)"),
+            ("NOTE", "Unit 7507A2, Level 75, International Commerce Centre"),
+            ("SUB", "(this function has been delegated by Eurizon Capital S.A. to Eurizon"),
+            ("SUB", "Capital Asia Limited for the Sub-Funds Eurizon Fund - Equity China A and"),
+            ("SUB", "Eurizon Fund - Asian Equity Opportunities)"),
+            ("INV", "Jennison Associates LLC"),
+            ("NOTE", "466 Lexington Avenue"),
+            ("SUB", "(this function has been delegated by Eurizon Capital S.A. to Jennison"),
+            ("SUB", "Associates LLC for the Sub-Fund Eurizon Fund - Global Equity Infrastructure)"),
+        )
+
+    def reader(self, **overrides):
+        """Il lettore del formato, con i parametri che la pagina chiede."""
+        options = dict(
+            where=Where.BELOW,
+            note_type="NOTE",
+            retired=(r"^\(until\b",),
+        )
+        options.update(overrides)
+        return Adjacent(
+            Parenthetical(block_type="SUB",
+                          markers=("for the Sub-Funds ", "for the Sub-Fund ")),
+            **options
+        )
+
+    def test_the_outgoing_manager_is_read_but_marked(self):
+        """Il lettore non lo butta: `assign` ha ancora bisogno dei comparti che nomina."""
+        declarations = self.reader()(self.entries())
+
+        assert [(d.name, d.retired) for d in declarations] == [
+            ("Eurizon Capital Asia Limited", True),
+            ("Jennison Associates LLC", False),
+        ]
+
+    def test_the_address_is_never_taken_for_a_name(self):
+        """Senza `note_type` ogni riga di tondo chiaro diventerebbe un gestore: la pagina non ha
+        gruppi, quindi ogni blocco è un'entrata a sé."""
+        declarations = self.reader(note_type=None)(self.entries())
+
+        assert "466 Lexington Avenue" in [d.name for d in declarations]
+
+    def test_the_outgoing_manager_writes_no_row(self):
+        """L'assegnazione: fuori Asia Limited, e i suoi due comparti nel residuo di chi resta."""
+        funds = ["Eurizon Fund - Equity China A",
+                 "Eurizon Fund - Asian Equity Opportunities",
+                 "Eurizon Fund - Global Equity Infrastructure"]
+        declarations = list(self.reader()(self.entries()))
+        declarations.append(inv_managers.Declared("Eurizon Capital S.A."))
+
+        assignment = assign(declarations, funds)
+
+        assert [(m.name, sorted(f.name for f in m.funds)) for m in assignment.managers] == [
+            ("Jennison Associates LLC", ["Eurizon Fund - Global Equity Infrastructure"]),
+            ("Eurizon Capital S.A.", ["Eurizon Fund - Asian Equity Opportunities",
+                                      "Eurizon Fund - Equity China A"]),
+        ]
+
+    def test_the_funds_of_the_outgoing_manager_stay_funds_of_the_document(self):
+        """Il comparto che **solo** il gestore uscente nomina non sparisce dall'uscita."""
+        funds = ["Eurizon Fund - Asian Equity Opportunities",
+                 "Eurizon Fund - Global Equity Infrastructure"]
+        declarations = list(self.reader()(self.entries()))
+        declarations.append(inv_managers.Declared("Eurizon Capital S.A."))
+
+        assignment = assign(declarations, funds)
+
+        assert sorted(f.name for f in assignment.new_funds) == ["Eurizon Fund - Equity China A"]
+        assert MatchFund("Eurizon Fund - Equity China A") in assignment.funds
+
+    def test_a_name_declared_elsewhere_without_the_qualifier_is_still_in_charge(self):
+        """`retired` si fonde in `and`: una sola riga qualificata non basta a mandarlo via."""
+        declarations = [
+            inv_managers.Declared("Alpha Asset Management", funds=["Beta Fund"], retired=True),
+            inv_managers.Declared("Alpha Asset Management", funds=["Gamma Fund"]),
+        ]
+
+        assignment = assign(declarations, ["Beta Fund", "Gamma Fund"])
+
+        assert [m.name for m in assignment.managers] == ["Alpha Asset Management"]

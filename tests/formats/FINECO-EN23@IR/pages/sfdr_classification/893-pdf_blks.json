@@ -1,6 +1,14 @@
 [
   {
     "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "page": 893
+    },
+    "content": "Product name: Fidelity EURO Bond FAM Fund"
+  },
+  {
+    "__pdf_block__": true,
     "type_block": "SFDR_ARTICLE",
     "metadata": {
       "answer": "negative",

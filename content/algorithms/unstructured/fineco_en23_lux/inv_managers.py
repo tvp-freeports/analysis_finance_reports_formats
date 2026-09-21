@@ -1,3 +1,27 @@
+"""FINECO-EN23@LUX p6: la specificazione sta **sopra**, e copre le società che seguono.
+
+`IM-4`, pagina aggiuntiva. La colonna `Investment Manager(s)` alterna una frase fra parentesi e
+una o più società, e la frase vale per **tutte** quelle che la seguono fino alla prossima:
+
+```
+(Only in respect of the Sub-Fund MFS Prudent Capital FAM Fund)
+MFS Investment Management Company (Lux) S.à r.l.      ← tutt'e tre
+MFS International (U.K.) Limited
+MFS Institutional Advisors Inc.
+```
+
+Due cose che la pagina impone e che sono parametri, non rami:
+
+- i marcatori si provano **nell'ordine**, quindi `Only in respect of the Sub-Fund` prima di `Only
+  in respect of`, o il comparto si chiamerebbe `the Sub-Fund Invesco Pan …`;
+- la parentesi nomina il comparto **senza l'ombrello**, che sta nella testatina: `Invesco Pan
+  European High Income FAM Fund` contro `CoRe Series Invesco Pan European High Income FAM Fund`
+  degli investimenti. `R24` vuole il secondo, e `umbrella` è come si ottiene.
+
+Il residuo è di `Fineco Asset Management DAC`, che questa pagina legge come società di gestione.
+"""
+
+import inv_managers
 from freeports.utils.pdf_extract import (
     pdflines_from_pagedict,
     PdfLineSelection,
@@ -6,27 +30,14 @@ from freeports.utils.pdf_extract import (
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractManagmentCompanyStandard,
 )
-from freeports.core import PdfBlock, TextBlock
-from freeports.interfaces.text_blks import (
-    ResultStandardFiltering,
-    StandardManagmentCompanyTextBlock,
-    StandardInvestmentsMangerTextBlock,
-    StandardFundTextBlock
-)
-from freeports.utils.text_filter import MatchFund
+from freeports.core import PdfBlock
 from freeports.standard_funcs.deserialize import (
     DeserializerFundStandard,
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerStandard
 )
-from freeports.output import Fund, InvestmentsManager
+from freeports.utils.text_filter import fund_filter_data
 from enum import Enum, auto
-
-
-class ParseState(Enum):
-    FUNDS_PARSING = auto()
-    POSSIBLE_INVESTMENT_MANAGER = auto()
-    OTHER = auto()
 
 
 class BlockType(Enum):
@@ -59,97 +70,31 @@ pdf_extract_manco = PdfExtractManagmentCompanyStandard(
 )
 
 
-def text_filter(pdf_blocks, filter_data):
-    subfunds = set(
-        map(
-            lambda x: MatchFund(x.name),
-            filter(lambda x: isinstance(x, Fund), filter_data),
-        )
-    )
-    blocks = []
-    manco = None
-    for b in pdf_blocks:
-        if b.type_block == BlockType.INV_MAN.name:
-            blocks.append(b)
-        else:
-            manco = b
-    current_funds = set()
-    current_funds_text = ""
-    current_inv_man = None
-    current_group = 0
-    invs_blks = {}
-    state = ParseState.OTHER
-    for rb in blocks:
-        r = rb.content.strip()
-        g = rb.metadata["group"]
-        if g != current_group:
-            invs_blks[current_inv_man] = current_funds
-            state = ParseState.POSSIBLE_INVESTMENT_MANAGER
-        if r.startswith("(Only in respect of") and r.endswith(")"):
-            current_funds_text += (
-                r.replace("(Only in respect of the Sub-Fund", "")
-                .replace("(Only in respect of", "")
-                .strip()
-                .replace(")", "")
-                .strip()
-                .replace("and", ",")
-            )
-            current_funds = set(
-                (MatchFund(name=s.strip()) for s in current_funds_text.split(","))
-            )
-            state = ParseState.OTHER
-        elif r.startswith("(Only in respect of"):
-            state = ParseState.FUNDS_PARSING
-            current_funds_text += (
-                r.replace("(Only in respect of the Sub-Fund", "")
-                .replace("(Only in respect of", "")
-                .strip()
-                .replace("and", ",")
-            )
-        else:
-            if state == ParseState.FUNDS_PARSING:
-                if r.endswith(")"):
-                    state = ParseState.POSSIBLE_INVESTMENT_MANAGER
-                    current_funds_text += " " + r.replace(")", "").strip().replace(
-                        "and", ","
-                    )
-                    current_funds = set(
-                (
-                    MatchFund(name=s.strip())
-                    for s in current_funds_text.split(",")
-                )
-                    )
-                    current_funds_text = ""
-                else:
-                    current_funds_text += " " + r.replace("and", ",")
-            elif state == ParseState.POSSIBLE_INVESTMENT_MANAGER:
-                current_inv_man = r
-                state = ParseState.OTHER
-        current_group = g
-    invs_blks[current_inv_man] = current_funds
-    new_funds = set()
-    inv_managers_funds = set()
-    res = []
-    for i, s in invs_blks.items():
-        inv_managers_funds=inv_managers_funds.union(s)
-        if not s.isdisjoint(subfunds):
-            res.append(
-                StandardInvestmentsMangerTextBlock.from_name(i,s)
-            )
-            for f in s:
-                if f not in subfunds:
-                    new_funds.add(f)
-                    res.append(
-                        StandardFundTextBlock.from_matched_fund(f)
-                    )
+UMBRELLA = "CoRe Series"
+"""L'ombrello, che la testatina di ogni pagina scrive e la specificazione dà per sottinteso."""
 
-    res.append(
-        StandardManagmentCompanyTextBlock(manco, subfunds.union(new_funds))
+read = inv_managers.Adjacent(
+    inv_managers.Parenthetical(
+        markers=("Only in respect of the Sub-Fund ", "Only in respect of "),
+        umbrella=UMBRELLA,
+    ),
+    where=inv_managers.Where.ABOVE,
+    take=inv_managers.Take.ALL,
+)
+
+
+@fund_filter_data
+def text_filter(pdf_blocks, funds):
+    """I gestori delegati, il residuo alla societa' di gestione, e i comparti nuovi."""
+    manco = next(
+        (b for b in pdf_blocks if b.type_block != BlockType.INV_MAN.name), None
     )
-    res.append(
-        StandardInvestmentsMangerTextBlock(manco,subfunds-inv_managers_funds)
-    )
-    return res
+    relevant = [b for b in pdf_blocks if b.type_block == BlockType.INV_MAN.name]
+    assignment = inv_managers.assign(read(relevant), funds, manco=manco)
+    blocks = list(inv_managers.text_blocks(assignment))
+    if manco is not None:
+        blocks.append(inv_managers.management_company_block(assignment, manco))
+    return blocks
 
 
 deserialize = DeserializerInvestmentsManagerStandard()

@@ -1,0 +1,104 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "current_name": "European Equity Income ESG",
+      "merge": false,
+      "old_name": "European Equity Sustainable Income",
+      "when": "15 March 2024"
+    },
+    "content": "Amundi Funds European Equity Sustainable Income into Amundi Funds European Equity Income ESG ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "Amundi Funds European Equity Sustainable Income into Amundi Funds European Equity Income ESG "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "current_name": "Euro Corporate ESG Bond",
+      "merge": false,
+      "old_name": "Euro Corporate Bond",
+      "when": "15 March 2024"
+    },
+    "content": "Amundi Funds Euro Corporate Bond into Amundi Funds Euro Corporate ESG Bond ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "Amundi Funds Euro Corporate Bond into Amundi Funds Euro Corporate ESG Bond "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "current_name": "US High Yield Bond",
+      "merge": false,
+      "old_name": "Pioneer US High Yield Bond",
+      "when": "15 March 2024"
+    },
+    "content": "Amundi Funds Pioneer US High Yield Bond into Amundi Funds US High Yield Bond ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "Amundi Funds Pioneer US High Yield Bond into Amundi Funds US High Yield Bond "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "current_name": "Strategic Income",
+      "merge": false,
+      "old_name": "Pioneer Strategic Income",
+      "when": "15 March 2024"
+    },
+    "content": "Amundi Funds Pioneer Strategic Income into Amundi Funds Strategic Income ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "Amundi Funds Pioneer Strategic Income into Amundi Funds Strategic Income "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "current_name": "Income Opportunities",
+      "merge": false,
+      "old_name": "Pioneer Income Opportunities",
+      "when": "15 March 2024"
+    },
+    "content": "Amundi Funds Pioneer Income Opportunities into Amundi Funds Income Opportunities ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "Amundi Funds Pioneer Income Opportunities into Amundi Funds Income Opportunities "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "current_name": "Global Equity ESG Improvers",
+      "merge": true,
+      "old_name": "Amundi S.F. European Equity Optimal Volatility",
+      "when": "13 October 2023"
+    },
+    "content": "Amundi S.F. European Equity Optimal Volatility into Amundi Funds Global Equity ESG Improvers on 13 October 2023 ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "Amundi S.F. European Equity Optimal Volatility into Amundi Funds Global Equity ESG Improvers on 13 October 2023 "
+    }
+  }
+]

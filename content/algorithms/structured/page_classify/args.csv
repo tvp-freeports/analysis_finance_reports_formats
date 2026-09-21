@@ -62,13 +62,19 @@ ARCA-IT24/2,"TrebuchetMS-Bold ""^ATTIVITA'""",fund_assets_begin
 ARCA-IT24/2,"TrebuchetMS-Bold ""^TOTALE ATTIVITA'""",fund_assets_begin
 ARCA-IT24/3,"TrebuchetMS-Bold ""^PASSIVITA' E NETTO""",fund_assets_end
 ARCA-IT24/3,"TrebuchetMS-Bold ""^TOTALE PASSIVITA'""",fund_assets_end
+ARCA-IT24/4,"lato-bold ""^Eventi rilevanti""",merges
 ASTERIA-EN23,"CenturyGothic-Bold ""Number of Shares/""",investments
+ASTERIA-EN23/1,"CenturyGothic-Bold ""^Investment Manager and Global Distributor:""",inv_managers
 ASTERIA-EN24,"CenturyGothic-Bold ""Transferable securities admitted to an official stock""",investments
 ASTERIA-EN24/1,"""periodic disclosure for the financial products""",sfdr_classification
 DANSKEINVEST-EN24,"Calibri[13] ""Statement of Investments""",investments
 DANSKEINVEST-EN24/1,"""periodic disclosure for the financial products""",sfdr_classification
+DANSKEINVEST-EN24/2,"calibri-bold ""EVENTS DURING THE YEAR""",merges
 EURIZON-EN21,"ArialMT-Bold ""Face value/""",investments
+EURIZON-EN21/1,"arialmt-bold ""^Management Company:""",manco
 FIDEURAM-EN23,"Arial ""Country""",investments
+FIDEURAM-EN23/1,"arial-bold ""^1. GENERAL INFORMATION""",manco_note
+FIDEURAM-EN23/2,"arial ""^The Management Company has designated the following Investment Managers""",inv_managers
 FIDEURAM-IT24/0,"Tahoma,Bold ""Titolo""",investments
 FIDEURAM-IT24/0,"Tahoma,Bold ""Controvalore""",investments
 FIDEURAM-IT24/1,"arialitalic[15.48] ""Fondi comuni di investimento""",manco
@@ -115,6 +121,7 @@ FINECO-EN23@IR/2,"TimesNewRoman,Bold [10.02] ""Manager""",manco
 FINECO-EN23@IR/3,"timesnewromanbold [10.02] ""Statement of Financial Position""",fund_assets
 FINECO-EN23@IR/3,"timesnewromanbold [9] ""Total assets""",fund_assets
 FINECO-EN23@IR/4,"""eriodic disclosure for the financial products""",sfdr_classification
+FINECO-EN23@IR/5,"calibri-bolditalic (1:400) ""How did the sustainability indicators perform""",esg_indicators
 FINECO-EN23@LUX/0,"ArialNarrow-Bold ""Nominal """,investments
 FINECO-EN23@LUX/1,"arialnarrow-bold [14] ""Organisation and Administration""",inv_managers
 FINECO-EN23@LUX/1,"arialnarrow-bold [11] ""Management Company and Global Distributor""",inv_managers
@@ -133,4 +140,6 @@ KAIROS-EN23/5,"""periodic disclosure for the financial products""",sfdr_classifi
 UBS-EN23/0,"Frutiger45LightBold ""Description """,investments
 UBS-EN23/1,"Frutiger45LightBold ""Management Company and Domiciliation Agent""",manco
 UBS-EN23/2,"""periodic disclosure for the financial products""",sfdr_classification
+UBS-EN23/3,"Frutiger45LightBold ""^Administrative Agent and Transfer Agent""",inv_managers_end
 MEDIOLANUM-EN23,"TimesNewRomanPS[15.9647] ""Statement of Investments""",investments
+AMUNDI-EN24/9,"arial-boldmt ""^1  INTRODUCTION""",renaming

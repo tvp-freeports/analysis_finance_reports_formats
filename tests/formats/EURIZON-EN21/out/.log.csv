@@ -1,1 +1,2 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,7,job[EURIZON-EN21]/step[1]/class[manco]/document[report]/page[7]/pipeline[manco]/deserialize/pipe[DeserializerInvestmentsManagerFromManco],,investments_manager,,,WARN,"investments_manager was not read: imposed as ""Eurizon Capital S.A."" - the management company, which the format declares to manage the investments too"

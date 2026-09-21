@@ -1,0 +1,28 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "BPER INTERNATIONAL SICAV GLOBAL BALANCED RISK CONTROL"
+          ]
+        },
+        "name": "Morgan Stanley Investment Management Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES"
+          ]
+        },
+        "name": "UBS Fund Management (Luxembourg) S.A."
+      }
+    }
+  }
+]

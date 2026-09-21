@@ -7,15 +7,27 @@
   },
   {
     "__pdf_block__": true,
-    "type_block": "INV",
+    "type_block": "NOTE",
     "metadata": {},
-    "content": "Jennison Associates LLC"
+    "content": "(until 10th of May 2023)"
   },
   {
     "__pdf_block__": true,
-    "type_block": "INV",
+    "type_block": "NOTE",
     "metadata": {},
-    "content": "PGIM Inc."
+    "content": "Unit 7507A2, Level 75, International Commerce Centre"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "No.1 Austin Road West"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "Kowloon, Hong Kong (Hong Kong)"
   },
   {
     "__pdf_block__": true,
@@ -37,6 +49,24 @@
   },
   {
     "__pdf_block__": true,
+    "type_block": "INV",
+    "metadata": {},
+    "content": "Jennison Associates LLC"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "466 Lexington Avenue"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "New York 10017 (USA)"
+  },
+  {
+    "__pdf_block__": true,
     "type_block": "SUB",
     "metadata": {},
     "content": "(this function has been delegated by Eurizon Capital S.A. to Jennison Associates LLC"
@@ -46,6 +76,24 @@
     "type_block": "SUB",
     "metadata": {},
     "content": "for the Sub-Fund Eurizon Fund - Global Equity Infrastructure)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INV",
+    "metadata": {},
+    "content": "PGIM Inc."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "655 Broad Street"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "Newark, NJ 07101 (USA)"
   },
   {
     "__pdf_block__": true,

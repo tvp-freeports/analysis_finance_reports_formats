@@ -1,6 +1,16 @@
-"""Unstructured module for ARCA-IT24"""
+"""ARCA-IT24: gli attivi a cavallo di due pagine, e la sezione degli eventi che li nega.
+
+`FC-5`. `Eventi rilevanti` di p6 è una sezione che c'è, si apre, e **dichiara l'assenza**:
+*«Non si segnalano eventi rilevanti.»* Non è un buco da riempire — è il dato, e leggerlo è la
+prova che la sezione è stata trovata. La pipeline è quella di tutti gli altri, e il risultato
+vuoto viene da sé: nessuna frase della sezione porta un evento, quindi nessuna riga esce.
+
+L'intestazione **è un parametro** e non una costante (`R13`): ARCA scrive `Eventi rilevanti`,
+AMUNDI-IT24 scrive `Eventi che hanno interessato il fondo`.
+"""
 
 import carryover
+import renaming
 import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
@@ -18,6 +28,9 @@ from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
 from freeports.utils.deserialize import to_int
 from freeports.core import Pipeline
+from freeports.interfaces.pdf_blks import OnePdfBlockType
+from freeports.standard_funcs.pdf_extract import PdfExtractSectionStandard
+from freeports.utils.deserialize import to_date_with_it_month
 
 
 subfund_set = PdfLineSelection.area(0.0, 0.0, 1e6, 60.0) & (
@@ -138,7 +151,37 @@ def text_filter_fund_assets_end(pdf_blks, filter_data):
     return assets_carryover.resume(assets_filter(record_end(pdf_blks), filter_data), filter_data)
 
 
+# La sezione si apre sull'intestazione in grassetto e si chiude sulla prossima dello stesso
+# carattere, che è il comportamento per difetto di `family`.
+pdf_extract_merges = PdfExtractSectionStandard(
+    PdfLineSelection(font="lato-bold", font_size=(11.5, 12.5), text="^Eventi rilevanti"),
+    OnePdfBlockType.RELEVANT_BLOCK.name,
+    "merges",
+    body=PdfLineSelection(font="lato-regular", font_size=(9.5, 10.5)),
+)
+
+# Le due forme in cui i bilanci italiani della raccolta scrivono un evento: l'incorporazione,
+# misurata su EURIZON-IT24 D3 p14, e la ridenominazione, misurata sullo stesso paragrafo. Qui non
+# trovano niente, ed è esattamente ciò che la sezione dichiara.
+read_merges = renaming.Sentence(
+    merged=(
+        r"(?P<when>[0-9]{1,2} [a-zàèéìòù]+ [0-9]{4}) (?:il|la) [Ff]ondo "
+        r"[\u201c\"](?P<old>[^\u201d\"]+)[\u201d\"] è stato incorporato "
+        r"(?:nel|in) [Ff]ondo [\u201c\"](?P<current>[^\u201d\"]+)[\u201d\"]",
+    ),
+    renamed=(
+        r"[Ii]l [Ff]ondo [\u201c\"](?P<current>[^\u201d\"]+)[\u201d\"] "
+        r"\(già denominato (?P<old>[^)]+)\) .{0,40}?"
+        r"(?P<when>[0-9]{1,2} [a-zàèéìòù]+ [0-9]{4})",
+    ),
+)
+
 pipelines = {
+    "merges": Pipeline(
+        pdf_extract=pdf_extract_merges,
+        text_filter=renaming.text_filter(read_merges),
+        deserialize=renaming.deserialize(to_date_with_it_month),
+    ),
     "investments": Pipeline(
         pdf_extract=(
             PdfExtractInvestmentsStandard(body_set=body_set),

@@ -1,5 +1,8 @@
 [
   {
+    "esg-fund-page-893": "Fidelity EURO Bond FAM Fund"
+  },
+  {
     "__pydantic__": {
       "class": "freeports.output:FundSfdrClassification",
       "data": {

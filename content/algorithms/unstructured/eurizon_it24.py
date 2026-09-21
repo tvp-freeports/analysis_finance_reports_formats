@@ -3,6 +3,7 @@
 import re
 
 import carryover
+import manco
 import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
@@ -11,10 +12,9 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractFundStandard,
     PdfExtractLabelledValueStandard,
 )
-from freeports.interfaces.pdf_blks import OnePdfBlockType
+from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
 from freeports.core import Pipeline
 from freeports.utils.pdf_extract import (
-    ExtractTextPdfBlockOrFailPage,
     LabelledValueWhere,
     PdfLineSelection,
     pdflines_from_pagedict,
@@ -23,7 +23,7 @@ from freeports.utils.pdf_extract import (
     TablePosAlgorithm,
 )
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
-from freeports.interfaces.text_blks import OneTextBlockType,StandardManagmentCompanyTextBlock
+from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.standard_funcs.deserialize import (
     DeserializerAssetsStandard,
     DeserializerManagmentCompanyStandard,
@@ -33,7 +33,7 @@ from freeports.utils.deserialize import to_date_with_it_month, to_int, deseriali
 from freeports.utils.text_filter import MatchFund
 from freeports.consts import Currency
 from freeports.core import Promise
-from freeports.core import PageParseFail, PdfBlock, TextBlock
+from freeports.core import PdfBlock, TextBlock
 from freeports.output import (
     Fund,
     FundMerge,
@@ -54,29 +54,16 @@ fund_set = PdfLineSelection(
 
 body_set = PdfLineSelection.font("TrebuchetMS")
 
-pdf_filter_manco = ExtractTextPdfBlockOrFailPage(
+# La frase apre la sezione e il nome le sta dentro, fino alla prima virgola: `La società di
+# gestione EURIZON CAPITAL SGR S.p.A., di seguito "la SGR"...`. E' la stessa forma di FIDEURAM-EN23
+# e di ANIMA_SGR-IT24, e dal 2026-09-20 la scrive il template `manco` invece di una regex qui.
+pdf_filter_manco = PdfExtractLabelledValueStandard(
     PdfLineSelection.text("^La società di gestione"),
+    ResultStandardExtraction.MANAGEMENT_COMPANY.name,
     "managment company",
-    OnePdfBlockType.RELEVANT_BLOCK.name,
 )
 
-manco_regex = re.compile("gestione ([^,]+)")
-
-
-def text_filter_manco(pdf_blks, filter_data):
-    funds = set(
-        map(
-            lambda x: MatchFund(x.name),
-            filter(lambda x: isinstance(x, Fund), filter_data),
-        )
-    )
-    m = manco_regex.search(pdf_blks[0].content)
-    found = None
-    if m:
-        found = m.group(1).strip()
-    else:
-        raise PageParseFail("Managment regex didn't matched anything")
-    return [StandardManagmentCompanyTextBlock.from_name(found, funds)]
+text_filter_manco = manco.text_filter(manco.Between(after="gestione", before=","))
 
 
 deselection_list = [

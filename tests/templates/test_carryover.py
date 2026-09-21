@@ -14,6 +14,7 @@ from freeports.utils.text_filter import MatchFund
 import carryover
 from carryover import Carryover, Record
 from carryover import promise as promise_module
+from carryover import page as page_module
 from carryover import record as record_module
 
 FUND = "ARCA OPPORTUNITÀ GREEN 2027 VIII"
@@ -46,6 +47,7 @@ def recorder(monkeypatch):
     recorder = Recorder()
     monkeypatch.setattr(promise_module, "log", recorder)
     monkeypatch.setattr(record_module, "log", recorder)
+    monkeypatch.setattr(page_module, "log", recorder)
     return recorder
 
 
@@ -412,3 +414,59 @@ class TestWhatTheOtherPageAlreadySaid:
         blocks = record(bare(("TOT_ASSETS", "1")), also={"fund": FUND})
         assert blocks[0].metadata == {"fund": FUND, "tot_assets": "1"}
         assert recorder.warnings == []
+
+
+class TestPageCarryover:
+    """Le due pagine legate dal **numero di pagina**, che è la scelta dell'utente del 2026-09-21.
+
+    I dati vengono da FINECO-EN23@IR D1 p893→894: `Product name: Fidelity EURO Bond FAM Fund` in
+    testa all'allegato, gli indicatori sulla pagina dopo, e il numero stampato in fondo a tutt'e
+    due in `timesnewroman` 10.
+    """
+
+    def carry(self, **overrides):
+        return carryover.PageCarryover("esg-fund", **overrides)
+
+    def test_the_key_carries_the_page_the_name_was_read_on(self):
+        assert self.carry().promise_id(893) == "esg-fund-page-893"
+
+    def test_the_next_page_asks_for_the_page_before_it(self):
+        assert self.carry().promise(894).id == "esg-fund-page-893"
+
+    def test_a_format_whose_pages_are_two_apart_says_so(self):
+        """UBS-EN23: il titolo del comparto a p14, il prospetto patrimoniale a p16."""
+        assert self.carry(offset=2).promise(16).id == "esg-fund-page-14"
+
+    def test_a_field_that_carries_nothing_is_refused(self):
+        with pytest.raises(ValueError):
+            carryover.PageCarryover("")
+
+    def test_a_page_cannot_leave_anything_to_itself(self):
+        with pytest.raises(ValueError):
+            carryover.PageCarryover("esg-fund", offset=0)
+
+    def test_the_deposit_is_the_promise_the_next_page_will_find(self):
+        block = TextBlock.from_content("REL", {"page": 893}, "Fidelity EURO Bond FAM Fund ")
+
+        assert self.carry().deposit(block) == {
+            "esg-fund-page-893": "Fidelity EURO Bond FAM Fund",
+        }
+
+    def test_a_block_without_its_page_leaves_nothing_and_says_so(self, recorder):
+        block = TextBlock.from_content("REL", {}, "Fidelity EURO Bond FAM Fund")
+
+        assert self.carry().deposit(block) == {}
+        assert any("cannot leave anything" in message for message in recorder.errors)
+
+    def test_the_owner_of_a_page_is_the_promise_of_the_page_before(self):
+        blocks = [PdfBlock("REL", {"page": 894}, "")]
+
+        owner = self.carry().owner()(blocks, [])
+
+        assert owner.id == "esg-fund-page-893"
+
+    def test_a_page_without_a_number_owns_nothing_and_says_so(self, recorder):
+        owner = self.carry().owner()([PdfBlock("REL", {}, "")], [])
+
+        assert owner is None
+        assert any("cannot be tied to a fund" in message for message in recorder.errors)

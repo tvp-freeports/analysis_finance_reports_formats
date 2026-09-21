@@ -1,1 +1,2 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,71,job[FIDEURAM-EN23]/step[2]/class[inv_managers]/document[report]/page[71]/pipeline[inv_managers]/text_filter/pipe[inv_managers::text_filter[0]],,investments_manager,,,WARN,"investments_manager was not read: imposed as ""Fideuram Asset Management (Ireland) dac"" - the residual of a report that names no manager for these funds"

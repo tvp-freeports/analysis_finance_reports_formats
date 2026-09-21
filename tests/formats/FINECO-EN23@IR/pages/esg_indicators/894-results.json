@@ -1,0 +1,77 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "esg-fund-page-893",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "of the Fund was invested in securities of issuers with favourable ESG characteristics in accordance with Fidelity’s Sustainable Investing Framework",
+        "value": "93.07%"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "esg-fund-page-893",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "of the Fund was invested in sustainable investments",
+        "value": "38.42%"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "esg-fund-page-893",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "of the Fund was invested in sustainable investments with an environmental objective in economic activities (that qualify as environmentally sustainable under the EU Taxonomy)",
+        "value": "2.32%"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "esg-fund-page-893",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "of the Fund was invested in sustainable investments with an environmental objective in economic activities (that do not qualify as environmentally sustainable under the EU Taxonomy)",
+        "value": "20.13%"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "esg-fund-page-893",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "of the Fund invested in sustainable investments with a social objective",
+        "value": "15.97%"
+      }
+    }
+  }
+]

@@ -7,21 +7,15 @@
   },
   {
     "__pdf_block__": true,
-    "type_block": "INV",
+    "type_block": "NOTE",
     "metadata": {},
-    "content": "Eurizon Capital SGR S.p.A."
+    "content": "28, Boulevard de Kockelscheuer"
   },
   {
     "__pdf_block__": true,
-    "type_block": "INV",
+    "type_block": "NOTE",
     "metadata": {},
-    "content": "Epsilon Associati SGR S.p.A. (short name: Epsilon SGR S.p.A.)"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "INV",
-    "metadata": {},
-    "content": "Eurizon SLJ Capital LTD"
+    "content": "L-1821 Luxembourg (Grand Duchy of Luxembourg)"
   },
   {
     "__pdf_block__": true,
@@ -34,6 +28,24 @@
     "type_block": "SUB",
     "metadata": {},
     "content": "Opportunities are managed by Eurizon Capital S.A. as from 10 May 2023)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INV",
+    "metadata": {},
+    "content": "Eurizon Capital SGR S.p.A."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "3, piazzetta Giordano dell’Amore"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "I-20121 Milan (Italy)"
   },
   {
     "__pdf_block__": true,
@@ -163,6 +175,24 @@
   },
   {
     "__pdf_block__": true,
+    "type_block": "INV",
+    "metadata": {},
+    "content": "Epsilon Associati SGR S.p.A. (short name: Epsilon SGR S.p.A.)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "3, piazzetta Giordano dell’Amore"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "I-20121 Milan (Italy)"
+  },
+  {
+    "__pdf_block__": true,
     "type_block": "SUB",
     "metadata": {},
     "content": "(this function has been delegated by Eurizon Capital S.A. to Epsilon Associati SGR"
@@ -178,6 +208,24 @@
     "type_block": "SUB",
     "metadata": {},
     "content": "Absolute Active)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INV",
+    "metadata": {},
+    "content": "Eurizon SLJ Capital LTD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "90 Queen Street"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {},
+    "content": "EC4N 1SA London (United Kingdom)"
   },
   {
     "__pdf_block__": true,

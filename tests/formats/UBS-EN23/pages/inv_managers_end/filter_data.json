@@ -105,5 +105,20 @@
         "name": "BPER INTERNATIONAL SICAV GLOBAL BOND"
       }
     }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "name": "UBS Fund Management (Luxembourg) S.A.",
+        "managed_funds": {
+          "__set__": [
+            "BPER INTERNATIONAL SICAV EMERGING MARKETS MULTI ASSET DIVIDEND",
+            "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES",
+            "BPER INTERNATIONAL SICAV GLOBAL BALANCED RISK CONTROL"
+          ]
+        }
+      }
+    }
   }
 ]

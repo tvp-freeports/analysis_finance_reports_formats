@@ -1,15 +1,109 @@
 [
   {
     "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "BPER INTERNATIONAL SICAV EMERGING MARKETS MULTI ASSET DIVIDEND",
+          "BPER International SICAV Equity North America",
+          "BPER International SICAV Global Bond",
+          "BPER International SICAV Global Convertible Bond EUR",
+          "BPER International SICAV Multi Asset Dividend"
+        ]
+      }
+    },
+    "content": "UBS Asset Management Switzerland AG",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "group": "R9"
+      },
+      "content": "UBS Asset Management Switzerland AG"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES"
+        ]
+      }
+    },
+    "content": "BlackRock Investment Management (UK) Limited",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "group": "R6"
+      },
+      "content": "BlackRock Investment Management (UK) Limited"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "BPER International SICAV Equity North America",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "BPER International SICAV Equity North America"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "BPER International SICAV Global Bond",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "BPER International SICAV Global Bond"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "BPER International SICAV Global Convertible Bond EUR",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "BPER International SICAV Global Convertible Bond EUR"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "BPER International SICAV Multi Asset Dividend",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "BPER International SICAV Multi Asset Dividend"
+    }
+  },
+  {
+    "__text_block__": true,
     "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "CORE SERIES CORE COUPON",
-          "CORE SERIES CORE INCOME OPPORTUNITY",
-          "CORE SERIES FAM PARK",
-          "INVESCO GLOBAL TOTAL RETURN BOND FAM FUND",
-          "US EQUITY VALUE FAM FUND"
+          "BPER INTERNATIONAL SICAV EMERGING MARKETS MULTI ASSET DIVIDEND",
+          "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES",
+          "BPER INTERNATIONAL SICAV GLOBAL BALANCED RISK CONTROL",
+          "BPER International SICAV Equity North America",
+          "BPER International SICAV Global Bond",
+          "BPER International SICAV Global Convertible Bond EUR",
+          "BPER International SICAV Multi Asset Dividend"
         ]
       }
     },

@@ -1,0 +1,14 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundRename",
+      "data": {
+        "current_name": "European Corporate Green Bond",
+        "date": {
+          "__date__": "2024-11-22"
+        },
+        "old_name": "Global Corporate Sustainable Bond"
+      }
+    }
+  }
+]

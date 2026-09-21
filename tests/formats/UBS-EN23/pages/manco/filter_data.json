@@ -4,12 +4,12 @@
       "class": "freeports.output:Equity",
       "data": {
         "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fidelity Global Dividend FAM Fund",
+        "company_match": "Apple Inc",
+        "fund": "BPER INTERNATIONAL SICAV EMERGING MARKETS MULTI ASSET DIVIDEND",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -21,13 +21,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Invesco Global Total Return Bond FAM Fund",
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -39,13 +39,13 @@
     "__pydantic__": {
       "class": "freeports.output:Equity",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Fidelity Euro Bond FAM Fund",
+        "company": "Amazon",
+        "company_match": "Amazon",
+        "fund": "BPER INTERNATIONAL SICAV GLOBAL BALANCED RISK CONTROL",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
+          "__enum__": "freeports.consts:Currency:EUR"
         },
         "perc_net_assets": null,
         "acquisition_cost": null,
@@ -55,37 +55,14 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:InvestmentsManager",
       "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "US Equity Value FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Equity",
-      "data": {
-        "company": "Apple Inc",
-        "company_match": "Apple Inc.",
-        "fund": "Amundi European Equity Value FAM Fund",
-        "nominal_quantity": null,
-        "market_value": 100.0,
-        "currency": {
-          "__enum__": "freeports.consts:Currency:USD"
-        },
-        "perc_net_assets": null,
-        "acquisition_cost": null,
-        "acquisition_currency": null
+        "name": "Banca Cesare Ponti S.p.A.",
+        "managed_funds": {
+          "__set__": [
+            "BPER INTERNATIONAL SICAV EMERGING MARKETS MULTI ASSET DIVIDEND"
+          ]
+        }
       }
     }
   },
@@ -93,7 +70,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "CoRe Series - FAM Park"
+        "name": "BPER INTERNATIONAL SICAV EMERGING MARKETS MULTI ASSET DIVIDEND"
       }
     }
   },
@@ -101,7 +78,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "CoRe Series - CoRe Income Opportunity"
+        "name": "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES"
       }
     }
   },
@@ -109,7 +86,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "CoRe Series - CoRe Coupon"
+        "name": "BPER INTERNATIONAL SICAV GLOBAL BALANCED RISK CONTROL"
       }
     }
   },
@@ -117,7 +94,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "Invesco Global Total Return Bond FAM Fund"
+        "name": "BPER INTERNATIONAL SICAV EQUITY NORTH AMERICA"
       }
     }
   },
@@ -125,7 +102,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "US Equity Value FAM Fund"
+        "name": "BPER INTERNATIONAL SICAV GLOBAL BOND"
       }
     }
   }

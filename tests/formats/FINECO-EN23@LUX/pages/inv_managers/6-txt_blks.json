@@ -5,12 +5,19 @@
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "Invesco Pan European High Income FAM Fund"
+          "CORE SERIES INVESCO PAN EUROPEAN HIGH INCOME FAM FUND"
         ]
       }
     },
-    "content": "Invesco Asset Management Limited",
-    "pdf_block": null
+    "content": "Invesco Asset Management Limited ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INV_MAN",
+      "metadata": {
+        "group": 0
+      },
+      "content": "Invesco Asset Management Limited "
+    }
   },
   {
     "__text_block__": true,
@@ -18,12 +25,19 @@
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "Global Macro Credit FAM Fund"
+          "CORE SERIES GLOBAL MACRO CREDIT FAM FUND"
         ]
       }
     },
-    "content": "Algebris (UK) Limited",
-    "pdf_block": null
+    "content": "Algebris (UK) Limited ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INV_MAN",
+      "metadata": {
+        "group": 1
+      },
+      "content": "Algebris (UK) Limited "
+    }
   },
   {
     "__text_block__": true,
@@ -31,24 +45,110 @@
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "Global Macro Credit FAM Fund"
+          "CORE SERIES GLOBAL MACRO CREDIT FAM FUND"
         ]
       }
     },
-    "content": "Algebris Investments (US) Inc.",
-    "pdf_block": null
+    "content": "Algebris Investments (US) Inc. ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INV_MAN",
+      "metadata": {
+        "group": 2
+      },
+      "content": "Algebris Investments (US) Inc. "
+    }
   },
   {
     "__text_block__": true,
-    "type_block": "MANAGEMENT_COMPANY",
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "FIDELITY GLOBAL DIVIDEND FAM FUND",
-          "GLOBAL MACRO CREDIT FAM FUND",
-          "INVESCO GLOBAL TOTAL RETURN BOND FAM FUND",
-          "INVESCO PAN EUROPEAN HIGH INCOME FAM FUND",
-          "US EQUITY VALUE FAM FUND"
+          "CORE SERIES MFS PRUDENT CAPITAL FAM FUND"
+        ]
+      }
+    },
+    "content": "MFS Investment Management Company (Lux) S.à r.l. ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INV_MAN",
+      "metadata": {
+        "group": 3
+      },
+      "content": "MFS Investment Management Company (Lux) S.à r.l. "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CORE SERIES MFS PRUDENT CAPITAL FAM FUND"
+        ]
+      }
+    },
+    "content": "MFS International (U.K.) Limited ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INV_MAN",
+      "metadata": {
+        "group": 4
+      },
+      "content": "MFS International (U.K.) Limited "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CORE SERIES MFS PRUDENT CAPITAL FAM FUND"
+        ]
+      }
+    },
+    "content": "MFS Institutional Advisors Inc. ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INV_MAN",
+      "metadata": {
+        "group": 5
+      },
+      "content": "MFS Institutional Advisors Inc. "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CORE SERIES BOND 6M FINECO AM FUND",
+          "CORE SERIES ENHANCED BOND 6M FINECO AM FUND",
+          "CORE SERIES SUSTAINABLE ENHANCED BOND 12M FINECO AM FUND"
+        ]
+      }
+    },
+    "content": "BNP Paribas Asset Management France ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INV_MAN",
+      "metadata": {
+        "group": 6
+      },
+      "content": "BNP Paribas Asset Management France "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CORE SERIES CORE AGGRESSIVE",
+          "CORE SERIES FAM PARK"
         ]
       }
     },
@@ -62,13 +162,18 @@
   },
   {
     "__text_block__": true,
-    "type_block": "INVESTMENTS_MANAGER",
+    "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "FIDELITY GLOBAL DIVIDEND FAM FUND",
-          "INVESCO GLOBAL TOTAL RETURN BOND FAM FUND",
-          "US EQUITY VALUE FAM FUND"
+          "CORE SERIES BOND 6M FINECO AM FUND",
+          "CORE SERIES CORE AGGRESSIVE",
+          "CORE SERIES ENHANCED BOND 6M FINECO AM FUND",
+          "CORE SERIES FAM PARK",
+          "CORE SERIES GLOBAL MACRO CREDIT FAM FUND",
+          "CORE SERIES INVESCO PAN EUROPEAN HIGH INCOME FAM FUND",
+          "CORE SERIES MFS PRUDENT CAPITAL FAM FUND",
+          "CORE SERIES SUSTAINABLE ENHANCED BOND 12M FINECO AM FUND"
         ]
       }
     },

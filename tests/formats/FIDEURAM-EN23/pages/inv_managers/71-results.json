@@ -1,0 +1,90 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "WILLERFUNDS PRIVATE SUITE BNY MELLON GLOBAL REAL RETURN"
+          ]
+        },
+        "name": "Newton Investment Management Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "WILLERFUNDS PRIVATE SUITE FIDELITY FLEXIBLE SHORT DURATION",
+            "Willerfunds - Private Suite - Fidelity USD Bond"
+          ]
+        },
+        "name": "FIL Pensions Management"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "WILLERFUNDS PRIVATE SUITE SCHRODER GLOBAL CLIMATE CHANGE"
+          ]
+        },
+        "name": "Schroder Investment Management (Europe) S.A."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "WILLERFUNDS PRIVATE SUITE FIDELITY FLEXIBLE SHORT DURATION",
+            "Willerfunds - Private Suite - Fidelity USD Bond"
+          ]
+        },
+        "name": "FIL Investments International"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "WILLERFUNDS PRIVATE SUITE FIDELITY FLEXIBLE SHORT DURATION"
+          ]
+        },
+        "name": "Fidelity Investments Canada ULC"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "WILLERFUNDS WILLER FLEXIBLE FINANCIAL BOND"
+          ]
+        },
+        "name": "Fideuram Asset Management (Ireland) dac"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "WILLERFUNDS PRIVATE SUITE FIDELITY USD BOND"
+      }
+    }
+  }
+]

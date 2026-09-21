@@ -1,0 +1,74 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundRename",
+      "data": {
+        "current_name": "European Equity Income ESG",
+        "date": {
+          "__date__": "2024-03-15"
+        },
+        "old_name": "European Equity Sustainable Income"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundRename",
+      "data": {
+        "current_name": "Euro Corporate ESG Bond",
+        "date": {
+          "__date__": "2024-03-15"
+        },
+        "old_name": "Euro Corporate Bond"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundRename",
+      "data": {
+        "current_name": "US High Yield Bond",
+        "date": {
+          "__date__": "2024-03-15"
+        },
+        "old_name": "Pioneer US High Yield Bond"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundRename",
+      "data": {
+        "current_name": "Strategic Income",
+        "date": {
+          "__date__": "2024-03-15"
+        },
+        "old_name": "Pioneer Strategic Income"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundRename",
+      "data": {
+        "current_name": "Income Opportunities",
+        "date": {
+          "__date__": "2024-03-15"
+        },
+        "old_name": "Pioneer Income Opportunities"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundMerge",
+      "data": {
+        "current_name": "Global Equity ESG Improvers",
+        "date": {
+          "__date__": "2023-10-13"
+        },
+        "old_name": "Amundi S.F. European Equity Optimal Volatility"
+      }
+    }
+  }
+]

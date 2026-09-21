@@ -5,14 +5,78 @@
       "data": {
         "managed_funds": {
           "__set__": [
-            "CORE SERIES CORE COUPON",
-            "CORE SERIES CORE INCOME OPPORTUNITY",
-            "CORE SERIES FAM PARK",
-            "INVESCO GLOBAL TOTAL RETURN BOND FAM FUND",
-            "US EQUITY VALUE FAM FUND"
+            "BPER INTERNATIONAL SICAV EMERGING MARKETS MULTI ASSET DIVIDEND",
+            "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES",
+            "BPER INTERNATIONAL SICAV GLOBAL BALANCED RISK CONTROL",
+            "BPER International SICAV Equity North America",
+            "BPER International SICAV Global Bond",
+            "BPER International SICAV Global Convertible Bond EUR",
+            "BPER International SICAV Multi Asset Dividend"
           ]
         },
         "name": "UBS Fund Management (Luxembourg) S.A."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "BPER INTERNATIONAL SICAV EMERGING MARKETS MULTI ASSET DIVIDEND",
+            "BPER International SICAV Equity North America",
+            "BPER International SICAV Global Bond",
+            "BPER International SICAV Global Convertible Bond EUR",
+            "BPER International SICAV Multi Asset Dividend"
+          ]
+        },
+        "name": "UBS Asset Management Switzerland AG"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES"
+          ]
+        },
+        "name": "BlackRock Investment Management (UK) Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "BPER INTERNATIONAL SICAV EQUITY NORTH AMERICA"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "BPER INTERNATIONAL SICAV GLOBAL BOND"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "BPER INTERNATIONAL SICAV GLOBAL CONVERTIBLE BOND EUR"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "BPER INTERNATIONAL SICAV MULTI ASSET DIVIDEND"
       }
     }
   }

@@ -1,0 +1,119 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "WILLERFUNDS PRIVATE SUITE BNY MELLON GLOBAL REAL RETURN"
+        ]
+      }
+    },
+    "content": "Newton Investment Management Limited",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "Newton Investment Management Limited"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "WILLERFUNDS PRIVATE SUITE FIDELITY FLEXIBLE SHORT DURATION",
+          "Willerfunds - Private Suite - Fidelity USD Bond"
+        ]
+      }
+    },
+    "content": "FIL Pensions Management",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "FIL Pensions Management"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "WILLERFUNDS PRIVATE SUITE SCHRODER GLOBAL CLIMATE CHANGE"
+        ]
+      }
+    },
+    "content": "Schroder Investment Management (Europe) S.A.",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "Schroder Investment Management (Europe) S.A."
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "WILLERFUNDS PRIVATE SUITE FIDELITY FLEXIBLE SHORT DURATION",
+          "Willerfunds - Private Suite - Fidelity USD Bond"
+        ]
+      }
+    },
+    "content": "FIL Investments International",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "FIL Investments International"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "WILLERFUNDS PRIVATE SUITE FIDELITY FLEXIBLE SHORT DURATION"
+        ]
+      }
+    },
+    "content": "Fidelity Investments Canada ULC",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "Fidelity Investments Canada ULC"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "WILLERFUNDS WILLER FLEXIBLE FINANCIAL BOND"
+        ]
+      }
+    },
+    "content": "Fideuram Asset Management (Ireland) dac",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Willerfunds - Private Suite - Fidelity USD Bond",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {},
+      "content": "Willerfunds - Private Suite - Fidelity USD Bond"
+    }
+  }
+]

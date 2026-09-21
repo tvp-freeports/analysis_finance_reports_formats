@@ -85,7 +85,7 @@ pipelines = {
     ),
     "inv_managers_end": Pipeline(
         pdf_extract=investment_managers.pdf_extract_inv_managers_end,
-        text_filter=investment_managers.text_filter_inv_managers,
+        text_filter=investment_managers.text_filter_inv_managers_end,
         deserialize=(
             investment_managers.deserialize_inv_managers,
             investment_managers.deserialize_fund,

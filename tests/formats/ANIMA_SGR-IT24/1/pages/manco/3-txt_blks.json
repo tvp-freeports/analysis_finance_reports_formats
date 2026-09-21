@@ -1,0 +1,17 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "ANIMA ALTO POTENZIALE EUROPA",
+          "ANIMA LIQUIDITA EURO",
+          "ANIMA OBBLIGAZIONARIO CORPORATE BLEND"
+        ]
+      }
+    },
+    "content": "ANIMA SGR S.p.A.",
+    "pdf_block": null
+  }
+]

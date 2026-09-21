@@ -21,9 +21,9 @@
   },
   {
     "__text_block__": true,
-    "type_block": "INV_MAN",
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
-      "funds": {
+      "managed_funds": {
         "__set__": [
           "Test fund A",
           "Test fund B"
@@ -31,6 +31,11 @@
       }
     },
     "content": "Fineco Asset Management Designated Activity Company",
-    "pdf_block": null
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Fineco Asset Management Designated Activity Company"
+    }
   }
 ]

@@ -5,6 +5,7 @@ traduce nei tre blocchi standard del motore. Sta a parte perché i sette rami de
 provano su dati, senza costruire un blocco, ed è quello che li rende sette test brevi.
 """
 
+from freeports.core import PdfBlock
 from freeports.interfaces.text_blks import (
     StandardFundTextBlock,
     StandardInvestmentsMangerTextBlock,
@@ -28,10 +29,29 @@ def text_blocks(assignment):
         else StandardInvestmentsMangerTextBlock.from_name(manager.name, manager.funds)
         for manager in assignment.managers
     ]
+    # In ordine di nome, e non quello in cui l'insieme li restituisce: gli identificativi
+    # d'uscita si assegnano nell'ordine in cui le righe arrivano, e un insieme di stringhe in
+    # Python non ha lo stesso ordine da una corsa all'altra. Senza questo, una fixture congelata
+    # oggi fallirebbe domani per il solo seme della tabella di hash.
     blocks.extend(
-        StandardFundTextBlock.from_matched_fund(fund) for fund in assignment.new_funds
+        _fund_block(fund, assignment)
+        for fund in sorted(assignment.new_funds, key=lambda fund: str(fund.name))
     )
     return blocks
+
+
+def _fund_block(fund, assignment):
+    """Il comparto nuovo, con la pagina da cui viene quando c'è un blocco che gliela dia.
+
+    Un `funds.csv` con la colonna `Report page` vuota non esiste in nessuna delle trentuno corse di
+    riferimento, e non deve cominciare a esistere qui: il comparto lo nomina la sezione dei gestori,
+    quindi la sua provenienza è quella pagina. Il blocco si prende dal primo gestore che ne abbia
+    uno — sono tutti della stessa pagina — e se non ce n'è nessuno si ricade sul nome nudo.
+    """
+    page_block = next((m.block for m in assignment.managers if m.block is not None), None)
+    if page_block is None:
+        return StandardFundTextBlock.from_matched_fund(fund)
+    return StandardFundTextBlock(PdfBlock(page_block.type_block, {}, fund.name))
 
 
 def management_company_block(assignment, manco):

@@ -1,17 +1,25 @@
 [
   {
     "__text_block__": true,
-    "type_block": "INV_MAN",
+    "type_block": "INVESTMENTS_MANAGER",
     "metadata": {
-      "funds": {
+      "managed_funds": {
         "__set__": [
-          "Amundi Emerging Markets Bond FAM Fund",
-          "Amundi European Equity Value FAM Fund",
-          "Amundi Strategic Bond FAM Fund"
+          "AMUNDI EMERGING MARKETS BOND FAM FUND",
+          "AMUNDI EUROPEAN EQUITY VALUE FAM FUND",
+          "AMUNDI STRATEGIC BOND FAM FUND"
         ]
       }
     },
     "content": "Amundi Ireland Limited",
-    "pdf_block": null
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INV_MAN",
+      "metadata": {
+        "table-col": 2,
+        "table-row": 6
+      },
+      "content": "Amundi Ireland Limited"
+    }
   }
 ]
