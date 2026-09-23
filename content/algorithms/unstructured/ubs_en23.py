@@ -25,27 +25,43 @@ documento dice esplicitamente che non li gestisce.
 
 La `manco` sta su p4 come i primi gestori, e quindi nella **stessa pipeline**: due dati sulla
 stessa pagina si uniscono nel `text_filter`, che riceve i blocchi di tutt'e tre i `pdf_extract`.
+
+Da p14→p16 arriva `FA-9`, il prospetto patrimoniale in cui **la pagina non nomina il comparto**:
+il nome sta sul titolo di apertura della sezione del comparto, e fra i due ci stanno il commento
+di gestione e la tabella dei tre esercizi. Le distanze misurate sul documento sono **una, due, tre
+e quattro pagine**, quindi la promessa con la distanza fissa non serve: si prende il titolo più
+vicino che precede, e si prende nel `text_filter` (`carryover.PageCarryover.nearest`).
 """
 
 import re
 
+import carryover
 import inv_managers
 import sfdr
 
-from freeports.core import Pipeline, PdfBlock
+from freeports.core import Pipeline, PdfBlock, TextBlock
 from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
-from freeports.standard_funcs.pdf_extract import PdfExtractManagmentCompanyStandard
+from freeports.interfaces.text_blks import OneTextBlockType
+from freeports.standard_funcs.pdf_extract import (
+    PdfExtractCurrencyStandard,
+    PdfExtractLabelledValueStandard,
+    PdfExtractManagmentCompanyStandard,
+)
 from freeports.standard_funcs.deserialize import (
+    DeserializerAssetsStandard,
     DeserializerFundStandard,
     DeserializerInvestmentsManagerStandard,
     DeserializerManagmentCompanyStandard,
 )
+from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
+from freeports.utils.deserialize import to_float
 from freeports.utils.pdf_extract import (
+    LabelledValueWhere,
     PdfLineSelection,
     get_groups,
     pdflines_from_pagedict,
 )
-from freeports.utils.text_filter import investment_fund_filter_data
+from freeports.utils.text_filter import MatchFund, investment_fund_filter_data
 
 # Il corpo della sezione è tutto da 10: il tondo per i nomi e la prosa, il corsivo per i comparti.
 # Il grassetto è delle sole intestazioni, e serve solo a trovare dove la sezione comincia.
@@ -205,7 +221,172 @@ def _funds_of(filter_data):
     ]
 
 
+
+
+# ----------------------------------------------------------------------------------------------
+# Il prospetto patrimoniale, e il comparto che sta sul titolo di qualche pagina prima (`FA-9`)
+# ----------------------------------------------------------------------------------------------
+
+assets_carry = carryover.PageCarryover("ubs-fund")
+
+_FOOT = PdfLineSelection(font="frutiger45light", font_size=(6.5, 7.5)) & (
+    PdfLineSelection.area(0.0, 785.0, 200.0, 1e6)
+    | PdfLineSelection.area(450.0, 785.0, 1e6, 1e6)
+)
+"""Il piede, dove sta il numero di pagina **stampato**.
+
+Due bande e non una: il documento è impaginato come un libro, e il numero sta **a sinistra sulle
+pagine pari e a destra sulle dispari**. Con la sola banda di sinistra sei sezioni su quattordici
+non trovavano il loro numero, e il prospetto restava senza comparto.
+
+Il numero stampato non coincide con quello della pagina del PDF — p16 del file porta stampato
+`14` — e non importa: le due pipeline devono solo calcolare la stessa chiave, e il piede è ciò che
+tutt'e due vedono.
+"""
+
+_TITLE = PdfLineSelection(font="ubsheadline", font_size=(21.0, 23.0))
+"""Il titolo del comparto, in corpo 22, che **va a capo** quando il nome è lungo."""
+
+_TOTALS = PdfLineSelection(font="frutiger45lightbold", font_size=(6.5, 7.5))
+_STATEMENT = PdfLineSelection(
+    font="frutiger45lightbold", font_size=(9.5, 10.5), text="^Statement of Net Assets"
+)
+_LABEL_ASSETS = _TOTALS & PdfLineSelection(text="^Assets")
+
+# La colonna dei valori comincia oltre 460: fra l'etichetta e il valore la riga porta un blocco
+# vuoto a 449,7, e senza questo vincolo `where=RIGHT` prenderebbe quello.
+_VALUE = PdfLineSelection.area(460.0, 0.0, 1e6, 1e6)
+
+TOT_ASSETS = "TOT_ASSETS"
+LIABILITIES = "LIABILITIES"
+NET_ASSETS = "NET_ASSETS"
+ASSETS_DATE = "ASSETS_DATE"
+ASSETS_PAGE = "ASSETS_PAGE"
+
+
+def pdf_extract_fund_title(page):
+    """Il titolo del comparto, riunito, con il numero di pagina stampato."""
+    lines = pdflines_from_pagedict(page)
+    number = carryover.page_number(lines, _FOOT)
+    parts = sorted(_TITLE.select(lines), key=lambda line: line.bbox[1])
+    name = " ".join(part.text.strip() for part in parts if part.text.strip())
+    if not name or number is None:
+        return []
+    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {"page": number}, name)]
+
+
+@investment_fund_filter_data
+def text_filter_fund_title(pdf_blks, investment_funds):
+    """Il titolo, e solo se è un comparto d'interesse.
+
+    Il filtro sta qui perché è l'unico posto in cui si può fare: sulla pagina del prospetto il
+    comparto arriva da questa promessa, e una promessa non si confronta con niente.
+    """
+    if not pdf_blks:
+        return []
+    block = next(iter(pdf_blks))
+    name = str(block.content).strip()
+    if not name or MatchFund(name=name) not in investment_funds:
+        return []
+    return [TextBlock.from_content(OneTextBlockType.RELEVANT_BLOCK.name, block.metadata, name)]
+
+
+def pdf_extract_assets_page(page):
+    """Il numero stampato della pagina del prospetto, che serve a ritrovare il titolo."""
+    number = carryover.page_number(pdflines_from_pagedict(page), _FOOT)
+    return [] if number is None else [PdfBlock(ASSETS_PAGE, {}, str(number))]
+
+
+pdf_extract_tot_assets = PdfExtractLabelledValueStandard(
+    _TOTALS & PdfLineSelection(text="^Total Assets"),
+    TOT_ASSETS,
+    "tot_assets",
+    where=LabelledValueWhere.RIGHT,
+    value=_VALUE,
+)
+
+pdf_extract_liabilities = PdfExtractLabelledValueStandard(
+    _TOTALS & PdfLineSelection(text="^Total Liabilities"),
+    LIABILITIES,
+    "liabilities",
+    where=LabelledValueWhere.RIGHT,
+    value=_VALUE,
+)
+
+pdf_extract_net_assets = PdfExtractLabelledValueStandard(
+    _TOTALS & PdfLineSelection(text="^Net assets at the end of the financial year"),
+    NET_ASSETS,
+    "net_assets",
+    where=LabelledValueWhere.RIGHT,
+    value=_VALUE,
+)
+
+# `R17`: la data si prende dalla colonna, che qui è la riga dell'etichetta `Assets`.
+#
+# Il valore si cerca **da quella riga in giù**: la riga sopra porta la valuta alla stessa ascissa,
+# e la banda di ordinate che `where=RIGHT` apre sulla scatola dell'etichetta la sfiora — misurato,
+# la data sta a 132,4 e `EUR` a 123,4, e senza questo vincolo la data diventa `EUR`.
+pdf_extract_assets_date = PdfExtractLabelledValueStandard(
+    _LABEL_ASSETS,
+    ASSETS_DATE,
+    "assets date",
+    where=LabelledValueWhere.RIGHT,
+    value=_VALUE - PdfLineSelection.area_from_bounds(x0=0.0, y0=0.0, x1=1e6, y1=_LABEL_ASSETS),
+)
+
+# La valuta non ha etichetta: sta nella banda fra il titolo del prospetto e la riga `Assets`,
+# sulla colonna dei valori. È geometria, ed è per questo che si scrive come un'area e non come
+# un'etichetta.
+pdf_extract_currency = PdfExtractCurrencyStandard(
+    _TOTALS
+    & PdfLineSelection.area_from_bounds(x0=450.0, y0=_STATEMENT, x1=1e6, y1=_LABEL_ASSETS)
+)
+
+record_assets = carryover.Record(
+    currency="CURRENCY_STATEMENT",
+    date=ASSETS_DATE,
+    tot_assets=TOT_ASSETS,
+    liabilities=LIABILITIES,
+    net_assets=NET_ASSETS,
+)
+
+assets_filter = TextFilterAssetsStandard()
+
+
+def text_filter_fund_assets(pdf_blks, filter_data):
+    """Il prospetto, col comparto preso dal titolo più vicino che precede."""
+    page = next((b for b in pdf_blks if b.type_block == ASSETS_PAGE), None)
+    if page is None:
+        return []
+    fund = assets_carry.nearest(filter_data, int(str(page.content)))
+    if fund is None:
+        return []
+    return assets_filter(record_assets(pdf_blks, also={"fund": fund}), filter_data)
+
+
+def _magnitude(text):
+    """Il valore come grandezza: su questo prospetto il passivo porta il meno, ed è tipografia."""
+    return abs(to_float(text))
+
+
 pipelines = {
+    "fund_title": Pipeline(
+        pdf_extract=pdf_extract_fund_title,
+        text_filter=text_filter_fund_title,
+        deserialize=assets_carry.deposit,
+    ),
+    "fund_assets": Pipeline(
+        pdf_extract=(
+            pdf_extract_assets_page,
+            pdf_extract_currency,
+            pdf_extract_assets_date,
+            pdf_extract_tot_assets,
+            pdf_extract_liabilities,
+            pdf_extract_net_assets,
+        ),
+        text_filter=text_filter_fund_assets,
+        deserialize=DeserializerAssetsStandard(num_converter=_magnitude),
+    ),
     "manco": Pipeline(
         pdf_extract=(
             PdfExtractManagmentCompanyStandard(

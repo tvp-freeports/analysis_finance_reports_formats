@@ -1,1 +1,3 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,8,job[AMUNDI-EN24]/step[1]/class[inv_managers_begin]/document[report]/page[8]/pipeline[inv_managers_begin]/text_filter/pipe[inv_managers_begin::text_filter[0]],,,,,WARN,the report names 9 managers without saying which funds each has: every one of them is credited with all 87 residual funds
+report,9,job[AMUNDI-EN24]/step[1]/class[inv_managers_end]/document[report]/page[9]/pipeline[inv_managers_end]/text_filter/pipe[inv_managers_end::text_filter[0]],,,,,WARN,the report names 10 managers without saying which funds each has: every one of them is credited with all 87 residual funds

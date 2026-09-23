@@ -1,0 +1,152 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CLIMATE TRANSITION GLOBAL EQUITY",
+            "EUROLAND EQUITY",
+            "EUROPEAN EQUITY ESG IMPROVERS"
+          ]
+        },
+        "name": "Amundi Singapore Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CLIMATE TRANSITION GLOBAL EQUITY",
+            "EUROLAND EQUITY",
+            "EUROPEAN EQUITY ESG IMPROVERS"
+          ]
+        },
+        "name": "Montpensier Finance"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CLIMATE TRANSITION GLOBAL EQUITY",
+            "EUROLAND EQUITY",
+            "EUROPEAN EQUITY ESG IMPROVERS"
+          ]
+        },
+        "name": "Polen Capital Management LLC"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CLIMATE TRANSITION GLOBAL EQUITY",
+            "EUROLAND EQUITY",
+            "EUROPEAN EQUITY ESG IMPROVERS"
+          ]
+        },
+        "name": "Resona Asset Management Co. Ltd"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CLIMATE TRANSITION GLOBAL EQUITY",
+            "EUROLAND EQUITY",
+            "EUROPEAN EQUITY ESG IMPROVERS"
+          ]
+        },
+        "name": "Amundi Asset Management S.A.S."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CLIMATE TRANSITION GLOBAL EQUITY",
+            "EUROLAND EQUITY",
+            "EUROPEAN EQUITY ESG IMPROVERS"
+          ]
+        },
+        "name": "Amundi Asset Management US, Inc."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CLIMATE TRANSITION GLOBAL EQUITY",
+            "EUROLAND EQUITY",
+            "EUROPEAN EQUITY ESG IMPROVERS"
+          ]
+        },
+        "name": "Amundi Deutschland Gmbh"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CLIMATE TRANSITION GLOBAL EQUITY",
+            "EUROLAND EQUITY",
+            "EUROPEAN EQUITY ESG IMPROVERS"
+          ]
+        },
+        "name": "Amundi SGR S.p.A."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CLIMATE TRANSITION GLOBAL EQUITY",
+            "EUROLAND EQUITY",
+            "EUROPEAN EQUITY ESG IMPROVERS"
+          ]
+        },
+        "name": "Amundi (UK) Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CLIMATE TRANSITION GLOBAL EQUITY",
+            "EUROLAND EQUITY",
+            "EUROPEAN EQUITY ESG IMPROVERS"
+          ]
+        },
+        "name": "Amundi Japan"
+      }
+    }
+  }
+]

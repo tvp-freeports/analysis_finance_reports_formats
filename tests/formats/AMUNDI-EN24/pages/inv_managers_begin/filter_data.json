@@ -55,19 +55,6 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:InvestmentsManager",
-      "data": {
-        "name": "Amundi Asset Management S.A.S.",
-        "managed_funds": {
-          "__set__": [
-            "CLIMATE TRANSITION GLOBAL EQUITY"
-          ]
-        }
-      }
-    }
-  },
-  {
-    "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
         "name": "CLIMATE TRANSITION GLOBAL EQUITY"

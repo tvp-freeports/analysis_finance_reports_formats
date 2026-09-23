@@ -1,0 +1,38 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
+    "metadata": {},
+    "content": "GAMAX FUNDS - ASIA PACIFIC "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
+    "metadata": {},
+    "content": "EUR "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "ASSETS_DATE",
+    "metadata": {},
+    "content": "31 de diciembre de 2024 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TOT_ASSETS",
+    "metadata": {},
+    "content": "257.268.123"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "LIABILITIES",
+    "metadata": {},
+    "content": "1.112.365"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NET_ASSETS",
+    "metadata": {},
+    "content": "256.155.758"
+  }
+]

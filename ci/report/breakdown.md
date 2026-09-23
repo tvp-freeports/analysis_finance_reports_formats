@@ -47,7 +47,7 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `tests.formats.single_page` | `EURIZON-EN23/2` | 2 pages: 1016, 1017 |
 | `tests.formats.single_page` | `EURIZON-IT24/2` | 2 pages: 7, 30 |
 | `tests.formats.single_page` | `KAIROS-EN23/2` | 2 pages: 6, 104 |
-| `tests.formats.single_page` | `AMUNDI-EN24` | 3 pages: 44, 510, 777 |
+| `tests.formats.single_page` | `ANIMA_SGR-IT24/4` | 3 pages: 10, 11, 12 |
 | `docs.python` | `algorithms.unstructured.eurizon_en23` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.esg_indicators` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.fund_assets` | 0.0 % |

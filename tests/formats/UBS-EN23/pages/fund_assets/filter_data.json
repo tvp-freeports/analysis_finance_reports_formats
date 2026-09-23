@@ -23,7 +23,7 @@
       "data": {
         "company": "Alphabet",
         "company_match": "Alphabet",
-        "fund": "BPER INTERNATIONAL SICAV EQUITY NORTH AMERICA",
+        "fund": "BPER INTERNATIONAL SICAV OPEN SELECTION GROWTH",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -41,7 +41,7 @@
       "data": {
         "company": "Amazon",
         "company_match": "Amazon",
-        "fund": "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES",
+        "fund": "BPER INTERNATIONAL SICAV OPTIMAL INCOME",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -50,19 +50,6 @@
         "perc_net_assets": null,
         "acquisition_cost": null,
         "acquisition_currency": null
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:InvestmentsManager",
-      "data": {
-        "name": "Banca Cesare Ponti S.p.A.",
-        "managed_funds": {
-          "__set__": [
-            "BPER INTERNATIONAL SICAV EMERGING MARKETS MULTI ASSET DIVIDEND"
-          ]
-        }
       }
     }
   },
@@ -78,7 +65,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "BPER INTERNATIONAL SICAV EQUITY NORTH AMERICA"
+        "name": "BPER INTERNATIONAL SICAV OPEN SELECTION GROWTH"
       }
     }
   },
@@ -86,7 +73,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "BPER INTERNATIONAL SICAV FIXED INCOME CREDIT STRATEGIES"
+        "name": "BPER INTERNATIONAL SICAV OPTIMAL INCOME"
       }
     }
   },
@@ -94,7 +81,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "BPER INTERNATIONAL SICAV GLOBAL BALANCED RISK CONTROL"
+        "name": "BPER INTERNATIONAL SICAV OPEN SELECTION INCOME"
       }
     }
   },
@@ -102,8 +89,14 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "BPER INTERNATIONAL SICAV GLOBAL BOND"
+        "name": "BPER INTERNATIONAL SICAV GLOBAL CONVERTIBLE BOND EUR"
       }
     }
+  },
+  {
+    "ubs-fund-page-6": "BPER International SICAV – Open Selection Growth"
+  },
+  {
+    "ubs-fund-page-12": "BPER International SICAV – Emerging Markets - Multi Asset Dividend"
   }
 ]

@@ -1,22 +1,22 @@
 ID,Report,Report page,Fund ID,From,Type of event,Old name
-1,report,510,7,2024-03-15,RENAMING,European Equity Sustainable Income
-2,report,510,12,2024-03-15,RENAMING,Global Equity Sustainable Income
-3,report,510,14,2024-03-15,RENAMING,Pioneer Global Equity
-4,report,510,15,2024-03-15,RENAMING,Pioneer US Equity Dividend Growth
-5,report,510,16,2024-03-15,RENAMING,Pioneer US Equity ESG Improvers
-6,report,510,17,2024-03-15,RENAMING,Pioneer US Equity Fundamental Growth
-7,report,510,18,2024-03-15,RENAMING,Pioneer US Equity Research
-8,report,510,19,2024-03-15,RENAMING,Pioneer US Equity Research Value
-9,report,510,23,2024-03-15,RENAMING,Asia Equity Concentrated
-10,report,510,38,2024-03-15,RENAMING,Euro Corporate Bond
-11,report,510,39,2024-03-15,RENAMING,Euro Corporate Short Term Green Bond
-12,report,510,45,2024-03-15,RENAMING,Pioneer Global High Yield ESG Improvers Bond
-13,report,510,46,2024-03-15,RENAMING,Pioneer US High Yield Bond
-14,report,510,57,2024-03-15,RENAMING,Pioneer Strategic Income
-15,report,510,58,2024-03-15,RENAMING,Net Zero Ambition Pioneer US Corporate Bond
-16,report,510,59,2024-03-15,RENAMING,Pioneer US Bond
-17,report,510,60,2024-03-15,RENAMING,Pioneer US Corporate Bond
-18,report,510,61,2024-03-15,RENAMING,Pioneer US Short Term Bond
-19,report,510,77,2024-03-15,RENAMING,Pioneer Income Opportunities
-20,report,510,82,2024-03-15,RENAMING,Absolute Return Global Opportunities Bond Dynamic
-21,report,510,10,2023-10-13,MERGING,Amundi S.F. European Equity Optimal Volatility
+1,report,510,33,2024-03-15,RENAMING,European Equity Sustainable Income
+2,report,510,46,2024-03-15,RENAMING,Global Equity Sustainable Income
+3,report,510,42,2024-03-15,RENAMING,Pioneer Global Equity
+4,report,510,79,2024-03-15,RENAMING,Pioneer US Equity Dividend Growth
+5,report,510,80,2024-03-15,RENAMING,Pioneer US Equity ESG Improvers
+6,report,510,81,2024-03-15,RENAMING,Pioneer US Equity Fundamental Growth
+7,report,510,82,2024-03-15,RENAMING,Pioneer US Equity Research
+8,report,510,83,2024-03-15,RENAMING,Pioneer US Equity Research Value
+9,report,510,4,2024-03-15,RENAMING,Asia Equity Concentrated
+10,report,510,20,2024-03-15,RENAMING,Euro Corporate Bond
+11,report,510,21,2024-03-15,RENAMING,Euro Corporate Short Term Green Bond
+12,report,510,48,2024-03-15,RENAMING,Pioneer Global High Yield ESG Improvers Bond
+13,report,510,84,2024-03-15,RENAMING,Pioneer US High Yield Bond
+14,report,510,76,2024-03-15,RENAMING,Pioneer Strategic Income
+15,report,510,66,2024-03-15,RENAMING,Net Zero Ambition Pioneer US Corporate Bond
+16,report,510,77,2024-03-15,RENAMING,Pioneer US Bond
+17,report,510,78,2024-03-15,RENAMING,Pioneer US Corporate Bond
+18,report,510,86,2024-03-15,RENAMING,Pioneer US Short Term Bond
+19,report,510,55,2024-03-15,RENAMING,Pioneer Income Opportunities
+20,report,510,73,2024-03-15,RENAMING,Absolute Return Global Opportunities Bond Dynamic
+21,report,510,45,2023-10-13,MERGING,Amundi S.F. European Equity Optimal Volatility

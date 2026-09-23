@@ -5,7 +5,7 @@
       "data": {
         "company": "Apple Inc",
         "company_match": "Apple Inc",
-        "fund": "CONVERTIBLE STRATEGY COLLECTION",
+        "fund": "INFRASTRUCTURE OPPORTUNITY COLLECTION",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -23,7 +23,7 @@
       "data": {
         "company": "Alphabet",
         "company_match": "Alphabet",
-        "fund": "GLOBAL HIGH YIELD",
+        "fund": "MEDIOLANUM GLOBAL SUSTAINABLE BOND",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -41,7 +41,7 @@
       "data": {
         "company": "Amazon",
         "company_match": "Amazon",
-        "fund": "FINANCIAL INCOME STRATEGY",
+        "fund": "EMERGING MARKETS FIXED INCOME",
         "nominal_quantity": null,
         "market_value": 100.0,
         "currency": {
@@ -57,10 +57,10 @@
     "__pydantic__": {
       "class": "freeports.output:InvestmentsManager",
       "data": {
-        "name": "Advent Capital Management LLC",
+        "name": "Neuberger Berman Asset Management Ireland Limited",
         "managed_funds": {
           "__set__": [
-            "CONVERTIBLE STRATEGY COLLECTION"
+            "EMERGING MARKETS FIXED INCOME"
           ]
         }
       }
@@ -70,7 +70,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "CONVERTIBLE STRATEGY COLLECTION"
+        "name": "INFRASTRUCTURE OPPORTUNITY COLLECTION"
       }
     }
   },
@@ -78,7 +78,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "GLOBAL HIGH YIELD"
+        "name": "MEDIOLANUM GLOBAL SUSTAINABLE BOND"
       }
     }
   },
@@ -86,15 +86,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "FINANCIAL INCOME STRATEGY"
-      }
-    }
-  },
-  {
-    "__pydantic__": {
-      "class": "freeports.output:Fund",
-      "data": {
-        "name": "CHINESE ROAD OPPORTUNITY"
+        "name": "EMERGING MARKETS FIXED INCOME"
       }
     }
   },
@@ -103,6 +95,14 @@
       "class": "freeports.output:Fund",
       "data": {
         "name": "COUPON STRATEGY COLLECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "DYNAMIC COLLECTION"
       }
     }
   }

@@ -138,8 +138,56 @@ class PageCarryover:
         return {self.promise_id(page): str(block.content).strip()}
 
     def promise(self, page):
-        """La promessa che la pagina `page` deve chiedere: quella lasciata `offset` pagine prima."""
+        """La promessa che la pagina `page` deve chiedere: quella lasciata `offset` pagine prima.
+
+        È la forma **per pagine adiacenti**: la chiave si calcola, e chi la risolve è il motore
+        alla fine del job. Dove la distanza non è una costante del formato serve `nearest`.
+        """
         return Promise(self.promise_id(page - self.offset))
+
+    def deposited(self, filter_data):
+        """`{pagina: valore}` di ciò che le pagine precedenti di questo job hanno lasciato.
+
+        Le promesse depositate attraversano il confine verso Python **come dizionari**, quindi si
+        riconoscono per tipo e per prefisso della chiave. Le chiavi di un altro `PageCarryover`
+        della stessa corsa si lasciano stare.
+        """
+        prefix = self.field + self.separator
+        out = {}
+        for result in filter_data:
+            if not isinstance(result, dict):
+                continue
+            for key, value in result.items():
+                text = str(key)
+                if not text.startswith(prefix):
+                    continue
+                tail = text[len(prefix):]
+                if tail.isdigit():
+                    out[int(tail)] = value
+        return out
+
+    def nearest(self, filter_data, page):
+        """Il valore lasciato dalla pagina **più vicina prima** di `page`, o `None`.
+
+        È la seconda forma, e serve dove la distanza fra le due pagine **non è una costante del
+        formato**. Su UBS-EN23 il titolo di un comparto e il suo prospetto patrimoniale distano
+        una, due, tre o quattro pagine — in mezzo ci stanno il commento di gestione e la tabella
+        dei tre esercizi, che sono lunghi quanto capita — e `promise` lì non si può usare.
+
+        La risoluzione avviene **qui**, nel `text_filter`, e non nel motore: appaiare due pagine
+        per vicinanza è un'interpretazione, e `R23` le vuole tutte in questo segmento. Il prezzo è
+        che la pipeline che deposita deve stare in uno **step precedente** dello
+        `algorithms_schedule.csv`, o `filter_data` non porta ancora niente.
+        """
+        left = self.deposited(filter_data)
+        before = [number for number in left if number < page]
+        if not before:
+            log.error(
+                "no '{}' was left by any page before {}: this page cannot say which fund it is "
+                "about, and its row is dropped".format(self.field, page)
+            )
+            return None
+        return left[max(before)]
 
     def owner(self):
         """La funzione che dice *di chi è questa pagina*, nella forma che `esg.text_filter` vuole.

@@ -5,11 +5,33 @@
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "Global High Yield"
+          "Infrastructure Opportunity Collection",
+          "Mediolanum Global Sustainable Bond",
+          "Mediolanum Morgan Stanley Global Selection"
         ]
       }
     },
-    "content": "Mesirow Financial Investment Management, Inc.",
+    "content": "Morgan Stanley Investment Management Limited",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Mediolanum Morgan Stanley Global Selection",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Emerging Markets Fixed Income"
+        ]
+      }
+    },
+    "content": "Neuberger Berman Asset Management Ireland Limited",
     "pdf_block": null
   }
 ]

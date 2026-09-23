@@ -16,6 +16,7 @@ MEDIOLANUM-EN24,inv_managers,TRUE
 MEDIOLANUM-EN24,inv_managers_begin,
 MEDIOLANUM-ES24.A,investments,TRUE
 MEDIOLANUM-ES24.A,manco,
+MEDIOLANUM-ES24.A,fund_assets,
 MEDIOLANUM-ES24.B,cover,
 MEDIOLANUM-ES24.B,investments,
 MEDIOLANUM-ES24.Bax,sfdr_classification,
@@ -75,9 +76,11 @@ ARCA-IT24,fund_assets_end,
 ARCA-IT24,sfdr_classification,
 ARCA-IT24,merges,
 UBS-EN23,investments,TRUE
+UBS-EN23,fund_title,TRUE
 UBS-EN23,manco,TRUE
 UBS-EN23,inv_managers_end,
 UBS-EN23,sfdr_classification,
+UBS-EN23,fund_assets,
 MEDIOLANUM-IT24.B,investments,TRUE
 MEDIOLANUM-IT24.B,fund_assets_begin,TRUE
 MEDIOLANUM-IT24.B,fund_assets_end,
@@ -89,6 +92,8 @@ AMUNDI-IT24,sfdr_classification,
 AMUNDI-EN24,investments,TRUE
 AMUNDI-EN24,sfdr_classification,
 AMUNDI-EN24,renaming,
+AMUNDI-EN24,inv_managers_begin,
+AMUNDI-EN24,inv_managers_end,
 ASTERIA-EN24,investments,TRUE
 ASTERIA-EN24,sfdr_classification,
 DANSKEINVEST-EN24,investments,TRUE
@@ -99,5 +104,6 @@ EURIZON-EN21,manco,
 FIDEURAM-EN23,investments,TRUE
 FIDEURAM-EN23,manco_note,TRUE
 FIDEURAM-EN23,inv_managers,
+FIDEURAM-EN23,fund_assets,
 ASTERIA-EN23,investments,TRUE
 ASTERIA-EN23,inv_managers,

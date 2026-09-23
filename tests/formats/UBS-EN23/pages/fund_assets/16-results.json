@@ -1,0 +1,19 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2023-12-31"
+        },
+        "fund": "BPER International SICAV – Emerging Markets - Multi Asset Dividend",
+        "liabilities": 338864.25,
+        "net_assets": 39834631.32,
+        "tot_assets": 40173495.57
+      }
+    }
+  }
+]

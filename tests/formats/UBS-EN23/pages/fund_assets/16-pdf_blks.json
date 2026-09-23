@@ -1,0 +1,38 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "ASSETS_PAGE",
+    "metadata": {},
+    "content": "14"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
+    "metadata": {},
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "ASSETS_DATE",
+    "metadata": {},
+    "content": "31.12.2023"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TOT_ASSETS",
+    "metadata": {},
+    "content": "40 173 495.57"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "LIABILITIES",
+    "metadata": {},
+    "content": "-338 864.25"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NET_ASSETS",
+    "metadata": {},
+    "content": "39 834 631.32"
+  }
+]
