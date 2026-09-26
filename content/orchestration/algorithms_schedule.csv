@@ -79,7 +79,8 @@ UBS-EN23,investments,TRUE
 UBS-EN23,fund_title,TRUE
 UBS-EN23,manco,TRUE
 UBS-EN23,inv_managers_end,
-UBS-EN23,sfdr_classification,
+UBS-EN23,sfdr_classification,TRUE
+UBS-EN23,esg_indicators,
 UBS-EN23,fund_assets,
 MEDIOLANUM-IT24.B,investments,TRUE
 MEDIOLANUM-IT24.B,fund_assets_begin,TRUE
@@ -90,10 +91,12 @@ AMUNDI-IT24,fund_assets_begin,TRUE
 AMUNDI-IT24,fund_assets_end,
 AMUNDI-IT24,sfdr_classification,
 AMUNDI-EN24,investments,TRUE
-AMUNDI-EN24,sfdr_classification,
+AMUNDI-EN24,sfdr_classification,TRUE
+AMUNDI-EN24,esg_indicators,
 AMUNDI-EN24,renaming,
 AMUNDI-EN24,inv_managers_begin,
 AMUNDI-EN24,inv_managers_end,
+AMUNDI-EN24,fund_assets,
 ASTERIA-EN24,investments,TRUE
 ASTERIA-EN24,sfdr_classification,
 DANSKEINVEST-EN24,investments,TRUE

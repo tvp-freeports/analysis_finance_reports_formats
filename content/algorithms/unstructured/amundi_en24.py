@@ -14,6 +14,18 @@ Oltre al modulo, la nota `1 INTRODUCTION` di p510 dichiara le **ridenominazioni*
 l'altra con la stessa tipografia — comparti lanciati, ridenominati, liquidati — e solo la seconda
 porta un dato.
 
+Da p778 arriva `EI-2`, gli **indicatori di sostenibilità in tabella**: il nome sopra, una riga per
+serie — il prodotto e il suo indice di riferimento — e una colonna per esercizio. Si tiene la cella
+all'incrocio fra la riga del prodotto e la colonna dell'esercizio in corso; l'indice non è un dato
+del comparto e l'esercizio precedente non si estrae (`R5`). Il comparto lo nomina la pagina prima,
+e arriva con una promessa legata al numero di pagina.
+
+Da p360 in poi arriva `FA-5`, il prospetto patrimoniale: **due comparti per pagina**, ognuno con
+due colonne datate, e **l'intestazione in grassetto è il totale** — la riga si chiama `Assets` e il
+numero che porta è il totale dell'attivo, non la prima voce di un elenco. Della coppia di colonne si
+tiene quella dell'esercizio in corso (`R5`), e una colonna che porta solo trattini è un comparto che
+quell'anno non esisteva: si salta.
+
 E da p8→9 arriva `IM-2`, che è la ricetta in cui **l'elenco non dice per quali comparti**: sotto
 `INVESTMENT MANAGERS` e `SUB-INVESTMENT MANAGERS` stanno una ventina di società, ciascuna col suo
 indirizzo e nessuna con una specificazione. È il ramo 4 di `A5` (`R21`): il residuo va **a tutti
@@ -23,18 +35,25 @@ presa per eccesso. I due gruppi si leggono insieme, che `R22` vuole i sub-gestor
 
 import re
 
+import carryover
+import esg
 import inv_managers
 import renaming
 import sfdr
 from freeports.core import PdfBlock, Pipeline
+from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
+from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
+from freeports.utils.deserialize import to_date, to_int
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.standard_funcs.deserialize import (
     DeserializerFundStandard,
     DeserializerInvestmentsManagerStandard,
 )
 from freeports.standard_funcs.pdf_extract import PdfExtractSectionStandard
-from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict
-from freeports.utils.text_filter import investment_fund_filter_data
+from freeports.core import TextBlock
+from freeports.interfaces.text_blks import OneTextBlockType
+from freeports.utils.pdf_extract import PdfLineSelection, get_groups, pdflines_from_pagedict
+from freeports.utils.text_filter import MatchFund, investment_fund_filter_data
 
 # La sezione è tutta la nota: si apre sull'intestazione in grassetto e si chiude sulla prossima
 # intestazione dello stesso carattere, che è il comportamento per difetto di `family`.
@@ -130,7 +149,383 @@ _inv_managers = Pipeline(
     deserialize=(DeserializerInvestmentsManagerStandard(), DeserializerFundStandard()),
 )
 
+
+
+# ----------------------------------------------------------------------------------------------
+# Il prospetto patrimoniale, due comparti e quattro colonne per pagina (`FA-5`)
+# ----------------------------------------------------------------------------------------------
+# La pagina è una tabella a quattro colonne: due comparti per due esercizi. Le colonne si
+# riconoscono dal **bordo destro**, perché i numeri sono allineati a destra e la testata — data,
+# valuta — lo è con loro: sulla riga dei totali il bordo destro vale 371,6 · 430,3 · 493,9 · 552,6
+# e sulla riga delle date e su quella delle valute vale gli stessi quattro.
+#
+# L'etichetta della riga sta a `x=42,5` e il richiamo di nota a `x≈300`: oltre 318 ci sono solo
+# valori e testate, ed è così che le une si separano dalle altre senza nominarle.
+
+_ASSETS_LABEL_EDGE = 318.0
+_ASSETS_COLUMN_TOLERANCE = 2.0
+
+_ASSETS_HEAD = PdfLineSelection(font="verdana", font_size=(5.5, 6.5))
+_ASSETS_TOTALS = PdfLineSelection(font="verdana-bold", font_size=(5.5, 6.5))
+_ASSETS_RIGHT = PdfLineSelection.area(_ASSETS_LABEL_EDGE, 0.0, 1e6, 1e6)
+
+# Le tre bande della testata, misurate: i nomi cominciano a 140,3, le date a 174,9, le valute a
+# 182,0. Nessuna delle tre porta un'etichetta, e si separano per **bordo superiore** e non per
+# area: le scatole sono alte 7,3 punti, quindi quella della data finisce a 182,2 e quella della
+# valuta comincia a 182,0 — si sovrappongono, e un'area che le contenga tutt'e due non esiste.
+_ASSETS_NAME_BAND = (135.0, 150.0)
+_ASSETS_DATE_BAND = (170.0, 180.0)
+_ASSETS_CURRENCY_BAND = (180.0, 190.0)
+
+
+def _assets_band(lines, band):
+    """Le righe della testata la cui **cima** cade nella banda, oltre la colonna delle etichette."""
+    top, bottom = band
+    return [
+        line
+        for line in (_ASSETS_HEAD & _ASSETS_RIGHT).select(lines)
+        if top <= line.bbox[1] < bottom and line.text.strip()
+    ]
+
+_ASSETS_ROWS = (
+    ("tot_assets", "^Assets$"),
+    ("liabilities", "^Liabilities$"),
+    ("net_assets", "^Net asset value$"),
+)
+
+
+def _assets_row(lines, label):
+    """I valori della riga in grassetto che `label` apre, oltre la colonna delle etichette."""
+    found = (_ASSETS_TOTALS & PdfLineSelection(text=label)).select(lines)
+    if not found:
+        return []
+    top, bottom = found[0].bbox[1], found[0].bbox[3]
+    return [
+        line
+        for line in (_ASSETS_TOTALS & _ASSETS_RIGHT).select(lines)
+        if line.bbox[1] < bottom and line.bbox[3] > top and line.text.strip()
+    ]
+
+
+def _assets_column(edges, line):
+    """L'indice della colonna il cui bordo destro coincide con quello della riga, o `None`."""
+    for index, edge in enumerate(edges):
+        if abs(edge - line.bbox[2]) <= _ASSETS_COLUMN_TOLERANCE:
+            return index
+    return None
+
+
+def _assets_owner(names, edge):
+    """Il comparto della colonna: il nome della testata **più vicino** al suo bordo destro.
+
+    Il nome di un comparto copre le sue due colonne, ma la sua scatola non arriva sempre fino al
+    bordo della seconda: `Climate Transition Global Equity` finisce a 420,2 e la colonna
+    dell'esercizio precedente a 430,3. Si misura quindi la distanza dall'intervallo del nome, che
+    su questa pagina è zero per la prima colonna e dieci punti per la seconda, contro i quaranta
+    che la separano dal comparto accanto.
+    """
+    def distance(line):
+        if line.bbox[0] <= edge <= line.bbox[2]:
+            return 0.0
+        return min(abs(line.bbox[0] - edge), abs(line.bbox[2] - edge))
+
+    return min(names, key=distance) if names else None
+
+
+def pdf_extract_fund_assets(page):
+    """Un blocco per colonna: comparto, esercizio, valuta e i tre totali."""
+    lines = pdflines_from_pagedict(page)
+    dates = sorted(_assets_band(lines, _ASSETS_DATE_BAND), key=lambda line: line.bbox[2])
+    if not dates:
+        return []
+    edges = [line.bbox[2] for line in dates]
+    names = _assets_band(lines, _ASSETS_NAME_BAND)
+
+    currencies = [None] * len(edges)
+    for line in _assets_band(lines, _ASSETS_CURRENCY_BAND):
+        index = _assets_column(edges, line)
+        if index is not None:
+            currencies[index] = line.text.strip()
+
+    amounts = {}
+    for key, label in _ASSETS_ROWS:
+        column = [None] * len(edges)
+        for line in _assets_row(lines, label):
+            index = _assets_column(edges, line)
+            if index is not None:
+                column[index] = line.text.strip()
+        amounts[key] = column
+
+    blocks = []
+    for index, date in enumerate(dates):
+        owner = _assets_owner(names, edges[index])
+        values = {key: amounts[key][index] for key in amounts}
+        # Una colonna che porta un trattino al posto di un numero è un comparto che quell'esercizio
+        # non esisteva: non è uno zero, è l'assenza, e la riga non si scrive.
+        if owner is None or any(v is None or v in ("-", "–") for v in values.values()):
+            continue
+        metadata = {
+            "fund": owner.text.strip(),
+            "currency": currencies[index],
+            "date": date.text.strip(),
+        }
+        metadata.update(values)
+        blocks.append(PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, metadata, ""))
+    return blocks
+
+
+assets_filter = TextFilterAssetsStandard()
+
+
+def text_filter_fund_assets(pdf_blks, filter_data):
+    """Di ogni comparto **il solo esercizio in corso** (`R5`), scelto confrontando le date.
+
+    Quale delle due colonne sia quella corrente lo dice la testata, e leggerlo è interpretazione:
+    per questo si decide qui e non nel `pdf_extract`, che si limita a consegnare tutte le colonne
+    con la loro data.
+    """
+    latest = {}
+    for block in pdf_blks:
+        fund = block.metadata["fund"]
+        date = to_date(block.metadata["date"])
+        if fund not in latest or date > latest[fund][0]:
+            latest[fund] = (date, block)
+    return assets_filter([block for _, block in latest.values()], filter_data)
+
+
+deserialize_fund_assets = DeserializerAssetsStandard(to_int, to_date)
+
+
+
+
+# ----------------------------------------------------------------------------------------------
+# Gli indicatori di sostenibilità, e il comparto che sta sulla pagina prima (`EI-2`)
+# ----------------------------------------------------------------------------------------------
+
+esg_carry = carryover.PageCarryover("amundi-esg-fund")
+
+# Il piede porta il numero stampato, che su questo prospetto **coincide** con quello della pagina
+# del PDF, e sta a sinistra sulle pari e a destra sulle dispari.
+ESG_FOOT = PdfLineSelection.area(0.0, 795.0, 120.0, 1e6) | PdfLineSelection.area(
+    480.0, 795.0, 1e6, 1e6
+)
+
+_ESG_QUESTION = PdfLineSelection(
+    font="calibri-bolditalic", font_size=(8.0, 8.5)
+) & PdfLineSelection(text="^How did the sustainability indicators perform")
+
+# La colonna di glossario del modello europeo sta a `x≈38`: la tabella comincia a 212, e l'ascissa
+# è ciò che le separa. Dentro la tabella il nome dell'indicatore rientra meno della serie — 212,2
+# contro 223,9 — e i valori cominciano oltre 395.
+_ESG_TABLE_LEFT = 205.0
+_ESG_SERIES_LEFT = 218.0
+_ESG_VALUE_LEFT = 395.0
+
+_ESG_ROW = 4.0
+"""Lo stacco entro il quale due righe sono la stessa riga di tabella: le righe distano dieci punti."""
+
+_ESG_COLUMN = 12.0
+"""Lo scostamento entro il quale due celle sono la stessa colonna.
+
+I bordi destri misurati sono 428,9 e 430,0 per l'esercizio in corso e 465,3 e 466,5 per il
+precedente: un punto di differenza fra un numero intero e una percentuale, trentasei fra le due
+colonne."""
+
+_ESG_DATE = re.compile(r"^\s*(\d{2})/(\d{2})/(\d{2})\s*$")
+
+_ESG_HEADING = PdfLineSelection(font="calibri-bold")
+"""Il titolo di famiglia — `Environmental performance`, `Social performance`, `Governance
+performance` — che chiude ciò che sta sopra e non porta valori."""
+
+_ESG_NOTE = PdfLineSelection(font="calibri-italic")
+"""Le note di fonte e di unità di misura, che chiudono un blocco: `Source Montpensier Finance …`."""
+
+_ESG_SUB = PdfLineSelection(font="arial-bolditalicmt")
+"""Il corsivo grassetto, che la tabella usa per **una sola voce**: `Coverage (% invested)`.
+
+Non è un indicatore di sostenibilità del comparto, è la copertura della *misura* — quanta parte del
+portafoglio l'indicatore di sopra ha potuto misurare — e la tabella la ripete sotto ognuno dei sei
+blocchi. Estrarla vorrebbe dire scrivere sei righe che si chiamano tutte allo stesso modo per lo
+stesso comparto: la chiave d'unicità di `funds_esg_indicators` le farebbe collassare in una, e
+quale delle sei sopravvive non lo decide nessuno. Si lascia fuori, e la tipografia è il modo in cui
+la pagina stessa la distingue dalle altre.
+"""
+
+
+def _esg_cluster(edges, edge):
+    """L'indice del gruppo di `edges` a cui `edge` appartiene, o `None`."""
+    for index, known in enumerate(edges):
+        if abs(known - edge) <= _ESG_COLUMN:
+            return index
+    return None
+
+
+def _esg_columns(values):
+    """Le colonne, **ordinate dalla più recente**, dai bordi destri delle righe di data.
+
+    L'ordine non si dà per scontato: la tabella scrive `28/06/24` e `30/06/23` e la più recente è a
+    sinistra, ma è una proprietà dell'impaginazione e non una regola. Si legge dalle date, che la
+    tabella ripete su ogni blocco, e si confronta `AA MM GG` — due cifre d'anno bastano, che un
+    prospetto non porta mai due esercizi a un secolo di distanza.
+    """
+    dated = {}
+    for line in values:
+        found = _ESG_DATE.match(line.text)
+        if not found:
+            continue
+        day, month, year = found.groups()
+        dated.setdefault(line.bbox[2], (year, month, day))
+    if not dated:
+        return []
+    edges = []
+    for edge in sorted(dated, key=lambda e: dated[e], reverse=True):
+        if _esg_cluster(edges, edge) is None:
+            edges.append(edge)
+    return edges
+
+
+def pdf_extract_esg(page):
+    """Una cella per blocco, con dentro quale indicatore, quale serie e quale esercizio.
+
+    Tutto ciò che sta qui è geometria: dove comincia la tabella, quali righe sono nomi e quali
+    serie, e in quale colonna cade una cella. *Quale* serie e *quale* colonna si tengano lo decide
+    il lettore del template (`R23`).
+    """
+    lines = pdflines_from_pagedict(page)
+    question = _ESG_QUESTION.select(lines)
+    if not question:
+        return []
+    top = question[0].bbox[1]
+    body = sorted(
+        (
+            line
+            for line in lines
+            if line.bbox[1] > top
+            and line.bbox[0] >= _ESG_TABLE_LEFT
+            and line.text.strip()
+        ),
+        key=lambda line: line.bbox[1],
+    )
+    if not body:
+        return []
+
+    values = [line for line in body if line.bbox[0] >= _ESG_VALUE_LEFT]
+    columns = _esg_columns(values)
+    if not columns:
+        return []
+
+    number = carryover.page_number(lines, ESG_FOOT)
+    groups = list(get_groups(body, _ESG_ROW))
+    blocks = []
+    scope = None
+    indicator = None
+    series = -1
+    named = False
+    for group in sorted(set(groups)):
+        row = [line for index, line in zip(groups, body) if index == group]
+        labels = [line for line in row if line.bbox[0] < _ESG_VALUE_LEFT]
+        cells = [line for line in row if line.bbox[0] >= _ESG_VALUE_LEFT]
+        if labels:
+            first = labels[0]
+            if _ESG_HEADING.select([first]) or _ESG_NOTE.select([first]):
+                scope, indicator, named = None, None, False
+                continue
+            if first.bbox[0] < _ESG_SERIES_LEFT:
+                # Due righe in grassetto una sotto l'altra: la prima è l'ambito e la seconda
+                # l'indicatore. `Scopes 1 et 2` apre due indicatori, e l'ambito resta in vigore
+                # fino alla nota che chiude il blocco.
+                if _ESG_SUB.select([first]):
+                    indicator, named = None, False
+                    continue
+                if named:
+                    scope = indicator
+                indicator, named, series = first.text.strip(), True, -1
+                continue
+            named = False
+            series += 1
+        if indicator is None or series < 0:
+            continue
+        name = "{} — {}".format(scope, indicator) if scope else indicator
+        for cell in cells:
+            column = _esg_cluster(columns, cell.bbox[2])
+            if column is None:
+                continue
+            blocks.append(
+                PdfBlock(
+                    OnePdfBlockType.RELEVANT_BLOCK.name,
+                    {
+                        "indicator": name,
+                        "series": series,
+                        "column": column,
+                        "page": number,
+                    },
+                    cell.text,
+                )
+            )
+    return blocks
+
+
+read_esg = esg.DatedRows()
+
+text_filter_esg = esg.text_filter(read_esg, esg_carry.owner())
+
+
+_ESG_PRODUCT_PIPES = sfdr.ENGLISH.joined_pipes()
+"""Il tubo del nome del prodotto del template, quello stesso che il modulo SFDR usa qui.
+
+Il nome su questo formato non va solo a capo: il PDF lo spezza in frammenti — `AMUNDI FUNDS
+MONTPENSIER `, `G`, `REAT`, `UROPEAN`, `M`, `ODELS` — e riunirli è il lavoro di
+`sfdr.joined_pipes`, misurato su cinque formati. Riscriverlo qui sarebbe scriverlo male una
+seconda volta; quello che serve in più è soltanto il numero di pagina.
+"""
+
+_ESG_PRODUCT_PREFIXES = (
+    re.compile(r"^\s*Product name\s*:?\s*"),
+    # L'ombrello davanti al comparto: `R24` vuole il nome come lo scrivono gli investimenti.
+    re.compile(r"^AMUNDI FUNDS\s+"),
+)
+
+
+def pdf_extract_esg_fund(page):
+    """Il nome del prodotto del modulo, col numero di pagina, per la pagina degli indicatori."""
+    number = carryover.page_number(pdflines_from_pagedict(page), ESG_FOOT)
+    if number is None:
+        return []
+    blocks = []
+    for pipe in _ESG_PRODUCT_PIPES:
+        for block in pipe(page):
+            if block.type_block != sfdr.PRODUCT_BLOCK:
+                continue
+            name = str(block.content)
+            for prefix in _ESG_PRODUCT_PREFIXES:
+                name = prefix.sub("", name).strip()
+            if name:
+                blocks.append(
+                    PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {"page": number}, name)
+                )
+    return blocks
+
+
+@investment_fund_filter_data
+def text_filter_esg_fund(pdf_blks, investment_funds):
+    """Il nome, e solo se è un comparto d'interesse: di là il comparto è una promessa."""
+    if not pdf_blks:
+        return []
+    block = next(iter(pdf_blks))
+    name = str(block.content).strip()
+    if not name or MatchFund(name=name) not in investment_funds:
+        return []
+    return [TextBlock.from_content(OneTextBlockType.RELEVANT_BLOCK.name, block.metadata, name)]
+
+
 pipelines = {
+    "esg_fund": Pipeline(
+        pdf_extract_esg_fund, text_filter_esg_fund, esg_carry.deposit
+    ),
+    "esg_indicators": Pipeline(pdf_extract_esg, text_filter_esg, esg.deserialize),
+    "fund_assets": Pipeline(
+        pdf_extract_fund_assets, text_filter_fund_assets, deserialize_fund_assets
+    ),
     "inv_managers_begin": _inv_managers,
     "inv_managers_end": Pipeline(
         pdf_extract=pdf_extract_inv_managers_end,

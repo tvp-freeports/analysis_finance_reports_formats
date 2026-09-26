@@ -1,0 +1,102 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "esg-indicator-fund",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Esclusioni \"SRI\"",
+      "value": "0,00%"
+    },
+    "content": "0,00%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Esclusioni \"SRI\"",
+        "series": 0
+      },
+      "content": "0,00%"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "esg-indicator-fund",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Esclusioni \"ESG\"",
+      "value": "0,00%"
+    },
+    "content": "0,00%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Esclusioni \"ESG\"",
+        "series": 0
+      },
+      "content": "0,00%"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "esg-indicator-fund",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Esclusioni \"Sovereign Screening\"",
+      "value": "0,00%"
+    },
+    "content": "0,00%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Esclusioni \"Sovereign Screening\"",
+        "series": 0
+      },
+      "content": "0,00%"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "esg-indicator-fund",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Esclusioni relative a esternalità ambientali negative",
+      "value": "0,00%"
+    },
+    "content": "0,00%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Esclusioni relative a esternalità ambientali negative",
+        "series": 0
+      },
+      "content": "0,00%"
+    }
+  }
+]

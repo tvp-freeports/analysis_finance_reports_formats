@@ -470,3 +470,50 @@ class TestPageCarryover:
 
         assert owner is None
         assert any("cannot be tied to a fund" in message for message in recorder.errors)
+
+
+class TestPageCarryoverNearest:
+    """La seconda forma: il titolo più vicino che precede, cercato nel `text_filter`.
+
+    I dati vengono da UBS-EN23, dove fra il titolo di un comparto e il suo prospetto patrimoniale
+    ci stanno una, due, tre o quattro pagine — i numeri stampati misurati sul documento sono i
+    titoli 12, 18, 22, 27 e i prospetti 14, 19, 24, 30.
+    """
+
+    def carry(self):
+        return carryover.PageCarryover("ubs-fund")
+
+    def left(self):
+        return [
+            {"ubs-fund-page-12": "BPER International SICAV – Emerging Markets"},
+            {"ubs-fund-page-18": "BPER International SICAV – Equity North America"},
+            {"ubs-fund-page-22": "BPER International SICAV – Fixed Income Credit Strategies"},
+            {"ubs-fund-page-27": "BPER International SICAV – Global Balanced Risk Control"},
+        ]
+
+    def test_what_the_pages_before_have_left_is_read_by_page(self):
+        assert sorted(self.carry().deposited(self.left())) == [12, 18, 22, 27]
+
+    def test_each_statement_gets_the_title_that_precedes_it(self):
+        carry = self.carry()
+
+        assert [carry.nearest(self.left(), page) for page in (14, 19, 24, 30)] == [
+            "BPER International SICAV – Emerging Markets",
+            "BPER International SICAV – Equity North America",
+            "BPER International SICAV – Fixed Income Credit Strategies",
+            "BPER International SICAV – Global Balanced Risk Control",
+        ]
+
+    def test_a_page_before_the_first_title_owns_nothing_and_says_so(self, recorder):
+        """UBS-EN23 p9 e p12 portano prospetti **combinati**, prima di ogni titolo di comparto."""
+        assert self.carry().nearest(self.left(), 7) is None
+        assert any("no 'ubs-fund' was left" in message for message in recorder.errors)
+
+    def test_the_keys_of_another_carryover_of_the_same_run_are_left_alone(self):
+        left = self.left() + [{"esg-fund-page-893": "Fidelity EURO Bond FAM Fund"}]
+
+        assert sorted(self.carry().deposited(left)) == [12, 18, 22, 27]
+
+    def test_what_is_not_a_promise_is_not_read(self):
+        """`filter_data` porta anche i risultati delle pagine prima, che non sono dizionari."""
+        assert self.carry().deposited(["not a promise", 42, None]) == {}

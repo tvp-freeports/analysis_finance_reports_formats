@@ -3,6 +3,7 @@
 import re
 
 import carryover
+import esg
 import manco
 import sfdr
 
@@ -23,7 +24,6 @@ from freeports.utils.pdf_extract import (
     TablePosAlgorithm,
 )
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
-from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.standard_funcs.deserialize import (
     DeserializerAssetsStandard,
     DeserializerManagmentCompanyStandard,
@@ -38,7 +38,6 @@ from freeports.output import (
     Fund,
     FundMerge,
     FundRename,
-    FundEsgIndicator,
 )
 from enum import Enum, auto
 
@@ -217,43 +216,52 @@ def esg_indicators_pdf_extract(page):
         )
     )
 
-    res = []
+    # La tabella ha **tre** colonne: il nome dell'indicatore a sinistra, la descrizione in mezzo —
+    # venti righe di prosa — e il valore a destra. Prima di oggi il nome si prendeva dalla colonna
+    # di mezzo, e `funds_esg_indicators.csv` portava paragrafi interi al posto dei nomi. Il nome è
+    # la **prima** colonna e il valore l'**ultima**; la riga d'intestazione si salta.
+    name_col = min(cols)
+    value_col = max(cols)
+    blocks = []
     for row in sorted(set(rows))[1:]:
-        key = " ".join(
-            (
-                table_lines.text
-                for r, c, table_lines in zip(rows, cols, table_lines)
-                if row == r and c == 1
-            )
+        name = " ".join(
+            line.text
+            for line, r, c in zip(table_lines, rows, cols)
+            if r == row and c == name_col
         ).strip()
         value = " ".join(
-            (
-                table_lines.text
-                for r, c, table_lines in zip(rows, cols, table_lines)
-                if row == r and c == 2
-            )
+            line.text
+            for line, r, c in zip(table_lines, rows, cols)
+            if r == row and c == value_col
         ).strip()
-        res.append((key, value))
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {k: v for k, v in res}, "")]
+        if not name:
+            continue
+        blocks.append(
+            PdfBlock(
+                OnePdfBlockType.RELEVANT_BLOCK.name,
+                {"indicator": name, "series": 0, "column": 0},
+                value,
+            )
+        )
+    return blocks
 
 
-def esg_indicators_text_filter(pdf_blks, _):
-    if len(pdf_blks) == 0:
-        return []
-    blk = next(iter(pdf_blks))
-    m = blk.metadata
-    return [
-        TextBlock(OneTextBlockType.RELEVANT_BLOCK.name, {"key": k, "value": v}, blk)
-        for k, v in m.items()
-    ]
+read_esg_indicators = esg.DatedRows()
+"""Il lettore del template: una cella per indicatore, e `R11` scarta ciò che numero non è.
+
+La tabella non ha né serie né esercizi — un indicatore, un valore — quindi `series` e `column`
+valgono zero per tutte le celle, e il lettore fa il solo lavoro che qui serve: tenere le celle che
+portano un numero. Prima di oggi non le filtrava nessuno, e il secondo documento di prova scriveva
+una riga col nome vuoto e il valore vuoto.
+"""
 
 
-def esg_indicators_deserialize(txt_blk):
-    m = txt_blk.metadata
-    return FundEsgIndicator(
-        fund=Promise(f"esg-indicator-fund"), name=m["key"], value=m["value"]
-    )
+def _esg_owner(_pdf_blks, _filter_data):
+    """Il comparto è quello che l'allegato ha depositato: un documento, un comparto."""
+    return Promise("esg-indicator-fund")
 
+
+esg_indicators_text_filter = esg.text_filter(read_esg_indicators, _esg_owner)
 
 
 # ----------------------------------------------------------------------------------------------
@@ -403,6 +411,6 @@ pipelines = {
     "esg_indicators": Pipeline(
         esg_indicators_pdf_extract,
         esg_indicators_text_filter,
-        esg_indicators_deserialize,
+        esg.deserialize,
     ),
 }

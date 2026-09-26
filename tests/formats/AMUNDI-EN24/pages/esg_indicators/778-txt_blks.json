@@ -1,0 +1,210 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "amundi-esg-fund-page-777",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Scopes 1 et 2 — Weighted Average Carbon Intensity",
+      "value": "71"
+    },
+    "content": "71",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Scopes 1 et 2 — Weighted Average Carbon Intensity",
+        "page": 778,
+        "series": 0
+      },
+      "content": "71"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "amundi-esg-fund-page-777",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Scopes 1 et 2 — Carbon Footprint",
+      "value": "12"
+    },
+    "content": "12",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Scopes 1 et 2 — Carbon Footprint",
+        "page": 778,
+        "series": 0
+      },
+      "content": "12"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "amundi-esg-fund-page-777",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Scope 3 Upstream, cumulated with Scopes 1 and 2 — Weighted Average Carbon Intensity",
+      "value": "143"
+    },
+    "content": "143",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Scope 3 Upstream, cumulated with Scopes 1 and 2 — Weighted Average Carbon Intensity",
+        "page": 778,
+        "series": 0
+      },
+      "content": "143"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "amundi-esg-fund-page-777",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Scope 3 Upstream, cumulated with Scopes 1 and 2 — Carbon Footprint",
+      "value": "20"
+    },
+    "content": "20",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Scope 3 Upstream, cumulated with Scopes 1 and 2 — Carbon Footprint",
+        "page": 778,
+        "series": 0
+      },
+      "content": "20"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "amundi-esg-fund-page-777",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Significant Layoffs",
+      "value": "8.7%"
+    },
+    "content": "8.7%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Significant Layoffs",
+        "page": 778,
+        "series": 0
+      },
+      "content": "8.7%"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "amundi-esg-fund-page-777",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Women on the Board",
+      "value": "39.8%"
+    },
+    "content": "39.8%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Women on the Board",
+        "page": 778,
+        "series": 0
+      },
+      "content": "39.8%"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "amundi-esg-fund-page-777",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Board independence",
+      "value": "87.7%"
+    },
+    "content": "87.7%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Board independence",
+        "page": 778,
+        "series": 0
+      },
+      "content": "87.7%"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "amundi-esg-fund-page-777",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Remuneration linked to ESG objectives",
+      "value": "75.2%"
+    },
+    "content": "75.2%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "column": 0,
+        "indicator": "Remuneration linked to ESG objectives",
+        "page": 778,
+        "series": 0
+      },
+      "content": "75.2%"
+    }
+  }
+]

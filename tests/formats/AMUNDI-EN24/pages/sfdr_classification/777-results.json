@@ -1,5 +1,8 @@
 [
   {
+    "amundi-esg-fund-page-777": "MONTPENSIER GREAT EUROPEAN MODELS SRI"
+  },
+  {
     "__pydantic__": {
       "class": "freeports.output:FundSfdrClassification",
       "data": {

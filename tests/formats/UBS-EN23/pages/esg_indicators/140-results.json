@@ -1,0 +1,32 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "ubs-esg-fund-page-137",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "Weighted Average Carbon Intensity (WACI)",
+        "value": "26.81"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "ubs-esg-fund-page-137",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "UBS consensus score",
+        "value": "6.4"
+      }
+    }
+  }
+]

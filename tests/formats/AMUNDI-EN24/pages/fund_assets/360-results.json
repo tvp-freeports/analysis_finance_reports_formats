@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "date": {
+          "__date__": "2024-06-30"
+        },
+        "fund": "Climate Transition Global Equity",
+        "liabilities": 14911.0,
+        "net_assets": 2369975.0,
+        "tot_assets": 2384886.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2024-06-30"
+        },
+        "fund": "Euroland Equity",
+        "liabilities": 26201688.0,
+        "net_assets": 4914859751.0,
+        "tot_assets": 4941061439.0
+      }
+    }
+  }
+]

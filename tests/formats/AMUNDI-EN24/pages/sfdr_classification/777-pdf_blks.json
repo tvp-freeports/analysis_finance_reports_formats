@@ -1,6 +1,14 @@
 [
   {
     "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "page": 777
+    },
+    "content": "MONTPENSIER GREAT EUROPEAN MODELS SRI"
+  },
+  {
+    "__pdf_block__": true,
     "type_block": "SFDR_ARTICLE",
     "metadata": {
       "answer": "affirmative",

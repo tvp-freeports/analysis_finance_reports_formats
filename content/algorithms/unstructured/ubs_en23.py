@@ -26,6 +26,12 @@ documento dice esplicitamente che non li gestisce.
 La `manco` sta su p4 come i primi gestori, e quindi nella **stessa pipeline**: due dati sulla
 stessa pagina si uniscono nel `text_filter`, che riceve i blocchi di tutt'e tre i `pdf_extract`.
 
+Da p139→p140 arriva `EI-1`, gli **indicatori di sostenibilità scritti a coppie `etichetta: valore`**
+in fondo all'allegato SFDR. Ogni misura è scritta due volte, una per il comparto e una per il suo
+indice di riferimento, e quella dell'indice non si estrae; e la sezione si ferma prima di
+`…and compared to previous periods?`, che ripete le stesse misure dell'esercizio prima. Il comparto
+lo nomina l'allegato, cioè la pagina prima, e arriva con una promessa legata al numero di pagina.
+
 Da p14→p16 arriva `FA-9`, il prospetto patrimoniale in cui **la pagina non nomina il comparto**:
 il nome sta sul titolo di apertura della sezione del comparto, e fra i due ci stanno il commento
 di gestione e la tabella dei tre esercizi. Le distanze misurate sul documento sono **una, due, tre
@@ -36,6 +42,7 @@ vicino che precede, e si prende nel `text_filter` (`carryover.PageCarryover.near
 import re
 
 import carryover
+import esg
 import inv_managers
 import sfdr
 
@@ -369,7 +376,122 @@ def _magnitude(text):
     return abs(to_float(text))
 
 
+
+# ----------------------------------------------------------------------------------------------
+# Gli indicatori di sostenibilità dell'allegato SFDR (`EI-1`)
+# ----------------------------------------------------------------------------------------------
+
+esg_carry = carryover.PageCarryover("ubs-esg-fund")
+"""Un veicolo suo, distinto da quello del prospetto patrimoniale.
+
+Sono due dati a cavallo di pagine diverse, e due chiavi separate: le pagine dell'allegato e quelle
+dei prospetti sono in parti diverse del documento, e una chiave sola le confonderebbe."""
+
+_ESG_HEADING = PdfLineSelection(font="frutiger45lightbold", font_size=(9.5, 10.5))
+
+# Le voci che portano un dato sono quelle del **secondo** livello dell'elenco, che rientra a 238,9;
+# il primo livello sta a 211,9 e porta prosa. La continuazione di una voce rientra a 252,9.
+_ESG_ENTRY_LEFT = 245.0
+_ESG_BODY_LEFT = 230.0
+
+_ESG_BODY = PdfLineSelection(
+    font="frutiger45light", font_size=(9.5, 10.5)
+) & PdfLineSelection.area(_ESG_BODY_LEFT, 0.0, 1e6, 1e6)
+
+_ESG_OPENS = _ESG_HEADING & PdfLineSelection.text(
+    "^How did the sustainability indicators perform"
+)
+_ESG_CLOSES = _ESG_HEADING & PdfLineSelection.text("^…and compared to previous periods")
+"""La sezione si ferma qui, perché sotto le stesse misure sono ripetute per l'esercizio prima.
+
+È la stessa scelta di FINECO-EN23@IR: lo stesso indicatore dello stesso comparto uscirebbe due
+volte senza niente che distingua i due valori.
+"""
+
+
+def pdf_extract_esg(page):
+    """Le voci della sezione, una per gruppo, con il numero di pagina stampato.
+
+    Una voce comincia dove l'elenco rientra di meno — la riga del trattino `o`, a 238,9 — e
+    continua nelle righe che rientrano di più, a 252,9: è così che il valore, che sta sulla riga
+    dopo l'etichetta, resta attaccato alla sua etichetta. Il gruppo è geometria, e sta qui (`R23`).
+    """
+    lines = pdflines_from_pagedict(page)
+    opens = _ESG_OPENS.select(lines)
+    if not opens:
+        return []
+    closes = _ESG_CLOSES.select(lines)
+    start = opens[0].bbox[1]
+    end = closes[0].bbox[1] if closes else 1e6
+    number = carryover.page_number(lines, _FOOT)
+
+    blocks = []
+    group = -1
+    for line in sorted(_ESG_BODY.select(lines), key=lambda line: line.bbox[1]):
+        if not line.text.strip() or not start < line.bbox[1] < end:
+            continue
+        if line.bbox[0] < _ESG_ENTRY_LEFT:
+            group += 1
+        if group < 0:
+            continue
+        blocks.append(
+            PdfBlock(
+                OnePdfBlockType.RELEVANT_BLOCK.name,
+                {"group": group, "page": number},
+                line.text,
+            )
+        )
+    return blocks
+
+
+read_esg = esg.LabelledPairs(
+    # L'indice di riferimento è scritto con la stessa formula del comparto: `of the benchmark` è
+    # l'unica cosa che le distingue, e il valore dell'indice non è un dato del comparto.
+    drop=(r"of the benchmark",),
+    # Il trattino dell'elenco e la coda che dice di chi è la misura non fanno parte del nome.
+    strip=(r"^o\s+", r"\s+of the financial product$"),
+)
+
+text_filter_esg = esg.text_filter(read_esg, esg_carry.owner())
+
+
+def pdf_extract_esg_fund(page):
+    """Il nome del prodotto dell'allegato, col numero di pagina, per la pagina degli indicatori."""
+    number = carryover.page_number(pdflines_from_pagedict(page), _FOOT)
+    if number is None:
+        return []
+    blocks = []
+    for pipe in sfdr.ENGLISH.product_pipes(None, None):
+        for block in pipe(page):
+            if block.type_block != sfdr.PRODUCT_BLOCK:
+                continue
+            name = str(block.content)
+            name = re.sub(r"^\s*Product name\s*:?\s*", "", name)
+            name = re.sub(r"\s*\((?:the|il|la)\s[^)]*\)\s*$", "", name).strip()
+            if name:
+                blocks.append(
+                    PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {"page": number}, name)
+                )
+    return blocks
+
+
+@investment_fund_filter_data
+def text_filter_esg_fund(pdf_blks, investment_funds):
+    """Il nome, e solo se è un comparto d'interesse: di là il comparto è una promessa."""
+    for block in pdf_blks:
+        name = str(block.content).strip()
+        if name and MatchFund(name=name) in investment_funds:
+            return [
+                TextBlock.from_content(
+                    OneTextBlockType.RELEVANT_BLOCK.name, block.metadata, name
+                )
+            ]
+    return []
+
+
 pipelines = {
+    "esg_fund": Pipeline(pdf_extract_esg_fund, text_filter_esg_fund, esg_carry.deposit),
+    "esg_indicators": Pipeline(pdf_extract_esg, text_filter_esg, esg.deserialize),
     "fund_title": Pipeline(
         pdf_extract=pdf_extract_fund_title,
         text_filter=text_filter_fund_title,

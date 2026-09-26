@@ -1,0 +1,53 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2023-02-28"
+        },
+        "fund": "WILLERFUNDS - WILLER FLEXIBLE FINANCIAL BOND",
+        "liabilities": 24311498.0,
+        "net_assets": 184073123.0,
+        "tot_assets": 208384621.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2023-02-28"
+        },
+        "fund": "WILLERFUNDS – PRIVATE SUITE – FIDELITY FLEXIBLE SHORT DURATION",
+        "liabilities": 2827232.0,
+        "net_assets": 118732889.0,
+        "tot_assets": 121560121.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2023-02-28"
+        },
+        "fund": "WILLERFUNDS – PRIVATE SUITE – SCHRODER GLOBAL CLIMATE CHANGE",
+        "liabilities": 778488.0,
+        "net_assets": 253642697.0,
+        "tot_assets": 254421185.0
+      }
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "column": 0,
+      "indicator": "Esclusioni \"SRI\"",
+      "series": 0
+    },
+    "content": "0,00%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "column": 0,
+      "indicator": "Esclusioni \"ESG\"",
+      "series": 0
+    },
+    "content": "0,00%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "column": 0,
+      "indicator": "Esclusioni \"Sovereign Screening\"",
+      "series": 0
+    },
+    "content": "0,00%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "column": 0,
+      "indicator": "Esclusioni relative a esternalità ambientali negative",
+      "series": 0
+    },
+    "content": "0,00%"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "column": 0,
+      "indicator": "Esclusioni relative a esternalità sociali negative",
+      "series": 0
+    },
+    "content": "0,00% Prodotto: 7,11"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "column": 0,
+      "indicator": "ESG Score Integration",
+      "series": 0
+    },
+    "content": "Universo di investimento: 6,73 L'ESG score viene calcolato su una scala da 0 a 10"
+  }
+]

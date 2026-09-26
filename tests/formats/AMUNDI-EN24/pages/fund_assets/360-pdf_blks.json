@@ -1,0 +1,41 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "USD",
+      "date": "30/06/2024",
+      "fund": "Climate Transition Global Equity",
+      "liabilities": "14,911",
+      "net_assets": "2,369,975",
+      "tot_assets": "2,384,886"
+    },
+    "content": ""
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "EUR",
+      "date": "30/06/2024",
+      "fund": "Euroland Equity",
+      "liabilities": "26,201,688",
+      "net_assets": "4,914,859,751",
+      "tot_assets": "4,941,061,439"
+    },
+    "content": ""
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "EUR",
+      "date": "30/06/2023",
+      "fund": "Euroland Equity",
+      "liabilities": "43,424,084",
+      "net_assets": "4,030,859,066",
+      "tot_assets": "4,074,283,150"
+    },
+    "content": ""
+  }
+]

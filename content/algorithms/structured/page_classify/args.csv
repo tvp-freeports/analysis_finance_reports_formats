@@ -75,7 +75,7 @@ EURIZON-EN21/1,"arialmt-bold ""^Management Company:""",manco
 FIDEURAM-EN23,"Arial ""Country""",investments
 FIDEURAM-EN23/1,"arial-bold ""^1. GENERAL INFORMATION""",manco_note
 FIDEURAM-EN23/2,"arial ""^The Management Company has designated the following Investment Managers""",inv_managers
-FIDEURAM-EN23/3,"arial-bold [8] ""^STATEMENTS OF NET ASSETS AS OF""",fund_assets
+FIDEURAM-EN23/3,"arial-bold ""^STATEMENTS OF NET ASSETS AS OF""",fund_assets
 FIDEURAM-IT24/0,"Tahoma,Bold ""Titolo""",investments
 FIDEURAM-IT24/0,"Tahoma,Bold ""Controvalore""",investments
 FIDEURAM-IT24/1,"arialitalic[15.48] ""Fondi comuni di investimento""",manco
@@ -144,7 +144,11 @@ UBS-EN23/2,"""periodic disclosure for the financial products""",sfdr_classificat
 UBS-EN23/3,"Frutiger45LightBold ""^Administrative Agent and Transfer Agent""",inv_managers_end
 UBS-EN23/4,"Frutiger45LightBold [10] ""^Three-year comparison""",fund_title
 UBS-EN23/5,"Frutiger45LightBold [10] ""^Statement of Net Assets""",fund_assets
+UBS-EN23/6,"Frutiger45LightBold ""^How did the sustainability indicators perform""",esg_indicators
 MEDIOLANUM-EN23,"TimesNewRomanPS[15.9647] ""Statement of Investments""",investments
 AMUNDI-EN24/9,"arial-boldmt ""^1  INTRODUCTION""",renaming
 AMUNDI-EN24/10,"arial-boldmt [7] ""^INVESTMENT MANAGERS""",inv_managers_begin
 AMUNDI-EN24/11,"arial-boldmt [7] ""^SUB-INVESTMENT MANAGERS""",inv_managers_end
+AMUNDI-EN24/12,"arialmt ""^Statement of Net Assets$""",fund_assets
+AMUNDI-EN24/12,"verdana-bold ""^Net asset value$""",fund_assets
+AMUNDI-EN24/13,"calibri-bolditalic [8.28] ""^How did the sustainability indicators perform""",esg_indicators

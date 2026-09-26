@@ -1,5 +1,8 @@
 [
   {
+    "ubs-esg-fund-page-137": "BPER International SICAV – Equity North America"
+  },
+  {
     "__pydantic__": {
       "class": "freeports.output:FundSfdrClassification",
       "data": {

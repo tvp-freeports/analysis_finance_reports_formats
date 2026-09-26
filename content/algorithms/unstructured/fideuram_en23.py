@@ -23,7 +23,7 @@ segmenti perché i due lavori sono diversi, non perché uno dei due sia di tropp
 
 import inv_managers
 import manco
-from freeports.core import Pipeline
+from freeports.core import PdfBlock, Pipeline
 from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
 from freeports.standard_funcs.deserialize import (
     DeserializerFundStandard,
@@ -32,15 +32,13 @@ from freeports.standard_funcs.deserialize import (
 )
 from freeports.output import Fund
 from freeports.standard_funcs.pdf_extract import (
-    AssetsColumn,
-    PdfExtractAssetsStandard,
     PdfExtractLabelledValueStandard,
     PdfExtractSectionStandard,
 )
 from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.utils.deserialize import to_int
-from freeports.utils.pdf_extract import PdfLineSelection
+from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict
 import datetime
 import re
 
@@ -106,32 +104,90 @@ _HEAD = PdfLineSelection(font="arial-bold", font_size=(6.3, 6.6))
 _TOTALS = PdfLineSelection(font="arial-bold", font_size=(6.8, 7.1))
 
 # Le due bande della testata: i nomi sopra, la valuta sulla riga sotto, stesso carattere e stesso
-# corpo. Le separa l'ordinata, ed è misurata su tutte le pagine del prospetto.
-assets_fund_set = _HEAD & PdfLineSelection.area(180.0, 130.0, 1e6, 183.0)
-assets_currency_set = _HEAD & PdfLineSelection.area(180.0, 183.0, 1e6, 197.0)
+# corpo. Le separa l'ordinata, e il taglio va **fra** le due righe e non sulla prima: le scatole
+# sono alte 6,5 punti, i nomi occupano 142,7–183,1 e la valuta 185,1–191,6, quindi a 183 l'ultima
+# riga del nome resta fuori — `SWITZERLAND` e `SHORT DURATION` si perdevano così.
+assets_fund_set = _HEAD & PdfLineSelection.area(180.0, 130.0, 1e6, 184.5)
+assets_currency_set = _HEAD & PdfLineSelection.area(180.0, 184.5, 1e6, 197.0)
 
-pdf_extract_assets = PdfExtractAssetsStandard(
-    fund_set=assets_fund_set,
-    currency_set=assets_currency_set,
-    tot_assets=AssetsColumn(
-        _TOTALS & PdfLineSelection(text="^Total Assets"),
-        vec=(1.2, -0.1),
-        mult=(100.0, 1.2),
-    ),
-    liabilities=AssetsColumn(
-        _TOTALS & PdfLineSelection(text="^Total Liabilities"),
-        vec=(1.2, -0.1),
-        mult=(100.0, 1.2),
-    ),
-    net_assets=AssetsColumn(
-        _TOTALS & PdfLineSelection(text="^Total Net Assets"),
-        vec=(1.2, -0.1),
-        mult=(100.0, 1.2),
-    ),
-    date=PdfLineSelection(font="arial-bold", font_size=(7.8, 8.1))
-    & PdfLineSelection(text="^STATEMENTS OF NET ASSETS AS OF"),
-    table_condition=True,
+_DATE = PdfLineSelection(font="arial-bold", font_size=(7.8, 8.1)) & PdfLineSelection(
+    text="^STATEMENTS OF NET ASSETS AS OF"
 )
+
+_TOTAL_ASSETS = _TOTALS & PdfLineSelection(text="^Total Assets")
+_TOTAL_LIABILITIES = _TOTALS & PdfLineSelection(text="^Total Liabilities")
+_TOTAL_NET_ASSETS = _TOTALS & PdfLineSelection(text="^Total Net Assets")
+
+# La colonna delle etichette finisce a 180: oltre ci sono solo valori e testate.
+_VALUES = PdfLineSelection.area(180.0, 0.0, 1e6, 1e6)
+
+
+def _centre(line):
+    """L'ascissa media della riga, che è ciò con cui una riga si assegna a una colonna."""
+    return (line.bbox[0] + line.bbox[2]) / 2.0
+
+
+def _value_row(lines, anchor):
+    """I valori della riga che `anchor` apre: stessa banda di ordinate, oltre le etichette."""
+    found = anchor.select(lines)
+    if not found:
+        return []
+    top, bottom = found[0].bbox[1], found[0].bbox[3]
+    return [
+        line
+        for line in _VALUES.select(lines)
+        if line.bbox[1] < bottom and line.bbox[3] > top and line.text.strip()
+    ]
+
+
+def _nearest(centres, line):
+    """L'indice della colonna più vicina all'ascissa della riga."""
+    return min(range(len(centres)), key=lambda i: abs(centres[i] - _centre(line)))
+
+
+def pdf_extract_assets(page):
+    """Un blocco per comparto, composto **per colonne**.
+
+    `A4` saprebbe appaiare i tre importi per ascissa, ma la valuta la tratta come un dato della
+    pagina e non della colonna: su questa pagina la prima colonna è in CHF e le altre tre in EUR,
+    e tutte e quattro uscivano in CHF. Finché `A4` non impara ad appaiare anche quella, la pagina
+    si legge qui — che è geometria, e quindi il posto giusto (`R23`).
+    """
+    lines = pdflines_from_pagedict(page)
+    currencies = sorted(assets_currency_set.select(lines), key=_centre)
+    if not currencies:
+        return []
+    centres = [_centre(line) for line in currencies]
+
+    names = [[] for _ in centres]
+    for line in sorted(assets_fund_set.select(lines), key=lambda line: line.bbox[1]):
+        names[_nearest(centres, line)].append(line.text.strip())
+
+    amounts = {}
+    for key, anchor in (
+        ("tot_assets", _TOTAL_ASSETS),
+        ("liabilities", _TOTAL_LIABILITIES),
+        ("net_assets", _TOTAL_NET_ASSETS),
+    ):
+        column = [None] * len(centres)
+        for line in _value_row(lines, anchor):
+            column[_nearest(centres, line)] = line.text.strip()
+        amounts[key] = column
+
+    date = _DATE.select(lines)
+    date = date[0].text.strip() if date else None
+
+    blocks = []
+    for index, currency in enumerate(currencies):
+        name = " ".join(part for part in names[index] if part)
+        values = {key: amounts[key][index] for key in amounts}
+        if not name or any(value is None for value in values.values()):
+            continue
+        metadata = {"fund": name, "currency": currency.text.strip(), "date": date}
+        metadata.update(values)
+        blocks.append(PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, metadata, ""))
+    return blocks
+
 
 text_filter_assets = TextFilterAssetsStandard(
     "STATEMENTS OF NET ASSETS AS OF (.+)$", "STATEMENTS OF NET ASSETS AS OF"

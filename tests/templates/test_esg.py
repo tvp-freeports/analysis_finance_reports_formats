@@ -134,3 +134,59 @@ class TestThePublicSurface:
     def test_everything_a_pipeline_needs_is_reachable_from_the_package(self):
         for name in ("LeadingNumber", "Indicator", "text_filter", "deserialize", "BLOCK"):
             assert hasattr(esg, name)
+
+
+class TestDatedRows:
+    """AMUNDI-EN24 p778: il nome sopra, una riga per serie, una colonna per esercizio.
+
+    I metadati sono quelli che il `pdf_extract` del formato scrive, e i valori vengono dalla
+    pagina: `Weighted Average Carbon Intensity` vale 71 per il prodotto nell'esercizio in corso,
+    72 nel precedente, e 83 / 101 per l'indice `Stoxx 600`.
+    """
+
+    def blocks(self):
+        rows = [
+            ("Weighted Average Carbon Intensity", 0, 0, "71"),
+            ("Weighted Average Carbon Intensity", 0, 1, "72"),
+            ("Weighted Average Carbon Intensity", 1, 0, "83"),
+            ("Weighted Average Carbon Intensity", 1, 1, "101"),
+            ("Carbon Footprint", 0, 0, "12"),
+            ("Carbon Footprint", 0, 1, "16"),
+            ("Coverage (% invested)", 0, 0, "96.51%"),
+            ("Coverage (% invested)", 0, 1, "100.00%"),
+        ]
+        return [
+            PdfBlock("REL", {"indicator": name, "series": series, "column": column}, value)
+            for name, series, column, value in rows
+        ]
+
+    def test_only_the_product_and_only_the_year_in_course(self):
+        read = esg.DatedRows()
+
+        assert [(i.name, i.value) for i in read(self.blocks())] == [
+            ("Weighted Average Carbon Intensity", "71"),
+            ("Carbon Footprint", "12"),
+            ("Coverage (% invested)", "96.51%"),
+        ]
+
+    def test_the_benchmark_row_is_reachable_by_asking_for_it(self):
+        """Non si estrae, ma il parametro c'è: è una scelta del formato, non una regola del lettore."""
+        read = esg.DatedRows(series=1)
+
+        assert [(i.name, i.value) for i in read(self.blocks())] == [
+            ("Weighted Average Carbon Intensity", "83"),
+        ]
+
+    def test_a_cell_that_is_not_a_number_is_not_an_indicator(self):
+        """`R11`: l'ultima riga di ogni blocco della pagina è una nota di fonte, non una misura."""
+        blocks = [
+            PdfBlock("REL", {"indicator": "Carbon Footprint", "series": 0, "column": 0},
+                     "Source Montpensier Finance / MSCI"),
+        ]
+
+        assert esg.DatedRows()(blocks) == []
+
+    def test_a_cell_without_its_indicator_is_dropped(self):
+        blocks = [PdfBlock("REL", {"series": 0, "column": 0}, "71")]
+
+        assert esg.DatedRows()(blocks) == []

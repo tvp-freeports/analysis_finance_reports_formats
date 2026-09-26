@@ -53,8 +53,17 @@ pipelines = {
 }
 ```
 
-Nello `algorithms_schedule.csv` le due classi non hanno bisogno di stare in due step: la promessa
-la risolve il motore alla fine del job, non il `text_filter`.
+Nello `algorithms_schedule.csv` le due classi **non** hanno bisogno di stare in due step se si usa
+`promise`: quella la risolve il motore alla fine del job, non il `text_filter`. Con `nearest`
+invece servono, perché lì è il `text_filter` a cercare fra ciò che le pagine prima hanno lasciato, e
+`filter_data` porta soltanto i risultati degli step **chiusi**.
+
+# Due forme, e quando serve la seconda
+
+| | come si risolve | quando |
+|---|---|---|
+| `promise(page)` | il **motore**, alla fine del job | la distanza fra le due pagine è una costante del formato — FINECO-EN23@IR e AMUNDI-EN24, dove il nome è sulla pagina immediatamente prima |
+| `nearest(filter_data, page)` | il **`text_filter`**, leggendo `deposited` | la distanza **varia**: su UBS-EN23 fra il titolo di un comparto e il suo prospetto ci stanno una, due, tre o quattro pagine, perché in mezzo ci sono il commento di gestione e la tabella dei tre esercizi |
 """
 
 from freeports import log

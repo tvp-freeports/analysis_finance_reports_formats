@@ -1,0 +1,122 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "amundi-esg-fund-page-777",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "Scopes 1 et 2 — Weighted Average Carbon Intensity",
+        "value": "71"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "amundi-esg-fund-page-777",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "Scopes 1 et 2 — Carbon Footprint",
+        "value": "12"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "amundi-esg-fund-page-777",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "Scope 3 Upstream, cumulated with Scopes 1 and 2 — Weighted Average Carbon Intensity",
+        "value": "143"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "amundi-esg-fund-page-777",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "Scope 3 Upstream, cumulated with Scopes 1 and 2 — Carbon Footprint",
+        "value": "20"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "amundi-esg-fund-page-777",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "Significant Layoffs",
+        "value": "8.7%"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "amundi-esg-fund-page-777",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "Women on the Board",
+        "value": "39.8%"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "amundi-esg-fund-page-777",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "Board independence",
+        "value": "87.7%"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": {
+          "__promise__": true,
+          "id": "amundi-esg-fund-page-777",
+          "strict": false,
+          "multiple": false
+        },
+        "name": "Remuneration linked to ESG objectives",
+        "value": "75.2%"
+      }
+    }
+  }
+]

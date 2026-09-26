@@ -1,0 +1,50 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "ubs-esg-fund-page-137",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "Weighted Average Carbon Intensity (WACI)",
+      "value": "26.81"
+    },
+    "content": "o  Weighted Average Carbon Intensity (WACI) of the financial product: ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "group": 0,
+        "page": 138
+      },
+      "content": "o  Weighted Average Carbon Intensity (WACI) of the financial product: "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": {
+        "__promise__": true,
+        "id": "ubs-esg-fund-page-137",
+        "strict": false,
+        "multiple": false
+      },
+      "name": "UBS consensus score",
+      "value": "6.4"
+    },
+    "content": "o UBS consensus score of the financial product: 6.4",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "group": 2,
+        "page": 138
+      },
+      "content": "o UBS consensus score of the financial product: 6.4"
+    }
+  }
+]
