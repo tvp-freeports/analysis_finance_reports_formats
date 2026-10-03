@@ -1,0 +1,4 @@
+ID,Report,Report page,Triggering text,Investee,Financial instrument,Nominal/Quantity,Market value,Currency,% net assets,Fund ID,Acquisition cost,Acquisition currency
+1,report,35,NVIDIA CORP,NVIDIA,EQUITY,772000.0,102251633.0,EUR,0.084,1,,
+2,report,35,BLACKROCK FUNDING IN,Blackrock,EQUITY,16500.0,16331198.0,EUR,0.014,1,,
+3,report,35,BOOKING HOLDINGS INC,Booking Holdings,EQUITY,2500.0,12019824.0,EUR,0.01,1,,

@@ -1,4 +1,4 @@
-"""Modulo d'autore di AMUNDI-EN24: solo il modulo periodico SFDR.
+"""Modulo d'autore di AMUNDI-EN24: il modulo periodico SFDR, e cinque altri dati.
 
 Centotre moduli, il blocco piu' numeroso dei documenti di prova, tutti con una `X` di testo in
 Calibri-Bold. Due cose lo distinguono dagli altri nove formati:
@@ -26,6 +26,18 @@ numero che porta è il totale dell'attivo, non la prima voce di un elenco. Della
 tiene quella dell'esercizio in corso (`R5`), e una colonna che porta solo trattini è un comparto che
 quell'anno non esisteva: si salta.
 
+La societa' di gestione (`C01`) sta a p7, nel prospetto `Organisation`, sulla **stessa riga**
+dell'etichetta che ne dichiara il ruolo:
+
+```
+MANAGEMENT COMPANY                                   Amundi Luxembourg S.A.
+                                                     5, allée Scheffer
+```
+
+L'utente l'aveva vista in copertina, dov'e' in grassetto da 12 e senza etichetta. Si legge invece
+da qui, perche' qui una etichetta dice **che cos'e'** quel nome, e perche' tutte le righe di quel
+prospetto hanno la stessa forma: `MC-3`, il nome dentro la riga, con il template `manco`.
+
 E da p8→9 arriva `IM-2`, che è la ricetta in cui **l'elenco non dice per quali comparti**: sotto
 `INVESTMENT MANAGERS` e `SUB-INVESTMENT MANAGERS` stanno una ventina di società, ciascuna col suo
 indirizzo e nessuna con una specificazione. È il ramo 4 di `A5` (`R21`): il residuo va **a tutti
@@ -38,18 +50,23 @@ import re
 import carryover
 import esg
 import inv_managers
+import manco
 import renaming
 import sfdr
 from freeports.core import PdfBlock, Pipeline
 from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.utils.deserialize import to_date, to_int
-from freeports.interfaces.pdf_blks import OnePdfBlockType
+from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
 from freeports.standard_funcs.deserialize import (
     DeserializerFundStandard,
     DeserializerInvestmentsManagerStandard,
+    DeserializerManagmentCompanyStandard,
 )
-from freeports.standard_funcs.pdf_extract import PdfExtractSectionStandard
+from freeports.standard_funcs.pdf_extract import (
+    PdfExtractLabelledValueStandard,
+    PdfExtractSectionStandard,
+)
 from freeports.core import TextBlock
 from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.utils.pdf_extract import PdfLineSelection, get_groups, pdflines_from_pagedict
@@ -544,5 +561,16 @@ pipelines = {
         pdf_extract=pdf_extract_renaming,
         text_filter=renaming.text_filter(read_renaming),
         deserialize=renaming.deserialize(),
+    ),
+    # `C01`. Il gestore degli investimenti qui **non** ricade sulla societa' di gestione: p8-9 lo
+    # dichiarano, ed e' `IM-2`.
+    "manco": Pipeline(
+        PdfExtractLabelledValueStandard(
+            _BOLD & PdfLineSelection.text("^MANAGEMENT COMPANY"),
+            ResultStandardExtraction.MANAGEMENT_COMPANY.name,
+            "managment company",
+        ),
+        manco.text_filter(manco.Between(after="MANAGEMENT COMPANY")),
+        DeserializerManagmentCompanyStandard(),
     ),
 }

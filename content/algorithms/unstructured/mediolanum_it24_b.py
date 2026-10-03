@@ -1,8 +1,34 @@
-"""MEDIOLANUM_IT24_B format submodule"""
+"""MEDIOLANUM-IT24.B: gli investimenti, la situazione patrimoniale, il modulo SFDR, la `manco`.
+
+# La societa' di gestione, che sta nella prosa del revisore (`C09` e `C14`)
+
+Questo bilancio non ha un prospetto di gestione e amministrazione: il nome della societa' di
+gestione compare **in una frase**, a p38, nella relazione della societa' di revisione:
+
+```
+presente relazione. Siamo indipendenti rispetto al Fondo e a Mediolanum Gestione Fondi SGR p.A.,
+Societa' di Gestione del Fondo, in conformita' alle norme e ai principi in materia di etica e di
+```
+
+E' una dichiarazione vera — l'apposizione dice **che cos'e'** quel nome — e si legge dalla riga
+stessa: il nome sta fra `rispetto al Fondo e a` e la virgola, che e' la forma `MC-5` del template
+`manco`. L'alternativa era imporre il valore dalla configurazione, che l'utente aveva messo come
+seconda possibilita'; leggere e' meglio, perche' un nome imposto resta giusto solo finche' il
+formato lo riguarda.
+
+**L'ancora e' verificata su un documento solo**, perche' di questo formato il corpus ne ha uno. La
+formula pero' non e' di questo bilancio: e' la dicitura dei principi di revisione ISA Italia, che
+ogni relazione di revisione italiana porta con le stesse parole. Vale la regola generale: chi
+scrive un'ancora dice su quanti documenti l'ha vista, e questo e' uno.
+
+Nessun gestore delegato e' dichiarato, quindi `R15` fa della societa' di gestione anche il gestore
+degli investimenti, col secondo deserializzatore e l'avviso del motore.
+"""
 
 import re
 
 import carryover
+import manco
 import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
@@ -17,7 +43,12 @@ from freeports.utils.pdf_extract import (
     pdflines_from_pagedict,
 )
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
-from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
+from freeports.standard_funcs.deserialize import (
+    DeserializerAssetsStandard,
+    DeserializerInvestmentsManagerFromManco,
+    DeserializerManagmentCompanyStandard,
+)
+from freeports.interfaces.pdf_blks import ResultStandardExtraction
 from freeports.utils.deserialize import to_int
 from freeports.core import Pipeline
 from freeports.consts import Currency
@@ -146,6 +177,13 @@ def text_filter_fund_assets_end(pdf_blks, filter_data):
     return assets_carryover.resume(assets_filter(record_end(pdf_blks), filter_data), filter_data)
 
 
+# La riga porta il nome dentro di se', e l'ancora e' la parte fissa della formula che lo precede.
+pdf_extract_manco = PdfExtractLabelledValueStandard(
+    PdfLineSelection(font="georgia", text="Siamo indipendenti rispetto al Fondo e a"),
+    ResultStandardExtraction.MANAGEMENT_COMPANY.name,
+    "managment company",
+)
+
 pipelines = {
     "investments": Pipeline(
         pdf_extract=(
@@ -182,5 +220,15 @@ pipelines = {
         product_joined=True,
         product_prepend="FONDO",
         product_prefix=re.compile(r"Nome del prodotto\s*:\s*"),
+    ),
+    # `C09` e `C14`: il nome fra la formula e la virgola, e il residuo dei gestori che gli ricade
+    # addosso perche' nessun delegato e' dichiarato.
+    "manco": Pipeline(
+        pdf_extract_manco,
+        manco.text_filter(manco.Between(after="rispetto al Fondo e a", before=",")),
+        (
+            DeserializerManagmentCompanyStandard(),
+            DeserializerInvestmentsManagerFromManco(),
+        ),
     ),
 }

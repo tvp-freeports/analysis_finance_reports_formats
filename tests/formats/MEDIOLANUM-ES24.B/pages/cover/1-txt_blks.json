@@ -1,0 +1,31 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "SUBFUND",
+    "metadata": {
+      "subfund": "MEDIOLANUM ACTIVO FI"
+    },
+    "content": "MEDIOLANUM ACTIVO FI",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "RELEVANT_BLOCK",
+      "metadata": {
+        "subfund": "MEDIOLANUM ACTIVO FI"
+      },
+      "content": "MEDIOLANUM ACTIVO FI"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "MEDIOLANUM ACTIVO FI"
+        ]
+      }
+    },
+    "content": "MEDIOLANUM GESTION, S.G.I.I.C., S.A.",
+    "pdf_block": null
+  }
+]

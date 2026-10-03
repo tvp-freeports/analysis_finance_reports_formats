@@ -10,6 +10,7 @@ import sfdr
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractCurrencyConstant,
+    PdfExtractCurrencyStandard,
     PdfExtractFundStandard,
     PdfExtractLabelledValueStandard,
 )
@@ -52,6 +53,20 @@ fund_set = PdfLineSelection(
 )
 
 body_set = PdfLineSelection.font("TrebuchetMS")
+
+# `C30`. La valuta e' **scritta**, nell'intestazione della colonna degli importi: `Controvalore in`
+# su una riga e `euro` su quella sotto. Prima era imposta dalla configurazione, col suo avviso; ma
+# un valore che la pagina dichiara non si impone. La classe `investments` e' ancorata a tutte e due
+# le intestazioni (`Titolo` **e** `Controvalore in`), quindi ogni pagina della classe porta anche
+# questa riga: il tubo non puo' trovarsi senza niente da leggere.
+# La riga **e'** la valuta, quindi la si seleziona per quello che dice e non per dove sta rispetto
+# all'intestazione: una finestra mobile misurata su un documento era arrivata corta sull'altro, dove
+# il corpo e' 6 invece di 5,99814, e la pagina degli investimenti cadeva per intero — un fondo e
+# undici investimenti persi. Il grassetto la distingue dagli `Euro` in tondo del resto del
+# documento.
+currency_set = PdfLineSelection(
+    font="trebuchetmsbold", font_size=(5.5, 6.5), text="^euro$"
+)
 
 # La frase apre la sezione e il nome le sta dentro, fino alla prima virgola: `La società di
 # gestione EURIZON CAPITAL SGR S.p.A., di seguito "la SGR"...`. E' la stessa forma di FIDEURAM-EN23
@@ -323,9 +338,12 @@ pdf_extract_assets_date = PdfExtractLabelledValueStandard(
     where=LabelledValueWhere.BELOW,
 )
 
-record_begin = carryover.Record(currency="CURRENCY_STATEMENT", tot_assets=TOT_ASSETS)
+record_begin = carryover.Record(
+    fund="FUND_NAME", currency="CURRENCY_STATEMENT", tot_assets=TOT_ASSETS
+)
 
 record_end = carryover.Record(
+    fund="FUND_NAME",
     currency="CURRENCY_STATEMENT",
     date=ASSETS_DATE,
     liabilities=LIABILITIES,
@@ -335,18 +353,39 @@ record_end = carryover.Record(
 assets_filter = TextFilterAssetsStandard()
 
 
-def text_filter_fund_assets_begin(pdf_blks, filter_data):
+def _also_fund(pdf_blks, filter_data):
+    """Il ripiego per il comparto, da usare **solo** se il piede di pagina non lo porta (`C23`).
+
+    Il comparto sta nel piede di ogni pagina — `fund_set`, lo stesso selettore con cui lo leggono
+    gli investimenti — e prima questa classe non lo leggeva: si prendeva l'unico comparto che il
+    documento dichiarasse. Funzionava su tre documenti su quattro; sul quarto gli investimenti non
+    ne lasciano nessuno, e le due pagine del prospetto cadevano con *«this statement does not name
+    its fund and the job has not seen one yet»*, portandosi via il documento intero.
+
+    Il ripiego resta perche' un piede che manchi e' meglio servito da una deduzione dichiarata che
+    da una riga persa; ma si interroga **dopo** la pagina, non prima, cosi' `sole_fund` non segnala
+    come assente un comparto che invece e' stato letto.
+    """
+    if any(
+        blk.type_block == "FUND_NAME" and str(blk.content).strip() for blk in pdf_blks
+    ):
+        return None
     fund = carryover.sole_fund(filter_data)
-    if fund is None:
-        return []
-    return assets_filter(record_begin(pdf_blks, also={"fund": fund}), filter_data)
+    return None if fund is None else {"fund": fund}
+
+
+def text_filter_fund_assets_begin(pdf_blks, filter_data):
+    pdf_blks = list(pdf_blks)
+    return assets_filter(
+        record_begin(pdf_blks, also=_also_fund(pdf_blks, filter_data)), filter_data
+    )
 
 
 def text_filter_fund_assets_end(pdf_blks, filter_data):
-    fund = carryover.sole_fund(filter_data)
-    if fund is None:
-        return []
-    blocks = assets_filter(record_end(pdf_blks, also={"fund": fund}), filter_data)
+    pdf_blks = list(pdf_blks)
+    blocks = assets_filter(
+        record_end(pdf_blks, also=_also_fund(pdf_blks, filter_data)), filter_data
+    )
     return assets_carryover.resume(blocks, filter_data)
 
 
@@ -354,6 +393,7 @@ pipelines = {
     "fund_assets_begin": Pipeline(
         pdf_extract=(
             PdfExtractCurrencyConstant(Currency.EUR),
+            PdfExtractFundStandard(fund_set),
             pdf_extract_tot_assets,
         ),
         text_filter=text_filter_fund_assets_begin,
@@ -362,6 +402,7 @@ pipelines = {
     "fund_assets_end": Pipeline(
         pdf_extract=(
             PdfExtractCurrencyConstant(Currency.EUR),
+            PdfExtractFundStandard(fund_set),
             pdf_extract_assets_date,
             pdf_extract_liabilities,
             pdf_extract_net_assets,
@@ -384,7 +425,7 @@ pipelines = {
                 deselection_list=deselection_list,
             ),
             PdfExtractFundStandard(fund_set),
-            PdfExtractCurrencyConstant(Currency.EUR),
+            PdfExtractCurrencyStandard(currency_set),
         )
     ),
     "merges": Pipeline(

@@ -86,5 +86,22 @@
         "name": "WILLERFUNDS PRIVATE SUITE FIDELITY USD BOND"
       }
     }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "WILLERFUNDS PRIVATE SUITE BNY MELLON GLOBAL REAL RETURN",
+            "WILLERFUNDS PRIVATE SUITE FIDELITY FLEXIBLE SHORT DURATION",
+            "WILLERFUNDS PRIVATE SUITE SCHRODER GLOBAL CLIMATE CHANGE",
+            "WILLERFUNDS WILLER FLEXIBLE FINANCIAL BOND",
+            "Willerfunds - Private Suite - Fidelity USD Bond"
+          ]
+        },
+        "name": "Fideuram Asset Management (Ireland) dac"
+      }
+    }
   }
 ]

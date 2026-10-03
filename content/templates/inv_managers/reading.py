@@ -93,7 +93,7 @@ class Named:
         declarations = []
         for block in blocks:
             for name in _split(_text(block), self.separators, self.note_marks):
-                declarations.append(Declared(name, block=_named(block, name)))
+                declarations.append(Declared(name, block=renamed(block, name)))
         return declarations
 
 
@@ -384,12 +384,17 @@ class ConnectorLine:
             funds = _split(funds.strip().rstrip(self.terminators), self.fund_separators,
                            self.note_marks)
             for name in _split(names, self.manager_separators, ""):
-                declarations.append(Declared(name, funds=funds, block=_named(entry[0], name)))
+                declarations.append(Declared(name, funds=funds, block=renamed(entry[0], name)))
         return declarations
 
 
-def _named(block, name):
+def renamed(block, name):
     """Lo stesso blocco, con **il solo nome** del gestore per contenuto.
+
+    È pubblica perché un formato che ricostruisce il nome ne ha bisogno: DANSKEINVEST-EN24 scrive
+    `Sumitomo Mitsui DS Asset Management Company, / Limited` su due righe, e `text_blocks` scrive
+    come nome il **contenuto del blocco**, non la stringa che la dichiarazione porta. Senza questa
+    funzione un nome ricostruito si perde fra la lettura e l'uscita.
 
     Il blocco si conserva perché la riga d'uscita sappia da che pagina viene, e il contenuto è ciò
     che `blocks.text_blocks` scrive come nome: su una riga `<gestore> for <comparti>` tenerla intera
@@ -538,7 +543,7 @@ def _stripped(block, strip):
     name = _text(block)
     for pattern in strip:
         name = re.sub(pattern, "", name).strip()
-    return _named(block, name) if name else block
+    return renamed(block, name) if name else block
 
 
 def _merge(declaration, spec):

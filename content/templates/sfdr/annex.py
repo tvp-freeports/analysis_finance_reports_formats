@@ -45,6 +45,7 @@ from freeports.standard_funcs.pdf_extract import (
 from freeports.standard_funcs.text_filter import TextFilterSfdrSignStandard
 from freeports.utils.pdf_extract import LabelledValueTake, LabelledValueWhere, PdfLineSelection
 
+from .declared import only_declared_funds
 from .product import joined_product_pipe
 
 #: Il tipo di blocco con cui il nome del prodotto arriva al `text_filter`. È il difetto che
@@ -222,6 +223,7 @@ class Annex:
         identifier=None,
         band=None,
         demand_investment_funds_match=True,
+        demand_declared_fund=False,
         also_deserialize=(),
         **overrides,
     ):
@@ -236,13 +238,22 @@ class Annex:
         predefiniti: e' quello che serve dove il nome va a capo, o dove il PDF lo spezza in
         frammenti che nessuno dei due tubi riunisce.
 
-        `also_deserialize` aggiunge deserializzatori accanto a quello dell'articolo, e serve
-        all'annesso spagnolo, che dal nome del prodotto **dichiara anche il fondo**: è un documento
-        a sé, e il fondo nessun'altra pagina del job glielo ha già detto.
+        `demand_declared_fund` tiene l'articolo **solo se il fondo è già stato dichiarato** da una
+        pagina di uno step precedente del job, e serve all'annesso che è un documento a sé: è la
+        forma in cui `R30` si realizza. Non è un doppione di `demand_investment_funds_match`, che
+        guarda i fondi *degli investimenti* e solo quando il loro nome non è una promessa — il
+        perché sta in `declared.py`.
+
+        `also_deserialize` aggiunge deserializzatori accanto a quello dell'articolo.
         """
         prefix = self.product_prefix if product_prefix is None else product_prefix
         if product_pipes is None and product_joined:
             product_pipes = self.joined_pipes(product, identifier, band, product_prepend)
+        text_filter = TextFilterSfdrSignStandard(
+            prefix, demand_investment_funds_match=demand_investment_funds_match
+        )
+        if demand_declared_fund:
+            text_filter = only_declared_funds(text_filter)
         return Pipeline(
             (self.sign(**overrides),)
             + tuple(
@@ -250,8 +261,6 @@ class Annex:
                 if product_pipes is not None
                 else self.product_pipes(product, product_across)
             ),
-            TextFilterSfdrSignStandard(
-                prefix, demand_investment_funds_match=demand_investment_funds_match
-            ),
+            text_filter,
             (DeserializeSfdrArticleStandard(),) + tuple(also_deserialize),
         )

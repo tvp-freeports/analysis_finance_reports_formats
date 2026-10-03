@@ -1,0 +1,9 @@
+ID,Report,Report page,Triggering text,Investee,Financial instrument,Nominal/Quantity,Market value,Currency,% net assets,Fund ID,Acquisition cost,Acquisition currency
+1,report,32,MICROSOFT CORP,Microsoft,EQUITY,159571.0,65305683.0,EUR,0.069,1,,
+2,report,32,NVIDIA CORP,NVIDIA,EQUITY,479026.0,63447139.0,EUR,0.068,1,,
+3,report,32,APPLE INC,Apple Inc,EQUITY,250743.0,60919418.0,EUR,0.065,1,,
+4,report,32,AMAZON.COM INC,Amazon,EQUITY,163523.0,34861182.0,EUR,0.037,1,,
+5,report,32,ALPHABET INC CL C,Alphabet,EQUITY,93988.0,17446706.0,EUR,0.018,1,,
+6,report,32,ALPHABET INC CL A,Alphabet,EQUITY,90657.0,16701748.0,EUR,0.018,1,,
+7,report,32,MOTOROLA SOLUTIONS I,Motorola Solutions,EQUITY,19513.0,8714449.0,EUR,0.009,1,,
+8,report,32,BOOKING HOLDINGS INC,Booking Holdings,EQUITY,1449.0,6966690.0,EUR,0.007,1,,

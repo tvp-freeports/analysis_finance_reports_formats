@@ -458,3 +458,72 @@ class TestThePublicSurface:
     def test_everything_a_text_filter_needs_is_reachable_from_the_package(self):
         for name in inv_managers.__all__:
             assert hasattr(inv_managers, name), name
+
+
+class TestDeclaredTogether:
+    """`IM-1`: una pagina sola dichiara la società di gestione **e** il gestore.
+
+    È la ricetta di ASTERIA-EN23 e ASTERIA-EN24 — che scrivono quella pagina identica a due anni di
+    distanza — e di MEDIOLANUM-EN23, che la scrive con altre due etichette. Quello che si prova qui
+    è **quali blocchi escono**: di chi siano i fondi lo provano i sette rami qui sopra.
+    """
+
+    MANCO = "MANAGEMENT_COMPANY"
+    MANAGER = "INVESTMENTS_MANAGER"
+
+    def blocks(self, *, manco=("Waystone Management Company (Lux) S.A.",),
+               managers=("ASTERIA Investment Managers S.A.",)):
+        from freeports.core import PdfBlock
+
+        return [
+            *[PdfBlock(self.MANAGER, {}, name) for name in managers],
+            *[PdfBlock(self.MANCO, {}, name) for name in manco],
+        ]
+
+    def test_the_manager_and_the_management_company_both_come_out(self):
+        blocks = inv_managers.declared_together()(self.blocks(), [])
+        types = [blk.type_block for blk in blocks]
+        assert types == ["INVESTMENTS_MANAGER", "MANAGEMENT_COMPANY"], types
+        assert blocks[0].content == "ASTERIA Investment Managers S.A."
+        assert blocks[1].content == "Waystone Management Company (Lux) S.A."
+
+    def test_without_a_management_company_line_only_the_manager_comes_out(self):
+        """DANSKEINVEST-EN24 p6: la seconda pagina della classe non porta quell'etichetta."""
+        blocks = inv_managers.declared_together()(self.blocks(manco=()), [])
+        assert [blk.type_block for blk in blocks] == ["INVESTMENTS_MANAGER"]
+
+    def test_a_page_with_neither_produces_nothing(self):
+        assert inv_managers.declared_together()(self.blocks(manco=(), managers=()), []) == []
+
+    def test_among_chooses_which_line_is_the_management_company(self):
+        """Dove il bilancio ne nomina due, a scegliere è il selettore, non l'ordine della pagina."""
+        chosen = inv_managers.declared_together(among=lambda blks: blks[-1])(
+            self.blocks(manco=("Prima S.A.", "Seconda S.A.")), []
+        )
+        assert chosen[-1].content == "Seconda S.A."
+
+    def test_the_reader_is_a_parameter(self):
+        """Un formato che scriva le dichiarazioni in un'altra forma passa il suo lettore."""
+        read = lambda blks: [Declared("Letto a parte")]  # noqa: E731
+        blocks = inv_managers.declared_together(read=read)(self.blocks(), [])
+        assert blocks[0].content == "Letto a parte"
+
+
+class TestRenamed:
+    """Il blocco riscritto col nome ricostruito, che è ciò che l'uscita scrive come nome."""
+
+    def test_it_keeps_the_type_and_the_metadata_and_changes_the_content(self):
+        from freeports.core import PdfBlock
+
+        block = PdfBlock("INVESTMENTS_MANAGER", {"group": "R11"}, "Sumitomo … Company, ")
+        renamed = inv_managers.renamed(block, "Sumitomo Mitsui DS Asset Management Company, Limited")
+        assert renamed.type_block == "INVESTMENTS_MANAGER"
+        assert renamed.metadata["group"] == "R11"
+        assert renamed.content == "Sumitomo Mitsui DS Asset Management Company, Limited"
+
+    def test_the_original_block_is_left_alone(self):
+        from freeports.core import PdfBlock
+
+        block = PdfBlock("INVESTMENTS_MANAGER", {"group": "R11"}, "Prima")
+        inv_managers.renamed(block, "Dopo")
+        assert block.content == "Prima"

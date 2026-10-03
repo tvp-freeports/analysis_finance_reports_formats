@@ -77,14 +77,23 @@ def text_filter_inv_managers(pdf_blks, filter_data):
     si chiude: qui la si ritrova fra i risultati, e `assign` sa a chi dare i comparti che le
     tredici righe non nominano.
     """
+    declared_manco = manco.declared(filter_data)
     assignment = inv_managers.assign(
         read_inv_managers(pdf_blks),
         inv_managers.fund_set(
             result.name for result in filter_data if isinstance(result, Fund)
         ),
-        manco=manco.declared(filter_data),
+        manco=declared_manco,
     )
-    return inv_managers.text_blocks(assignment)
+    blocks = list(inv_managers.text_blocks(assignment))
+    if declared_manco is not None and assignment.new_funds:
+        # `C10`. Un comparto che **nasce qui** — perche' un gestore lo nomina e gli investimenti
+        # non l'avevano visto — non ce l'ha, la societa' di gestione: quando la classe `manco`
+        # e' passata quel comparto non esisteva ancora. La si ridichiara con tutti i comparti,
+        # `R26`, cosi' la colonna non resta vuota: `WILLERFUNDS - PRIVATE SUITE FIDELITY USD
+        # BOND` era l'unica riga di `funds.csv` di tutta la raccolta senza societa' di gestione.
+        blocks.append(inv_managers.management_company_block(assignment, declared_manco))
+    return blocks
 
 
 
@@ -238,9 +247,15 @@ pipelines = {
     "fund_assets": Pipeline(
         pdf_extract_assets, text_filter_assets, deserialize_assets
     ),
+    # Il terzo deserializzatore e' `C10`: questa classe ridichiara la societa' di gestione coi
+    # comparti che la pagina dei gestori fa **nascere**, e senza di lui il blocco si ferma qui.
     "inv_managers": Pipeline(
         pdf_extract_inv_managers,
         text_filter_inv_managers,
-        (DeserializerInvestmentsManagerStandard(), DeserializerFundStandard()),
+        (
+            DeserializerInvestmentsManagerStandard(),
+            DeserializerFundStandard(),
+            DeserializerManagmentCompanyStandard(),
+        ),
     ),
 }

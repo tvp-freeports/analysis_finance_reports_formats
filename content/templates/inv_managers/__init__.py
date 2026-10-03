@@ -41,7 +41,9 @@ from .reading import (
     Table,
     Take,
     Where,
+    renamed,
 )
+from .together import declared_together
 
 __all__ = [
     "Adjacent",
@@ -57,7 +59,9 @@ __all__ = [
     "Where",
     "assign",
     "assigned_funds",
+    "declared_together",
     "fund_set",
     "management_company_block",
+    "renamed",
     "text_blocks",
 ]

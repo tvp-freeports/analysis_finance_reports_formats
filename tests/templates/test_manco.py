@@ -237,3 +237,35 @@ def test_the_date_helper_is_the_engine_s(recorder):
         "since",
         datetime.date(2021, 7, 1),
     )
+
+
+class TestTheImposedCompany:
+    """La società di gestione che il bilancio **non scrive**, e che il formato dichiara.
+
+    AMUNDI-IT24 è il caso misurato: il nome compare tre volte nel documento e nessuna delle tre nel
+    suo ruolo — parla del controllo societario, della sede legale, della politica di remunerazione —
+    quindi leggerlo da lì vorrebbe dire appoggiare un dato d'uscita a una coincidenza di parole.
+    """
+
+    def test_it_declares_the_name_the_format_gives(self):
+        blocks = manco.imposed("Amundi SGR S.p.A.")([], [])
+        assert len(blocks) == 1
+        assert blocks[0].content == "Amundi SGR S.p.A."
+
+    def test_it_says_that_the_value_is_not_read(self, monkeypatch):
+        """Un valore imposto dalla configurazione deve avvisare: è la regola del workspace."""
+        from manco import blocks as blocks_module
+
+        recorder = Recorder()
+        monkeypatch.setattr(blocks_module, "log", recorder)
+        manco.imposed("Amundi SGR S.p.A.")([], [])
+        assert len(recorder.warnings) == 1
+        assert "not written in this report" in recorder.warnings[0]
+        assert "Amundi SGR S.p.A." in recorder.warnings[0]
+
+    def test_it_does_not_look_at_the_page(self):
+        """La pagina serve solo ad avere un posto dove attaccare la pipeline."""
+        blocks = manco.imposed("Acme AM S.A.")(
+            [PdfBlock("MANAGEMENT_COMPANY", {}, "Qualcos'altro S.p.A.")], []
+        )
+        assert [blk.content for blk in blocks] == ["Acme AM S.A."]

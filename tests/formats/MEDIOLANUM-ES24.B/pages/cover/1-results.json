@@ -1,0 +1,39 @@
+[
+  {
+    "title document": "MEDIOLANUM ACTIVO FI"
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "MEDIOLANUM ACTIVO FI"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "MEDIOLANUM ACTIVO FI"
+          ]
+        },
+        "name": "MEDIOLANUM GESTION, S.G.I.I.C., S.A."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "MEDIOLANUM ACTIVO FI"
+          ]
+        },
+        "name": "MEDIOLANUM GESTION, S.G.I.I.C., S.A."
+      }
+    }
+  }
+]

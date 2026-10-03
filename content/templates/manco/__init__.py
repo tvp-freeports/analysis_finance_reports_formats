@@ -33,7 +33,7 @@ Il secondo deserializzatore non è un dettaglio: senza, la società di gestione 
 dichiarato.
 """
 
-from .blocks import declared, text_filter
+from .blocks import declared, imposed, text_filter
 from .reading import Between, first, most_recent
 
-__all__ = ["Between", "declared", "first", "most_recent", "text_filter"]
+__all__ = ["Between", "declared", "first", "imposed", "most_recent", "text_filter"]

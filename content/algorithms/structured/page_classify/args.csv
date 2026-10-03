@@ -48,6 +48,7 @@ AMUNDI-IT24/1,"TrebuchetMS-Bold ""^TOTALE ATTIVITÀ""",fund_assets_begin
 AMUNDI-IT24/2,"TrebuchetMS-Bold ""^PASSIVITÀ E NETTO""",fund_assets_end
 AMUNDI-IT24/2,"TrebuchetMS-Bold ""^TOTALE PASSIVITÀ""",fund_assets_end
 AMUNDI-IT24/3,"""nformativa periodica per i prodotti finanziari""",sfdr_classification
+AMUNDI-IT24/4,"Arial-BoldMT ""^SOMMARIO""",manco
 ANIMA-EN23/0,"Helvetica-Bold ""Holdings""",investments
 ANIMA-EN23/1,"helvetica-condensed-bold ""^Statement of Financial Position""",fund_assets
 ANIMA-EN23/1,"helvetica-condensed-blac ""ANIMA Funds Plc""",fund_assets
@@ -55,6 +56,7 @@ ANIMA-EN23/2,"helvetica-bold ""Manager, Promoter and Distributor""",manco
 ANIMA-EN23/3,"helvetica-bold ""Funds merged during the financial year""",year_events
 ANIMA-EN23/4,"""periodic disclosure for the financial products""",sfdr_classification
 ANIMA_SICAV-EN24,"ArialNarrow-Bold ""Quantity/""",investments
+ANIMA_SICAV-EN24/1,"ArialNarrow-Bold ""^Management Company""",manco
 ARCA-IT24/0,"TrebuchetMS-Bold ""Titoli""",investments
 ARCA-IT24/0,"TrebuchetMS-Bold ""Divisa""",investments
 ARCA-IT24/1,"""informativa periodica per i prodotti finanziari""",sfdr_classification
@@ -67,9 +69,11 @@ ASTERIA-EN23,"CenturyGothic-Bold ""Number of Shares/""",investments
 ASTERIA-EN23/1,"CenturyGothic-Bold ""^Investment Manager and Global Distributor:""",inv_managers
 ASTERIA-EN24,"CenturyGothic-Bold ""Transferable securities admitted to an official stock""",investments
 ASTERIA-EN24/1,"""periodic disclosure for the financial products""",sfdr_classification
+ASTERIA-EN24/2,"CenturyGothic-Bold ""^Investment Manager and Global Distributor:""",inv_managers
 DANSKEINVEST-EN24,"Calibri[13] ""Statement of Investments""",investments
 DANSKEINVEST-EN24/1,"""periodic disclosure for the financial products""",sfdr_classification
 DANSKEINVEST-EN24/2,"calibri-bold ""EVENTS DURING THE YEAR""",merges
+DANSKEINVEST-EN24/4,"calibri-bold ""INVESTMENT MANAGER""",inv_managers
 EURIZON-EN21,"ArialMT-Bold ""Face value/""",investments
 EURIZON-EN21/1,"arialmt-bold ""^Management Company:""",manco
 FIDEURAM-EN23,"Arial ""Country""",investments
@@ -89,7 +93,7 @@ MEDIOLANUM-ES24.B/0,"Helvetica-Bold ""Periodo actual""",investments
 MEDIOLANUM-IT24.A/0,"[8.037657] ""Descrizione""",investments
 MEDIOLANUM-ES24.B/1,"Helvetica-Bold ""Grupo Gestora:""",cover
 MEDIOLANUM-ES24.B/1,"Helvetica-Bold ""Registro CNMV:""",cover
-MEDIOLANUM-ES24.Bax,"""nformación periódica de los productos financieros""",sfdr_classification
+MEDIOLANUM-ES24.B/2,"""nformación periódica de los productos financieros""",sfdr_classification
 MEDIOLANUM-IT24.A/0,"""Valutazione """,investments
 MEDIOLANUM-IT24.A/1,"[15.47555] ""INFORMAZIONI GENERALI""",inv_managers_begin
 MEDIOLANUM-IT24.A/1,"[9.477175] ""SOCIETÀ DI GESTIONE E""",inv_managers_begin
@@ -107,6 +111,7 @@ MEDIOLANUM-IT24.B/1,"Helvetica-Bold ""^TOTALE ATTIVITÀ""",fund_assets_begin
 MEDIOLANUM-IT24.B/2,"Helvetica-Bold ""^TOTALE PASSIVITÀ""",fund_assets_end
 MEDIOLANUM-IT24.B/2,"Helvetica ""VALORE COMPLESSIVO NETTO DEL FONDO""",fund_assets_end
 MEDIOLANUM-IT24.B/3,"""informativa periodica per i prodotti finanziari""",sfdr_classification
+MEDIOLANUM-IT24.B/4,"georgia ""Siamo indipendenti rispetto al Fondo e a""",manco
 MEDIOLANUM-IT24.C,"[7.920006] ""Descrizione""",investments
 MEDIOLANUM-EN24/0,"[8.04] ""Face value""",investments
 MEDIOLANUM-EN24/1,"[9.48] ""MANAGER AND GLOBAL""",inv_managers_begin
@@ -146,9 +151,11 @@ UBS-EN23/4,"Frutiger45LightBold [10] ""^Three-year comparison""",fund_title
 UBS-EN23/5,"Frutiger45LightBold [10] ""^Statement of Net Assets""",fund_assets
 UBS-EN23/6,"Frutiger45LightBold ""^How did the sustainability indicators perform""",esg_indicators
 MEDIOLANUM-EN23,"TimesNewRomanPS[15.9647] ""Statement of Investments""",investments
+MEDIOLANUM-EN23/1,"timesnewromanps-boldital ""^Alternative Investment Fund Manager""",inv_managers
 AMUNDI-EN24/9,"arial-boldmt ""^1  INTRODUCTION""",renaming
 AMUNDI-EN24/10,"arial-boldmt [7] ""^INVESTMENT MANAGERS""",inv_managers_begin
 AMUNDI-EN24/11,"arial-boldmt [7] ""^SUB-INVESTMENT MANAGERS""",inv_managers_end
 AMUNDI-EN24/12,"arialmt ""^Statement of Net Assets$""",fund_assets
 AMUNDI-EN24/12,"verdana-bold ""^Net asset value$""",fund_assets
 AMUNDI-EN24/13,"calibri-bolditalic [8.28] ""^How did the sustainability indicators perform""",esg_indicators
+AMUNDI-EN24/14,"arial-boldmt [7] ""^MANAGEMENT COMPANY""",manco

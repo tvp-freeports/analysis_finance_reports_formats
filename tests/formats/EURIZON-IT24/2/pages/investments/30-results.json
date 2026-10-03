@@ -13,7 +13,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0185,
         "market_value": 4934506.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2025-07-01"
+        },
         "nominal_quantity": 4939000.0,
         "perc_net_assets": 0.035
       }
@@ -33,7 +35,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0145,
         "market_value": 4311555.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2025-05-01"
+        },
         "nominal_quantity": 4316000.0,
         "perc_net_assets": 0.032
       }
@@ -53,7 +57,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.028,
         "market_value": 3480360.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2028-12-01"
+        },
         "nominal_quantity": 3450000.0,
         "perc_net_assets": 0.026
       }
@@ -73,7 +79,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.005,
         "market_value": 3301408.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2028-07-01"
+        },
         "nominal_quantity": 3520000.0,
         "perc_net_assets": 0.024
       }
@@ -93,7 +101,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.038,
         "market_value": 3287348.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2028-08-01"
+        },
         "nominal_quantity": 3160000.0,
         "perc_net_assets": 0.024
       }
@@ -113,7 +123,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0265,
         "market_value": 3256848.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2028-06-01"
+        },
         "nominal_quantity": 3240000.0,
         "perc_net_assets": 0.024
       }
@@ -133,7 +145,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.034,
         "market_value": 3204864.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2028-04-01"
+        },
         "nominal_quantity": 3120000.0,
         "perc_net_assets": 0.024
       }
@@ -153,7 +167,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0095,
         "market_value": 3103707.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2027-09-01"
+        },
         "nominal_quantity": 3203000.0,
         "perc_net_assets": 0.023
       }
@@ -173,7 +189,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.031,
         "market_value": 3091966.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2026-08-01"
+        },
         "nominal_quantity": 3055000.0,
         "perc_net_assets": 0.023
       }
@@ -193,7 +211,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0205,
         "market_value": 3088906.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2027-08-01"
+        },
         "nominal_quantity": 3101000.0,
         "perc_net_assets": 0.023
       }
@@ -213,7 +233,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0345,
         "market_value": 3078551.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2027-07-01"
+        },
         "nominal_quantity": 3002000.0,
         "perc_net_assets": 0.023
       }
@@ -233,7 +255,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.038,
         "market_value": 3049616.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2026-04-01"
+        },
         "nominal_quantity": 3001000.0,
         "perc_net_assets": 0.022
       }
@@ -241,7 +265,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:Bond",
       "data": {
         "acquisition_cost": null,
         "acquisition_currency": null,
@@ -251,7 +275,11 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": null,
         "market_value": 2953448.0,
+        "maturity": {
+          "__date__": "2026-04-01"
+        },
         "nominal_quantity": 3016000.0,
         "perc_net_assets": 0.022
       }
@@ -271,7 +299,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0265,
         "market_value": 2940336.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2027-12-01"
+        },
         "nominal_quantity": 2917000.0,
         "perc_net_assets": 0.022
       }
@@ -291,7 +321,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.012,
         "market_value": 2875798.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2025-08-01"
+        },
         "nominal_quantity": 2887000.0,
         "perc_net_assets": 0.021
       }
@@ -311,7 +343,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.021,
         "market_value": 2809719.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2026-07-01"
+        },
         "nominal_quantity": 2810000.0,
         "perc_net_assets": 0.021
       }
@@ -331,7 +365,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0385,
         "market_value": 2684116.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2026-09-01"
+        },
         "nominal_quantity": 2623000.0,
         "perc_net_assets": 0.02
       }
@@ -351,7 +387,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0025,
         "market_value": 2603523.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2028-03-01"
+        },
         "nominal_quantity": 2770000.0,
         "perc_net_assets": 0.019
       }
@@ -393,7 +431,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.022,
         "market_value": 2569109.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2027-06-01"
+        },
         "nominal_quantity": 2574000.0,
         "perc_net_assets": 0.019
       }
@@ -401,7 +441,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:Bond",
       "data": {
         "acquisition_cost": null,
         "acquisition_currency": null,
@@ -411,7 +451,11 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": null,
         "market_value": 2534912.0,
+        "maturity": {
+          "__date__": "2028-02-01"
+        },
         "nominal_quantity": 2560000.0,
         "perc_net_assets": 0.019
       }
@@ -419,7 +463,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:Bond",
       "data": {
         "acquisition_cost": null,
         "acquisition_currency": null,
@@ -429,7 +473,11 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": null,
         "market_value": 2531226.0,
+        "maturity": {
+          "__date__": "2026-08-01"
+        },
         "nominal_quantity": 2602000.0,
         "perc_net_assets": 0.019
       }
@@ -437,7 +485,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:Bond",
       "data": {
         "acquisition_cost": null,
         "acquisition_currency": null,
@@ -447,7 +495,11 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": null,
         "market_value": 2526925.0,
+        "maturity": {
+          "__date__": "2025-06-01"
+        },
         "nominal_quantity": 2610000.0,
         "perc_net_assets": 0.019
       }
@@ -455,7 +507,7 @@
   },
   {
     "__pydantic__": {
-      "class": "freeports.output:Equity",
+      "class": "freeports.output:Bond",
       "data": {
         "acquisition_cost": null,
         "acquisition_currency": null,
@@ -465,7 +517,11 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
+        "interest_rate": null,
         "market_value": 2356768.0,
+        "maturity": {
+          "__date__": "2025-04-01"
+        },
         "nominal_quantity": 2440000.0,
         "perc_net_assets": 0.017
       }
@@ -485,7 +541,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0085,
         "market_value": 2351112.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2027-01-01"
+        },
         "nominal_quantity": 2404000.0,
         "perc_net_assets": 0.017
       }
@@ -505,7 +563,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.0295,
         "market_value": 2346889.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2027-02-01"
+        },
         "nominal_quantity": 2317000.0,
         "perc_net_assets": 0.017
       }
@@ -525,7 +585,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.032,
         "market_value": 1698982.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2026-01-01"
+        },
         "nominal_quantity": 1686000.0,
         "perc_net_assets": 0.012
       }
@@ -545,7 +607,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.036,
         "market_value": 1353744.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2025-09-01"
+        },
         "nominal_quantity": 1343000.0,
         "perc_net_assets": 0.01
       }
@@ -565,7 +629,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.035,
         "market_value": 1334157.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2026-01-01"
+        },
         "nominal_quantity": 1321000.0,
         "perc_net_assets": 0.01
       }
@@ -585,7 +651,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.005,
         "market_value": 1301048.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2026-02-01"
+        },
         "nominal_quantity": 1319000.0,
         "perc_net_assets": 0.01
       }
@@ -605,7 +673,9 @@
         "fund": "EURIZON STEP TO GLOBAL TRENDS",
         "interest_rate": 0.025,
         "market_value": 1172843.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2025-11-01"
+        },
         "nominal_quantity": 1170000.0,
         "perc_net_assets": 0.009
       }

@@ -19,13 +19,19 @@ AMUNDI-EN24 scrive le etichette in francese su due moduli su centotré**, con la
 È la ragione per cui il piano chiede etichette **misurate** e non dedotte dalla lingua del
 documento.
 
-Lo `SPANISH` non ha nessun documento su cui provarlo: serve a `MEDIOLANUM-ES24.Bax` (`R30`), e di
-quel formato non esiste un rapporto né nei test né nei 905 della raccolta. Sta qui perché il giorno
-in cui arriva non ci sia da rifare il lavoro, e le sue parole vengono dal testo dell'allegato, non
-da una pagina misurata — **che è esattamente ciò che lo rende da verificare**.
+Lo `SPANISH` non ha nessun documento su cui provarlo: serve all'**annesso** di
+`MEDIOLANUM-ES24.B` (`R30`), e di quell'annesso non esiste un file né nei test né nei 905 della
+raccolta. Sta qui perché il giorno in cui arriva non ci sia da rifare il lavoro, e le sue parole
+vengono dal testo dell'allegato, non da una pagina misurata — **che è esattamente ciò che lo rende
+da verificare**.
+
+L'annesso ha anche una regola sua, `declared_funds`/`only_declared_funds` in `declared.py`: è un
+documento a sé, quindi l'articolo si scrive **solo se il fondo coincide** con quello che il
+documento principale dello stesso job ha dichiarato.
 """
 
 from .annex import PRODUCT_BLOCK, Annex
+from .declared import declared_funds, only_declared_funds
 
 #: Italiano — misurato su ARCA-IT24 p45 e ANIMA_SGR-IT24.
 ITALIAN = Annex(
@@ -88,4 +94,13 @@ FRENCH = Annex(
     band=("Caractéristiques environnementales et/ou sociales", "bjectif d’investissement durable"),
 )
 
-__all__ = ["PRODUCT_BLOCK", "Annex", "ENGLISH", "FRENCH", "ITALIAN", "SPANISH"]
+__all__ = [
+    "PRODUCT_BLOCK",
+    "Annex",
+    "ENGLISH",
+    "FRENCH",
+    "ITALIAN",
+    "SPANISH",
+    "declared_funds",
+    "only_declared_funds",
+]

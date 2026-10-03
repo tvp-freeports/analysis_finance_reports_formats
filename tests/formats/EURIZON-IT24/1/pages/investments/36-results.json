@@ -13,7 +13,9 @@
         "fund": "EURIZON GLOBAL DIVIDEND ESG 50 - LUGLIO 2025",
         "interest_rate": 0.0245,
         "market_value": 1087208.0,
-        "maturity": null,
+        "maturity": {
+          "__date__": "2050-09-01"
+        },
         "nominal_quantity": 1480000.0,
         "perc_net_assets": 0.034
       }

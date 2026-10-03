@@ -4,6 +4,7 @@ Una funzione sola, e nessuna decisione oltre a quelle che `reading.py` ha già p
 costruisce il `text_filter` che il formato mette nella sua pipeline.
 """
 
+from freeports import log
 from freeports.core import PageParseFail
 from freeports.interfaces.pdf_blks import ResultStandardExtraction
 from freeports.interfaces.text_blks import StandardManagmentCompanyTextBlock
@@ -59,4 +60,32 @@ def text_filter(read, *, among=first):
     return filter_manco
 
 
-__all__ = ["declared", "text_filter"]
+def imposed(name):
+    """Il `text_filter` della `manco` che il bilancio **non scrive**: il nome viene dal formato.
+
+    Il motore ha già `PdfExtractCurrencyConstant` per la valuta, e questa è la stessa cosa per la
+    società di gestione: un valore dichiarato dal formato invece che letto dal documento. La regola
+    del workspace è che allora il motore lo dica, quindi la funzione avvisa — una volta per
+    documento, perché una volta per documento è la grana a cui il valore vale.
+
+    Serve dove il nome non c'è *nel ruolo*: AMUNDI-IT24 lo scrive tre volte in prosa, ma in frasi
+    che parlano del controllo societario e della sede legale, non di chi gestisce i fondi. Leggere
+    lì sarebbe appoggiare un dato d'uscita a una coincidenza di parole.
+
+    La pipeline che la usa ha bisogno di **una pagina** a cui attaccarsi, e di stare in un passo
+    **dopo** gli investimenti: il blocco porta tutti i fondi che il job ha visto (`R26`), e se corre
+    prima di loro non ne porta nessuno.
+    """
+
+    @fund_filter_data
+    def filter_manco(pdf_blks, funds):
+        log.warn(
+            f'the management company is not written in this report: imposed as "{name}" - '
+            "declared by the format, which knows whose report this is"
+        )
+        return [StandardManagmentCompanyTextBlock.from_name(name, funds)]
+
+    return filter_manco
+
+
+__all__ = ["declared", "imposed", "text_filter"]

@@ -1,7 +1,21 @@
 """Unstructured module for AMUNDI-IT24.
 
-Solo la situazione patrimoniale: gli investimenti stanno al livello strutturato, in
-`content/algorithms/structured/investments/args.csv`, e non si toccano.
+La situazione patrimoniale e la societa' di gestione: gli investimenti stanno al livello
+strutturato, in `content/algorithms/structured/investments/args.csv`, e non si toccano.
+
+# La societa' di gestione, che il bilancio non dichiara (`C02`)
+
+Il nome `Amundi SGR S.p.A.` compare tre volte nel documento, e **nessuna** delle tre nel suo ruolo:
+a pagina 14 dentro `la sede legale di Amundi SGR`, a pagina 15 in `Amundi SGR S.p.A. e' controllata
+al 100%% da Amundi Asset Management SAS`, a pagina 37 nella politica di remunerazione. Sono frasi
+sul controllo societario e sulla sede, non su chi gestisce i fondi: leggere il dato d'uscita da li'
+vorrebbe dire appoggiarlo a una coincidenza di parole.
+
+Quindi il valore e' **imposto dal formato**, con l'avviso che la regola del workspace pretende
+(`manco.imposed`). La pagina a cui la pipeline si attacca e' il sommario: e' la pagina che ogni
+documento di questo formato ha, e ne ha **una**, che e' quanto serve a un valore a grana di
+documento. Nello scadenzario la classe sta **dopo** gli investimenti, perche' il blocco della
+societa' di gestione porta tutti i fondi che il job ha visto (`R26`).
 
 # Le due pagine, e la colonna che si sposta (`FA-2` e `FA-3`)
 
@@ -26,15 +40,21 @@ percentuali portano la virgola decimale e gli importi no.
 import re
 
 import carryover
+import manco
 import sfdr
 
+from freeports.interfaces.pdf_blks import ResultStandardExtraction
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractCurrencyConstant,
     PdfExtractFundStandard,
     PdfExtractLabelledValueStandard,
 )
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
-from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
+from freeports.standard_funcs.deserialize import (
+    DeserializerAssetsStandard,
+    DeserializerInvestmentsManagerFromManco,
+    DeserializerManagmentCompanyStandard,
+)
 from freeports.utils.deserialize import to_int
 from freeports.utils.pdf_extract import LabelledValueWhere, PdfLineSelection
 from freeports.consts import Currency
@@ -137,6 +157,21 @@ pipelines = {
         ),
         text_filter=text_filter_fund_assets_end,
         deserialize=DeserializerAssetsStandard(to_int),
+    ),
+    "manco": Pipeline(
+        # Il `pdf_extract` qui serve solo a dare alla pipeline **un** blocco: una pipeline senza
+        # quel segmento e' incompleta, e il valore imposto non ha niente da leggere nella pagina.
+        # Il blocco e' la riga dell'intestazione stessa, e `manco.imposed` non la guarda.
+        pdf_extract=PdfExtractLabelledValueStandard(
+            PdfLineSelection(font="arial-boldmt", text="^SOMMARIO"),
+            ResultStandardExtraction.MANAGEMENT_COMPANY.name,
+            "managment company",
+        ),
+        text_filter=manco.imposed("Amundi SGR S.p.A."),
+        deserialize=(
+            DeserializerManagmentCompanyStandard(),
+            DeserializerInvestmentsManagerFromManco(),
+        ),
     ),
     # Il segno e' una `X` di testo in Calibri-Bold su tutti e venticinque i moduli.
     "sfdr_classification": sfdr.ITALIAN.pipeline(

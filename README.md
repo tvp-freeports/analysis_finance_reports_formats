@@ -40,6 +40,84 @@ Every target is one of those commands with `--repo` pointed here, so the two nev
 `make.bat <target>` from `cmd` or PowerShell — a shim that starts a POSIX shell and calls the same
 `Makefile`.
 
+## What each format extracts
+
+<!-- formats-coverage:begin -->
+<!-- A snapshot, measured from the reference outputs committed under `tests/formats/`. -->
+
+**✅ reads it · ⬜ does not.** A ✅ means this repository gets that datum out of the reports of that
+format; an empty box means nothing of it comes out.
+
+Measured on **2026-10-03**, from the 35 of this repository's 37 test documents that have a
+reference output: a ✅ is at least one row in the right table of the right reference output, so it
+says the recipe works on the documents we have, not that it reads every occurrence in every
+report. An empty box has two causes the table itself cannot tell apart — the reports of that
+format do not carry the datum, or this repository does not read it yet — and **What is missing**,
+below, says which is which.
+
+**This is a snapshot and it can go stale.** What is true is what the suite says when you run it:
+`make test-all`, and `freeports-dev coverage` for which documents are covered at all.
+
+| format | holdings | maturity or coupon | fund assets | management company | investment managers | SFDR article | ESG indicators | renamings and mergers |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| `AMUNDI-EN24` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ✅ |
+| `AMUNDI-IT24` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ |
+| `ANIMA-EN23` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ |
+| `ANIMA_SGR-IT24` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ✅ |
+| `ANIMA_SICAV-EN24` | ✅ | ✅ | ⬜ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| `ARCA-IT24` | ✅ | ✅ | ✅ | ⬜ | ⬜ | ✅ | ⬜ | ⬜ |
+| `ASTERIA-EN23` | ✅ | ✅ | ⬜ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| `ASTERIA-EN24` | ✅ | ✅ | ⬜ | ✅ | ✅ | ✅ | ⬜ | ⬜ |
+| `CARNE-EN23` | ✅ | ✅ | ✅ | ✅ | ⬜ | ✅ | ⬜ | ⬜ |
+| `DANSKEINVEST-EN24` | ✅ | ✅ | ⬜ | ✅ | ✅ | ✅ | ⬜ | ✅ |
+| `EURIZON-EN21` | ✅ | ✅ | ⬜ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| `EURIZON-EN23` | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| `EURIZON-IT24` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `FIDEURAM-EN23` | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| `FIDEURAM-IT24` | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| `FINECO-EN23@IR` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ |
+| `FINECO-EN23@LUX` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ |
+| `KAIROS-EN23` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `MEDIOLANUM-EN23` | ✅ | ⬜ | ⬜ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| `MEDIOLANUM-EN24` | ✅ | ✅ | ⬜ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| `MEDIOLANUM-ES24.A` | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| `MEDIOLANUM-ES24.B` | ✅ | ✅ | ⬜ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| `MEDIOLANUM-IT24.A` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ |
+| `MEDIOLANUM-IT24.B` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ |
+| `MEDIOLANUM-IT24.C` | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| `UBS-EN23` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ |
+
+*maturity or coupon*: the two fields a holding carries when it is a bond — the two that tell a bond
+from an equity in the first place.
+
+<!-- formats-coverage:end -->
+
+## What is missing
+
+One row per datum: how many of the 26 formats leave it empty, and what is behind it. The two
+causes an empty box cannot distinguish — *the reports do not carry it* and *this repository does
+not read it yet* — are separated here wherever it has been checked.
+
+| datum | formats without it | what is behind it |
+|---|:-:|---|
+| holdings | 0 | every format reads them; they are what a format is written for first |
+| maturity or coupon | 1 | `MEDIOLANUM-EN23` only, and it is **not a gap**: its nine holdings are all equities, so there is no bond to date |
+| fund assets | 9 | **a gap**. `MEDIOLANUM-IT24.C` follows from the row below; on the other eight the statement of net assets is laid out in a way no current recipe reads |
+| management company | 2 | **a gap**. `ARCA-IT24` writes the name in prose only, never beside a label that says what it is; `MEDIOLANUM-IT24.C` reads nothing but its holdings |
+| investment managers | 3 | **a gap**. The two above, plus `CARNE-EN23`, whose page 4 names one manager for every fund and a second for the dollar-denominated part of one of them |
+| SFDR article | 11 | **the interesting column.** Measured: all eleven have a test document carrying a page titled with the periodic disclosure, so the datum is in reach for every one of them. What stops it differs — some have no recipe for that page, while others have one and still write no row, because the disclosure names a fund that is not among the funds of interest (`EURIZON-EN23` has the recipe and the page, and no row) |
+| ESG indicators | 21 | mostly **not a gap**: the indicator table is the rarest thing in this collection, and most of these reports do not publish it at all |
+| renamings and mergers | 21 | mostly **not a gap**: most reports record no such event in the year. Measured elsewhere in this project: across 125 documents of three Italian formats, zero renamings |
+
+Two more things this table cannot show:
+
+- **`MEDIOLANUM-IT24.C` is the twin of `MEDIOLANUM-IT24.A`** and reads only its holdings, where its
+  twin reads almost everything. Whether the two are one format is an open question, and the answer
+  decides whether `.C` gets its own recipes or inherits them.
+- **`ANIMA_SGR-IT24/5` and `EURIZON-EN23/2` have no reference output at all**, so nothing of theirs
+  is measured above, although both documents are in the repository and both are covered by the
+  per-page suite.
+
 ## What this repository has been vouched for
 
 <!-- freeports-validate:begin -->
@@ -122,16 +200,16 @@ the code somebody fixes.
 
 | Metric | Measured | Minimum | Verdict |
 | --- | ---: | ---: | --- |
-| `tests.formats.integration` | 86.5 % | 86.0 % | pass |
+| `tests.formats.integration` | 94.6 % | 86.0 % | pass |
 | `tests.formats.single_page` | 100.0 % | 100.0 % | pass |
-| `docs.python` | 63.7 % | 18.0 % | pass |
-| `lint.python` | 9.879 | 9.600 | pass |
+| `docs.python` | 66.0 % | 18.0 % | pass |
+| `lint.python` | 9.894 | 9.600 | pass |
 | `grants.coverage` | 100.0 % | 100.0 % | stale |
 | `grants.keys_online` | 100.0 % | 100.0 % | stale |
 
 grants.coverage, grants.keys_online — measured at c3b3dafe, not at this one. Run `make ci` to take it again.
 
-formats.integration — last run at a335073a, not at HEAD (ff586fe8). Run `make test-slow`.
+formats.integration — last run at a335073a, not at HEAD (ea911eda). Run `make test-slow`.
 
 *pass* — measured, current, and at or above the minimum this repository asks for.
 

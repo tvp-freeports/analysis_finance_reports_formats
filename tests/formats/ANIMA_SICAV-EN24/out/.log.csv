@@ -1,1 +1,2 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,5,job[ANIMA_SICAV-EN24]/step[1]/class[manco]/document[report]/page[5]/pipeline[manco]/deserialize/pipe[DeserializerInvestmentsManagerFromManco],,investments_manager,,,WARN,"investments_manager was not read: imposed as ""ANIMA SGR S.p.A."" - the management company, which the format declares to manage the investments too"

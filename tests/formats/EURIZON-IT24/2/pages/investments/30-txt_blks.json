@@ -25,6 +25,7 @@
       "interest rate": "1.85 ",
       "manco": null,
       "market value": "4.934.506",
+      "maturity": "07/25",
       "quantity": "4.939.000",
       "table col": 0,
       "table row": 2
@@ -55,6 +56,7 @@
       "interest rate": "1.45 ",
       "manco": null,
       "market value": "4.311.555",
+      "maturity": "05/25",
       "quantity": "4.316.000",
       "table col": 0,
       "table row": 4
@@ -85,6 +87,7 @@
       "interest rate": "2.8 ",
       "manco": null,
       "market value": "3.480.360",
+      "maturity": "12/28",
       "quantity": "3.450.000",
       "table col": 0,
       "table row": 7
@@ -115,6 +118,7 @@
       "interest rate": "0.5 ",
       "manco": null,
       "market value": "3.301.408",
+      "maturity": "07/28",
       "quantity": "3.520.000",
       "table col": 0,
       "table row": 8
@@ -145,6 +149,7 @@
       "interest rate": "3.8 ",
       "manco": null,
       "market value": "3.287.348",
+      "maturity": "08/28",
       "quantity": "3.160.000",
       "table col": 0,
       "table row": 9
@@ -175,6 +180,7 @@
       "interest rate": "2.65 ",
       "manco": null,
       "market value": "3.256.848",
+      "maturity": "06/28",
       "quantity": "3.240.000",
       "table col": 0,
       "table row": 10
@@ -205,6 +211,7 @@
       "interest rate": "3.4 ",
       "manco": null,
       "market value": "3.204.864",
+      "maturity": "04/28",
       "quantity": "3.120.000",
       "table col": 0,
       "table row": 11
@@ -235,6 +242,7 @@
       "interest rate": "0.95 ",
       "manco": null,
       "market value": "3.103.707",
+      "maturity": "09/27",
       "quantity": "3.203.000",
       "table col": 0,
       "table row": 12
@@ -265,6 +273,7 @@
       "interest rate": "3.1 ",
       "manco": null,
       "market value": "3.091.966",
+      "maturity": "08/26",
       "quantity": "3.055.000",
       "table col": 0,
       "table row": 13
@@ -295,6 +304,7 @@
       "interest rate": "2.05 ",
       "manco": null,
       "market value": "3.088.906",
+      "maturity": "08/27",
       "quantity": "3.101.000",
       "table col": 0,
       "table row": 14
@@ -325,6 +335,7 @@
       "interest rate": "3.45 ",
       "manco": null,
       "market value": "3.078.551",
+      "maturity": "07/27",
       "quantity": "3.002.000",
       "table col": 0,
       "table row": 16
@@ -355,6 +366,7 @@
       "interest rate": "3.8 ",
       "manco": null,
       "market value": "3.049.616",
+      "maturity": "04/26",
       "quantity": "3.001.000",
       "table col": 0,
       "table row": 17
@@ -373,7 +385,7 @@
   },
   {
     "__text_block__": true,
-    "type_block": "EQUITY_TARGET",
+    "type_block": "BOND_TARGET",
     "metadata": {
       "% net assets": "2,2",
       "company": "ITALY BTPS",
@@ -384,6 +396,7 @@
       "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.953.448",
+      "maturity": "04/26",
       "quantity": "3.016.000",
       "table col": 0,
       "table row": 18
@@ -414,6 +427,7 @@
       "interest rate": "2.65 ",
       "manco": null,
       "market value": "2.940.336",
+      "maturity": "12/27",
       "quantity": "2.917.000",
       "table col": 0,
       "table row": 19
@@ -444,6 +458,7 @@
       "interest rate": "1.2 ",
       "manco": null,
       "market value": "2.875.798",
+      "maturity": "08/25",
       "quantity": "2.887.000",
       "table col": 0,
       "table row": 20
@@ -474,6 +489,7 @@
       "interest rate": "2.1 ",
       "manco": null,
       "market value": "2.809.719",
+      "maturity": "07/26",
       "quantity": "2.810.000",
       "table col": 0,
       "table row": 21
@@ -504,6 +520,7 @@
       "interest rate": "3.85 ",
       "manco": null,
       "market value": "2.684.116",
+      "maturity": "09/26",
       "quantity": "2.623.000",
       "table col": 0,
       "table row": 22
@@ -534,6 +551,7 @@
       "interest rate": "0.25 ",
       "manco": null,
       "market value": "2.603.523",
+      "maturity": "03/28",
       "quantity": "2.770.000",
       "table col": 0,
       "table row": 23
@@ -595,6 +613,7 @@
       "interest rate": "2.2 ",
       "manco": null,
       "market value": "2.569.109",
+      "maturity": "06/27",
       "quantity": "2.574.000",
       "table col": 0,
       "table row": 25
@@ -613,7 +632,7 @@
   },
   {
     "__text_block__": true,
-    "type_block": "EQUITY_TARGET",
+    "type_block": "BOND_TARGET",
     "metadata": {
       "% net assets": "1,9",
       "company": "ITALY BTPS",
@@ -624,6 +643,7 @@
       "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.534.912",
+      "maturity": "02/28",
       "quantity": "2.560.000",
       "table col": 0,
       "table row": 26
@@ -642,7 +662,7 @@
   },
   {
     "__text_block__": true,
-    "type_block": "EQUITY_TARGET",
+    "type_block": "BOND_TARGET",
     "metadata": {
       "% net assets": "1,9",
       "company": "ITALY BTPS",
@@ -653,6 +673,7 @@
       "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.531.226",
+      "maturity": "08/26",
       "quantity": "2.602.000",
       "table col": 0,
       "table row": 28
@@ -671,7 +692,7 @@
   },
   {
     "__text_block__": true,
-    "type_block": "EQUITY_TARGET",
+    "type_block": "BOND_TARGET",
     "metadata": {
       "% net assets": "1,9",
       "company": "BOTS ZC",
@@ -682,6 +703,7 @@
       "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.526.925",
+      "maturity": "06/25",
       "quantity": "2.610.000",
       "table col": 0,
       "table row": 29
@@ -700,7 +722,7 @@
   },
   {
     "__text_block__": true,
-    "type_block": "EQUITY_TARGET",
+    "type_block": "BOND_TARGET",
     "metadata": {
       "% net assets": "1,7",
       "company": "BOTS ZC",
@@ -711,6 +733,7 @@
       "fund": "EURIZON STEP TO GLOBAL TRENDS",
       "manco": null,
       "market value": "2.356.768",
+      "maturity": "04/25",
       "quantity": "2.440.000",
       "table col": 0,
       "table row": 30
@@ -741,6 +764,7 @@
       "interest rate": "0.85 ",
       "manco": null,
       "market value": "2.351.112",
+      "maturity": "01/27",
       "quantity": "2.404.000",
       "table col": 0,
       "table row": 31
@@ -771,6 +795,7 @@
       "interest rate": "2.95 ",
       "manco": null,
       "market value": "2.346.889",
+      "maturity": "02/27",
       "quantity": "2.317.000",
       "table col": 0,
       "table row": 32
@@ -801,6 +826,7 @@
       "interest rate": "3.2 ",
       "manco": null,
       "market value": "1.698.982",
+      "maturity": "01/26",
       "quantity": "1.686.000",
       "table col": 0,
       "table row": 35
@@ -831,6 +857,7 @@
       "interest rate": "3.6 ",
       "manco": null,
       "market value": "1.353.744",
+      "maturity": "09/25",
       "quantity": "1.343.000",
       "table col": 0,
       "table row": 36
@@ -861,6 +888,7 @@
       "interest rate": "3.5 ",
       "manco": null,
       "market value": "1.334.157",
+      "maturity": "01/26",
       "quantity": "1.321.000",
       "table col": 0,
       "table row": 38
@@ -891,6 +919,7 @@
       "interest rate": "0.5 ",
       "manco": null,
       "market value": "1.301.048",
+      "maturity": "02/26",
       "quantity": "1.319.000",
       "table col": 0,
       "table row": 40
@@ -921,6 +950,7 @@
       "interest rate": "2.5 ",
       "manco": null,
       "market value": "1.172.843",
+      "maturity": "11/25",
       "quantity": "1.170.000",
       "table col": 0,
       "table row": 42

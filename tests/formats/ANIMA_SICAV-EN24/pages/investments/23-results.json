@@ -13,7 +13,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-        "interest_rate": null,
+        "interest_rate": 0.012,
         "market_value": 1670675.0,
         "maturity": {
           "__date__": "2025-08-15"
@@ -37,7 +37,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-        "interest_rate": null,
+        "interest_rate": 0.0185,
         "market_value": 494890.0,
         "maturity": {
           "__date__": "2025-07-01"
@@ -61,7 +61,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-        "interest_rate": null,
+        "interest_rate": 0.025,
         "market_value": 1996100.0,
         "maturity": {
           "__date__": "2024-12-01"
@@ -85,7 +85,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-        "interest_rate": null,
+        "interest_rate": 0.034,
         "market_value": 1300923.0,
         "maturity": {
           "__date__": "2025-03-28"
@@ -109,7 +109,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-        "interest_rate": null,
+        "interest_rate": 0.0375,
         "market_value": 1350000.0,
         "maturity": {
           "__date__": "2024-09-01"
@@ -133,7 +133,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-        "interest_rate": null,
+        "interest_rate": 0.0,
         "market_value": 991070.0,
         "maturity": {
           "__date__": "2024-12-13"
@@ -157,7 +157,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-        "interest_rate": null,
+        "interest_rate": 0.0,
         "market_value": 1743472.5,
         "maturity": {
           "__date__": "2024-10-14"
@@ -181,7 +181,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
-        "interest_rate": null,
+        "interest_rate": 0.0,
         "market_value": 494065.0,
         "maturity": {
           "__date__": "2025-01-14"

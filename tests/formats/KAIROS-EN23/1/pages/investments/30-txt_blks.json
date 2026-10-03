@@ -54,6 +54,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "Kairos International Sicav - Bond ",
+      "interest rate": "2.925%",
       "manco": null,
       "market value": "957,960.00",
       "maturity": "14/10/2030",
@@ -147,6 +148,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "Kairos International Sicav - Bond ",
+      "interest rate": "2%",
       "manco": null,
       "market value": "621,360.48",
       "maturity": "24/01/2025",
@@ -178,6 +180,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "fund": "Kairos International Sicav - Bond ",
+      "interest rate": "4.75%",
       "manco": null,
       "market value": "618,276.00",
       "maturity": "08/05/2030",
