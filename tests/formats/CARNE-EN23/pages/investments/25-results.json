@@ -12,7 +12,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "fund": "Sidera Funds SICAV – Balanced Growth",
         "market_value": 166871.31,
         "nominal_quantity": 48247.0,
         "perc_net_assets": 0.0008
@@ -32,7 +32,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "fund": "Sidera Funds SICAV – Balanced Growth",
         "market_value": 77397.68,
         "nominal_quantity": 628.0,
         "perc_net_assets": 0.0004
@@ -52,7 +52,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "fund": "Sidera Funds SICAV – Balanced Growth",
         "market_value": 2137527.35,
         "nominal_quantity": 16903.0,
         "perc_net_assets": 0.0099
@@ -72,7 +72,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "fund": "Sidera Funds SICAV – Balanced Growth",
         "market_value": 1969964.33,
         "nominal_quantity": 14322.0,
         "perc_net_assets": 0.0092
@@ -92,7 +92,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "fund": "Sidera Funds SICAV – Balanced Growth",
         "market_value": 4131625.42,
         "nominal_quantity": 23705.0,
         "perc_net_assets": 0.0192
@@ -112,7 +112,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": " Sidera Funds SICAV – Balanced Growth",
+        "fund": "Sidera Funds SICAV – Balanced Growth",
         "market_value": 173406.13,
         "nominal_quantity": 54.0,
         "perc_net_assets": 0.0008

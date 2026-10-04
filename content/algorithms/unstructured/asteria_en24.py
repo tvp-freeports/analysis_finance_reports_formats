@@ -21,10 +21,8 @@ in tondo, quindi il grassetto da 9.98 e' **esattamente** l'insieme delle etichet
 collocamento per difetto prende la prima riga sotto, che e' il nome: la seconda e' l'indirizzo.
 """
 
-import re
 
 import inv_managers
-import sfdr
 from freeports.core import Pipeline
 from freeports.interfaces.pdf_blks import ResultStandardExtraction
 from freeports.standard_funcs.deserialize import (
@@ -51,15 +49,6 @@ pdf_extract_inv_managers = PdfExtractLabelledValueStandard(
 )
 
 pipelines = {
-    "sfdr_classification": sfdr.ENGLISH.pipeline(
-        product_joined=True,
-        # I due punti sono doppi su una pagina, e la qualificazione fra parentesi --
-        # `(the "Sub-Fund")`, `(the "Portfolio")` -- chiude ogni nome.
-        product_prefix=(
-            re.compile(r"Product name\s*:[\s:]*"),
-            re.compile(r"\s*\((?:the|il|la)\s[^)]*\)\s*$"),
-        ),
-    ),
     # `C04` e `C15`: la societa' di gestione e il gestore, che pagina 3 dichiara insieme.
     "inv_managers": Pipeline(
         (pdf_extract_manco, pdf_extract_inv_managers),

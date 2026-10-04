@@ -1,11 +1,9 @@
 from freeports.core import (
     Pipeline,PdfBlock
 )
-import sfdr
 from freeports.standard_funcs.pdf_extract import PdfExtractPageClassifyStandard
 from freeports.interfaces.pdf_blks import ResultStandardExtraction
 from freeports.utils.pdf_extract import PdfLineSelection,pdflines_from_pagedict
-from . import fund_assets
 from . import investments
 from . import investment_managers
 from . import merging
@@ -47,11 +45,6 @@ def pdf_extract_page_classify(page):
 
 pipelines = {
     "": Pipeline(pdf_extract=pdf_extract_page_classify),
-    "fund_assets": Pipeline(
-        pdf_extract=(fund_assets.pdf_extract,),
-        text_filter=fund_assets.text_filter,
-        deserialize=fund_assets.deserialize,
-    ),
     "manco": Pipeline(
         pdf_extract=investment_managers.pdf_extract_manco,
         text_filter=investment_managers.text_filter_manco,
@@ -91,7 +84,7 @@ pipelines = {
             investment_managers.deserialize_fund,
         ),
     ),
-    "merging":Pipeline(
+    "merges":Pipeline(
         merging.pdf_extract,
         (merging.text_filter,merging.text_filter_last_date),
         (merging.deserialize,merging.deserialize_last_date)
@@ -100,7 +93,6 @@ pipelines = {
     # quella spuntata la `C`: e' il caso per cui l'elenco dei segni e' un parametro e non un
     # criterio. L'elenco predefinito del motore le conosce gia', quindi qui non c'e' niente da
     # dichiarare.
-    "sfdr": sfdr.ENGLISH.pipeline(),
     "esg_fund": Pipeline(
         esg.pdf_extract_fund,
         esg.text_filter_fund,

@@ -2,25 +2,21 @@
 
 import re
 
-import sfdr
+import fund_name
 from freeports.standard_funcs.text_filter import (
     TextFilterInvestmentsStandard,
-    TextFilterManagmentCompanyStandard,
-    TextFilterAssetsStandard
+    TextFilterManagmentCompanyStandard
 )
 from freeports.interfaces.text_blks import OneTextBlockType,ResultStandardFiltering
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractManagmentCompanyStandard,
-    AssetsColumn,
-    PdfExtractAssetsStandard,
 )
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
-    DeserializerAssetsStandard,
     DeserializerInvestmentsManagerFromManco,
 )
-from freeports.utils.deserialize import to_int_en_month, to_float
+from freeports.utils.deserialize import to_int_en_month
 from freeports.utils.pdf_extract import (
     PdfLineSelection,
     pdflines_from_pagedict,
@@ -35,11 +31,8 @@ from freeports.output import (
     FundRename,
     FundMerge,
     Fund,
-    FundSfdrClassification,
     FundEsgIndicator,
-    Investment,
 )
-from freeports.consts import SfdrArticle
 from datetime import date
 
 market_value_regex = re.compile(r"(([0-9]+,)?[0-9]+,?[0-9]+\.[0-9]{2}) ")
@@ -52,34 +45,34 @@ std = TextFilterInvestmentsStandard(
     market_value_pos=2,
 )
 
-remove_fund_regex = (re.compile("\\(.*\\)"),)
-remove_fund_substr = ("*",)
+#: Il nome del comparto porta il confronto con l'esercizio prima fra parentesi
+#: (`Kairos International Sicav - Bond (2023: 4.21%)`) e, su alcune pagine, un asterisco: niente
+#: dei due fa parte del nome. Ripulirlo nei **due** posti in cui finisce -- il blocco del fondo e
+#: la chiave `fund` dei metadati di ogni titolo -- e' lavoro del pezzo condiviso: era scritto a
+#: mano qui, e qui restava.
+FUND_NAME_CUTS = {"drop": (re.compile(r"\(.*\)"),), "substrings": ("*",)}
+
+cleaned_std = fund_name.cleaned(std, **FUND_NAME_CUTS)
 
 
 def remove_fund_excess(txt):
-    for r in remove_fund_regex:
-        txt = r.sub("", txt)
-    for r in remove_fund_substr:
-        txt = txt.replace(r, "")
-    return txt
+    """Lo stesso ripulito, su una stringa sola: lo chiama la lettura delle fusioni."""
+    return fund_name.strip(txt, **FUND_NAME_CUTS)
 
 
 def text_filter(pdf_blks, target_companies):
+    """Il tubo standard, col nome ripulito e la quantita' letta dal nome della societa'.
+
+    Su questo formato la quantita' sta **nella stessa cella** del nome dell'emittente, in testa,
+    quindi la si estrae qui: e' interpretazione di testo (`R23`), non un casting.
     """
-    Text extract that extract quantity from the name of the company (is conained in the same cell)
-    """
-    txt_blks = std(pdf_blks, target_companies)
+    txt_blks = cleaned_std(pdf_blks, target_companies)
     for txt_blk in txt_blks:
-        if txt_blk.type_block == ResultStandardFiltering.FUND.name:
-            txt_blk.content = remove_fund_excess(txt_blk.content)
-        elif (
-            txt_blk.type_block == ResultStandardFiltering.BOND_TARGET.name
-            or txt_blk.type_block == ResultStandardFiltering.EQUITY_TARGET.name
+        if txt_blk.type_block in (
+            ResultStandardFiltering.BOND_TARGET.name,
+            ResultStandardFiltering.EQUITY_TARGET.name,
         ):
-            txt_blk.metadata["fund"] = remove_fund_excess(txt_blk.metadata["fund"])
-            c = txt_blk.content
-            m = market_value_regex.match(c)
-            txt_blk.metadata |= {"quantity": m[0]}
+            txt_blk.metadata |= {"quantity": market_value_regex.match(txt_blk.content)[0]}
     return txt_blks
 
 
@@ -193,48 +186,6 @@ def deserialize_merges(txt_blk):
     )
 
 
-condition_text = PdfLineSelection(
-    font="arialnarrow-bold", font_size=(11.9, 12.1)
-) & PdfLineSelection(
-    text="Statement of Net Assets as at",
-    font_size=(11.9, 12.1),
-    font="arialnarrow-bold",
-)
-
-fund_curr_set = PdfLineSelection(
-    font="arialnarrow-bold", font_size=(11.9, 12.1)
-) & PdfLineSelection.area_from_bounds(x0=0, y0=0, x1=1e6, y1=condition_text)
-
-currency_set_assets = PdfLineSelection(
-    font="arialnarrow-bold", font_size=(11.9, 12.1), text="(in"
-)
-
-
-pdf_extract_assets = PdfExtractAssetsStandard(
-    fund_set=fund_curr_set,
-    currency_set=currency_set_assets,
-    tot_assets=AssetsColumn(
-        PdfLineSelection(font="arialnarrow-bold", font_size=(7.9, 8.1), text="^Total assets"),
-        mult=(50.0, 1.02),
-    ),
-    liabilities=AssetsColumn(
-        PdfLineSelection(font="arialnarrow-bold", font_size=(7.9, 8.1), text="^Total liabilities"),
-        mult=(50.0, 1.02),
-    ),
-    # The net-assets label is not usable here, so the window hangs off the liabilities one and
-    # drops a row: "^Net assets at the end of the year" is what it would otherwise anchor to.
-    net_assets=AssetsColumn(
-        PdfLineSelection(font="arialnarrow-bold", font_size=(7.9, 8.1), text="^Total liabilities"),
-        vec=(1.2, 1.2),
-        mult=(5.0, 2.0),
-    ),
-)
-
-text_filter_assets = TextFilterAssetsStandard(
-    remove_from_fund_regexes=("\\(.*\\)", "\\*")
-)
-deserialize_assets = DeserializerAssetsStandard(num_converter=to_float)
-
 
 def esg_indicators_pdf_extact_art8(page):
     lines = pdflines_from_pagedict(page)
@@ -304,7 +255,6 @@ def esg_indicators_deserialize_art8(txt_blk):
 
 pipelines = {
     "investments": Pipeline(text_filter=text_filter),
-    "fund_assets": Pipeline(pdf_extract_assets, text_filter_assets, deserialize_assets),
     "manco": Pipeline(
         PdfExtractManagmentCompanyStandard(
             PdfLineSelection.area_from_movewindow(
@@ -324,13 +274,11 @@ pipelines = {
     # Le due classi di pagina sono due impaginazioni dello stesso allegato, e si leggono con lo
     # stesso modulo: quello che cambia e' come il rapporto intitola l'allegato e come scrive
     # l'etichetta del prodotto.
-    "sfdr": sfdr.ENGLISH.pipeline(),
-    "sfdr2": sfdr.ENGLISH.pipeline(product_prefix=re.compile(r'Product name.*:\s*')),
-    "esg": Pipeline(
+    "esg_indicators": Pipeline(
         esg_indicators_pdf_extact_art8,
         esg_indicators_text_filter_art8,
         esg_indicators_deserialize_art8,
     ),
-    "renames": Pipeline(pdf_extract_rename, text_filter_rename, deserialize_rename),
+    "renaming": Pipeline(pdf_extract_rename, text_filter_rename, deserialize_rename),
     "merges": Pipeline(pdf_extract_merges, text_filter_merges, deserialize_merges),
 }

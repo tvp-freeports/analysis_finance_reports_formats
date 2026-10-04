@@ -9,7 +9,7 @@
         "date": {
           "__date__": "2023-12-31"
         },
-        "fund": "ANIMA Short Term Bond ",
+        "fund": "ANIMA Short Term Bond",
         "liabilities": 5847460.0,
         "net_assets": 186170164.0,
         "tot_assets": 192017624.0
@@ -26,7 +26,7 @@
         "date": {
           "__date__": "2023-12-31"
         },
-        "fund": "ANIMA Bond Dollar ",
+        "fund": "ANIMA Bond Dollar",
         "liabilities": 4346904.0,
         "net_assets": 309539141.0,
         "tot_assets": 313886045.0
@@ -43,7 +43,7 @@
         "date": {
           "__date__": "2023-12-31"
         },
-        "fund": "ANIMA Global Bond ",
+        "fund": "ANIMA Global Bond",
         "liabilities": 1677447.0,
         "net_assets": 56933576.0,
         "tot_assets": 58611023.0
@@ -60,7 +60,7 @@
         "date": {
           "__date__": "2023-12-31"
         },
-        "fund": "ANIMA Short Term Corporate Bond ",
+        "fund": "ANIMA Short Term Corporate Bond",
         "liabilities": 520833.0,
         "net_assets": 221500443.0,
         "tot_assets": 222021276.0

@@ -10,8 +10,6 @@ elenco di percentuali.
 from freeports.core import PdfBlock, TextBlock
 import carryover
 import esg
-import manco
-import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractSectionStandard,
@@ -20,20 +18,13 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractFundStandard,
     PdfExtractCurrencyStandard,
     PdfExtractLabelledValueStandard,
-    PdfExtractPageClassifyStandard,
 )
 from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
-from freeports.standard_funcs.text_filter import (
-    TextFilterAssetsStandard,
-    TextFilterPageClassifyStandard,
-)
+from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.utils.text_filter import MatchFund
 from freeports.standard_funcs.deserialize import (
     DeserializerAssetsStandard,
-    DeserializerInvestmentsManagerFromManco,
-    DeserializerManagmentCompanyStandard,
-    DeserializerPageClassifyStandard,
 )
 from freeports.consts import Currency
 from freeports.utils.deserialize import to_date_with_it_month, to_int
@@ -168,10 +159,7 @@ def deserialize_merges(txt_blk):
         date=to_date_with_it_month(md["date"])
     )
 
-header_sets_merges=[
-    PdfLineSelection.text("ONDO OGGETTO DI") & h_font_selection,
-    PdfLineSelection.text("ONDO RICEVENTE") & h_font_selection
-]
+
 
 
 # ----------------------------------------------------------------------------------------------
@@ -303,22 +291,6 @@ pdf_extract_manco = PdfExtractLabelledValueStandard(
     "managment company",
 )
 
-# La testata sta su **tutte** le pagine, quindi non puo' essere lei a classificarle: l'ancora e'
-# l'indice, che ogni documento del formato ha una volta sola e sempre a pagina 3 (misurato sui
-# cinque documenti di prova, di 1901, 106, 15, 13 e 1901 pagine). Il corpo e non il carattere,
-# perche' le quattro famiglie tipografiche del formato scrivono `INDICE` in tre nomi di font
-# diversi -- `latobold`, `open-sansbold`, `lato-bold` -- ma tutte fra 18.96 e 20.04, e in pagina
-# non c'e' nient'altro sopra gli 11.04.
-pdf_classify_manco = PdfExtractPageClassifyStandard(
-    header_sets=PdfLineSelection(text="^INDICE", font_size=(18.0, 21.0)),
-    page_type="manco",
-)
-
-text_filter_manco = manco.text_filter(
-    manco.Between(after="Società di Gestione del Risparmio")
-)
-
-
 # Il glossario del modello europeo sta nella colonna di sinistra e in ordine di lettura si
 # intreccia col corpo: l'ascissa e' cio' che lo lascia fuori, ed e' geometria, quindi `pdf_extract`.
 pdf_extract_esg = PdfExtractSectionStandard(
@@ -340,49 +312,6 @@ pipelines = {
         # la domanda *di chi e' questa pagina* non si pone.
         text_filter=esg.text_filter(esg.LeadingNumber(), None),
         deserialize=esg.deserialize,
-    ),
-    "": Pipeline(
-        pdf_extract=(
-            PdfExtractPageClassifyStandard(
-                header_sets=header_sets, page_type="investments"
-            ),
-            PdfExtractPageClassifyStandard(
-                header_sets=header_sets_merges, page_type="merges"
-            ),
-            PdfExtractPageClassifyStandard(
-                header_sets=PdfLineSelection.text("aveva un obiettivo di investimento sostenibile"),page_type="sfdr_classification"
-            ),
-            # Senza carattere: le quattro famiglie tipografiche del formato non si scrivono in un
-            # insieme solo, e la congiunzione delle due etichette basta da se'.
-            PdfExtractPageClassifyStandard(
-                header_sets=[
-                    PdfLineSelection.text("^SITUAZIONE PATRIMONIALE"),
-                    PdfLineSelection.text("^TOTALE ATTIVITA'"),
-                ],
-                page_type="fund_assets_begin",
-            ),
-            PdfExtractPageClassifyStandard(
-                header_sets=[
-                    PdfLineSelection.text("^PASSIVITA' E NETTO"),
-                    PdfLineSelection.text("^TOTALE PASSIVITA'"),
-                ],
-                page_type="fund_assets_end",
-            ),
-            pdf_classify_manco,
-            # La classificazione di questo formato e' tutta qui dentro e non nel CSV strutturato:
-            # una riga in `page_classify/args.csv` accenderebbe **anche** il classificatore per
-            # difetto, e ogni pagina uscirebbe classificata due volte.
-            PdfExtractPageClassifyStandard(
-                header_sets=PdfLineSelection(
-                    font="timesnewromanbolditalic",
-                    font_size=(9.5, 10.5),
-                    text="prestazione degli indicatori",
-                ),
-                page_type="esg_indicators",
-            ),
-        ),
-        text_filter=TextFilterPageClassifyStandard(),
-        deserialize=DeserializerPageClassifyStandard(),
     ),
     "fund_assets_begin": Pipeline(
         pdf_extract=(
@@ -413,16 +342,6 @@ pipelines = {
     ),
     # Il segno e' una `X` di testo, e su quasi tutti i moduli e' **fusa nella riga
     # dell'etichetta** (`Si'` / `X No`): per questo le etichette si ancorano anche in coda.
-    "sfdr_classification": sfdr.ITALIAN.pipeline(),
     "merges": Pipeline(pdf_extract_merges,text_filter_merges,deserialize_merges),
-    # Il secondo deserializzatore e' cio' che lega i comparti alla societa' di gestione (`R15`):
-    # ANIMA_SGR-IT24 nessun gestore delegato lo dichiara, quindi il residuo e' tutto suo.
-    "manco": Pipeline(
-        pdf_extract_manco,
-        text_filter_manco,
-        (
-            DeserializerManagmentCompanyStandard(),
-            DeserializerInvestmentsManagerFromManco(),
-        ),
-    ),
+    "manco": Pipeline(pdf_extract_manco),
 }

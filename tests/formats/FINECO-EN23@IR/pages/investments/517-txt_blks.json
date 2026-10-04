@@ -3,12 +3,12 @@
     "__text_block__": true,
     "type_block": "FUND",
     "metadata": {},
-    "content": "Fidelity Focus Equity FAM Fund (continued)",
+    "content": "Fidelity Focus Equity FAM Fund",
     "pdf_block": {
       "__pdf_block__": true,
       "type_block": "FUND_NAME",
       "metadata": {},
-      "content": "Fidelity Focus Equity FAM Fund (continued)"
+      "content": "Fidelity Focus Equity FAM Fund"
     }
   },
   {
@@ -21,7 +21,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "fund": "Fidelity Focus Equity FAM Fund",
       "manco": null,
       "market value": "7,672,832",
       "quantity": "234,000",
@@ -50,7 +50,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "fund": "Fidelity Focus Equity FAM Fund",
       "manco": null,
       "market value": "24,359,881",
       "quantity": "128,684",
@@ -79,7 +79,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "fund": "Fidelity Focus Equity FAM Fund",
       "manco": null,
       "market value": "15,209,491",
       "quantity": "79,865",
@@ -108,7 +108,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "fund": "Fidelity Focus Equity FAM Fund",
       "manco": null,
       "market value": "44,041,665",
       "quantity": "200,746",
@@ -137,7 +137,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "fund": "Fidelity Focus Equity FAM Fund",
       "manco": null,
       "market value": "32,661,529",
       "quantity": "130,427",
@@ -166,7 +166,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "fund": "Fidelity Focus Equity FAM Fund",
       "manco": null,
       "market value": "3,534,358",
       "quantity": "59,702",
@@ -195,7 +195,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Fidelity Focus Equity FAM Fund (continued)",
+      "fund": "Fidelity Focus Equity FAM Fund",
       "manco": null,
       "market value": "100,108,358",
       "quantity": "237,505",

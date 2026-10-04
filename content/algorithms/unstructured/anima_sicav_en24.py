@@ -22,14 +22,9 @@ avviso perche' il dato e' dedotto e non letto.
 
 import re
 
-import manco
 from freeports.core import Pipeline
 from freeports.interfaces.pdf_blks import ResultStandardExtraction
 from freeports.interfaces.text_blks import ResultStandardFiltering
-from freeports.standard_funcs.deserialize import (
-    DeserializerInvestmentsManagerFromManco,
-    DeserializerManagmentCompanyStandard,
-)
 from freeports.standard_funcs.pdf_extract import PdfExtractLabelledValueStandard
 from freeports.standard_funcs.text_filter import TextFilterInvestmentsStandard
 from freeports.utils.pdf_extract import LabelledValueWhere, PdfLineSelection
@@ -78,10 +73,5 @@ pipelines = {
     # riga da ritagliare.
     "manco": Pipeline(
         pdf_extract_manco,
-        manco.text_filter(str.strip),
-        (
-            DeserializerManagmentCompanyStandard(),
-            DeserializerInvestmentsManagerFromManco(),
-        ),
     ),
 }

@@ -57,7 +57,6 @@ import re
 
 import inv_managers
 import renaming
-import sfdr
 from freeports.core import PdfBlock, Pipeline
 from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
 from freeports.standard_funcs.deserialize import (
@@ -254,14 +253,6 @@ def pdf_extract_manco(page):
 
 
 pipelines = {
-    "sfdr_classification": sfdr.ENGLISH.pipeline(
-        # Il nome sta sulla riga dell'etichetta, quindi i due tubi predefiniti bastano;
-        # l'ombrello davanti invece va tolto, che gli investimenti non lo scrivono.
-        product_prefix=(
-            re.compile(r"Product name\s*:\s*"),
-            re.compile(r"^Danske Invest SICAV\s+"),
-        )
-    ),
     "merges": Pipeline(
         pdf_extract=pdf_extract_merges,
         text_filter=renaming.text_filter(read_merges),

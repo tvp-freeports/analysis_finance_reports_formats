@@ -25,11 +25,8 @@ Nessun gestore delegato e' dichiarato, quindi `R15` fa della societa' di gestion
 degli investimenti, col secondo deserializzatore e l'avviso del motore.
 """
 
-import re
 
 import carryover
-import manco
-import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
@@ -45,8 +42,6 @@ from freeports.utils.pdf_extract import (
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.standard_funcs.deserialize import (
     DeserializerAssetsStandard,
-    DeserializerInvestmentsManagerFromManco,
-    DeserializerManagmentCompanyStandard,
 )
 from freeports.interfaces.pdf_blks import ResultStandardExtraction
 from freeports.utils.deserialize import to_int
@@ -212,23 +207,9 @@ pipelines = {
         text_filter=text_filter_fund_assets_end,
         deserialize=DeserializerAssetsStandard(to_int),
     ),
-    # Il segno e' un'immagine, e il modulo e' quello italiano. Il nome del prodotto pero' non e'
-    # scritto come lo scrivono gli investimenti: il portafoglio intitola i comparti
-    # `Fondo Mediolanum ...`, il modulo `Mediolanum ...`. Senza rimettere davanti la parola che
-    # manca, `R24` non regge e le due righe si perdono in silenzio.
-    "sfdr_classification": sfdr.ITALIAN.pipeline(
-        product_joined=True,
-        product_prepend="FONDO",
-        product_prefix=re.compile(r"Nome del prodotto\s*:\s*"),
-    ),
     # `C09` e `C14`: il nome fra la formula e la virgola, e il residuo dei gestori che gli ricade
     # addosso perche' nessun delegato e' dichiarato.
     "manco": Pipeline(
         pdf_extract_manco,
-        manco.text_filter(manco.Between(after="rispetto al Fondo e a", before=",")),
-        (
-            DeserializerManagmentCompanyStandard(),
-            DeserializerInvestmentsManagerFromManco(),
-        ),
     ),
 }

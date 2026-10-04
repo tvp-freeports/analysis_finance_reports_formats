@@ -3,7 +3,7 @@
     "__text_block__": true,
     "type_block": "FUND",
     "metadata": {},
-    "content": "Kairos International Sicav - Innovation Trends ",
+    "content": "Kairos International Sicav - Innovation Trends",
     "pdf_block": {
       "__pdf_block__": true,
       "type_block": "FUND_NAME",
@@ -22,7 +22,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:USD"
       },
-      "fund": "Kairos International Sicav - Innovation Trends ",
+      "fund": "Kairos International Sicav - Innovation Trends",
       "manco": null,
       "market value": "1,646,910.00",
       "quantity": "8,700.00 ",
@@ -52,7 +52,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:USD"
       },
-      "fund": "Kairos International Sicav - Innovation Trends ",
+      "fund": "Kairos International Sicav - Innovation Trends",
       "manco": null,
       "market value": "333,060.00",
       "quantity": "15,600.00 ",
@@ -82,7 +82,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:USD"
       },
-      "fund": "Kairos International Sicav - Innovation Trends ",
+      "fund": "Kairos International Sicav - Innovation Trends",
       "manco": null,
       "market value": "1,279,410.60",
       "quantity": "5,820.00 ",
@@ -112,7 +112,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:USD"
       },
-      "fund": "Kairos International Sicav - Innovation Trends ",
+      "fund": "Kairos International Sicav - Innovation Trends",
       "manco": null,
       "market value": "4,149,426.71",
       "quantity": "30,899.00 ",
@@ -142,7 +142,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:USD"
       },
-      "fund": "Kairos International Sicav - Innovation Trends ",
+      "fund": "Kairos International Sicav - Innovation Trends",
       "manco": null,
       "market value": "2,148,368.00",
       "quantity": "36,290.00 ",

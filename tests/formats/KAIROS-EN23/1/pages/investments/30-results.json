@@ -12,7 +12,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Kairos International Sicav - Bond ",
+        "fund": "Kairos International Sicav - Bond",
         "interest_rate": null,
         "market_value": 991090.0,
         "maturity": {
@@ -36,7 +36,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Kairos International Sicav - Bond ",
+        "fund": "Kairos International Sicav - Bond",
         "interest_rate": 0.02925,
         "market_value": 957960.0,
         "maturity": {
@@ -60,7 +60,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Kairos International Sicav - Bond ",
+        "fund": "Kairos International Sicav - Bond",
         "interest_rate": null,
         "market_value": 572379.5,
         "maturity": {
@@ -84,7 +84,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Kairos International Sicav - Bond ",
+        "fund": "Kairos International Sicav - Bond",
         "interest_rate": null,
         "market_value": 502185.0,
         "maturity": {
@@ -108,7 +108,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Kairos International Sicav - Bond ",
+        "fund": "Kairos International Sicav - Bond",
         "interest_rate": 0.02,
         "market_value": 621360.48,
         "maturity": {
@@ -132,7 +132,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Kairos International Sicav - Bond ",
+        "fund": "Kairos International Sicav - Bond",
         "interest_rate": 0.0475,
         "market_value": 618276.0,
         "maturity": {

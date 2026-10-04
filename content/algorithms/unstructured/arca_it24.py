@@ -11,7 +11,6 @@ AMUNDI-IT24 scrive `Eventi che hanno interessato il fondo`.
 
 import carryover
 import renaming
-import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
@@ -212,5 +211,4 @@ pipelines = {
     # L'articolo si legge dalla casella spuntata, non dal titolo: il titolo resta come verifica
     # (`R34`). Su questo formato il segno è un'immagine, e una sola nella banda -- la casella vuota
     # e' disegnata, non fotografata.
-    "sfdr_classification": sfdr.ITALIAN.pipeline(),
 }

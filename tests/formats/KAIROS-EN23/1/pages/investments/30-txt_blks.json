@@ -3,7 +3,7 @@
     "__text_block__": true,
     "type_block": "FUND",
     "metadata": {},
-    "content": "Kairos International Sicav - Bond ",
+    "content": "Kairos International Sicav - Bond",
     "pdf_block": {
       "__pdf_block__": true,
       "type_block": "FUND_NAME",
@@ -22,7 +22,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Kairos International Sicav - Bond ",
+      "fund": "Kairos International Sicav - Bond",
       "manco": null,
       "market value": "991,090.00",
       "maturity": "17/01/2027",
@@ -53,7 +53,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Kairos International Sicav - Bond ",
+      "fund": "Kairos International Sicav - Bond",
       "interest rate": "2.925%",
       "manco": null,
       "market value": "957,960.00",
@@ -85,7 +85,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Kairos International Sicav - Bond ",
+      "fund": "Kairos International Sicav - Bond",
       "manco": null,
       "market value": "572,379.50",
       "maturity": "08/03/2028",
@@ -116,7 +116,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Kairos International Sicav - Bond ",
+      "fund": "Kairos International Sicav - Bond",
       "manco": null,
       "market value": "502,185.00",
       "maturity": "16/11/2025",
@@ -147,7 +147,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Kairos International Sicav - Bond ",
+      "fund": "Kairos International Sicav - Bond",
       "interest rate": "2%",
       "manco": null,
       "market value": "621,360.48",
@@ -179,7 +179,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Kairos International Sicav - Bond ",
+      "fund": "Kairos International Sicav - Bond",
       "interest rate": "4.75%",
       "manco": null,
       "market value": "618,276.00",

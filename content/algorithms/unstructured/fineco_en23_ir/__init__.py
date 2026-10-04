@@ -1,23 +1,22 @@
 """Unstructured module for FINECO-EN23@IR"""
 
-import re
-
 import esg
-import sfdr
-from freeports.core import PdfBlock, Pipeline
-from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict
+from freeports.core import Pipeline
+from freeports.utils.pdf_extract import PdfLineSelection
 
 from . import investments
 from . import inv_managers
 from . import managment_company
-from . import fund_assets
 from . import esg_indicators
 
-#: Il nome del prodotto, che su questo formato **va a capo**.
+#: La regione del nome del prodotto, che su questo formato **va a capo**.
 #:
-#: `A1` restituisce un blocco per riga e non le riunisce, quindi qui il tubo se lo scrive il
-#: formato: e' la stessa regione che l'algoritmo precedente usava come `fund_selection`, e la stessa
-#: concatenazione dall'alto in basso, in modo che le righe che ne uscivano continuino a uscirne.
+#: Il modulo SFDR non la usa piu': la sua pipeline e' passata al livello `semistructured`
+#: (`sfdr_annex` con `product_joined`), che chiude la colonna sull'identificativo della persona
+#: giuridica invece che su un'ascissa fissa -- v. la voce `C33` e il commento nello YAML. Questa
+#: resta per la pagina degli **indicatori ESG**, che del nome ha bisogno insieme al numero di
+#: pagina e quindi non puo' usare il tubo del motore cosi' com'e': v.
+#: `esg_indicators.pdf_extract_fund`.
 product_set = (
     PdfLineSelection.area_from_bounds(
         # The left edge is the end of the annex's "means" label, which sits alone in the glossary
@@ -43,14 +42,6 @@ product_set = (
 ) | PdfLineSelection.text("Product name")
 
 
-def pdf_extract_product(page):
-    """Le righe del nome, dall'alto in basso, in un blocco solo."""
-    lines = pdflines_from_pagedict(page)
-    selected = sorted(product_set.select(lines), key=lambda line: line.bbox[1])
-    name = "".join(line.text for line in selected)
-    return [PdfBlock(sfdr.PRODUCT_BLOCK, {}, name)] if name.strip() else []
-
-
 pipelines = {
     "investments": Pipeline(
         pdf_extract=(
@@ -59,7 +50,7 @@ pipelines = {
             investments.pdf_extract_currency,
         )
     ),
-    "inv_managers_table": Pipeline(
+    "inv_managers": Pipeline(
         inv_managers.pdf_filter,
         inv_managers.text_extract,
         (inv_managers.deserialize, inv_managers.deserialize_fund),
@@ -68,17 +59,6 @@ pipelines = {
         managment_company.pdf_filter,
         managment_company.text_extract,
         (managment_company.deserialize, managment_company.deserialize_inv_manager),
-    ),
-    "fund_assets": Pipeline(
-        fund_assets.pdf_extract, fund_assets.text_filter, fund_assets.deserialize
-    ),
-    # Tre impaginazioni nello stesso documento -- il segno e' un'immagine su ventotto moduli, una
-    # `X` di testo su sei e un glifo `funddsymbol` su uno -- e il modello le legge tutt'e tre senza
-    # che il formato scelga. Il nome del prodotto invece e' del formato, perche' va a capo: v.
-    # `pdf_extract_product`.
-    "sfdr_classification": sfdr.ENGLISH.pipeline(
-        product_pipes=(pdf_extract_product,),
-        product_prefix=re.compile(r"Product name.*:\s*"),
     ),
     # La pagina del modulo legge il nome **due volte**: una per l'articolo SFDR, una per lasciarlo
     # alla pagina degli indicatori, che il comparto non lo nomina. Sono due dati diversi sulla

@@ -47,25 +47,25 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `tests.formats.single_page` | `MEDIOLANUM-ES24.B` | 2 pages: 1, 20 |
 | `docs.python` | `algorithms.unstructured.eurizon_en23` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.esg_indicators` | 0.0 % |
-| `docs.python` | `algorithms.unstructured.eurizon_en23.fund_assets` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.merging` | 0.0 % |
-| `docs.python` | `algorithms.unstructured.fineco_en23_ir.fund_assets` | 0.0 % |
-| `docs.python` | `algorithms.unstructured.fineco_en23_lux.fund_assets` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.mediolanum_en24` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.mediolanum_it24_a` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.mediolanum_it24_a.esg_indicators` | 0.0 % |
-| `docs.python` | `algorithms.unstructured.mediolanum_it24_a.fund_assets` | 0.0 % |
 | `docs.python` | `templates.inv_managers.assignment.Declared` | 0.0 % |
 | `docs.python` | `templates.manco.reading.Between` | 0.0 % |
 | `docs.python` | `templates.mediolanum_24` | 0.0 % |
 | `docs.python` | `templates.mediolanum_24.inv_managers` | 0.0 % |
 | `docs.python` | `templates.mediolanum_24.inv_managers.PdfExtractBeginPage` | 0.0 % |
-| `lint.python` | `F401` | 71 |
+| `docs.python` | `templates.mediolanum_24.inv_managers.PdfExtractEndPage` | 0.0 % |
+| `docs.python` | `algorithms.unstructured.eurizon_it24` | 10.0 % |
+| `docs.python` | `algorithms.unstructured.kairos_en23` | 23.1 % |
+| `docs.python` | `templates.carryover.record.Record` | 33.3 % |
+| `lint.python` | `F401` | 52 |
 | `lint.python` | `E741` | 10 |
 | `lint.python` | `F841` | 3 |
 | `lint.python` | `F811` | 1 |
 | `grants.coverage` | `basic check` | 1.0 % |
 
-Only the worst 15 lines of each metric are shown: tests.formats.single_page (22 more), docs.python (69 more). `freeports-dev ci-report --format json` carries every one of them.
+Only the worst 15 lines of each metric are shown: tests.formats.single_page (22 more), docs.python (67 more). `freeports-dev ci-report --format json` carries every one of them.
 
 <!-- freeports-dev:end -->

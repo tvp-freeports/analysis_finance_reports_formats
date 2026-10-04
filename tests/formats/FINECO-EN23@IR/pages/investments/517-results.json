@@ -10,7 +10,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "fund": "Fidelity Focus Equity FAM Fund",
         "market_value": 7672832.0,
         "nominal_quantity": 234000.0,
         "perc_net_assets": 0.0068
@@ -28,7 +28,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "fund": "Fidelity Focus Equity FAM Fund",
         "market_value": 24359881.0,
         "nominal_quantity": 128684.0,
         "perc_net_assets": 0.0217
@@ -46,7 +46,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "fund": "Fidelity Focus Equity FAM Fund",
         "market_value": 15209491.0,
         "nominal_quantity": 79865.0,
         "perc_net_assets": 0.0135
@@ -64,7 +64,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "fund": "Fidelity Focus Equity FAM Fund",
         "market_value": 44041665.0,
         "nominal_quantity": 200746.0,
         "perc_net_assets": 0.0392
@@ -82,7 +82,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "fund": "Fidelity Focus Equity FAM Fund",
         "market_value": 32661529.0,
         "nominal_quantity": 130427.0,
         "perc_net_assets": 0.0291
@@ -100,7 +100,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "fund": "Fidelity Focus Equity FAM Fund",
         "market_value": 3534358.0,
         "nominal_quantity": 59702.0,
         "perc_net_assets": 0.0031
@@ -118,7 +118,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "Fidelity Focus Equity FAM Fund (continued)",
+        "fund": "Fidelity Focus Equity FAM Fund",
         "market_value": 100108358.0,
         "nominal_quantity": 237505.0,
         "perc_net_assets": 0.0891
@@ -129,7 +129,7 @@
     "__pydantic__": {
       "class": "freeports.output:Fund",
       "data": {
-        "name": "FIDELITY FOCUS EQUITY FAM FUND CONTINUED"
+        "name": "FIDELITY FOCUS EQUITY FAM FUND"
       }
     }
   }

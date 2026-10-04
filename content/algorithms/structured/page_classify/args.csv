@@ -77,7 +77,7 @@ DANSKEINVEST-EN24/4,"calibri-bold ""INVESTMENT MANAGER""",inv_managers
 EURIZON-EN21,"ArialMT-Bold ""Face value/""",investments
 EURIZON-EN21/1,"arialmt-bold ""^Management Company:""",manco
 FIDEURAM-EN23,"Arial ""Country""",investments
-FIDEURAM-EN23/1,"arial-bold ""^1. GENERAL INFORMATION""",manco_note
+FIDEURAM-EN23/1,"arial-bold ""^1. GENERAL INFORMATION""",manco
 FIDEURAM-EN23/2,"arial ""^The Management Company has designated the following Investment Managers""",inv_managers
 FIDEURAM-EN23/3,"arial-bold ""^STATEMENTS OF NET ASSETS AS OF""",fund_assets
 FIDEURAM-IT24/0,"Tahoma,Bold ""Titolo""",investments
@@ -118,10 +118,10 @@ MEDIOLANUM-EN24/1,"[9.48] ""MANAGER AND GLOBAL""",inv_managers_begin
 MEDIOLANUM-EN24/2,"[9.48] ""TRUSTEE/DEPOSITARY""",inv_managers_end
 FINECO-EN23@IR/0,"TimesNewRoman,Bold ""Domicile""",investments
 FINECO-EN23@IR/0,"TimesNewRoman,Bold ""Shares""",investments
-FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Notes to the Financial Statements""",inv_managers_table
-FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Sub-Fund""",inv_managers_table
-FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Investment Manager""",inv_managers_table
-FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Date of Commencement""",inv_managers_table
+FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Notes to the Financial Statements""",inv_managers
+FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Sub-Fund""",inv_managers
+FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Investment Manager""",inv_managers
+FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Date of Commencement""",inv_managers
 FINECO-EN23@IR/2,"TimesNewRoman,Bold [10.02] ""Directors and Other Information""",manco
 FINECO-EN23@IR/2,"TimesNewRoman,Bold [10.02] ""Manager""",manco
 FINECO-EN23@IR/3,"timesnewromanbold [10.02] ""Statement of Financial Position""",fund_assets
@@ -159,3 +159,14 @@ AMUNDI-EN24/12,"arialmt ""^Statement of Net Assets$""",fund_assets
 AMUNDI-EN24/12,"verdana-bold ""^Net asset value$""",fund_assets
 AMUNDI-EN24/13,"calibri-bolditalic [8.28] ""^How did the sustainability indicators perform""",esg_indicators
 AMUNDI-EN24/14,"arial-boldmt [7] ""^MANAGEMENT COMPANY""",manco
+ANIMA_SGR-IT24/1,"Lato,Bold|TrebuchetMS-Bold|Open Sans,Bold ""Titoli""",investments
+ANIMA_SGR-IT24/1,"Lato,Bold|TrebuchetMS-Bold|Open Sans,Bold ""Divisa""",investments
+ANIMA_SGR-IT24/2,"Lato,Bold|TrebuchetMS-Bold|Open Sans,Bold ""ONDO OGGETTO DI""",merges
+ANIMA_SGR-IT24/2,"Lato,Bold|TrebuchetMS-Bold|Open Sans,Bold ""ONDO RICEVENTE""",merges
+ANIMA_SGR-IT24/3,"""aveva un obiettivo di investimento sostenibile""",sfdr_classification
+ANIMA_SGR-IT24/4,"""^SITUAZIONE PATRIMONIALE""",fund_assets_begin
+ANIMA_SGR-IT24/4,"""^TOTALE ATTIVITA'""",fund_assets_begin
+ANIMA_SGR-IT24/5,"""^PASSIVITA' E NETTO""",fund_assets_end
+ANIMA_SGR-IT24/5,"""^TOTALE PASSIVITA'""",fund_assets_end
+ANIMA_SGR-IT24/6,"[18:21] ""^INDICE""",manco
+ANIMA_SGR-IT24/7,"timesnewromanbolditalic[9.5:10.5] ""prestazione degli indicatori""",esg_indicators

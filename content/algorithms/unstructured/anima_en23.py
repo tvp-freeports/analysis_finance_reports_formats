@@ -3,12 +3,9 @@
 import logging as log
 from typing import List, TypeAlias
 import re
-import sfdr
 from freeports.core import Pipeline, PdfBlock, TextBlock
 from freeports.output import Fund, FundMerge
 from freeports.standard_funcs.pdf_extract import (
-    AssetsColumn,
-    PdfExtractAssetsStandard,
     PdfExtractInvestmentsStandard,
     PdfExtractCurrencyStandard,
     PdfExtractFundStandard,
@@ -23,7 +20,6 @@ from freeports.interfaces.text_blks import (
 )
 from freeports.standard_funcs.text_filter import (
     TextFilterManagmentCompanyStandard,
-    TextFilterAssetsStandard,
 )
 from freeports.utils.pdf_extract import (
     PdfLineSelection,
@@ -33,10 +29,8 @@ from freeports.utils.pdf_extract import (
 from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerFromManco,
-    DeserializerAssetsStandard,
 )
 from freeports.utils.deserialize import (
-    to_int,
     to_date_with_en_month
 )
 from freeports.utils.text_filter import MatchFund
@@ -119,38 +113,6 @@ pdf_extract_funds = PdfExtractFundStandard(
 )
 
 
-x0 = PdfLineSelection(font="helvetica-bold", font_size=(7.4, 7.6), text="Notes")
-y1 = PdfLineSelection(font="helvetica-bold", font_size=(7.4, 7.6), text="^Assets")
-pdf_extract = PdfExtractAssetsStandard(
-    fund_set=PdfLineSelection.area_from_bounds(x0=x0, y0=75.0, x1=1e6, y1=y1),
-    currency_set=None,
-    tot_assets=AssetsColumn(
-        PdfLineSelection(font="helvetica-bold", font_size=(7.4, 7.6), text="^Total Assets"),
-        vec=(1.2, -0.1),
-        mult=(100.0, 1.2),
-    ),
-    liabilities=AssetsColumn(
-        PdfLineSelection(font="helvetica-bold", font_size=(7.4, 7.6), text="^Total Liabilities"),
-        vec=(1.2, 1.0),
-        mult=(100.0, 1.7),
-    ),
-    net_assets=AssetsColumn(
-        PdfLineSelection(font="helvetica-bold", font_size=(7.4, 7.6), text="^Net Assets"),
-        vec=(1.2, 1.0),
-        mult=(100.0, 1.7),
-    ),
-    date=PdfLineSelection(font="helvetica-condensed-bold", text="^as at"),
-    table_condition=True,
-)
-
-text_filter = TextFilterAssetsStandard(
-    "as at ([0-9]+ .+ [0-9]+)", "As at [0-9]+ .+ [0-9]+"
-)
-deserialize = DeserializerAssetsStandard(
-    num_converter=lambda txt: 0 if txt == "-" else to_int(txt),
-    date_converter=to_date_with_en_month,
-)
-
 
 def pdf_extract_merges(page):
     lines = pdflines_from_pagedict(page)
@@ -215,7 +177,6 @@ def deserialize_merges(txt_blk):
 
 
 pipelines = {
-    "fund_assets": Pipeline(pdf_extract, text_filter, deserialize),
     "manco": Pipeline(
         pdf_extract=PdfExtractManagmentCompanyStandard(
             PdfLineSelection.area_from_movewindow(
@@ -240,7 +201,4 @@ pipelines = {
         )
     ),
     "year_events": Pipeline(pdf_extract_merges, text_filter_merges, deserialize_merges),
-    # Il segno e' una `X` di testo in Calibri-Bold, e ce ne sono piu' d'una per pagina: quella
-    # della prima domanda la sceglie la posizione, non l'unicita'.
-    "sfdr_classification": sfdr.ENGLISH.pipeline()
 }

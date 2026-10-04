@@ -3,12 +3,12 @@
     "__text_block__": true,
     "type_block": "FUND",
     "metadata": {},
-    "content": " Sidera Funds SICAV – Balanced Growth",
+    "content": "Sidera Funds SICAV – Balanced Growth",
     "pdf_block": {
       "__pdf_block__": true,
       "type_block": "FUND_NAME",
       "metadata": {},
-      "content": " Sidera Funds SICAV – Balanced Growth"
+      "content": "Sidera Funds SICAV – Balanced Growth"
     }
   },
   {
@@ -22,7 +22,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": " Sidera Funds SICAV – Balanced Growth",
+      "fund": "Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "166,871.31",
       "quantity": "48,247.00",
@@ -52,7 +52,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": " Sidera Funds SICAV – Balanced Growth",
+      "fund": "Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "77,397.68",
       "quantity": "628.00",
@@ -82,7 +82,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": " Sidera Funds SICAV – Balanced Growth",
+      "fund": "Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "2,137,527.35",
       "quantity": "16,903.00",
@@ -112,7 +112,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": " Sidera Funds SICAV – Balanced Growth",
+      "fund": "Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "1,969,964.33",
       "quantity": "14,322.00",
@@ -142,7 +142,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": " Sidera Funds SICAV – Balanced Growth",
+      "fund": "Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "4,131,625.42",
       "quantity": "23,705.00",
@@ -172,7 +172,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": " Sidera Funds SICAV – Balanced Growth",
+      "fund": "Sidera Funds SICAV – Balanced Growth",
       "manco": null,
       "market value": "173,406.13",
       "quantity": "54.00",

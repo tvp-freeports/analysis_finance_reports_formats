@@ -25,3 +25,98 @@ FIDEURAM-IT24(investments):
     area:
       y_max: 73
   currency: "EUR"
+
+# Il segno e' una `X` di testo in Calibri-Bold, e ce ne sono piu' d'una per pagina: quella della
+# prima domanda la sceglie la posizione, non l'unicita'.
+ANIMA-EN23(sfdr_classification):
+  language: ENGLISH
+
+ANIMA_SGR-IT24(sfdr_classification):
+  language: ITALIAN
+
+ARCA-IT24(sfdr_classification):
+  language: ITALIAN
+
+EURIZON-EN23(sfdr_classification):
+  language: ENGLISH
+
+KAIROS-EN23(sfdr_classification):
+  language: ENGLISH
+
+# La seconda forma dello stesso documento (`R27`): l'etichetta porta qualcosa fra `name` e i
+# due punti, quindi il prefisso e' un'espressione e non la frase dell'allegato.
+KAIROS-EN23(sfdr_classification_2):
+  language: ENGLISH
+
+DANSKEINVEST-EN24(sfdr_classification):
+  language: ENGLISH
+
+FINECO-EN23@LUX(sfdr_classification):
+  language: ENGLISH
+
+# Il modulo di questo formato **non ha titolo**: prima l'articolo si deduceva fiutando la
+# prosa ("obiettivo di investimento sostenibile di questo" => 9), adesso si legge dalla
+# casella, che qui e' un'immagine sola nella banda -- la vuota e' disegnata.
+MEDIOLANUM-IT24.A(sfdr_classification):
+  language: ITALIAN
+
+AMUNDI-EN24(sfdr_classification):
+  language: ENGLISH
+  product_joined: true
+
+# Il segno e' una `X` di testo in Calibri-Bold su tutti e venticinque i moduli.
+AMUNDI-IT24(sfdr_classification):
+  language: ITALIAN
+  product_joined: true
+
+ASTERIA-EN24(sfdr_classification):
+  language: ENGLISH
+  product_joined: true
+
+# Il segno e' una `X` di testo, salvo p189 dove e' il `3` di Wingdings 2 -- lo stesso modulo,
+# due tipografie, e i riconoscitori sono tutti attivi per difetto.
+UBS-EN23(sfdr_classification):
+  language: ENGLISH
+  product_joined: true
+
+# Il segno e' una `X` di testo in Arial-BoldMT su tutti e quattro i moduli. Il nome del
+# prodotto sta sotto l'etichetta, non accanto, e va a capo sulla qualificazione.
+#
+# L'ombrello, pero', lo stesso documento lo scrive in due modi: `Sidera Funds SICAV -
+# Christian Equity` su una pagina e `Sidera Funds - Digital Worlds` sulle altre tre, mentre
+# il portafoglio lo scrive sempre `SIDERA FUNDS SICAV`. Per `R24` non basta toglierlo: va
+# tolto **e riscritto**, ed e' per questo che qui convivono una rimozione e un
+# `product_prepend`.
+#
+# Una delle quattro righe si perde lo stesso, e non per colpa del modulo: il portafoglio
+# intitola due comparti `... CHRISTIAN EQUITY*` e `... FINANCIAL BOND*`, col richiamo di
+# nota attaccato che `R16` vorrebbe via. Finche' e' li', il nome del modulo non puo'
+# corrispondere.
+CARNE-EN23(sfdr_classification):
+  language: ENGLISH
+  product_joined: true
+  product_prepend: "SIDERA FUNDS SICAV"
+
+# Il segno e' un'immagine, e il modulo e' quello italiano. Il nome del prodotto pero' non e'
+# scritto come lo scrivono gli investimenti: il portafoglio intitola i comparti
+# `Fondo Mediolanum ...`, il modulo `Mediolanum ...`. Senza rimettere davanti la parola che
+# manca, `R24` non regge e le due righe si perdono in silenzio.
+MEDIOLANUM-IT24.B(sfdr_classification):
+  language: ITALIAN
+  product_joined: true
+  product_prepend: "FONDO"
+
+# Tre impaginazioni nello stesso documento -- il segno e' un'immagine su ventotto moduli, una `X` di
+# testo su sei e un glifo `funddsymbol` su uno -- e il modello le legge tutt'e tre senza che il
+# formato scelga.
+#
+# Il nome del prodotto **va a capo**, quindi serve la lettura a colonna. Prima questo formato aveva
+# un tubo scritto a mano con il bordo destro della colonna fisso a `x1=372.94`, misurato su un nome
+# corto: a pagina 975 `FINECO AM EUROPEAN CORPORATE BOND FAM FUND` arriva a `x=391` e cadeva fuori,
+# quindi il blocco usciva con la sola etichetta e l'articolo si perdeva in silenzio. E' la voce
+# `C33`. La lettura a colonna del motore non ha un bordo fisso: chiude la colonna
+# sull'**identificativo della persona giuridica**, che su questo modulo sta *sotto* l'etichetta e
+# quindi chiude il blocco invece di stringerlo.
+FINECO-EN23@IR(sfdr_classification):
+  language: ENGLISH
+  product_joined: true

@@ -7,7 +7,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "date": "31 December 2023",
-      "fund": "ANIMA Short Term Bond ",
+      "fund": "ANIMA Short Term Bond",
       "liabilities": "(5,847,460)",
       "net_assets": "186,170,164",
       "tot_assets": "192,017,624"
@@ -23,7 +23,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "date": "31 December 2023",
-      "fund": "ANIMA Bond Dollar ",
+      "fund": "ANIMA Bond Dollar",
       "liabilities": "(4,346,904)",
       "net_assets": "309,539,141",
       "tot_assets": "313,886,045"
@@ -39,7 +39,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "date": "31 December 2023",
-      "fund": "ANIMA Global Bond ",
+      "fund": "ANIMA Global Bond",
       "liabilities": "(1,677,447)",
       "net_assets": "56,933,576",
       "tot_assets": "58,611,023"
@@ -55,7 +55,7 @@
         "__enum__": "freeports.consts:Currency:EUR"
       },
       "date": "31 December 2023",
-      "fund": "ANIMA Short Term Corporate Bond ",
+      "fund": "ANIMA Short Term Corporate Bond",
       "liabilities": "(520,833)",
       "net_assets": "221,500,443",
       "tot_assets": "222,021,276"

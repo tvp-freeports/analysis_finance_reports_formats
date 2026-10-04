@@ -12,7 +12,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:USD"
         },
-        "fund": "Kairos International Sicav - Innovation Trends ",
+        "fund": "Kairos International Sicav - Innovation Trends",
         "market_value": 1646910.0,
         "nominal_quantity": 8700.0,
         "perc_net_assets": 0.0143
@@ -32,7 +32,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:USD"
         },
-        "fund": "Kairos International Sicav - Innovation Trends ",
+        "fund": "Kairos International Sicav - Innovation Trends",
         "market_value": 333060.0,
         "nominal_quantity": 15600.0,
         "perc_net_assets": 0.0029
@@ -52,7 +52,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:USD"
         },
-        "fund": "Kairos International Sicav - Innovation Trends ",
+        "fund": "Kairos International Sicav - Innovation Trends",
         "market_value": 1279410.6,
         "nominal_quantity": 5820.0,
         "perc_net_assets": 0.0111
@@ -72,7 +72,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:USD"
         },
-        "fund": "Kairos International Sicav - Innovation Trends ",
+        "fund": "Kairos International Sicav - Innovation Trends",
         "market_value": 4149426.71,
         "nominal_quantity": 30899.0,
         "perc_net_assets": 0.0359
@@ -92,7 +92,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:USD"
         },
-        "fund": "Kairos International Sicav - Innovation Trends ",
+        "fund": "Kairos International Sicav - Innovation Trends",
         "market_value": 2148368.0,
         "nominal_quantity": 36290.0,
         "perc_net_assets": 0.0186

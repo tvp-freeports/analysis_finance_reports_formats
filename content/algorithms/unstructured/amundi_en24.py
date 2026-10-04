@@ -50,18 +50,13 @@ import re
 import carryover
 import esg
 import inv_managers
-import manco
 import renaming
 import sfdr
 from freeports.core import PdfBlock, Pipeline
-from freeports.standard_funcs.deserialize import DeserializerAssetsStandard
-from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
-from freeports.utils.deserialize import to_date, to_int
 from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
 from freeports.standard_funcs.deserialize import (
     DeserializerFundStandard,
     DeserializerInvestmentsManagerStandard,
-    DeserializerManagmentCompanyStandard,
 )
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractLabelledValueStandard,
@@ -165,153 +160,6 @@ _inv_managers = Pipeline(
     text_filter=text_filter_inv_managers,
     deserialize=(DeserializerInvestmentsManagerStandard(), DeserializerFundStandard()),
 )
-
-
-
-# ----------------------------------------------------------------------------------------------
-# Il prospetto patrimoniale, due comparti e quattro colonne per pagina (`FA-5`)
-# ----------------------------------------------------------------------------------------------
-# La pagina è una tabella a quattro colonne: due comparti per due esercizi. Le colonne si
-# riconoscono dal **bordo destro**, perché i numeri sono allineati a destra e la testata — data,
-# valuta — lo è con loro: sulla riga dei totali il bordo destro vale 371,6 · 430,3 · 493,9 · 552,6
-# e sulla riga delle date e su quella delle valute vale gli stessi quattro.
-#
-# L'etichetta della riga sta a `x=42,5` e il richiamo di nota a `x≈300`: oltre 318 ci sono solo
-# valori e testate, ed è così che le une si separano dalle altre senza nominarle.
-
-_ASSETS_LABEL_EDGE = 318.0
-_ASSETS_COLUMN_TOLERANCE = 2.0
-
-_ASSETS_HEAD = PdfLineSelection(font="verdana", font_size=(5.5, 6.5))
-_ASSETS_TOTALS = PdfLineSelection(font="verdana-bold", font_size=(5.5, 6.5))
-_ASSETS_RIGHT = PdfLineSelection.area(_ASSETS_LABEL_EDGE, 0.0, 1e6, 1e6)
-
-# Le tre bande della testata, misurate: i nomi cominciano a 140,3, le date a 174,9, le valute a
-# 182,0. Nessuna delle tre porta un'etichetta, e si separano per **bordo superiore** e non per
-# area: le scatole sono alte 7,3 punti, quindi quella della data finisce a 182,2 e quella della
-# valuta comincia a 182,0 — si sovrappongono, e un'area che le contenga tutt'e due non esiste.
-_ASSETS_NAME_BAND = (135.0, 150.0)
-_ASSETS_DATE_BAND = (170.0, 180.0)
-_ASSETS_CURRENCY_BAND = (180.0, 190.0)
-
-
-def _assets_band(lines, band):
-    """Le righe della testata la cui **cima** cade nella banda, oltre la colonna delle etichette."""
-    top, bottom = band
-    return [
-        line
-        for line in (_ASSETS_HEAD & _ASSETS_RIGHT).select(lines)
-        if top <= line.bbox[1] < bottom and line.text.strip()
-    ]
-
-_ASSETS_ROWS = (
-    ("tot_assets", "^Assets$"),
-    ("liabilities", "^Liabilities$"),
-    ("net_assets", "^Net asset value$"),
-)
-
-
-def _assets_row(lines, label):
-    """I valori della riga in grassetto che `label` apre, oltre la colonna delle etichette."""
-    found = (_ASSETS_TOTALS & PdfLineSelection(text=label)).select(lines)
-    if not found:
-        return []
-    top, bottom = found[0].bbox[1], found[0].bbox[3]
-    return [
-        line
-        for line in (_ASSETS_TOTALS & _ASSETS_RIGHT).select(lines)
-        if line.bbox[1] < bottom and line.bbox[3] > top and line.text.strip()
-    ]
-
-
-def _assets_column(edges, line):
-    """L'indice della colonna il cui bordo destro coincide con quello della riga, o `None`."""
-    for index, edge in enumerate(edges):
-        if abs(edge - line.bbox[2]) <= _ASSETS_COLUMN_TOLERANCE:
-            return index
-    return None
-
-
-def _assets_owner(names, edge):
-    """Il comparto della colonna: il nome della testata **più vicino** al suo bordo destro.
-
-    Il nome di un comparto copre le sue due colonne, ma la sua scatola non arriva sempre fino al
-    bordo della seconda: `Climate Transition Global Equity` finisce a 420,2 e la colonna
-    dell'esercizio precedente a 430,3. Si misura quindi la distanza dall'intervallo del nome, che
-    su questa pagina è zero per la prima colonna e dieci punti per la seconda, contro i quaranta
-    che la separano dal comparto accanto.
-    """
-    def distance(line):
-        if line.bbox[0] <= edge <= line.bbox[2]:
-            return 0.0
-        return min(abs(line.bbox[0] - edge), abs(line.bbox[2] - edge))
-
-    return min(names, key=distance) if names else None
-
-
-def pdf_extract_fund_assets(page):
-    """Un blocco per colonna: comparto, esercizio, valuta e i tre totali."""
-    lines = pdflines_from_pagedict(page)
-    dates = sorted(_assets_band(lines, _ASSETS_DATE_BAND), key=lambda line: line.bbox[2])
-    if not dates:
-        return []
-    edges = [line.bbox[2] for line in dates]
-    names = _assets_band(lines, _ASSETS_NAME_BAND)
-
-    currencies = [None] * len(edges)
-    for line in _assets_band(lines, _ASSETS_CURRENCY_BAND):
-        index = _assets_column(edges, line)
-        if index is not None:
-            currencies[index] = line.text.strip()
-
-    amounts = {}
-    for key, label in _ASSETS_ROWS:
-        column = [None] * len(edges)
-        for line in _assets_row(lines, label):
-            index = _assets_column(edges, line)
-            if index is not None:
-                column[index] = line.text.strip()
-        amounts[key] = column
-
-    blocks = []
-    for index, date in enumerate(dates):
-        owner = _assets_owner(names, edges[index])
-        values = {key: amounts[key][index] for key in amounts}
-        # Una colonna che porta un trattino al posto di un numero è un comparto che quell'esercizio
-        # non esisteva: non è uno zero, è l'assenza, e la riga non si scrive.
-        if owner is None or any(v is None or v in ("-", "–") for v in values.values()):
-            continue
-        metadata = {
-            "fund": owner.text.strip(),
-            "currency": currencies[index],
-            "date": date.text.strip(),
-        }
-        metadata.update(values)
-        blocks.append(PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, metadata, ""))
-    return blocks
-
-
-assets_filter = TextFilterAssetsStandard()
-
-
-def text_filter_fund_assets(pdf_blks, filter_data):
-    """Di ogni comparto **il solo esercizio in corso** (`R5`), scelto confrontando le date.
-
-    Quale delle due colonne sia quella corrente lo dice la testata, e leggerlo è interpretazione:
-    per questo si decide qui e non nel `pdf_extract`, che si limita a consegnare tutte le colonne
-    con la loro data.
-    """
-    latest = {}
-    for block in pdf_blks:
-        fund = block.metadata["fund"]
-        date = to_date(block.metadata["date"])
-        if fund not in latest or date > latest[fund][0]:
-            latest[fund] = (date, block)
-    return assets_filter([block for _, block in latest.values()], filter_data)
-
-
-deserialize_fund_assets = DeserializerAssetsStandard(to_int, to_date)
-
 
 
 
@@ -540,22 +388,11 @@ pipelines = {
         pdf_extract_esg_fund, text_filter_esg_fund, esg_carry.deposit
     ),
     "esg_indicators": Pipeline(pdf_extract_esg, text_filter_esg, esg.deserialize),
-    "fund_assets": Pipeline(
-        pdf_extract_fund_assets, text_filter_fund_assets, deserialize_fund_assets
-    ),
     "inv_managers_begin": _inv_managers,
     "inv_managers_end": Pipeline(
         pdf_extract=pdf_extract_inv_managers_end,
         text_filter=text_filter_inv_managers,
         deserialize=(DeserializerInvestmentsManagerStandard(), DeserializerFundStandard()),
-    ),
-    "sfdr_classification": sfdr.ENGLISH.pipeline(
-        product_joined=True,
-        # Il modulo scrive l'ombrello davanti al comparto, gli investimenti no: `R24`.
-        product_prefix=(
-            re.compile(r"Product name\s*:\s*"),
-            re.compile(r"^AMUNDI FUNDS\s+"),
-        ),
     ),
     "renaming": Pipeline(
         pdf_extract=pdf_extract_renaming,
@@ -570,7 +407,5 @@ pipelines = {
             ResultStandardExtraction.MANAGEMENT_COMPANY.name,
             "managment company",
         ),
-        manco.text_filter(manco.Between(after="MANAGEMENT COMPANY")),
-        DeserializerManagmentCompanyStandard(),
     ),
 }

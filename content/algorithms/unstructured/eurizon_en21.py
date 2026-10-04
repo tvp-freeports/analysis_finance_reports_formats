@@ -17,13 +17,8 @@ d'indirizzo non concorrono: a dividerle dai nomi non è la geometria — un indi
 nome esattamente come ci sta il nome successivo — ma la parentesi, che solo i nomi portano.
 """
 
-import manco
 from freeports.core import Pipeline
 from freeports.interfaces.pdf_blks import ResultStandardExtraction
-from freeports.standard_funcs.deserialize import (
-    DeserializerInvestmentsManagerFromManco,
-    DeserializerManagmentCompanyStandard,
-)
 from freeports.standard_funcs.pdf_extract import PdfExtractLabelledValueStandard
 from freeports.utils.pdf_extract import (
     LabelledValueTake,
@@ -49,17 +44,6 @@ pdf_extract_manco = PdfExtractLabelledValueStandard(
     stop=next_label,
 )
 
-text_filter_manco = manco.text_filter(
-    manco.Between(before=r"\("), among=manco.most_recent
-)
-
 pipelines = {
-    "manco": Pipeline(
-        pdf_extract_manco,
-        text_filter_manco,
-        (
-            DeserializerManagmentCompanyStandard(),
-            DeserializerInvestmentsManagerFromManco(),
-        ),
-    ),
+    "manco": Pipeline(pdf_extract_manco),
 }

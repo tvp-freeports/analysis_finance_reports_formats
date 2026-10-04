@@ -1,1 +1,132 @@
-{}
+ANIMA-EN23(sfdr_classification):
+  language: ENGLISH
+
+ANIMA_SGR-IT24(sfdr_classification):
+  language: ITALIAN
+
+ARCA-IT24(sfdr_classification):
+  language: ITALIAN
+
+EURIZON-EN23(sfdr_classification):
+  language: ENGLISH
+
+KAIROS-EN23(sfdr_classification):
+  language: ENGLISH
+
+KAIROS-EN23(sfdr_classification_2):
+  language: ENGLISH
+  product_prefix:
+    - pattern: 'Product name.*:\s*'
+
+DANSKEINVEST-EN24(sfdr_classification):
+  language: ENGLISH
+  # Il nome sta sulla riga dell'etichetta, quindi i due tubi predefiniti bastano; l'ombrello
+  # davanti invece va tolto, che gli investimenti non lo scrivono.
+  product_prefix:
+    - pattern: 'Product name\s*:\s*'
+    - pattern: '^Danske Invest SICAV\s+'
+
+FINECO-EN23@LUX(sfdr_classification):
+  language: ENGLISH
+  product_prefix:
+    - pattern: 'Product name.*:\s*'
+
+MEDIOLANUM-IT24.A(sfdr_classification):
+  language: ITALIAN
+  # Un letterale e due espressioni, e l'ordine conta: il filtro toglie prima tutti i letterali e
+  # poi tutte le espressioni.
+  product_prefix:
+    - 'Nome del prodotto: '
+    - pattern: ' \(.*\)'
+    - pattern: ', un comparto .*'
+
+AMUNDI-EN24(sfdr_classification):
+  language: ENGLISH
+  # Il modulo scrive l'ombrello davanti al comparto, gli investimenti no: `R24`.
+  product_prefix:
+    - pattern: 'Product name\s*:\s*'
+    - pattern: '^AMUNDI FUNDS\s+'
+
+AMUNDI-IT24(sfdr_classification):
+  language: ITALIAN
+  product_prefix:
+    - pattern: 'Nome del prodotto\s*:\s*'
+
+ASTERIA-EN24(sfdr_classification):
+  language: ENGLISH
+  # I due punti sono doppi su una pagina, e la qualificazione fra parentesi -- `(the "Sub-Fund")`,
+  # `(the "Portfolio")` -- chiude ogni nome.
+  product_prefix:
+    - pattern: 'Product name\s*:[\s:]*'
+    - pattern: '\s*\((?:the|il|la)\s[^)]*\)\s*$'
+
+UBS-EN23(sfdr_classification):
+  language: ENGLISH
+  # `(the "subfund")` sta attaccato al nome su otto moduli su nove, e la normalizzazione lo incolla
+  # al nome invece di toglierlo: `R24` non reggerebbe.
+  product_prefix:
+    - pattern: 'Product name\s*:\s*'
+    - pattern: '\s*\((?:the|il|la)\s[^)]*\)\s*$'
+
+CARNE-EN23(sfdr_classification):
+  language: ENGLISH
+  product_prefix:
+    - pattern: 'Product name\s*:\s*'
+    - pattern: 'Sidera Funds(?: SICAV)?\s*[–-]\s*'
+    - pattern: '\s*\((?:the|il|la)\s[^)]*\)\s*$'
+
+MEDIOLANUM-IT24.B(sfdr_classification):
+  language: ITALIAN
+  product_prefix:
+    - pattern: 'Nome del prodotto\s*:\s*'
+
+# `C01`. Il gestore degli investimenti qui **non** ricade sulla societa' di gestione: p8-9 lo
+# dichiarano, ed e' `IM-2`.
+AMUNDI-EN24(manco):
+  after: "MANAGEMENT COMPANY"
+
+# Il nome non c'e' **nel ruolo**: il rapporto lo scrive tre volte in prosa, ma in frasi che
+# parlano del controllo societario e della sede legale, non di chi gestisce i fondi. Il
+# `pdf_extract` resta Python e serve solo a dare alla pipeline **un** blocco, che questo
+# filtro non guarda.
+AMUNDI-IT24(manco):
+  name: "Amundi SGR S.p.A."
+
+# L'etichetta apre la riga e il nome e' il resto, nella testata di **ogni** pagina (D1 p3).
+ANIMA_SGR-IT24(manco):
+  after: "Società di Gestione del Risparmio"
+
+# `C03` e `C12`: il nome e' tutta la riga, quindi non si ritaglia nessun pezzo -- ne' `after`
+# ne' `before`, che e' la lettura della riga intera ripulita dagli spazi.
+ANIMA_SICAV-EN24(manco):
+  {}
+
+# `U6`, p7: il bilancio nomina **tutt'e due** le societa' col loro periodo fra parentesi, e si
+# tiene quella in carica alla data di chiusura. Le due righe d'indirizzo non portano nessuna
+# qualificazione e non concorrono.
+EURIZON-EN21(manco):
+  before: "\\("
+  among: most_recent
+
+# D1 p7: il nome viene dopo la parola `gestione` e finisce alla virgola.
+EURIZON-IT24(manco):
+  after: "gestione"
+  before: ","
+
+# p67: il nome sta **in mezzo** a una frase di prosa, che si chiude su
+# `(the “Management Company”)` -- la parentesi va protetta, perche' `before` e' un
+# frammento di espressione regolare e non testo da cercare alla lettera.
+FIDEURAM-EN23(manco):
+  after: "it is managed by"
+  before: "\\(the"
+
+# `C09` e `C14`: il nome fra la formula e la virgola, e il residuo dei gestori che gli ricade
+# addosso perche' nessun delegato e' dichiarato.
+MEDIOLANUM-IT24.B(manco):
+  after: "rispetto al Fondo e a"
+  before: ","
+
+FINECO-EN23@IR(sfdr_classification):
+  language: ENGLISH
+  product_prefix:
+    - pattern: 'Product name.*:\s*'

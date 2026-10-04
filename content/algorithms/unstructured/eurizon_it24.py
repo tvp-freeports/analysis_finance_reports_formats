@@ -4,7 +4,6 @@ import re
 
 import carryover
 import esg
-import manco
 import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
@@ -26,9 +25,7 @@ from freeports.utils.pdf_extract import (
 )
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.standard_funcs.deserialize import (
-    DeserializerAssetsStandard,
-    DeserializerManagmentCompanyStandard,
-    DeserializerInvestmentsManagerFromManco
+    DeserializerAssetsStandard
 )
 from freeports.utils.deserialize import to_date_with_it_month, to_int, deserialize_block_type
 from freeports.utils.text_filter import MatchFund
@@ -76,9 +73,6 @@ pdf_filter_manco = PdfExtractLabelledValueStandard(
     ResultStandardExtraction.MANAGEMENT_COMPANY.name,
     "managment company",
 )
-
-text_filter_manco = manco.text_filter(manco.Between(after="gestione", before=","))
-
 
 deselection_list = [
     PdfLineSelection(font="TrebuchetMS", text="Totale"),
@@ -410,14 +404,7 @@ pipelines = {
         text_filter=text_filter_fund_assets_end,
         deserialize=DeserializerAssetsStandard(to_int),
     ),
-    "manco": Pipeline(
-        pdf_extract=pdf_filter_manco,
-        text_filter=text_filter_manco,
-        deserialize=(
-            DeserializerManagmentCompanyStandard(),
-            DeserializerInvestmentsManagerFromManco(),
-        ),
-    ),
+    "manco": Pipeline(pdf_extract=pdf_filter_manco),
     "investments": Pipeline(
         pdf_extract=(
             PdfExtractInvestmentsStandard(
@@ -442,7 +429,7 @@ pipelines = {
     # `Nome prodotto` e non `Nome del prodotto`, e le due opzioni della riga sotto cominciano in
     # minuscolo. Il titolo l'allegato non ce l'ha -- su tutti e 200 i moduli della raccolta -- e
     # `R34` non ha niente da verificare.
-    "sfdr_page_1": sfdr.ITALIAN.pipeline(
+    "sfdr_classification": sfdr.ITALIAN.pipeline(
         product="Nome prodotto",
         product_prefix=re.compile(r"Nome prodotto\s*:\s*"),
         made="ha effettuato investimenti sostenibili",

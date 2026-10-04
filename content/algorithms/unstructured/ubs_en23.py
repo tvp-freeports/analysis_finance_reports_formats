@@ -534,15 +534,4 @@ pipelines = {
             DeserializerFundStandard(),
         ),
     ),
-    # Il segno e' una `X` di testo, salvo p189 dove e' il `3` di Wingdings 2 -- lo stesso modulo,
-    # due tipografie, e i riconoscitori sono tutti attivi per difetto.
-    "sfdr_classification": sfdr.ENGLISH.pipeline(
-        product_joined=True,
-        # `(the "subfund")` sta attaccato al nome su otto moduli su nove, e la
-        # normalizzazione lo incolla al nome invece di toglierlo: `R24` non reggerebbe.
-        product_prefix=(
-            re.compile(r"Product name\s*:\s*"),
-            re.compile(r"\s*\((?:the|il|la)\s[^)]*\)\s*$"),
-        ),
-    ),
 }
