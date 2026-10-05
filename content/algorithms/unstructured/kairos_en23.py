@@ -2,7 +2,6 @@
 
 import re
 
-import fund_name
 from freeports.standard_funcs.text_filter import (
     TextFilterInvestmentsStandard,
     TextFilterManagmentCompanyStandard
@@ -38,26 +37,31 @@ from datetime import date
 market_value_regex = re.compile(r"(([0-9]+,)?[0-9]+,?[0-9]+\.[0-9]{2}) ")
 # non sono sicuro di come ho riscritto questa regex e a cosa servivano le parentesi
 
-std = TextFilterInvestmentsStandard(
+#: Il nome del comparto porta il confronto con l'esercizio prima fra parentesi
+#: (`Kairos International Sicav - Bond (2023: 4.21%)`) e, su alcune pagine, un asterisco: niente
+#: dei due fa parte del nome. Ripulirlo nei **due** posti in cui finisce -- il blocco del fondo e
+#: la chiave `fund` dei metadati di ogni titolo -- lo fa il tubo del motore da quando `C28` gli ha
+#: dato `remove_from_fund_regexes`: era un pezzo condiviso del repo, ed e' una parametrizzazione.
+FUND_NAME_CUTS = (r"\s*\(.*\)", r"\*")
+
+cleaned_std = TextFilterInvestmentsStandard(
     nominal_quantity_pos=0,
     perc_net_assets_pos=3,
     acquisition_currency_pos=1,
     market_value_pos=2,
+    remove_from_fund_regexes=FUND_NAME_CUTS,
 )
-
-#: Il nome del comparto porta il confronto con l'esercizio prima fra parentesi
-#: (`Kairos International Sicav - Bond (2023: 4.21%)`) e, su alcune pagine, un asterisco: niente
-#: dei due fa parte del nome. Ripulirlo nei **due** posti in cui finisce -- il blocco del fondo e
-#: la chiave `fund` dei metadati di ogni titolo -- e' lavoro del pezzo condiviso: era scritto a
-#: mano qui, e qui restava.
-FUND_NAME_CUTS = {"drop": (re.compile(r"\(.*\)"),), "substrings": ("*",)}
-
-cleaned_std = fund_name.cleaned(std, **FUND_NAME_CUTS)
 
 
 def remove_fund_excess(txt):
-    """Lo stesso ripulito, su una stringa sola: lo chiama la lettura delle fusioni."""
-    return fund_name.strip(txt, **FUND_NAME_CUTS)
+    """Gli stessi tagli su una stringa sola: lo chiama la lettura delle fusioni.
+
+    Il tubo del motore li fa sui blocchi; qui il nome arriva da un'espressione regolare sulla prosa
+    della nota, che di blocchi non ne ha.
+    """
+    for pattern in FUND_NAME_CUTS:
+        txt = re.sub(pattern, "", txt)
+    return " ".join(txt.split())
 
 
 def text_filter(pdf_blks, target_companies):

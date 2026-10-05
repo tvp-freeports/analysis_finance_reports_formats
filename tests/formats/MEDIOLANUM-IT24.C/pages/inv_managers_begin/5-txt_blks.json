@@ -1,0 +1,90 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Convertible Strategy Collection"
+        ]
+      }
+    },
+    "content": "Advent Capital Management LLC",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Financial Income Strategy"
+        ]
+      }
+    },
+    "content": "Algebris (UK) Limited",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Dynamic International Value Opportunity",
+          "Socially Responsible Investment Collection"
+        ]
+      }
+    },
+    "content": "AQR Capital Management LLC",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CONVERTIBLE STRATEGY COLLECTION",
+          "DYNAMIC INTERNATIONAL VALUE OPPORTUNITY",
+          "EQUILIBRIUM",
+          "FINANCIAL INCOME STRATEGY",
+          "SOCIALLY RESPONSIBLE INVESTMENT COLLECTION"
+        ]
+      }
+    },
+    "content": "Mediolanum International Funds Limited ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
+      "metadata": {
+        "group": 0
+      },
+      "content": "Mediolanum International Funds Limited "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "CONVERTIBLE STRATEGY COLLECTION",
+          "DYNAMIC INTERNATIONAL VALUE OPPORTUNITY",
+          "EQUILIBRIUM",
+          "FINANCIAL INCOME STRATEGY",
+          "SOCIALLY RESPONSIBLE INVESTMENT COLLECTION"
+        ]
+      }
+    },
+    "content": "Mediolanum International Funds Limited ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
+      "metadata": {
+        "group": 0
+      },
+      "content": "Mediolanum International Funds Limited "
+    }
+  }
+]

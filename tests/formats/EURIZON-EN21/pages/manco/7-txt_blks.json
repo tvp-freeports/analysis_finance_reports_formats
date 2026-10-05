@@ -1,6 +1,47 @@
 [
   {
     "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "EURO FIXED INCOME"
+        ]
+      }
+    },
+    "content": "Eurizon Capital SGR S.p.A.",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {
+        "group": 1
+      },
+      "content": "Eurizon Capital SGR S.p.A."
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "HIGH YIELD 1 5 YEARS EURO HEDGED",
+          "HIGH YIELD BOND"
+        ]
+      }
+    },
+    "content": "PGIM, Inc.",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {
+        "group": 5
+      },
+      "content": "PGIM, Inc."
+    }
+  },
+  {
+    "__text_block__": true,
     "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "managed_funds": {

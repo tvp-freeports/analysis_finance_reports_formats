@@ -1,0 +1,16 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "HIGH YIELD 1 5 YEARS EURO HEDGED",
+            "HIGH YIELD BOND"
+          ]
+        },
+        "name": "PGIM Limited"
+      }
+    }
+  }
+]

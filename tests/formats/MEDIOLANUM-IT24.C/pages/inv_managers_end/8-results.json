@@ -1,0 +1,28 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "Socially Responsible Investment Collection"
+          ]
+        },
+        "name": "Wellington Management International Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "Convertible Strategy Collection"
+          ]
+        },
+        "name": "Zazove Associates LLC"
+      }
+    }
+  }
+]

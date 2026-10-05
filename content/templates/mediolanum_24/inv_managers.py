@@ -32,18 +32,30 @@ l=190.0
 r=1e6
 table_cfg = TableConfig(ColumnConfig(limits=(l,r)))
 
-deselection=(
-    PdfLineSelection.text("^1$") |
-    PdfLineSelection.text("^2$") |
-    PdfLineSelection.text("^3$") |
-    PdfLineSelection.text("^4$") |
-    PdfLineSelection.text("^5$") |
-    PdfLineSelection.text("^6$") |
-    PdfLineSelection.text("^7$") |
-    PdfLineSelection.text("^8$") |
-    PdfLineSelection.text("^9$") |
-    PdfLineSelection.text("^ $")
-)
+deselection = PdfLineSelection.text("^ $")
+
+# The note references of this section are superscripts in a font of their own: the body of the
+# table is 9.48 (9.6 on MEDIOLANUM-IT24.C) and every reference is 6. Measured on the four pages of
+# each of the three reports.
+#
+# They have to go, because a row is read by joining its lines and the reference ends up glued to
+# what it qualifies: `Socially Responsible Investment Collection` plus the superscript `2*` is one
+# fund in the report and two in the output, and `Blackrock Investment Management (UK) Limited`
+# plus `6` is a manager whose name no other page spells that way.
+#
+# Small font is not enough to recognise one, because the **ordinals** of the addresses are
+# superscripts in that same font — `4`+`th Floor`, `3`+`rd Floor` — and those belong to the text.
+# What tells them apart is that a note reference carries no letter: it is digits, and sometimes an
+# asterisk when a second note is stuck to the first.
+NOTE_REFERENCE_SIZE = 7.0
+
+
+def without_note_references(lines):
+    """The lines of a row, less the superscript note references."""
+    return [
+        line for line in lines
+        if line.font_size > NOTE_REFERENCE_SIZE or any(c.isalpha() for c in line.text)
+    ]
 
 def pdf_extract_body(body,type_block=ResultStandardExtraction.INVESTMENTS_MANAGER.name):
     cs=get_table_coordinates(body,table_cfg,algorithm_flags=TablePosAlgorithm.USE_RULER_AREA | TablePosAlgorithm.USE_TEST_POS)
@@ -72,8 +84,8 @@ class PdfExtractBeginPage:
         manco_selection=PdfLineSelection.area(l,70.0,r,t) / deselection
         b=705.0
         body_selection=PdfLineSelection.area(l,t,r,b) / deselection
-        body = body_selection.select(lines)
-        manco = manco_selection.select(lines)
+        body = without_note_references(body_selection.select(lines))
+        manco = without_note_references(manco_selection.select(lines))
         res = pdf_extract_body(manco,ResultStandardExtraction.MANAGEMENT_COMPANY.name)
         res.extend(pdf_extract_body(body,ResultStandardExtraction.INVESTMENTS_MANAGER.name))
         return res
@@ -83,7 +95,7 @@ def pdf_extract(page):
     t=70.0
     b=705.0
     body_selection=PdfLineSelection.area(l,t,r,b) / deselection
-    body = body_selection.select(lines)
+    body = without_note_references(body_selection.select(lines))
     return pdf_extract_body(body)
 
 
@@ -95,7 +107,7 @@ class PdfExtractEndPage:
         t=70.0
         b=PdfLineSelection.text(self.depositary_text).select(lines)[0].bbox[1]
         body_selection=PdfLineSelection.area(l,t,r,b) / deselection
-        body = body_selection.select(lines)
+        body = without_note_references(body_selection.select(lines))
         return pdf_extract_body(body,ResultStandardExtraction.INVESTMENTS_MANAGER.name)
 
 

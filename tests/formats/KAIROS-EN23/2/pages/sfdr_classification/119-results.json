@@ -1,0 +1,73 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Kairos International Sicav – Target 2026 ",
+        "name": "Any Country Social Violation",
+        "value": "NO"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Kairos International Sicav – Target 2026 ",
+        "name": "Carbon Footprint",
+        "value": "80.40"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Kairos International Sicav – Target 2026 ",
+        "name": "GHG Emissions (total scope 1+2 in 1K MT CO2eq)",
+        "value": "1.42"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Kairos International Sicav – Target 2026 ",
+        "name": "GHG Intensity of investee companies (total scope 1+2 in tCO2eq)",
+        "value": "127.38"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Kairos International Sicav – Target 2026 ",
+        "name": "Lack of Processes and Compliance Mechanisms",
+        "value": "NO"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Kairos International Sicav – Target 2026 ",
+        "name": "Violations of UNGC Principles and OECD Guidelines for Multinational Enterprises",
+        "value": "NO"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundSfdrClassification",
+      "data": {
+        "article": {
+          "__enum__": "freeports.consts:SfdrArticle:ART_8"
+        },
+        "fund": "Kairos International Sicav – Target 2026"
+      }
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Socially Responsible Investment Collection"
+        ]
+      }
+    },
+    "content": "Wellington Management International Limited",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Convertible Strategy Collection"
+        ]
+      }
+    },
+    "content": "Zazove Associates LLC",
+    "pdf_block": null
+  }
+]

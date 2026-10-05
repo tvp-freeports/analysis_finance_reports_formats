@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "MEDIOLANUM GREEN BUILDING EVOLUTION",
+        "liabilities": 662570.0,
+        "net_assets": 97740296.0,
+        "tot_assets": 98402866.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "MEDIOLANUM WORLD INNOVATIVE LEADERS",
+        "liabilities": 6608194.0,
+        "net_assets": 74931141.0,
+        "tot_assets": 81539335.0
+      }
+    }
+  }
+]

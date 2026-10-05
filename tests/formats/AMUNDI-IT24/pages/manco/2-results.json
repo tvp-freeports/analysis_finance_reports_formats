@@ -1,0 +1,24 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "managed_funds": {
+          "__set__": []
+        },
+        "name": "Amundi SGR S.p.A."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": []
+        },
+        "name": "Amundi SGR S.p.A."
+      }
+    }
+  }
+]

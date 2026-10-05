@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "MEDIOLANUM INVESCO BALANCED RISK COUPON SELECTION",
+        "liabilities": 8991133.0,
+        "net_assets": 574338136.0,
+        "tot_assets": 583329269.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "SOCIALLY RESPONSIBLE INVESTMENT COLLECTION",
+        "liabilities": 8748160.0,
+        "net_assets": 339876913.0,
+        "tot_assets": 348625073.0
+      }
+    }
+  }
+]

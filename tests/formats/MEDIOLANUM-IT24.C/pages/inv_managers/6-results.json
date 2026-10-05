@@ -1,0 +1,82 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "Global Leaders",
+            "Mediolanum Global Equity Style Selection"
+          ]
+        },
+        "name": "Guardcap Asset Management Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "Global Small Cap Equity",
+            "Mediolanum Global Impact",
+            "Pacific Collection",
+            "US Collection"
+          ]
+        },
+        "name": "JP Morgan Asset Management (UK) Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "European Collection"
+          ]
+        },
+        "name": "Lansdowne Partners (UK) LLP"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "Mediolanum World Innovative Leaders"
+          ]
+        },
+        "name": "Lazard Asset Management Ltd."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "MEDIOLANUM GLOBAL IMPACT"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "PACIFIC COLLECTION"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "GLOBAL SMALL CAP EQUITY"
+      }
+    }
+  }
+]

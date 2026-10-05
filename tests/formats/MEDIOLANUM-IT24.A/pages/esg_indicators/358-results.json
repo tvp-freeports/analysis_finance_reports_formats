@@ -1,0 +1,62 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Mediolanum Innovative Thematic Opportunities",
+        "name": "Diversità di genere nel consiglio  (tabella 1, PAI 13)",
+        "value": "36"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Mediolanum Innovative Thematic Opportunities",
+        "name": "Emissioni di GHG  tCO2e (tabella 1, PAI 1)",
+        "value": "250.797"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Mediolanum Innovative Thematic Opportunities",
+        "name": "Impronta di carbonio  tCO2e/ EVIC in milioni di  EUR (tabella 1, PAI 2)  Intensità di GHG delle imprese beneficiarie degli",
+        "value": "120"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Mediolanum Innovative Thematic Opportunities",
+        "name": "Rapporto tra rifiuti pericolosi e rifiuti radioattivi (tabella 1, PAI 9)  Violazioni dei principi del Global Compact delle  Nazioni Unite e delle linee guida",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Mediolanum Innovative Thematic Opportunities",
+        "name": "dell’Organizzazione per la cooperazione e lo  sviluppo economico (OCSE) destinate alle imprese  multinazionali  (tabella 1, PAI 10)",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundEsgIndicator",
+      "data": {
+        "fund": "Mediolanum Innovative Thematic Opportunities",
+        "name": "investimenti  tCO2e/ vendite in milioni di EUR  (tabella 1, PAI 3)",
+        "value": "527"
+      }
+    }
+  }
+]

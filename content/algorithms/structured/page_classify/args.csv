@@ -76,6 +76,7 @@ DANSKEINVEST-EN24/2,"calibri-bold ""EVENTS DURING THE YEAR""",merges
 DANSKEINVEST-EN24/4,"calibri-bold ""INVESTMENT MANAGER""",inv_managers
 EURIZON-EN21,"ArialMT-Bold ""Face value/""",investments
 EURIZON-EN21/1,"arialmt-bold ""^Management Company:""",manco
+EURIZON-EN21/2,"arialmt-bold ""^Sub-Investment Manager""",inv_managers_continued
 FIDEURAM-EN23,"Arial ""Country""",investments
 FIDEURAM-EN23/1,"arial-bold ""^1. GENERAL INFORMATION""",manco
 FIDEURAM-EN23/2,"arial ""^The Management Company has designated the following Investment Managers""",inv_managers
@@ -113,6 +114,12 @@ MEDIOLANUM-IT24.B/2,"Helvetica ""VALORE COMPLESSIVO NETTO DEL FONDO""",fund_asse
 MEDIOLANUM-IT24.B/3,"""informativa periodica per i prodotti finanziari""",sfdr_classification
 MEDIOLANUM-IT24.B/4,"georgia ""Siamo indipendenti rispetto al Fondo e a""",manco
 MEDIOLANUM-IT24.C,"[7.920006] ""Descrizione""",investments
+MEDIOLANUM-IT24.C/1,"(:70) ""STATO PATRIMONIALE""",fund_assets
+MEDIOLANUM-IT24.C/1,"""TOTALE ATTIVITÀ""",fund_assets
+MEDIOLANUM-IT24.C/2,"[15.5:15.7] ""INFORMAZIONI GENERALI""",inv_managers_begin
+MEDIOLANUM-IT24.C/2,"[9.1:9.2] ""SOCIETÀ DI GESTIONE E""",inv_managers_begin
+MEDIOLANUM-IT24.C/3,"[15.5:15.7] ""INFORMAZIONI GENERALI""",inv_managers_end
+MEDIOLANUM-IT24.C/3,"[9.5:9.7] ""DEPOSITARIA/""",inv_managers_end
 MEDIOLANUM-EN24/0,"[8.04] ""Face value""",investments
 MEDIOLANUM-EN24/1,"[9.48] ""MANAGER AND GLOBAL""",inv_managers_begin
 MEDIOLANUM-EN24/2,"[9.48] ""TRUSTEE/DEPOSITARY""",inv_managers_end

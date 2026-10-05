@@ -1,0 +1,34 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": []
+      }
+    },
+    "content": "ASTERIA Investment Managers S.A.",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INVESTMENTS_MANAGER",
+      "metadata": {},
+      "content": "ASTERIA Investment Managers S.A."
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": []
+      }
+    },
+    "content": "Waystone Management Company (Lux) S.A.",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Waystone Management Company (Lux) S.A."
+    }
+  }
+]

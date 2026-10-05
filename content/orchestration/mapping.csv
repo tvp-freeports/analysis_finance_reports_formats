@@ -1,4 +1,13 @@
 ID,Page type
+EURIZON-EN21(investments),investments
+EURIZON-EN21(manco),manco
+EURIZON-EN21(inv_managers),manco
+EURIZON-EN21(inv_managers_continued),inv_managers_continued
+CARNE-EN23(investments),investments
+CARNE-EN23(fund_assets),fund_assets
+CARNE-EN23(manco),manco
+CARNE-EN23(inv_managers),manco
+CARNE-EN23(sfdr_classification),sfdr_classification
 MEDIOLANUM-ES24.B(subfund),cover
 MEDIOLANUM-ES24.B(investments),investments
 MEDIOLANUM-ES24.B(sfdr_classification),sfdr_classification

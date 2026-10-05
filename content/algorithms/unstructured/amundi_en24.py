@@ -49,15 +49,10 @@ import re
 
 import carryover
 import esg
-import inv_managers
 import renaming
 import sfdr
 from freeports.core import PdfBlock, Pipeline
 from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
-from freeports.standard_funcs.deserialize import (
-    DeserializerFundStandard,
-    DeserializerInvestmentsManagerStandard,
-)
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractLabelledValueStandard,
     PdfExtractSectionStandard,
@@ -138,28 +133,12 @@ def pdf_extract_inv_managers_end(page):
     return _named(lines, 0.0, _edge(lines, "^INVESTMENT ADVISORS", 1e6))
 
 
-read_inv_managers = inv_managers.Named()
-"""Il blocco **è** la dichiarazione: un nome, e nessun comparto detto."""
-
-
-@investment_fund_filter_data
-def text_filter_inv_managers(pdf_blks, funds):
-    """Il residuo a tutti quanti, con l'avviso che `R21` impone.
-
-    Le due pagine si trattano allo stesso modo e **non** si passano il conto: qui il residuo non
-    è ciò che resta da dividere, è l'intero insieme dei comparti, e darne una metà a ciascuna
-    pagina scriverebbe una divisione che il documento non fa.
-    """
-    return inv_managers.text_blocks(
-        inv_managers.assign(read_inv_managers(pdf_blks), funds)
-    )
-
-
-_inv_managers = Pipeline(
-    pdf_extract=pdf_extract_inv_managers_begin,
-    text_filter=text_filter_inv_managers,
-    deserialize=(DeserializerInvestmentsManagerStandard(), DeserializerFundStandard()),
-)
+# Il `text_filter` e il `deserialize` dei gestori stanno nel livello `semistructured`: il blocco
+# **e'** la dichiarazione (`read: named`), e il residuo va a tutti quanti con l'avviso che `R21`
+# impone. Le due pagine si trattano allo stesso modo e **non** si passano il conto — qui il residuo
+# non e' cio' che resta da dividere, e' l'intero insieme dei comparti, e darne una metà a ciascuna
+# pagina scriverebbe una divisione che il documento non fa — e per questo nessuna delle due dichiara
+# `already_assigned`.
 
 
 
@@ -388,11 +367,9 @@ pipelines = {
         pdf_extract_esg_fund, text_filter_esg_fund, esg_carry.deposit
     ),
     "esg_indicators": Pipeline(pdf_extract_esg, text_filter_esg, esg.deserialize),
-    "inv_managers_begin": _inv_managers,
+    "inv_managers_begin": Pipeline(pdf_extract=pdf_extract_inv_managers_begin),
     "inv_managers_end": Pipeline(
         pdf_extract=pdf_extract_inv_managers_end,
-        text_filter=text_filter_inv_managers,
-        deserialize=(DeserializerInvestmentsManagerStandard(), DeserializerFundStandard()),
     ),
     "renaming": Pipeline(
         pdf_extract=pdf_extract_renaming,

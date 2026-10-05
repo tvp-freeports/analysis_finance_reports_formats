@@ -1,0 +1,13 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "managed_funds": {
+          "__set__": []
+        },
+        "name": "Amundi Luxembourg S.A."
+      }
+    }
+  }
+]

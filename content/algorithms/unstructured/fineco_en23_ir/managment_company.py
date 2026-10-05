@@ -1,19 +1,14 @@
 """Custom pdf filter for FINECO-EN23[IR] format"""
 
 from freeports.standard_funcs.pdf_extract import (
-    PdfExtractInvestmentsStandard, PdfExtractFundStandard, PdfExtractManagmentCompanyStandard
+    PdfExtractManagmentCompanyStandard
 )
-from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict, get_table_coordinates
-from freeports.interfaces.text_blks import ResultStandardFiltering, StandardManagmentCompanyTextBlock
+from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict
 from freeports.standard_funcs.deserialize import (
     DeserializerInvestmentsManagerStandard,
     DeserializerManagmentCompanyStandard,
 )
 
-import inv_managers
-from freeports.core import PdfBlock,TextBlock,Pipeline
-from freeports.output import Investment, InvestmentsManager
-from freeports.utils.text_filter import MatchFund
 from enum import Enum,auto
 
 
@@ -45,32 +40,12 @@ def pdf_filter(page):
 
 
 
-def text_extract(blks, filter_data):
-    """La societa' di gestione con tutti i comparti, e il residuo di quelli che nessuno ha preso.
-
-    Il conto lo chiude questa pagina perche' e' l'ultima: la tabella di p155 ha gia' scritto le
-    sue righe, e `assigned_funds` dice quali comparti si e' presa. `R26` vuole la societa' di
-    gestione uno a molti su **tutto** il documento e i gestori molti a molti sul resto, ed e'
-    per questo che lo stesso nome compare in tutt'e due i ruoli senza essere un doppione.
-    """
-    if not blks:
-        return []
-    assigned = inv_managers.assigned_funds(filter_data)
-    funds = inv_managers.fund_set(
-        n.fund for n in filter(lambda x: isinstance(x, Investment), filter_data)
-    )
-    # I comparti della tabella di p155 entrano fra quelli del documento anche quando nessun
-    # investimento li nomina: la `manco` risponde di **tutti** (`R26`), e senza questa unione le
-    # loro righe di `funds.csv` resterebbero senza societa' di gestione.
-    assignment = inv_managers.assign(
-        [], funds | assigned, manco=blks[0], already_assigned=assigned
-    )
-    return [
-        inv_managers.management_company_block(assignment, blks[0]),
-        *inv_managers.text_blocks(assignment),
-    ]
-
-
+# Il `text_filter` sta nel livello `semistructured`: la societa' di gestione con **tutti** i
+# comparti (`R26`) e il residuo di quelli che nessuno ha preso. Il conto lo chiude questa pagina
+# perche' e' l'ultima: la tabella di p155 ha gia' scritto le sue righe, e `already_assigned` dice
+# quali comparti si e' presa. `funds_include_assigned` li fa entrare fra i comparti del documento
+# anche quando nessun investimento li nomina, o le loro righe di `funds.csv` resterebbero senza
+# societa' di gestione.
 deserialize = DeserializerManagmentCompanyStandard()
 
 deserialize_inv_manager = DeserializerInvestmentsManagerStandard()

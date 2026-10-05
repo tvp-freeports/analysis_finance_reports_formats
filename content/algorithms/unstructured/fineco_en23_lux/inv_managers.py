@@ -21,7 +21,6 @@ Due cose che la pagina impone e che sono parametri, non rami:
 Il residuo è di `Fineco Asset Management DAC`, che questa pagina legge come società di gestione.
 """
 
-import inv_managers
 from freeports.utils.pdf_extract import (
     pdflines_from_pagedict,
     PdfLineSelection,
@@ -36,7 +35,6 @@ from freeports.standard_funcs.deserialize import (
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerStandard
 )
-from freeports.utils.text_filter import fund_filter_data
 from enum import Enum, auto
 
 
@@ -73,30 +71,9 @@ pdf_extract_manco = PdfExtractManagmentCompanyStandard(
 UMBRELLA = "CoRe Series"
 """L'ombrello, che la testatina di ogni pagina scrive e la specificazione dà per sottinteso."""
 
-read = inv_managers.Adjacent(
-    inv_managers.Parenthetical(
-        markers=("Only in respect of the Sub-Fund ", "Only in respect of "),
-        umbrella=UMBRELLA,
-    ),
-    where=inv_managers.Where.ABOVE,
-    take=inv_managers.Take.ALL,
-)
-
-
-@fund_filter_data
-def text_filter(pdf_blocks, funds):
-    """I gestori delegati, il residuo alla societa' di gestione, e i comparti nuovi."""
-    manco = next(
-        (b for b in pdf_blocks if b.type_block != BlockType.INV_MAN.name), None
-    )
-    relevant = [b for b in pdf_blocks if b.type_block == BlockType.INV_MAN.name]
-    assignment = inv_managers.assign(read(relevant), funds, manco=manco)
-    blocks = list(inv_managers.text_blocks(assignment))
-    if manco is not None:
-        blocks.append(inv_managers.management_company_block(assignment, manco))
-    return blocks
-
-
+# Il `text_filter` sta nel livello `semistructured`: la specificazione sta **sopra** e copre
+# **tutte** le societa' che la seguono fino alla prossima, i marcatori si provano nell'ordine, e
+# l'ombrello va messo davanti al comparto perche' la parentesi lo da' per sottinteso (`R24`).
 deserialize = DeserializerInvestmentsManagerStandard()
 
 deserialize_manco = DeserializerManagmentCompanyStandard()

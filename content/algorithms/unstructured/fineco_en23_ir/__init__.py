@@ -50,16 +50,8 @@ pipelines = {
             investments.pdf_extract_currency,
         )
     ),
-    "inv_managers": Pipeline(
-        inv_managers.pdf_filter,
-        inv_managers.text_extract,
-        (inv_managers.deserialize, inv_managers.deserialize_fund),
-    ),
-    "manco": Pipeline(
-        managment_company.pdf_filter,
-        managment_company.text_extract,
-        (managment_company.deserialize, managment_company.deserialize_inv_manager),
-    ),
+    "inv_managers": Pipeline(inv_managers.pdf_filter),
+    "manco": Pipeline(managment_company.pdf_filter),
     # La pagina del modulo legge il nome **due volte**: una per l'articolo SFDR, una per lasciarlo
     # alla pagina degli indicatori, che il comparto non lo nomina. Sono due dati diversi sulla
     # stessa pagina, quindi due pipeline (`R27`), tutt'e due sulla classe `sfdr_classification`.

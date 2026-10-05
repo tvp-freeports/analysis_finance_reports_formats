@@ -1,0 +1,90 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": []
+      }
+    },
+    "content": "Danske Bank A/S",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INVESTMENTS_MANAGER",
+      "metadata": {
+        "group": "R0"
+      },
+      "content": "Danske Bank A/S"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": []
+      }
+    },
+    "content": "Abrdn Asia Limited",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INVESTMENTS_MANAGER",
+      "metadata": {
+        "group": "R4"
+      },
+      "content": "Abrdn Asia Limited"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": []
+      }
+    },
+    "content": "Allianz Global Investors Asia Pacific Limited",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INVESTMENTS_MANAGER",
+      "metadata": {
+        "group": "R7"
+      },
+      "content": "Allianz Global Investors Asia Pacific Limited"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": []
+      }
+    },
+    "content": "Sumitomo Mitsui DS Asset Management (UK) Limited",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INVESTMENTS_MANAGER",
+      "metadata": {
+        "group": "R11"
+      },
+      "content": "Sumitomo Mitsui DS Asset Management (UK) Limited"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": []
+      }
+    },
+    "content": "Danske Invest Management A/S",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Danske Invest Management A/S"
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "Convertible Strategy Collection"
+          ]
+        },
+        "name": "Advent Capital Management LLC"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "Financial Income Strategy"
+          ]
+        },
+        "name": "Algebris (UK) Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "Dynamic International Value Opportunity",
+            "Socially Responsible Investment Collection"
+          ]
+        },
+        "name": "AQR Capital Management LLC"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CONVERTIBLE STRATEGY COLLECTION",
+            "DYNAMIC INTERNATIONAL VALUE OPPORTUNITY",
+            "EQUILIBRIUM",
+            "FINANCIAL INCOME STRATEGY",
+            "SOCIALLY RESPONSIBLE INVESTMENT COLLECTION"
+          ]
+        },
+        "name": "Mediolanum International Funds Limited"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "CONVERTIBLE STRATEGY COLLECTION",
+            "DYNAMIC INTERNATIONAL VALUE OPPORTUNITY",
+            "EQUILIBRIUM",
+            "FINANCIAL INCOME STRATEGY",
+            "SOCIALLY RESPONSIBLE INVESTMENT COLLECTION"
+          ]
+        },
+        "name": "Mediolanum International Funds Limited"
+      }
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "(valori espressi in EUR) ",
+      "date": "AL 30 GIUGNO 2025  ",
+      "fund": "US COLLECTION",
+      "liabilities": "5.145.398 ",
+      "net_assets": "772.018.831 ",
+      "tot_assets": "777.164.229 "
+    },
+    "content": ""
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "(valori espressi in EUR) ",
+      "date": "AL 30 GIUGNO 2025  ",
+      "fund": "EUROPEAN COLLECTION",
+      "liabilities": "8.423.310 ",
+      "net_assets": "478.641.332 ",
+      "tot_assets": "487.064.642 "
+    },
+    "content": ""
+  }
+]

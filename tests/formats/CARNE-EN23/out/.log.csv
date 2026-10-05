@@ -1,1 +1,2 @@
 Report,Page,Activity,First coord ref,Second coord ref,First coord,Second coord,Level,Message
+report,4,job[CARNE-EN23]/step[1]/class[manco]/document[report]/page[4]/pipeline[inv_managers]/text_filter/pipe[TextFilterInvManagers],,,,,WARN,"""Goldman Sachs Asset Management International Ltd."" is credited with Sidera Funds SICAV – Global High Yield but the report declares it for a **part** of them: the fund stays with whoever manages the rest"

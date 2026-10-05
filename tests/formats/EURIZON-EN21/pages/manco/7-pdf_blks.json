@@ -1,6 +1,198 @@
 [
   {
     "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Pramerica SGR S.p.A. (until June 30, 2021)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Head Office: piazza Vittorio Veneto, 8, I-24122 Bergamo;"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Administrative Office: 5, Via Monte di Pietà, I-20121 Milano"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 1
+    },
+    "content": "Eurizon Capital SGR S.p.A. (since July 1, 2021)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 1
+    },
+    "content": "Piazzetta Giordano dell’Amore 3"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 1
+    },
+    "content": "I-20121 Milano"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {
+      "group": 2
+    },
+    "content": "For all sub-funds except the sub-fund mentioned below."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 3
+    },
+    "content": "Prudential International Investments Advisers, LLC (until June 30,"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 3
+    },
+    "content": "2021)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 3
+    },
+    "content": "655, Broad Street"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 3
+    },
+    "content": "Newark, NJ 07102 USA"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {
+      "group": 4
+    },
+    "content": "For the following sub-fund:"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND",
+    "metadata": {
+      "group": 4
+    },
+    "content": "Eurizon AM Sicav - High Yield Bond"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 5
+    },
+    "content": "PGIM, Inc. (since July 1, 2021)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 5
+    },
+    "content": "Prudential Plaza"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 5
+    },
+    "content": "Newark, NJ 07101 USA"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {
+      "group": 6
+    },
+    "content": "For the following sub-funds:"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND",
+    "metadata": {
+      "group": 6
+    },
+    "content": "Eurizon AM Sicav - High Yield Bond"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND",
+    "metadata": {
+      "group": 6
+    },
+    "content": "Eurizon AM Sicav - High Yield 1-5 Years Euro Hedged"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 7
+    },
+    "content": "Jennison Associates LLC (since July 1, 2021)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 7
+    },
+    "content": "466 Lexington Avenue"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGER",
+    "metadata": {
+      "group": 7
+    },
+    "content": "New York, NY 10017 USA"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "NOTE",
+    "metadata": {
+      "group": 8
+    },
+    "content": "For the following sub-fund:"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND",
+    "metadata": {
+      "group": 8
+    },
+    "content": "Eurizon AM Sicav - Global Infrastructure"
+  },
+  {
+    "__pdf_block__": true,
     "type_block": "MANAGEMENT_COMPANY",
     "metadata": {},
     "content": "Pramerica Management Company S.A. (until June 30, 2021)"

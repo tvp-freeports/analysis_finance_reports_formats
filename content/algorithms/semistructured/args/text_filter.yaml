@@ -130,3 +130,257 @@ FINECO-EN23@IR(sfdr_classification):
   language: ENGLISH
   product_prefix:
     - pattern: 'Product name.*:\s*'
+
+# `IM-1`, la ricetta piu' semplice delle otto: una pagina di prospetto mette due etichette, una per
+# la societa' di gestione e una per il gestore, e sotto ciascuna un nome. Nessun comparto e'
+# nominato, quindi `R15` da' il residuo al gestore e alla `manco` resta il solo ruolo di `manco` —
+# per questo `emit_manco` scrive la sua riga ma `manco` non entra fra i gestori.
+# ASTERIA-EN23 e ASTERIA-EN24 scrivono la pagina **identica** a due anni di distanza.
+ASTERIA-EN23(inv_managers):
+  read:
+    - kind: named
+  manco: blocks
+  emit_manco: when_present
+
+ASTERIA-EN24(inv_managers):
+  read:
+    - kind: named
+  manco: blocks
+  emit_manco: when_present
+
+# `C05`: due pagine di prospetto, trattate allo stesso modo e senza passarsi il conto. Il residuo
+# qui non e' cio' che resta da dividere: e' l'intero insieme dei comparti, e darne una meta' a
+# ciascuna pagina scriverebbe una divisione che il documento non fa.
+# Il tubo d'autore scrive `RELEVANT_BLOCK`, non il tipo standard del gestore: la sezione la
+# riconosce il grassetto, e il tubo non pretende di sapere che cosa ciascuna riga sia.
+AMUNDI-EN24(inv_managers_begin):
+  read:
+    - kind: named
+  read_block_type: RELEVANT_BLOCK
+
+AMUNDI-EN24(inv_managers_end):
+  read:
+    - kind: named
+  read_block_type: RELEVANT_BLOCK
+
+# `C16`. La pagina 4 non distingue tipograficamente un nome dal suo indirizzo — tutto arialmt 8.04 —
+# e le entrate le separa il solo stacco verticale, che `entry_gap` nel `pdf_extract` conta.
+# `in charge for ` dice che il gestore ha **una parte** del comparto e non il comparto (`R21`):
+# ARCA prende il residuo, Goldman Sachs il solo `GLOBAL HIGH YIELD`.
+CARNE-EN23(inv_managers):
+  read:
+    - kind: adjacent
+      spec:
+        parenthetical:
+          markers:
+            - 'in the subfund '
+          partial_markers:
+            - 'in charge for '
+
+# `IM-7`. Una riga per comparto: il comparto nella colonna 0, il gestore nella 2, e lo stesso
+# gestore torna su molte righe. `settle: false` perche' il conto lo chiude la pagina della societa'
+# di gestione, che e' l'ultima.
+FINECO-EN23@IR(inv_managers):
+  read:
+    - kind: table
+      fund_col: 0
+      manager_col: 2
+  read_block_type: INV_MAN
+  settle: false
+
+# La stessa pagina chiude il conto: nessun lettore, la societa' di gestione con **tutti** i comparti
+# (`R26`) e il residuo di quelli che la tabella non ha preso. `funds_include_assigned` fa entrare
+# fra i comparti del documento anche quelli che solo la tabella nomina.
+FINECO-EN23@IR(manco):
+  manco: blocks
+  emit_manco: when_present
+  manco_first: true
+  already_assigned: true
+  funds_include_assigned: true
+
+# `IM-4`, pagina aggiuntiva. La colonna `Investment Manager(s)` alterna una frase fra parentesi e
+# una o piu' societa', e la frase vale per **tutte** quelle che la seguono fino alla prossima. I
+# marcatori si provano nell'ordine, o il comparto si chiamerebbe `the Sub-Fund Invesco Pan …`; e
+# l'ombrello va messo davanti, perche' la parentesi lo da' per sottinteso e `R24` vuole il nome
+# degli investimenti.
+FINECO-EN23@LUX(inv_managers):
+  read:
+    - kind: adjacent
+      spec:
+        parenthetical:
+          markers:
+            - 'Only in respect of the Sub-Fund '
+            - 'Only in respect of '
+          umbrella: 'CoRe Series'
+      where: above
+      take: all
+  read_block_type: INV_MAN
+  funds: funds
+  manco: blocks
+  emit_manco: when_present
+
+# `IM-5`. Tredici righe `<gestore> for <comparti>` una sotto l'altra: a sinistra si divide solo su
+# ` and `, perche' `Vontobel Asset Management S.A., Milan Branch` e' **un** gestore con la virgola
+# dentro; a destra anche sulla virgola, perche' li' separa.
+FIDEURAM-EN23(inv_managers):
+  read:
+    - kind: connector_line
+  read_block_type: RELEVANT_BLOCK
+  funds: funds
+  manco: previous_result
+  emit_manco: on_new_funds
+
+# `IM-6`, p4→p5. **Due** lettori sugli stessi blocchi: l'elenco sotto l'ombrello e il paragrafo di
+# prosa `The Management Company delegated to … the day to day portfolio management of …`. Un
+# paragrafo non apre nessun elenco e una riga d'elenco non porta la formula, quindi ciascuno lascia
+# cadere cio' che non e' suo, e `assign` fonde per nome chi compare in tutt'e due (`R22`).
+# `take: first` perche' dopo il nome c'e' un paragrafo nello stesso carattere.
+UBS-EN23(manco):
+  read:
+    - kind: adjacent
+      spec:
+        listing:
+          umbrella: 'BPER International SICAV'
+      where: above
+      take: first
+      strip:
+        - ',.*$'
+    - kind: connector_line
+      connector: ' the day to day portfolio management of '
+      after: 'The Management Company delegated to '
+  read_block_type: RELEVANT_BLOCK
+  manco: blocks
+  emit_manco: when_present
+  settle: false
+
+UBS-EN23(inv_managers_end):
+  read:
+    - kind: adjacent
+      spec:
+        listing:
+          umbrella: 'BPER International SICAV'
+      where: above
+      take: first
+      strip:
+        - ',.*$'
+    - kind: connector_line
+      connector: ' the day to day portfolio management of '
+      after: 'The Management Company delegated to '
+  read_block_type: RELEVANT_BLOCK
+  manco: previous_result
+  already_assigned: true
+
+# `IM-*`, p7→p8. L'elenco rientrato e' un tipo di blocco suo, quindi ogni riga e' una voce; lo
+# `strip` dell'elenco toglie l'ombrello (`Eurizon AM Sicav – USA Equity` contro `USA EQUITY` degli
+# investimenti, `R24`), e quello del nome la qualificazione temporale in coda. `retired` la
+# riconosce **prima** che `strip` la tolga, e non pretende la parentesi chiusa perche' il nome di
+# Prudential va a capo dentro di essa.
+EURIZON-EN21(inv_managers_continued):
+  read:
+    - kind: adjacent
+      spec:
+        listing:
+          block_type: FUND
+          item_prefix: ''
+          strip:
+            - '(?i)^Eurizon AM Sicav\s*[-–]\s*'
+      note_type: NOTE
+      strip:
+        - '\s*\((?:since|until)\b[^)]*\)?\s*$'
+      retired:
+        - '\(until\b'
+  read_block_type: '*'
+  settle: false
+
+EURIZON-EN21(inv_managers):
+  read:
+    - kind: adjacent
+      spec:
+        listing:
+          block_type: FUND
+          item_prefix: ''
+          strip:
+            - '(?i)^Eurizon AM Sicav\s*[-–]\s*'
+      note_type: NOTE
+      strip:
+        - '\s*\((?:since|until)\b[^)]*\)?\s*$'
+      retired:
+        - '\(until\b'
+  read_block_type: '*'
+  already_assigned: true
+
+# `IM-4`, p9→p10. La specificazione la riconosce il **tipo di blocco** e non la parentesi, e i
+# marcatori si provano nell'ordine, quindi il plurale per primo. La prima parentesi di p9 non porta
+# nessun marcatore — dice *quando* Eurizon Capital S.A. e' subentrata, non *che cosa* gestisce — e
+# per questo quel gestore resta senza comparti dichiarati, cioe' quello a cui tocca il residuo.
+EURIZON-EN23(inv_managers):
+  read:
+    - kind: adjacent
+      spec:
+        parenthetical:
+          block_type: SUB
+          markers:
+            - 'for the Sub-Funds '
+            - 'for the Sub-Fund '
+      note_type: NOTE
+      retired:
+        - '^\(until\b'
+  read_block_type: '*'
+  settle: false
+
+EURIZON-EN23(inv_managers_end):
+  read:
+    - kind: adjacent
+      spec:
+        parenthetical:
+          block_type: SUB
+          markers:
+            - 'for the Sub-Funds '
+            - 'for the Sub-Fund '
+      note_type: NOTE
+      retired:
+        - '^\(until\b'
+  read_block_type: '*'
+  settle: false
+
+# p9 e' la sola che chiude il conto, e lo schedule la processa **per ultima**.
+EURIZON-EN23(inv_managers_begin):
+  read:
+    - kind: adjacent
+      spec:
+        parenthetical:
+          block_type: SUB
+          markers:
+            - 'for the Sub-Funds '
+            - 'for the Sub-Fund '
+      note_type: NOTE
+      retired:
+        - '^\(until\b'
+  read_block_type: '*'
+  already_assigned: true
+
+# `IM-1` con i due avvisi sulla nomenclatura, che li deve dire il formato: nessuno dei due nomi che
+# questa pagina scrive e' quello del ruolo, e prenderli per tali e' un'interpretazione che il motore
+# da solo non puo' fare (`R25`).
+MEDIOLANUM-EN23(inv_managers):
+  read:
+    - kind: named
+  manco: blocks
+  emit_manco: when_present
+  notes:
+    - "this report names no management company: the 'Alternative Investment Fund Manager and Global Distributor' is taken as one, because an alternative fund calls that role by that name - the report itself does not say the two are the same thing"
+    - "the investments manager is declared as 'Cash Manager and Portfolio Manager': the nomenclature is this report's own, and the role is read as the usual one"
+
+# `C05` e `C17`, in una classe sola perche' le due pagine sono un prospetto solo: la societa' di
+# gestione (p5) e le quattro sezioni dei gestori (p5 e p6), appiattite come vuole `R22`. Il nome e'
+# la prima riga dell'entrata piu' quelle che la virgola finale tiene attaccate, e la qualificazione
+# temporale si cerca su **ogni** riga, perche' qui sta sotto il nome e non in coda.
+DANSKEINVEST-EN24(inv_managers):
+  read:
+    - kind: named
+      wrapped:
+        - ',\s*$'
+      retired:
+        - '(?i)\(\s*until\b'
+  manco: blocks
+  emit_manco: when_present

@@ -9,9 +9,7 @@ ha, e ciò che resta è della società di gestione, che sta su un'altra pagina �
 chiude il conto leggendo da `assigned_funds` ciò che questa pagina ha già preso.
 """
 
-from freeports.standard_funcs.pdf_extract import PdfExtractInvestmentsStandard, PdfExtractFundStandard
 from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict, get_table_coordinates
-from freeports.utils.text_filter import investment_fund_filter_data
 from freeports.standard_funcs.deserialize import (
     DeserializerFundStandard,
     DeserializerInvestmentsManagerStandard,
@@ -19,7 +17,6 @@ from freeports.standard_funcs.deserialize import (
 from freeports.core import PdfBlock
 from enum import Enum,auto
 
-import inv_managers
 
 
 
@@ -42,16 +39,9 @@ def pdf_filter(page):
 
 
 
-read = inv_managers.Table(fund_col=0, manager_col=2)
-
-
-@investment_fund_filter_data
-def text_extract(blks, funds):
-    """I gestori della tabella, e i comparti che il job non aveva ancora visto."""
-    assignment = inv_managers.assign(read(blks), funds, settle=False)
-    return inv_managers.text_blocks(assignment)
-
-
+# Il `text_filter` sta nel livello `semistructured`: una riga per comparto, il comparto nella
+# colonna 0 e il gestore nella 2, e `settle: false` perche' il conto lo chiude la pagina della
+# societa' di gestione.
 deserialize = DeserializerInvestmentsManagerStandard()
 
 deserialize_fund = DeserializerFundStandard()

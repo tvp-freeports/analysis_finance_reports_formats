@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "US COLLECTION",
+        "liabilities": 5145398.0,
+        "net_assets": 772018831.0,
+        "tot_assets": 777164229.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "EUROPEAN COLLECTION",
+        "liabilities": 8423310.0,
+        "net_assets": 478641332.0,
+        "tot_assets": 487064642.0
+      }
+    }
+  }
+]

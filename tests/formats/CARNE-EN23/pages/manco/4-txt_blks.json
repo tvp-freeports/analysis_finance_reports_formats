@@ -1,15 +1,59 @@
 [
   {
     "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "SIDERA FUNDS SICAV BALANCED GROWTH",
+          "SIDERA FUNDS SICAV EURO ESG CREDIT",
+          "SIDERA FUNDS SICAV FINANCIAL BOND",
+          "SIDERA FUNDS SICAV GLOBAL HIGH YIELD",
+          "SIDERA FUNDS SICAV INCOME PLUS"
+        ]
+      }
+    },
+    "content": "ARCA Fondi SGR S.p.A. ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INVESTMENTS_MANAGER",
+      "metadata": {
+        "group": 0
+      },
+      "content": "ARCA Fondi SGR S.p.A. "
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "SIDERA FUNDS SICAV GLOBAL HIGH YIELD"
+        ]
+      }
+    },
+    "content": "Goldman Sachs Asset Management International Ltd. ",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "INVESTMENTS_MANAGER",
+      "metadata": {
+        "group": 1
+      },
+      "content": "Goldman Sachs Asset Management International Ltd. "
+    }
+  },
+  {
+    "__text_block__": true,
     "type_block": "MANAGEMENT_COMPANY",
     "metadata": {
       "managed_funds": {
         "__set__": [
-          "CORE SERIES CORE COUPON",
-          "CORE SERIES CORE INCOME OPPORTUNITY",
-          "CORE SERIES FAM PARK",
-          "INVESCO GLOBAL TOTAL RETURN BOND FAM FUND",
-          "US EQUITY VALUE FAM FUND"
+          "SIDERA FUNDS SICAV BALANCED GROWTH",
+          "SIDERA FUNDS SICAV EURO ESG CREDIT",
+          "SIDERA FUNDS SICAV FINANCIAL BOND",
+          "SIDERA FUNDS SICAV GLOBAL HIGH YIELD",
+          "SIDERA FUNDS SICAV INCOME PLUS"
         ]
       }
     },

@@ -1,0 +1,32 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "Any Country Social Violation": "NO",
+      "Carbon Footprint": "80.40",
+      "GHG Emissions (total scope 1+2 in 1K MT CO2eq)": "1.42",
+      "GHG Intensity of investee companies (total scope 1+2 in tCO2eq)": "127.38",
+      "Lack of Processes and Compliance Mechanisms": "NO",
+      "Violations of UNGC Principles and OECD Guidelines for Multinational Enterprises": "NO"
+    },
+    "content": "Product name: Kairos International Sicav – Target 2026 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "SFDR_ARTICLE",
+    "metadata": {
+      "answer": "negative",
+      "answered_by": "question",
+      "sign": "text-mark",
+      "title": "1)Disclosure pursuant to Article 8 of the SFDR"
+    },
+    "content": ""
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
+    "metadata": {},
+    "content": "Product name: Kairos International Sicav – Target 2026 "
+  }
+]

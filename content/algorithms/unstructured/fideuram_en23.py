@@ -21,16 +21,8 @@ misurato su tutte le 81 pagine del prospetto — e allora l'ancora è lei: la ge
 segmenti perché i due lavori sono diversi, non perché uno dei due sia di troppo.
 """
 
-import inv_managers
-import manco
 from freeports.core import Pipeline
 from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
-from freeports.standard_funcs.deserialize import (
-    DeserializerFundStandard,
-    DeserializerInvestmentsManagerStandard,
-    DeserializerManagmentCompanyStandard,
-)
-from freeports.output import Fund
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractLabelledValueStandard,
     PdfExtractSectionStandard,
@@ -58,37 +50,14 @@ pdf_extract_inv_managers = PdfExtractSectionStandard(
     body=PdfLineSelection(area=(50.0, 0.0, 600.0, 850.0)),
 )
 
-read_inv_managers = inv_managers.ConnectorLine()
-
-
-def text_filter_inv_managers(pdf_blks, filter_data):
-    """`R15`: il residuo e' della societa' di gestione, che pero' sta su un'altra pagina.
-
-    Per questo la classe `manco` viene **prima** nello `algorithms_schedule.csv` e il suo passo
-    si chiude: qui la si ritrova fra i risultati, e `assign` sa a chi dare i comparti che le
-    tredici righe non nominano.
-    """
-    declared_manco = manco.declared(filter_data)
-    assignment = inv_managers.assign(
-        read_inv_managers(pdf_blks),
-        inv_managers.fund_set(
-            result.name for result in filter_data if isinstance(result, Fund)
-        ),
-        manco=declared_manco,
-    )
-    blocks = list(inv_managers.text_blocks(assignment))
-    if declared_manco is not None and assignment.new_funds:
-        # `C10`. Un comparto che **nasce qui** — perche' un gestore lo nomina e gli investimenti
-        # non l'avevano visto — non ce l'ha, la societa' di gestione: quando la classe `manco`
-        # e' passata quel comparto non esisteva ancora. La si ridichiara con tutti i comparti,
-        # `R26`, cosi' la colonna non resta vuota: `WILLERFUNDS - PRIVATE SUITE FIDELITY USD
-        # BOND` era l'unica riga di `funds.csv` di tutta la raccolta senza societa' di gestione.
-        blocks.append(inv_managers.management_company_block(assignment, declared_manco))
-    return blocks
-
-
-
-
+# Il `text_filter` dei gestori sta nel livello `semistructured`. Due cose che questa pagina impone:
+# `R15` vuole il residuo della societa' di gestione, che pero' sta su un'**altra pagina** — per
+# questo la classe `manco` viene prima nello `algorithms_schedule.csv` e il suo passo si chiude, e
+# qui `manco: previous_result` la ritrova fra i risultati; e `C10`, per cui un comparto che **nasce
+# qui** non ce l'ha, la societa' di gestione, perche' quando la classe `manco` e' passata quel
+# comparto non esisteva ancora. `emit_manco: on_new_funds` la ridichiara con tutti i comparti
+# (`R26`): `WILLERFUNDS - PRIVATE SUITE FIDELITY USD BOND` era l'unica riga di `funds.csv` di tutta
+# la raccolta senza societa' di gestione.
 pipelines = {
     # Nessun `DeserializerInvestmentsManagerFromManco` qui: i comparti che restano alla societa'
     # di gestione li calcola `assign` sulla pagina dei gestori, e darglieli tutti da questa parte
@@ -96,13 +65,5 @@ pipelines = {
     "manco": Pipeline(pdf_extract_manco),
     # Il terzo deserializzatore e' `C10`: questa classe ridichiara la societa' di gestione coi
     # comparti che la pagina dei gestori fa **nascere**, e senza di lui il blocco si ferma qui.
-    "inv_managers": Pipeline(
-        pdf_extract_inv_managers,
-        text_filter_inv_managers,
-        (
-            DeserializerInvestmentsManagerStandard(),
-            DeserializerFundStandard(),
-            DeserializerManagmentCompanyStandard(),
-        ),
-    ),
+    "inv_managers": Pipeline(pdf_extract_inv_managers),
 }

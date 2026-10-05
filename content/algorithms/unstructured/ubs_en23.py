@@ -43,11 +43,10 @@ import re
 
 import carryover
 import esg
-import inv_managers
 import sfdr
 
 from freeports.core import Pipeline, PdfBlock, TextBlock
-from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
+from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractCurrencyStandard,
@@ -56,9 +55,6 @@ from freeports.standard_funcs.pdf_extract import (
 )
 from freeports.standard_funcs.deserialize import (
     DeserializerAssetsStandard,
-    DeserializerFundStandard,
-    DeserializerInvestmentsManagerStandard,
-    DeserializerManagmentCompanyStandard,
 )
 from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.utils.deserialize import to_float
@@ -132,102 +128,22 @@ def pdf_extract_inv_managers_end(page):
     return [block for block in _columns(lines, 0.0) if block.metadata["group"].startswith("L")]
 
 
-# `umbrella` va dichiarato perché a p4 la riga dell'ombrello è in **tondo** mentre i comparti sono
-# in corsivo: un elenco che si riconosce dal trattino non la prenderebbe, e i comparti uscirebbero
-# senza il prefisso con cui `funds.csv` li scrive (`R24`).
+# `umbrella` va dichiarato nel YAML perché a p4 la riga dell'ombrello è in **tondo** mentre i
+# comparti sono in corsivo: un elenco che si riconosce dal trattino non la prenderebbe, e i comparti
+# uscirebbero senza il prefisso con cui `funds.csv` li scrive (`R24`).
 #
-# `strip` toglie la città: questo formato scrive il gestore come `Banca Cesare Ponti, Milano,
-# Italy`, cioè la sede dentro la ragione sociale, e l'anagrafica vuole `Banca Cesare Ponti`. La
-# prosa lo scriverebbe per esteso — `Banca Cesare Ponti S.p.A.` — ma leggere il nome dalla prosa
-# costa piu' di quanto renda, e qui la riga dell'elenco basta. Vale per questo formato e non è una
-# regola: su FIDEURAM-EN23 p71 `Vontobel Asset Management S.A., Milan Branch` è **un** nome solo.
-read_listed = inv_managers.Adjacent(
-    inv_managers.Listing(umbrella="BPER International SICAV"),
-    where=inv_managers.Where.ABOVE,
-    take=inv_managers.Take.FIRST,
-    strip=(r",.*$",),
-)
-
-# `for` non c'entra: qui il connettore è tutta la formula, e il nome sta fra le due espressioni.
-read_prose = inv_managers.ConnectorLine(
-    connector=" the day to day portfolio management of ",
-    after="The Management Company delegated to ",
-)
-
-
-def _text_filter(pdf_blks, funds, already_assigned=(), settle=True, manco=None):
-    """Le due letture sugli stessi blocchi, e l'assegnazione che le riunisce.
-
-    Un paragrafo di prosa non apre nessun elenco, quindi il primo lettore lo lascia cadere; una
-    riga d'elenco non porta la formula, quindi il secondo lascia cadere lei. I nomi che compaiono
-    in tutt'e due le letture `assign` li fonde (`R22`).
-    """
-    relevant = [
-        block
-        for block in pdf_blks
-        if block.type_block == OnePdfBlockType.RELEVANT_BLOCK.name
-    ]
-    return inv_managers.assign(
-        list(read_listed(relevant)) + list(read_prose(relevant)),
-        funds,
-        manco=manco,
-        already_assigned=already_assigned,
-        settle=settle,
-    )
-
-
-@investment_fund_filter_data
-def text_filter_begin(pdf_blks, funds):
-    """p4: i gestori dell'elenco e della prosa, più la società di gestione con tutti i comparti.
-
-    Il residuo qui **non** si decide (`settle=False`): la sezione continua a p5, e deciderlo con
-    mezza sezione letta darebbe alla società di gestione comparti che la pagina dopo attribuisce a
-    Morgan Stanley.
-    """
-    assignment = _text_filter(pdf_blks, funds, settle=False)
-    manco = next(
-        (b for b in pdf_blks
-         if b.type_block == ResultStandardExtraction.MANAGEMENT_COMPANY.name),
-        None,
-    )
-    blocks = list(inv_managers.text_blocks(assignment))
-    if manco is not None:
-        blocks.append(inv_managers.management_company_block(assignment, manco))
-    return blocks
-
-
-def text_filter_end(pdf_blks, filter_data):
-    """p5: la sezione finisce, e il residuo si calcola su ciò che p4 non ha già assegnato."""
-    assignment = _text_filter(
-        pdf_blks,
-        inv_managers.fund_set(_funds_of(filter_data)),
-        already_assigned=inv_managers.assigned_funds(filter_data),
-        manco=_declared_manco(filter_data),
-    )
-    return inv_managers.text_blocks(assignment)
-
-
-def _declared_manco(filter_data):
-    """La società di gestione che p4 ha già letto, a cui tocca ciò che nessun delegato rivendica."""
-    from freeports.output import ManagementCompany
-
-    return next(
-        (result.name for result in filter_data if isinstance(result, ManagementCompany)),
-        None,
-    )
-
-
-def _funds_of(filter_data):
-    """I comparti che gli investimenti hanno visto, come li scrivono loro (`R24`)."""
-    from freeports.output import Investment
-
-    return [
-        result.fund
-        for result in filter_data
-        if isinstance(result, Investment) and result.fund
-    ]
-
-
+# I due `text_filter` dei gestori stanno nel livello `semistructured`, con **due** lettori sugli
+# stessi blocchi: un paragrafo di prosa non apre nessun elenco, quindi il primo lo lascia cadere; una
+# riga d'elenco non porta la formula, quindi il secondo lascia cadere lei. I nomi che compaiono in
+# tutt'e due le letture `assign` li fonde (`R22`).
+#
+# Due cose che la pagina impone. Lo `strip` sul nome: la riga d'elenco scrive `Banca Cesare Ponti,
+# Milano, Italy`, cioe' la sede dentro la ragione sociale, e l'anagrafica vuole `Banca Cesare Ponti`.
+# La prosa lo scriverebbe per esteso — `Banca Cesare Ponti S.p.A.` — ma leggere il nome dalla prosa
+# costa piu' di quanto renda, e qui la riga dell'elenco basta. Vale per **questo** formato e non e'
+# una regola: su FIDEURAM-EN23 p71 `Vontobel Asset Management S.A., Milan Branch` e' un nome solo.
+# E `settle: false` su p4: la sezione continua a p5, e deciderlo con mezza sezione letta darebbe alla
+# societa' di gestione comparti che la pagina dopo attribuisce a Morgan Stanley.
 
 
 # ----------------------------------------------------------------------------------------------
@@ -519,19 +435,6 @@ pipelines = {
             ),
             pdf_extract_inv_managers_begin,
         ),
-        text_filter=text_filter_begin,
-        deserialize=(
-            DeserializerManagmentCompanyStandard(),
-            DeserializerInvestmentsManagerStandard(),
-            DeserializerFundStandard(),
-        ),
     ),
-    "inv_managers_end": Pipeline(
-        pdf_extract=pdf_extract_inv_managers_end,
-        text_filter=text_filter_end,
-        deserialize=(
-            DeserializerInvestmentsManagerStandard(),
-            DeserializerFundStandard(),
-        ),
-    ),
+    "inv_managers_end": Pipeline(pdf_extract=pdf_extract_inv_managers_end),
 }

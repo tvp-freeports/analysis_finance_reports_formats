@@ -1,28 +1,18 @@
 from freeports.standard_funcs.pdf_extract import (
-    PdfExtractInvestmentsStandard,
-    PdfExtractPageClassifyStandard,
     PdfExtractManagmentCompanyStandard
 )
 from freeports.utils.pdf_extract import (
     pdflines_from_pagedict,
     PdfLineSelection
 )
-from freeports.utils.text_filter import normalize_string,MatchFund
-from freeports.core import Pipeline, PdfBlock, TextBlock
+from freeports.core import PdfBlock
 from freeports.standard_funcs.text_filter import TextFilterManagmentCompanyStandard
-from freeports.interfaces.text_blks import (
-    ResultStandardFiltering,
-    StandardInvestmentsMangerTextBlock,
-    StandardFundTextBlock
-)
 from freeports.standard_funcs.deserialize import (
     DeserializerFundStandard,
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerStandard
 )
-from freeports.output import Investment
 
-import inv_managers as inv_managers_template
 
 import logging
 from enum import Enum, auto
@@ -159,65 +149,23 @@ pdf_extract_manco = PdfExtractManagmentCompanyStandard(
     )
 )
 
-read = inv_managers_template.Adjacent(
-    inv_managers_template.Parenthetical(
-        block_type=TipiBlocco.SUB.name,
-        markers=("for the Sub-Funds ", "for the Sub-Fund "),
-    ),
-    where=inv_managers_template.Where.BELOW,
-    note_type=TipiBlocco.NOTE.name,
-    retired=(r"^\(until\b",),
-)
-"""La specificazione sta **sotto** il nome, e la riconosce il tipo di blocco, non la parentesi.
-
-I marcatori si provano nell'ordine, quindi il plurale per primo. La prima parentesi di p9 non ne
-porta nessuno — dice *quando* Eurizon Capital S.A. e' subentrata, non *che cosa* gestisce — e per
-questo quel gestore resta **senza comparti dichiarati**, cioe' quello a cui tocca il residuo.
-
-`retired` toglie il gestore uscente. p10 scrive `Eurizon Capital Asia Limited` e sotto `(until
-10th of May 2023)`, e la sua parentesi rivendica `Eurizon Fund - Equity China A` e `Eurizon Fund -
-Asian Equity Opportunities`; p9 dice degli stessi due comparti che *are managed by Eurizon Capital
-S.A. as from 10 May 2023*. Si estrae **chi e' in carica alla chiusura**, come per la societa' di
-gestione: la dichiarazione uscente non esce, e i suoi due comparti tornano nel residuo, che e'
-proprio di Eurizon Capital S.A.
-"""
-
-
-def _funds(results):
-    """I comparti che gli investimenti hanno visto, come li scrivono loro (`R24`)."""
-    return inv_managers_template.fund_set(
-        n.fund for n in filter(lambda x: isinstance(x, Investment), results)
-    )
-
-
-def text_filter_inv_managers(blocks, results):
-    """Le pagine di mezzo, che dichiarano e basta: il conto lo chiude l'ultima."""
-    assignment = inv_managers_template.assign(read(blocks), _funds(results), settle=False)
-    return inv_managers_template.text_blocks(assignment)
-
-
-def text_filter_inv_managers_end(blocks, results):
-    """p10, che questo formato processa **per prima**: dichiara e non chiude niente."""
-    return text_filter_inv_managers(blocks, results)
-
-
-def text_filter_inv_managers_begin(blocks, results):
-    """p9, che lo schedule processa **per ultima**, ed e' quindi dove il residuo si decide.
-
-    Lo si vede in `algorithms_schedule.csv`: le righe si accumulano in uno step e il flag lo
-    chiude *dopo* averle incluse, quindi `inv_managers_end` e `inv_managers` stanno nello step
-    prima e `inv_managers_begin` da sola in quello dopo. Non e' un capriccio: il gestore che
-    prende il residuo — Eurizon Capital S.A. — e' dichiarato qui, e il residuo si sa solo quando
-    tutte le altre pagine hanno rivendicato il loro.
-    """
-    assignment = inv_managers_template.assign(
-        read(blocks),
-        _funds(results),
-        already_assigned=inv_managers_template.assigned_funds(results),
-    )
-    return inv_managers_template.text_blocks(assignment)
-
-
+# I tre `text_filter` dei gestori stanno nel livello `semistructured`. La specificazione sta
+# **sotto** il nome e la riconosce il tipo di blocco, non la parentesi; i marcatori si provano
+# nell'ordine, quindi il plurale per primo. La prima parentesi di p9 non ne porta nessuno — dice
+# *quando* Eurizon Capital S.A. e' subentrata, non *che cosa* gestisce — e per questo quel gestore
+# resta **senza comparti dichiarati**, cioe' quello a cui tocca il residuo.
+#
+# `retired` toglie il gestore uscente: p10 scrive `Eurizon Capital Asia Limited` e sotto `(until
+# 10th of May 2023)`, e la sua parentesi rivendica `Eurizon Fund - Equity China A` e `Eurizon Fund -
+# Asian Equity Opportunities`; p9 dice degli stessi due comparti che *are managed by Eurizon Capital
+# S.A. as from 10 May 2023*. Si estrae chi e' in carica alla chiusura, come per la societa' di
+# gestione: la dichiarazione uscente non esce, e i suoi due comparti tornano nel residuo.
+#
+# p9 e' la sola che chiude il conto, e lo schedule la processa **per ultima**: le righe si accumulano
+# in uno step e il flag lo chiude *dopo* averle incluse, quindi `inv_managers_end` e `inv_managers`
+# stanno nello step prima e `inv_managers_begin` da sola in quello dopo. Non e' un capriccio: il
+# gestore che prende il residuo e' dichiarato li', e il residuo si sa solo quando tutte le altre
+# pagine hanno rivendicato il loro.
 text_filter_manco = TextFilterManagmentCompanyStandard()
 
 deserialize_inv_managers = DeserializerInvestmentsManagerStandard()

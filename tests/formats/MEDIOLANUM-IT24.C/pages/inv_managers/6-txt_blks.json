@@ -1,0 +1,79 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Global Leaders",
+          "Mediolanum Global Equity Style Selection"
+        ]
+      }
+    },
+    "content": "Guardcap Asset Management Limited",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Global Small Cap Equity",
+          "Mediolanum Global Impact",
+          "Pacific Collection",
+          "US Collection"
+        ]
+      }
+    },
+    "content": "JP Morgan Asset Management (UK) Limited",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Mediolanum Global Impact",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Pacific Collection",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Global Small Cap Equity",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "European Collection"
+        ]
+      }
+    },
+    "content": "Lansdowne Partners (UK) LLP",
+    "pdf_block": null
+  },
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "Mediolanum World Innovative Leaders"
+        ]
+      }
+    },
+    "content": "Lazard Asset Management Ltd.",
+    "pdf_block": null
+  }
+]

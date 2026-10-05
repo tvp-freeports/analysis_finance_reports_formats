@@ -33,39 +33,39 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `tests.formats.single_page` | `ANIMA_SGR-IT24/2` | 1 page: 35 |
 | `tests.formats.single_page` | `ANIMA_SGR-IT24/3` | 1 page: 13 |
 | `tests.formats.single_page` | `ANIMA_SGR-IT24/6` | 1 page: 319 |
-| `tests.formats.single_page` | `ANIMA_SICAV-EN24` | 1 page: 23 |
 | `tests.formats.single_page` | `ARCA-IT24/2` | 1 page: 19 |
 | `tests.formats.single_page` | `EURIZON-IT24/3` | 1 page: 14 |
 | `tests.formats.single_page` | `EURIZON-IT24/4` | 1 page: 14 |
-| `tests.formats.single_page` | `MEDIOLANUM-EN23` | 1 page: 18 |
-| `tests.formats.single_page` | `MEDIOLANUM-IT24.C` | 1 page: 492 |
 | `tests.formats.single_page` | `ANIMA_SGR-IT24/5` | 2 pages: 13, 14 |
-| `tests.formats.single_page` | `EURIZON-EN21` | 2 pages: 7, 98 |
+| `tests.formats.single_page` | `ANIMA_SICAV-EN24` | 2 pages: 5, 23 |
 | `tests.formats.single_page` | `EURIZON-EN23/2` | 2 pages: 1016, 1017 |
 | `tests.formats.single_page` | `EURIZON-IT24/2` | 2 pages: 7, 30 |
-| `tests.formats.single_page` | `KAIROS-EN23/2` | 2 pages: 6, 104 |
+| `tests.formats.single_page` | `MEDIOLANUM-EN23` | 2 pages: 3, 18 |
 | `tests.formats.single_page` | `MEDIOLANUM-ES24.B` | 2 pages: 1, 20 |
+| `tests.formats.single_page` | `ANIMA_SGR-IT24/4` | 3 pages: 10, 11, 12 |
+| `tests.formats.single_page` | `ASTERIA-EN23` | 3 pages: 3, 22, 27 |
+| `tests.formats.single_page` | `EURIZON-EN21` | 3 pages: 7, 8, 98 |
 | `docs.python` | `algorithms.unstructured.eurizon_en23` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.esg_indicators` | 0.0 % |
+| `docs.python` | `algorithms.unstructured.eurizon_en23.investment_managers` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_en23.merging` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.mediolanum_en24` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.mediolanum_it24_a` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.mediolanum_it24_a.esg_indicators` | 0.0 % |
-| `docs.python` | `templates.inv_managers.assignment.Declared` | 0.0 % |
-| `docs.python` | `templates.manco.reading.Between` | 0.0 % |
+| `docs.python` | `algorithms.unstructured.mediolanum_it24_c` | 0.0 % |
 | `docs.python` | `templates.mediolanum_24` | 0.0 % |
-| `docs.python` | `templates.mediolanum_24.inv_managers` | 0.0 % |
 | `docs.python` | `templates.mediolanum_24.inv_managers.PdfExtractBeginPage` | 0.0 % |
 | `docs.python` | `templates.mediolanum_24.inv_managers.PdfExtractEndPage` | 0.0 % |
 | `docs.python` | `algorithms.unstructured.eurizon_it24` | 10.0 % |
+| `docs.python` | `templates.mediolanum_24.inv_managers` | 11.1 % |
 | `docs.python` | `algorithms.unstructured.kairos_en23` | 23.1 % |
-| `docs.python` | `templates.carryover.record.Record` | 33.3 % |
-| `lint.python` | `F401` | 52 |
+| `docs.python` | `algorithms.unstructured.fineco_en23_ir.inv_managers` | 33.3 % |
+| `lint.python` | `F401` | 31 |
 | `lint.python` | `E741` | 10 |
 | `lint.python` | `F841` | 3 |
 | `lint.python` | `F811` | 1 |
 | `grants.coverage` | `basic check` | 1.0 % |
 
-Only the worst 15 lines of each metric are shown: tests.formats.single_page (22 more), docs.python (67 more). `freeports-dev ci-report --format json` carries every one of them.
+Only the worst 15 lines of each metric are shown: tests.formats.single_page (22 more), docs.python (50 more). `freeports-dev ci-report --format json` carries every one of them.
 
 <!-- freeports-dev:end -->

@@ -1,0 +1,143 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "HIGH YIELD 1 5 YEARS EURO HEDGED",
+          "HIGH YIELD BOND"
+        ]
+      }
+    },
+    "content": "PGIM Limited",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {
+        "group": 0
+      },
+      "content": "PGIM Limited"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Dynamic Bond Euro Hedged",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {},
+      "content": "Dynamic Bond Euro Hedged"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Emerging Markets Bond",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {},
+      "content": "Emerging Markets Bond"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Emerging Markets Equity",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {},
+      "content": "Emerging Markets Equity"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Emerging Markets Small Cap",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {},
+      "content": "Emerging Markets Small Cap"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Global Absolute Bond Euro Hedged",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {},
+      "content": "Global Absolute Bond Euro Hedged"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Global Corporate Bond",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {},
+      "content": "Global Corporate Bond"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Global Infrastructure",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {},
+      "content": "Global Infrastructure"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Global Multistrategy",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {},
+      "content": "Global Multistrategy"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Globo (Global Bond)",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {},
+      "content": "Globo (Global Bond)"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "US Core Equity",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGER",
+      "metadata": {},
+      "content": "US Core Equity"
+    }
+  }
+]

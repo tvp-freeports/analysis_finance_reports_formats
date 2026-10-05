@@ -14,7 +14,7 @@ questo bilancio scrive **identico** a quello di ASTERIA-EN23: le due etichette i
 in due colonne — `Management Company:` a sinistra con `Waystone Management Company (Lux) S.A.`,
 `Investment Manager and Global Distributor:` a destra con `ASTERIA Investment Managers S.A.` — e
 sotto ciascuna il nome, poi l'indirizzo. Per questo la ricetta non e' qui ma in
-`inv_managers.declared_together`, e il modulo porta solo le ancore.
+l'algoritmo `inv_managers` del livello `semistructured`, e il modulo porta solo le ancore.
 
 Il corpo di 9.98 nelle etichette non e' un dettaglio: il titolo della pagina e' 13.97 e i nomi sono
 in tondo, quindi il grassetto da 9.98 e' **esattamente** l'insieme delle etichette. `BELOW` col
@@ -22,13 +22,8 @@ collocamento per difetto prende la prima riga sotto, che e' il nome: la seconda 
 """
 
 
-import inv_managers
 from freeports.core import Pipeline
 from freeports.interfaces.pdf_blks import ResultStandardExtraction
-from freeports.standard_funcs.deserialize import (
-    DeserializerInvestmentsManagerStandard,
-    DeserializerManagmentCompanyStandard,
-)
 from freeports.standard_funcs.pdf_extract import PdfExtractLabelledValueStandard
 from freeports.utils.pdf_extract import LabelledValueWhere, PdfLineSelection
 
@@ -50,12 +45,5 @@ pdf_extract_inv_managers = PdfExtractLabelledValueStandard(
 
 pipelines = {
     # `C04` e `C15`: la societa' di gestione e il gestore, che pagina 3 dichiara insieme.
-    "inv_managers": Pipeline(
-        (pdf_extract_manco, pdf_extract_inv_managers),
-        inv_managers.declared_together(),
-        (
-            DeserializerInvestmentsManagerStandard(),
-            DeserializerManagmentCompanyStandard(),
-        ),
-    ),
+    "inv_managers": Pipeline((pdf_extract_manco, pdf_extract_inv_managers)),
 }

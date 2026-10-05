@@ -33,14 +33,8 @@ La ricetta e' quella del template — due etichette su una pagina, nessun compar
 qui ci sono le ancore, i due avvisi, e nient'altro.
 """
 
-import inv_managers
-from freeports import log
 from freeports.core import Pipeline
 from freeports.interfaces.pdf_blks import ResultStandardExtraction
-from freeports.standard_funcs.deserialize import (
-    DeserializerInvestmentsManagerStandard,
-    DeserializerManagmentCompanyStandard,
-)
 from freeports.standard_funcs.pdf_extract import PdfExtractLabelledValueStandard
 from freeports.utils.pdf_extract import LabelledValueWhere, PdfLineSelection
 
@@ -63,30 +57,9 @@ pdf_extract_inv_managers = PdfExtractLabelledValueStandard(
     where=LabelledValueWhere.BELOW,
 )
 
-_declared_together = inv_managers.declared_together()
-
-
-def text_filter(pdf_blks, filter_data):
-    """La ricetta del template, piu' i due avvisi sulla nomenclatura."""
-    log.warn(
-        "this report names no management company: the 'Alternative Investment Fund Manager and "
-        "Global Distributor' is taken as one, because an alternative fund calls that role by that "
-        "name - the report itself does not say the two are the same thing"
-    )
-    log.warn(
-        "the investments manager is declared as 'Cash Manager and Portfolio Manager': the "
-        "nomenclature is this report's own, and the role is read as the usual one"
-    )
-    return _declared_together(pdf_blks, filter_data)
-
-
+# Il `text_filter` sta nel livello `semistructured`, con la ricetta `IM-1` — un gestore, nessun
+# elenco di comparti, `R15` — e i due avvisi sulla nomenclatura fra i suoi `notes`: li deve dire il
+# formato, perche' e' lui a sapere di chi e' il bilancio, e `R25` non vuole che restino non detti.
 pipelines = {
-    "inv_managers": Pipeline(
-        (pdf_extract_manco, pdf_extract_inv_managers),
-        text_filter,
-        (
-            DeserializerInvestmentsManagerStandard(),
-            DeserializerManagmentCompanyStandard(),
-        ),
-    ),
+    "inv_managers": Pipeline((pdf_extract_manco, pdf_extract_inv_managers)),
 }

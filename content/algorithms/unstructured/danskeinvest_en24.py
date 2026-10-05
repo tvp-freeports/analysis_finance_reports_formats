@@ -53,17 +53,10 @@ Due cose dell'elenco non si leggono da sole:
   sociale e' quella.
 """
 
-import re
 
-import inv_managers
 import renaming
 from freeports.core import PdfBlock, Pipeline
 from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
-from freeports.standard_funcs.deserialize import (
-    DeserializerFundStandard,
-    DeserializerInvestmentsManagerStandard,
-    DeserializerManagmentCompanyStandard,
-)
 from freeports.standard_funcs.pdf_extract import PdfExtractSectionStandard
 from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict
 
@@ -172,54 +165,11 @@ def pdf_extract_inv_managers(page):
     return blocks
 
 
-_RETIRED = re.compile(r"\(\s*until\b", re.IGNORECASE)
-"""La qualificazione che dice *non piu' in carica alla chiusura*."""
-
-_WRAPPED = re.compile(r",\s*$")
-"""Il nome continua sulla riga dopo: la virgola in fondo e' il solo segno che lo dica."""
-
-
-def read_inv_managers(blocks):
-    """Una dichiarazione per entrata: il nome, e nessun comparto detto.
-
-    Il nome e' la prima riga dell'entrata, piu' quelle che la virgola finale tiene attaccate. Le
-    altre righe sono l'indirizzo e la qualificazione temporale, che nessuno chiede.
-    """
-    declarations = []
-    for entry in _entries(blocks):
-        lines = [str(block.content).strip() for block in entry]
-        name = lines[0]
-        index = 1
-        while _WRAPPED.search(name) and index < len(lines):
-            # La virgola resta: `Sumitomo Mitsui DS Asset Management Company, Limited` e' la
-            # ragione sociale come il documento la scrive, e un nome d'uscita e' quello scritto.
-            name = "{} {}".format(name, lines[index])
-            index += 1
-        declarations.append(
-            inv_managers.Declared(
-                name,
-                # Il blocco va riscritto col nome ricostruito: `text_blocks` scrive come nome il
-                # **contenuto del blocco**, non la stringa della dichiarazione.
-                block=inv_managers.renamed(entry[0], name),
-                retired=any(_RETIRED.search(line) for line in lines),
-            )
-        )
-    return declarations
-
-
-def _entries(blocks):
-    """I blocchi divisi per entrata, nell'ordine in cui la pagina li scrive."""
-    entries = []
-    previous = None
-    for block in blocks:
-        group = block.metadata["group"]
-        if group != previous:
-            entries.append([])
-        entries[-1].append(block)
-        previous = group
-    return entries
-
-
+# Il `text_filter` sta nel livello `semistructured`. Il nome e' la prima riga dell'entrata piu'
+# quelle che la virgola finale tiene attaccate — `Sumitomo Mitsui DS Asset Management Company, /
+# Limited` e' una ragione sociale su due righe, e la virgola **resta**, che un nome d'uscita e'
+# quello scritto — e le altre righe sono l'indirizzo e la qualificazione temporale. `retired` si
+# prova su **ogni** riga dell'entrata, perche' li' la qualificazione sta sotto il nome.
 def pdf_extract_manco(page):
     """La prima riga sotto `MANAGEMENT COMPANY`, e **niente** dove quell'intestazione non c'e'.
 
@@ -260,13 +210,5 @@ pipelines = {
     ),
     # `C05` e `C17`, in una classe sola perche' le due pagine sono un prospetto solo: la societa'
     # di gestione (p5) e le quattro sezioni dei gestori (p5 e p6), appiattite come vuole `R22`.
-    "inv_managers": Pipeline(
-        (pdf_extract_manco, pdf_extract_inv_managers),
-        inv_managers.declared_together(read=read_inv_managers),
-        (
-            DeserializerInvestmentsManagerStandard(),
-            DeserializerManagmentCompanyStandard(),
-            DeserializerFundStandard(),
-        ),
-    ),
+    "inv_managers": Pipeline((pdf_extract_manco, pdf_extract_inv_managers)),
 }

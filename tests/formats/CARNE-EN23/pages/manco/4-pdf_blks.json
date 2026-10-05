@@ -1,6 +1,86 @@
 [
   {
     "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 0
+    },
+    "content": "ARCA Fondi SGR S.p.A. "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Via Disciplini 3 "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 0
+    },
+    "content": "I-20123 Milan "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 0
+    },
+    "content": "Italy "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 1
+    },
+    "content": "Goldman Sachs Asset Management International Ltd. "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 1
+    },
+    "content": "(in charge for the USD nominated securities in the"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 1
+    },
+    "content": "subfund Sidera Funds SICAV – Global High Yield) "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 1
+    },
+    "content": "Plumtree Court, 25 Shoe Lane "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 1
+    },
+    "content": "London EC4A 4AU  "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "INVESTMENTS_MANAGER",
+    "metadata": {
+      "group": 1
+    },
+    "content": "United Kingdom "
+  },
+  {
+    "__pdf_block__": true,
     "type_block": "MANAGEMENT_COMPANY",
     "metadata": {},
     "content": "Carne Global Fund Managers (Luxembourg) S.A. "
