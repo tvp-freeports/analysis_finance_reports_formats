@@ -5,13 +5,12 @@ import re
 from freeports.standard_funcs.text_filter import (
     TextFilterInvestmentsStandard
 )
-from freeports.interfaces.text_blks import OneTextBlockType,ResultStandardFiltering
+from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.utils.deserialize import to_int_en_month
 from freeports.utils.pdf_extract import (
     PdfLineSelection,
     pdflines_from_pagedict,
-    get_groups,
     get_table_coordinates,
     TablePosAlgorithm,
 )
@@ -56,22 +55,6 @@ def remove_fund_excess(txt):
     return " ".join(txt.split())
 
 
-def text_filter(pdf_blks, target_companies):
-    """Il tubo standard, col nome ripulito e la quantita' letta dal nome della societa'.
-
-    Su questo formato la quantita' sta **nella stessa cella** del nome dell'emittente, in testa,
-    quindi la si estrae qui: e' interpretazione di testo (`R23`), non un casting.
-    """
-    txt_blks = cleaned_std(pdf_blks, target_companies)
-    for txt_blk in txt_blks:
-        if txt_blk.type_block in (
-            ResultStandardFiltering.BOND_TARGET.name,
-            ResultStandardFiltering.EQUITY_TARGET.name,
-        ):
-            txt_blk.metadata |= {"quantity": market_value_regex.match(txt_blk.content)[0]}
-    return txt_blks
-
-
 def pdf_extract_rename(page):
     lines = pdflines_from_pagedict(page)
     renames = PdfLineSelection.area_from_movewindow(
@@ -79,22 +62,6 @@ def pdf_extract_rename(page):
     ).select(lines)
     rename = "".join((r.text for r in renames))
     return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {}, rename)]
-
-
-def pdf_extract_merges(page):
-    lines = pdflines_from_pagedict(page)
-    body = (
-        PdfLineSelection.area_from_bounds(
-            x0=0.0,
-            y0=PdfLineSelection.text("merged during the year"),
-            x1=1e6,
-            y1=PdfLineSelection.text("Fund’s shares"),
-        )
-        / PdfLineSelection.text("^ $")
-    ).select(lines)
-    groups = get_groups(body, 20)
-    merges = "".join((m.text for g, m in zip(groups, body) if g == 0))
-    return [PdfBlock(OnePdfBlockType.RELEVANT_BLOCK.name, {}, merges)]
 
 
 rename_regex = re.compile(
@@ -250,7 +217,6 @@ def esg_indicators_deserialize_art8(txt_blk):
 
 
 pipelines = {
-    "investments": Pipeline(text_filter=text_filter),
     # Le due classi di pagina sono due impaginazioni dello stesso allegato, e si leggono con lo
     # stesso modulo: quello che cambia e' come il rapporto intitola l'allegato e come scrive
     # l'etichetta del prodotto.
@@ -260,5 +226,5 @@ pipelines = {
         esg_indicators_deserialize_art8,
     ),
     "renaming": Pipeline(pdf_extract_rename, text_filter_rename, deserialize_rename),
-    "merges": Pipeline(pdf_extract_merges, text_filter_merges, deserialize_merges),
+    "merges": Pipeline(text_filter=text_filter_merges, deserialize=deserialize_merges),
 }

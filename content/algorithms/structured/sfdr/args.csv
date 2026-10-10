@@ -1,0 +1,17 @@
+ID,Language,Product joined,Product prepend
+ANIMA-EN23(sfdr_classification),ENGLISH,,
+ANIMA_SGR-IT24(sfdr_classification),ITALIAN,,
+ARCA-IT24(sfdr_classification),ITALIAN,,
+EURIZON-EN23(sfdr_classification),ENGLISH,,
+KAIROS-EN23(sfdr_classification),ENGLISH,,
+KAIROS-EN23(sfdr_classification_2),ENGLISH,,
+DANSKEINVEST-EN24(sfdr_classification),ENGLISH,,
+FINECO-EN23@LUX(sfdr_classification),ENGLISH,,
+MEDIOLANUM-IT24.A(sfdr_classification),ITALIAN,,
+AMUNDI-EN24(sfdr_classification),ENGLISH,TRUE,
+AMUNDI-IT24(sfdr_classification),ITALIAN,TRUE,
+ASTERIA-EN24(sfdr_classification),ENGLISH,TRUE,
+UBS-EN23(sfdr_classification),ENGLISH,TRUE,
+CARNE-EN23(sfdr_classification),ENGLISH,TRUE,SIDERA FUNDS SICAV
+MEDIOLANUM-IT24.B(sfdr_classification),ITALIAN,TRUE,FONDO
+FINECO-EN23@IR(sfdr_classification),ENGLISH,TRUE,

@@ -9,11 +9,6 @@ elenco di percentuali.
 
 from freeports.core import PdfBlock, TextBlock
 
-from freeports.standard_funcs.pdf_extract import (
-    PdfExtractInvestmentsStandard,
-    PdfExtractFundStandard,
-    PdfExtractCurrencyStandard,
-)
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.utils.text_filter import MatchFund
@@ -176,13 +171,6 @@ def deserialize_merges(txt_blk):
 # lasciarlo fuori sono il carattere del corpo e l'**ascissa**, che e' geometria e sta nella cella.
 
 pipelines = {
-    "investments": Pipeline(
-        pdf_extract=(
-            PdfExtractInvestmentsStandard(body_set=body_set,manco_set=manco_set),
-            PdfExtractFundStandard(subfund_set),
-            PdfExtractCurrencyStandard(currency_set)
-        )
-    ),
     # Il segno e' una `X` di testo, e su quasi tutti i moduli e' **fusa nella riga
     # dell'etichetta** (`Si'` / `X No`): per questo le etichette si ancorano anche in coda.
     "merges": Pipeline(pdf_extract_merges,text_filter_merges,deserialize_merges),

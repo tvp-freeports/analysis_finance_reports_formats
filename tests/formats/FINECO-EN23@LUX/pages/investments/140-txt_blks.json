@@ -37,7 +37,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 1,
         "table-row": 39
       },
@@ -70,7 +69,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 1,
         "table-row": 40
       },
@@ -103,7 +101,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 1,
         "table-row": 41
       },

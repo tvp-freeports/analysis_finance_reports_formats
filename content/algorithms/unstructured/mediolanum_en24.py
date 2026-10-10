@@ -1,7 +1,3 @@
-from freeports.standard_funcs.pdf_extract import PdfExtractManagmentCompanyStandard
-from freeports.standard_funcs.text_filter import TextFilterManagmentCompanyStandard
-from freeports.standard_funcs.deserialize import DeserializerManagmentCompanyStandard
-from freeports.utils.pdf_extract import PdfLineSelection
 from freeports.core import Pipeline
 import mediolanum_24
 

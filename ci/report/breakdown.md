@@ -57,15 +57,15 @@ The detail each measurement already carries, worst first: the files that pull a 
 | `docs.python` | `templates.mediolanum_24.inv_managers.PdfExtractEndPage` | 0.0 % |
 | `docs.python` | `templates.mediolanum_24.inv_managers` | 11.1 % |
 | `docs.python` | `algorithms.unstructured.eurizon_it24` | 12.5 % |
-| `docs.python` | `algorithms.unstructured.kairos_en23` | 23.1 % |
+| `docs.python` | `algorithms.unstructured.kairos_en23` | 18.2 % |
 | `docs.python` | `algorithms.unstructured.anima_sgr_it24` | 25.0 % |
 | `docs.python` | `algorithms.unstructured.fineco_en23_ir.inv_managers` | 33.3 % |
-| `lint.python` | `F401` | 16 |
 | `lint.python` | `E741` | 10 |
+| `lint.python` | `F401` | 7 |
 | `lint.python` | `F841` | 3 |
 | `lint.python` | `F811` | 1 |
 | `grants.coverage` | `basic check` | 1.0 % |
 
-Only the worst 15 lines of each metric are shown: tests.formats.single_page (22 more), docs.python (27 more). `freeports-dev ci-report --format json` carries every one of them.
+Only the worst 15 lines of each metric are shown: tests.formats.single_page (22 more), docs.python (21 more). `freeports-dev ci-report --format json` carries every one of them.
 
 <!-- freeports-dev:end -->

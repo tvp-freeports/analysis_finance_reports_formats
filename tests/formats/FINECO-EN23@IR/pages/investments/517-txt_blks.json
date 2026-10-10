@@ -33,7 +33,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": true,
         "table-col": 1,
         "table-row": 5
       },
@@ -62,7 +61,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 1,
         "table-row": 12
       },
@@ -91,7 +89,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 1,
         "table-row": 13
       },
@@ -120,7 +117,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 1,
         "table-row": 14
       },
@@ -149,7 +145,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 1,
         "table-row": 18
       },
@@ -178,7 +173,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 1,
         "table-row": 23
       },
@@ -207,7 +201,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 1,
         "table-row": 35
       },

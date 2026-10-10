@@ -34,7 +34,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 0,
         "table-row": 41
       },
@@ -64,7 +63,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 4,
         "table-row": 1
       },
@@ -94,7 +92,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 4,
         "table-row": 2
       },
@@ -124,7 +121,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 4,
         "table-row": 43
       },
@@ -154,7 +150,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 4,
         "table-row": 53
       },

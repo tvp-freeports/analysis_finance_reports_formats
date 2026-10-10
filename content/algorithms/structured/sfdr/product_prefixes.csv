@@ -1,0 +1,20 @@
+ID,Literal,Pattern
+KAIROS-EN23(sfdr_classification_2),,Product name.*:\s*
+DANSKEINVEST-EN24(sfdr_classification),,Product name\s*:\s*
+DANSKEINVEST-EN24(sfdr_classification),,^Danske Invest SICAV\s+
+FINECO-EN23@LUX(sfdr_classification),,Product name.*:\s*
+MEDIOLANUM-IT24.A(sfdr_classification),Nome del prodotto: ,
+MEDIOLANUM-IT24.A(sfdr_classification),, \(.*\)
+MEDIOLANUM-IT24.A(sfdr_classification),,", un comparto .*"
+AMUNDI-EN24(sfdr_classification),,Product name\s*:\s*
+AMUNDI-EN24(sfdr_classification),,^AMUNDI FUNDS\s+
+AMUNDI-IT24(sfdr_classification),,Nome del prodotto\s*:\s*
+ASTERIA-EN24(sfdr_classification),,Product name\s*:[\s:]*
+ASTERIA-EN24(sfdr_classification),,\s*\((?:the|il|la)\s[^)]*\)\s*$
+UBS-EN23(sfdr_classification),,Product name\s*:\s*
+UBS-EN23(sfdr_classification),,\s*\((?:the|il|la)\s[^)]*\)\s*$
+CARNE-EN23(sfdr_classification),,Product name\s*:\s*
+CARNE-EN23(sfdr_classification),,Sidera Funds(?: SICAV)?\s*[–-]\s*
+CARNE-EN23(sfdr_classification),,\s*\((?:the|il|la)\s[^)]*\)\s*$
+MEDIOLANUM-IT24.B(sfdr_classification),,Nome del prodotto\s*:\s*
+FINECO-EN23@IR(sfdr_classification),,Product name.*:\s*

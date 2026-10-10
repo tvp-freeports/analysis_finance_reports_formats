@@ -47,12 +47,7 @@ import sfdr
 from freeports.core import Pipeline, PdfBlock, TextBlock
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.interfaces.text_blks import OneTextBlockType
-from freeports.standard_funcs.pdf_extract import (
-    PdfExtractCurrencyStandard,
-    PdfExtractLabelledValueStandard,
-)
 from freeports.utils.pdf_extract import (
-    LabelledValueWhere,
     PdfLineSelection,
     get_groups,
     pdflines_from_pagedict,
@@ -163,22 +158,6 @@ tutt'e due vedono.
 _TITLE = PdfLineSelection(font="ubsheadline", font_size=(21.0, 23.0))
 """Il titolo del comparto, in corpo 22, che **va a capo** quando il nome è lungo."""
 
-_TOTALS = PdfLineSelection(font="frutiger45lightbold", font_size=(6.5, 7.5))
-_STATEMENT = PdfLineSelection(
-    font="frutiger45lightbold", font_size=(9.5, 10.5), text="^Statement of Net Assets"
-)
-_LABEL_ASSETS = _TOTALS & PdfLineSelection(text="^Assets")
-
-# La colonna dei valori comincia oltre 460: fra l'etichetta e il valore la riga porta un blocco
-# vuoto a 449,7, e senza questo vincolo `where=RIGHT` prenderebbe quello.
-_VALUE = PdfLineSelection.area(460.0, 0.0, 1e6, 1e6)
-
-TOT_ASSETS = "TOT_ASSETS"
-LIABILITIES = "LIABILITIES"
-NET_ASSETS = "NET_ASSETS"
-ASSETS_DATE = "ASSETS_DATE"
-ASSETS_PAGE = "ASSETS_PAGE"
-
 
 def pdf_extract_fund_title(page):
     """Il titolo del comparto, riunito, con il numero di pagina stampato."""
@@ -207,64 +186,10 @@ def text_filter_fund_title(pdf_blks, investment_funds):
     return [TextBlock.from_content(OneTextBlockType.RELEVANT_BLOCK.name, block.metadata, name)]
 
 
-def pdf_extract_assets_page(page):
-    """Il numero stampato della pagina del prospetto, che serve a ritrovare il titolo."""
-    number = carryover.page_number(pdflines_from_pagedict(page), _FOOT)
-    return [] if number is None else [PdfBlock(ASSETS_PAGE, {}, str(number))]
-
-
-pdf_extract_tot_assets = PdfExtractLabelledValueStandard(
-    _TOTALS & PdfLineSelection(text="^Total Assets"),
-    TOT_ASSETS,
-    "tot_assets",
-    where=LabelledValueWhere.RIGHT,
-    value=_VALUE,
-)
-
-pdf_extract_liabilities = PdfExtractLabelledValueStandard(
-    _TOTALS & PdfLineSelection(text="^Total Liabilities"),
-    LIABILITIES,
-    "liabilities",
-    where=LabelledValueWhere.RIGHT,
-    value=_VALUE,
-)
-
-pdf_extract_net_assets = PdfExtractLabelledValueStandard(
-    _TOTALS & PdfLineSelection(text="^Net assets at the end of the financial year"),
-    NET_ASSETS,
-    "net_assets",
-    where=LabelledValueWhere.RIGHT,
-    value=_VALUE,
-)
-
-# `R17`: la data si prende dalla colonna, che qui è la riga dell'etichetta `Assets`.
-#
-# Il valore si cerca **da quella riga in giù**: la riga sopra porta la valuta alla stessa ascissa,
-# e la banda di ordinate che `where=RIGHT` apre sulla scatola dell'etichetta la sfiora — misurato,
-# la data sta a 132,4 e `EUR` a 123,4, e senza questo vincolo la data diventa `EUR`.
-pdf_extract_assets_date = PdfExtractLabelledValueStandard(
-    _LABEL_ASSETS,
-    ASSETS_DATE,
-    "assets date",
-    where=LabelledValueWhere.RIGHT,
-    value=_VALUE - PdfLineSelection.area_from_bounds(x0=0.0, y0=0.0, x1=1e6, y1=_LABEL_ASSETS),
-)
-
-# La valuta non ha etichetta: sta nella banda fra il titolo del prospetto e la riga `Assets`,
-# sulla colonna dei valori. È geometria, ed è per questo che si scrive come un'area e non come
-# un'etichetta.
-pdf_extract_currency = PdfExtractCurrencyStandard(
-    _TOTALS
-    & PdfLineSelection.area_from_bounds(x0=450.0, y0=_STATEMENT, x1=1e6, y1=_LABEL_ASSETS)
-)
-
-# Il `text_filter` e il `deserialize` del prospetto sono del motore: `labelled_assets` riunisce i
-# blocchi nudi che gli `A1` qui sotto lasciano, prende il comparto dal titolo della pagina **piu'
-# vicina che precede** — la cella `fund: nearest_page`, che legge le promesse lasciate da
-# `fund_title` — e filtra sui comparti d'interesse; `assets` costruisce la riga.
-#
-# Il segno del passivo e' tipografia e non dato (`R31`), e lo dice la cella
-# `amount_cast: float + magnitude` invece di una funzione di due righe qui dentro.
+# Il prospetto patrimoniale e' **tutto** configurazione: i sei tubi di `pdf_extract` stanno in
+# `semistructured/args/pdf_extract.yaml` — il numero di pagina stampato, la valuta per geometria e
+# i quattro `A1` — e `labelled_assets` + `assets` ci erano gia'. Qui resta il **titolo**, che e'
+# dove la promessa si deposita: il nome va a capo e `A1` non riunisce le righe.
 
 
 
@@ -382,16 +307,6 @@ pipelines = {
         pdf_extract=pdf_extract_fund_title,
         text_filter=text_filter_fund_title,
         deserialize=assets_carry.deposit,
-    ),
-    "fund_assets": Pipeline(
-        pdf_extract=(
-            pdf_extract_assets_page,
-            pdf_extract_currency,
-            pdf_extract_assets_date,
-            pdf_extract_tot_assets,
-            pdf_extract_liabilities,
-            pdf_extract_net_assets,
-        ),
     ),
     # La societa' di gestione e' la cella `label` di `labelled_value`: il suo tubo era il **primo**
     # dei due, e un tubo promosso arriva prima di quelli d'autore, quindi l'ordine dei blocchi non

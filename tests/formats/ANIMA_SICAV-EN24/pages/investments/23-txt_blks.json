@@ -3,12 +3,12 @@
     "__text_block__": true,
     "type_block": "FUND",
     "metadata": {},
-    "content": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
+    "content": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili",
     "pdf_block": {
       "__pdf_block__": true,
       "type_block": "FUND_NAME",
       "metadata": {},
-      "content": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili (in EUR)"
+      "content": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili"
     }
   },
   {
@@ -22,7 +22,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili",
       "interest rate": "1.2%",
       "manco": null,
       "market value": "1,670,675.00",
@@ -36,7 +36,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 0,
         "table-row": 2
       },
@@ -54,7 +53,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili",
       "interest rate": "1.85%",
       "manco": null,
       "market value": "494,890.00",
@@ -68,7 +67,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 0,
         "table-row": 3
       },
@@ -86,7 +84,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili",
       "interest rate": "2.5%",
       "manco": null,
       "market value": "1,996,100.00",
@@ -100,7 +98,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 0,
         "table-row": 4
       },
@@ -118,7 +115,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili",
       "interest rate": "3.4%",
       "manco": null,
       "market value": "1,300,923.00",
@@ -132,7 +129,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 0,
         "table-row": 5
       },
@@ -150,7 +146,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili",
       "interest rate": "3.75%",
       "manco": null,
       "market value": "1,350,000.00",
@@ -164,7 +160,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 0,
         "table-row": 6
       },
@@ -182,7 +177,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili",
       "interest rate": "0%",
       "manco": null,
       "market value": "991,070.00",
@@ -196,7 +191,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 0,
         "table-row": 13
       },
@@ -214,7 +208,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili",
       "interest rate": "0%",
       "manco": null,
       "market value": "1,743,472.50",
@@ -228,7 +222,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 0,
         "table-row": 14
       },
@@ -246,7 +239,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili ",
+      "fund": "Gestielle Investment Sicav - Cedola Risk Control Energie Rinnovabili",
       "interest rate": "0%",
       "manco": null,
       "market value": "494,065.00",
@@ -260,7 +253,6 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
         "table-col": 0,
         "table-row": 15
       },

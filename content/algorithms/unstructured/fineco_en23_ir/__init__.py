@@ -3,7 +3,6 @@
 from freeports.core import Pipeline
 from freeports.utils.pdf_extract import PdfLineSelection
 
-from . import investments
 from . import inv_managers
 from . import managment_company
 from . import esg_indicators
@@ -42,13 +41,6 @@ product_set = (
 
 
 pipelines = {
-    "investments": Pipeline(
-        pdf_extract=(
-            investments.pdf_extract,
-            investments.pdf_extract_fund,
-            investments.pdf_extract_currency,
-        )
-    ),
     "inv_managers": Pipeline(inv_managers.pdf_filter),
     "manco": Pipeline(managment_company.pdf_filter),
     # La pagina del modulo legge il nome **due volte**: una per l'articolo SFDR, una per lasciarlo
@@ -58,8 +50,5 @@ pipelines = {
         esg_indicators.pdf_extract_fund,
         esg_indicators.text_filter_fund,
         esg_indicators.carry.deposit,
-    ),
-    "esg_indicators": Pipeline(
-        esg_indicators.pdf_extract_indicators,
     ),
 }

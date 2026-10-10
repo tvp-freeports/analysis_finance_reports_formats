@@ -19,8 +19,7 @@ from freeports.interfaces.text_blks import (
 )
 from freeports.utils.pdf_extract import (
     PdfLineSelection,
-    pdflines_from_pagedict,
-    get_groups
+    pdflines_from_pagedict
 )
 from freeports.utils.deserialize import (
     to_date_with_en_month
@@ -106,26 +105,6 @@ pdf_extract_funds = PdfExtractFundStandard(
 
 
 
-def pdf_extract_merges(page):
-    lines = pdflines_from_pagedict(page)
-    body = PdfLineSelection.area_from_bounds(
-        x0=0.0,
-        y0=PdfLineSelection.text("Funds merged during the financial year"),
-        x1=1e6,
-        y1=PdfLineSelection.text("Dividends Paid"),
-    ).select(lines)
-    groups = get_groups(body, 20)
-    n_groups = max(groups) + 1
-    return [
-        PdfBlock(
-            OnePdfBlockType.RELEVANT_BLOCK.name,
-            {},
-            " ".join((b.text for g, b in zip(groups, body) if group == g)),
-        )
-        for group in range(n_groups)
-    ]
-
-
 merge_regex = re.compile(
     "(.+) was automatically converted into (.+) on ([0-9]+.+[0-9]+)"
 )
@@ -175,5 +154,5 @@ pipelines = {
             pdf_extract_funds,
         )
     ),
-    "year_events": Pipeline(pdf_extract_merges, text_filter_merges, deserialize_merges),
+    "year_events": Pipeline(text_filter=text_filter_merges, deserialize=deserialize_merges),
 }

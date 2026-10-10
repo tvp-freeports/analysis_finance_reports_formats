@@ -14,10 +14,7 @@ il posto di una cosa che vale per questo formato e per nessun altro.
 
 from freeports.core import PdfBlock
 from freeports.standard_funcs.pdf_extract import (
-    PdfExtractInvestmentsStandard,
     PdfExtractPageClassifyStandard,
-    PdfExtractCurrencyStandard,
-    PdfExtractFundStandard,
     PdfExtractManagmentCompanyStandard,
 )
 from freeports.interfaces.pdf_blks import ResultStandardExtraction
@@ -37,6 +34,10 @@ from freeports.output import Fund
 from freeports.core import Pipeline
 import re
 
+# Le due selezioni che il **classificatore** di questo formato usa ancora. Il carattere non e'
+# scritto da nessuna parte: e' quello della testata della colonna, e `font_of` e' quel *quello*.
+# Il portafoglio diceva le stesse tre cose e adesso le dice in `args/pdf_extract.yaml`, dove
+# `font_of` e' una chiave della mappa.
 h_font = PdfLineSelection.font_of(PdfLineSelection.text("n de la cartera"))
 curr_set = PdfLineSelection(font_size=(8.9, 9.1), text="(expresado en") & h_font
 
@@ -151,15 +152,6 @@ pipelines = {
         ),
         text_filter=TextFilterPageClassifyStandard(),
         deserialize=DeserializerPageClassifyStandard(),
-    ),
-    "investments": Pipeline(
-        pdf_extract=(
-            PdfExtractInvestmentsStandard(
-                body_set=PdfLineSelection.area(0.0, 0.0, 1e6, 767.0) & h_font / PdfLineSelection.text("^ ")
-            ),
-            PdfExtractFundStandard(PdfLineSelection.area(0.0, 58.0, 1e6, 82.0) & h_font),
-            PdfExtractCurrencyStandard(curr_set)
-        )
     ),
     "manco": Pipeline(
         pdf_extract=(

@@ -227,8 +227,6 @@ def _cells(lines, coordinates):
     for line, (row, col) in zip(lines, coordinates):
         cells.setdefault((row, col), []).append(line)
 
-    widths = [line.bbox[2] - line.bbox[0] for line in lines]
-    max_width = max(widths)
     renumbered = {row: new for new, row in enumerate(sorted({row for row, _ in cells}))}
     return [
         PdfBlock(
@@ -236,7 +234,6 @@ def _cells(lines, coordinates):
             {
                 "table-row": renumbered[row],
                 "table-col": col,
-                "is-max-width": any(line.bbox[2] - line.bbox[0] == max_width for line in group),
             },
             "".join(line.text for line in group),
         )

@@ -42,7 +42,6 @@ from freeports.core import PdfBlock
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.core import TextBlock
-from freeports.standard_funcs.pdf_extract import PdfExtractSectionStandard
 from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict
 from freeports.utils.text_filter import MatchFund, investment_fund_filter_data
 
@@ -52,33 +51,6 @@ carry = carryover.PageCarryover("esg-fund")
 FOOT = PdfLineSelection.area(0.0, 795.0, 1e6, 1e6)
 """Il piede, dove il numero di pagina sta **centrato**: le due strisce laterali per difetto non lo
 prenderebbero."""
-
-_HEADING = PdfLineSelection(font="calibri-bolditalic", font_size=(10.5, 11.5))
-
-# La colonna di glossario del modello europeo sta a `x≈2` e in ordine di sola ordinata si intreccia
-# col corpo: si taglia per ascissa qui, che è dove `R23` mette la geometria.
-_BODY = PdfLineSelection(font="calibri", font_size=(8.5, 9.5)) & PdfLineSelection.area(
-    150.0, 0.0, 1e6, 1e6
-)
-
-_section = PdfExtractSectionStandard(
-    _HEADING & PdfLineSelection.text("How did the sustainability indicators perform"),
-    OnePdfBlockType.RELEVANT_BLOCK.name,
-    "esg_indicators",
-    family=_HEADING,
-    body=_BODY,
-)
-
-
-def pdf_extract_indicators(page):
-    """La sezione, con il numero di pagina nei metadati di ogni blocco."""
-    lines = pdflines_from_pagedict(page)
-    number = carryover.page_number(lines, FOOT)
-    return [
-        PdfBlock(block.type_block, dict(block.metadata, page=number), block.content)
-        for block in _section(page)
-    ]
-
 
 def pdf_extract_fund(page):
     """Il nome del prodotto della pagina del modulo, con il numero di pagina.

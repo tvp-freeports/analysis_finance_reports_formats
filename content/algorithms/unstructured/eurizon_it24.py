@@ -4,11 +4,6 @@ import re
 
 import sfdr
 
-from freeports.standard_funcs.pdf_extract import (
-    PdfExtractInvestmentsStandard,
-    PdfExtractCurrencyStandard,
-    PdfExtractFundStandard,
-)
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.core import Pipeline
 from freeports.utils.pdf_extract import (
@@ -254,16 +249,6 @@ def esg_indicators_pdf_extract(page):
 
 
 pipelines = {
-    "investments": Pipeline(
-        pdf_extract=(
-            PdfExtractInvestmentsStandard(
-                body_set=body_set,
-                deselection_list=deselection_list,
-            ),
-            PdfExtractFundStandard(fund_set),
-            PdfExtractCurrencyStandard(currency_set),
-        )
-    ),
     "merges": Pipeline(
         pdf_extract_change_name,
         text_filter_change_name,
