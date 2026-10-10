@@ -3,18 +3,10 @@
 import re
 
 from freeports.standard_funcs.text_filter import (
-    TextFilterInvestmentsStandard,
-    TextFilterManagmentCompanyStandard
+    TextFilterInvestmentsStandard
 )
 from freeports.interfaces.text_blks import OneTextBlockType,ResultStandardFiltering
-from freeports.standard_funcs.pdf_extract import (
-    PdfExtractManagmentCompanyStandard,
-)
 from freeports.interfaces.pdf_blks import OnePdfBlockType
-from freeports.standard_funcs.deserialize import (
-    DeserializerManagmentCompanyStandard,
-    DeserializerInvestmentsManagerFromManco,
-)
 from freeports.utils.deserialize import to_int_en_month
 from freeports.utils.pdf_extract import (
     PdfLineSelection,
@@ -259,22 +251,6 @@ def esg_indicators_deserialize_art8(txt_blk):
 
 pipelines = {
     "investments": Pipeline(text_filter=text_filter),
-    "manco": Pipeline(
-        PdfExtractManagmentCompanyStandard(
-            PdfLineSelection.area_from_movewindow(
-                PdfLineSelection(font="arialnarrow-bold", text="Management Company"),
-                (-0.1, 0.5),
-                10.0,
-                1.8,
-            )
-            / PdfLineSelection.text("^ $")
-        ),
-        TextFilterManagmentCompanyStandard(),
-        (
-            DeserializerManagmentCompanyStandard(),
-            DeserializerInvestmentsManagerFromManco(),
-        ),
-    ),
     # Le due classi di pagina sono due impaginazioni dello stesso allegato, e si leggono con lo
     # stesso modulo: quello che cambia e' come il rapporto intitola l'allegato e come scrive
     # l'etichetta del prodotto.

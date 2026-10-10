@@ -23,11 +23,8 @@ avviso perche' il dato e' dedotto e non letto.
 import re
 
 from freeports.core import Pipeline
-from freeports.interfaces.pdf_blks import ResultStandardExtraction
 from freeports.interfaces.text_blks import ResultStandardFiltering
-from freeports.standard_funcs.pdf_extract import PdfExtractLabelledValueStandard
 from freeports.standard_funcs.text_filter import TextFilterInvestmentsStandard
-from freeports.utils.pdf_extract import LabelledValueWhere, PdfLineSelection
 
 market_value_regex = re.compile(r"(([0-9]+,)?[0-9]+,?[0-9]+\.[0-9]{2}) ")
 # non sono sicuro di come ho riscritto questa regex e a cosa servivano le parentesi
@@ -57,21 +54,9 @@ def text_filter(pdf_blks, target_companies):
         txt_blk.metadata["fund"]=fund_remove_regex.sub("",txt_blk.metadata["fund"]).replace("*","")
     return txt_blks
 
-
-pdf_extract_manco = PdfExtractLabelledValueStandard(
-    PdfLineSelection(
-        font="arialnarrow-bold", font_size=(8.5, 9.5), text="^Management Company"
-    ),
-    ResultStandardExtraction.MANAGEMENT_COMPANY.name,
-    "managment company",
-    where=LabelledValueWhere.BELOW,
-)
-
+# La societa' di gestione sta tutta nella configurazione: la sua etichetta e' la cella `label` di
+# `labelled_value` in `content/algorithms/semistructured/args/pdf_extract.yaml`, e il resto della
+# pipeline `manco` sono due righe di `formats_mapping.csv`.
 pipelines = {
     "investments": Pipeline(text_filter=text_filter),
-    # `C03` e `C12`: il nome e' tutta la riga, quindi la lettura e' `str.strip` e non un pezzo di
-    # riga da ritagliare.
-    "manco": Pipeline(
-        pdf_extract_manco,
-    ),
 }

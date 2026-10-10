@@ -30,7 +30,7 @@
       "maturity": "14.03.54",
       "quantity": "255,000",
       "table col": 0,
-      "table row": 15
+      "table row": 10
     },
     "content": "BlackRock Funding, Inc. 5.250% 24–14.03.54",
     "pdf_block": {
@@ -39,7 +39,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 15
+        "table-row": 10
       },
       "content": "BlackRock Funding, Inc. 5.250% 24–14.03.54"
     }
@@ -63,7 +63,7 @@
       "maturity": "08.01.55",
       "quantity": "265,000",
       "table col": 0,
-      "table row": 16
+      "table row": 11
     },
     "content": "BlackRock Funding, Inc. 5.350% 24–08.01.55",
     "pdf_block": {
@@ -72,7 +72,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 16
+        "table-row": 11
       },
       "content": "BlackRock Funding, Inc. 5.350% 24–08.01.55"
     }
@@ -96,7 +96,7 @@
       "maturity": "21.11.37",
       "quantity": "100,000",
       "table col": 0,
-      "table row": 21
+      "table row": 15
     },
     "content": "Booking Holdings, Inc. 3.750% 24–21.11.37",
     "pdf_block": {
@@ -105,7 +105,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 21
+        "table-row": 15
       },
       "content": "Booking Holdings, Inc. 3.750% 24–21.11.37"
     }
@@ -129,7 +129,7 @@
       "maturity": "21.03.45",
       "quantity": "200,000",
       "table col": 0,
-      "table row": 22
+      "table row": 16
     },
     "content": "Booking Holdings, Inc. 3.875% 24–21.03.45",
     "pdf_block": {
@@ -138,7 +138,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 22
+        "table-row": 16
       },
       "content": "Booking Holdings, Inc. 3.875% 24–21.03.45"
     }
@@ -162,7 +162,7 @@
       "maturity": "01.03.44",
       "quantity": "200,000",
       "table col": 0,
-      "table row": 23
+      "table row": 17
     },
     "content": "Booking Holdings, Inc. 4.000% 24–01.03.44",
     "pdf_block": {
@@ -171,7 +171,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 23
+        "table-row": 17
       },
       "content": "Booking Holdings, Inc. 4.000% 24–01.03.44"
     }
@@ -184,7 +184,7 @@
       "acquisition cost": "478,380",
       "acquisition currency": "EUR",
       "company": "Caterpillar",
-      "company match": "Caterpillar Financial Services Corp. 3.742%",
+      "company match": "Caterpillar Financial Services Corp. 3.742%23–04.09.26",
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
@@ -195,7 +195,7 @@
       "maturity": "04.09.26",
       "quantity": "470,000",
       "table col": 0,
-      "table row": 31
+      "table row": 25
     },
     "content": "Caterpillar Financial Services Corp. 3.742%23–04.09.26",
     "pdf_block": {
@@ -204,7 +204,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 31
+        "table-row": 25
       },
       "content": "Caterpillar Financial Services Corp. 3.742%23–04.09.26"
     }
@@ -228,7 +228,7 @@
       "maturity": "26.02.31",
       "quantity": "110,000",
       "table col": 0,
-      "table row": 32
+      "table row": 26
     },
     "content": "Cisco Systems, Inc. 4.950% 24–26.02.31",
     "pdf_block": {
@@ -237,7 +237,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 32
+        "table-row": 26
       },
       "content": "Cisco Systems, Inc. 4.950% 24–26.02.31"
     }

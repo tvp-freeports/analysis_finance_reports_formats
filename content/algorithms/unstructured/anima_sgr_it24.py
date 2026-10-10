@@ -8,29 +8,17 @@ elenco di percentuali.
 """
 
 from freeports.core import PdfBlock, TextBlock
-import carryover
-import esg
 
 from freeports.standard_funcs.pdf_extract import (
-    PdfExtractSectionStandard,
     PdfExtractInvestmentsStandard,
-    PdfExtractCurrencyConstant,
     PdfExtractFundStandard,
     PdfExtractCurrencyStandard,
-    PdfExtractLabelledValueStandard,
 )
-from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
-from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
+from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.utils.text_filter import MatchFund
-from freeports.standard_funcs.deserialize import (
-    DeserializerAssetsStandard,
-)
-from freeports.consts import Currency
-from freeports.utils.deserialize import to_date_with_it_month, to_int
+from freeports.utils.deserialize import to_date_with_it_month
 from freeports.utils.pdf_extract import (
-    LabelledValueWhere,
-    LabelledValueTake,
     PdfLineSelection,
     pdflines_from_pagedict,
     get_table_coordinates,
@@ -174,165 +162,20 @@ def deserialize_merges(txt_blk):
 #
 # Il nome del comparto sta nella testatina in alto a destra, tranne nel quarto documento, dove la
 # riga e' una sola e comincia con la societa' di gestione. Quel documento pero' porta **un fondo
-# solo**, quindi `carryover.sole_fund` risponde, e lo dichiara come valore imposto (`R3`).
+# solo**, quindi la cella `fund: sole_if_absent` risponde, e lo dichiara come valore imposto
+# (`R3`).
 
-TOT_ASSETS = "TOT_ASSETS"
-LIABILITIES = "LIABILITIES"
-NET_ASSETS = "NET_ASSETS"
-ASSETS_DATE = "ASSETS_DATE"
-FUND_NAME = "FUND_NAME"
-
-assets_bold_set = (
-    PdfLineSelection.font("LatoBold")
-    | PdfLineSelection.font("TrebuchetMS-Bold")
-    | PdfLineSelection.font("Open-SansBold")
-) & PdfLineSelection(font_size=(6.9, 7.1))
-
-assets_body_set = (
-    PdfLineSelection.font("Lato")
-    | PdfLineSelection.font("TrebuchetMS")
-    | PdfLineSelection.font("Open-Sans")
-) & PdfLineSelection(font_size=(6.9, 7.1))
-
-# La testatina in alto a destra. Il prefisso d'ombrello e' l'ancora: nella stessa area il quarto
-# documento ha solo uno spazio, che senza il prefisso diventerebbe il nome del comparto.
-assets_fund_set = PdfLineSelection(text="^ANIMA") & PdfLineSelection(
-    area=(300.0, 20.0, 1e6, 50.0)
-)
-
-# `R5`: l'esercizio corrente e' cio' che sta a sinistra dell'intestazione dell'esercizio
-# precedente, meno le percentuali, che sono le sole a portare il segno.
-current_year = PdfLineSelection.area_from_bounds(
-    0.0, 0.0, PdfLineSelection(text="^Situazione a fine"), 1e6
-) - PdfLineSelection(text="%")
-
-assets_carryover = carryover.Carryover("tot_assets")
-
-pdf_extract_assets_fund = PdfExtractLabelledValueStandard(
-    assets_fund_set, FUND_NAME, "fund", take=LabelledValueTake.ALL
-)
-
-pdf_extract_tot_assets = PdfExtractLabelledValueStandard(
-    assets_bold_set & PdfLineSelection(text="^TOTALE ATTIVITA'"),
-    TOT_ASSETS,
-    "tot_assets",
-    where=LabelledValueWhere.RIGHT,
-    value=current_year,
-)
-
-pdf_extract_liabilities = PdfExtractLabelledValueStandard(
-    assets_bold_set & PdfLineSelection(text="^TOTALE PASSIVITA'"),
-    LIABILITIES,
-    "liabilities",
-    where=LabelledValueWhere.RIGHT,
-    value=current_year,
-)
-
-# `CLASSE AM`, `CLASSE FM`, `CLASSE IM`: il netto delle classi di quote, non quello del fondo.
-pdf_extract_net_assets = PdfExtractLabelledValueStandard(
-    (assets_bold_set & PdfLineSelection(text="^VALORE COMPLESSIVO NETTO DEL FONDO"))
-    - PdfLineSelection(text="CLASSE"),
-    NET_ASSETS,
-    "net_assets",
-    where=LabelledValueWhere.RIGHT,
-    value=current_year,
-)
-
-pdf_extract_assets_date = PdfExtractLabelledValueStandard(
-    assets_body_set & PdfLineSelection(text="^Situazione al"),
-    ASSETS_DATE,
-    "assets date",
-    where=LabelledValueWhere.BELOW,
-)
-
-record_begin = carryover.Record(
-    fund=FUND_NAME, currency="CURRENCY_STATEMENT", tot_assets=TOT_ASSETS
-)
-
-record_end = carryover.Record(
-    fund=FUND_NAME,
-    currency="CURRENCY_STATEMENT",
-    date=ASSETS_DATE,
-    liabilities=LIABILITIES,
-    net_assets=NET_ASSETS,
-)
-
-assets_filter = TextFilterAssetsStandard()
+# I due prospetti patrimoniali (`FA-2` e `FA-3`) e la `manco` sono **tutti configurazione**: la
+# testatina del comparto, le ascisse delle colonne e la sottrazione delle classi di quote stanno nei
+# commenti di `args/pdf_extract.yaml`, e il ritaglio del nome della societa' di gestione e'
+# l'`after` dell'algoritmo `manco`.
 
 
-def _fund_the_page_does_not_name(pdf_blks, filter_data):
-    """Il ripiego per il documento a un fondo solo, chiesto **solo** quando serve davvero."""
-    if any(blk.type_block == FUND_NAME for blk in pdf_blks):
-        return None
-    name = carryover.sole_fund(filter_data)
-    return {"fund": name} if name else None
-
-
-def text_filter_fund_assets_begin(pdf_blks, filter_data):
-    """La prima delle due pagine: un prospetto solo, filtrato sui fondi d'interesse."""
-    also = _fund_the_page_does_not_name(pdf_blks, filter_data)
-    return assets_filter(record_begin(pdf_blks, also=also), filter_data)
-
-
-def text_filter_fund_assets_end(pdf_blks, filter_data):
-    """La seconda: il filtro **prima** e la promessa **dopo**."""
-    also = _fund_the_page_does_not_name(pdf_blks, filter_data)
-    blocks = assets_filter(record_end(pdf_blks, also=also), filter_data)
-    return assets_carryover.resume(blocks, filter_data)
-
-
-# `MC-3`: l'etichetta e il nome stanno sulla **stessa riga**, e quella riga e' la testata che ogni
-# pagina del prospetto ripete -- `Società di Gestione del Risparmio ANIMA SGR S.p.A.`, lato 7.92.
-# Il tubo e' `A1` con la posizione per difetto, che consegna la riga intera; quale pezzo della riga
-# sia il nome lo decide il `text_filter` (`R23`).
-pdf_extract_manco = PdfExtractLabelledValueStandard(
-    manco_set,
-    ResultStandardExtraction.MANAGEMENT_COMPANY.name,
-    "managment company",
-)
-
-# Il glossario del modello europeo sta nella colonna di sinistra e in ordine di lettura si
-# intreccia col corpo: l'ascissa e' cio' che lo lascia fuori, ed e' geometria, quindi `pdf_extract`.
-pdf_extract_esg = PdfExtractSectionStandard(
-    PdfLineSelection(
-        font="timesnewromanbolditalic",
-        font_size=(9.5, 10.5),
-        text="prestazione degli indicatori",
-    ),
-    OnePdfBlockType.RELEVANT_BLOCK.name,
-    "esg indicators",
-    body=PdfLineSelection(font="timesnewroman", font_size=(9.5, 10.5))
-    & PdfLineSelection.area(140.0, 0.0, 1e6, 1e6),
-)
+# La sezione degli indicatori ESG e' configurazione: `section` nel `pdf_extract`. Il glossario del
+# modello europeo sta nella colonna di sinistra e in ordine di lettura si intreccia col corpo: a
+# lasciarlo fuori sono il carattere del corpo e l'**ascissa**, che e' geometria e sta nella cella.
 
 pipelines = {
-    "esg_indicators": Pipeline(
-        pdf_extract=pdf_extract_esg,
-        # Il comparto non serve: la sezione non porta nessun numero, quindi nessuna riga esce e
-        # la domanda *di chi e' questa pagina* non si pone.
-        text_filter=esg.text_filter(esg.LeadingNumber(), None),
-        deserialize=esg.deserialize,
-    ),
-    "fund_assets_begin": Pipeline(
-        pdf_extract=(
-            pdf_extract_assets_fund,
-            PdfExtractCurrencyConstant(Currency.EUR),
-            pdf_extract_tot_assets,
-        ),
-        text_filter=text_filter_fund_assets_begin,
-        deserialize=assets_carryover.deposit,
-    ),
-    "fund_assets_end": Pipeline(
-        pdf_extract=(
-            pdf_extract_assets_fund,
-            PdfExtractCurrencyConstant(Currency.EUR),
-            pdf_extract_assets_date,
-            pdf_extract_liabilities,
-            pdf_extract_net_assets,
-        ),
-        text_filter=text_filter_fund_assets_end,
-        deserialize=DeserializerAssetsStandard(to_int),
-    ),
     "investments": Pipeline(
         pdf_extract=(
             PdfExtractInvestmentsStandard(body_set=body_set,manco_set=manco_set),
@@ -343,5 +186,4 @@ pipelines = {
     # Il segno e' una `X` di testo, e su quasi tutti i moduli e' **fusa nella riga
     # dell'etichetta** (`Si'` / `X No`): per questo le etichette si ancorano anche in coda.
     "merges": Pipeline(pdf_extract_merges,text_filter_merges,deserialize_merges),
-    "manco": Pipeline(pdf_extract_manco),
 }

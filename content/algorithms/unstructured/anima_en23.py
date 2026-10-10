@@ -9,7 +9,6 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractCurrencyStandard,
     PdfExtractFundStandard,
-    PdfExtractManagmentCompanyStandard,
 )
 from freeports.interfaces.pdf_blks import (
     OnePdfBlockType,
@@ -18,17 +17,10 @@ from freeports.interfaces.text_blks import (
     OneTextBlockType,
     ResultStandardFiltering
 )
-from freeports.standard_funcs.text_filter import (
-    TextFilterManagmentCompanyStandard,
-)
 from freeports.utils.pdf_extract import (
     PdfLineSelection,
     pdflines_from_pagedict,
     get_groups
-)
-from freeports.standard_funcs.deserialize import (
-    DeserializerManagmentCompanyStandard,
-    DeserializerInvestmentsManagerFromManco,
 )
 from freeports.utils.deserialize import (
     to_date_with_en_month
@@ -177,23 +169,6 @@ def deserialize_merges(txt_blk):
 
 
 pipelines = {
-    "manco": Pipeline(
-        pdf_extract=PdfExtractManagmentCompanyStandard(
-            PdfLineSelection.area_from_movewindow(
-                PdfLineSelection(
-                    text="Manager, Promoter and Distributor", font="helvetica-bold"
-                ),
-                (-0.1, 1.0),
-                1.3,
-                1.5,
-            )
-        ),
-        text_filter=TextFilterManagmentCompanyStandard(),
-        deserialize=(
-            DeserializerManagmentCompanyStandard(),
-            DeserializerInvestmentsManagerFromManco(),
-        ),
-    ),
     "investments": Pipeline(
         pdf_extract=(
             pdf_extract_investments,

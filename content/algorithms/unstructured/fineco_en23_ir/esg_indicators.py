@@ -38,7 +38,6 @@ corsa, e i quarantasei articoli SFDR del documento tutti al loro posto.
 """
 
 import carryover
-import esg
 from freeports.core import PdfBlock
 from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.interfaces.text_blks import OneTextBlockType
@@ -116,14 +115,7 @@ def text_filter_fund(pdf_blks, investment_funds):
     return [TextBlock.from_content(OneTextBlockType.RELEVANT_BLOCK.name, block.metadata, name)]
 
 
-read = esg.LeadingNumber()
-"""Il valore in testa alla frase, il nome nel resto (`R11`: senza numero non c'è indicatore).
-
-La seconda voce dei sei — *«in respect of its direct investments in corporate issuers, 0% of the
-Fund invested in…»* — comincia con la precisazione e non col numero, quindi cade. È la regola
-applicata, non un difetto da correggere qui: correggerla vorrebbe dire cercare il primo numero
-**dentro** la frase, e allora `in accordance with Fidelity's Sustainable Investing Framework`
-diventerebbe il nome di un indicatore su ogni voce che porta una cifra per caso.
-"""
-
-text_filter_indicators = esg.text_filter(read, carry.owner())
+# Il `text_filter` e il `deserialize` sono del motore: `esg` legge gli indicatori nella forma
+# che questa pagina usa e li attacca al comparto, `esg_indicator` costruisce la riga. Quale
+# lettore e di chi sia la pagina stanno in
+# `content/algorithms/semistructured/args/text_filter.yaml`.

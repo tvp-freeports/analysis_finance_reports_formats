@@ -67,17 +67,7 @@
       "table-col": 0,
       "table-row": 1
     },
-    "content": "Automatic Data Processing, Inc. 4.450%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 2
-    },
-    "content": "24–09.09.34"
+    "content": "Automatic Data Processing, Inc. 4.450%24–09.09.34"
   },
   {
     "__pdf_block__": true,
@@ -85,7 +75,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 2
+      "table-row": 1
     },
     "content": "180,000"
   },
@@ -95,7 +85,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 2
+      "table-row": 1
     },
     "content": "USD"
   },
@@ -105,7 +95,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 2
+      "table-row": 1
     },
     "content": "163,431"
   },
@@ -115,7 +105,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 2
+      "table-row": 1
     },
     "content": "165,527"
   },
@@ -125,7 +115,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 2
+      "table-row": 1
     },
     "content": "0.25"
   },
@@ -135,7 +125,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 3
+      "table-row": 2
     },
     "content": "Bank of America Corp. 2.824% 22–27.04.33"
   },
@@ -145,7 +135,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 3
+      "table-row": 2
     },
     "content": "245,000"
   },
@@ -155,7 +145,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 3
+      "table-row": 2
     },
     "content": "EUR"
   },
@@ -165,7 +155,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 3
+      "table-row": 2
     },
     "content": "235,336"
   },
@@ -175,7 +165,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 3
+      "table-row": 2
     },
     "content": "236,802"
   },
@@ -185,7 +175,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 3
+      "table-row": 2
     },
     "content": "0.36"
   },
@@ -195,7 +185,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "Bank of America Corp. 5.872% 23–15.09.34"
   },
@@ -205,7 +195,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "45,000"
   },
@@ -215,7 +205,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "USD"
   },
@@ -225,7 +215,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "43,755"
   },
@@ -235,7 +225,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "44,728"
   },
@@ -245,7 +235,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "0.07"
   },
@@ -255,19 +245,9 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 5
+      "table-row": 4
     },
-    "content": "Bank of New York Mellon Corp. 3.850%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 6
-    },
-    "content": "18–28.04.28"
+    "content": "Bank of New York Mellon Corp. 3.850%18–28.04.28"
   },
   {
     "__pdf_block__": true,
@@ -275,7 +255,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 6
+      "table-row": 4
     },
     "content": "750,000"
   },
@@ -285,7 +265,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 6
+      "table-row": 4
     },
     "content": "USD"
   },
@@ -295,7 +275,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 6
+      "table-row": 4
     },
     "content": "680,436"
   },
@@ -305,7 +285,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 6
+      "table-row": 4
     },
     "content": "706,688"
   },
@@ -315,7 +295,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 6
+      "table-row": 4
     },
     "content": "1.08"
   },
@@ -325,19 +305,9 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 7
+      "table-row": 5
     },
-    "content": "Bank of New York Mellon Corp. 4.289%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 8
-    },
-    "content": "22–13.06.33"
+    "content": "Bank of New York Mellon Corp. 4.289%22–13.06.33"
   },
   {
     "__pdf_block__": true,
@@ -345,7 +315,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 8
+      "table-row": 5
     },
     "content": "15,000"
   },
@@ -355,7 +325,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 8
+      "table-row": 5
     },
     "content": "USD"
   },
@@ -365,7 +335,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 8
+      "table-row": 5
     },
     "content": "13,421"
   },
@@ -375,7 +345,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 8
+      "table-row": 5
     },
     "content": "13,664"
   },
@@ -385,7 +355,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 8
+      "table-row": 5
     },
     "content": "0.02"
   },
@@ -395,19 +365,9 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 9
+      "table-row": 6
     },
-    "content": "Bank of New York Mellon Corp. 5.834%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 10
-    },
-    "content": "22–25.10.33"
+    "content": "Bank of New York Mellon Corp. 5.834%22–25.10.33"
   },
   {
     "__pdf_block__": true,
@@ -415,7 +375,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 10
+      "table-row": 6
     },
     "content": "50,000"
   },
@@ -425,7 +385,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 10
+      "table-row": 6
     },
     "content": "USD"
   },
@@ -435,7 +395,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 10
+      "table-row": 6
     },
     "content": "48,930"
   },
@@ -445,7 +405,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 10
+      "table-row": 6
     },
     "content": "50,058"
   },
@@ -455,7 +415,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 10
+      "table-row": 6
     },
     "content": "0.08"
   },
@@ -465,19 +425,9 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 11
+      "table-row": 7
     },
-    "content": "Bank of New York Mellon Corp. 6.474%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 12
-    },
-    "content": "23–25.10.34"
+    "content": "Bank of New York Mellon Corp. 6.474%23–25.10.34"
   },
   {
     "__pdf_block__": true,
@@ -485,7 +435,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 12
+      "table-row": 7
     },
     "content": "300,000"
   },
@@ -495,7 +445,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 12
+      "table-row": 7
     },
     "content": "USD"
   },
@@ -505,7 +455,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 12
+      "table-row": 7
     },
     "content": "302,632"
   },
@@ -515,7 +465,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 12
+      "table-row": 7
     },
     "content": "313,365"
   },
@@ -525,7 +475,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 12
+      "table-row": 7
     },
     "content": "0.48"
   },
@@ -535,7 +485,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 13
+      "table-row": 8
     },
     "content": "Barings BDC, Inc. 7.000% 24–15.02.29"
   },
@@ -545,7 +495,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 13
+      "table-row": 8
     },
     "content": "140,000"
   },
@@ -555,7 +505,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 13
+      "table-row": 8
     },
     "content": "USD"
   },
@@ -565,7 +515,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 13
+      "table-row": 8
     },
     "content": "133,233"
   },
@@ -575,7 +525,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 13
+      "table-row": 8
     },
     "content": "138,609"
   },
@@ -585,7 +535,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 13
+      "table-row": 8
     },
     "content": "0.21"
   },
@@ -595,7 +545,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 14
+      "table-row": 9
     },
     "content": "BGC Group, Inc. 6.600% 24–10.06.29"
   },
@@ -605,7 +555,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 14
+      "table-row": 9
     },
     "content": "420,000"
   },
@@ -615,7 +565,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 14
+      "table-row": 9
     },
     "content": "USD"
   },
@@ -625,7 +575,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 14
+      "table-row": 9
     },
     "content": "397,616"
   },
@@ -635,7 +585,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 14
+      "table-row": 9
     },
     "content": "415,984"
   },
@@ -645,7 +595,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 14
+      "table-row": 9
     },
     "content": "0.63"
   },
@@ -655,7 +605,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 15
+      "table-row": 10
     },
     "content": "BlackRock Funding, Inc. 5.250% 24–14.03.54"
   },
@@ -665,7 +615,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 15
+      "table-row": 10
     },
     "content": "255,000"
   },
@@ -675,7 +625,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 15
+      "table-row": 10
     },
     "content": "USD"
   },
@@ -685,7 +635,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 15
+      "table-row": 10
     },
     "content": "237,302"
   },
@@ -695,7 +645,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 15
+      "table-row": 10
     },
     "content": "233,167"
   },
@@ -705,7 +655,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 15
+      "table-row": 10
     },
     "content": "0.36"
   },
@@ -715,7 +665,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 16
+      "table-row": 11
     },
     "content": "BlackRock Funding, Inc. 5.350% 24–08.01.55"
   },
@@ -725,7 +675,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 16
+      "table-row": 11
     },
     "content": "265,000"
   },
@@ -735,7 +685,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 16
+      "table-row": 11
     },
     "content": "USD"
   },
@@ -745,7 +695,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 16
+      "table-row": 11
     },
     "content": "245,567"
   },
@@ -755,7 +705,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 16
+      "table-row": 11
     },
     "content": "245,100"
   },
@@ -765,7 +715,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 16
+      "table-row": 11
     },
     "content": "0.37"
   },
@@ -775,7 +725,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 17
+      "table-row": 12
     },
     "content": "Blue Owl Capital Corp. 2.875% 21–11.06.28"
   },
@@ -785,7 +735,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 17
+      "table-row": 12
     },
     "content": "460,000"
   },
@@ -795,7 +745,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 17
+      "table-row": 12
     },
     "content": "USD"
   },
@@ -805,7 +755,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 17
+      "table-row": 12
     },
     "content": "385,856"
   },
@@ -815,7 +765,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 17
+      "table-row": 12
     },
     "content": "404,333"
   },
@@ -825,7 +775,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 17
+      "table-row": 12
     },
     "content": "0.62"
   },
@@ -835,7 +785,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 18
+      "table-row": 13
     },
     "content": "Blue Owl Capital Corp. 3.400% 20–15.07.26"
   },
@@ -845,7 +795,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 18
+      "table-row": 13
     },
     "content": "255,000"
   },
@@ -855,7 +805,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 18
+      "table-row": 13
     },
     "content": "USD"
   },
@@ -865,7 +815,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 18
+      "table-row": 13
     },
     "content": "227,021"
   },
@@ -875,7 +825,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 18
+      "table-row": 13
     },
     "content": "238,757"
   },
@@ -885,7 +835,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 18
+      "table-row": 13
     },
     "content": "0.36"
   },
@@ -895,19 +845,9 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 19
+      "table-row": 14
     },
-    "content": "Blue Owl Credit Income Corp. 7.750%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 20
-    },
-    "content": "23–16.09.27"
+    "content": "Blue Owl Credit Income Corp. 7.750%23–16.09.27"
   },
   {
     "__pdf_block__": true,
@@ -915,7 +855,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 20
+      "table-row": 14
     },
     "content": "645,000"
   },
@@ -925,7 +865,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 20
+      "table-row": 14
     },
     "content": "USD"
   },
@@ -935,7 +875,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 20
+      "table-row": 14
     },
     "content": "621,553"
   },
@@ -945,7 +885,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 20
+      "table-row": 14
     },
     "content": "654,480"
   },
@@ -955,7 +895,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 20
+      "table-row": 14
     },
     "content": "1.00"
   },
@@ -965,7 +905,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 21
+      "table-row": 15
     },
     "content": "Booking Holdings, Inc. 3.750% 24–21.11.37"
   },
@@ -975,7 +915,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 21
+      "table-row": 15
     },
     "content": "100,000"
   },
@@ -985,7 +925,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 21
+      "table-row": 15
     },
     "content": "EUR"
   },
@@ -995,7 +935,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 21
+      "table-row": 15
     },
     "content": "101,038"
   },
@@ -1005,7 +945,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 21
+      "table-row": 15
     },
     "content": "101,055"
   },
@@ -1015,7 +955,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 21
+      "table-row": 15
     },
     "content": "0.15"
   },
@@ -1025,7 +965,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 22
+      "table-row": 16
     },
     "content": "Booking Holdings, Inc. 3.875% 24–21.03.45"
   },
@@ -1035,7 +975,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 22
+      "table-row": 16
     },
     "content": "200,000"
   },
@@ -1045,7 +985,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 22
+      "table-row": 16
     },
     "content": "EUR"
   },
@@ -1055,7 +995,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 22
+      "table-row": 16
     },
     "content": "203,532"
   },
@@ -1065,7 +1005,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 22
+      "table-row": 16
     },
     "content": "199,216"
   },
@@ -1075,7 +1015,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 22
+      "table-row": 16
     },
     "content": "0.30"
   },
@@ -1085,7 +1025,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 23
+      "table-row": 17
     },
     "content": "Booking Holdings, Inc. 4.000% 24–01.03.44"
   },
@@ -1095,7 +1035,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 23
+      "table-row": 17
     },
     "content": "200,000"
   },
@@ -1105,7 +1045,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 23
+      "table-row": 17
     },
     "content": "EUR"
   },
@@ -1115,7 +1055,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 23
+      "table-row": 17
     },
     "content": "207,886"
   },
@@ -1125,7 +1065,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 23
+      "table-row": 17
     },
     "content": "202,114"
   },
@@ -1135,7 +1075,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 23
+      "table-row": 17
     },
     "content": "0.31"
   },
@@ -1145,7 +1085,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 24
+      "table-row": 18
     },
     "content": "Boston Properties LP 3.250% 20–30.01.31"
   },
@@ -1155,7 +1095,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 24
+      "table-row": 18
     },
     "content": "250,000"
   },
@@ -1165,7 +1105,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 24
+      "table-row": 18
     },
     "content": "USD"
   },
@@ -1175,7 +1115,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 24
+      "table-row": 18
     },
     "content": "206,170"
   },
@@ -1185,7 +1125,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 24
+      "table-row": 18
     },
     "content": "212,429"
   },
@@ -1195,7 +1135,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 24
+      "table-row": 18
     },
     "content": "0.32"
   },
@@ -1205,7 +1145,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 25
+      "table-row": 19
     },
     "content": "Boston Properties LP 5.750% 24–15.01.35"
   },
@@ -1215,7 +1155,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 25
+      "table-row": 19
     },
     "content": "215,000"
   },
@@ -1225,7 +1165,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 25
+      "table-row": 19
     },
     "content": "USD"
   },
@@ -1235,7 +1175,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 25
+      "table-row": 19
     },
     "content": "198,461"
   },
@@ -1245,7 +1185,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 25
+      "table-row": 19
     },
     "content": "203,919"
   },
@@ -1255,7 +1195,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 25
+      "table-row": 19
     },
     "content": "0.31"
   },
@@ -1265,7 +1205,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 26
+      "table-row": 20
     },
     "content": "Bristol-Myers Squibb Co. 5.650% 24–22.02.64"
   },
@@ -1275,7 +1215,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 26
+      "table-row": 20
     },
     "content": "265,000"
   },
@@ -1285,7 +1225,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 26
+      "table-row": 20
     },
     "content": "USD"
   },
@@ -1295,7 +1235,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 26
+      "table-row": 20
     },
     "content": "247,819"
   },
@@ -1305,7 +1245,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 26
+      "table-row": 20
     },
     "content": "246,907"
   },
@@ -1315,7 +1255,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 26
+      "table-row": 20
     },
     "content": "0.38"
   },
@@ -1325,7 +1265,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 27
+      "table-row": 21
     },
     "content": "Bristol-Myers Squibb Co. 6.250% 23–15.11.53"
   },
@@ -1335,7 +1275,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 27
+      "table-row": 21
     },
     "content": "55,000"
   },
@@ -1345,7 +1285,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 27
+      "table-row": 21
     },
     "content": "USD"
   },
@@ -1355,7 +1295,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 27
+      "table-row": 21
     },
     "content": "58,554"
   },
@@ -1365,7 +1305,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 27
+      "table-row": 21
     },
     "content": "56,367"
   },
@@ -1375,7 +1315,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 27
+      "table-row": 21
     },
     "content": "0.09"
   },
@@ -1385,7 +1325,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 28
+      "table-row": 22
     },
     "content": "Brunswick Corp. 5.100% 22–01.04.52"
   },
@@ -1395,7 +1335,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 28
+      "table-row": 22
     },
     "content": "285,000"
   },
@@ -1405,7 +1345,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 28
+      "table-row": 22
     },
     "content": "USD"
   },
@@ -1415,7 +1355,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 28
+      "table-row": 22
     },
     "content": "214,726"
   },
@@ -1425,7 +1365,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 28
+      "table-row": 22
     },
     "content": "214,552"
   },
@@ -1435,7 +1375,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 28
+      "table-row": 22
     },
     "content": "0.33"
   },
@@ -1445,7 +1385,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 29
+      "table-row": 23
     },
     "content": "Cargill, Inc. 3.875% 23–24.04.30"
   },
@@ -1455,7 +1395,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 29
+      "table-row": 23
     },
     "content": "290,000"
   },
@@ -1465,7 +1405,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 29
+      "table-row": 23
     },
     "content": "EUR"
   },
@@ -1475,7 +1415,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 29
+      "table-row": 23
     },
     "content": "299,918"
   },
@@ -1485,7 +1425,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 29
+      "table-row": 23
     },
     "content": "300,907"
   },
@@ -1495,7 +1435,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 29
+      "table-row": 23
     },
     "content": "0.46"
   },
@@ -1505,7 +1445,7 @@
     "metadata": {
       "is-max-width": true,
       "table-col": 0,
-      "table-row": 30
+      "table-row": 24
     },
     "content": "Carlyle Secured Lending, Inc. 6.750% 24–18.02.30"
   },
@@ -1515,7 +1455,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 30
+      "table-row": 24
     },
     "content": "155,000"
   },
@@ -1525,7 +1465,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 30
+      "table-row": 24
     },
     "content": "USD"
   },
@@ -1535,7 +1475,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 30
+      "table-row": 24
     },
     "content": "150,644"
   },
@@ -1545,7 +1485,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 30
+      "table-row": 24
     },
     "content": "152,773"
   },
@@ -1555,7 +1495,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 30
+      "table-row": 24
     },
     "content": "0.23"
   },
@@ -1565,19 +1505,9 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 31
+      "table-row": 25
     },
-    "content": "Caterpillar Financial Services Corp. 3.742%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 32
-    },
-    "content": "23–04.09.26"
+    "content": "Caterpillar Financial Services Corp. 3.742%23–04.09.26"
   },
   {
     "__pdf_block__": true,
@@ -1585,7 +1515,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 32
+      "table-row": 25
     },
     "content": "470,000"
   },
@@ -1595,7 +1525,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 32
+      "table-row": 25
     },
     "content": "EUR"
   },
@@ -1605,7 +1535,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 32
+      "table-row": 25
     },
     "content": "478,380"
   },
@@ -1615,7 +1545,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 32
+      "table-row": 25
     },
     "content": "478,577"
   },
@@ -1625,7 +1555,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 32
+      "table-row": 25
     },
     "content": "0.73"
   },
@@ -1635,7 +1565,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 33
+      "table-row": 26
     },
     "content": "Cisco Systems, Inc. 4.950% 24–26.02.31"
   },
@@ -1645,7 +1575,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 33
+      "table-row": 26
     },
     "content": "110,000"
   },
@@ -1655,7 +1585,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 33
+      "table-row": 26
     },
     "content": "USD"
   },
@@ -1665,7 +1595,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 33
+      "table-row": 26
     },
     "content": "104,706"
   },
@@ -1675,7 +1605,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 33
+      "table-row": 26
     },
     "content": "106,626"
   },
@@ -1685,7 +1615,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 33
+      "table-row": 26
     },
     "content": "0.16"
   },
@@ -1695,7 +1625,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 34
+      "table-row": 27
     },
     "content": "CNO Financial Group, Inc. 6.450% 24–15.06.34"
   },
@@ -1705,7 +1635,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 34
+      "table-row": 27
     },
     "content": "710,000"
   },
@@ -1715,7 +1645,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 34
+      "table-row": 27
     },
     "content": "USD"
   },
@@ -1725,7 +1655,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 34
+      "table-row": 27
     },
     "content": "686,811"
   },
@@ -1735,7 +1665,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 34
+      "table-row": 27
     },
     "content": "708,965"
   },
@@ -1745,7 +1675,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 34
+      "table-row": 27
     },
     "content": "1.08"
   },
@@ -1755,7 +1685,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 35
+      "table-row": 28
     },
     "content": "Comcast Corp. 0.250% 20–20.05.27"
   },
@@ -1765,7 +1695,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 35
+      "table-row": 28
     },
     "content": "100,000"
   },
@@ -1775,7 +1705,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 35
+      "table-row": 28
     },
     "content": "EUR"
   },
@@ -1785,7 +1715,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 35
+      "table-row": 28
     },
     "content": "93,877"
   },
@@ -1795,7 +1725,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 35
+      "table-row": 28
     },
     "content": "94,437"
   },
@@ -1805,7 +1735,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 35
+      "table-row": 28
     },
     "content": "0.14"
   },
@@ -1815,7 +1745,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 36
+      "table-row": 29
     },
     "content": "Comcast Corp. 5.650% 24–01.06.54"
   },
@@ -1825,7 +1755,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 36
+      "table-row": 29
     },
     "content": "100,000"
   },
@@ -1835,7 +1765,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 36
+      "table-row": 29
     },
     "content": "USD"
   },
@@ -1845,7 +1775,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 36
+      "table-row": 29
     },
     "content": "98,300"
   },
@@ -1855,7 +1785,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 36
+      "table-row": 29
     },
     "content": "93,585"
   },
@@ -1865,7 +1795,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 36
+      "table-row": 29
     },
     "content": "0.14"
   },
@@ -1875,7 +1805,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 37
+      "table-row": 30
     },
     "content": "CommonSpirit Health 5.205% 24–01.12.31"
   },
@@ -1885,7 +1815,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 37
+      "table-row": 30
     },
     "content": "40,000"
   },
@@ -1895,7 +1825,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 37
+      "table-row": 30
     },
     "content": "USD"
   },
@@ -1905,7 +1835,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 37
+      "table-row": 30
     },
     "content": "37,432"
   },
@@ -1915,7 +1845,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 37
+      "table-row": 30
     },
     "content": "38,515"
   },
@@ -1925,7 +1855,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 37
+      "table-row": 30
     },
     "content": "0.06"
   },

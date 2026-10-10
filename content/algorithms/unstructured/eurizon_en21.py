@@ -20,33 +20,14 @@ nome esattamente come ci sta il nome successivo — ma la parentesi, che solo i 
 from enum import Enum, auto
 
 from freeports.core import PdfBlock, Pipeline
-from freeports.interfaces.pdf_blks import ResultStandardExtraction
-from freeports.standard_funcs.pdf_extract import PdfExtractLabelledValueStandard
 from freeports.utils.pdf_extract import (
-    LabelledValueTake,
-    LabelledValueWhere,
     PdfLineSelection,
     get_groups,
     pdflines_from_pagedict,
 )
 
-# L'etichetta e' in grassetto e i valori no: e' il grassetto che chiude la sezione, perche' sotto
-# l'ultimo indirizzo viene `Cabinet de Revision Agree:` e poi i revisori, che portano anche loro una
-# qualificazione temporale e sceglierebbero al posto nostro.
-label = PdfLineSelection(font="arialmt-bold", text="^Management Company:")
-next_label = PdfLineSelection.font("arialmt-bold") | PdfLineSelection.font("arialmt-bolditalic")
-
-# `reach` non e' un limite qui, e' solo il permesso di arrivare fino alla fine della sezione: le sei
-# righe sotto l'etichetta si stendono per ottantasei punti, e a fermarle e' `stop`.
-pdf_extract_manco = PdfExtractLabelledValueStandard(
-    label,
-    ResultStandardExtraction.MANAGEMENT_COMPANY.name,
-    "managment company",
-    where=LabelledValueWhere.BELOW,
-    take=LabelledValueTake.ALL,
-    reach=12.0,
-    stop=next_label,
-)
+# La `manco` e' configurazione: l'etichetta, il `reach` che e' solo il permesso di arrivare in
+# fondo alla sezione, e lo `stop` in grassetto che la chiude stanno in `args/pdf_extract.yaml`.
 
 
 # ----------------------------------------------------------------------------------------------
@@ -195,7 +176,6 @@ def pdf_extract_inv_managers_continued(page):
 # sub-funds except the sub-fund mentioned below.` — una specificazione che non nomina niente — e i
 # comparti di p8 le arrivano da `already_assigned`.
 pipelines = {
-    "manco": Pipeline(pdf_extract_manco),
     # I gestori stanno sulla stessa pagina della societa' di gestione, quindi la pipeline e'
     # un'altra e la classe di pagina e' la sua: il legame lo fa `mapping.csv`.
     "inv_managers": Pipeline(pdf_extract=pdf_extract_inv_managers),

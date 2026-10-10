@@ -45,11 +45,6 @@ def pdf_extract_page_classify(page):
 
 pipelines = {
     "": Pipeline(pdf_extract=pdf_extract_page_classify),
-    "manco": Pipeline(
-        pdf_extract=investment_managers.pdf_extract_manco,
-        text_filter=investment_managers.text_filter_manco,
-        deserialize=investment_managers.deserialize_manco,
-    ),
     # Only `pdf_extract`: the column positions, the flags and the deserializer stay in the
     # structured CSVs, which is where every other format of this repository keeps them. The
     # `partial_pipes.csv` row switches the structured `pdf_extract` off so the two do not stack.

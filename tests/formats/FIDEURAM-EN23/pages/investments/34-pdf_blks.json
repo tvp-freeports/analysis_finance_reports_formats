@@ -27,27 +27,7 @@
       "table-col": 2,
       "table-row": 0
     },
-    "content": "Notional or number"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 2,
-      "table-row": 1
-    },
-    "content": "of units / shares"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 2,
-      "table-row": 2
-    },
-    "content": "owned"
+    "content": "Notional or numberof units / sharesowned"
   },
   {
     "__pdf_block__": true,

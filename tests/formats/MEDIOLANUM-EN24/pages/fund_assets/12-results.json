@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "CHALLENGE EMERGING MARKETS EQUITY FUND",
+        "liabilities": 16035070.0,
+        "net_assets": 662852933.0,
+        "tot_assets": 678888003.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "CHALLENGE ENERGY OPPORTUNITIES",
+        "liabilities": 1678503.0,
+        "net_assets": 433802927.0,
+        "tot_assets": 435481430.0
+      }
+    }
+  }
+]

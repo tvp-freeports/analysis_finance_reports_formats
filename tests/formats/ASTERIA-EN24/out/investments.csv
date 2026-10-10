@@ -6,17 +6,17 @@ ID,Report,Report page,Triggering text,Investee,Financial instrument,Nominal/Quan
 5,report,56,Volvo Treasury AB 2.000% 22–19.08.27,Volvo Car Corp,BOND,100000.0,97966.0,EUR,0.0035,4,97153.0,EUR
 6,report,57,"Apple, Inc. 1.625% 14–10.11.26",Apple Inc,BOND,185000.0,182075.0,EUR,0.0064,4,178456.0,EUR
 7,report,57,"Apple, Inc. 3.600% 16–10.06.26",Apple Inc,BOND,80000.0,47409.0,EUR,0.0017,4,47830.0,AUD
-8,report,59,International Business Machines Corp. 1.250%,International Business Machines,BOND,85000.0,82685.0,EUR,0.0029,4,80256.0,EUR
-9,report,59,International Business Machines Corp. 1.700%,International Business Machines,BOND,175000.0,157852.0,EUR,0.0055,4,155811.0,USD
-10,report,59,International Business Machines Corp. 3.300%,International Business Machines,BOND,100000.0,94887.0,EUR,0.0033,4,93523.0,USD
-11,report,59,International Business Machines Corp. 3.375%,International Business Machines,BOND,125000.0,126570.0,EUR,0.0044,4,125164.0,EUR
-12,report,59,International Business Machines Corp. 4.150%,International Business Machines,BOND,100000.0,95443.0,EUR,0.0033,4,94272.0,USD
+8,report,59,International Business Machines Corp. 1.250%19–29.01.27,International Business Machines,BOND,85000.0,82685.0,EUR,0.0029,4,80256.0,EUR
+9,report,59,International Business Machines Corp. 1.700%20–15.05.27,International Business Machines,BOND,175000.0,157852.0,EUR,0.0055,4,155811.0,USD
+10,report,59,International Business Machines Corp. 3.300%19–15.05.26,International Business Machines,BOND,100000.0,94887.0,EUR,0.0033,4,93523.0,USD
+11,report,59,International Business Machines Corp. 3.375%23–06.02.27,International Business Machines,BOND,125000.0,126570.0,EUR,0.0044,4,125164.0,EUR
+12,report,59,International Business Machines Corp. 4.150%22–27.07.27,International Business Machines,BOND,100000.0,95443.0,EUR,0.0033,4,94272.0,USD
 13,report,69,Intesa Sanpaolo SpA 6.625% 23–20.06.33,INTESA SANPAOLO,BOND,601000.0,607471.0,EUR,0.0094,1,588967.0,USD
 14,report,69,Intesa Sanpaolo SpA 9.125% 23–PERP,INTESA SANPAOLO,BOND,898000.0,1038255.0,EUR,0.016,1,1022597.0,EUR
 15,report,78,Siemens Financieringsmaatschappij NV 3.375%23–24.08.31,Siemens,BOND,200000.0,206352.0,EUR,0.0032,2,206946.0,EUR
 16,report,78,Siemens Financieringsmaatschappij NV 3.625%24–22.02.44,Siemens,BOND,100000.0,99614.0,EUR,0.0015,2,100635.0,EUR
-17,report,78,IBM International Capital Pte. Ltd. 5.250%,International Business Machines,BOND,100000.0,91377.0,EUR,0.0014,2,92753.0,USD
-18,report,78,IBM International Capital Pte. Ltd. 5.300%,International Business Machines,BOND,190000.0,169415.0,EUR,0.0026,2,174497.0,USD
+17,report,78,IBM International Capital Pte. Ltd. 5.250%24–05.02.44,International Business Machines,BOND,100000.0,91377.0,EUR,0.0014,2,92753.0,USD
+18,report,78,IBM International Capital Pte. Ltd. 5.300%24–05.02.54,International Business Machines,BOND,190000.0,169415.0,EUR,0.0026,2,174497.0,USD
 19,report,78,"Apple, Inc. 1.625% 14–10.11.26",Apple Inc,BOND,100000.0,98419.0,EUR,0.0015,2,98608.0,EUR
 20,report,78,"Apple, Inc. 4.250% 17–09.02.47",Apple Inc,BOND,150000.0,124136.0,EUR,0.0019,2,122534.0,USD
 21,report,78,"Apple, Inc. 4.650% 16–23.02.46",Apple Inc,BOND,20000.0,17665.0,EUR,0.0003,2,17265.0,USD
@@ -25,9 +25,9 @@ ID,Report,Report page,Triggering text,Investee,Financial instrument,Nominal/Quan
 24,report,79,"Booking Holdings, Inc. 3.750% 24–21.11.37",Booking Holdings,BOND,100000.0,101055.0,EUR,0.0015,2,101038.0,EUR
 25,report,79,"Booking Holdings, Inc. 3.875% 24–21.03.45",Booking Holdings,BOND,200000.0,199216.0,EUR,0.003,2,203532.0,EUR
 26,report,79,"Booking Holdings, Inc. 4.000% 24–01.03.44",Booking Holdings,BOND,200000.0,202114.0,EUR,0.0031,2,207886.0,EUR
-27,report,79,Caterpillar Financial Services Corp. 3.742%,Caterpillar,BOND,470000.0,478577.0,EUR,0.0073,2,478380.0,EUR
+27,report,79,Caterpillar Financial Services Corp. 3.742%23–04.09.26,Caterpillar,BOND,470000.0,478577.0,EUR,0.0073,2,478380.0,EUR
 28,report,79,"Cisco Systems, Inc. 4.950% 24–26.02.31",Cisco Systems,BOND,110000.0,106626.0,EUR,0.0016,2,104706.0,USD
-29,report,80,Hewlett Packard Enterprise Co. 5.600%,Hewlett Packard Enterprise,BOND,180000.0,164015.0,EUR,0.0025,2,163034.0,USD
+29,report,80,Hewlett Packard Enterprise Co. 5.600%24–15.10.54,Hewlett Packard Enterprise,BOND,180000.0,164015.0,EUR,0.0025,2,163034.0,USD
 30,report,81,International Business Machines Corp. 3.500%19–15.05.29,International Business Machines,BOND,755000.0,691560.0,EUR,0.0106,2,669462.0,USD
 31,report,81,International Business Machines Corp. 4.000%23–06.02.43,International Business Machines,BOND,100000.0,102677.0,EUR,0.0016,2,103655.0,EUR
 32,report,81,International Business Machines Corp. 4.150%19–15.05.39,International Business Machines,BOND,180000.0,149710.0,EUR,0.0023,2,150621.0,USD

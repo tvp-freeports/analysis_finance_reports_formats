@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "CHALLENGE NORTH AMERICAN EQUITY FUND",
+        "liabilities": 11515777.0,
+        "net_assets": 2866246070.0,
+        "tot_assets": 2877761847.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "CHALLENGE EUROPEAN EQUITY FUND",
+        "liabilities": 15280295.0,
+        "net_assets": 694714307.0,
+        "tot_assets": 709994602.0
+      }
+    }
+  }
+]

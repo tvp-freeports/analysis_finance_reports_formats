@@ -1,6 +1,5 @@
 """Unstructured module for FINECO-EN23@IR"""
 
-import esg
 from freeports.core import Pipeline
 from freeports.utils.pdf_extract import PdfLineSelection
 
@@ -62,7 +61,5 @@ pipelines = {
     ),
     "esg_indicators": Pipeline(
         esg_indicators.pdf_extract_indicators,
-        esg_indicators.text_filter_indicators,
-        esg.deserialize,
     ),
 }

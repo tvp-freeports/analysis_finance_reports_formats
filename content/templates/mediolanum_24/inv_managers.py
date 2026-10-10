@@ -35,8 +35,8 @@ table_cfg = TableConfig(ColumnConfig(limits=(l,r)))
 deselection = PdfLineSelection.text("^ $")
 
 # The note references of this section are superscripts in a font of their own: the body of the
-# table is 9.48 (9.6 on MEDIOLANUM-IT24.C) and every reference is 6. Measured on the four pages of
-# each of the three reports.
+# table is 9.48 (9.6 on MEDIOLANUM-IT24.A's second document) and every reference is 6. Measured on
+# the four pages of each of the three reports.
 #
 # They have to go, because a row is read by joining its lines and the reference ends up glued to
 # what it qualifies: `Socially Responsible Investment Collection` plus the superscript `2*` is one

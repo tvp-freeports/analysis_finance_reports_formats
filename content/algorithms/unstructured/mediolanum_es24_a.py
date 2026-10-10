@@ -12,8 +12,7 @@ PATRIMONIO NETO`) e l'equazione torna. La data invece è scritta in spagnolo —
 il posto di una cosa che vale per questo formato e per nessun altro.
 """
 
-from lxml import etree
-from freeports.core import TextBlock, PdfBlock
+from freeports.core import PdfBlock
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
     PdfExtractPageClassifyStandard,
@@ -30,17 +29,10 @@ from freeports.standard_funcs.text_filter import (
 from freeports.interfaces.text_blks import StandardInvestmentsMangerTextBlock
 from freeports.utils.text_filter import MatchFund
 from freeports.standard_funcs.deserialize import (
-    DeserializerAssetsStandard,
     DeserializerPageClassifyStandard,
     DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerStandard,
 )
-from freeports.standard_funcs.pdf_extract import PdfExtractLabelledValueStandard
-from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
-from freeports.utils.deserialize import to_int
-from freeports.utils.pdf_extract import LabelledValueWhere
-import carryover
-import datetime
 from freeports.output import Fund
 from freeports.core import Pipeline
 import re
@@ -109,80 +101,26 @@ deserialize_inv_managers = DeserializerInvestmentsManagerStandard()
 # Il prospetto patrimoniale, uno per comparto (`FA-6`)
 # ----------------------------------------------------------------------------------------------
 
-TOT_ASSETS = "TOT_ASSETS"
-LIABILITIES = "LIABILITIES"
-NET_ASSETS = "NET_ASSETS"
-ASSETS_DATE = "ASSETS_DATE"
-
-# Il titolo del comparto, sotto quello del prospetto. Sul combinato al suo posto c'è `COMBINADO`,
-# e il trattino è ciò che li distingue senza doverlo dire per nome.
-subfund_set = PdfLineSelection(font_size=(11.9, 12.1)) & PdfLineSelection.text("^GAMAX FUNDS - ")
-
+# Il prospetto patrimoniale e' **tutto configurazione**: `fund` + `currency` + quattro
+# `labelled_value` nel `pdf_extract`, `labelled_assets` nel `text_filter` e `assets` nel
+# `deserialize`. Il titolo del comparto, la testata della colonna e le tre etichette dei totali
+# stanno nei commenti di `args/pdf_extract.yaml`.
+#
+# Qui resta `assets_statement_set`, che serve al **classificatore** di questa stessa pagina.
 assets_statement_set = PdfLineSelection.text("Estado del patrimonio neto")
 
-_TOTALS = PdfLineSelection(font="timesnewromanps-boldmt", font_size=(7.4, 7.7))
+# Il titolo del comparto, sotto quello del prospetto. Sul combinato al suo posto c'è `COMBINADO`,
+# e il trattino è ciò che li distingue senza doverlo dire per nome. Lo usa il classificatore.
+subfund_set = PdfLineSelection(font_size=(11.9, 12.1)) & PdfLineSelection.text("^GAMAX FUNDS - ")
 
-# La testata della colonna: la valuta a sinistra e la data a destra, sulla stessa riga, in
-# grassetto corpo 8. Nessuna delle due porta un'etichetta, quindi si prendono per posizione.
-_HEADING = PdfLineSelection(font="timesnewromanps-boldmt", font_size=(7.9, 8.2))
-assets_currency_set = _HEADING & PdfLineSelection.area(0.0, 118.0, 120.0, 140.0)
-assets_date_set = _HEADING & PdfLineSelection.area(440.0, 118.0, 1e6, 140.0)
-
-pdf_extract_tot_assets = PdfExtractLabelledValueStandard(
-    _TOTALS & PdfLineSelection(text="^TOTAL ACTIVO"),
-    TOT_ASSETS,
-    "tot_assets",
-    where=LabelledValueWhere.RIGHT,
-)
-
-pdf_extract_liabilities = PdfExtractLabelledValueStandard(
-    _TOTALS & PdfLineSelection(text="^TOTAL PASIVOS"),
-    LIABILITIES,
-    "liabilities",
-    where=LabelledValueWhere.RIGHT,
-)
-
-pdf_extract_net_assets = PdfExtractLabelledValueStandard(
-    _TOTALS & PdfLineSelection(text="^TOTAL PATRIMONIO NETO"),
-    NET_ASSETS,
-    "net_assets",
-    where=LabelledValueWhere.RIGHT,
-)
-
-record_assets = carryover.Record(
-    fund="FUND_NAME",
-    currency="CURRENCY_STATEMENT",
-    date=ASSETS_DATE,
-    tot_assets=TOT_ASSETS,
-    liabilities=LIABILITIES,
-    net_assets=NET_ASSETS,
-)
-
-assets_filter = TextFilterAssetsStandard()
-
-
-def text_filter_fund_assets(pdf_blks, filter_data):
-    """Un prospetto per pagina, filtrato sui comparti d'interesse."""
-    return assets_filter(record_assets(pdf_blks), filter_data)
-
-
-_ES_MONTHS = (
-    "enero", "febrero", "marzo", "abril", "mayo", "junio",
-    "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
-)
-
-
-def to_date_with_es_month(text):
-    """`31 de diciembre de 2024`, che è l'unico modo in cui questo formato scrive una data."""
-    found = re.match(
-        r"\s*(\d{1,2})\s+de\s+([a-záéíóúñ]+)\s+de\s+(\d{4})\s*$", str(text).strip(), re.I
-    )
-    if not found:
-        raise ValueError('"{}" is not in "DD de MONTH de YYYY" format'.format(text))
-    day, month, year = found.groups()
-    if month.lower() not in _ES_MONTHS:
-        raise ValueError('"{}" is not a Spanish month'.format(month))
-    return datetime.date(int(year), _ES_MONTHS.index(month.lower()) + 1, int(day))
+# Il `text_filter` e il `deserialize` del prospetto sono del motore: `labelled_assets` riunisce i
+# blocchi nudi che gli `A1` qui sotto lasciano e filtra sui comparti d'interesse, e `assets`
+# costruisce la riga. Il prospetto sta su **una** pagina sola, quindi niente promesse.
+#
+# La data — `31 de diciembre de 2024`, il solo modo in cui questo formato la scrive — era una
+# funzione di quindici righe qui dentro ed e' adesso la cella `date_cast: es_month`: il mese in
+# parole e' la logica di un **tipo di dato**, non la forma di questo documento, e il motore ne
+# aveva gia' tre lingue.
 
 
 pipelines = {
@@ -222,20 +160,6 @@ pipelines = {
             PdfExtractFundStandard(PdfLineSelection.area(0.0, 58.0, 1e6, 82.0) & h_font),
             PdfExtractCurrencyStandard(curr_set)
         )
-    ),
-    "fund_assets": Pipeline(
-        pdf_extract=(
-            PdfExtractFundStandard(subfund_set),
-            PdfExtractCurrencyStandard(assets_currency_set),
-            PdfExtractLabelledValueStandard(
-                assets_date_set, ASSETS_DATE, "assets date"
-            ),
-            pdf_extract_tot_assets,
-            pdf_extract_liabilities,
-            pdf_extract_net_assets,
-        ),
-        text_filter=text_filter_fund_assets,
-        deserialize=DeserializerAssetsStandard(to_int, to_date_with_es_month),
     ),
     "manco": Pipeline(
         pdf_extract=(

@@ -128,7 +128,7 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "company": "Caterpillar",
-        "company_match": "Caterpillar Financial Services Corp. 3.742%",
+        "company_match": "Caterpillar Financial Services Corp. 3.742%23–04.09.26",
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },

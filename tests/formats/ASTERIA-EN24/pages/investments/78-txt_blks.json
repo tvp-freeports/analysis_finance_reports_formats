@@ -37,7 +37,7 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
+        "is-max-width": true,
         "table-col": 0,
         "table-row": 3
       },
@@ -70,7 +70,7 @@
       "__pdf_block__": true,
       "type_block": "TABLE_BODY",
       "metadata": {
-        "is-max-width": false,
+        "is-max-width": true,
         "table-col": 0,
         "table-row": 4
       },
@@ -85,7 +85,7 @@
       "acquisition cost": "92,753",
       "acquisition currency": "USD",
       "company": "International Business Machines",
-      "company match": "IBM International Capital Pte. Ltd. 5.250%",
+      "company match": "IBM International Capital Pte. Ltd. 5.250%24–05.02.44",
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
@@ -96,7 +96,7 @@
       "maturity": "05.02.44",
       "quantity": "100,000",
       "table col": 0,
-      "table row": 7
+      "table row": 6
     },
     "content": "IBM International Capital Pte. Ltd. 5.250%24–05.02.44",
     "pdf_block": {
@@ -105,7 +105,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 7
+        "table-row": 6
       },
       "content": "IBM International Capital Pte. Ltd. 5.250%24–05.02.44"
     }
@@ -118,7 +118,7 @@
       "acquisition cost": "174,497",
       "acquisition currency": "USD",
       "company": "International Business Machines",
-      "company match": "IBM International Capital Pte. Ltd. 5.300%",
+      "company match": "IBM International Capital Pte. Ltd. 5.300%24–05.02.54",
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
@@ -129,7 +129,7 @@
       "maturity": "05.02.54",
       "quantity": "190,000",
       "table col": 0,
-      "table row": 8
+      "table row": 7
     },
     "content": "IBM International Capital Pte. Ltd. 5.300%24–05.02.54",
     "pdf_block": {
@@ -138,7 +138,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 8
+        "table-row": 7
       },
       "content": "IBM International Capital Pte. Ltd. 5.300%24–05.02.54"
     }
@@ -162,7 +162,7 @@
       "maturity": "10.11.26",
       "quantity": "100,000",
       "table col": 0,
-      "table row": 25
+      "table row": 21
     },
     "content": "Apple, Inc. 1.625% 14–10.11.26",
     "pdf_block": {
@@ -171,7 +171,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 25
+        "table-row": 21
       },
       "content": "Apple, Inc. 1.625% 14–10.11.26"
     }
@@ -195,7 +195,7 @@
       "maturity": "09.02.47",
       "quantity": "150,000",
       "table col": 0,
-      "table row": 26
+      "table row": 22
     },
     "content": "Apple, Inc. 4.250% 17–09.02.47",
     "pdf_block": {
@@ -204,7 +204,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 26
+        "table-row": 22
       },
       "content": "Apple, Inc. 4.250% 17–09.02.47"
     }
@@ -228,7 +228,7 @@
       "maturity": "23.02.46",
       "quantity": "20,000",
       "table col": 0,
-      "table row": 27
+      "table row": 23
     },
     "content": "Apple, Inc. 4.650% 16–23.02.46",
     "pdf_block": {
@@ -237,7 +237,7 @@
       "metadata": {
         "is-max-width": false,
         "table-col": 0,
-        "table-row": 27
+        "table-row": 23
       },
       "content": "Apple, Inc. 4.650% 16–23.02.46"
     }

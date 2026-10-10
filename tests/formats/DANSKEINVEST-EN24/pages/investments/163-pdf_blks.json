@@ -2947,17 +2947,7 @@
       "table-col": 0,
       "table-row": 49
     },
-    "content": "Charles River Laboratories International, "
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 50
-    },
-    "content": "Inc."
+    "content": "Charles River Laboratories International, Inc."
   },
   {
     "__pdf_block__": true,
@@ -2965,7 +2955,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 50
+      "table-row": 49
     },
     "content": "2,600"
   },
@@ -2975,7 +2965,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 50
+      "table-row": 49
     },
     "content": "USD"
   },
@@ -2985,7 +2975,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 50
+      "table-row": 49
     },
     "content": "7,178,217"
   },
@@ -2995,7 +2985,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 50
+      "table-row": 49
     },
     "content": "5,303,198"
   },
@@ -3005,7 +2995,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 50
+      "table-row": 49
     },
     "content": "0.01"
   },
@@ -3015,7 +3005,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 51
+      "table-row": 50
     },
     "content": "Charles Schwab Corp. (The)"
   },
@@ -3025,7 +3015,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 51
+      "table-row": 50
     },
     "content": "102,781"
   },
@@ -3035,7 +3025,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 51
+      "table-row": 50
     },
     "content": "USD"
   },
@@ -3045,7 +3035,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 51
+      "table-row": 50
     },
     "content": "56,551,539"
   },
@@ -3055,7 +3045,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 51
+      "table-row": 50
     },
     "content": "84,049,676"
   },
@@ -3065,7 +3055,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 51
+      "table-row": 50
     },
     "content": "0.17"
   },
@@ -3075,7 +3065,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 52
+      "table-row": 51
     },
     "content": "Charter Communications, Inc."
   },
@@ -3085,7 +3075,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 52
+      "table-row": 51
     },
     "content": "5,754"
   },
@@ -3095,7 +3085,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 52
+      "table-row": 51
     },
     "content": "USD"
   },
@@ -3105,7 +3095,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 52
+      "table-row": 51
     },
     "content": "18,104,482"
   },
@@ -3115,7 +3105,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 52
+      "table-row": 51
     },
     "content": "21,792,420"
   },
@@ -3125,7 +3115,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 52
+      "table-row": 51
     },
     "content": "0.04"
   },
@@ -3135,7 +3125,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 53
+      "table-row": 52
     },
     "content": "Cheniere Energy, Inc."
   },
@@ -3145,7 +3135,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 53
+      "table-row": 52
     },
     "content": "21,381"
   },
@@ -3155,7 +3145,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 53
+      "table-row": 52
     },
     "content": "USD"
   },
@@ -3165,7 +3155,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 53
+      "table-row": 52
     },
     "content": "23,691,427"
   },
@@ -3175,7 +3165,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 53
+      "table-row": 52
     },
     "content": "50,761,751"
   },
@@ -3185,7 +3175,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 53
+      "table-row": 52
     },
     "content": "0.10"
   },

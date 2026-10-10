@@ -1,6 +1,3 @@
-import datetime
-import re
-from enum import Enum, auto
 
 from freeports.utils.pdf_extract import (
     PdfLineSelection,
@@ -18,7 +15,6 @@ from freeports.utils.pdf_extract import (
     TablePosAlgorithm,
 )
 from freeports.output import (
-    FundSfdrClassification,
     FundEsgIndicator,
 )
 

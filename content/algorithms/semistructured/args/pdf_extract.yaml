@@ -15,6 +15,12 @@ AMUNDI-IT24(investments):
   # that was implicit is written twice.
   col_tolerance: 0.5
   row_tolerance: 0.5
+  # `C31` resta aperta, e adesso si sa quanto costa. Su p446 la maturita' di
+  # `CATERPILLAR FINANCIAL SERVICES 0.8% 13-11-` va a capo e il `25` finisce da solo nella colonna
+  # dei nomi: `collapse_cols: [0]` la ricompone — la cella c'e' e il `collapse` la chiude — ma su
+  # ventisette prospetti costa **tredici righe** di `investments.csv`, perche' qui le celle che la
+  # geometria dice rotte sono spesso due investimenti di fila. E' il caso di cui hai detto «se per
+  # fare questo si rompe l'algoritmo, si puo' tenere cosi'».
 
 FIDEURAM-IT24(investments):
   body_set:
@@ -120,3 +126,554 @@ MEDIOLANUM-IT24.B(sfdr_classification):
 FINECO-EN23@IR(sfdr_classification):
   language: ENGLISH
   product_joined: true
+
+# ----------------------------------------------------------------------------------------------
+# `A1`: un'etichetta dichiara un valore li' accanto
+#
+# Le etichette si scrivono nella grammatica compatta — la stessa delle celle del livello
+# strutturato — perche' un'etichetta non e' quasi mai un criterio solo: e' un carattere (spesso
+# un'**unione** di famiglie, `R8`), un corpo, e un testo ancorato. Il testo va **fra apici**:
+# senza, la grammatica legge un nome di carattere, e un carattere che nessuno ha non seleziona
+# niente. Una cella che la grammatica non legge per intero viene rifiutata, perche' altrimenti
+# selezionerebbe ogni riga della pagina.
+
+# `IM-1` e `MC-1`: pagina 3 mette le due etichette in due colonne e sotto ciascuna il nome, poi
+# l'indirizzo. Le etichette sono le **sole** righe in grassetto da 9.98 — il titolo della pagina e'
+# 13.97 e i nomi sono in tondo — quindi il corpo le identifica esattamente, e `below` col
+# collocamento per difetto prende la prima riga sotto, che e' il nome e non l'indirizzo.
+#
+# ASTERIA-EN24 scrive la pagina **identica** a due anni di distanza: stesse etichette, stesso corpo.
+ASTERIA-EN23(inv_managers):
+  - label: 'centurygothic-bold[9.5:10.5] "^Management Company:"'
+    block_type: MANAGEMENT_COMPANY
+    name: managment company
+    where: below
+  - label: 'centurygothic-bold[9.5:10.5] "^Investment Manager and Global Distributor:"'
+    block_type: INVESTMENTS_MANAGER
+    name: investments managers
+    where: below
+
+ASTERIA-EN24(inv_managers):
+  - label: 'centurygothic-bold[9.5:10.5] "^Management Company:"'
+    block_type: MANAGEMENT_COMPANY
+    name: managment company
+    where: below
+  - label: 'centurygothic-bold[9.5:10.5] "^Investment Manager and Global Distributor:"'
+    block_type: INVESTMENTS_MANAGER
+    name: investments managers
+    where: below
+
+# `C03` e `C12`: il nome e' tutta la riga sotto l'etichetta, quindi la lettura e' uno `strip` e non
+# un pezzo di riga da ritagliare.
+ANIMA_SICAV-EN24(manco):
+  label: 'arialnarrow-bold[8.5:9.5] "^Management Company"'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+  where: below
+
+# `MC-5`: il prospetto non ha nessuna sezione `Management Company` e nessuna etichetta — il nome sta
+# dentro una **frase** della nota 1, `GENERAL INFORMATION` di p67:
+#
+#     The Fund has been created for an indefinite period and it is managed by Fideuram Asset
+#     Management (Ireland) dac (the "Management Company").
+#
+# L'ancora e' la frase e non l'intestazione della nota: `A2` porterebbe giu' tutta la sezione, una
+# ventina di righe di prosa, e a quel punto *quale* sia la riga giusta tornerebbe a essere una
+# domanda. La frase invece la pagina la scrive una volta sola — misurato su tutte le 81 pagine del
+# prospetto. Il ritaglio del nome e' del `text_filter` (`R23`), con `after: it is managed by` e
+# `before: \(the` — e la seconda serve **davvero**, perche' il nome stesso contiene una parentesi,
+# `(Ireland)`, e a fermarsi alla prima si estrarrebbe `Fideuram Asset Management`.
+FIDEURAM-EN23(manco):
+  label: 'arial[7.5:8.5] "it is managed by"'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# `C07` e `C19`: **nessuna delle due etichette e' quella consueta**, perche' il bilancio e' di un
+# fondo alternativo — `Alternative Investment Fund Manager` per la societa' di gestione, `Cash
+# Manager and Portfolio Manager` per il gestore — e le due nominano la stessa societa', che e' il
+# caso normale di `R15` detto dal bilancio invece che dedotto. I due avvisi che la nomenclatura
+# impone stanno nei `notes` del `text_filter`, perche' e' il formato a sapere di chi e' il bilancio.
+#
+# Le etichette sono le sole righe in corsivo grassetto della pagina — i nomi e gli indirizzi sono in
+# tondo e il titolo del prospetto e' da 15.96 — e `below` prende la prima riga sotto, che e' il nome.
+MEDIOLANUM-EN23(inv_managers):
+  - label: 'timesnewromanps-boldital[9.5:10.5] "^Alternative Investment Fund Manager"'
+    block_type: MANAGEMENT_COMPANY
+    name: managment company
+    where: below
+  - label: 'timesnewromanps-boldital[9.5:10.5] "^Cash Manager and Portfolio Manager"'
+    block_type: INVESTMENTS_MANAGER
+    name: investments managers
+    where: below
+
+# `C01`: il gestore degli investimenti qui **non** ricade sulla societa' di gestione — p8-9 lo
+# dichiarano, ed e' `IM-2` — quindi questa pipeline legge soltanto la societa' di gestione.
+AMUNDI-EN24(manco):
+  label: 'arial-boldmt[6.5:7.5] "^MANAGEMENT COMPANY"'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# `C02`: il bilancio **non dichiara** la societa' di gestione. `Amundi SGR S.p.A.` compare tre
+# volte e nessuna delle tre nel suo ruolo — p14 dentro `la sede legale di Amundi SGR`, p15 in
+# `Amundi SGR S.p.A. e' controllata al 100% da Amundi Asset Management SAS`, p37 nella politica di
+# remunerazione: sono frasi sul controllo societario e sulla sede, non su chi gestisce i fondi, e
+# leggere il dato d'uscita da li' vorrebbe dire appoggiarlo a una coincidenza di parole. Quindi il
+# valore e' **imposto** dal formato, col suo avviso (`R3`), e lo dichiara il `manco_imposed` del
+# `text_filter`.
+#
+# Qui l'etichetta serve solo a dire **su quale pagina** dichiararlo: `^SOMMARIO` e' il sommario, la
+# pagina che ogni documento di questo formato ha e ne ha **una**, che e' quanto serve a un valore a
+# grana di documento. Nello scadenzario la classe sta dopo gli investimenti, perche' il blocco della
+# societa' di gestione porta tutti i fondi che il job ha visto (`R26`).
+AMUNDI-IT24(manco):
+  label: 'arial-boldmt "^SOMMARIO"'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# Il nome sta dentro la riga — `... Societa di Gestione del Risparmio S.p.A. ...` — e il carattere
+# e' l'unione delle tre varianti che il formato usa (`R8`). Il taglio e' del `text_filter`.
+ANIMA_SGR-IT24(manco):
+  label: 'Lato|Open Sans|Lato-Regular "di Gestione del Risparmio"'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+EURIZON-IT24(manco):
+  label: '"^La società di gestione"'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+MEDIOLANUM-IT24.B(manco):
+  label: 'georgia "Siamo indipendenti rispetto al Fondo e a"'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# `MC-4`: il 2021 e' l'anno in cui Pramerica e' diventata Eurizon, e il prospetto nomina **tutt'e
+# due** le societa' con il loro periodo fra parentesi. Si estrae quella in carica alla chiusura, che
+# e' `U6` nel `text_filter`; da questa parte si consegnano **tutte** le righe della sezione, perche'
+# scegliere e' interpretazione di testo (`R23`).
+#
+# L'etichetta e' in grassetto e i valori no: e' il grassetto che **chiude** la sezione, perche'
+# sotto l'ultimo indirizzo viene `Cabinet de Revision Agree:` e poi i revisori, che portano anche
+# loro una qualificazione temporale e sceglierebbero al posto nostro. `reach` non e' un limite qui:
+# e' il permesso di arrivare fino in fondo alla sezione, che si stende per ottantasei punti.
+EURIZON-EN21(manco):
+  label: 'arialmt-bold "^Management Company:"'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+  where: below
+  take: all
+  reach: 12.0
+  stop: 'arialmt-bold|arialmt-bolditalic'
+
+# ----------------------------------------------------------------------------------------------
+# I prospetti patrimoniali: `fund`, `currency_constant` e le etichette di `A1`
+#
+# Il `pdf_extract` di un prospetto si sposta **tutto insieme**, e non un tubo per volta: i tre
+# livelli si sommano per lo stesso nome di pipeline e un tubo del `semistructured` arriva **prima**
+# di quelli d'autore, quindi spostarne uno e lasciare i vicini in Python cambierebbe l'ordine dei
+# blocchi della pagina — che e' cio' che le fixture congelano.
+#
+# Una cosa da sapere sulle aree: un lato scritto `0` viene **rifiutato** (`InputArea::build` valida
+# positivo ogni lato che riceve), mentre un lato **vuoto** e' quello aperto. Quindi
+# `PdfLineSelection.area(0.0, 0.0, 370.0, 1e6)` si scrive `((:370)(:))`.
+
+# `FA-2` e `FA-3`: ventisette comparti, ventisette coppie di pagine. La difficolta' non e'
+# l'appaiamento ma `R5`, cioe' **quale** colonna di numeri sia l'esercizio corrente. Due comparti su
+# ventisette sono nati nell'esercizio e la colonna di prima non ce l'hanno: la pagina non la lascia
+# vuota, la **toglie**, e il valore corrente si stampa dove sulle altre sta il precedente — sul
+# passivo i due posti coincidono (`504,6-533,9` contro `508,8-533,9`), quindi nessuna ascissa fissa
+# li distingue, e nemmeno la distanza dall'etichetta (ventun righe contro trentatre).
+#
+# Cio' che li distingue e' l'**intestazione**: `Situazione a fine esercizio precedente` c'e' solo
+# dove la colonna c'e', e il suo margine sinistro e' il limite destro dell'esercizio corrente; dove
+# non c'e', la selezione non trova niente e il limite resta aperto, che e' la lettura giusta perche'
+# non c'e' nessuna colonna da cui difendersi. Resta una sottrazione sola: le percentuali portano la
+# virgola decimale e gli importi no.
+AMUNDI-IT24(fund_assets_begin):
+  - selection: 'Arial-BoldItalicMT[9.9:10.1] ((:)(40:60))'
+  - currency: EUR
+  - label: 'TrebuchetMS-Bold[6.9:7.0] "^TOTALE ATTIVITÀ"'
+    block_type: TOT_ASSETS
+    name: tot_assets
+    where: right
+    value: '((:<"^Situazione a fine">)(:)) / ","'
+
+AMUNDI-IT24(fund_assets_end):
+  - selection: 'Arial-BoldItalicMT[9.9:10.1] ((:)(40:60))'
+  - currency: EUR
+  - label: 'TrebuchetMS[6.9:7.0] "^Situazione al"'
+    block_type: ASSETS_DATE
+    name: assets date
+    where: below
+  - label: 'TrebuchetMS-Bold[6.9:7.0] "^TOTALE PASSIVITÀ"'
+    block_type: LIABILITIES
+    name: liabilities
+    where: right
+    value: '((:<"^Situazione a fine">)(:)) / ","'
+  - label: 'TrebuchetMS[6.9:7.0] "^VALORE COMPLESSIVO NETTO DEL FONDO"'
+    block_type: NET_ASSETS
+    name: net_assets
+    where: right
+    value: '((:<"^Situazione a fine">)(:)) / ","'
+
+# `FA-2` e `FA-3`: `SITUAZIONE PATRIMONIALE` apre l'attivo su una pagina e continua col passivo e il
+# netto su quella dopo, e `FundAssets` vuole i tre importi insieme (`R32`), quindi nessuna delle due
+# pagine da sola costruisce la riga — il totale delle attivita' attraversa il confine come promessa.
+#
+# `R5`: le due pagine mettono la colonna corrente in **due posti diversi**, e sulla pagina
+# dell'attivo fra le due colonne di valori ce n'e' una di percentuali. Nessuna delle tre si separa
+# con un'ancora testuale, perche' portano tutte soltanto cifre: le ascisse sono misurate su tutt'e
+# due i documenti di prova, che concordano — sull'attivo il valore sta fra 310 e 353 e la percentuale
+# comincia a 384, sul passivo il valore sta fra 407 e 451 e l'esercizio precedente comincia a 458.
+#
+# `CLASSE P` e `CLASSE R` cominciano con le stesse parole del netto del fondo: sono il netto delle
+# **classi di quote**, e si **sottraggono**. Non ci si affida al fatto che il netto del fondo venga
+# per primo, perche' le righe di una pagina non arrivano in ordine di lettura e `take: first` sceglie
+# la prima dell'elenco, non la piu' in alto.
+#
+# `R17`: la data si prende dalla colonna, sotto `Situazione al` e alla stessa ascissa; la copertina
+# la scrive dentro il titolo del prospetto, che e' la fonte meno diretta.
+ARCA-IT24(fund_assets_begin):
+  - selection: 'Calibri|Lato-Regular ((:)(:60))'
+  - currency: EUR
+  - label: 'TrebuchetMS-Bold[6.9:7.0] "^TOTALE ATTIVITA''"'
+    block_type: TOT_ASSETS
+    name: tot_assets
+    where: right
+    value: '((:370)(:))'
+
+ARCA-IT24(fund_assets_end):
+  - selection: 'Calibri|Lato-Regular ((:)(:60))'
+  - currency: EUR
+  - label: 'TrebuchetMS[6.9:7.0] "^Situazione al"'
+    block_type: ASSETS_DATE
+    name: assets date
+    where: below
+  - label: 'TrebuchetMS-Bold[6.9:7.0] "^TOTALE PASSIVITA''"'
+    block_type: LIABILITIES
+    name: liabilities
+    where: right
+    value: '((:455)(:))'
+  - label: 'TrebuchetMS-Bold[6.9:7.0] "^VALORE COMPLESSIVO NETTO DEL FONDO" / "CLASSE"'
+    block_type: NET_ASSETS
+    name: net_assets
+    where: right
+    value: '((:455)(:))'
+
+# `FA-2` e `FA-3`: due comparti, due coppie di pagine, p18->19 e p26->27.
+#
+# Il nome del fondo si prende dalla **testatina**, che e' la stessa riga da cui lo prendono gli
+# investimenti: `R24` chiede che i due lo scrivano allo stesso modo, e il modo piu' sicuro di
+# ottenerlo e' leggere la stessa riga. Che quella riga sia un nome brutto —
+# `FIDEURAM ITALIAFIDEURAM ISPB ASSET MANAGEMENT SGR SPA...` in `funds.csv` — e' un difetto della
+# ricetta degli investimenti, e si corregge la' per tutt'e due insieme.
+#
+# `R5`: sull'attivo il valore finisce a 334,2 e la percentuale comincia a 364,5; sul passivo il
+# valore finisce a 418,6 e l'esercizio precedente comincia a 464,8. Misurato su tutt'e due le
+# coppie. `Valore complessivo netto della classe` e' la classe di quote, e qui a distinguerla basta
+# la **maiuscola**, senza sottrazione.
+#
+# `R17` vuole la data dalla colonna, e qui la colonna la scrive in due modi: su p19 `Situazione al`
+# e la data sono due righe, su p27 una sola. Il titolo del prospetto — `FIDEURAM ITALIA AL
+# 28/06/2024` — la porta invece sempre allo stesso modo, ed e' della pagina e non della copertina:
+# e' il caso in cui la **seconda** scelta di `R17` e' la piu' ferma, e per questo l'etichetta e' il
+# titolo e il collocamento quello per difetto.
+FIDEURAM-IT24(fund_assets_begin):
+  - selection: 'ArialBold[10.9:11.1] ((:)(30:60))'
+  - currency: EUR
+  - label: 'TahomaBold[6.9:7.0] "^TOTALE ATTIVITA''"'
+    block_type: TOT_ASSETS
+    name: tot_assets
+    where: right
+    value: '((:350)(:))'
+
+FIDEURAM-IT24(fund_assets_end):
+  - selection: 'ArialBold[10.9:11.1] ((:)(30:60))'
+  - currency: EUR
+  - label: 'ArialBold[10.9:11.1] ((:)(100:130))'
+    block_type: ASSETS_DATE
+    name: assets date
+  - label: 'TahomaBold[6.9:7.0] "^TOTALE PASSIVITA''"'
+    block_type: LIABILITIES
+    name: liabilities
+    where: right
+    value: '((:440)(:))'
+  - label: 'TahomaBold[6.9:7.0] "^VALORE COMPLESSIVO NETTO DEL FONDO"'
+    block_type: NET_ASSETS
+    name: net_assets
+    where: right
+    value: '((:440)(:))'
+
+# `FA-2` e `FA-3`: un comparto per documento, e la pagina del prospetto **non lo nomina** — il nome
+# sta sulla pagina degli investimenti, che lo scadenzario fa girare prima. E' l'altro caso di `U7`,
+# e lo risolve la cella `fund: sole_if_absent` del `text_filter`, che lo dichiara imposto (`R3`).
+# Il tubo `fund` resta perche' la pagina porta comunque la sua testatina.
+#
+# `TOTALE ATTIVITA''` e' in tondo e `TOTALE PASSIVITA''` in nero: due **corpi**, non uno. E
+# `Valore complessivo netto della classe` sta nello stesso carattere del netto del fondo: a
+# distinguerli e' solo `del fondo`.
+#
+# `R5`: sull'attivo il valore finisce a 319,6 e la percentuale comincia a 352,6; sul passivo il
+# valore finisce a 397,7 e l'esercizio precedente comincia a 459,8. `R17`: la data si prende dalla
+# colonna, sotto `Situazione al`; `Situazione a fine esercizio` e' l'altra.
+EURIZON-IT24(fund_assets_begin):
+  - currency: EUR
+  - selection: 'TrebuchetMSItalic[4:6.5] ((270:595)(700:805))'
+  - label: 'TrebuchetMS[5.9:6.1] "^TOTALE ATTIVITA''"'
+    block_type: TOT_ASSETS
+    name: tot_assets
+    where: right
+    value: '((:335)(:))'
+
+EURIZON-IT24(fund_assets_end):
+  - currency: EUR
+  - selection: 'TrebuchetMSItalic[4:6.5] ((270:595)(700:805))'
+  - label: 'TrebuchetMS[5.9:6.1] "^Situazione al"'
+    block_type: ASSETS_DATE
+    name: assets date
+    where: below
+  - label: 'TrebuchetMSBold[5.9:6.1] "^TOTALE PASSIVITA''"'
+    block_type: LIABILITIES
+    name: liabilities
+    where: right
+    value: '((:430)(:))'
+  - label: 'TrebuchetMS[5.9:6.1] "^Valore complessivo netto del fondo"'
+    block_type: NET_ASSETS
+    name: net_assets
+    where: right
+    value: '((:430)(:))'
+
+# `FA-2` e `FA-3`. Il comparto lo porta la **testatina in alto a destra**, e il prefisso d'ombrello
+# e' l'ancora: nella stessa area il quarto documento ha solo uno spazio, che senza il prefisso
+# diventerebbe il nome del comparto. `take: all` perche' la testatina puo' essere su piu' righe, ed
+# e' il `text_filter` a ricomporre.
+#
+# `R5`: l'esercizio corrente e' cio' che sta a sinistra dell'intestazione dell'esercizio precedente,
+# meno le percentuali, che sono le sole a portare il segno di percento. `CLASSE AM`, `CLASSE FM` e
+# `CLASSE IM` sono il netto delle **classi di quote** e si sottraggono.
+ANIMA_SGR-IT24(fund_assets_begin):
+  - label: '((300:)(20:50)) "^ANIMA"'
+    block_type: FUND_NAME
+    name: fund
+    take: all
+  - currency: EUR
+  - label: 'LatoBold|TrebuchetMS-Bold|Open-SansBold[6.9:7.1] "^TOTALE ATTIVITA''"'
+    block_type: TOT_ASSETS
+    name: tot_assets
+    where: right
+    value: '((:<"^Situazione a fine">)(:)) / "%"'
+
+ANIMA_SGR-IT24(fund_assets_end):
+  - label: '((300:)(20:50)) "^ANIMA"'
+    block_type: FUND_NAME
+    name: fund
+    take: all
+  - currency: EUR
+  - label: 'Lato|TrebuchetMS|Open-Sans[6.9:7.1] "^Situazione al"'
+    block_type: ASSETS_DATE
+    name: assets date
+    where: below
+  - label: 'LatoBold|TrebuchetMS-Bold|Open-SansBold[6.9:7.1] "^TOTALE PASSIVITA''"'
+    block_type: LIABILITIES
+    name: liabilities
+    where: right
+    value: '((:<"^Situazione a fine">)(:)) / "%"'
+  - label: 'LatoBold|TrebuchetMS-Bold|Open-SansBold[6.9:7.1] "^VALORE COMPLESSIVO NETTO DEL FONDO" / "CLASSE"'
+    block_type: NET_ASSETS
+    name: net_assets
+    where: right
+    value: '((:<"^Situazione a fine">)(:)) / "%"'
+
+# `FA-2` e `FA-3`: nove coppie di pagine. Il nome sta nella **testatina** di tutt'e due, che e' la
+# stessa riga che gli investimenti leggono (`R24`).
+#
+# `R5`: misurato sulle nove coppie, il valore corrente finisce sempre entro 306,7 sull'attivo — dove
+# la percentuale comincia a 364,9 — ed entro 408 sul passivo, dove l'esercizio precedente comincia
+# a 484.
+#
+# Il netto del fondo e' **senza ancore**: la riga porta uno spazio in testa su cinque pagine su nove
+# e non sulle altre quattro. Le classi di quote si chiamano `Valore complessivo netto della classe`,
+# quindi non c'e' niente da togliere. E `^TOTALE` sul passivo non basterebbe da solo:
+# `N. ALTRE PASSIVITA` e' una voce del prospetto, non il totale.
+#
+# `R17`: la data si prende dalla colonna. `Relazione di gestione al` e' l'intestazione
+# dell'esercizio precedente, e non comincia con `Situazione`.
+MEDIOLANUM-IT24.B(fund_assets_begin):
+  - selection: 'Helvetica ((150:)(67:76))'
+  - currency: EUR
+  - label: 'Helvetica-Bold[5.9:6.1] "^TOTALE ATTIVITÀ"'
+    block_type: TOT_ASSETS
+    name: tot_assets
+    where: right
+    value: '((:330)(:))'
+
+MEDIOLANUM-IT24.B(fund_assets_end):
+  - selection: 'Helvetica ((150:)(67:76))'
+  - currency: EUR
+  - label: 'Helvetica[5.9:6.1] "^Situazione al"'
+    block_type: ASSETS_DATE
+    name: assets date
+    where: below
+  - label: 'Helvetica-Bold[5.9:6.1] "^TOTALE PASSIVITÀ"'
+    block_type: LIABILITIES
+    name: liabilities
+    where: right
+    value: '((:440)(:))'
+  - label: 'Helvetica[5.9:6.1] "VALORE COMPLESSIVO NETTO DEL FONDO"'
+    block_type: NET_ASSETS
+    name: net_assets
+    where: right
+    value: '((:440)(:))'
+
+# `FA-6`: un prospetto per comparto, su **una** pagina sola, quindi niente promesse.
+#
+# Il titolo del comparto sta sotto quello del prospetto, e sul **combinato** al suo posto c'e'
+# `COMBINADO`: il trattino di `GAMAX FUNDS - ` e' cio' che li distingue senza doverlo dire per nome.
+#
+# La testata della colonna porta la valuta a sinistra e la data a destra, sulla stessa riga, in
+# grassetto corpo 8: **nessuna delle due ha un'etichetta**, quindi si prendono per posizione — ed e'
+# per questo che la data e' un `labelled_value` col collocamento per difetto, cioe' la riga stessa.
+MEDIOLANUM-ES24.A(fund_assets):
+  - selection: '[11.9:12.1] "^GAMAX FUNDS - "'
+  - selection: 'timesnewromanps-boldmt[7.9:8.2] ((:120)(118:140))'
+  - label: 'timesnewromanps-boldmt[7.9:8.2] ((440:)(118:140))'
+    block_type: ASSETS_DATE
+    name: assets date
+  - label: 'timesnewromanps-boldmt[7.4:7.7] "^TOTAL ACTIVO"'
+    block_type: TOT_ASSETS
+    name: tot_assets
+    where: right
+  - label: 'timesnewromanps-boldmt[7.4:7.7] "^TOTAL PASIVOS"'
+    block_type: LIABILITIES
+    name: liabilities
+    where: right
+  - label: 'timesnewromanps-boldmt[7.4:7.7] "^TOTAL PATRIMONIO NETO"'
+    block_type: NET_ASSETS
+    name: net_assets
+    where: right
+
+# La societa' di gestione sta sotto l'etichetta `Società di gestione:`, e quello che si consegna al
+# `text_filter` e' una **finestra costruita attorno al valore** e non l'etichetta: e' il caso per cui
+# `window(ancora, dx, dy, larghezza, altezza)` esiste — la scatola della riga dell'ancora, spostata
+# di un'altezza e mezza in giu' e allargata cento volte.
+FIDEURAM-IT24(manco):
+  label: 'window(arial[9.9:10.1] "Società di gestione:", -0.2, 1.5, 100.0, 1.2)'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# L'etichetta e' `Manager, Promoter and Distributor` — la virgola dentro l'ancora e' al sicuro,
+# perche' i quattro numeri di `window` si leggono **da destra** — e la finestra prende la riga sotto.
+ANIMA-EN23(manco):
+  label: 'window(helvetica-bold "Manager, Promoter and Distributor", -0.1, 1.0, 1.3, 1.5)'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# La finestra sotto `Management Company` prenderebbe anche la colonna di destra: a chiuderla e'
+# l'**ascissa** del titolo che le sta accanto, `Legal adviser`, intersecata con la finestra. Un lato
+# d'area che e' una riga della pagina prende il suo bordo **interno**, quindi il limite cade fra le
+# due colonne e non sopra la seconda.
+CARNE-EN23(manco):
+  label: '((:<arial-boldmt[7.9:8.1] "Legal adviser">)(:)) window(arial-boldmt[7.9:8.1] "Management Company", -0.1, 0.8, 100, 2.5)'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# La banda sotto l'etichetta porta anche le righe di soli spazi che il generatore lascia fra una
+# voce e l'altra: `take: first` prenderebbe una di quelle. Si sottraggono.
+KAIROS-EN23(manco):
+  label: 'window(arialnarrow-bold "Management Company", -0.1, 0.5, 10.0, 1.8) / "^ $"'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# Il primo dei due tubi di questa pipeline: l'altro — la sezione dei gestori — resta d'autore, e
+# l'ordine tiene perche' un tubo promosso arriva **prima** di quelli d'autore e questo era il primo.
+UBS-EN23(manco):
+  label: 'window(frutiger45lightbold[9.9:10.1] "Management Company and Domiciliation Agent", -0.2, 1.9, 1.1, 1.3)'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# Il nome e' la riga in `frutiger-black` dentro la **sezione** `MANAGEMENT COMPANY AND PROMOTER`,
+# che si chiude sul titolo dopo: i due lati dell'area sono due righe della pagina, e un lato
+# ancorato prende il bordo **interno** della sua riga, quindi la banda sta fra i due titoli.
+EURIZON-EN23(manco):
+  label: 'frutiger-black[8.98:8.99] ((:)(<frutiger-lightitalic "MANAGEMENT COMPANY AND PROMOTER">:<frutiger-lightitalic "BOARD OF DIRECTORS OF THE MANAGEMENT COMPANY">))'
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# ----------------------------------------------------------------------------------------------
+# `A2`: un'intestazione apre una sezione
+#
+# Sei siti su sette, e differiscono **solo** nelle selezioni. Il settimo — FINECO-EN23@IR — resta
+# d'autore perche' la sua sezione e' avvolta da una funzione che aggiunge il numero di pagina ai
+# metadati di ogni blocco, e quello e' il punto di quel tubo (`P10`).
+#
+# `family` assente significa *la prossima riga con la stessa coppia (carattere, corpo)
+# dell'intestazione*, che e' il difetto misurato e quello che a cinque siti su sei basta.
+
+# `FC-5`: `Eventi rilevanti` e' una sezione che c'e', si apre e **dichiara l'assenza** — «Non si
+# segnalano eventi rilevanti.» L'intestazione e' un parametro e non una costante (`R13`): ARCA
+# scrive `Eventi rilevanti`, AMUNDI-IT24 `Eventi che hanno interessato il fondo`.
+ARCA-IT24(merges):
+  heading: 'lato-bold[11.5:12.5] "^Eventi rilevanti"'
+  block_type: RELEVANT_BLOCK
+  name: merges
+  body: 'lato-regular[9.5:10.5]'
+
+# `FC-3`: ogni evento e' una frase, col verbo e la data dentro. La sezione e'
+# `NOTE 12 - EVENTS DURING THE YEAR` e si **ferma** alla nota che segue, `NOTE 13 - POST BALANCE
+# SHEET EVENTS`: il bilancio chiude il 31 dicembre 2024 e la fusione di quella nota e' del
+# 21 febbraio 2025, quindi appartiene all'esercizio dopo (`C36`). A chiuderla e' `family`, che qui
+# e' la **stessa** selezione dell'intestazione: le intestazioni di nota sono le sole righe in
+# `calibri-bold` da 9.
+DANSKEINVEST-EN24(merges):
+  heading: 'calibri-bold[8.5:9.5] "EVENTS DURING THE YEAR"'
+  block_type: RELEVANT_BLOCK
+  name: merges
+  family: 'calibri-bold[8.5:9.5]'
+  body: 'calibri[8.5:9.5]'
+
+# `FC-1`, p510: tre sezioni una sotto l'altra con la **stessa** tipografia — comparti lanciati,
+# ridenominati, liquidati — e solo la seconda porta un dato. L'intestazione **porta la data**
+# (`on 15 March 2024`) e sotto ci sono ventun righe senza data, ma qui `include_heading` non serve:
+# la data la ritrova il `text_filter`, che riceve la sezione intera.
+AMUNDI-EN24(renaming):
+  heading: 'arial-boldmt[9.0:10.0] "INTRODUCTION"'
+  block_type: RELEVANT_BLOCK
+  name: renaming
+  body: 'arialmt[6.5:7.5]'
+
+# `C16`, p4: le entrate dei gestori non si distinguono per tipografia — un nome, il suo elenco di
+# comparti e il nome dopo sono lo stesso carattere — quindi le numera lo **stacco verticale**:
+# quindici sta fra i 9,2 di una stessa entrata e i 18,4 fra due entrate. Il corpo si taglia per
+# ascissa, e le righe di soli spazi si sottraggono: arrivando prima di quelle vere, diventerebbero
+# il nome dell'entrata.
+CARNE-EN23(inv_managers):
+  heading: 'arial-boldmt[7.9:8.1] "^Investment Managers"'
+  block_type: INVESTMENTS_MANAGER
+  name: investments managers
+  body: '((:290)(:700)) / "^ $"'
+  entry_gap: 15.0
+
+# FIDEURAM-EN23 non ha piu' un modulo d'autore: questa cella e quella della `manco` sono tutto
+# quello che aveva.
+#
+# `IM-5`, p71: tredici righe `<gestore> for <comparti>` sotto l'intestazione `Investment Manager`.
+# Tutta la pagina e' in arial 7.98 — intestazioni comprese — quindi la sezione **non** si chiude
+# sulla famiglia tipografica: la riga subito dopo l'intestazione ha lo stesso carattere e lo stesso
+# corpo, e la sezione si chiuderebbe vuota. `family` diventa allora la frase che la chiude davvero.
+# Il corpo si restringe per ascissa, perche' le voci rientrano a `x=56,6` mentre i trattini
+# dell'elenco e la prosa attorno stanno a `x=41,5`.
+FIDEURAM-EN23(inv_managers):
+  heading: 'arial[7.5:8.5] "^Investment Manager$"'
+  block_type: RELEVANT_BLOCK
+  name: investment managers
+  family: '"^The Management Company keeps the control"'
+  body: '((50:600)(:850))'
+
+# Il glossario del modello europeo sta nella colonna di sinistra e in ordine di lettura si intreccia
+# col corpo: a lasciarlo fuori e' il **carattere** del corpo, che e' il tondo dove l'intestazione e'
+# il corsivo grassetto.
+ANIMA_SGR-IT24(esg_indicators):
+  heading: 'timesnewromanbolditalic[9.5:10.5] "prestazione degli indicatori"'
+  block_type: RELEVANT_BLOCK
+  name: esg indicators
+  body: 'timesnewroman[9.5:10.5] ((140:)(:))'

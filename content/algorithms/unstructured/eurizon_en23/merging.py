@@ -5,8 +5,7 @@ from freeports.utils.text_filter import MatchFund
 from freeports.utils.pdf_extract import get_table_coordinates,get_groups
 from freeports.core import PdfBlock,TextBlock,Promise
 from freeports.utils.deserialize import deserialize_block_type,to_date_with_en_month
-from freeports.output import FundRename,Fund,FundMerge
-import datetime
+from freeports.output import FundRename,Fund
 import re
 from enum import Enum,auto
 

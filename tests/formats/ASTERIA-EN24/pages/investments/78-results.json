@@ -56,7 +56,7 @@
           "__enum__": "freeports.consts:Currency:USD"
         },
         "company": "International Business Machines",
-        "company_match": "IBM International Capital Pte. Ltd. 5.250%",
+        "company_match": "IBM International Capital Pte. Ltd. 5.250%24–05.02.44",
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
@@ -80,7 +80,7 @@
           "__enum__": "freeports.consts:Currency:USD"
         },
         "company": "International Business Machines",
-        "company_match": "IBM International Capital Pte. Ltd. 5.300%",
+        "company_match": "IBM International Capital Pte. Ltd. 5.300%24–05.02.54",
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },

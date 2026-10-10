@@ -36,13 +36,12 @@ Da p14→p16 arriva `FA-9`, il prospetto patrimoniale in cui **la pagina non nom
 il nome sta sul titolo di apertura della sezione del comparto, e fra i due ci stanno il commento
 di gestione e la tabella dei tre esercizi. Le distanze misurate sul documento sono **una, due, tre
 e quattro pagine**, quindi la promessa con la distanza fissa non serve: si prende il titolo più
-vicino che precede, e si prende nel `text_filter` (`carryover.PageCarryover.nearest`).
+vicino che precede, e lo prende il motore con la cella `fund: {kind: nearest_page}`.
 """
 
 import re
 
 import carryover
-import esg
 import sfdr
 
 from freeports.core import Pipeline, PdfBlock, TextBlock
@@ -51,13 +50,7 @@ from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractCurrencyStandard,
     PdfExtractLabelledValueStandard,
-    PdfExtractManagmentCompanyStandard,
 )
-from freeports.standard_funcs.deserialize import (
-    DeserializerAssetsStandard,
-)
-from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
-from freeports.utils.deserialize import to_float
 from freeports.utils.pdf_extract import (
     LabelledValueWhere,
     PdfLineSelection,
@@ -265,31 +258,13 @@ pdf_extract_currency = PdfExtractCurrencyStandard(
     & PdfLineSelection.area_from_bounds(x0=450.0, y0=_STATEMENT, x1=1e6, y1=_LABEL_ASSETS)
 )
 
-record_assets = carryover.Record(
-    currency="CURRENCY_STATEMENT",
-    date=ASSETS_DATE,
-    tot_assets=TOT_ASSETS,
-    liabilities=LIABILITIES,
-    net_assets=NET_ASSETS,
-)
-
-assets_filter = TextFilterAssetsStandard()
-
-
-def text_filter_fund_assets(pdf_blks, filter_data):
-    """Il prospetto, col comparto preso dal titolo più vicino che precede."""
-    page = next((b for b in pdf_blks if b.type_block == ASSETS_PAGE), None)
-    if page is None:
-        return []
-    fund = assets_carry.nearest(filter_data, int(str(page.content)))
-    if fund is None:
-        return []
-    return assets_filter(record_assets(pdf_blks, also={"fund": fund}), filter_data)
-
-
-def _magnitude(text):
-    """Il valore come grandezza: su questo prospetto il passivo porta il meno, ed è tipografia."""
-    return abs(to_float(text))
+# Il `text_filter` e il `deserialize` del prospetto sono del motore: `labelled_assets` riunisce i
+# blocchi nudi che gli `A1` qui sotto lasciano, prende il comparto dal titolo della pagina **piu'
+# vicina che precede** — la cella `fund: nearest_page`, che legge le promesse lasciate da
+# `fund_title` — e filtra sui comparti d'interesse; `assets` costruisce la riga.
+#
+# Il segno del passivo e' tipografia e non dato (`R31`), e lo dice la cella
+# `amount_cast: float + magnitude` invece di una funzione di due righe qui dentro.
 
 
 
@@ -360,15 +335,10 @@ def pdf_extract_esg(page):
     return blocks
 
 
-read_esg = esg.LabelledPairs(
-    # L'indice di riferimento è scritto con la stessa formula del comparto: `of the benchmark` è
-    # l'unica cosa che le distingue, e il valore dell'indice non è un dato del comparto.
-    drop=(r"of the benchmark",),
-    # Il trattino dell'elenco e la coda che dice di chi è la misura non fanno parte del nome.
-    strip=(r"^o\s+", r"\s+of the financial product$"),
-)
-
-text_filter_esg = esg.text_filter(read_esg, esg_carry.owner())
+# Il `text_filter` e il `deserialize` sono del motore: `esg` legge gli indicatori nella forma
+# che questa pagina usa e li attacca al comparto, `esg_indicator` costruisce la riga. Quale
+# lettore e di chi sia la pagina stanno in
+# `content/algorithms/semistructured/args/text_filter.yaml`.
 
 
 def pdf_extract_esg_fund(page):
@@ -407,7 +377,7 @@ def text_filter_esg_fund(pdf_blks, investment_funds):
 
 pipelines = {
     "esg_fund": Pipeline(pdf_extract_esg_fund, text_filter_esg_fund, esg_carry.deposit),
-    "esg_indicators": Pipeline(pdf_extract_esg, text_filter_esg, esg.deserialize),
+    "esg_indicators": Pipeline(pdf_extract_esg),
     "fund_title": Pipeline(
         pdf_extract=pdf_extract_fund_title,
         text_filter=text_filter_fund_title,
@@ -422,19 +392,10 @@ pipelines = {
             pdf_extract_liabilities,
             pdf_extract_net_assets,
         ),
-        text_filter=text_filter_fund_assets,
-        deserialize=DeserializerAssetsStandard(num_converter=_magnitude),
     ),
-    "manco": Pipeline(
-        pdf_extract=(
-            PdfExtractManagmentCompanyStandard(
-                PdfLineSelection.area_from_movewindow(
-                    PdfLineSelection(font="frutiger45lightbold",font_size=(9.9,10.1),text="Management Company and Domiciliation Agent"),
-                    (-0.2,1.9),1.1,1.3
-                )
-            ),
-            pdf_extract_inv_managers_begin,
-        ),
-    ),
+    # La societa' di gestione e' la cella `label` di `labelled_value`: il suo tubo era il **primo**
+    # dei due, e un tubo promosso arriva prima di quelli d'autore, quindi l'ordine dei blocchi non
+    # si muove. Qui resta la sezione dei gestori.
+    "manco": Pipeline(pdf_extract=pdf_extract_inv_managers_begin),
     "inv_managers_end": Pipeline(pdf_extract=pdf_extract_inv_managers_end),
 }

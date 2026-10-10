@@ -2,35 +2,24 @@
 
 import re
 
-import carryover
-import esg
 import sfdr
 
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard,
-    PdfExtractCurrencyConstant,
     PdfExtractCurrencyStandard,
     PdfExtractFundStandard,
-    PdfExtractLabelledValueStandard,
 )
-from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
+from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.core import Pipeline
 from freeports.utils.pdf_extract import (
-    LabelledValueWhere,
     PdfLineSelection,
     pdflines_from_pagedict,
     get_groups,
     get_table_coordinates,
     TablePosAlgorithm,
 )
-from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
-from freeports.standard_funcs.deserialize import (
-    DeserializerAssetsStandard
-)
-from freeports.utils.deserialize import to_date_with_it_month, to_int, deserialize_block_type
+from freeports.utils.deserialize import to_date_with_it_month, deserialize_block_type
 from freeports.utils.text_filter import MatchFund
-from freeports.consts import Currency
-from freeports.core import Promise
 from freeports.core import PdfBlock, TextBlock
 from freeports.output import (
     Fund,
@@ -68,12 +57,6 @@ currency_set = PdfLineSelection(
 # La frase apre la sezione e il nome le sta dentro, fino alla prima virgola: `La società di
 # gestione EURIZON CAPITAL SGR S.p.A., di seguito "la SGR"...`. E' la stessa forma di FIDEURAM-EN23
 # e di ANIMA_SGR-IT24, e dal 2026-09-20 la scrive il template `manco` invece di una regex qui.
-pdf_filter_manco = PdfExtractLabelledValueStandard(
-    PdfLineSelection.text("^La società di gestione"),
-    ResultStandardExtraction.MANAGEMENT_COMPANY.name,
-    "managment company",
-)
-
 deselection_list = [
     PdfLineSelection(font="TrebuchetMS", text="Totale"),
     PdfLineSelection(font="TrebuchetMS", text="Altri strumenti finanziari"),
@@ -255,156 +238,22 @@ def esg_indicators_pdf_extract(page):
     return blocks
 
 
-read_esg_indicators = esg.DatedRows()
-"""Il lettore del template: una cella per indicatore, e `R11` scarta ciò che numero non è.
-
-La tabella non ha né serie né esercizi — un indicatore, un valore — quindi `series` e `column`
-valgono zero per tutte le celle, e il lettore fa il solo lavoro che qui serve: tenere le celle che
-portano un numero. Prima di oggi non le filtrava nessuno, e il secondo documento di prova scriveva
-una riga col nome vuoto e il valore vuoto.
-"""
+# Il `text_filter` e il `deserialize` sono del motore: `esg` legge gli indicatori nella forma
+# che questa pagina usa e li attacca al comparto, `esg_indicator` costruisce la riga. Quale
+# lettore e di chi sia la pagina stanno in
+# `content/algorithms/semistructured/args/text_filter.yaml`.
 
 
-def _esg_owner(_pdf_blks, _filter_data):
-    """Il comparto è quello che l'allegato ha depositato: un documento, un comparto."""
-    return Promise("esg-indicator-fund")
-
-
-esg_indicators_text_filter = esg.text_filter(read_esg_indicators, _esg_owner)
-
-
-# ----------------------------------------------------------------------------------------------
-# La situazione patrimoniale, che sta su due pagine (`FA-2` e `FA-3`)
-# ----------------------------------------------------------------------------------------------
-# Un comparto per documento, e la pagina del prospetto **non lo nomina**: il nome sta sulla pagina
-# degli investimenti, che lo `algorithms_schedule.csv` fa girare prima. E' l'altro caso di `U7` —
-# un valore che una pagina prende da un'altra — e lo risolve `carryover.sole_fund`, che lo
-# dichiara come valore imposto (`R3`) perche' imposto e'.
-
-TOT_ASSETS = "TOT_ASSETS"
-LIABILITIES = "LIABILITIES"
-NET_ASSETS = "NET_ASSETS"
-ASSETS_DATE = "ASSETS_DATE"
-
-# `TOTALE ATTIVITA'` e' in tondo e `TOTALE PASSIVITA'` in nero: due corpi, non uno.
-assets_body_set = PdfLineSelection(font="TrebuchetMS", font_size=(5.9, 6.1))
-assets_bold_set = PdfLineSelection(font="TrebuchetMSBold", font_size=(5.9, 6.1))
-
-# `R5`: l'esercizio precedente non si estrae. Sull'attivo il valore finisce a 319,6 e la
-# percentuale comincia a 352,6; sul passivo il valore finisce a 397,7 e l'esercizio precedente
-# comincia a 459,8.
-current_year_on_assets = PdfLineSelection.area(0.0, 0.0, 335.0, 1e6)
-current_year_on_liabilities = PdfLineSelection.area(0.0, 0.0, 430.0, 1e6)
-
-assets_carryover = carryover.Carryover("tot_assets")
-
-pdf_extract_tot_assets = PdfExtractLabelledValueStandard(
-    assets_body_set & PdfLineSelection(text="^TOTALE ATTIVITA'"),
-    TOT_ASSETS,
-    "tot_assets",
-    where=LabelledValueWhere.RIGHT,
-    value=current_year_on_assets,
-)
-
-pdf_extract_liabilities = PdfExtractLabelledValueStandard(
-    assets_bold_set & PdfLineSelection(text="^TOTALE PASSIVITA'"),
-    LIABILITIES,
-    "liabilities",
-    where=LabelledValueWhere.RIGHT,
-    value=current_year_on_liabilities,
-)
-
-# `Valore complessivo netto della classe` e' la classe di quote e sta nello stesso carattere:
-# a distinguerla e' solo `del fondo`.
-pdf_extract_net_assets = PdfExtractLabelledValueStandard(
-    assets_body_set & PdfLineSelection(text="^Valore complessivo netto del fondo"),
-    NET_ASSETS,
-    "net_assets",
-    where=LabelledValueWhere.RIGHT,
-    value=current_year_on_liabilities,
-)
-
-# `R17`: la data si prende dalla colonna. `Situazione a fine esercizio` e' l'altra.
-pdf_extract_assets_date = PdfExtractLabelledValueStandard(
-    assets_body_set & PdfLineSelection(text="^Situazione al"),
-    ASSETS_DATE,
-    "assets date",
-    where=LabelledValueWhere.BELOW,
-)
-
-record_begin = carryover.Record(
-    fund="FUND_NAME", currency="CURRENCY_STATEMENT", tot_assets=TOT_ASSETS
-)
-
-record_end = carryover.Record(
-    fund="FUND_NAME",
-    currency="CURRENCY_STATEMENT",
-    date=ASSETS_DATE,
-    liabilities=LIABILITIES,
-    net_assets=NET_ASSETS,
-)
-
-assets_filter = TextFilterAssetsStandard()
-
-
-def _also_fund(pdf_blks, filter_data):
-    """Il ripiego per il comparto, da usare **solo** se il piede di pagina non lo porta (`C23`).
-
-    Il comparto sta nel piede di ogni pagina — `fund_set`, lo stesso selettore con cui lo leggono
-    gli investimenti — e prima questa classe non lo leggeva: si prendeva l'unico comparto che il
-    documento dichiarasse. Funzionava su tre documenti su quattro; sul quarto gli investimenti non
-    ne lasciano nessuno, e le due pagine del prospetto cadevano con *«this statement does not name
-    its fund and the job has not seen one yet»*, portandosi via il documento intero.
-
-    Il ripiego resta perche' un piede che manchi e' meglio servito da una deduzione dichiarata che
-    da una riga persa; ma si interroga **dopo** la pagina, non prima, cosi' `sole_fund` non segnala
-    come assente un comparto che invece e' stato letto.
-    """
-    if any(
-        blk.type_block == "FUND_NAME" and str(blk.content).strip() for blk in pdf_blks
-    ):
-        return None
-    fund = carryover.sole_fund(filter_data)
-    return None if fund is None else {"fund": fund}
-
-
-def text_filter_fund_assets_begin(pdf_blks, filter_data):
-    pdf_blks = list(pdf_blks)
-    return assets_filter(
-        record_begin(pdf_blks, also=_also_fund(pdf_blks, filter_data)), filter_data
-    )
-
-
-def text_filter_fund_assets_end(pdf_blks, filter_data):
-    pdf_blks = list(pdf_blks)
-    blocks = assets_filter(
-        record_end(pdf_blks, also=_also_fund(pdf_blks, filter_data)), filter_data
-    )
-    return assets_carryover.resume(blocks, filter_data)
+# I due prospetti patrimoniali (`FA-2` e `FA-3`) sono **tutti configurazione**: `currency_constant`
+# + `fund` + `labelled_value` nel `pdf_extract`, `labelled_assets` nel `text_filter`,
+# `carryover_deposit` e `assets` nel `deserialize`. La geometria delle colonne e il comparto che la
+# pagina non nomina stanno nei commenti di `args/pdf_extract.yaml` e `args/text_filter.yaml`.
+#
+# Anche la `manco` e' configurazione: `labelled_value` sull'ancora `^La società di gestione`, e il
+# ritaglio del nome e' l'`after`/`before` dell'algoritmo `manco`.
 
 
 pipelines = {
-    "fund_assets_begin": Pipeline(
-        pdf_extract=(
-            PdfExtractCurrencyConstant(Currency.EUR),
-            PdfExtractFundStandard(fund_set),
-            pdf_extract_tot_assets,
-        ),
-        text_filter=text_filter_fund_assets_begin,
-        deserialize=assets_carryover.deposit,
-    ),
-    "fund_assets_end": Pipeline(
-        pdf_extract=(
-            PdfExtractCurrencyConstant(Currency.EUR),
-            PdfExtractFundStandard(fund_set),
-            pdf_extract_assets_date,
-            pdf_extract_liabilities,
-            pdf_extract_net_assets,
-        ),
-        text_filter=text_filter_fund_assets_end,
-        deserialize=DeserializerAssetsStandard(to_int),
-    ),
-    "manco": Pipeline(pdf_extract=pdf_filter_manco),
     "investments": Pipeline(
         pdf_extract=(
             PdfExtractInvestmentsStandard(
@@ -438,7 +287,5 @@ pipelines = {
     ),
     "esg_indicators": Pipeline(
         esg_indicators_pdf_extract,
-        esg_indicators_text_filter,
-        esg.deserialize,
     ),
 }

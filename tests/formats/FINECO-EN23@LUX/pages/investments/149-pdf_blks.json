@@ -347,17 +347,7 @@
       "table-col": 1,
       "table-row": 5
     },
-    "content": "MUENCHENER RUECKVERSICHERUNGS-GESELLSCHAFT AG IN "
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 1,
-      "table-row": 6
-    },
-    "content": "MUENCHEN - REG"
+    "content": "MUENCHENER RUECKVERSICHERUNGS-GESELLSCHAFT AG IN MUENCHEN - REG"
   },
   {
     "__pdf_block__": true,
@@ -375,7 +365,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 7
+      "table-row": 6
     },
     "content": "0.16 "
   },
@@ -385,7 +375,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 7
+      "table-row": 6
     },
     "content": "995 681 "
   },
@@ -395,7 +385,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 7
+      "table-row": 6
     },
     "content": "2 609 921 "
   },
@@ -405,7 +395,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 7
+      "table-row": 6
     },
     "content": "EUR"
   },
@@ -415,7 +405,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 7
+      "table-row": 6
     },
     "content": "NESTE OYJ"
   },
@@ -425,7 +415,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 7
+      "table-row": 6
     },
     "content": "82 118"
   },
@@ -435,7 +425,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 8
+      "table-row": 7
     },
     "content": "0.25 "
   },
@@ -445,7 +435,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 8
+      "table-row": 7
     },
     "content": "1 539 008 "
   },
@@ -455,7 +445,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 8
+      "table-row": 7
     },
     "content": "2 050 892 "
   },
@@ -465,7 +455,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 8
+      "table-row": 7
     },
     "content": "CHF"
   },
@@ -475,7 +465,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 8
+      "table-row": 7
     },
     "content": "NESTLE SA"
   },
@@ -485,7 +475,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 8
+      "table-row": 7
     },
     "content": "19 362"
   },
@@ -495,7 +485,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 9
+      "table-row": 8
     },
     "content": "0.11 "
   },
@@ -505,7 +495,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 9
+      "table-row": 8
     },
     "content": "677 220 "
   },
@@ -515,7 +505,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 9
+      "table-row": 8
     },
     "content": "683 876 "
   },
@@ -525,7 +515,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 9
+      "table-row": 8
     },
     "content": "EUR"
   },
@@ -535,7 +525,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 9
+      "table-row": 8
     },
     "content": "NEXANS SA"
   },
@@ -545,7 +535,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 9
+      "table-row": 8
     },
     "content": "6 493"
   },
@@ -555,7 +545,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 10
+      "table-row": 9
     },
     "content": "0.25 "
   },
@@ -565,7 +555,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 10
+      "table-row": 9
     },
     "content": "1 580 974 "
   },
@@ -575,7 +565,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 10
+      "table-row": 9
     },
     "content": "2 033 380 "
   },
@@ -585,7 +575,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 10
+      "table-row": 9
     },
     "content": "DKK"
   },
@@ -595,7 +585,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 10
+      "table-row": 9
     },
     "content": "NOVO NORDISK A/S"
   },
@@ -605,7 +595,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 10
+      "table-row": 9
     },
     "content": "18 888"
   },
@@ -615,7 +605,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 11
+      "table-row": 10
     },
     "content": "0.28 "
   },
@@ -625,7 +615,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 11
+      "table-row": 10
     },
     "content": "1 739 337 "
   },
@@ -635,7 +625,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 11
+      "table-row": 10
     },
     "content": "1 306 965 "
   },
@@ -645,7 +635,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 11
+      "table-row": 10
     },
     "content": "EUR"
   },
@@ -655,7 +645,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 11
+      "table-row": 10
     },
     "content": "PROSUS NV"
   },
@@ -665,7 +655,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 11
+      "table-row": 10
     },
     "content": "45 254"
   },
@@ -675,7 +665,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 12
+      "table-row": 11
     },
     "content": "0.21 "
   },
@@ -685,7 +675,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 12
+      "table-row": 11
     },
     "content": "1 283 095 "
   },
@@ -695,7 +685,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 12
+      "table-row": 11
     },
     "content": "825 178 "
   },
@@ -705,7 +695,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 12
+      "table-row": 11
     },
     "content": "EUR"
   },
@@ -715,7 +705,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 12
+      "table-row": 11
     },
     "content": "PUBLICIS GROUPE SA"
   },
@@ -725,7 +715,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 12
+      "table-row": 11
     },
     "content": "12 518"
   },
@@ -735,7 +725,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 13
+      "table-row": 12
     },
     "content": "0.54 "
   },
@@ -745,7 +735,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 13
+      "table-row": 12
     },
     "content": "3 383 946 "
   },
@@ -755,7 +745,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 13
+      "table-row": 12
     },
     "content": "3 561 838 "
   },
@@ -765,7 +755,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 13
+      "table-row": 12
     },
     "content": "GBP"
   },
@@ -775,7 +765,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 13
+      "table-row": 12
     },
     "content": "RECKITT BENCKISER GROUP PLC"
   },
@@ -785,7 +775,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 13
+      "table-row": 12
     },
     "content": "58 163"
   },
@@ -795,7 +785,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 14
+      "table-row": 13
     },
     "content": "0.74 "
   },
@@ -805,7 +795,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 14
+      "table-row": 13
     },
     "content": "4 717 262 "
   },
@@ -815,7 +805,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 14
+      "table-row": 13
     },
     "content": "5 135 398 "
   },
@@ -825,7 +815,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 14
+      "table-row": 13
     },
     "content": "CHF"
   },
@@ -835,7 +825,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 14
+      "table-row": 13
     },
     "content": "ROCHE HOLDING AG"
   },
@@ -845,7 +835,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 14
+      "table-row": 13
     },
     "content": "17 393"
   },
@@ -855,7 +845,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 15
+      "table-row": 14
     },
     "content": "0.16 "
   },
@@ -865,7 +855,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 15
+      "table-row": 14
     },
     "content": "1 005 889 "
   },
@@ -875,7 +865,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 15
+      "table-row": 14
     },
     "content": "1 002 942 "
   },
@@ -885,7 +875,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 15
+      "table-row": 14
     },
     "content": "EUR"
   },
@@ -895,7 +885,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 15
+      "table-row": 14
     },
     "content": "RYANAIR HOLDINGS PLC"
   },
@@ -905,7 +895,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 15
+      "table-row": 14
     },
     "content": "52 623"
   },
@@ -915,7 +905,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 16
+      "table-row": 15
     },
     "content": "0.67 "
   },
@@ -925,7 +915,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 16
+      "table-row": 15
     },
     "content": "4 193 868 "
   },
@@ -935,7 +925,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 16
+      "table-row": 15
     },
     "content": "4 100 694 "
   },
@@ -945,7 +935,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 16
+      "table-row": 15
     },
     "content": "EUR"
   },
@@ -955,7 +945,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 16
+      "table-row": 15
     },
     "content": "SANOFI SA"
   },
@@ -965,7 +955,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 16
+      "table-row": 15
     },
     "content": "44 859"
   },
@@ -975,7 +965,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 17
+      "table-row": 16
     },
     "content": "0.44 "
   },
@@ -985,7 +975,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 17
+      "table-row": 16
     },
     "content": "2 727 138 "
   },
@@ -995,7 +985,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 17
+      "table-row": 16
     },
     "content": "1 470 054 "
   },
@@ -1005,7 +995,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 17
+      "table-row": 16
     },
     "content": "EUR"
   },
@@ -1015,7 +1005,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 17
+      "table-row": 16
     },
     "content": "SAP SE"
   },
@@ -1025,7 +1015,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 17
+      "table-row": 16
     },
     "content": "11 541"
   },
@@ -1035,7 +1025,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 18
+      "table-row": 17
     },
     "content": "0.28 "
   },
@@ -1045,7 +1035,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 18
+      "table-row": 17
     },
     "content": "1 765 932 "
   },
@@ -1055,7 +1045,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 18
+      "table-row": 17
     },
     "content": "1 937 689 "
   },
@@ -1065,7 +1055,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 18
+      "table-row": 17
     },
     "content": "EUR"
   },
@@ -1075,7 +1065,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 18
+      "table-row": 17
     },
     "content": "SHELL PLC"
   },
@@ -1085,7 +1075,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 18
+      "table-row": 17
     },
     "content": "58 523"
   },
@@ -1095,7 +1085,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 19
+      "table-row": 18
     },
     "content": "0.42 "
   },
@@ -1105,7 +1095,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 19
+      "table-row": 18
     },
     "content": "2 601 374 "
   },
@@ -1115,7 +1105,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 19
+      "table-row": 18
     },
     "content": "2 033 353 "
   },
@@ -1125,7 +1115,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 19
+      "table-row": 18
     },
     "content": "EUR"
   },
@@ -1135,7 +1125,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 19
+      "table-row": 18
     },
     "content": "SIEMENS AG - REG"
   },
@@ -1145,7 +1135,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 19
+      "table-row": 18
     },
     "content": "13 796"
   },
@@ -1155,7 +1145,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 20
+      "table-row": 19
     },
     "content": "0.42 "
   },
@@ -1165,7 +1155,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 20
+      "table-row": 19
     },
     "content": "2 612 082 "
   },
@@ -1175,7 +1165,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 20
+      "table-row": 19
     },
     "content": "2 109 286 "
   },
@@ -1185,7 +1175,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 20
+      "table-row": 19
     },
     "content": "USD"
   },
@@ -1195,7 +1185,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 20
+      "table-row": 19
     },
     "content": "SMURFIT WESTROCK PLC"
   },
@@ -1205,7 +1195,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 20
+      "table-row": 19
     },
     "content": "50 712"
   },
@@ -1215,7 +1205,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 21
+      "table-row": 20
     },
     "content": "0.23 "
   },
@@ -1225,7 +1215,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 21
+      "table-row": 20
     },
     "content": "1 455 968 "
   },
@@ -1235,7 +1225,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 21
+      "table-row": 20
     },
     "content": "1 528 889 "
   },
@@ -1245,7 +1235,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 21
+      "table-row": 20
     },
     "content": "EUR"
   },
@@ -1255,7 +1245,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 21
+      "table-row": 20
     },
     "content": "SOITEC"
   },
@@ -1265,7 +1255,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 21
+      "table-row": 20
     },
     "content": "16 832"
   },
@@ -1275,7 +1265,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 22
+      "table-row": 21
     },
     "content": "0.45 "
   },
@@ -1285,7 +1275,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 22
+      "table-row": 21
     },
     "content": "2 844 122 "
   },
@@ -1295,7 +1285,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 22
+      "table-row": 21
     },
     "content": "3 528 366 "
   },
@@ -1305,7 +1295,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 22
+      "table-row": 21
     },
     "content": "EUR"
   },
@@ -1315,7 +1305,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 22
+      "table-row": 21
     },
     "content": "STELLANTIS NV"
   },
@@ -1325,7 +1315,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 22
+      "table-row": 21
     },
     "content": "223 700"
   },
@@ -1335,7 +1325,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 23
+      "table-row": 22
     },
     "content": "0.20 "
   },
@@ -1345,7 +1335,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 23
+      "table-row": 22
     },
     "content": "1 271 161 "
   },
@@ -1355,7 +1345,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 23
+      "table-row": 22
     },
     "content": "1 722 280 "
   },
@@ -1365,7 +1355,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 23
+      "table-row": 22
     },
     "content": "EUR"
   },
@@ -1375,7 +1365,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 23
+      "table-row": 22
     },
     "content": "TELEPERFORMANCE SE"
   },
@@ -1385,7 +1375,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 23
+      "table-row": 22
     },
     "content": "15 198"
   },
@@ -1395,7 +1385,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 24
+      "table-row": 23
     },
     "content": "0.54 "
   },
@@ -1405,7 +1395,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 24
+      "table-row": 23
     },
     "content": "3 386 972 "
   },
@@ -1415,7 +1405,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 24
+      "table-row": 23
     },
     "content": "3 210 848 "
   },
@@ -1425,7 +1415,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 24
+      "table-row": 23
     },
     "content": "EUR"
   },
@@ -1435,7 +1425,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 24
+      "table-row": 23
     },
     "content": "TOTALENERGIES SE"
   },
@@ -1445,7 +1435,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 24
+      "table-row": 23
     },
     "content": "63 629"
   },
@@ -1455,7 +1445,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 25
+      "table-row": 24
     },
     "content": "0.24 "
   },
@@ -1465,7 +1455,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 25
+      "table-row": 24
     },
     "content": "1 516 736 "
   },
@@ -1475,7 +1465,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 25
+      "table-row": 24
     },
     "content": "1 308 244 "
   },
@@ -1485,7 +1475,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 25
+      "table-row": 24
     },
     "content": "EUR"
   },
@@ -1495,7 +1485,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 25
+      "table-row": 24
     },
     "content": "UNILEVER PLC"
   },
@@ -1505,7 +1495,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 25
+      "table-row": 24
     },
     "content": "27 708"
   },
@@ -1515,7 +1505,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 26
+      "table-row": 25
     },
     "content": "0.45 "
   },
@@ -1525,7 +1515,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 26
+      "table-row": 25
     },
     "content": "2 825 665 "
   },
@@ -1535,7 +1525,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 26
+      "table-row": 25
     },
     "content": "3 223 223 "
   },
@@ -1545,7 +1535,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 26
+      "table-row": 25
     },
     "content": "EUR"
   },
@@ -1555,7 +1545,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 26
+      "table-row": 25
     },
     "content": "UPM-KYMMENE OYJ"
   },
@@ -1565,7 +1555,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 26
+      "table-row": 25
     },
     "content": "106 388"
   },
@@ -1575,7 +1565,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 27
+      "table-row": 26
     },
     "content": "0.23 "
   },
@@ -1585,7 +1575,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 27
+      "table-row": 26
     },
     "content": "1 433 900 "
   },
@@ -1595,7 +1585,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 27
+      "table-row": 26
     },
     "content": "1 412 959 "
   },
@@ -1605,7 +1595,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 27
+      "table-row": 26
     },
     "content": "EUR"
   },
@@ -1615,7 +1605,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 27
+      "table-row": 26
     },
     "content": "VEOLIA ENVIRONNEMENT SA"
   },
@@ -1625,7 +1615,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 27
+      "table-row": 26
     },
     "content": "52 814"
   },
@@ -1635,7 +1625,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 28
+      "table-row": 27
     },
     "content": "0.06 "
   },
@@ -1645,7 +1635,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 28
+      "table-row": 27
     },
     "content": "345 096 "
   },
@@ -1655,7 +1645,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 28
+      "table-row": 27
     },
     "content": "305 443 "
   },
@@ -1665,7 +1655,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 28
+      "table-row": 27
     },
     "content": "EUR"
   },
@@ -1675,7 +1665,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 28
+      "table-row": 27
     },
     "content": "VIVENDI SE"
   },
@@ -1685,7 +1675,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 28
+      "table-row": 27
     },
     "content": "134 070"
   },
@@ -1695,7 +1685,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 29
+      "table-row": 28
     },
     "content": "0.12 "
   },
@@ -1705,7 +1695,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 29
+      "table-row": 28
     },
     "content": "761 982 "
   },
@@ -1715,7 +1705,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 29
+      "table-row": 28
     },
     "content": "761 857 "
   },
@@ -1725,7 +1715,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 29
+      "table-row": 28
     },
     "content": "EUR"
   },
@@ -1735,7 +1725,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 29
+      "table-row": 28
     },
     "content": "HELLENIC REPUBLIC GOVERNMENT BOND 1.75% 18/06/2032"
   },
@@ -1745,7 +1735,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 29
+      "table-row": 28
     },
     "content": "830 000"
   },
@@ -1755,7 +1745,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 30
+      "table-row": 29
     },
     "content": "0.16 "
   },
@@ -1765,7 +1755,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 30
+      "table-row": 29
     },
     "content": "985 794 "
   },
@@ -1775,7 +1765,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 30
+      "table-row": 29
     },
     "content": "1 282 248 "
   },
@@ -1785,7 +1775,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 30
+      "table-row": 29
     },
     "content": "USD"
   },
@@ -1795,7 +1785,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 30
+      "table-row": 29
     },
     "content": "UNITED STATES TREASURY NOTE/BOND 2% 15/02/2050"
   },
@@ -1805,7 +1795,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 30
+      "table-row": 29
     },
     "content": "1 750 000"
   },
@@ -1815,7 +1805,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 31
+      "table-row": 30
     },
     "content": "0.56 "
   },
@@ -1825,7 +1815,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 31
+      "table-row": 30
     },
     "content": "3 476 831 "
   },
@@ -1835,7 +1825,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 31
+      "table-row": 30
     },
     "content": "4 169 577 "
   },
@@ -1845,7 +1835,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 31
+      "table-row": 30
     },
     "content": "USD"
   },
@@ -1855,7 +1845,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 31
+      "table-row": 30
     },
     "content": "UNITED STATES TREASURY NOTE/BOND 2.5% 15/02/2046"
   },
@@ -1865,7 +1855,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 31
+      "table-row": 30
     },
     "content": "5 255 000"
   },
@@ -1875,7 +1865,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 32
+      "table-row": 31
     },
     "content": "0.46 "
   },
@@ -1885,7 +1875,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 32
+      "table-row": 31
     },
     "content": "2 886 735 "
   },
@@ -1895,7 +1885,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 32
+      "table-row": 31
     },
     "content": "3 501 003 "
   },
@@ -1905,7 +1895,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 32
+      "table-row": 31
     },
     "content": "USD"
   },
@@ -1915,7 +1905,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 32
+      "table-row": 31
     },
     "content": "UNITED STATES TREASURY NOTE/BOND 2.5% 15/05/2046"
   },
@@ -1925,7 +1915,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 32
+      "table-row": 31
     },
     "content": "4 380 000"
   },
@@ -1935,7 +1925,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 33
+      "table-row": 32
     },
     "content": "1.45 "
   },
@@ -1945,7 +1935,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 33
+      "table-row": 32
     },
     "content": "9 124 339 "
   },
@@ -1955,7 +1945,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 33
+      "table-row": 32
     },
     "content": "8 881 125 "
   },
@@ -1965,7 +1955,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 33
+      "table-row": 32
     },
     "content": "USD"
   },
@@ -1975,7 +1965,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 33
+      "table-row": 32
     },
     "content": "UNITED STATES TREASURY NOTE/BOND 4.125% 15/08/2034"
   },
@@ -1985,7 +1975,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 33
+      "table-row": 32
     },
     "content": "10 000 000"
   },

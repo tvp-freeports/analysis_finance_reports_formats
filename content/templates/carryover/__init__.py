@@ -1,69 +1,32 @@
-"""`U7` — leggere un prospetto scritto a etichette, anche quando sta su due pagine.
+"""`U7` per numero di pagina: il valore che una pagina lascia a una di qualche pagina dopo.
 
-Sei formati italiani — ARCA-IT24, ANIMA_SGR-IT24, EURIZON-IT24, AMUNDI-IT24, FIDEURAM-IT24,
-MEDIOLANUM-IT24.B — scrivono la situazione patrimoniale su **due** pagine: l'attivo su una, il
-passivo e il netto sulla seguente. `FundAssets` porta i tre importi insieme e li controlla insieme
-(`R32`), quindi nessuna delle due pagine da sola costruisce la riga.
+Di questo pacchetto **resta solo questo**. Le altre tre parti — riunire in un prospetto solo i
+blocchi nudi che piu' `A1` lasciano su una pagina, portare un importo dalla prima pagina alla
+seconda appaiandole col nome del comparto, e attribuire il prospetto all'unico comparto del
+documento — sono passate al motore il 2026-10-05 e si scrivono adesso in
+`content/algorithms/semistructured/args/`:
 
-Questo pacchetto è il pezzo che manca, e sono due cose indipendenti:
+| cosa faceva | come si scrive adesso |
+|---|---|
+| `Record(fund="FUND_NAME", ...)` | la cella `gather` di `labelled_assets` (`text_filter`) |
+| `Carryover("tot_assets").deposit` | l'algoritmo `carryover_deposit` (`deserialize`) |
+| `Carryover("tot_assets").resume` | la cella `resume` di `labelled_assets` |
+| `sole_fund(filter_data)` | la cella `fund: {kind: sole_if_absent}` |
+| `DeserializerAssetsStandard(...)` | l'algoritmo `assets`, con `amount_cast` e `date_cast` |
 
-- `Record` riunisce i blocchi nudi che più `A1` lasciano su **una** pagina in un blocco solo, con
-  i metadati che i `text_filter` standard si aspettano. Serve anche a chi la seconda pagina non ce
-  l'ha;
-- `Carryover` porta un valore **dalla prima pagina alla seconda**, depositandolo come promessa e
-  ritrovandolo in `data.previous()`, appaiando le due pagine **col nome del comparto**;
-- `PageCarryover` fa la stessa cosa quando il nome del comparto non c'è, e le due pagine si
-  appaiano **col numero di pagina**: è il caso del modulo periodico europeo, che il nome del
-  prodotto lo scrive sulla pagina prima di quella degli indicatori;
-- `sole_fund` risponde alla domanda *di quale comparto parla questa pagina* quando la pagina non lo
-  dice e il documento ne porta uno solo.
+`PageCarryover` e `page_number` restano qui perche' li chiama un `pdf_extract` **d'autore**: il
+numero di pagina si legge dal piede, e il piede e' geometria che `A1` non copre ancora. Tre formati
+li usano — UBS-EN23 (due veicoli), AMUNDI-EN24 e FINECO-EN23@IR — e li usano tutti dalla stessa
+parte: il nome del prodotto in testa al modulo periodico europeo, e gli indicatori sulla pagina
+dopo.
 
-# Perché `A1` e non `A4`
-
-Il §5.3 del piano prevedeva `A4` su tutt'e due le pagine. Misurandole non regge, e la ragione è
-strutturale: `A4` costruisce una riga da **tre** colonne numeriche e scarta la riga a cui ne manca
-una. Una pagina che dichiara il solo `TOTALE ATTIVITA'` non è una tabella di attivi a cui manca
-qualcosa — è **un'etichetta con il suo valore**, che è esattamente la forma che `A1` legge. Le due
-pagine hanno quindi due, tre, quattro `A1` ciascuna, e `Record` le riunisce.
-
-# Come si mette insieme
-
-```python
-import carryover
-
-carry = carryover.Carryover("tot_assets")
-
-record_attivo = carryover.Record(fund="FUND_NAME", currency="CURRENCY_STATEMENT",
-                                 tot_assets="TOT_ASSETS")
-
-def text_filter_attivo(pdf_blks, filter_data):
-    return assets_filter(record_attivo(pdf_blks), filter_data)
-
-pipelines = {
-    "fund_assets_begin": Pipeline(
-        pdf_extract=(fondo, totale_attivita, valuta),
-        text_filter=text_filter_attivo,
-        deserialize=carry.deposit,
-    ),
-    ...
-}
-```
-
-Nello `algorithms_schedule.csv` la classe dell'attivo sta **prima**, con `Filter next iteration =
-TRUE`, o la seconda pagina non vede niente. Le due classi sono distinte perché portano dati diversi,
-che per `R27` è ciò che separa due pipeline.
+La forma `nearest` non serve piu' da Python: il `text_filter` degli attivi di UBS-EN23 la chiede
+adesso al motore, con la cella `fund: {kind: nearest_page}`.
 """
 
-from .document import sole_fund
 from .page import PageCarryover, page_number
-from .promise import Carryover
-from .record import RELEVANT_BLOCK, Record
 
 __all__ = [
-    "RELEVANT_BLOCK",
-    "Carryover",
     "PageCarryover",
-    "Record",
     "page_number",
-    "sole_fund",
 ]

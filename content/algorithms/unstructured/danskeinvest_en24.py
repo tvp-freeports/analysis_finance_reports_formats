@@ -54,40 +54,23 @@ Due cose dell'elenco non si leggono da sole:
 """
 
 
-import renaming
 from freeports.core import PdfBlock, Pipeline
-from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
-from freeports.standard_funcs.pdf_extract import PdfExtractSectionStandard
+from freeports.interfaces.pdf_blks import ResultStandardExtraction
 from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict
 
 _HEADING = PdfLineSelection(font="calibri-bold", font_size=(8.5, 9.5))
 
-# La sezione si chiude sulla prossima intestazione in grassetto, e quella degli eventi successivi
-# alla chiusura e' la prima che incontra: cio' che sta sotto non e' di quest'esercizio.
-pdf_extract_merges = PdfExtractSectionStandard(
-    _HEADING & PdfLineSelection.text("EVENTS DURING THE YEAR"),
-    OnePdfBlockType.RELEVANT_BLOCK.name,
-    "merges",
-    family=_HEADING,
-    body=PdfLineSelection(font="calibri", font_size=(8.5, 9.5)),
-)
+# La sezione degli eventi (`FC-3`) e' configurazione: `section` nel `pdf_extract`, e la cella
+# `family` e' quella che la chiude sulla nota dopo — `NOTE 13 - POST BALANCE SHEET EVENTS` — perche'
+# cio' che sta sotto non e' di quest'esercizio (`C36`).
 
 # Le due frasi si cercano su tutto il testo della sezione, riunito: una delle due va a capo, e
 # `finditer` trova anche la seconda occorrenza quando un anno ne porta piu' d'una. Il nome vecchio
 # e quello nuovo non possono contenere un punto, o il nome si prenderebbe le frasi precedenti: il
 # punto e' cio' che separa un evento dall'altro in un testo che e' stato riunito apposta.
-read_merges = renaming.Sentence(
-    renamed=(
-        r"(?P<old>Danske Invest SICAV\s*[-–]\s*[^.]+?) was renamed (?P<current>[^.]+?)"
-        r" effective (?P<when>\d{1,2} \w+ \d{4})",
-    ),
-    merged=(
-        r"(?P<old>Danske Invest SICAV\s*[-–]\s*[^.]+?) merged into (?P<current>[^.]+?)"
-        r" on (?P<when>\d{1,2} \w+ \d{4})",
-    ),
-    # L'ombrello lo scrive la nota e non lo scrivono gli investimenti, come nel modulo SFDR.
-    strip=(r"^Danske Invest SICAV\s*[-–]\s*",),
-)
+# Il `text_filter` e il `deserialize` sono del motore: `renaming` legge i cambi nella forma
+# che questa sezione usa, tiene quelli che riguardano un comparto del job (`R24`) e converte
+# la data. Gli schemi stanno in `content/algorithms/semistructured/args/text_filter.yaml`.
 
 _BODY = PdfLineSelection(font="calibri", font_size=(8.5, 9.5))
 
@@ -203,11 +186,6 @@ def pdf_extract_manco(page):
 
 
 pipelines = {
-    "merges": Pipeline(
-        pdf_extract=pdf_extract_merges,
-        text_filter=renaming.text_filter(read_merges),
-        deserialize=renaming.deserialize(),
-    ),
     # `C05` e `C17`, in una classe sola perche' le due pagine sono un prospetto solo: la societa'
     # di gestione (p5) e le quattro sezioni dei gestori (p5 e p6), appiattite come vuole `R22`.
     "inv_managers": Pipeline((pdf_extract_manco, pdf_extract_inv_managers)),

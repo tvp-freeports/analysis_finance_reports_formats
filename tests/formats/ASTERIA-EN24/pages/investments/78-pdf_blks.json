@@ -187,17 +187,7 @@
       "table-col": 0,
       "table-row": 3
     },
-    "content": "Siemens Financieringsmaatschappij NV 3.375%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 4
-    },
-    "content": "23–24.08.31"
+    "content": "Siemens Financieringsmaatschappij NV 3.375%23–24.08.31"
   },
   {
     "__pdf_block__": true,
@@ -205,7 +195,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "200,000"
   },
@@ -215,7 +205,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "EUR"
   },
@@ -225,7 +215,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "206,946"
   },
@@ -235,7 +225,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "206,352"
   },
@@ -245,7 +235,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 4
+      "table-row": 3
     },
     "content": "0.32"
   },
@@ -255,19 +245,9 @@
     "metadata": {
       "is-max-width": true,
       "table-col": 0,
-      "table-row": 5
+      "table-row": 4
     },
-    "content": "Siemens Financieringsmaatschappij NV 3.625%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 6
-    },
-    "content": "24–22.02.44"
+    "content": "Siemens Financieringsmaatschappij NV 3.625%24–22.02.44"
   },
   {
     "__pdf_block__": true,
@@ -275,7 +255,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 6
+      "table-row": 4
     },
     "content": "100,000"
   },
@@ -285,7 +265,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 6
+      "table-row": 4
     },
     "content": "EUR"
   },
@@ -295,7 +275,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 6
+      "table-row": 4
     },
     "content": "100,635"
   },
@@ -305,7 +285,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 6
+      "table-row": 4
     },
     "content": "99,614"
   },
@@ -315,7 +295,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 6
+      "table-row": 4
     },
     "content": "0.15"
   },
@@ -325,19 +305,9 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 7
+      "table-row": 5
     },
-    "content": "Unilever Finance Netherlands BV 3.250%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 8
-    },
-    "content": "24–15.02.32"
+    "content": "Unilever Finance Netherlands BV 3.250%24–15.02.32"
   },
   {
     "__pdf_block__": true,
@@ -345,7 +315,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 8
+      "table-row": 5
     },
     "content": "195,000"
   },
@@ -355,7 +325,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 8
+      "table-row": 5
     },
     "content": "EUR"
   },
@@ -365,7 +335,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 8
+      "table-row": 5
     },
     "content": "199,766"
   },
@@ -375,7 +345,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 8
+      "table-row": 5
     },
     "content": "198,910"
   },
@@ -385,7 +355,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 8
+      "table-row": 5
     },
     "content": "0.30"
   },
@@ -395,19 +365,9 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 9
+      "table-row": 6
     },
-    "content": "IBM International Capital Pte. Ltd. 5.250%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 10
-    },
-    "content": "24–05.02.44"
+    "content": "IBM International Capital Pte. Ltd. 5.250%24–05.02.44"
   },
   {
     "__pdf_block__": true,
@@ -415,7 +375,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 10
+      "table-row": 6
     },
     "content": "100,000"
   },
@@ -425,7 +385,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 10
+      "table-row": 6
     },
     "content": "USD"
   },
@@ -435,7 +395,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 10
+      "table-row": 6
     },
     "content": "92,753"
   },
@@ -445,7 +405,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 10
+      "table-row": 6
     },
     "content": "91,377"
   },
@@ -455,7 +415,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 10
+      "table-row": 6
     },
     "content": "0.14"
   },
@@ -465,19 +425,9 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 11
+      "table-row": 7
     },
-    "content": "IBM International Capital Pte. Ltd. 5.300%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 12
-    },
-    "content": "24–05.02.54"
+    "content": "IBM International Capital Pte. Ltd. 5.300%24–05.02.54"
   },
   {
     "__pdf_block__": true,
@@ -485,7 +435,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 12
+      "table-row": 7
     },
     "content": "190,000"
   },
@@ -495,7 +445,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 12
+      "table-row": 7
     },
     "content": "USD"
   },
@@ -505,7 +455,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 12
+      "table-row": 7
     },
     "content": "174,497"
   },
@@ -515,7 +465,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 12
+      "table-row": 7
     },
     "content": "169,415"
   },
@@ -525,6 +475,306 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
+      "table-row": 7
+    },
+    "content": "0.26"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 8
+    },
+    "content": "BG Energy Capital PLC 2.250% 14–21.11.29"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 8
+    },
+    "content": "285,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 8
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 8
+    },
+    "content": "275,279"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 8
+    },
+    "content": "276,553"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 8
+    },
+    "content": "0.42"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 9
+    },
+    "content": "British Telecommunications PLC 9.625%00–15.12.30"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 9
+    },
+    "content": "185,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 9
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 9
+    },
+    "content": "216,570"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 9
+    },
+    "content": "216,520"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 9
+    },
+    "content": "0.33"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 10
+    },
+    "content": "HSBC Holdings PLC 4.752% 23–10.03.28"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 10
+    },
+    "content": "320,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 10
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 10
+    },
+    "content": "332,871"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 10
+    },
+    "content": "331,526"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 10
+    },
+    "content": "0.51"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 11
+    },
+    "content": "Inchcape PLC 6.500% 23–09.06.28"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 11
+    },
+    "content": "355,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 11
+    },
+    "content": "GBP"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 11
+    },
+    "content": "438,863"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 11
+    },
+    "content": "439,377"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
+      "table-row": 11
+    },
+    "content": "0.67"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 0,
+      "table-row": 12
+    },
+    "content": "International Distribution Services PLC 7.375%23–14.09.30"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 1,
+      "table-row": 12
+    },
+    "content": "135,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 2,
+      "table-row": 12
+    },
+    "content": "GBP"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 3,
+      "table-row": 12
+    },
+    "content": "166,250"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 4,
+      "table-row": 12
+    },
+    "content": "168,177"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "is-max-width": false,
+      "table-col": 5,
       "table-row": 12
     },
     "content": "0.26"
@@ -537,326 +787,6 @@
       "table-col": 0,
       "table-row": 13
     },
-    "content": "BG Energy Capital PLC 2.250% 14–21.11.29"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 1,
-      "table-row": 13
-    },
-    "content": "285,000"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 2,
-      "table-row": 13
-    },
-    "content": "EUR"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 3,
-      "table-row": 13
-    },
-    "content": "275,279"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 4,
-      "table-row": 13
-    },
-    "content": "276,553"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 5,
-      "table-row": 13
-    },
-    "content": "0.42"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 14
-    },
-    "content": "British Telecommunications PLC 9.625%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 15
-    },
-    "content": "00–15.12.30"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 1,
-      "table-row": 15
-    },
-    "content": "185,000"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 2,
-      "table-row": 15
-    },
-    "content": "USD"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 3,
-      "table-row": 15
-    },
-    "content": "216,570"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 4,
-      "table-row": 15
-    },
-    "content": "216,520"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 5,
-      "table-row": 15
-    },
-    "content": "0.33"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 16
-    },
-    "content": "HSBC Holdings PLC 4.752% 23–10.03.28"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 1,
-      "table-row": 16
-    },
-    "content": "320,000"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 2,
-      "table-row": 16
-    },
-    "content": "EUR"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 3,
-      "table-row": 16
-    },
-    "content": "332,871"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 4,
-      "table-row": 16
-    },
-    "content": "331,526"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 5,
-      "table-row": 16
-    },
-    "content": "0.51"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 17
-    },
-    "content": "Inchcape PLC 6.500% 23–09.06.28"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 1,
-      "table-row": 17
-    },
-    "content": "355,000"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 2,
-      "table-row": 17
-    },
-    "content": "GBP"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 3,
-      "table-row": 17
-    },
-    "content": "438,863"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 4,
-      "table-row": 17
-    },
-    "content": "439,377"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 5,
-      "table-row": 17
-    },
-    "content": "0.67"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 18
-    },
-    "content": "International Distribution Services PLC 7.375%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 19
-    },
-    "content": "23–14.09.30"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 1,
-      "table-row": 19
-    },
-    "content": "135,000"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 2,
-      "table-row": 19
-    },
-    "content": "GBP"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 3,
-      "table-row": 19
-    },
-    "content": "166,250"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 4,
-      "table-row": 19
-    },
-    "content": "168,177"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 5,
-      "table-row": 19
-    },
-    "content": "0.26"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 20
-    },
     "content": "Marex Group PLC 6.404% 24–04.11.29"
   },
   {
@@ -865,7 +795,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 20
+      "table-row": 13
     },
     "content": "866,000"
   },
@@ -875,7 +805,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 20
+      "table-row": 13
     },
     "content": "USD"
   },
@@ -885,7 +815,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 20
+      "table-row": 13
     },
     "content": "835,411"
   },
@@ -895,7 +825,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 20
+      "table-row": 13
     },
     "content": "845,636"
   },
@@ -905,7 +835,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 20
+      "table-row": 13
     },
     "content": "1.29"
   },
@@ -915,7 +845,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 21
+      "table-row": 14
     },
     "content": "Unilever PLC 1.500% 19–22.07.26"
   },
@@ -925,7 +855,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 21
+      "table-row": 14
     },
     "content": "510,000"
   },
@@ -935,7 +865,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 21
+      "table-row": 14
     },
     "content": "GBP"
   },
@@ -945,7 +875,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 21
+      "table-row": 14
     },
     "content": "573,417"
   },
@@ -955,7 +885,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 21
+      "table-row": 14
     },
     "content": "589,310"
   },
@@ -965,7 +895,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 21
+      "table-row": 14
     },
     "content": "0.90"
   },
@@ -975,7 +905,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 22
+      "table-row": 15
     },
     "content": "United Utilities Water Ltd. 5.625% 02–20.12.27"
   },
@@ -985,7 +915,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 22
+      "table-row": 15
     },
     "content": "35,000"
   },
@@ -995,7 +925,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 22
+      "table-row": 15
     },
     "content": "GBP"
   },
@@ -1005,7 +935,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 22
+      "table-row": 15
     },
     "content": "42,825"
   },
@@ -1015,7 +945,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 22
+      "table-row": 15
     },
     "content": "43,025"
   },
@@ -1025,7 +955,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 22
+      "table-row": 15
     },
     "content": "0.06"
   },
@@ -1035,7 +965,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 23
+      "table-row": 16
     },
     "content": "Virgin Money U.K. PLC 2.625% 21–19.08.31"
   },
@@ -1045,7 +975,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 23
+      "table-row": 16
     },
     "content": "370,000"
   },
@@ -1055,7 +985,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 23
+      "table-row": 16
     },
     "content": "GBP"
   },
@@ -1065,7 +995,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 23
+      "table-row": 16
     },
     "content": "428,504"
   },
@@ -1075,7 +1005,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 23
+      "table-row": 16
     },
     "content": "428,666"
   },
@@ -1085,7 +1015,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 23
+      "table-row": 16
     },
     "content": "0.65"
   },
@@ -1095,7 +1025,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 24
+      "table-row": 17
     },
     "content": "Accenture Capital, Inc. 4.250% 24–04.10.31"
   },
@@ -1105,7 +1035,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 24
+      "table-row": 17
     },
     "content": "130,000"
   },
@@ -1115,7 +1045,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 24
+      "table-row": 17
     },
     "content": "USD"
   },
@@ -1125,7 +1055,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 24
+      "table-row": 17
     },
     "content": "119,084"
   },
@@ -1135,7 +1065,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 24
+      "table-row": 17
     },
     "content": "120,854"
   },
@@ -1145,7 +1075,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 24
+      "table-row": 17
     },
     "content": "0.18"
   },
@@ -1155,7 +1085,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 25
+      "table-row": 18
     },
     "content": "Accenture Capital, Inc. 4.500% 24–04.10.34"
   },
@@ -1165,7 +1095,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 25
+      "table-row": 18
     },
     "content": "40,000"
   },
@@ -1175,7 +1105,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 25
+      "table-row": 18
     },
     "content": "USD"
   },
@@ -1185,7 +1115,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 25
+      "table-row": 18
     },
     "content": "36,274"
   },
@@ -1195,7 +1125,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 25
+      "table-row": 18
     },
     "content": "36,744"
   },
@@ -1205,7 +1135,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 25
+      "table-row": 18
     },
     "content": "0.06"
   },
@@ -1215,7 +1145,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 26
+      "table-row": 19
     },
     "content": "American Assets Trust LP 6.150% 24–01.10.34"
   },
@@ -1225,7 +1155,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 26
+      "table-row": 19
     },
     "content": "20,000"
   },
@@ -1235,7 +1165,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 26
+      "table-row": 19
     },
     "content": "USD"
   },
@@ -1245,7 +1175,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 26
+      "table-row": 19
     },
     "content": "18,676"
   },
@@ -1255,7 +1185,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 26
+      "table-row": 19
     },
     "content": "19,236"
   },
@@ -1265,7 +1195,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 26
+      "table-row": 19
     },
     "content": "0.03"
   },
@@ -1275,19 +1205,9 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 27
+      "table-row": 20
     },
-    "content": "American Electric Power Co., Inc. 7.050%"
-  },
-  {
-    "__pdf_block__": true,
-    "type_block": "TABLE_BODY",
-    "metadata": {
-      "is-max-width": false,
-      "table-col": 0,
-      "table-row": 28
-    },
-    "content": "24–15.12.54"
+    "content": "American Electric Power Co., Inc. 7.050%24–15.12.54"
   },
   {
     "__pdf_block__": true,
@@ -1295,7 +1215,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 28
+      "table-row": 20
     },
     "content": "130,000"
   },
@@ -1305,7 +1225,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 28
+      "table-row": 20
     },
     "content": "USD"
   },
@@ -1315,7 +1235,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 28
+      "table-row": 20
     },
     "content": "125,243"
   },
@@ -1325,7 +1245,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 28
+      "table-row": 20
     },
     "content": "130,153"
   },
@@ -1335,7 +1255,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 28
+      "table-row": 20
     },
     "content": "0.20"
   },
@@ -1345,7 +1265,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 29
+      "table-row": 21
     },
     "content": "Apple, Inc. 1.625% 14–10.11.26"
   },
@@ -1355,7 +1275,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 29
+      "table-row": 21
     },
     "content": "100,000"
   },
@@ -1365,7 +1285,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 29
+      "table-row": 21
     },
     "content": "EUR"
   },
@@ -1375,7 +1295,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 29
+      "table-row": 21
     },
     "content": "98,608"
   },
@@ -1385,7 +1305,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 29
+      "table-row": 21
     },
     "content": "98,419"
   },
@@ -1395,7 +1315,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 29
+      "table-row": 21
     },
     "content": "0.15"
   },
@@ -1405,7 +1325,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 30
+      "table-row": 22
     },
     "content": "Apple, Inc. 4.250% 17–09.02.47"
   },
@@ -1415,7 +1335,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 30
+      "table-row": 22
     },
     "content": "150,000"
   },
@@ -1425,7 +1345,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 30
+      "table-row": 22
     },
     "content": "USD"
   },
@@ -1435,7 +1355,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 30
+      "table-row": 22
     },
     "content": "122,534"
   },
@@ -1445,7 +1365,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 30
+      "table-row": 22
     },
     "content": "124,136"
   },
@@ -1455,7 +1375,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 30
+      "table-row": 22
     },
     "content": "0.19"
   },
@@ -1465,7 +1385,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 0,
-      "table-row": 31
+      "table-row": 23
     },
     "content": "Apple, Inc. 4.650% 16–23.02.46"
   },
@@ -1475,7 +1395,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 1,
-      "table-row": 31
+      "table-row": 23
     },
     "content": "20,000"
   },
@@ -1485,7 +1405,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 2,
-      "table-row": 31
+      "table-row": 23
     },
     "content": "USD"
   },
@@ -1495,7 +1415,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 3,
-      "table-row": 31
+      "table-row": 23
     },
     "content": "17,265"
   },
@@ -1505,7 +1425,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 4,
-      "table-row": 31
+      "table-row": 23
     },
     "content": "17,665"
   },
@@ -1515,7 +1435,7 @@
     "metadata": {
       "is-max-width": false,
       "table-col": 5,
-      "table-row": 31
+      "table-row": 23
     },
     "content": "0.03"
   },

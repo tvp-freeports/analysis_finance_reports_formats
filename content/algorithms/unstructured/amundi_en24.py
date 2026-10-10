@@ -48,15 +48,9 @@ presa per eccesso. I due gruppi si leggono insieme, che `R22` vuole i sub-gestor
 import re
 
 import carryover
-import esg
-import renaming
 import sfdr
 from freeports.core import PdfBlock, Pipeline
-from freeports.interfaces.pdf_blks import OnePdfBlockType, ResultStandardExtraction
-from freeports.standard_funcs.pdf_extract import (
-    PdfExtractLabelledValueStandard,
-    PdfExtractSectionStandard,
-)
+from freeports.interfaces.pdf_blks import OnePdfBlockType
 from freeports.core import TextBlock
 from freeports.interfaces.text_blks import OneTextBlockType
 from freeports.utils.pdf_extract import PdfLineSelection, get_groups, pdflines_from_pagedict
@@ -64,23 +58,13 @@ from freeports.utils.text_filter import MatchFund, investment_fund_filter_data
 
 # La sezione è tutta la nota: si apre sull'intestazione in grassetto e si chiude sulla prossima
 # intestazione dello stesso carattere, che è il comportamento per difetto di `family`.
-pdf_extract_renaming = PdfExtractSectionStandard(
-    PdfLineSelection(font="arial-boldmt", font_size=(9.0, 10.0), text="INTRODUCTION"),
-    OnePdfBlockType.RELEVANT_BLOCK.name,
-    "renaming",
-    body=PdfLineSelection(font="arialmt", font_size=(6.5, 7.5)),
-)
+# La sezione delle ridenominazioni (`FC-1`) e' configurazione: `section` nel `pdf_extract`.
 
 # `on 15 March 2024` sta nell'intestazione, e vale per tutte le righe che seguono. Le due sezioni
 # sorelle non portano il connettore ` into `, quindi chiudono lo scopo invece di aprirne uno.
-read_renaming = renaming.Listed(
-    renamed=(r"have been renamed",),
-    merged=(r"have been merged", r"have been absorbed"),
-    # Lo stesso prefisso che il modulo SFDR si toglie, e per la stessa ragione: gli investimenti
-    # scrivono `European Equity ESG Improvers`, la nota `Amundi Funds European Equity ESG
-    # Improvers`, e `R24` vuole che finiscano sullo stesso comparto.
-    strip=(r"^Amundi Funds\s+",),
-)
+# Il `text_filter` e il `deserialize` sono del motore: `renaming` legge i cambi nella forma
+# che questa sezione usa, tiene quelli che riguardano un comparto del job (`R24`) e converte
+# la data. Gli schemi stanno in `content/algorithms/semistructured/args/text_filter.yaml`.
 
 _BOLD = PdfLineSelection(font="arial-boldmt", font_size=(6.5, 7.5))
 
@@ -309,9 +293,10 @@ def pdf_extract_esg(page):
     return blocks
 
 
-read_esg = esg.DatedRows()
-
-text_filter_esg = esg.text_filter(read_esg, esg_carry.owner())
+# Il `text_filter` e il `deserialize` sono del motore: `esg` legge gli indicatori nella forma
+# che questa pagina usa e li attacca al comparto, `esg_indicator` costruisce la riga. Quale
+# lettore e di chi sia la pagina stanno in
+# `content/algorithms/semistructured/args/text_filter.yaml`.
 
 
 _ESG_PRODUCT_PIPES = sfdr.ENGLISH.joined_pipes()
@@ -366,23 +351,9 @@ pipelines = {
     "esg_fund": Pipeline(
         pdf_extract_esg_fund, text_filter_esg_fund, esg_carry.deposit
     ),
-    "esg_indicators": Pipeline(pdf_extract_esg, text_filter_esg, esg.deserialize),
+    "esg_indicators": Pipeline(pdf_extract_esg),
     "inv_managers_begin": Pipeline(pdf_extract=pdf_extract_inv_managers_begin),
     "inv_managers_end": Pipeline(
         pdf_extract=pdf_extract_inv_managers_end,
-    ),
-    "renaming": Pipeline(
-        pdf_extract=pdf_extract_renaming,
-        text_filter=renaming.text_filter(read_renaming),
-        deserialize=renaming.deserialize(),
-    ),
-    # `C01`. Il gestore degli investimenti qui **non** ricade sulla societa' di gestione: p8-9 lo
-    # dichiarano, ed e' `IM-2`.
-    "manco": Pipeline(
-        PdfExtractLabelledValueStandard(
-            _BOLD & PdfLineSelection.text("^MANAGEMENT COMPANY"),
-            ResultStandardExtraction.MANAGEMENT_COMPANY.name,
-            "managment company",
-        ),
     ),
 }

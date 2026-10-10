@@ -1,1 +1,38 @@
-{}
+# `U7`: la prima delle due pagine non costruisce niente, deposita. L'identificativo della promessa
+# è `tot_assets@<comparto>`, e lo scrive un posto solo — questa cella e il `resume` della pagina
+# dopo lo nominano, nessuno dei due lo compone.
+ARCA-IT24(fund_assets_begin):
+  fields:
+    - tot_assets
+
+AMUNDI-IT24(fund_assets_begin):
+  fields:
+    - tot_assets
+
+FIDEURAM-IT24(fund_assets_begin):
+  fields:
+    - tot_assets
+
+MEDIOLANUM-IT24.B(fund_assets_begin):
+  fields:
+    - tot_assets
+
+ANIMA_SGR-IT24(fund_assets_begin):
+  fields:
+    - tot_assets
+
+EURIZON-IT24(fund_assets_begin):
+  fields:
+    - tot_assets
+
+# `31 de diciembre de 2024`: il mese in parole, quarta lingua del vocabolario dei cast.
+MEDIOLANUM-ES24.A(fund_assets):
+  date_cast: es_month
+
+# `R31`: su questo prospetto il passivo porta il meno, ed e' tipografia.
+UBS-EN23(fund_assets):
+  amount_cast: float + magnitude
+
+# I mesi in italiano: le altre due sezioni sono in inglese, che e' il difetto.
+ARCA-IT24(merges):
+  date_cast: it_month

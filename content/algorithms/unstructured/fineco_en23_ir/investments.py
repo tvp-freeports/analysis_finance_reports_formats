@@ -3,12 +3,8 @@
 from freeports.standard_funcs.pdf_extract import (
     PdfExtractInvestmentsStandard, PdfExtractFundStandard, PdfExtractCurrencyStandard
 )
-from freeports.utils.pdf_extract import PdfLineSelection, pdflines_from_pagedict, get_table_coordinates
-from freeports.utils.text_filter import normalize_string
-from freeports.interfaces.text_blks import ResultStandardFiltering
-from freeports.standard_funcs.deserialize import DeserializerFundStandard
+from freeports.utils.pdf_extract import PdfLineSelection
 
-from enum import Enum,auto
 
 tnrb = PdfLineSelection.font("TimesNewRoman,Bold")
 

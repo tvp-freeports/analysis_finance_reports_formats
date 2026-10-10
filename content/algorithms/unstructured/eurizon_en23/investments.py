@@ -24,8 +24,10 @@ from freeports.standard_funcs.pdf_extract import (
     PdfExtractFundStandard,
 )
 from freeports.utils.pdf_extract import (
+    CollapseAlgorithm,
     ColumnConfig,
     Limits,
+    SplittingState,
     PdfLineSelection,
     TableConfig,
     TablePosAlgorithm,
@@ -176,25 +178,69 @@ def pdf_extract(page):
     if not lines:
         return []
 
+    # Solo la colonna dei nomi puo' rompersi su piu' righe: le altre portano numeri, e un numero
+    # non va a capo. Dirlo per colonna e' necessario perche' qui le colonne sono **dichiarate** —
+    # con un `TableConfig` esplicito il `collapse` non puo' dedurlo dalla colonna dei nomi, come fa
+    # dove le colonne le trova lui.
     config = TableConfig(
-        cols=[ColumnConfig(limits=Limits(low, high)) for low, high in column_bands(lines)]
+        cols=[
+            ColumnConfig(
+                limits=Limits(low, high),
+                splitting=SplittingState.ALLOW_DOWN if index == _NAME_COLUMN else SplittingState.DISALLOW,
+            )
+            for index, (low, high) in enumerate(column_bands(lines))
+        ]
     )
     # `USE_RULER_AREA` is what makes a declared band capture the cells that *overlap* it. The
     # default predicate asks instead that the band's midpoint fall inside the cell, which a band
     # spanning a whole column of names never does.
     coordinates = get_table_coordinates(
-        lines, table_cfg=config, algorithm_flags=TablePosAlgorithm.USE_RULER_AREA
+        lines,
+        table_cfg=config,
+        algorithm_flags=TablePosAlgorithm.USE_RULER_AREA,
+        collapse=True,
+        collapse_alg=CollapseAlgorithm.PATTERN,
     )
+
+    return _cells(lines, coordinates)
+
+
+_NAME_COLUMN = 1
+"""L'indice della colonna dei nomi: a sinistra ci sono le quantita'.
+
+Misurato sulle fixture di pagina, che portano la quantita' in colonna 0 e il nome in colonna 1 —
+ed e' anche quello che dicono le celle del livello strutturato, dove `Quantity` sta a `-1` dal nome.
+"""
+
+
+def _cells(lines, coordinates):
+    """Un blocco per **cella**, col testo delle righe che il `collapse` ha messo nella stessa.
+
+    E' lo stesso lavoro che fa `PdfExtractInvestmentsStandard` quando la cella `Collapse` c'e': le
+    righe di una cella si concatenano **senza niente in mezzo**, perche' il generatore lascia lo
+    spazio in fondo al primo pezzo quando rompe su una parola e non lo lascia quando rompe dentro una
+    parola. E le righe si rinumerano contigue da zero, perche' una corsa che collassa sulla sua
+    ultima riga lascia la prima senza nessuna cella, e chi legge questi metadati conta le righe che
+    trova.
+    """
+    cells = {}
+    for line, (row, col) in zip(lines, coordinates):
+        cells.setdefault((row, col), []).append(line)
 
     widths = [line.bbox[2] - line.bbox[0] for line in lines]
     max_width = max(widths)
+    renumbered = {row: new for new, row in enumerate(sorted({row for row, _ in cells}))}
     return [
         PdfBlock(
             ResultStandardExtraction.TABLE_BODY.name,
-            {"table-row": row, "table-col": col, "is-max-width": width == max_width},
-            line.text,
+            {
+                "table-row": renumbered[row],
+                "table-col": col,
+                "is-max-width": any(line.bbox[2] - line.bbox[0] == max_width for line in group),
+            },
+            "".join(line.text for line in group),
         )
-        for line, (row, col), width in zip(lines, coordinates, widths)
+        for (row, col), group in cells.items()
     ]
 
 

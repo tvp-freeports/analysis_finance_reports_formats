@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "CHALLENGE EURO BOND FUND",
+        "liabilities": 35585504.0,
+        "net_assets": 1791663596.0,
+        "tot_assets": 1827249100.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-06-30"
+        },
+        "fund": "CHALLENGE INTERNATIONAL BOND FUND",
+        "liabilities": 34300667.0,
+        "net_assets": 1681264170.0,
+        "tot_assets": 1715564837.0
+      }
+    }
+  }
+]

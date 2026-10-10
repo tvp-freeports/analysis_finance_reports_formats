@@ -1,15 +1,10 @@
-from freeports.standard_funcs.pdf_extract import (
-    PdfExtractManagmentCompanyStandard
-)
 from freeports.utils.pdf_extract import (
     pdflines_from_pagedict,
     PdfLineSelection
 )
 from freeports.core import PdfBlock
-from freeports.standard_funcs.text_filter import TextFilterManagmentCompanyStandard
 from freeports.standard_funcs.deserialize import (
     DeserializerFundStandard,
-    DeserializerManagmentCompanyStandard,
     DeserializerInvestmentsManagerStandard
 )
 
@@ -133,21 +128,8 @@ def pdf_extract_inv_managers_end(page):
 
     return _blocks(lines, bold_text, fund_text, note_text)
 
-pdf_extract_manco = PdfExtractManagmentCompanyStandard(
-    PdfLineSelection(
-        font="frutiger-black", font_size=(8.98, 8.99)
-    ) & PdfLineSelection.area_from_bounds(
-        x0=0,
-        y0=PdfLineSelection(
-            text="MANAGEMENT COMPANY AND PROMOTER", font="frutiger-lightitalic"
-        ),
-        x1=1e6,
-        y1=PdfLineSelection(
-            text="BOARD OF DIRECTORS OF THE MANAGEMENT COMPANY",
-            font="frutiger-lightitalic",
-        ),
-    )
-)
+# La `manco` e' tutta configurazione: la banda fra i due titoli e il ritaglio del nome stanno in
+# `args/pdf_extract.yaml` e `args/text_filter.yaml`.
 
 # I tre `text_filter` dei gestori stanno nel livello `semistructured`. La specificazione sta
 # **sotto** il nome e la riconosce il tipo di blocco, non la parentesi; i marcatori si provano
@@ -166,10 +148,6 @@ pdf_extract_manco = PdfExtractManagmentCompanyStandard(
 # stanno nello step prima e `inv_managers_begin` da sola in quello dopo. Non e' un capriccio: il
 # gestore che prende il residuo e' dichiarato li', e il residuo si sa solo quando tutte le altre
 # pagine hanno rivendicato il loro.
-text_filter_manco = TextFilterManagmentCompanyStandard()
-
 deserialize_inv_managers = DeserializerInvestmentsManagerStandard()
-
-deserialize_manco = DeserializerManagmentCompanyStandard()
 
 deserialize_fund = DeserializerFundStandard()

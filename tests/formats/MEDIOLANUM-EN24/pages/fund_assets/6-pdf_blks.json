@@ -1,0 +1,28 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "(expressed in EUR) ",
+      "date": "AS AT JUNE 30, 2025",
+      "fund": "CHALLENGE NORTH AMERICAN EQUITY FUND",
+      "liabilities": "11,515,777",
+      "net_assets": "2,866,246,070",
+      "tot_assets": "2,877,761,847"
+    },
+    "content": ""
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "(expressed in EUR) ",
+      "date": "AS AT JUNE 30, 2025",
+      "fund": "CHALLENGE EUROPEAN EQUITY FUND",
+      "liabilities": "15,280,295",
+      "net_assets": "694,714,307",
+      "tot_assets": "709,994,602"
+    },
+    "content": ""
+  }
+]

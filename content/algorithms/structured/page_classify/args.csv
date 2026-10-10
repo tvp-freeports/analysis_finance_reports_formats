@@ -39,7 +39,6 @@ EURIZON-IT24/11,"TrebuchetMS ""^TOTALE ATTIVITA'""",fund_assets_begin
 EURIZON-IT24/12,"TrebuchetMSBold ""^PASSIVITA' E NETTO""",fund_assets_end
 EURIZON-IT24/12,"TrebuchetMSBold ""^TOTALE PASSIVITA'""",fund_assets_end
 UBS-EN23,"Frutiger45LightBold ""Nominal """,investments
-MEDIOLANUM-IT24.C,"""Valutazione """,investments
 AMUNDI-EN24,"ArialNarrow-BoldItalic ""Securities Portfolio as at""",investments
 AMUNDI-EN24/1,"""eriodic disclosure for the financial products""",sfdr_classification
 AMUNDI-IT24,"TrebuchetMS-Bold ""Titolo""",investments
@@ -91,15 +90,15 @@ FIDEURAM-IT24/3,"TahomaBold ""^TOTALE PASSIVITA'""",fund_assets_end
 MEDIOLANUM-ES24.B/0,"Helvetica-Bold ""Descripc""",investments
 MEDIOLANUM-ES24.B/0,"Helvetica-Bold ""Divisa""",investments
 MEDIOLANUM-ES24.B/0,"Helvetica-Bold ""Periodo actual""",investments
-MEDIOLANUM-IT24.A/0,"[8.037657] ""Descrizione""",investments
+MEDIOLANUM-IT24.A/0,"[7.9:8.1] ""Descrizione""",investments
 MEDIOLANUM-ES24.B/1,"Helvetica-Bold ""Grupo Gestora:""",cover
 MEDIOLANUM-ES24.B/1,"Helvetica-Bold ""Registro CNMV:""",cover
 MEDIOLANUM-ES24.B/2,"""nformación periódica de los productos financieros""",sfdr_classification
 MEDIOLANUM-IT24.A/0,"""Valutazione """,investments
-MEDIOLANUM-IT24.A/1,"[15.47555] ""INFORMAZIONI GENERALI""",inv_managers_begin
-MEDIOLANUM-IT24.A/1,"[9.477175] ""SOCIETÀ DI GESTIONE E""",inv_managers_begin
-MEDIOLANUM-IT24.A/2,"[15.47555] ""INFORMAZIONI GENERALI""",inv_managers_end
-MEDIOLANUM-IT24.A/2,"[9.477175] ""DEPOSITARIA/""",inv_managers_end
+MEDIOLANUM-IT24.A/1,"[15.4:15.7] ""INFORMAZIONI GENERALI""",inv_managers_begin
+MEDIOLANUM-IT24.A/1,"[9.1:9.5] ""SOCIETÀ DI GESTIONE E""",inv_managers_begin
+MEDIOLANUM-IT24.A/2,"[15.4:15.7] ""INFORMAZIONI GENERALI""",inv_managers_end
+MEDIOLANUM-IT24.A/2,"[9.4:9.7] ""DEPOSITARIA/""",inv_managers_end
 MEDIOLANUM-IT24.A/3,"(:70) ""STATO PATRIMONIALE""",fund_assets
 MEDIOLANUM-IT24.A/3,"""TOTALE ATTIVITÀ""",fund_assets
 MEDIOLANUM-IT24.A/4,"""prodotto finanziario aveva un obiettivo di investimento sostenibile""",sfdr_classification
@@ -113,16 +112,11 @@ MEDIOLANUM-IT24.B/2,"Helvetica-Bold ""^TOTALE PASSIVITÀ""",fund_assets_end
 MEDIOLANUM-IT24.B/2,"Helvetica ""VALORE COMPLESSIVO NETTO DEL FONDO""",fund_assets_end
 MEDIOLANUM-IT24.B/3,"""informativa periodica per i prodotti finanziari""",sfdr_classification
 MEDIOLANUM-IT24.B/4,"georgia ""Siamo indipendenti rispetto al Fondo e a""",manco
-MEDIOLANUM-IT24.C,"[7.920006] ""Descrizione""",investments
-MEDIOLANUM-IT24.C/1,"(:70) ""STATO PATRIMONIALE""",fund_assets
-MEDIOLANUM-IT24.C/1,"""TOTALE ATTIVITÀ""",fund_assets
-MEDIOLANUM-IT24.C/2,"[15.5:15.7] ""INFORMAZIONI GENERALI""",inv_managers_begin
-MEDIOLANUM-IT24.C/2,"[9.1:9.2] ""SOCIETÀ DI GESTIONE E""",inv_managers_begin
-MEDIOLANUM-IT24.C/3,"[15.5:15.7] ""INFORMAZIONI GENERALI""",inv_managers_end
-MEDIOLANUM-IT24.C/3,"[9.5:9.7] ""DEPOSITARIA/""",inv_managers_end
 MEDIOLANUM-EN24/0,"[8.04] ""Face value""",investments
 MEDIOLANUM-EN24/1,"[9.48] ""MANAGER AND GLOBAL""",inv_managers_begin
 MEDIOLANUM-EN24/2,"[9.48] ""TRUSTEE/DEPOSITARY""",inv_managers_end
+MEDIOLANUM-EN24/3,"[15.48] ""CONDENSED STATEMENT OF FINANCIAL POSITION""",fund_assets
+MEDIOLANUM-EN24/3,"""TOTAL ASSETS""",fund_assets
 FINECO-EN23@IR/0,"TimesNewRoman,Bold ""Domicile""",investments
 FINECO-EN23@IR/0,"TimesNewRoman,Bold ""Shares""",investments
 FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Notes to the Financial Statements""",inv_managers

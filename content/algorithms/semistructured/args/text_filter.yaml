@@ -1,3 +1,19 @@
+# La finestra del `pdf_extract` e' costruita attorno al valore, quindi la riga che arriva e' gia' il
+# nome: non si ritaglia niente, e il blocco di testo si porta dietro quello PDF (`P9`).
+ANIMA-EN23(manco):
+  {}
+
+# Come ANIMA-EN23: la finestra isola il valore, e qui non si ritaglia niente.
+CARNE-EN23(manco):
+  {}
+
+KAIROS-EN23(manco):
+  {}
+
+# La sezione consegna la sola riga del nome, quindi non si ritaglia niente.
+EURIZON-EN23(manco):
+  {}
+
 ANIMA-EN23(sfdr_classification):
   language: ENGLISH
 
@@ -112,6 +128,12 @@ EURIZON-EN21(manco):
 EURIZON-IT24(manco):
   after: "gestione"
   before: ","
+
+# La finestra del `pdf_extract` e' costruita attorno al **valore**, quindi la riga che arriva e' gia'
+# il nome: non si ritaglia nessun pezzo. Con `{}` il blocco di testo si porta dietro il blocco PDF
+# da cui viene, perche' i due dicono la stessa cosa (`P9`).
+FIDEURAM-IT24(manco):
+  {}
 
 # p67: il nome sta **in mezzo** a una frase di prosa, che si chiude su
 # `(the “Management Company”)` -- la parentesi va protetta, perche' `before` e' un
@@ -384,3 +406,224 @@ DANSKEINVEST-EN24(inv_managers):
         - '(?i)\(\s*until\b'
   manco: blocks
   emit_manco: when_present
+
+# `U7`, la situazione patrimoniale a cavallo di due pagine. `A1` lascia un blocco **nudo** per
+# etichetta, e `gather` dice quale tipo di blocco riempie quale metadato: riunirli è
+# interpretazione, quindi `text_filter` (`R23`).
+ARCA-IT24(fund_assets_begin):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    tot_assets: TOT_ASSETS
+
+# La seconda pagina: `resume` nomina ciò che la prima ha promesso, e per questo va **dopo** il
+# filtro sui comparti d'interesse — qui dentro lo è per costruzione.
+ARCA-IT24(fund_assets_end):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    date: ASSETS_DATE
+    liabilities: LIABILITIES
+    net_assets: NET_ASSETS
+  resume:
+    - tot_assets
+AMUNDI-IT24(fund_assets_begin):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    tot_assets: TOT_ASSETS
+
+AMUNDI-IT24(fund_assets_end):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    date: ASSETS_DATE
+    liabilities: LIABILITIES
+    net_assets: NET_ASSETS
+  resume:
+    - tot_assets
+
+FIDEURAM-IT24(fund_assets_begin):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    tot_assets: TOT_ASSETS
+
+FIDEURAM-IT24(fund_assets_end):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    date: ASSETS_DATE
+    liabilities: LIABILITIES
+    net_assets: NET_ASSETS
+  date_regex: ' AL ([0-9/]+)$'
+  resume:
+    - tot_assets
+
+MEDIOLANUM-IT24.B(fund_assets_begin):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    tot_assets: TOT_ASSETS
+
+MEDIOLANUM-IT24.B(fund_assets_end):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    date: ASSETS_DATE
+    liabilities: LIABILITIES
+    net_assets: NET_ASSETS
+  resume:
+    - tot_assets
+
+ANIMA_SGR-IT24(fund_assets_begin):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    tot_assets: TOT_ASSETS
+  fund:
+    kind: sole_if_absent
+
+ANIMA_SGR-IT24(fund_assets_end):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    date: ASSETS_DATE
+    liabilities: LIABILITIES
+    net_assets: NET_ASSETS
+  fund:
+    kind: sole_if_absent
+  resume:
+    - tot_assets
+
+EURIZON-IT24(fund_assets_begin):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    tot_assets: TOT_ASSETS
+  fund:
+    kind: sole_if_absent
+
+EURIZON-IT24(fund_assets_end):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    date: ASSETS_DATE
+    liabilities: LIABILITIES
+    net_assets: NET_ASSETS
+  fund:
+    kind: sole_if_absent
+  resume:
+    - tot_assets
+
+MEDIOLANUM-ES24.A(fund_assets):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    date: ASSETS_DATE
+    tot_assets: TOT_ASSETS
+    liabilities: LIABILITIES
+    net_assets: NET_ASSETS
+
+# Il prospetto non nomina il suo comparto: il titolo sta una, due, tre o quattro pagine prima,
+# perche' in mezzo ci stanno il commento di gestione e la tabella dei tre esercizi. Il comparto
+# arriva quindi dalla pagina **piu' vicina che precede** fra quelle che ne hanno lasciato uno, e
+# `fund_title` e' la pipeline che lo deposita — in uno step precedente dello `schedule`, o
+# `filter_data` non porterebbe ancora niente.
+UBS-EN23(fund_assets):
+  gather:
+    currency: CURRENCY_STATEMENT
+    date: ASSETS_DATE
+    tot_assets: TOT_ASSETS
+    liabilities: LIABILITIES
+    net_assets: NET_ASSETS
+  fund:
+    kind: nearest_page
+    field: ubs-fund
+    page_block_type: ASSETS_PAGE
+
+# `A6`, gli indicatori ESG del modulo periodico. Due celle sole: **quale lettore** e **di chi e'
+# questa pagina**; tutto il resto di un lettore ha il valore che le pagine misurate condividono.
+
+# La sezione risponde in prosa: nessun numero, quindi nessun indicatore (`R11`) e la domanda di chi
+# sia la pagina non si pone — per questo `fund` non c'e'.
+ANIMA_SGR-IT24(esg_indicators):
+  read:
+    kind: leading_number
+
+# La tabella non ha ne' serie ne' esercizi — un indicatore, un valore — quindi `series` e `column`
+# valgono zero per tutte le celle e il lettore fa il solo lavoro che serve: tenere le celle che
+# portano un numero. Il comparto e' quello che l'allegato ha depositato: un documento, un comparto.
+EURIZON-IT24(esg_indicators):
+  read:
+    kind: dated_rows
+  fund:
+    kind: promise
+    id: esg-indicator-fund
+
+# L'indice di riferimento e' scritto con la stessa formula del comparto: `of the benchmark` e'
+# l'unica cosa che le distingue, e il valore dell'indice non e' un dato del comparto. La stessa
+# frase, al rovescio, sporca l'etichetta, e `strip` la toglie insieme al trattino dell'elenco.
+UBS-EN23(esg_indicators):
+  read:
+    kind: labelled_pairs
+    drop:
+      - 'of the benchmark'
+    strip:
+      - '^o\s+'
+      - '\s+of the financial product$'
+  fund:
+    kind: page_promise
+    field: ubs-esg-fund
+
+AMUNDI-EN24(esg_indicators):
+  read:
+    kind: dated_rows
+  fund:
+    kind: page_promise
+    field: amundi-esg-fund
+
+# Il valore in testa alla frase, il nome nel resto. La seconda voce dei sei comincia con la
+# precisazione e non col numero, quindi cade: e' la regola applicata, non un difetto.
+FINECO-EN23@IR(esg_indicators):
+  read:
+    kind: leading_number
+  fund:
+    kind: page_promise
+    field: esg-fund
+
+# `A7`, le ridenominazioni e le fusioni. Tre celle: quale lettore, i due elenchi di schemi, e quale
+# dei due nomi deve essere un comparto del job (`current` per difetto, che e' `R24`).
+
+# Una frase per evento, in italiano, coi tre gruppi nominati dentro lo schema.
+ARCA-IT24(merges):
+  read:
+    kind: sentence
+    merged:
+      - '(?<when>[0-9]{1,2} [a-zàèéìòù]+ [0-9]{4}) (?:il|la) [Ff]ondo [“"](?<old>[^”"]+)[”"] è stato incorporato (?:nel|in) [Ff]ondo [“"](?<current>[^”"]+)[”"]'
+    renamed:
+      - '[Ii]l [Ff]ondo [“"](?<current>[^”"]+)[”"] \(già denominato (?<old>[^)]+)\) .{0,40}?(?<when>[0-9]{1,2} [a-zàèéìòù]+ [0-9]{4})'
+
+DANSKEINVEST-EN24(merges):
+  read:
+    kind: sentence
+    renamed:
+      - '(?<old>Danske Invest SICAV\s*[-–]\s*[^.]+?) was renamed (?<current>[^.]+?) effective (?<when>\d{1,2} \w+ \d{4})'
+    merged:
+      - '(?<old>Danske Invest SICAV\s*[-–]\s*[^.]+?) merged into (?<current>[^.]+?) on (?<when>\d{1,2} \w+ \d{4})'
+    strip:
+      - '^Danske Invest SICAV\s*[-–]\s*'
+
+# Un'intestazione datata apre un elenco, e le tre sezioni sorelle — lanciati, ridenominati,
+# liquidati — restano fuori perche' una riga che non porta il connettore **chiude** lo scopo.
+# Lo `strip` e' lo stesso prefisso che il modulo SFDR si toglie, e per la stessa ragione (`R24`).
+AMUNDI-EN24(renaming):
+  read:
+    kind: listed
+    renamed:
+      - 'have been renamed'
+    merged:
+      - 'have been merged'
+      - 'have been absorbed'
+    strip:
+      - '^Amundi Funds\s+'
