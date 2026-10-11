@@ -55,6 +55,8 @@ AMUNDI-IT24(fund_assets_end),currency_constant,,
 AMUNDI-IT24(fund_assets_end),labelled_value,,
 AMUNDI-IT24(fund_assets_end),labelled_value,,
 AMUNDI-IT24(fund_assets_end),labelled_value,,
+AMUNDI-IT24(manco),labelled_value,manco_imposed,managment_company
+AMUNDI-IT24(manco),,,investments_manager_from_manco
 FIDEURAM-IT24(fund_assets_begin),fund,labelled_assets,carryover_deposit
 FIDEURAM-IT24(fund_assets_begin),currency_constant,,
 FIDEURAM-IT24(fund_assets_begin),labelled_value,,
@@ -71,6 +73,7 @@ MEDIOLANUM-IT24.B(fund_assets_end),currency_constant,,
 MEDIOLANUM-IT24.B(fund_assets_end),labelled_value,,
 MEDIOLANUM-IT24.B(fund_assets_end),labelled_value,,
 MEDIOLANUM-IT24.B(fund_assets_end),labelled_value,,
+MEDIOLANUM-EN24(fund_assets),assets_by_position,assets,assets
 ANIMA_SGR-IT24(fund_assets_begin),labelled_value,labelled_assets,carryover_deposit
 ANIMA_SGR-IT24(fund_assets_begin),currency_constant,,
 ANIMA_SGR-IT24(fund_assets_begin),labelled_value,,

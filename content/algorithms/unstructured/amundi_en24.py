@@ -26,6 +26,13 @@ numero che porta è il totale dell'attivo, non la prima voce di un elenco. Della
 tiene quella dell'esercizio in corso (`R5`), e una colonna che porta solo trattini è un comparto che
 quell'anno non esisteva: si salta.
 
+Il prospetto sta su **due pagine affiancate**: la sinistra porta il titolo e le etichette di riga,
+la destra altri quattro comparti alle **stesse ordinate** e nessuna etichetta. La destra si legge
+da sola (`fund_assets_right`), con le finestre agganciate all'intestazione di data della prima
+colonna, che su tutte le diciannove destre sta nello stesso punto. Riconoscerla invece non si può
+da sola: lo Statement of Operations ha destre composte allo stesso modo, e a distinguerle è solo la
+pagina che le precede — che è il mestiere di `compute_page_class`.
+
 La societa' di gestione (`C01`) sta a p7, nel prospetto `Organisation`, sulla **stessa riga**
 dell'etichetta che ne dichiara il ruolo:
 
@@ -79,6 +86,21 @@ bordo, un nome lo supera — ed è geometria, quindi sta qui e non nel `text_fil
 Misurato su p8: `INVESTMENT MANAGERS` occupa 42,5–130,4 e `GUARANTOR` 42,5–87,9, mentre
 `Amundi Japan` occupa 42,8–246,7 e `Amundi Asset Management S.A.S.` 198,4–312,1.
 """
+
+
+def compute_page_class(classes):
+    """Una pagina destra (`right_facing`) è di `FA-5` solo se la precede la sinistra del prospetto.
+
+    Le altre — le destre dello Statement of Operations — tornano non classificate. Si guarda la
+    classe **grezza** della pagina prima, e la 398, il combinato, non ha destra: la 399 è un altro
+    prospetto e l'ancora di `right_facing` non la prende.
+    """
+    return [
+        ("fund_assets_right" if i > 0 and classes[i - 1] == "fund_assets" else None)
+        if cls == "right_facing"
+        else cls
+        for i, cls in enumerate(classes)
+    ]
 
 
 def _named(lines, top, bottom):

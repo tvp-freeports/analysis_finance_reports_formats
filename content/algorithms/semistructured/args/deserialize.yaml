@@ -36,3 +36,7 @@ UBS-EN23(fund_assets):
 # I mesi in italiano: le altre due sezioni sono in inglese, che e' il difetto.
 ARCA-IT24(merges):
   date_cast: it_month
+
+# `FEBRUARY 28, 2023`: il mese prima del giorno.
+MEDIOLANUM-EN24(fund_assets):
+  date_cast: en_month_first

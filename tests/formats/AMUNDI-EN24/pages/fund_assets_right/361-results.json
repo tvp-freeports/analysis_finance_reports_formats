@@ -1,0 +1,53 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2024-06-30"
+        },
+        "fund": "European Equity ESG Improvers",
+        "liabilities": 2724120.0,
+        "net_assets": 464561005.0,
+        "tot_assets": 467285125.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2024-06-30"
+        },
+        "fund": "Euroland Equity Small Cap",
+        "liabilities": 1141456.0,
+        "net_assets": 380846135.0,
+        "tot_assets": 381987591.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2024-06-30"
+        },
+        "fund": "Europe ex UK Equity",
+        "liabilities": 1062130.0,
+        "net_assets": 4941082.0,
+        "tot_assets": 6003212.0
+      }
+    }
+  }
+]

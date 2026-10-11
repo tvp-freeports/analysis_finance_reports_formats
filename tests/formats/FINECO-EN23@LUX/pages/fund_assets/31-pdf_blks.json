@@ -6,9 +6,9 @@
       "currency": "EUR",
       "date": null,
       "fund": "CoRe Series - FAM Park",
-      "liabilities": "213 017",
-      "net_assets": "97 879 746",
-      "tot_assets": "98 092 763"
+      "liabilities": "929 635",
+      "net_assets": "718 837 470",
+      "tot_assets": "719 767 105"
     },
     "content": ""
   },
@@ -32,9 +32,9 @@
       "currency": "EUR",
       "date": null,
       "fund": "CoRe Series - CoRe Income Opportunity",
-      "liabilities": "929 635",
-      "net_assets": "718 837 470",
-      "tot_assets": "719 767 105"
+      "liabilities": "213 017",
+      "net_assets": "97 879 746",
+      "tot_assets": "98 092 763"
     },
     "content": ""
   }

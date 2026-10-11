@@ -84,7 +84,6 @@ below, says which is which.
 | `MEDIOLANUM-ES24.B` | ✅ | ✅ | ⬜ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
 | `MEDIOLANUM-IT24.A` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ |
 | `MEDIOLANUM-IT24.B` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ |
-| `MEDIOLANUM-IT24.C` | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `UBS-EN23` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ |
 
 *maturity or coupon*: the two fields a holding carries when it is a bond — the two that tell a bond
@@ -94,7 +93,7 @@ from an equity in the first place.
 
 ## What is missing
 
-One row per datum: how many of the 26 formats leave it empty, and what is behind it. The two
+One row per datum: how many of the 25 formats leave it empty, and what is behind it. The two
 causes an empty box cannot distinguish — *the reports do not carry it* and *this repository does
 not read it yet* — are separated here wherever it has been checked.
 
@@ -102,18 +101,15 @@ not read it yet* — are separated here wherever it has been checked.
 |---|:-:|---|
 | holdings | 0 | every format reads them; they are what a format is written for first |
 | maturity or coupon | 1 | `MEDIOLANUM-EN23` only, and it is **not a gap**: its nine holdings are all equities, so there is no bond to date |
-| fund assets | 9 | **a gap**. `MEDIOLANUM-IT24.C` follows from the row below; on the other eight the statement of net assets is laid out in a way no current recipe reads |
-| management company | 2 | **a gap**. `ARCA-IT24` writes the name in prose only, never beside a label that says what it is; `MEDIOLANUM-IT24.C` reads nothing but its holdings |
-| investment managers | 3 | **a gap**. The two above, plus `CARNE-EN23`, whose page 4 names one manager for every fund and a second for the dollar-denominated part of one of them |
-| SFDR article | 11 | **the interesting column.** Measured: all eleven have a test document carrying a page titled with the periodic disclosure, so the datum is in reach for every one of them. What stops it differs — some have no recipe for that page, while others have one and still write no row, because the disclosure names a fund that is not among the funds of interest (`EURIZON-EN23` has the recipe and the page, and no row) |
-| ESG indicators | 21 | mostly **not a gap**: the indicator table is the rarest thing in this collection, and most of these reports do not publish it at all |
-| renamings and mergers | 21 | mostly **not a gap**: most reports record no such event in the year. Measured elsewhere in this project: across 125 documents of three Italian formats, zero renamings |
+| fund assets | 8 | **a gap**. On all eight the statement of net assets is laid out in a way no current recipe reads |
+| management company | 1 | **a gap**. `ARCA-IT24` writes the name in prose only, never beside a label that says what it is |
+| investment managers | 2 | **a gap**. `ARCA-IT24`, above, and `CARNE-EN23`, whose page 4 names one manager for every fund and a second for the dollar-denominated part of one of them |
+| SFDR article | 10 | **the interesting column.** Measured: all ten have a test document carrying a page titled with the periodic disclosure, so the datum is in reach for every one of them. What stops it differs — some have no recipe for that page, while others have one and still write no row, because the disclosure names a fund that is not among the funds of interest (`EURIZON-EN23` has the recipe and the page, and no row) |
+| ESG indicators | 20 | mostly **not a gap**: the indicator table is the rarest thing in this collection, and most of these reports do not publish it at all |
+| renamings and mergers | 20 | mostly **not a gap**: most reports record no such event in the year. Measured elsewhere in this project: across 125 documents of three Italian formats, zero renamings |
 
-Two more things this table cannot show:
+One more thing this table cannot show:
 
-- **`MEDIOLANUM-IT24.C` is the twin of `MEDIOLANUM-IT24.A`** and reads only its holdings, where its
-  twin reads almost everything. Whether the two are one format is an open question, and the answer
-  decides whether `.C` gets its own recipes or inherits them.
 - **`ANIMA_SGR-IT24/5` and `EURIZON-EN23/2` have no reference output at all**, so nothing of theirs
   is measured above, although both documents are in the repository and both are covered by the
   per-page suite.
@@ -202,14 +198,12 @@ the code somebody fixes.
 | --- | ---: | ---: | --- |
 | `tests.formats.integration` | 94.6 % | 86.0 % | pass |
 | `tests.formats.single_page` | 100.0 % | 100.0 % | pass |
-| `docs.python` | 45.5 % | 18.0 % | pass |
-| `lint.python` | 9.939 | 9.600 | pass |
+| `docs.python` | 45.9 % | 18.0 % | pass |
+| `lint.python` | 9.940 | 9.600 | pass |
 | `grants.coverage` | 100.0 % | 100.0 % | stale |
 | `grants.keys_online` | 100.0 % | 100.0 % | stale |
 
 grants.coverage, grants.keys_online — measured at c3b3dafe, not at this one. Run `make ci` to take it again.
-
-formats.integration — last run at 954fad4d, not at HEAD (5bffce42). Run `make test-slow`.
 
 *pass* — measured, current, and at or above the minimum this repository asks for.
 

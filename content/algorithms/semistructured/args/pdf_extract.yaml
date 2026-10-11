@@ -192,6 +192,15 @@ AMUNDI-IT24(fund_assets_end):
       without:
         - text: ','
 
+# `C02`: il report **non dichiara** la societa' di gestione — `Amundi SGR S.p.A.` compare tre volte e
+# mai nel suo ruolo — quindi il formato la impone (`R3`, con avviso) e l'etichetta dice solo **su
+# quale pagina** dichiararla: il sommario, che ogni documento del formato ha una volta sola. Sta qui
+# e non nella tabella structured del manco, che tiene la forma comune (il nome letto dalla pagina).
+AMUNDI-IT24(manco):
+  label: {font: arial-boldmt, text: '^SOMMARIO'}
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
 # `FA-2` e `FA-3`: `SITUAZIONE PATRIMONIALE` apre l'attivo su una pagina e continua col passivo e il
 # netto su quella dopo, e `FundAssets` vuole i tre importi insieme (`R32`), quindi nessuna delle due
 # pagine da sola costruisce la riga — il totale delle attivita' attraversa il confine come promessa.
@@ -1160,3 +1169,27 @@ MEDIOLANUM-ES24.A(investments):
     text: '(expresado en'
     font_of:
       text: n de la cartera
+
+# `FA-4`: due comparti per pagina, ognuno con la colonna del periodo corrente e quella di dicembre,
+# e le tre righe dei **totali** stampate come **un solo oggetto** che porta tutti e quattro i
+# numeri (sul netto, tre oggetti con uno, uno e due). Non c'e' un'ascissa per valore, quindi gli
+# importi non si possono abbinare per colonna come fa la tabella structured: si separano sulle
+# corse di spazi (`values_in_one_line`) e se ne prende uno ogni due (`value_step`), in ordine.
+MEDIOLANUM-EN24(fund_assets):
+  fund_set:
+    window:
+      anchor: {text: '(expressed in'}
+      dx: 1.2
+      dy: -0.1
+      width: 100.0
+      height: 3.4
+    without:
+      - text: '^Jun '
+      - text: '^Dec '
+  currency_set: {text: '(expressed in'}
+  date_set: {font_size: 12, text: AS AT}
+  tot_assets: {anchor: {text: TOTAL ASSETS}}
+  liabilities: {anchor: {text: Redeemable Participating Units}}
+  net_assets: {anchor: {text: REDEEMABLE PARTICIPATING UNITS}}
+  value_step: 2
+  values_in_one_line: true

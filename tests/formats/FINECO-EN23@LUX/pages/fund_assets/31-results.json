@@ -8,9 +8,9 @@
         },
         "date": null,
         "fund": "CoRe Series - FAM Park",
-        "liabilities": 213017.0,
-        "net_assets": 97879746.0,
-        "tot_assets": 98092763.0
+        "liabilities": 929635.0,
+        "net_assets": 718837470.0,
+        "tot_assets": 719767105.0
       }
     }
   },
@@ -38,9 +38,9 @@
         },
         "date": null,
         "fund": "CoRe Series - CoRe Income Opportunity",
-        "liabilities": 929635.0,
-        "net_assets": 718837470.0,
-        "tot_assets": 719767105.0
+        "liabilities": 213017.0,
+        "net_assets": 97879746.0,
+        "tot_assets": 98092763.0
       }
     }
   }

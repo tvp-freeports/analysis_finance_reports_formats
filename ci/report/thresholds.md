@@ -28,8 +28,8 @@ Every minimum this repository declares, what it is a minimum *of*, and whether i
 | --- | ---: | ---: | --- | --- |
 | `tests.formats.integration` | 86.0 % | 94.6 % | fast | Documents whose whole-document test exists at all. |
 | `tests.formats.single_page` | 100.0 % | 100.0 % | fast | Documents carrying at least one page with the whole fixture triple. |
-| `docs.python` | 18.0 % | 45.5 % | fast | Public Python objects carrying a docstring. |
-| `lint.python` | 9.600 | 9.939 | fast | Ruff violations scored out of ten. |
+| `docs.python` | 18.0 % | 45.9 % | fast | Public Python objects carrying a docstring. |
+| `lint.python` | 9.600 | 9.940 | fast | Ruff violations scored out of ten. |
 | `grants.coverage` | 100.0 % | 100.0 % | slow | Files covered by a methodology grant. |
 | `grants.keys_online` | 100.0 % | 100.0 % | slow | Granters' keys published on the configured key server. |
 

@@ -160,6 +160,7 @@ AMUNDI-EN24/12,"arialmt ""^Statement of Net Assets$""",fund_assets
 AMUNDI-EN24/12,"verdana-bold ""^Net asset value$""",fund_assets
 AMUNDI-EN24/13,"calibri-bolditalic [8.28] ""^How did the sustainability indicators perform""",esg_indicators
 AMUNDI-EN24/14,"arial-boldmt [7] ""^MANAGEMENT COMPANY""",manco
+AMUNDI-EN24/15,"verdana[5.5:6.5]((:110)(170:183)) ""^30/06/2024$""",right_facing
 ANIMA_SGR-IT24/1,"Lato,Bold|TrebuchetMS-Bold|Open Sans,Bold ""Titoli""",investments
 ANIMA_SGR-IT24/1,"Lato,Bold|TrebuchetMS-Bold|Open Sans,Bold ""Divisa""",investments
 ANIMA_SGR-IT24/2,"Lato,Bold|TrebuchetMS-Bold|Open Sans,Bold ""ONDO OGGETTO DI""",merges
