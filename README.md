@@ -205,7 +205,7 @@ the code somebody fixes.
 
 grants.coverage, grants.keys_online — measured at c3b3dafe, not at this one. Run `make ci` to take it again.
 
-formats.integration — last run at fb22d697, not at HEAD (90745e67). Run `make test-slow`.
+formats.integration — last run at fb22d697, not at HEAD (9429be0a). Run `make test-slow`.
 
 *pass* — measured, current, and at or above the minimum this repository asks for.
 

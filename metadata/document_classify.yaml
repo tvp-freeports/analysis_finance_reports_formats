@@ -1,0 +1,77 @@
+# Declarative document classification: which format a report is, read from its first pages.
+# Grammar: https://docs.freeports.org/en/latest/reference/formats/document-classify-yaml.html
+# The criteria are line selections, as in semistructured formats:
+# https://docs.freeports.org/en/latest/guides/formats/selections.html
+#
+# Every step with criteria matches, on its own page, only documents of its own format (or family,
+# for the partial roots), so the order of the leaves of page 1 does not matter.
+#
+# Reminders on the grammar:
+#   - `text` is a literal with only ^/$ anchors, not a regex. Many cover lines end with a
+#     trailing space ('CHALLENGE FUNDS ', 'GAMAX FUNDS FCP ', 'SIDERA FUNDS '): a `$` would
+#     miss them, so anchors here are prefix-only `^…` unless the exact line was checked.
+#   - a scalar `font_size` is matched within ±0.001: the same title is 26.00 in one PDF and
+#     26.03 in the next (EURIZON-IT24), so sizes are always written as intervals [low, high].
+#   - `font` is the normalised name (lower case, spaces/dots -> '-'), as inspect-page shows it.
+#   - no YAML anchors/aliases on purpose: the EURIZON-IT24 criterion is repeated on each page.
+
+- 1:
+    # --- Leaves: one format, one cover line. Each matches only its own format's PDFs.
+    AMUNDI-EN24:       {text: '^AMUNDI', font: arial-boldmt}          # 'AMUNDI FUNDS'
+    AMUNDI-IT24:       {text: '^FONDI AMUNDI '}
+    ANIMA-EN23:        {text: '^ANIMA Funds Plc'}
+    ANIMA_SICAV-EN24:  {text: '^ANIMA INVESTMENT SICAV'}
+    ARCA-IT24:         {text: '^RELAZIONE ', font: lato-regular, font_size: [15.5, 16.5]}
+    CARNE-EN23:        {text: '^SIDERA FUNDS'}
+    DANSKEINVEST-EN24: {text: '^DANSKE INVEST SICAV'}
+    FIDEURAM-EN23:     {text: '^WILLERFUNDS'}
+    FIDEURAM-IT24:     {text: '^Fideuram ISPB Asset Management SGR'}
+    FINECO-EN23@IR:                          # two ICAVs share the format (corpus)
+      any_of: [{text: '^FAM Series UCITS ICAV'}, {text: '^FAM Evolution ICAV'}]
+    FINECO-EN23@LUX:   {text: '^CoRe Series'}
+    KAIROS-EN23:       {text: '^KAIROS INTERNATIONAL SICAV'}
+    UBS-EN23:          {font: ubsheadline}   # the UBS template's title font; CARNE shares the wording, not the font
+    # EURIZON-IT24 whose cover is text (about half the corpus); image covers: pages 4/5 below.
+    EURIZON-IT24:      {text: '^Relazione ', font: trebuchetms, font_size: [25.5, 26.5]}
+
+    # --- Blocks: partial roots after the leaves (a found partial is kept).
+    EURIZON:
+      font: arialmt-bold
+      any_of: [{text: '^Eurizon'}, {text: '^EURIZON'}, {text: '^Epsilon'}]
+      EN21: {text: '^Eurizon AM Sicav'}                 # one line, 35.9 pt
+      EN23: {font: arialmt-bold, font_size: [59, 61]}  # 60 pt title of six Lux products, often split over lines
+
+    ASTERIA: {text: '^Asteria Funds$', font: centurygothic-bold}   # variant decided on page 2
+
+    MEDIOLANUM:
+      any_of:
+        - {text: '^Mediolanum'}
+        - {text: '^MEDIOLANUM'}
+        - {text: '^CHALLENGE FUNDS'}      # MEDIOLANUM-EN24: the cover never says Mediolanum
+        - {text: 'Challenge Funds'}       # Italian Challenge Funds (IT24.A): '   Challenge Funds'
+        - {text: '^GAMAX FUNDS'}          # MEDIOLANUM-ES24.A: idem
+      EN:
+        23: {text: '^Mediolanum Specialities SICAV-SIF'}
+        24: {text: '^CHALLENGE FUNDS'}
+      ES24.*:
+        A: {text: '^GAMAX FUNDS'}
+        B: {text: '^Nº Registro CNMV', font: helvetica-bold}   # discriminating only inside MEDIOLANUM
+      IT24.*:
+        A: {text: '^Relazione ', font: gillsansmt}   # Best Brands and Challenge Funds, annual and semi-annual
+        B: {text: '^Relazione ', font: helvetica}
+
+- 2:
+    ANIMA_SGR-IT24:    {text: '^ANIMA SGR S.p.A'}   # no final dot: the ELTIF report writes 'ANIMA SGR S.p.A '
+    ASTERIA:                                        # header of page 2: bold in 2024, regular in 2023
+      EN24: {text: '^Asteria Funds$', font: centurygothic-bold}
+      EN23: {text: '^Asteria Funds$', font: centurygothic}
+
+# EURIZON-IT24 with image covers: the title page is the 5th (the 4th in one corpus PDF).
+- 4:
+    EURIZON-IT24:      {text: '^Relazione ', font: trebuchetms, font_size: [25.5, 26.5]}
+- 5:
+    EURIZON-IT24:      {text: '^Relazione ', font: trebuchetms, font_size: [25.5, 26.5]}
+# One EURIZON-IT24 report in the wider corpus has its first text on page 6; it has not been checked,
+# so an entry for page 6 would be unverified. Add it once that PDF has been looked at:
+# - 6:
+#     EURIZON-IT24:    {text: '^Relazione ', font: trebuchetms, font_size: [25.5, 26.5]}
