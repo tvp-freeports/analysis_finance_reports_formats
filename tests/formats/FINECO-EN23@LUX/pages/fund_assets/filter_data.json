@@ -128,5 +128,21 @@
         "name": "US Equity Value FAM Fund"
       }
     }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CoRe Series - CoRe Champions"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "CoRe Series - CoRe Balanced Opportunity"
+      }
+    }
   }
 ]

@@ -1,0 +1,32 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": null,
+        "fund": "CoRe Series - CoRe Champions",
+        "liabilities": 4064873.0,
+        "net_assets": 838012161.0,
+        "tot_assets": 842077034.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": null,
+        "fund": "CoRe Series - CoRe Balanced Opportunity",
+        "liabilities": 1059985.0,
+        "net_assets": 216771161.0,
+        "tot_assets": 217831146.0
+      }
+    }
+  }
+]

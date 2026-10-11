@@ -1,0 +1,41 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "EUR",
+      "date": null,
+      "fund": "CoRe Series - CoRe Champions",
+      "liabilities": "4 064 873",
+      "net_assets": "838 012 161",
+      "tot_assets": "842 077 034"
+    },
+    "content": ""
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "EUR",
+      "date": null,
+      "fund": "CoRe Series - CoRe Balanced Opportunity",
+      "liabilities": "1 059 985",
+      "net_assets": "216 771 161",
+      "tot_assets": "217 831 146"
+    },
+    "content": ""
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "EUR",
+      "date": null,
+      "fund": "CoRe Series - CoRe Champions Emerging Markets",
+      "liabilities": "285 910",
+      "net_assets": "67 978 836",
+      "tot_assets": "68 264 746"
+    },
+    "content": ""
+  }
+]
