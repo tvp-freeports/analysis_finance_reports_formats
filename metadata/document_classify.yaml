@@ -61,7 +61,12 @@
         B: {text: '^Relazione ', font: helvetica}
 
 - 2:
-    ANIMA_SGR-IT24:    {text: '^ANIMA SGR S.p.A'}   # no final dot: the ELTIF report writes 'ANIMA SGR S.p.A '
+    # No final dot: an ELTIF report writes 'ANIMA SGR S.p.A '; another ELTIF report puts the
+    # full company name before it.
+    ANIMA_SGR-IT24:
+      any_of:
+        - text: '^ANIMA SGR S.p.A'
+        - text: '^Società di Gestione del Risparmio ANIMA SGR S.p.A'
     ASTERIA:                                        # header of page 2: bold in 2024, regular in 2023
       EN24: {text: '^Asteria Funds$', font: centurygothic-bold}
       EN23: {text: '^Asteria Funds$', font: centurygothic}
@@ -71,7 +76,6 @@
     EURIZON-IT24:      {text: '^Relazione ', font: trebuchetms, font_size: [25.5, 26.5]}
 - 5:
     EURIZON-IT24:      {text: '^Relazione ', font: trebuchetms, font_size: [25.5, 26.5]}
-# One EURIZON-IT24 report in the wider corpus has its first text on page 6; it has not been checked,
-# so an entry for page 6 would be unverified. Add it once that PDF has been looked at:
-# - 6:
-#     EURIZON-IT24:    {text: '^Relazione ', font: trebuchetms, font_size: [25.5, 26.5]}
+# One EURIZON-IT24 report in the corpus has its first text on page 6.
+- 6:
+    EURIZON-IT24:      {text: '^Relazione ', font: trebuchetms, font_size: [25.5, 26.5]}

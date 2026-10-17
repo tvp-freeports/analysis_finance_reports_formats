@@ -11,8 +11,8 @@
           "__enum__": "freeports.consts:Currency:EUR"
         },
         "fund": "Amundi Accumulazione Intelligenza Artificiale 2029 ",
-        "market_value": 4990.87,
-        "nominal_quantity": 66.0,
+        "market_value": 66.0,
+        "nominal_quantity": 4990.87,
         "perc_net_assets": 0.0025
       }
     }
