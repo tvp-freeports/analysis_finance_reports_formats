@@ -207,7 +207,7 @@ grants.coverage — measured at d2e17194, not at this one. Run `make ci` to take
 
 grants.keys_online — measured at c3b3dafe, not at this one. Run `make ci` to take it again.
 
-formats.integration — last run at d2e17194, not at HEAD (e626aa87). Run `make test-slow`.
+formats.integration — last run at d2e17194, not at HEAD (0df8eae2). Run `make test-slow`.
 
 *pass* — measured, current, and at or above the minimum this repository asks for.
 
