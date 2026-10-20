@@ -207,7 +207,7 @@ grants.coverage — measured at d2e17194, not at this one. Run `make ci` to take
 
 grants.keys_online — measured at c3b3dafe, not at this one. Run `make ci` to take it again.
 
-formats.integration — last run at d2e17194, not at HEAD (0df8eae2). Run `make test-slow`.
+formats.integration — last run at d2e17194, not at HEAD (fe9cf488). Run `make test-slow`.
 
 *pass* — measured, current, and at or above the minimum this repository asks for.
 
@@ -222,18 +222,38 @@ an [HTML page](ci/report/index.html) carrying all three as tabs, and `freeports-
 
 ### The fingerprint, and the version
 
-`info.validation_sha256` in `package.yaml` is the hash of the hashes of **every file a grant
-covers**, in `LC_ALL=C` order, with the path inside each hashed line — so moving a file counts as
-much as editing it. You can check it by hand:
+`package.yaml` holds four fingerprints, each the hash of the hashes of a set of files, in
+`LC_ALL=C` order, with the path inside each hashed line — so moving a file counts as much as
+editing it:
+
+| Field | Covers | Proposed bump when it moves |
+|---|---|---|
+| `sha256.content` | `content/` | patch |
+| `sha256.metadata` | `metadata/` | patch |
+| `sha256.tests` | `tests/formats/` | files only added: minor; any changed or removed: major |
+| `info.validation_sha256` | every granted file | patch |
+
+`tests/formats.sha256` is the per-file list behind `sha256.tests`, and checks by hand:
 
 ```sh
-printf '%s\n' <the granted paths> | LC_ALL=C sort | xargs sha256sum | sha256sum
+sha256sum -c tests/formats.sha256    # the expected outputs are what was recorded
+sha256sum tests/formats.sha256       # equals sha256.tests
 ```
 
-When it moves, `info.version` must move too. Which component is your choice: the change may be a
-correction or a whole new format, and only you know which. On a `dev` branch the hook warns and
+When a fingerprint moves, `info.version` must move too; `freeports-dev fingerprint --propose`
+offers the bump above, and you can always choose another. On a `dev` branch the hook warns and
 does **not** write the new fingerprint — writing it would leave the manifest claiming that version
 X covers content Y, which is a false statement, and the point of the field is that it is not one.
+
+`info.requires_api` names the engine's plugin API this repository is written against, as
+`MAJOR.MINOR`. An engine whose API has the same major and at least that minor runs it silently;
+any other runs it with a warning. `freeports --version -v` prints the API an engine offers.
+
+A run made with `freeports --record` keeps this repository's version, its declared fingerprints
+and the ones computed from the files it actually used. When the two differ, the run used work this
+version does not describe, and the record marks the repository `modified`. `freeports replay`
+compares the fingerprints group by group, so keeping them current is what makes a run of this
+repository traceable to a published version.
 
 ### Keeping all of it current
 
