@@ -12,7 +12,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+        "fund": "ANIMA VALORE OBBLIGAZIONARIO",
         "interest_rate": 0.0295,
         "market_value": 43624.0,
         "maturity": {
@@ -36,7 +36,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+        "fund": "ANIMA VALORE OBBLIGAZIONARIO",
         "interest_rate": 0.02,
         "market_value": 19956.0,
         "maturity": {
@@ -60,7 +60,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+        "fund": "ANIMA VALORE OBBLIGAZIONARIO",
         "interest_rate": 0.0,
         "market_value": 7842.0,
         "maturity": {
@@ -84,7 +84,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA VALORE OBBLIGAZIONARIO ",
+        "fund": "ANIMA VALORE OBBLIGAZIONARIO",
         "interest_rate": 0.0295,
         "market_value": 5063.0,
         "maturity": {

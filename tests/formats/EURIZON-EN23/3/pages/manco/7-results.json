@@ -1,0 +1,17 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "EURIZON INVESTMENT SICAV EURO EQUITY INSURANCE CAPITAL LIGHT",
+            "EURIZON INVESTMENT SICAV INSURANCE UNIT BOND STRATEGY 1",
+            "EURIZON INVESTMENT SICAV INSURANCE UNIT TOTAL RETURN"
+          ]
+        },
+        "name": "Eurizon Capital S.A."
+      }
+    }
+  }
+]

@@ -292,6 +292,10 @@ AMUNDI-IT24(fund_assets_end):
 AMUNDI-IT24(manco):
   name: Amundi SGR S.p.A.
 
+# Imposto, con la grafia del documento: la prosa scrive `Arca Fondi SGR`, mai la forma sociale.
+ARCA-IT24(manco):
+  name: Arca Fondi SGR
+
 FIDEURAM-IT24(fund_assets_begin):
   gather:
     fund: FUND_NAME

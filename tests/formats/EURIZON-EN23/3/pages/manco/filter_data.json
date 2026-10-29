@@ -1,0 +1,39 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON INVESTMENT SICAV INSURANCE UNIT TOTAL RETURN"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON INVESTMENT SICAV EURO EQUITY INSURANCE CAPITAL LIGHT"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "EURIZON INVESTMENT SICAV INSURANCE UNIT BOND STRATEGY 1"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "name": "Dummy",
+        "managed_funds": {
+          "__set__": [
+            "EURIZON INVESTMENT SICAV INSURANCE UNIT BOND STRATEGY 1"
+          ]
+        }
+      }
+    }
+  }
+]

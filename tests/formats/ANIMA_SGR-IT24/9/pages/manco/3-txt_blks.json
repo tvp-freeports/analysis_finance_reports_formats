@@ -1,0 +1,16 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "ANIMA TRAGUARDO 2027",
+          "ANIMA TRAGUARDO CEDOLA 2028"
+        ]
+      }
+    },
+    "content": "ANIMA SGR S.p.A.",
+    "pdf_block": null
+  }
+]

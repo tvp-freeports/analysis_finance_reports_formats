@@ -201,6 +201,15 @@ AMUNDI-IT24(manco):
   block_type: MANAGEMENT_COMPANY
   name: managment company
 
+# La stessa ricetta per ARCA-IT24: la societa' di gestione compare solo nella prosa (`Arca Fondi SGR
+# ha adottato…`, `ARCA FONDI SGR ha implementato…`) e mai in un ruolo, quindi il formato la impone,
+# con avviso. La pagina su cui dichiararla e' l'indice: `INDICE` in Lato-Bold 15.96 c'e' una volta
+# sola in ognuno dei 170 documenti misurati.
+ARCA-IT24(manco):
+  label: {font: lato-bold, font_size: [15.9, 16.0], text: '^INDICE'}
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
 # `FA-2` e `FA-3`: `SITUAZIONE PATRIMONIALE` apre l'attivo su una pagina e continua col passivo e il
 # netto su quella dopo, e `FundAssets` vuole i tre importi insieme (`R32`), quindi nessuna delle due
 # pagine da sola costruisce la riga — il totale delle attivita' attraversa il confine come promessa.
@@ -939,8 +948,22 @@ EURIZON-IT24(investments):
 # solo la posizione distingue i due. Lasciato aperto, la sua griglia di colonne molto piu' fitta
 # viene tabularizzata insieme ai titoli e spinge ogni campo di ogni titolo fuori dalla colonna.
 #
-# Il comparto sta fra la riga della societa' di gestione e l'intestazione della tabella: i due lati
-# dell'area sono due righe della pagina.
+# Il comparto sta nella testatina, sopra l'intestazione della tabella, scritta in tre modi:
+#
+# - due righe, la societa' di gestione a sinistra e il comparto a destra: il comparto e' cio' che
+#   sta a destra della riga della societa';
+# - la societa' spezzata in tre pezzi in due caratteri (`Società di` / `Gestione` / ` del Risparmio
+#   ANIMA SGR S.p.A.`, TRAGUARDO+ 2025): per questo l'ancora e' `del Risparmio`, l'unico pezzo che
+#   tutte e tre le forme hanno, e non `di Gestione del Risparmio`, che li' non c'e' e allarga il lato
+#   al bordo della pagina;
+# - **una riga sola**, la societa', un centinaio di spazi e il comparto (sei documenti del 2024): a
+#   destra resta solo uno span di uno spazio. Quella riga e' il secondo ramo — porta il riempitivo e
+#   non finisce con due spazi, perche' la riga della societa' delle due forme sopra puo' finire con
+#   decine di spazi ma non ha niente dopo — e la parte sinistra la taglia `Remove from fund` nella
+#   riga di `structured/investments/additional_args.csv`.
+#
+# Le righe di uno spazio solo si sottraggono: preso come comparto, uno spazio diventa un fondo senza
+# nome a cui finiscono tutti i titoli della pagina, mentre senza comparto la pagina fallisce e lo dice.
 #
 # La valuta e' scritta in due modi nello stesso formato — `Controvalore in euro` su una riga sola, o
 # `Controvalore in` e la valuta sulla riga sotto — quindi la selezione e' l'**unione** dei due casi,
@@ -961,12 +984,21 @@ ANIMA_SGR-IT24(investments):
   subfund_set:
     font: [Lato, Open Sans, Lato-Regular]
     area:
-      x_min:
-        font: [Lato, Open Sans, Lato-Regular]
-        text: di Gestione del Risparmio
       y_max:
         font: ['Lato,Bold', TrebuchetMS-Bold, 'Open Sans,Bold']
         text: Titoli
+    without:
+      - text: '^ $'
+    any_of:
+      - area:
+          x_min:
+            font: [Lato, Open Sans, Lato-Regular]
+            text: del Risparmio
+      - all_of:
+          - text: del Risparmio
+          - text: '          '
+        without:
+          - text: '  $'
   currency_set:
     font: ['Lato,Bold', TrebuchetMS-Bold, 'Open Sans,Bold']
     any_of:

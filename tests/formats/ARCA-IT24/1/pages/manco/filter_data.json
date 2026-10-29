@@ -1,0 +1,28 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "fund": "ARCA OPPORTUNITA GREEN 2027 VIII",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ARCA OPPORTUNITA GREEN 2027 VIII"
+      }
+    }
+  }
+]

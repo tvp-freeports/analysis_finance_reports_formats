@@ -1,0 +1,28 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "ARCA OPPORTUNITA GREEN 2027 VIII"
+          ]
+        },
+        "name": "Arca Fondi SGR"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "ARCA OPPORTUNITA GREEN 2027 VIII"
+          ]
+        },
+        "name": "Arca Fondi SGR"
+      }
+    }
+  }
+]

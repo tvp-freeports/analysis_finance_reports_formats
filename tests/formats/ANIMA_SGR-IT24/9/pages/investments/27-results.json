@@ -1,0 +1,346 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 2.65% 22-01/12/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": 0.0265,
+        "market_value": 73931480.0,
+        "maturity": {
+          "__date__": "2027-12-01"
+        },
+        "nominal_quantity": 73000000.0,
+        "perc_net_assets": 0.22301
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.25% 21-15/03/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": 0.0025,
+        "market_value": 31381020.0,
+        "maturity": {
+          "__date__": "2028-03-15"
+        },
+        "nominal_quantity": 33000000.0,
+        "perc_net_assets": 0.09466
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS I/L 1.3% 17-15/05/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": 0.013,
+        "market_value": 19440468.0,
+        "maturity": {
+          "__date__": "2028-05-15"
+        },
+        "nominal_quantity": 19157700.0,
+        "perc_net_assets": 0.05864
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "INTESA SANPAOLO",
+        "company_match": "INTESA SANPAOLO 4.75% 22-06/09/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": 0.0475,
+        "market_value": 5230700.0,
+        "maturity": {
+          "__date__": "2027-09-06"
+        },
+        "nominal_quantity": 5000000.0,
+        "perc_net_assets": 0.01578
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 2% 18-01/02/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": 0.02,
+        "market_value": 4989000.0,
+        "maturity": {
+          "__date__": "2028-02-01"
+        },
+        "nominal_quantity": 5000000.0,
+        "perc_net_assets": 0.01505
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.95% 20-15/09/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": 0.0095,
+        "market_value": 4885450.0,
+        "maturity": {
+          "__date__": "2027-09-15"
+        },
+        "nominal_quantity": 5000000.0,
+        "perc_net_assets": 0.01474
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 0.5% 21-15/07/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": 0.005,
+        "market_value": 4752950.0,
+        "maturity": {
+          "__date__": "2028-07-15"
+        },
+        "nominal_quantity": 5000000.0,
+        "perc_net_assets": 0.01434
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "ICCREA",
+        "company_match": "ICCREA BANCA SPA 22-20/09/2027 FRN",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": null,
+        "market_value": 4699350.0,
+        "maturity": {
+          "__date__": "2027-09-20"
+        },
+        "nominal_quantity": 4500000.0,
+        "perc_net_assets": 0.01418
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "ICCREA",
+        "company_match": "ICCREA BANCA SPA 23-20/01/2028 FRN",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": null,
+        "market_value": 2659850.0,
+        "maturity": {
+          "__date__": "2028-01-20"
+        },
+        "nominal_quantity": 2500000.0,
+        "perc_net_assets": 0.00802
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 2.05% 17-01/08/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": 0.0205,
+        "market_value": 2001360.0,
+        "maturity": {
+          "__date__": "2027-08-01"
+        },
+        "nominal_quantity": 2000000.0,
+        "perc_net_assets": 0.00604
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "INTESA SANPAOLO",
+        "company_match": "INTESA SANPAOLO 0.75% 21-16/03/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": 0.0075,
+        "market_value": 1907740.0,
+        "maturity": {
+          "__date__": "2028-03-16"
+        },
+        "nominal_quantity": 2000000.0,
+        "perc_net_assets": 0.00575
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "INTESA SANPAOLO",
+        "company_match": "INTESA SANPAOLO 17-29/12/2049",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": null,
+        "market_value": 1051560.0,
+        "maturity": {
+          "__date__": "2049-12-29"
+        },
+        "nominal_quantity": 1000000.0,
+        "perc_net_assets": 0.00317
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "INTESA SANPAOLO",
+        "company_match": "INTESA SANPAOLO 23-08/03/2028 FRN",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": null,
+        "market_value": 1040120.0,
+        "maturity": {
+          "__date__": "2028-03-08"
+        },
+        "nominal_quantity": 1000000.0,
+        "perc_net_assets": 0.00314
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "company": "Italy btps",
+        "company_match": "ITALY BTPS 2.2% 17-01/06/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "ANIMA TRAGUARDO 2027",
+        "interest_rate": 0.022,
+        "market_value": 1004410.0,
+        "maturity": {
+          "__date__": "2027-06-01"
+        },
+        "nominal_quantity": 1000000.0,
+        "perc_net_assets": 0.00303
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ANIMA TRAGUARDO 2027"
+      }
+    }
+  }
+]

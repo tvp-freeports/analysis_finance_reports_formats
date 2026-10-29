@@ -1,0 +1,54 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Apple Inc",
+        "company_match": "Apple Inc",
+        "fund": "ANIMA TRAGUARDO 2027",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "company": "Alphabet",
+        "company_match": "Alphabet",
+        "fund": "ANIMA TRAGUARDO CEDOLA 2028",
+        "nominal_quantity": null,
+        "market_value": 100.0,
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "perc_net_assets": null,
+        "acquisition_cost": null,
+        "acquisition_currency": null
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ANIMA TRAGUARDO 2027"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ANIMA TRAGUARDO CEDOLA 2028"
+      }
+    }
+  }
+]

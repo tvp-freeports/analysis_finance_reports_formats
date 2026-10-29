@@ -1,0 +1,30 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "ANIMA TRAGUARDO 2027",
+            "ANIMA TRAGUARDO CEDOLA 2028"
+          ]
+        },
+        "name": "ANIMA SGR S.p.A."
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "ANIMA TRAGUARDO 2027",
+            "ANIMA TRAGUARDO CEDOLA 2028"
+          ]
+        },
+        "name": "ANIMA SGR S.p.A."
+      }
+    }
+  }
+]

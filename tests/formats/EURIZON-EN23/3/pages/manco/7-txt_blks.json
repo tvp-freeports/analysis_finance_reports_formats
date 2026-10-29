@@ -1,0 +1,22 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
+    "metadata": {
+      "managed_funds": {
+        "__set__": [
+          "EURIZON INVESTMENT SICAV EURO EQUITY INSURANCE CAPITAL LIGHT",
+          "EURIZON INVESTMENT SICAV INSURANCE UNIT BOND STRATEGY 1",
+          "EURIZON INVESTMENT SICAV INSURANCE UNIT TOTAL RETURN"
+        ]
+      }
+    },
+    "content": "Eurizon Capital S.A.",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "MANAGEMENT_COMPANY",
+      "metadata": {},
+      "content": "Eurizon Capital S.A."
+    }
+  }
+]

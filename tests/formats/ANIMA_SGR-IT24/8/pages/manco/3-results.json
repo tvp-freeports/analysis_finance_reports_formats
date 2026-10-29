@@ -1,0 +1,28 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:ManagementCompany",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "GESTIELLE HEDGE LOW VOLATILITY"
+          ]
+        },
+        "name": "ANIMA SGR SpA"
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:InvestmentsManager",
+      "data": {
+        "managed_funds": {
+          "__set__": [
+            "GESTIELLE HEDGE LOW VOLATILITY"
+          ]
+        },
+        "name": "ANIMA SGR SpA"
+      }
+    }
+  }
+]

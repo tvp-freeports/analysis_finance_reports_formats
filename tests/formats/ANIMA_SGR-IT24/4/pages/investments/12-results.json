@@ -12,7 +12,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+        "fund": "ANIMA PRIVATE ALTO POTENZIALE 2028",
         "interest_rate": 0.0475,
         "market_value": 3222990.0,
         "maturity": {
@@ -36,7 +36,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+        "fund": "ANIMA PRIVATE ALTO POTENZIALE 2028",
         "interest_rate": 0.038,
         "market_value": 2078440.0,
         "maturity": {
@@ -60,7 +60,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+        "fund": "ANIMA PRIVATE ALTO POTENZIALE 2028",
         "interest_rate": 0.005,
         "market_value": 1023506.0,
         "maturity": {
@@ -84,7 +84,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+        "fund": "ANIMA PRIVATE ALTO POTENZIALE 2028",
         "interest_rate": 0.04,
         "market_value": 508350.0,
         "maturity": {
@@ -108,7 +108,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+        "fund": "ANIMA PRIVATE ALTO POTENZIALE 2028",
         "interest_rate": null,
         "market_value": 503755.0,
         "maturity": {
@@ -132,7 +132,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "         ANIMA PRIVATE ALTO POTENZIALE 2028 ",
+        "fund": "ANIMA PRIVATE ALTO POTENZIALE 2028",
         "interest_rate": null,
         "market_value": 208138.0,
         "maturity": {

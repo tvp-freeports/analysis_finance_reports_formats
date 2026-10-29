@@ -12,7 +12,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.015,
         "market_value": 2988420.0,
         "maturity": {
@@ -36,7 +36,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.0385,
         "market_value": 2560350.0,
         "maturity": {
@@ -60,7 +60,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.038,
         "market_value": 2035320.0,
         "maturity": {
@@ -84,7 +84,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.031,
         "market_value": 2022260.0,
         "maturity": {
@@ -108,7 +108,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.0035,
         "market_value": 1995840.0,
         "maturity": {
@@ -132,7 +132,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.005,
         "market_value": 1961340.0,
         "maturity": {
@@ -156,7 +156,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.0065,
         "market_value": 1463622.0,
         "maturity": {
@@ -180,7 +180,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.032,
         "market_value": 1008310.0,
         "maturity": {
@@ -204,7 +204,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.0185,
         "market_value": 997280.0,
         "maturity": {
@@ -228,7 +228,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.0145,
         "market_value": 996270.0,
         "maturity": {
@@ -252,7 +252,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.0,
         "market_value": 968551.0,
         "maturity": {
@@ -276,7 +276,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.0345,
         "market_value": 511885.0,
         "maturity": {
@@ -300,7 +300,7 @@
         "currency": {
           "__enum__": "freeports.consts:Currency:EUR"
         },
-        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+        "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
         "interest_rate": 0.0085,
         "market_value": 485435.0,
         "maturity": {

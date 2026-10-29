@@ -57,6 +57,8 @@ AMUNDI-IT24(fund_assets_end),labelled_value,,
 AMUNDI-IT24(fund_assets_end),labelled_value,,
 AMUNDI-IT24(manco),labelled_value,manco_imposed,managment_company
 AMUNDI-IT24(manco),,,investments_manager_from_manco
+ARCA-IT24(manco),labelled_value,manco_imposed,managment_company
+ARCA-IT24(manco),,,investments_manager_from_manco
 FIDEURAM-IT24(fund_assets_begin),fund,labelled_assets,carryover_deposit
 FIDEURAM-IT24(fund_assets_begin),currency_constant,,
 FIDEURAM-IT24(fund_assets_begin),labelled_value,,

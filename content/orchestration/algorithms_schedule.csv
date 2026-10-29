@@ -76,6 +76,7 @@ ARCA-IT24,fund_assets_begin,TRUE
 ARCA-IT24,fund_assets_end,
 ARCA-IT24,sfdr_classification,
 ARCA-IT24,merges,
+ARCA-IT24,manco,
 UBS-EN23,investments,TRUE
 UBS-EN23,fund_title,TRUE
 UBS-EN23,manco,TRUE

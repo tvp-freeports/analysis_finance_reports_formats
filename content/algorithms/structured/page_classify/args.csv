@@ -7,8 +7,8 @@ CARNE-EN23/2,"arial-boldmt ""^Statement of Net Assets""",fund_assets
 CARNE-EN23/3,"""periodic disclosure for the financial products""",sfdr_classification
 EURIZON-EN23/0,"Frutiger-Light ""Nominal /""",investments
 EURIZON-EN23/0,"Frutiger-Black[11.9735] ""PORTFOLIO AS AT""",investments
-EURIZON-EN23/1,"frutiger-lightitalic ""MANAGEMENT COMPANY AND PROMOTER""",manco
-EURIZON-EN23/1,"frutiger-black ""ORGANISATION OF THE FUND""",manco
+EURIZON-EN23/1,"frutiger-lightitalic ""^MANAGEMENT COMPANY""",manco
+EURIZON-EN23/1,"frutiger-black ""^ORGANISATION OF THE""",manco
 EURIZON-EN23/2,"frutiger-black ""^STATEMENT OF NET ASSETS AS AT""",fund_assets
 EURIZON-EN23/3,"""EVENTS OCCURRED DURING THE""",renaming
 EURIZON-EN23/4,"""SUBSEQUENT EVENTS""",subsequent_events
@@ -64,6 +64,7 @@ ARCA-IT24/2,"TrebuchetMS-Bold ""^TOTALE ATTIVITA'""",fund_assets_begin
 ARCA-IT24/3,"TrebuchetMS-Bold ""^PASSIVITA' E NETTO""",fund_assets_end
 ARCA-IT24/3,"TrebuchetMS-Bold ""^TOTALE PASSIVITA'""",fund_assets_end
 ARCA-IT24/4,"lato-bold ""^Eventi rilevanti""",merges
+ARCA-IT24/5,"lato-bold[15.9:16.0] ""^INDICE""",manco
 ASTERIA-EN23,"CenturyGothic-Bold ""Number of Shares/""",investments
 ASTERIA-EN23/1,"CenturyGothic-Bold ""^Investment Manager and Global Distributor:""",inv_managers
 ASTERIA-EN24,"CenturyGothic-Bold ""Transferable securities admitted to an official stock""",investments
@@ -119,12 +120,12 @@ MEDIOLANUM-EN24/3,"[15.48] ""CONDENSED STATEMENT OF FINANCIAL POSITION""",fund_a
 MEDIOLANUM-EN24/3,"""TOTAL ASSETS""",fund_assets
 FINECO-EN23@IR/0,"TimesNewRoman,Bold ""Domicile""",investments
 FINECO-EN23@IR/0,"TimesNewRoman,Bold ""Shares""",investments
-FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Notes to the Financial Statements""",inv_managers
-FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Sub-Fund""",inv_managers
-FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Investment Manager""",inv_managers
-FINECO-EN23@IR/1,"TimesNewRoman,Bold [10.02] ""Date of Commencement""",inv_managers
-FINECO-EN23@IR/2,"TimesNewRoman,Bold [10.02] ""Directors and Other Information""",manco
-FINECO-EN23@IR/2,"TimesNewRoman,Bold [10.02] ""Manager""",manco
+FINECO-EN23@IR/1,"TimesNewRoman,Bold [9.9:10.1] ""Notes to the Financial Statements""",inv_managers
+FINECO-EN23@IR/1,"TimesNewRoman,Bold [9.9:10.1] ""Sub-Fund""",inv_managers
+FINECO-EN23@IR/1,"TimesNewRoman,Bold [9.9:10.1] ""Investment Manager""",inv_managers
+FINECO-EN23@IR/1,"TimesNewRoman,Bold [9.9:10.1] ""Date of Commencement""",inv_managers
+FINECO-EN23@IR/2,"TimesNewRoman,Bold [9.9:10.1] ""Directors and Other Information""",manco
+FINECO-EN23@IR/2,"TimesNewRoman,Bold [9.9:10.1] ""Manager""",manco
 FINECO-EN23@IR/3,"timesnewromanbold [10.02] ""Statement of Financial Position""",fund_assets
 FINECO-EN23@IR/3,"timesnewromanbold [9] ""Total assets""",fund_assets
 FINECO-EN23@IR/4,"""eriodic disclosure for the financial products""",sfdr_classification

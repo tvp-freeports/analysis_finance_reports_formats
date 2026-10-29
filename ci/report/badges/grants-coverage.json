@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "grants.coverage",
-  "message": "stale",
-  "color": "grey"
+  "message": "57.9%",
+  "color": "red"
 }

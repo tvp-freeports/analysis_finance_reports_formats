@@ -3,12 +3,12 @@
     "__text_block__": true,
     "type_block": "FUND",
     "metadata": {},
-    "content": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+    "content": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
     "pdf_block": {
       "__pdf_block__": true,
       "type_block": "FUND_NAME",
       "metadata": {},
-      "content": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX "
+      "content": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX"
     }
   },
   {
@@ -22,7 +22,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "1.5%",
       "manco": null,
       "market value": "2.988.420 ",
@@ -53,7 +53,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "3.85%",
       "manco": null,
       "market value": "2.560.350 ",
@@ -84,7 +84,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "3.8%",
       "manco": null,
       "market value": "2.035.320 ",
@@ -115,7 +115,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "3.1%",
       "manco": null,
       "market value": "2.022.260 ",
@@ -146,7 +146,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "0.35%",
       "manco": null,
       "market value": "1.995.840 ",
@@ -177,7 +177,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "0.5%",
       "manco": null,
       "market value": "1.961.340 ",
@@ -208,7 +208,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "0.65%",
       "manco": null,
       "market value": "1.463.622 ",
@@ -239,7 +239,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "3.2%",
       "manco": null,
       "market value": "1.008.310 ",
@@ -270,7 +270,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "1.85%",
       "manco": null,
       "market value": "997.280 ",
@@ -301,7 +301,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "1.45%",
       "manco": null,
       "market value": "996.270 ",
@@ -332,7 +332,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "0%",
       "manco": null,
       "market value": "968.551 ",
@@ -363,7 +363,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "3.45%",
       "manco": null,
       "market value": "511.885 ",
@@ -394,7 +394,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX ",
+      "fund": "ANIMA OBBLIGAZIONARIO GOVERNATIVO FLEX",
       "interest rate": "0.85%",
       "manco": null,
       "market value": "485.435 ",

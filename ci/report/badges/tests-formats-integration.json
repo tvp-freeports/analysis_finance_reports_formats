@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "tests.formats.integration",
-  "message": "94.6%",
-  "color": "brightgreen"
+  "message": "83.3%",
+  "color": "red"
 }

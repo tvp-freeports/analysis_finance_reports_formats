@@ -3,12 +3,12 @@
     "__text_block__": true,
     "type_block": "FUND",
     "metadata": {},
-    "content": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+    "content": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
     "pdf_block": {
       "__pdf_block__": true,
       "type_block": "FUND_NAME",
       "metadata": {},
-      "content": "ANIMA PICPAC ESALOGO BILANCIATO 2026 "
+      "content": "ANIMA PICPAC ESALOGO BILANCIATO 2026"
     }
   },
   {
@@ -22,7 +22,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "interest rate": "0%",
       "manco": null,
       "market value": "9.802.300 ",
@@ -53,7 +53,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "interest rate": "1.25%",
       "manco": null,
       "market value": "6.937.980 ",
@@ -84,7 +84,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "interest rate": "1.6%",
       "manco": null,
       "market value": "2.991.600 ",
@@ -115,7 +115,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "interest rate": "3.928%",
       "manco": null,
       "market value": "1.519.650 ",
@@ -146,7 +146,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "manco": null,
       "market value": "1.390.597 ",
       "quantity": "10.332",
@@ -175,7 +175,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "manco": null,
       "market value": "1.321.229 ",
       "quantity": "3.118",
@@ -204,7 +204,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "interest rate": "0.65%",
       "manco": null,
       "market value": "1.213.112 ",
@@ -235,7 +235,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "interest rate": "4.5%",
       "manco": null,
       "market value": "1.016.530 ",
@@ -266,7 +266,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "interest rate": "0.5%",
       "manco": null,
       "market value": "991.840 ",
@@ -297,7 +297,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "interest rate": "0%",
       "manco": null,
       "market value": "985.800 ",
@@ -328,7 +328,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "manco": null,
       "market value": "889.300 ",
       "quantity": "5.088",
@@ -357,7 +357,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "manco": null,
       "market value": "792.634 ",
       "quantity": "4.241",
@@ -386,7 +386,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "manco": null,
       "market value": "522.150 ",
       "maturity": "20/09/2027",
@@ -416,7 +416,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "manco": null,
       "market value": "415.860 ",
       "quantity": "2.770",
@@ -445,7 +445,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "manco": null,
       "market value": "336.993 ",
       "quantity": "2.230",
@@ -474,7 +474,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "interest rate": "0.375%",
       "manco": null,
       "market value": "288.318 ",
@@ -505,7 +505,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "manco": null,
       "market value": "164.736 ",
       "quantity": "656",
@@ -534,7 +534,7 @@
       "currency": {
         "__enum__": "freeports.consts:Currency:EUR"
       },
-      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026 ",
+      "fund": "ANIMA PICPAC ESALOGO BILANCIATO 2026",
       "manco": null,
       "market value": "156.450 ",
       "quantity": "2.647",
